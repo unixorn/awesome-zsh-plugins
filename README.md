@@ -17,6 +17,7 @@ These frameworks make customizing your zsh setup easier.
 
 * [adrien-f/docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [oknowton/zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
+* [stackExchange/blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository
 * [tarrasch/zsh-autoenv](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
 * [tarrasch/zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works
 * [tarruda/zsh-autosuggestions](https://github.com/tarruda/zsh-autosuggestions) - Fish-like autosuggestions for zsh
