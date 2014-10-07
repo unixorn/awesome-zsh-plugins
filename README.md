@@ -16,7 +16,7 @@ These frameworks make customizing your zsh setup easier.
 # Plugins
 
 * [adrien-f/docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
-* [oknowton/zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provided a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
+* [oknowton/zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [tarrasch/zsh-autoenv](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
 * [tarrasch/zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works
 * [tarruda/zsh-autosuggestions](https://github.com/tarruda/zsh-autosuggestions) - Fish-like autosuggestions for zsh
@@ -29,13 +29,13 @@ These frameworks make customizing your zsh setup easier.
 
 # Even more completions
 * [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
-* [RobSis/zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins
+* [RobSis/zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins.
 
 # Installation
 
 ## Antigen
 
-Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically.
+Most of these plugins can be installed by just adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically.
 
 ## dotzsh
 
@@ -44,8 +44,6 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 3. Open a new zsh terminal window or tab
 
 ## Oh-My-Zsh
-
-It takes slightly more work to add plugins to oh-my-zsh.
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone repo`
