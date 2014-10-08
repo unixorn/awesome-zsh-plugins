@@ -4,7 +4,7 @@ Collection of zsh plugins inspired by the various awesome list collections out t
 
 ## Frameworks
 
-These frameworks make customizing your zsh setup easier.
+These frameworks make customizing your zsh setup easier. 
 
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) - A replacement for antigen optimized for a low overhead when starting up the shell.
 * [antigen](https://github.com/zsh-users/antigen) - Antigen is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
@@ -18,6 +18,7 @@ These frameworks make customizing your zsh setup easier.
 * [adrien-f/docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [berkshelf/berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
 * [clauswitt/zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt
+* [dalang/oh-my-zsh_razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [oknowton/zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [s7anley/zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh
 * [stackExchange/blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository
@@ -28,7 +29,9 @@ These frameworks make customizing your zsh setup easier.
 * [unixorn/autoupdate-antigen.zshplugin](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [unixorn/git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts I've collected over time.
 * [unixorn/rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add tab completion for rakefile targets
+* [voronkovich/gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
 * [voronkovich/mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql
+* [yerinle/zsh-gvm](https://github.com/yerinle/zsh-gvm) Provides autocompletion for gvm(Groovy enVironment Manager)
 * [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
 * [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
 
