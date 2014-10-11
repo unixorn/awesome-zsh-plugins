@@ -11,6 +11,7 @@ These frameworks make customizing your zsh setup easier.
 * [dotzsh](https://github.com/dotphiles/dotzsh) - dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OS's without problems.
 * [oh-my-zsh](http://ohmyz.sh/) - A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 * [prezto](https://github.com/sorin-ionescu/prezto) - Prezto enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes
+* [zshuery](https://github.com/myfreeweb/zshuery) - A simpler zsh configuration framework. jQuery did this for JS, we're doing it for zsh. 
 
 ## Plugins
 
@@ -36,11 +37,13 @@ These frameworks make customizing your zsh setup easier.
 * [unixorn/rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add tab completion for rakefile targets
 * [ascii-soup/zsh-url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
+* [supercrabtree/k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 
 ## Themes
 
 * [caiogondim/bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
 * [Valodim/zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
+* [sindresorhus/pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 
 ## Even more completions
 
