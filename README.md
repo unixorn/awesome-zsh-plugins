@@ -49,6 +49,7 @@ These frameworks make customizing your zsh setup easier.
 
 ## Even more completions
 
+* [felixr/docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [zsh-users/zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
 * [RobSis/zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins.
 
