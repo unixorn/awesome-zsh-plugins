@@ -43,6 +43,7 @@ These frameworks make customizing your zsh setup easier.
 
 ## Themes
 
+* [arialdomartini/oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [caiogondim/bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
 * [sindresorhus/pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [Valodim/zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
