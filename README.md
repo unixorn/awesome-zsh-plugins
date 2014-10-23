@@ -1,6 +1,6 @@
 # awesome-zsh-plugins
 
-Collection of zsh plugins inspired by the various awesome list collections out there.
+Collection of ZSH frameworks, plugins & themes inspired by the various awesome list collections out there.
 
 ## Frameworks
 
