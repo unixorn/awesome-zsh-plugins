@@ -34,7 +34,6 @@ These frameworks make customizing your zsh setup easier.
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell
-* [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh
@@ -86,6 +85,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [etcdctl-zsh](https://github.com/sheax0r/etcdctl-zsh) - etcdctl autocomplete plugin for oh-my-zsh
 - [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocomplete for oh-my-zsh/antigen
+* [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 - [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - pip autocomplete pulgin for oh-my-zsh/antigen
 * [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins.
 * [zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
