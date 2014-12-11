@@ -92,6 +92,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
 - [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocomplete for oh-my-zsh/antigen
 - [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - pip autocomplete pulgin for oh-my-zsh/antigen
+- [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion pulgin for oh-my-zsh/antigen
 
 ## Installation
 
