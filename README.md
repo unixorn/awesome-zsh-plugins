@@ -7,12 +7,13 @@ Collection of ZSH frameworks, plugins & themes inspired by the various awesome l
 These frameworks make customizing your zsh setup easier. 
 
 * [alf](https://github.com/psyrendust/alf) - Alf is an out of this world super fast and configurable framework for zsh; it's modeled after Prezto and Antigen while utilizing Oh My Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
-* [ant-zsh](https://github.com/anthraxx/ant-zsh) - Tiny and lightweight zsh configuration environment for special customization needs. It includes plugins, themes and a basic convenient setup.
+* [ant-zsh](https://github.com/anthraxx/ant-zsh) - Tiny and lightweight ZSH configuration environment for special customization needs. It includes plugins, themes and a basic convenient setup.
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) - A replacement for antigen optimized for a low overhead when starting up the shell.
 * [antigen](https://github.com/zsh-users/antigen) - Antigen is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
 * [dotzsh](https://github.com/dotphiles/dotzsh) - dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
 * [oh-my-zsh](http://ohmyz.sh/) - A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 * [prezto](https://github.com/sorin-ionescu/prezto) - Prezto enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes
+* [zgen](https://github.com/tarjoilija/zgen) - A lightweight plugin manager for ZSH inspired by antigen.
 * [zshuery](https://github.com/myfreeweb/zshuery) - A simpler zsh configuration framework. jQuery did this for JS, we're doing it for zsh. 
 
 ## Plugins
