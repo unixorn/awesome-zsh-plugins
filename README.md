@@ -67,6 +67,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [MaxUlysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [af-magic-mod](antigen theme desyncr/zshrc themes/af-magic-mod) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`
 * [bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
+* [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) Red version of the frisk theme from oh-my-zsh
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
