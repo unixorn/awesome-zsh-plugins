@@ -91,6 +91,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [oh-my-zsh_razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add tab completion for rakefile targets
+* [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Oh-My-Zsh plugin for autocompletion of [tugboat](https://github.com/pearkes/tugboat/) command
 * [zsh-cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - add tab completion for cabal
 * [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins.
 * [zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
