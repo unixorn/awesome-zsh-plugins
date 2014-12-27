@@ -6,6 +6,8 @@ Try and keep your plugins as cross-framework compatible as possible. Here are so
 
 2. Only oh-my-zsh sets the `${ZSH_CUSTOM}` variable. `$(dirname $0)` will also tell you what directory your plugin is installed in, has the advantage of being cross-framework and won't break if the user renames your plugin directory.
 
-3. Don't assume your plugin will be checked out into a directory with the same name as the plugin. This is another case where `$(dirname ${0})` will work and `${ZSH_CUSTOM}/hardcoded-directory` will fail.
+3. Don't assume your plugin will be checked out into a directory with the same name you gave the plugin. This is another case where `$(dirname ${0})` will work and `${ZSH_CUSTOM}/hardcoded-directory` will fail.
 
-4. Use `yourplugin.plugin.zsh` for the main plugin file. This is what [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) uses, and [antigen](https://github.com/zsh-users/antigen), [zgen](https://github.com/tarjoilija/zgen) and most other frameworks support it as well.
+4. Use `yourplugin.plugin.zsh` for the main plugin file. This is what [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) uses. [Antigen](https://github.com/zsh-users/antigen), [zgen](https://github.com/tarjoilija/zgen) and most other frameworks support that filename.
+
+5. Submit a PR here so your plugin is easy to find :-)
