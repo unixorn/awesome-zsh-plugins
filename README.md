@@ -126,3 +126,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 1. Clone the plugin into your prezto modules directory
 2. Add the plugin to your `.zpreztorc` file
 3. Open a new terminal window or tab
+
+## Writing New Plugins
+
+I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md)
