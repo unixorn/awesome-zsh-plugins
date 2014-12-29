@@ -78,6 +78,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
+* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A zsh plugin to sync git repositories and clean them up.
 
 ## Even more completions
 
