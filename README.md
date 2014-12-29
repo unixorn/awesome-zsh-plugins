@@ -54,6 +54,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works
 * [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh
+* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A zsh plugin to sync git repositories and clean them up.
 * [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt
 * [zsh-gvm](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm(Groovy enVironment Manager)
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
@@ -78,7 +79,6 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
-* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A zsh plugin to sync git repositories and clean them up.
 
 ## Even more completions
 
