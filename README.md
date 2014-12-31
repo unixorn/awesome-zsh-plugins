@@ -22,6 +22,7 @@ These frameworks make customizing your zsh setup easier.
 
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
 * [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework
+* [http://strcat.de/zsh/#tipps](http://strcat.de/zsh/#tipps) - an exhaustive list of ZSH tips by Christian Schneider
 
 ### Antigen
 * [http://mgdm.net/weblog/zsh-antigen](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
