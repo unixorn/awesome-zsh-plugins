@@ -16,7 +16,19 @@ These frameworks make customizing your zsh setup easier.
 * [zeesh](https://github.com/zeekay/zeesh) - Zeesh is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 * [zgen](https://github.com/tarjoilija/zgen) - A lightweight plugin manager for ZSH inspired by antigen.
 * [zoppo](https://github.com/zoppo/zoppo) - the crippled configuration framework for Zsh. As an italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
-* [zshuery](https://github.com/myfreeweb/zshuery) - A simpler zsh configuration framework. jQuery did this for JS, we're doing it for zsh. 
+* [zshuery](https://github.com/myfreeweb/zshuery) - A simpler zsh configuration framework. jQuery did this for JS, we're doing it for zsh.
+
+## Tutorials
+
+* [Outrageously Useful Tips To Master Your Z Shell/](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) - Covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
+* [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework
+
+### Antigen
+* [http://mgdm.net/weblog/zsh-antigen/](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
+
+### Oh-My-Zsh
+* [ZSH Gem 24](http://www.refining-linux.org/archives/59/ZSH-Gem-24-ZSH-frameworks/) - Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery.
+* [Mark Nichols' Oh-My-Zsh tutorial](http://zanshin.net/2011/08/12/oh-my-zsh/)
 
 ## Plugins
 
