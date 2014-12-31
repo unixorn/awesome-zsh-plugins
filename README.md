@@ -20,11 +20,11 @@ These frameworks make customizing your zsh setup easier.
 
 ## Tutorials
 
-* [Outrageously Useful Tips To Master Your Z Shell/](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) - Covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
+* [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
 * [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework
 
 ### Antigen
-* [http://mgdm.net/weblog/zsh-antigen/](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
+* [http://mgdm.net/weblog/zsh-antigen](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
 
 ### Oh-My-Zsh
 * [ZSH Gem 24](http://www.refining-linux.org/archives/59/ZSH-Gem-24-ZSH-frameworks/) - Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery.
