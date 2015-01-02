@@ -137,19 +137,19 @@ These plugins add tab completion without adding extra functions or aliases.
 
 Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start zsh. You can also add the plugin to a running zsh with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
 
-### dotzsh
+### [dotzsh](https://github.com/dotphiles/dotzsh)
 
 1. Clone new plugins into `.zsh.local/modules
 2. Load the plugin module in `.zshrc`
 3. Open a new zsh terminal window or tab
 
-### Oh-My-Zsh
+### [Oh-My-Zsh](http://ohmyz.sh/)
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone repo`
 3. add the repo to your plugin list
 
-### Prezto
+### [Prezto](https://github.com/sorin-ionescu/prezto)
 
 1. Clone the plugin into your prezto modules directory
 2. Add the plugin to your `.zpreztorc` file
