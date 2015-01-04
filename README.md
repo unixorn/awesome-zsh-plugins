@@ -25,6 +25,7 @@ These frameworks make customizing your zsh setup easier.
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
 * [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework
 * [http://strcat.de/zsh/#tipps](http://strcat.de/zsh/#tipps) - an exhaustive list of ZSH tips by Christian Schneider
+* [https://wiki.archlinux.org/index.php/zsh](https://wiki.archlinux.org/index.php/zsh) - Arch Linux's ZSH intro
 
 ### Antigen
 * [http://mgdm.net/weblog/zsh-antigen](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
@@ -40,12 +41,12 @@ These frameworks make customizing your zsh setup easier.
 * [autoupdate-antigen.zshplugin](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
 * [browse-commit](https://github.com/adolfoabegg/browse-commit) - browse-commit is a zsh plugin that lets you open any commit in your browser from the command line.
-* [czhttpd](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
-* [deer](https://github.com/Vifon/deer) - file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - zsh plugin to cd to git repository root directory
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - zsh plugin to copy your shell configuration to another machine over ssh
+* [czhttpd](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
+* [deer](https://github.com/Vifon/deer) - file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [ghost-zeus](https://github.com/fontno/ghost_zeus) - zsh plugin that lets you use zeus with normal rails commands
 * [git-aliases.zsh](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands
@@ -62,8 +63,8 @@ These frameworks make customizing your zsh setup easier.
 * [oh-my-zsh-flow3-plugin](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution
 * [oh-my-zsh-virtualenv-prompt](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
 * [opp.zsh](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
-* [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [osx-dev-zsh-plugin](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install
+* [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - a zsh plugin for [Robo](http://codegyre.github.io/Robo/)
 * [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfomy2
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins
@@ -76,8 +77,8 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-bash](https://github.com/chrissicool/zsh-bash) - plugin to make ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
 * [zsh-bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
 * [zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works
-* [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [zsh-directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
+* [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [zsh-functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh
 * [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A zsh plugin to sync git repositories and clean them up.
@@ -115,6 +116,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
+* [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for zsh
