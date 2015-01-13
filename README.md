@@ -151,7 +151,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
-1. Clone new plugins into `.zsh.local/modules
+1. Clone new plugins into `.zsh.local/modules`
 2. Load the plugin module in `.zshrc`
 3. Open a new zsh terminal window or tab
 
