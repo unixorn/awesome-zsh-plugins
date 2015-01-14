@@ -146,7 +146,7 @@ These plugins add tab completion without adding extra functions or aliases.
 
 ## Installation
 
-### Antigen
+### [Antigen](https://github.com/zsh-users/antigen)
 
 Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start zsh. You can also add the plugin to a running zsh with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
 
@@ -168,7 +168,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 2. Add the plugin to your `.zpreztorc` file
 3. Open a new terminal window or tab
 
-### [zgen](https://github.com/tarjoilija/zgen)
+### [Zgen](https://github.com/tarjoilija/zgen)
 
 Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in.
 
