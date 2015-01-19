@@ -1,0 +1,5 @@
+# Contributing
+
+plugin/theme/completions entries should be on a single line, I let the GH markdown formatter take care of line breaks. This makes it easier to keep the entry sections sorted.
+
+Thanks for the help, I appreciate all of the contributions.
