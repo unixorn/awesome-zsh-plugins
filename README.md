@@ -20,6 +20,10 @@ These frameworks make customizing your zsh setup easier.
 * [zshuery](https://github.com/myfreeweb/zshuery) - A simpler zsh configuration framework. jQuery did this for JS, we're doing it for zsh. 
 * [ztanesh](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
 
+Not a framework, but still useful
+
+* [zshdb](https://github.com/rocky/zshdb) ZSH debugger
+
 ## Tutorials
 
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
