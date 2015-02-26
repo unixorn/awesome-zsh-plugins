@@ -65,6 +65,7 @@ Not a framework, but still useful
 * [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on github. Only works on OS X.
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell
+* [hooks](https://github.com/willghatch/zsh-hooks) - add missing hooks - for plugins and personal use
 * [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh
@@ -82,6 +83,7 @@ Not a framework, but still useful
 * [send.zsh](https://github.com/robertzk/send.zsh) - Shortcut script for zsh
 * [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfomy2
 * [smart-cd](https://github.com/secrettriangle/smart-cd) - runs `ls` and `git status` after chpwd
+* [snippets](https://github.com/willghatch/zsh-snippets) - command line snippet expansion
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins
 * [wd](https://github.com/mfaerevaag/wd) - (warp directory) lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
 * [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
