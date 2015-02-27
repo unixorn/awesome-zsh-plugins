@@ -71,6 +71,7 @@ Not a framework, but still useful
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - maps exit status code to human readable string
+* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) dogification plugin
 * [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - plugin for displaying dirstack info on a single line
 * [oh-my-zsh-flow3-plugin](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution
 * [oh-my-zsh-jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line
@@ -112,6 +113,7 @@ Not a framework, but still useful
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
 * [zsh-t32](https://github.com/chrissicool/zsh-t32) - plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 * [zsh-url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
+* [zsh-vim-mode](sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
 
 ## Themes
