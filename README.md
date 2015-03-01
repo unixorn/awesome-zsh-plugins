@@ -70,6 +70,7 @@ Not a framework, but still useful
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql
+* [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - maps exit status code to human readable string
 * [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) dogification plugin
 * [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - plugin for displaying dirstack info on a single line
