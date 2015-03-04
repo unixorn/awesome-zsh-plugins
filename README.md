@@ -145,6 +145,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
+* [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - command completion for docker-enter (https://github.com/jpetazzo/nsenter)
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for zsh
