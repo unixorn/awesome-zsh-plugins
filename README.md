@@ -140,6 +140,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 These plugins add tab completion without adding extra functions or aliases.
 
 * [berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
+* [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - oh-my-zsh-compatible plugin for BOSH autocompletion
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
