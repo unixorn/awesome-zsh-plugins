@@ -83,7 +83,7 @@ Not a framework, but still useful
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - a zsh plugin for [Robo](http://codegyre.github.io/Robo/)
 * [send.zsh](https://github.com/robertzk/send.zsh) - Shortcut script for zsh
-* [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfomy2
+* [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2
 * [smart-cd](https://github.com/secrettriangle/smart-cd) - runs `ls` and `git status` after chpwd
 * [snippets](https://github.com/willghatch/zsh-snippets) - command line snippet expansion
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins
