@@ -82,6 +82,7 @@ Not a framework, but still useful
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - a zsh plugin for [Robo](http://codegyre.github.io/Robo/)
+* [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - plugin which initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
 * [send.zsh](https://github.com/robertzk/send.zsh) - Shortcut script for zsh
 * [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2
 * [smart-cd](https://github.com/secrettriangle/smart-cd) - runs `ls` and `git status` after chpwd
