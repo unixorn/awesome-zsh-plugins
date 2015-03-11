@@ -67,6 +67,7 @@ Not a framework, but still useful
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell
 * [hooks](https://github.com/willghatch/zsh-hooks) - add missing hooks - for plugins and personal use
+* [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X
 * [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh
