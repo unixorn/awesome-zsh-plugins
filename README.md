@@ -1,3 +1,26 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [awesome-zsh-plugins](#awesome-zsh-plugins)
+  - [Frameworks](#frameworks)
+  - [Tutorials](#tutorials)
+    - [Antigen](#antigen)
+    - [Oh-My-Zsh](#oh-my-zsh)
+    - [Prezto](#prezto)
+  - [Plugins](#plugins)
+  - [Themes](#themes)
+  - [Even more completions](#even-more-completions)
+  - [Installation](#installation)
+    - [[Antigen](https://github.com/zsh-users/antigen)](#antigenhttpsgithubcomzsh-usersantigen)
+    - [[dotzsh](https://github.com/dotphiles/dotzsh)](#dotzshhttpsgithubcomdotphilesdotzsh)
+    - [[Oh-My-Zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
+    - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
+    - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
+  - [Writing New Plugins](#writing-new-plugins)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # awesome-zsh-plugins
 
 Collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
@@ -202,4 +225,4 @@ Most of these plugins can be installed by adding `zgen load githubuser/reponame`
 
 ## Writing New Plugins
 
-I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md)
+I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
