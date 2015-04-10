@@ -89,7 +89,7 @@ Not a framework, but still useful
 * [ghost-zeus](https://github.com/fontno/ghost_zeus) - zsh plugin that lets you use zeus with normal rails commands
 * [git-aliases.zsh](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts I've collected over time.
-* [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on github. Only works on OS X.
+* [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell
 * [hooks](https://github.com/willghatch/zsh-hooks) - add missing hooks - for plugins and personal use
