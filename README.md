@@ -168,6 +168,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
