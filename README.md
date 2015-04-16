@@ -179,6 +179,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
 * [zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
 * [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking zsh theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
+* [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 
 ### Fonts
 
