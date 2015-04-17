@@ -162,6 +162,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [af-magic-mod](antigen theme desyncr/zshrc themes/af-magic-mod) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`
 * [bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2
+* [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) Red version of the frisk theme from oh-my-zsh
 * [gitsome](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
 * [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
