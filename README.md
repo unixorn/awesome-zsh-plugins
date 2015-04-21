@@ -202,6 +202,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - displays git info, whether you're logged in via ssh, return code of last command
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
 * [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - command completion for docker-enter (https://github.com/jpetazzo/nsenter)
+* [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - collected docker helper scripts
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for zsh
