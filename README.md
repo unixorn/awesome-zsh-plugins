@@ -174,6 +174,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
 * [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - based on af-magic
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
+* [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme
 * [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - based on af-magic and posh-git
