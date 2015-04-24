@@ -179,6 +179,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - based on af-magic and posh-git
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
+* [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) prompt with happy and sad faces
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
