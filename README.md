@@ -173,6 +173,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - Zsh theme with space in mind
+* [minimal](https://github.com/S1cK94/minimal) S1ck94's minimal theme
 * [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
 * [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - based on af-magic
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
