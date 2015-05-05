@@ -91,6 +91,7 @@ Not a framework, but still useful
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts I've collected over time.
 * [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files
+* [goenv](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell
 * [hooks](https://github.com/willghatch/zsh-hooks) - add missing hooks - for plugins and personal use
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X
