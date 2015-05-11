@@ -46,15 +46,15 @@ These frameworks make customizing your zsh setup easier.
 
 Not a framework, but still useful
 
-* [zshdb](https://github.com/rocky/zshdb) ZSH debugger
+* [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger
 
 ## Tutorials
 
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
 * [The Text Triumvirate](http://www.drbunsen.org/the-text-triumvirate/) - Seth Brown's tutorial on combining zsh, tmux and vim.
 * [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework
+* [ZSH tips by Christian Schneider](http://strcat.de/zsh/#tipps) - an exhaustive list of ZSH tips by Christian Schneider
 * [ZSH Tips by ZZapper](http://www.rayninfo.co.uk/tips/zshtips.html) - ZZapper's list of tips
-* [http://strcat.de/zsh/#tipps](http://strcat.de/zsh/#tipps) - an exhaustive list of ZSH tips by Christian Schneider
 * [https://wiki.archlinux.org/index.php/zsh](https://wiki.archlinux.org/index.php/zsh) - Arch Linux's ZSH intro
 * [http://commandlinepoweruser.com/](http://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh
 
@@ -73,7 +73,7 @@ Not a framework, but still useful
 
 ## Plugins
 
-* [accurev-zsh](https://github.com/dalefukami/accurev-zsh) ZSH plugin for accurev
+* [accurev-zsh](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev
 * [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
 * [autoenv](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin
 * [auto-fu.zsh](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>
@@ -103,7 +103,7 @@ Not a framework, but still useful
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql
 * [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - maps exit status code to human readable string
-* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) dogification plugin
+* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) - dogification plugin
 * [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - plugin for displaying dirstack info on a single line
 * [oh-my-zsh-flow3-plugin](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution
 * [oh-my-zsh-jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line
@@ -166,12 +166,12 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2
 * [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
-* [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) Red version of the frisk theme from oh-my-zsh
+* [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh
 * [furio](https://github.com/hectorpalmatellez/furio-theme) - fork of the Cloud oh-my-zsh theme. with different colors and emojis
 * [gitsome](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
 * [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
-* [jcl-zsh-theme](https://github.com/jasonlewis/jcl-zsh-theme) loosely based on the ys theme
+* [jcl-zsh-theme](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires [hooks](https://github.com/willghatch/zsh-hooks) plugin.
@@ -186,7 +186,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - based on af-magic and posh-git
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
-* [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) prompt with happy and sad faces
+* [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
@@ -210,8 +210,8 @@ These plugins add tab completion without adding extra functions or aliases.
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - displays git info, whether you're logged in via ssh, return code of last command
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
-* [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - command completion for docker-enter (https://github.com/jpetazzo/nsenter)
-* [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - collected docker helper scripts
+* [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
+* [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for zsh
