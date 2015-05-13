@@ -147,6 +147,7 @@ Not a framework, but still useful
 * [zsh-konsole-theme-changer](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh
 * [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - manydots-magic - zle tweak for emulating `...'==`../..' etc.
 * [zsh-nodejs-plugin](https://github.com/poying/zsh-nodejs-plugin) - nodejs plugin for zsh
+* [zsh-nodejs-plugin](https://github.com/srijanshetty/node.plugin.zsh) - srijanshetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present.
 * [zsh-notify](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 * [zsh-pg](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
