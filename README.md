@@ -249,7 +249,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
 2. `git clone repo`
-3. add the repo to your plugin list
+3. Add the repo to your plugin list
 
 ### [Prezto](https://github.com/sorin-ionescu/prezto)
 
