@@ -205,6 +205,7 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 
 * [Input Mono](http://input.fontbureau.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 * [Powerline](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include powerline gylphs.
+* [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts to have some nice monospaced Icons.
 
 ## Even more completions
 
