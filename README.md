@@ -101,6 +101,7 @@ Not a framework, but still useful
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
+* [kketcham](https://github.com/prototype27/kketcham) - oh-my-zsh theme with nifty colors on the git info
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
