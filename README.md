@@ -179,6 +179,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [furio](https://github.com/hectorpalmatellez/furio-theme) - fork of the Cloud oh-my-zsh theme. with different colors and emojis
 * [gitsome](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
 * [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
+* [hackersaurus](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run  embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
 * [jcl-zsh-theme](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
