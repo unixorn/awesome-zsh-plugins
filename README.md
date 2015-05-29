@@ -183,6 +183,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
 * [jcl-zsh-theme](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
+* [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - minimalist prompt.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires [hooks](https://github.com/willghatch/zsh-hooks) plugin.
