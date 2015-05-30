@@ -202,6 +202,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - based on gallifrey
+* [tvline](https://github.com/thvitt/tvline) - derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
