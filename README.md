@@ -277,3 +277,7 @@ Most of these plugins can be installed by adding `zgen load githubuser/reponame`
 ## Writing New Plugins
 
 I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
+
+## Other lists
+
+Find other useful awesome-* lists at the [awesome collection](https://github.com/sindresorhus/awesome)
