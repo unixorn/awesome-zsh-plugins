@@ -201,6 +201,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
+* [solarizsh](https://github.com/paddykontschak/Solarizsh) - color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
 * [spowerline](https://mbauhardt.github.io/spowerline/) - written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - based on gallifrey
 * [tvline](https://github.com/thvitt/tvline) - derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
