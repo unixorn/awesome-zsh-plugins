@@ -212,6 +212,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [tvline](https://github.com/thvitt/tvline) - derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
+* [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - customized version of oh-my-zsh blinks with mercurial supportand other changes
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
 * [zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
 * [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking zsh theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
