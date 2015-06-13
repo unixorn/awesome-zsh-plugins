@@ -196,6 +196,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - Zsh theme with space in mind
 * [minimal](https://github.com/S1cK94/minimal) S1ck94's minimal theme
 * [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
+* [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme
 * [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - based on af-magic
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme
