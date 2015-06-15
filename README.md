@@ -207,6 +207,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - based on af-magic and posh-git
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
+* [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - theme for Atom, Prism and Zsh inspired by Skeletor from He-Man and the Masters of the Universe
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
 * [spowerline](https://mbauhardt.github.io/spowerline/) - written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
