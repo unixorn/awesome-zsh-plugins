@@ -38,7 +38,7 @@ These frameworks make customizing your zsh setup easier.
 * [antibody](https://github.com/caarlos0/antibody) - A simpler and faster replacement for antigen written in Go that can do stuff in parallel.
 * [antigen-hs](https://github.com/Tarrasch/antigen-hs) - A replacement for antigen optimized for a low overhead when starting up the shell.
 * [antigen](https://github.com/zsh-users/antigen) - Antigen is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
-* [dotzsh](https://github.com/dotphiles/dotzsh) - dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
+* [dotzsh](https://github.com/dotphiles/dotzsh) - Dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
 * [oh-my-zsh](http://ohmyz.sh/) - A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
 * [prezto](https://github.com/sorin-ionescu/prezto) - Prezto enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes
 * [zeesh](https://github.com/zeekay/zeesh) - Zeesh is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
@@ -83,62 +83,62 @@ Not a framework, but still useful
 * [auto-fu.zsh](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
 * [autoupdate-antigen.zshplugin](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
-* [browse-commit](https://github.com/adolfoabegg/browse-commit) - browse-commit is a zsh plugin that lets you open any commit in your browser from the command line.
+* [browse-commit](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
-* [cd-gitroot](https://github.com/mollifier/cd-gitroot) - zsh plugin to cd to git repository root directory.
+* [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
-* [copyzshell](https://github.com/rutchkiwi/copyzshell) - zsh plugin to copy your shell configuration to another machine over ssh.
+* [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
 * [czhttpd](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
-* [deer](https://github.com/Vifon/deer) - file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
+* [deer](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
-* [ghost-zeus](https://github.com/fontno/ghost_zeus) - zsh plugin that lets you use zeus with normal rails commands.
+* [ghost-zeus](https://github.com/fontno/ghost_zeus) - Lets you use zeus with normal rails commands.
 * [git-aliases.zsh](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands.
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts packaged as a plugin.
 * [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
-* [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - zsh plugin for creating `.gitignore` files.
+* [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [goenv](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
-* [hooks](https://github.com/willghatch/zsh-hooks) - add missing hooks - for plugins and personal use.
+* [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
-* [kketcham](https://github.com/prototype27/kketcham) - oh-my-zsh theme with nifty colors on the git info
+* [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
-* [nice-exit-code](https://github.com/bric3/nice-exit-code) - maps exit status code to human readable string.
-* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) - dogification plugin.
-* [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - plugin for displaying dirstack info on a single line.
+* [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
+* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+* [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying dirstack info on a single line.
 * [oh-my-zsh-flow3-plugin](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution.
 * [oh-my-zsh-jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line.
-* [oh-my-zsh-virtualenv-prompt](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
+* [oh-my-zsh-virtualenv-prompt](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - A fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
 * [opp.zsh](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
 * [osx-dev-zsh-plugin](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install.
-* [otter](https://github.com/allanhortle/otter) - combination theme and plugin by Allan Hortle.
+* [otter](https://github.com/allanhortle/otter) - Combination theme and plugin by Allan Hortle.
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
-* [pure](https://github.com/sindresorhus/pure) - pretty, minimal and fast ZSH prompt
-* [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - a zsh plugin for [Robo](http://codegyre.github.io/Robo/)
-* [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - plugin which initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
+* [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
+* [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
+* [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
 * [send.zsh](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
 * [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
-* [smart-cd](https://github.com/secrettriangle/smart-cd) - runs `ls` and `git status` after chpwd.
-* [snippets](https://github.com/willghatch/zsh-snippets) - command line snippet expansion.
-* [sugarfree](https://github.com/cbrock/sugar-free) - based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
+* [smart-cd](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
+* [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
+* [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
-* [wd](https://github.com/mfaerevaag/wd) - (warp directory) lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
+* [wd](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
 * [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
 * [zaw-extras](https://github.com/willghatch/zsh-zaw-extras) - Extras for zaw. Make sure you load zaw first.
-* [zaw](https://github.com/zsh-users/zaw) - zsh anything.el-like widget.
-* [zce](https://github.com/hchbaw/zce.zsh) - vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
+* [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
+* [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
 * [zsh-256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
-* [zsh-add-upstream](https://github.com/caarlos0/zsh-add-upstream) - plugin to easily add the upstream remote to your git fork.
+* [zsh-add-upstream](https://github.com/caarlos0/zsh-add-upstream) - Easily add the upstream remote to your git fork.
 * [zsh-autoenv](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
 * [zsh-autosuggestions](https://github.com/tarruda/zsh-autosuggestions) - [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh.
-* [zsh-basex](https://github.com/dirkk/zsh-basex) - adds several [BaseX](http://www.basex.org) aliases for simplified usage.
-* [zsh-bash](https://github.com/chrissicool/zsh-bash) - plugin to make ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
+* [zsh-basex](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://www.basex.org) aliases for simplified usage.
+* [zsh-bash](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
 * [zsh-bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
 * [zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
 * [zsh-dircolors-solarized](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
@@ -146,14 +146,14 @@ Not a framework, but still useful
 * [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [zsh-functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
-* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A zsh plugin to sync git repositories and clean them up.
+* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
 * [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
 * [zsh-gvm](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm(Groovy enVironment Manager)
-* [zsh-gvm](https://github.com/horosgrisa/zsh-gvm) - gvm (Go version manager) plugin for zsh.
+* [zsh-gvm](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
 * [zsh-konsole-theme-changer](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
-* [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - manydots-magic - zle tweak for emulating `...'==`../..' etc.
-* [zsh-nodejs-plugin](https://github.com/poying/zsh-nodejs-plugin) - nodejs plugin for zsh.
+* [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
+* [zsh-nodejs-plugin](https://github.com/poying/zsh-nodejs-plugin) - Nodejs plugin for zsh.
 * [zsh-nodejs-plugin](https://github.com/srijanshetty/node.plugin.zsh) - srijanshetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present.
 * [zsh-notify](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
@@ -162,7 +162,7 @@ Not a framework, but still useful
 * [zsh-plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
 * [zsh-suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias): Directly open files in the shell using ZSH's suffix aliases.
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
-* [zsh-t32](https://github.com/chrissicool/zsh-t32) - plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
+* [zsh-t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 * [zsh-url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [zsh-vim-mode](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
