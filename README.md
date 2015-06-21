@@ -10,6 +10,7 @@
     - [Prezto](#prezto)
   - [Plugins](#plugins)
   - [Themes](#themes)
+    - [Fonts](#fonts)
   - [Even more completions](#even-more-completions)
   - [Installation](#installation)
     - [[Antigen](https://github.com/zsh-users/antigen)](#antigenhttpsgithubcomzsh-usersantigen)
@@ -18,6 +19,7 @@
     - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
     - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
   - [Writing New Plugins](#writing-new-plugins)
+  - [Other lists](#other-lists)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -172,55 +174,55 @@ Not a framework, but still useful
 If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test these themes in a running zsh with `antigen theme githubuser/repo`. If you're using [zgen](https://github.com/tarjoilija/zgen), add them to your `init.zsh` with `zgen load githubuser/reponame`.
 
 * [af-magic-mod](https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`
-* [alpharized](https://github.com/NicoSantangelo/Alpharized) - an oh-my-zsh theme optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
-* [angry fly](https://github.com/russjohnson/angry-fly-zsh) - shows git information in right hand prompt
+* [alpharized](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
+* [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
-* [bluelines](https://github.com/apbarrero/bluelines) - clear and blue theme
-* [bullet-train-oh-my-zsh-theme](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Add with `antigen theme caiogondim/bullet-train-oh-my-zsh-theme bullet-train`
+* [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme
+* [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) -  Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2
-* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - codemachine theme
+* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Codemachine theme
 * [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [dracula](https://github.com/zenorocha/dracula-theme) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh
-* [elementary-prezto](https://github.com/sergeyz/elementary-prezto) - prezto theme with git status display
+* [elementary-prezto](https://github.com/sergeyz/elementary-prezto) - A prezto theme with git status display
 * [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh
-* [furio](https://github.com/hectorpalmatellez/furio-theme) - fork of the Cloud oh-my-zsh theme. with different colors and emojis
+* [furio](https://github.com/hectorpalmatellez/furio-theme) - Fork of the Cloud oh-my-zsh theme. with different colors and emojis
 * [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
 * [gitsome](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
-* [glimmer](https://github.com/martnu/glimmer) - includes git branch, time and user@host
-* [hackersaurus](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run  embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+* [glimmer](https://github.com/martnu/glimmer) - Includes git branch, time and user@host
+* [hackersaurus](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
 * [jcl-zsh-theme](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
-* [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - minimalist prompt.
+* [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
-* [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires [hooks](https://github.com/willghatch/zsh-hooks) plugin.
-* [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - Zsh theme with space in mind
-* [minimal](https://github.com/S1cK94/minimal) S1ck94's minimal theme
+* [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind
+* [minimal](https://github.com/S1cK94/minimal) - S1ck94's minimal theme
 * [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
 * [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme
-* [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - based on af-magic
+* [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme
 * [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
 * [powerlevel9k](https://github.com/bhilburn/powerlevel9k) - A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc.
-* [powerline-cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - based on [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme)
+* [powerline-cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - Based on [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme)
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
-* [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - based on af-magic and posh-git
+* [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
-* [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - theme for Atom, Prism and Zsh inspired by Skeletor from He-Man and the Masters of the Universe
+* [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - Theme collection for Atom, Prism and Zsh inspired by Skeletor from He-Man and the Masters of the Universe
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
-* [solarizsh](https://github.com/paddykontschak/Solarizsh) - color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
-* [spowerline](https://mbauhardt.github.io/spowerline/) - written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
-* [the-time-lord](https://github.com/jhwhite/the-time-lord) - based on gallifrey
-* [tvline](https://github.com/thvitt/tvline) - derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
+* [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
+* [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
+* [the-time-lord](https://github.com/jhwhite/the-time-lord) - Based on gallifrey
+* [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
-* [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - customized version of oh-my-zsh blinks with mercurial supportand other changes
+* [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial supportand other changes
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
 * [zsh-prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
-* [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking zsh theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
+* [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking ZSH theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
 
 ### Fonts
 
@@ -235,12 +237,12 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 These plugins add tab completion without adding extra functions or aliases.
 
 * [berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
-* [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - oh-my-zsh-compatible plugin for BOSH autocompletion
+* [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
-* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - displays git info, whether you're logged in via ssh, return code of last command
+* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via ssh, return code of last command
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
-* [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
+* [docker-enter-completion](https://github.com/runcom/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
 * [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [docker-zsh](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
@@ -248,19 +250,19 @@ These plugins add tab completion without adding extra functions or aliases.
 * [etcdctl-zsh](https://github.com/sheax0r/etcdctl-zsh) - etcdctl autocomplete plugin for oh-my-zsh
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
-* [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocomplete for oh-my-zsh/antigen
+* [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocompletion
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [nvm-completion](https://github.com/tomsquest/nvm-completion.zsh) - Updated nvm completions
 * [oh-my-zsh-nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for the nova so you don't need to remember all those pesky arguments
 * [oh-my-zsh-plugin-nvm](https://github.com/olesu/oh-my-zsh-plugin-nvm) - Ole Sunde's nvm plugin for zsh
 * [oh-my-zsh_razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add tab completion for rakefile targets
-* [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Oh-My-Zsh plugin for autocompletion of [tugboat](https://github.com/pearkes/tugboat/) command
-* [zsh-cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - add tab completion for cabal
-* [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Load it last so it doesn't override completions provided by your other plugins.
-* [zsh-completions](https://github.com/zsh-users/zsh-completions) is a collection of extra completions for zsh. To use it, add `antigen bundle zsh-users/zsh-completions src` to your .zshrc
-* [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion pulgin for oh-my-zsh/antigen
-* [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - pip autocomplete plugin for oh-my-zsh/antigen
+* [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
+* [zsh-cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
+* [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically.
+* [zsh-completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
+* [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin
+* [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - pip autocomplete plugin
 
 ## Installation
 
