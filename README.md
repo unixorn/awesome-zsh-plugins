@@ -297,4 +297,8 @@ I've documented some recommendations for writing a new plugin [here](https://git
 
 ## Other lists
 
+* [awesome-devenv](https://github.com/jondot/awesome-devenv) - A curated list of awesome tools, resources and workflow tips making an awesome development environment
+* [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of awesome open source sysadmin resources
+
 Find other useful awesome-* lists at the [awesome collection](https://github.com/sindresorhus/awesome)
+
