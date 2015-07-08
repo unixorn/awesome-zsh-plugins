@@ -256,6 +256,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocompletion
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
+* [npm-run.plugin.zsh](https://github.com/akoenig/npm-run.plugin.zsh) - `npm run` autocompletion
 * [nvm-completion](https://github.com/tomsquest/nvm-completion.zsh) - Updated nvm completions
 * [oh-my-zsh-nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for the nova so you don't need to remember all those pesky arguments
 * [oh-my-zsh-plugin-nvm](https://github.com/olesu/oh-my-zsh-plugin-nvm) - Ole Sunde's nvm plugin for zsh
