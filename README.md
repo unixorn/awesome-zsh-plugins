@@ -260,6 +260,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocompletion
+* [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [npm-run.plugin.zsh](https://github.com/akoenig/npm-run.plugin.zsh) - `npm run` autocompletion
 * [nvm-completion](https://github.com/tomsquest/nvm-completion.zsh) - Updated nvm completions
