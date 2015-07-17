@@ -249,6 +249,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [autopkg-zsh-completion](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg
 * [berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
 * [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion
+* [brew-services](https://github.com/vasyharan/zsh-brew-services) - completion plugin for homebrew services
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via ssh, return code of last command
