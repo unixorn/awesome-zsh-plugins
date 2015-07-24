@@ -87,6 +87,7 @@ Not a framework, but still useful
 * [autoupdate-antigen.zshplugin](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
 * [browse-commit](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
+* [calc](https://github.com/arzzen/calc.plugin.zsh) - calculator for zsh
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
@@ -168,6 +169,7 @@ Not a framework, but still useful
 * [zsh-pg](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
 * [zsh-plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
+* [zsh-reentry-hook](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
 * [zsh-suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias): Directly open files in the shell using ZSH's suffix aliases.
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
 * [zsh-t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
