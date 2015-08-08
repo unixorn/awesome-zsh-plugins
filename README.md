@@ -163,7 +163,7 @@ Not a framework, but still useful
 * [zsh-git-sync ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-git-sync.svg)](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
 * [zsh-grunt-plugin ![GitHub stars](https://img.shields.io/github/stars/clauswitt/zsh-grunt-plugin.svg)](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
 * [zsh-gvm (horosgrisa) ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-gvm.svg)](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
-* [zsh-gvm (yerinle) ![GitHub stars](https://img.shields.io/github/stars/yerinle/zsh-gvm.svg)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm(Groovy enVironment Manager)
+* [zsh-gvm (yerinle) ![GitHub stars](https://img.shields.io/github/stars/yerinle/zsh-gvm.svg)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm (Groovy enVironment Manager)
 * [zsh-history-substring-search ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-history-substring-search.svg)](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
 * [zsh-konsole-theme-changer ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-konsole-theme-changer.svg)](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
 * [zsh-manydots-magic ![GitHub stars](https://img.shields.io/github/stars/knu/zsh-manydots-magic.svg)](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
