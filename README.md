@@ -55,7 +55,7 @@ These frameworks make customizing your zsh setup easier.
 
 Not a framework, but still useful
 
-* [zshdb ![GitHub stars](https://img.shields.io/github/stars/rocky/zshdb.svg](https://github.com/rocky/zshdb) - A ZSH debugger
+* [zshdb ![GitHub stars](https://img.shields.io/github/stars/rocky/zshdb.svg)](https://github.com/rocky/zshdb) - A ZSH debugger
 
 ## Tutorials
 
