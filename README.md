@@ -82,105 +82,105 @@ Not a framework, but still useful
 
 ## Plugins
 
-* [accurev-zsh](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
-* [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
-* [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols
-* [autoenv](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
-* [auto-fu.zsh](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
-* [autoupdate-antigen.zshplugin](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
-* [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
-* [browse-commit](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
-* [calc](https://github.com/arzzen/calc.plugin.zsh) - calculator for zsh
-* [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
-* [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
-* [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
-* [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
-* [czhttpd](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
-* [deer](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
-* [depot-tools](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
-* [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - Oh My Zsh plugin for Elixir, IEX, Mix and Phoenix
-* [enhancd](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command
-* [get-jquery](https://github.com/voronkovich/get-jquery.plugin.zsh) - Plugin for fast downloading jQuery library from code.jquery.com
-* [ghost-zeus](https://github.com/fontno/ghost_zeus) - Lets you use zeus with normal rails commands.
-* [git-aliases.zsh](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands.
-* [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts packaged as a plugin.
-* [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
-* [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
-* [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
-* [goenv](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
-* [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
-* [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
-* [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
-* [k](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
-* [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh/blob/master/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
-* [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info
-* [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
-* [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
-* [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
-* [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
-* [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
-* [node.plugin.zsh](https://github.com/srijanshetty/node.plugin.zsh) - Srijan Shetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present.
-* [oh-my-dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
-* [oh-my-zsh-dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying dirstack info on a single line.
-* [oh-my-zsh-flow3-plugin](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution.
-* [oh-my-zsh-jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line.
-* [oh-my-zsh-virtualenv-prompt](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - A fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
-* [opp.zsh](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
-* [osx-dev-zsh-plugin](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install.
-* [otter](https://github.com/allanhortle/otter) - Combination theme and plugin by Allan Hortle.
-* [pantheon-terminal-notify-zsh-plugin](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - background notifications for long running commands. Supports Elementary OS Freya
-* [parallels-zsh-plugin](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
-* [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
-* [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
-* [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
-* [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
-* [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
-* [send.zsh](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
-* [sf2.plugin.zsh](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
-* [smart-cd](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
-* [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
-* [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
-* [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
-* [vimman](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
-* [wd](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
-* [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
-* [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
-* [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
-* [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
-* [zsh-256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
-* [zsh-add-upstream](https://github.com/caarlos0/zsh-add-upstream) - Easily add the upstream remote to your git fork.
-* [zsh-autoenv](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
-* [zsh-autosuggestions](https://github.com/tarruda/zsh-autosuggestions) - [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh.
-* [zsh-basex](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://www.basex.org) aliases for simplified usage.
-* [zsh-bash](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
-* [zsh-bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
-* [zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
-* [zsh-dircolors-solarized](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
-* [zsh-directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
-* [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
-* [zsh-functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
-* [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
-* [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
-* [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
-* [zsh-gvm](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm(Groovy enVironment Manager)
-* [zsh-gvm](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
-* [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
-* [zsh-konsole-theme-changer](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
-* [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
-* [zsh-nodejs-plugin](https://github.com/poying/zsh-nodejs-plugin) - Po-Ying Chen's Nodejs plugin for zsh.
-* [zsh-notify](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
-* [zsh-open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
-* [zsh-osx](https://github.com/mkwmms/zsh-osx) - Add some common OS X related aliases and functions
-* [zsh-pg](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
-* [zsh-plugin-ibtool](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
-* [zsh-plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
-* [zsh-reentry-hook](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
-* [zsh-suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias): Directly open files in the shell using ZSH's suffix aliases.
-* [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
-* [zsh-t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
-* [zsh-url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
-* [zsh-vim-mode](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
-* [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
+* [accurev-zsh ![GitHub stars](https://img.shields.io/github/stars/dalefukami/accurev-zsh.svg)](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
+* [alias-tips ![GitHub stars](https://img.shields.io/github/stars/djui/alias-tips.svg)](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
+* [ansiweather ![GitHub stars](https://img.shields.io/github/stars/fcambus/ansiweather.svg)](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols
+* [autoenv ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/autoenv.svg)](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
+* [auto-fu.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/auto-fu.zsh.svg)](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
+* [autoupdate-antigen.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/autoupdate-antigen.zshplugin.svg)](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
+* [blackbox ![GitHub stars](https://img.shields.io/github/stars/StackExchange/blackbox.svg)](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
+* [browse-commit ![GitHub stars](https://img.shields.io/github/stars/adolfoabegg/browse-commit.svg)](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
+* [calc ![GitHub stars](https://img.shields.io/github/stars/arzzen/calc.plugin.zsh.svg)](https://github.com/arzzen/calc.plugin.zsh) - calculator for zsh
+* [caniuse.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/walesmd/caniuse.plugin.zsh.svg)](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
+* [cd-gitroot ![GitHub stars](https://img.shields.io/github/stars/mollifier/cd-gitroot.svg)](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
+* [cdbk ![GitHub stars](https://img.shields.io/github/stars/MikeDacre/cdbk.svg)](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
+* [copyzshell ![GitHub stars](https://img.shields.io/github/stars/rutchkiwi/copyzshell.svg)](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
+* [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
+* [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
+* [depot-tools ![GitHub stars](https://img.shields.io/github/stars/jgrowl/depot_tools.svg)](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
+* [elixir-oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/gusaiani/elixir-oh-my-zsh.svg)](https://github.com/gusaiani/elixir-oh-my-zsh) - Oh My Zsh plugin for Elixir, IEX, Mix and Phoenix
+* [enhancd ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/enhancd.svg)](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command
+* [get-jquery ![GitHub stars](https://img.shields.io/github/stars/voronkovich/get-jquery.plugin.zsh.svg)](https://github.com/voronkovich/get-jquery.plugin.zsh) - Plugin for fast downloading jQuery library from code.jquery.com
+* [ghost-zeus ![GitHub stars](https://img.shields.io/github/stars/fontno/ghost_zeus.svg)](https://github.com/fontno/ghost_zeus) - Lets you use zeus with normal rails commands.
+* [git-aliases.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-aliases.zsh.svg)](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands.
+* [git-extra-commands ![GitHub stars](https://img.shields.io/github/stars/unixorn/git-extra-commands.svg)](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts packaged as a plugin.
+* [gitfast ![GitHub stars](https://img.shields.io/github/stars/tevren/gitfast-zsh-plugin.svg)](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
+* [git-it-on.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-it-on.zsh.svg)](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
+* [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
+* [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
+* [hipchat ![GitHub stars](https://img.shields.io/github/stars/robertzk/hipchat.zsh.svg)](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
+* [hooks ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-hooks.svg)](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
+* [jvm ![GitHub stars](https://img.shields.io/github/stars/mgryszko/jvm.svg)](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
+* [k ![GitHub stars](https://img.shields.io/github/stars/supercrabtree/k.svg)](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
+* [kitsunebook.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/d12frosted/kitsunebook.plugin.zsh.svg)](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
+* [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info
+* [lesaint-mvn ![GitHub stars](https://img.shields.io/github/stars/lesaint/lesaint-mvn.svg)](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
+* [mac-packaging ![GitHub stars](https://img.shields.io/github/stars/Temikus/mac-packaging.svg)](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
+* [mysql.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/mysql.plugin.zsh.svg)](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
+* [mysql-colorize ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/mysql-colorize.svg)](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
+* [nice-exit-code ![GitHub stars](https://img.shields.io/github/stars/bric3/nice-exit-code.svg)](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
+* [node.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/node.plugin.zsh.svg)](https://github.com/srijanshetty/node.plugin.zsh) - Srijan Shetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present.
+* [oh-my-dogesh ![GitHub stars](https://img.shields.io/github/stars/keithhamilton/oh-my-dogesh.svg)](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+* [oh-my-zsh-dirstack ![GitHub stars](https://img.shields.io/github/stars/gepoch/oh-my-zsh-dirstack.svg)](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying dirstack info on a single line.
+* [oh-my-zsh-flow3-plugin ![GitHub stars](https://img.shields.io/github/stars/sandstorm/oh-my-zsh-flow3-plugin.svg)](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution.
+* [oh-my-zsh-jira-plus ![GitHub stars](https://img.shields.io/github/stars/gerges/oh-my-zsh-jira-plus.svg)](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line.
+* [oh-my-zsh-virtualenv-prompt ![GitHub stars](https://img.shields.io/github/stars/tonyseek/oh-my-zsh-virtualenv-prompt.svg)](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - A fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
+* [opp.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/opp.zsh.svg)](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
+* [osx-dev-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/marshallmick007/osx-dev-zsh-plugin.svg)](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install.
+* [otter ![GitHub stars](https://img.shields.io/github/stars/allanhortle/otter.svg)](https://github.com/allanhortle/otter) - Combination theme and plugin by Allan Hortle.
+* [pantheon-terminal-notify-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/deyvisonrocha/pantheon-terminal-notify-zsh-plugin.svg)](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - background notifications for long running commands. Supports Elementary OS Freya
+* [parallels-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/benclark/parallels-zsh-plugin.svg)](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
+* [pip-app ![GitHub stars](https://img.shields.io/github/stars/sharat87/pip-app.svg)](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
+* [pretty-time-zsh ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pretty-time-zsh.svg)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
+* [pure ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pure.svg)](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
+* [robo-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/robo-zsh-plugin.svg)](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
+* [rvm-zsh ![GitHub stars](https://img.shields.io/github/stars/johnhamelink/rvm-zsh.svg)](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
+* [send.zsh ![GitHub stars](https://img.shields.io/github/stars/robertzk/send.zsh.svg)](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
+* [sf2.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/sf2.plugin.zsh.svg)](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
+* [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
+* [snippets ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-snippets.svg)](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
+* [sugarfree ![GitHub stars](https://img.shields.io/github/stars/cbrock/sugar-free.svg)](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
+* [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
+* [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
+* [wd ![GitHub stars](https://img.shields.io/github/stars/mfaerevaag/wd.svg)](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
+* [yeoman-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/edouard-lopez/yeoman-zsh-plugin.svg)](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
+* [zaw ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zaw.svg)](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
+* [zce ![GitHub stars](https://img.shields.io/github/stars/hchbaw/zce.zsh.svg)](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
+* [zero ![GitHub stars](https://img.shields.io/github/stars/arlimus/zero.zsh.svg)](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
+* [zsh-256color ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-256color.svg)](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
+* [zsh-add-upstream ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-add-upstream.svg)](https://github.com/caarlos0/zsh-add-upstream) - Easily add the upstream remote to your git fork.
+* [zsh-autoenv ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-autoenv.svg)](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
+* [zsh-autosuggestions ![GitHub stars](https://img.shields.io/github/stars/tarruda/zsh-autosuggestions.svg)](https://github.com/tarruda/zsh-autosuggestions) - [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh.
+* [zsh-basex ![GitHub stars](https://img.shields.io/github/stars/dirkk/zsh-basex.svg)](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://www.basex.org) aliases for simplified usage.
+* [zsh-bash ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-bash.svg)](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
+* [zsh-bd ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-bd.svg)](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
+* [zsh-colors ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-colors.svg)](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
+* [zsh-dircolors-solarized ![GitHub stars](https://img.shields.io/github/stars/joel-porquet/zsh-dircolors-solarized.svg)](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
+* [zsh-directory-history ![GitHub stars](https://img.shields.io/github/stars/tymm/zsh-directory-history.svg)](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
+* [zsh-dwim ![GitHub stars](https://img.shields.io/github/stars/oknowton/zsh-dwim.svg)](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
+* [zsh-functional ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-functional.svg)](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
+* [zsh-geeknote ![GitHub stars](https://img.shields.io/github/stars/s7anley/zsh-geeknote.svg)](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
+* [zsh-git-sync ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-git-sync.svg)](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
+* [zsh-grunt-plugin ![GitHub stars](https://img.shields.io/github/stars/clauswitt/zsh-grunt-plugin.svg)](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
+* [zsh-gvm (horosgrisa) ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-gvm.svg)](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
+* [zsh-gvm (yerinle) ![GitHub stars](https://img.shields.io/github/stars/yerinle/zsh-gvm.svg)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm(Groovy enVironment Manager)
+* [zsh-history-substring-search ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-history-substring-search.svg)](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
+* [zsh-konsole-theme-changer ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-konsole-theme-changer.svg)](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
+* [zsh-manydots-magic ![GitHub stars](https://img.shields.io/github/stars/knu/zsh-manydots-magic.svg)](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
+* [zsh-nodejs-plugin ![GitHub stars](https://img.shields.io/github/stars/poying/zsh-nodejs-plugin.svg)](https://github.com/poying/zsh-nodejs-plugin) - Po-Ying Chen's Nodejs plugin for zsh.
+* [zsh-notify ![GitHub stars](https://img.shields.io/github/stars/marzocchi/zsh-notify.svg)](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
+* [zsh-open-pr ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-open-pr.svg)](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
+* [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/zsh-osx) - Add some common OS X related aliases and functions
+* [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
+* [zsh-plugin-ibtool ![GitHub stars](https://img.shields.io/github/stars/RudthMael/zsh-plugin-ibtool.svg)](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
+* [zsh-plugin-rails ![GitHub stars](https://img.shields.io/github/stars/paraqles/zsh-plugin-rails.svg)](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
+* [zsh-reentry-hook ![GitHub stars](https://img.shields.io/github/stars/RobSis/zsh-reentry-hook.svg)](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
+* [zsh-suffix-alias ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-suffix-alias.svg)](https://github.com/srijanshetty/zsh-suffix-alias): Directly open files in the shell using ZSH's suffix aliases.
+* [zsh-syntax-highlighting ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-syntax-highlighting.svg)](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
+* [zsh-t32 ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-t32.svg)](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
+* [zsh-url-highlighter ![GitHub stars](https://img.shields.io/github/stars/ascii-soup/zsh-url-highlighter.svg)](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
+* [zsh-vim-mode ![GitHub stars](https://img.shields.io/github/stars/sharat87/zsh-vim-mode.svg)](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
+* [zshmarks ![GitHub stars](https://img.shields.io/github/stars/jocelynmallon/zshmarks.svg)](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
 
 ## Themes
 
