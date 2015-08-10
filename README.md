@@ -210,13 +210,13 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [jcl-zsh-theme ![GitHub stars](https://img.shields.io/github/stars/jasonlewis/jcl-zsh-theme.svg)](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
 * [judgedim ![GitHub stars](https://img.shields.io/github/stars/judgedim/oh-my-zsh-judgedim-theme.svg)](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
-* [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/x/y.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
-* [megaprompt ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
+* [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [mindful-space ![GitHub stars](https://img.shields.io/github/stars/syndbg/mindful-space-zsh-theme.svg)](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind
-* [minimal ![GitHub stars](https://img.shields.io/github/stars/x/y.svg)](https://github.com/S1cK94/minimal) - S1ck94's minimal theme
+* [minimal ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/S1cK94/minimal) - S1ck94's minimal theme
 * [misa ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
 * [nanofish ![GitHub stars](https://img.shields.io/github/stars/tweekmonster/nanofish.svg)](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme
-* [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg ![GitHub stars](https://img.shields.io/github/stars/x/y.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic
+* [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - shows git/svn status including time since last commit, rvm status in prompt.
 * [pad ![GitHub stars](https://img.shields.io/github/stars/eproxus/pad.zsh-theme.svg)](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme
