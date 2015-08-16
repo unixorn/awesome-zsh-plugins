@@ -108,6 +108,7 @@ Not a framework, but still useful
 * [git-it-on.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-it-on.zsh.svg)](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 * [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
+* [grep2awk ![GitHub stars](https://img.shields.io/github/stars/joepvd/grep2awk.svg)](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat ![GitHub stars](https://img.shields.io/github/stars/robertzk/hipchat.zsh.svg)](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-hooks.svg)](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [jvm ![GitHub stars](https://img.shields.io/github/stars/mgryszko/jvm.svg)](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
@@ -164,6 +165,7 @@ Not a framework, but still useful
 * [zsh-grunt-plugin ![GitHub stars](https://img.shields.io/github/stars/clauswitt/zsh-grunt-plugin.svg)](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
 * [zsh-gvm (horosgrisa) ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-gvm.svg)](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
 * [zsh-gvm (yerinle) ![GitHub stars](https://img.shields.io/github/stars/yerinle/zsh-gvm.svg)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm (Groovy enVironment Manager)
+* [zsh-hints ![GitHub stars](https://img.shields.io/github/stars/joepvd/zsh-hints.svg)](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 * [zsh-history-substring-search ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-history-substring-search.svg)](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
 * [zsh-konsole-theme-changer ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-konsole-theme-changer.svg)](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
 * [zsh-manydots-magic ![GitHub stars](https://img.shields.io/github/stars/knu/zsh-manydots-magic.svg)](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
