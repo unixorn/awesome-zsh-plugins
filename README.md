@@ -133,7 +133,6 @@ Not a framework, but still useful
 * [parallels-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/benclark/parallels-zsh-plugin.svg)](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
 * [pip-app ![GitHub stars](https://img.shields.io/github/stars/sharat87/pip-app.svg)](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [pretty-time-zsh ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pretty-time-zsh.svg)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
-* [pure ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pure.svg)](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt
 * [robo-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/robo-zsh-plugin.svg)](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
 * [rvm-zsh ![GitHub stars](https://img.shields.io/github/stars/johnhamelink/rvm-zsh.svg)](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
 * [send.zsh ![GitHub stars](https://img.shields.io/github/stars/robertzk/send.zsh.svg)](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
