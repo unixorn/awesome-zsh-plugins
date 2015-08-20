@@ -151,6 +151,7 @@ Not a framework, but still useful
 * [zsh-add-upstream ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-add-upstream.svg)](https://github.com/caarlos0/zsh-add-upstream) - Easily add the upstream remote to your git fork.
 * [zsh-autoenv ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-autoenv.svg)](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
 * [zsh-autosuggestions ![GitHub stars](https://img.shields.io/github/stars/tarruda/zsh-autosuggestions.svg)](https://github.com/tarruda/zsh-autosuggestions) - [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh.
+* [zsh-async ![GitHub stars](https://img.shields.io/github/stars/mafredri/zsh-async.svg)](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in zsh without requiring any external tools.
 * [zsh-basex ![GitHub stars](https://img.shields.io/github/stars/dirkk/zsh-basex.svg)](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://www.basex.org) aliases for simplified usage.
 * [zsh-bash ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-bash.svg)](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
 * [zsh-bd ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-bd.svg)](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
