@@ -250,6 +250,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 Some of the themes listed here require Powerline-compatible fonts, here are a few:
 
 * [Awesome Terminal Fonts ![GitHub stars](https://img.shields.io/github/stars/gabrielelana/awesome-terminal-fonts.svg)](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts to have some nice monospaced Icons.
+* [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons and Powerline-Glyphs.
 * [Input Mono](http://input.fontbureau.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 * [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
 * [Powerline ![GitHub stars](https://img.shields.io/github/stars/powerline/fonts.svg)](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include powerline gylphs.
