@@ -114,7 +114,6 @@ Not a framework, but still useful
 * [jvm ![GitHub stars](https://img.shields.io/github/stars/mgryszko/jvm.svg)](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k ![GitHub stars](https://img.shields.io/github/stars/supercrabtree/k.svg)](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/d12frosted/kitsunebook.plugin.zsh.svg)](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
-* [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info
 * [lesaint-mvn ![GitHub stars](https://img.shields.io/github/stars/lesaint/lesaint-mvn.svg)](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mac-packaging ![GitHub stars](https://img.shields.io/github/stars/Temikus/mac-packaging.svg)](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
 * [mysql.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/mysql.plugin.zsh.svg)](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
@@ -212,6 +211,7 @@ If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test t
 * [itg ![GitHub stars](https://img.shields.io/github/stars/itsthatguy/itg.zsh-theme.svg)](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
 * [jcl-zsh-theme ![GitHub stars](https://img.shields.io/github/stars/jasonlewis/jcl-zsh-theme.svg)](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
 * [judgedim ![GitHub stars](https://img.shields.io/github/stars/judgedim/oh-my-zsh-judgedim-theme.svg)](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
+* [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
