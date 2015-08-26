@@ -138,7 +138,6 @@ Not a framework, but still useful
 * [sf2.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/sf2.plugin.zsh.svg)](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
 * [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
 * [snippets ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-snippets.svg)](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
-* [sugarfree ![GitHub stars](https://img.shields.io/github/stars/cbrock/sugar-free.svg)](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
 * [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
 * [wd ![GitHub stars](https://img.shields.io/github/stars/mfaerevaag/wd.svg)](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
@@ -236,6 +235,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [smiley ![GitHub stars](https://img.shields.io/github/stars/gsamokovarov/smiley.zsh-theme.svg)](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
 * [solarizsh ![GitHub stars](https://img.shields.io/github/stars/paddykontschak/Solarizsh.svg)](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
+* [sugarfree ![GitHub stars](https://img.shields.io/github/stars/cbrock/sugar-free.svg)](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes
 * [the-time-lord ![GitHub stars](https://img.shields.io/github/stars/jhwhite/the-time-lord.svg)](https://github.com/jhwhite/the-time-lord) - Based on gallifrey
 * [tvline ![GitHub stars](https://img.shields.io/github/stars/thvitt/tvline.svg)](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
 * [vinhnx ![GitHub stars](https://img.shields.io/github/stars/vinhnx/vinhnx.zsh-theme.svg)](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
