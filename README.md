@@ -185,7 +185,7 @@ Not a framework, but still useful
 
 ## Themes
 
-If you're using [Antigen](https://github.com/zsh-lovers/antigen), you can test these themes in a running zsh with `antigen theme githubuser/repo`. If you're using [zgen](https://github.com/tarjoilija/zgen), add them to your `init.zsh` with `zgen load githubuser/reponame`.
+If you're using [Antigen](https://github.com/zsh-users/antigen), you can test these themes in a running zsh with `antigen theme githubuser/repo`. If you're using [zgen](https://github.com/tarjoilija/zgen), add them to your `init.zsh` with `zgen load githubuser/reponame`.
 
 * [af-magic-mod](https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`
 * [alpharized ![GitHub stars](https://img.shields.io/github/stars/NicoSantangelo/Alpharized.svg)](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
@@ -331,4 +331,3 @@ I've documented some recommendations for writing a new plugin [here](https://git
 * [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of awesome open source sysadmin resources
 
 Find other useful awesome-* lists at the [awesome collection](https://github.com/sindresorhus/awesome)
-
