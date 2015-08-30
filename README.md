@@ -327,9 +327,15 @@ Most of these plugins can be installed by adding `zgen load githubuser/reponame`
 
 I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
 
-## Other lists
+## Other Resources
+
+### Other lists
 
 * [awesome-devenv](https://github.com/jondot/awesome-devenv) - A curated list of awesome tools, resources and workflow tips making an awesome development environment
 * [awesome-sysadmin](https://github.com/kahun/awesome-sysadmin) - A curated list of awesome open source sysadmin resources
 
 Find other useful awesome-* lists at the [awesome collection](https://github.com/sindresorhus/awesome)
+
+### Other References
+
+The [Zsh Reference Card](http://www.bash2zsh.com/zsh_refcard/refcard.pdf) and [zsh-lovers site](http://grml.org/zsh/zsh-lovers.html) are indispensable.
