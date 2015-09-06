@@ -201,6 +201,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [cute-theme ![GitHub stars](https://img.shields.io/github/stars/dogrocker/oh-my-zsh-powerline-cute-theme.svg)](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [docker-compose ![GitHub stars](https://img.shields.io/github/stars/sroze/docker-compose-zsh-plugin.svg)](https://github.com/sroze/docker-compose-zsh-plugin) Show docker container status in your prompt
 * [dracula ![GitHub stars](https://img.shields.io/github/stars/zenorocha/dracula-theme.svg)](https://github.com/zenorocha/dracula-theme) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh
+* [dropbox](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [excess ![GitHub stars](https://img.shields.io/github/stars/davydovanton/excess.zsh-theme.svg)](https://github.com/davydovanton/excess.zsh-theme) - Simple zsh color theme
 * [exercism ![GitHub stars](https://img.shields.io/github/stars/fabiokiatkowski/exercism.plugin.zsh.svg)](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/)
 * [frisk-red ![GitHub stars](https://img.shields.io/github/stars/aishsingh/zsh.svg)](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh
