@@ -257,8 +257,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 Some of the themes listed here require Powerline-compatible fonts, here are a few:
 
 * [Awesome Terminal Fonts ![GitHub stars](https://img.shields.io/github/stars/gabrielelana/awesome-terminal-fonts.svg)](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that includes some nice monospaced Icons.
-* [Fantasque Awesome Font ![GitHub stars](https://img.shields.io/github/stars/ztomer/fantasque_awesome_powerline.svg](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons and Powerline-Glyphs.
-* [fantasque-sans ![GitHub stars](https://img.shields.io/github/stars/belluzj/fantasque-sans.svg](https://github.com/belluzj/fantasque-sans) - Another powerline font
+* [Fantasque Awesome Font ![GitHub stars](https://img.shields.io/github/stars/ztomer/fantasque_awesome_powerline.svg)](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons and Powerline-Glyphs.
+* [fantasque-sans ![GitHub stars](https://img.shields.io/github/stars/belluzj/fantasque-sans.svg)](https://github.com/belluzj/fantasque-sans) - Another powerline font
 * [hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed specifically for source code.
 * [Input Mono](http://input.fontbureau.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 * [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
