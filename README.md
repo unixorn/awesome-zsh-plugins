@@ -296,8 +296,8 @@ These plugins add tab completion without adding extra functions or aliases.
 * [oh-my-zsh-nova ![GitHub stars](https://img.shields.io/github/stars/rbirnie/oh-my-zsh-nova.svg)](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for the nova so you don't need to remember all those pesky arguments
 * [oh-my-zsh-plugin-nvm ![GitHub stars](https://img.shields.io/github/stars/olesu/oh-my-zsh-plugin-nvm.svg)](https://github.com/olesu/oh-my-zsh-plugin-nvm) - Ole Sunde's nvm plugin for zsh
 * [oh-my-zsh_razor_plugin ![GitHub stars](https://img.shields.io/github/stars/dalang/oh-my-zsh_razor_plugin.svg)](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
-* [racket completion ![GitHub stars](https://img.shields.io/github/stars/racket/shell-completion.svg)](https://github.com/racket/shell-completion) - completion for [Racket](http://racket-lang.org).
 * [rake-completion.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/rake-completion.zshplugin.svg)](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
+* [racket completion ![GitHub stars](https://img.shields.io/github/stars/racket/shell-completion.svg)](https://github.com/racket/shell-completion) - completion for [Racket](http://racket-lang.org).
 * [tugboat ![GitHub stars](https://img.shields.io/github/stars/DimitriSteyaert/Zsh-tugboat.svg)](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
 * [umake ![GitHub stars](https://img.shields.io/github/stars/zlsun/umake.svg)](https://github.com/zlsun/umake) - tab completion for umake
 * [zsh-cabal-completion ![GitHub stars](https://img.shields.io/github/stars/ehamberg/zsh-cabal-completion.svg)](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
