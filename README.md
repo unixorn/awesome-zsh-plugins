@@ -139,6 +139,7 @@ Not a framework, but still useful
 * [pretty-time-zsh ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pretty-time-zsh.svg)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/robo-zsh-plugin.svg)](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
 * [rvm-zsh ![GitHub stars](https://img.shields.io/github/stars/johnhamelink/rvm-zsh.svg)](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
+* [saneopt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-saneopt.svg)](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
 * [safe-paste](https://github.com/oz/safe-paste) - safe-paste plugin. See [http://cirw.in/blog/bracketed-paste](http://cirw.in/blog/bracketed-paste)
 * [send.zsh ![GitHub stars](https://img.shields.io/github/stars/robertzk/send.zsh.svg)](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
 * [sf2.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/sf2.plugin.zsh.svg)](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
