@@ -97,6 +97,7 @@ Not a framework, but still useful
 * [caniuse.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/walesmd/caniuse.plugin.zsh.svg)](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
 * [cd-gitroot ![GitHub stars](https://img.shields.io/github/stars/mollifier/cd-gitroot.svg)](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
 * [cdbk ![GitHub stars](https://img.shields.io/github/stars/MikeDacre/cdbk.svg)](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
+* [cdr ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-cdr.svg)](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for zsh.
 * [copyzshell ![GitHub stars](https://img.shields.io/github/stars/rutchkiwi/copyzshell.svg)](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
 * [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
 * [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
