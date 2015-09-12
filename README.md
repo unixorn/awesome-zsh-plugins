@@ -87,6 +87,8 @@ Not a framework, but still useful
 * [alias-tips ![GitHub stars](https://img.shields.io/github/stars/djui/alias-tips.svg)](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
 * [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Insipred by alwaysontop plugin for bash
 * [ansiweather ![GitHub stars](https://img.shields.io/github/stars/fcambus/ansiweather.svg)](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols
+* [antigen-git-rebase [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-rebase.svg)](https://github.com/smallhadroncollider/antigen-git-rebase) - Antigen/zsh script to aid with Git rebasing
+* [antigen-git-store [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-store.svg)](https://github.com/smallhadroncollider/antigen-git-store) - Antigen/zsh script to store Git's current working directory. For working with Git between two computers without forcing arbitrary commits.
 * [anyframe ![GitHub stars](https://img.shields.io/github/stars/mollifier/anyframe.svg)](https://github.com/mollifier/anyframe) - peco/percol/fzf wrapper plugin for zsh.
 * [autoenv ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/autoenv.svg)](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
 * [auto-fu.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/auto-fu.zsh.svg)](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
