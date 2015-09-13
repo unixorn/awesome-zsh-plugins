@@ -123,6 +123,7 @@ Not a framework, but still useful
 * [kitsunebook.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/d12frosted/kitsunebook.plugin.zsh.svg)](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [lesaint-mvn ![GitHub stars](https://img.shields.io/github/stars/lesaint/lesaint-mvn.svg)](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mac-packaging ![GitHub stars](https://img.shields.io/github/stars/Temikus/mac-packaging.svg)](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
+* [mfunc ![GitHub stars](https://img.shields.io/github/stars/hlohm/mfunc.svg)](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
 * [mysql.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/mysql.plugin.zsh.svg)](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [mysql-colorize ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/mysql-colorize.svg)](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
 * [nice-exit-code ![GitHub stars](https://img.shields.io/github/stars/bric3/nice-exit-code.svg)](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
