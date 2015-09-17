@@ -86,13 +86,14 @@ Not a framework, but still useful
 
 * [accurev-zsh ![GitHub stars](https://img.shields.io/github/stars/dalefukami/accurev-zsh.svg)](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
 * [alias-tips ![GitHub stars](https://img.shields.io/github/stars/djui/alias-tips.svg)](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
-* [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Insipred by alwaysontop plugin for bash
+* [allergen ![GitHub stars](https://img.shields.io/github/stars/stanislas/allergen.svg)](https://github.com/stanislas/allergen) - collection of custom zsh plugins to use with antigen
+* [almostontop ![GitHub stars](https://img.shields.io/github/stars/Valiev/almostontop.svg)](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Insipred by alwaysontop plugin for bash
 * [ansiweather ![GitHub stars](https://img.shields.io/github/stars/fcambus/ansiweather.svg)](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols
 * [antigen-git-rebase [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-rebase.svg)](https://github.com/smallhadroncollider/antigen-git-rebase) - Antigen/zsh script to aid with Git rebasing
 * [antigen-git-store [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-store.svg)](https://github.com/smallhadroncollider/antigen-git-store) - Antigen/zsh script to store Git's current working directory. For working with Git between two computers without forcing arbitrary commits.
 * [anyframe ![GitHub stars](https://img.shields.io/github/stars/mollifier/anyframe.svg)](https://github.com/mollifier/anyframe) - peco/percol/fzf wrapper plugin for zsh.
-* [autoenv ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/autoenv.svg)](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
 * [auto-fu.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/auto-fu.zsh.svg)](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
+* [autoenv ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/autoenv.svg)](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
 * [autoupdate-antigen.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/autoupdate-antigen.zshplugin.svg)](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [blackbox ![GitHub stars](https://img.shields.io/github/stars/StackExchange/blackbox.svg)](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
 * [browse-commit ![GitHub stars](https://img.shields.io/github/stars/adolfoabegg/browse-commit.svg)](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
