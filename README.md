@@ -113,8 +113,8 @@ Not a framework, but still useful
 * [ghost-zeus ![GitHub stars](https://img.shields.io/github/stars/fontno/ghost_zeus.svg)](https://github.com/fontno/ghost_zeus) - Lets you use zeus with normal rails commands.
 * [git-aliases.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-aliases.zsh.svg)](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands.
 * [git-extra-commands ![GitHub stars](https://img.shields.io/github/stars/unixorn/git-extra-commands.svg)](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts packaged as a plugin.
-* [gitfast ![GitHub stars](https://img.shields.io/github/stars/tevren/gitfast-zsh-plugin.svg)](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [git-it-on.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-it-on.zsh.svg)](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
+* [gitfast ![GitHub stars](https://img.shields.io/github/stars/tevren/gitfast-zsh-plugin.svg)](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
 * [going_places ![GitHub stars](https://img.shields.io/github/stars/or17191/going_places.svg)](https://github.com/or17191/going_places) - plugin that helps to use, create and maintain a list of shell locations
@@ -127,8 +127,8 @@ Not a framework, but still useful
 * [lesaint-mvn ![GitHub stars](https://img.shields.io/github/stars/lesaint/lesaint-mvn.svg)](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mac-packaging ![GitHub stars](https://img.shields.io/github/stars/Temikus/mac-packaging.svg)](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
 * [mfunc ![GitHub stars](https://img.shields.io/github/stars/hlohm/mfunc.svg)](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
-* [mysql.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/mysql.plugin.zsh.svg)](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [mysql-colorize ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/mysql-colorize.svg)](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
+* [mysql.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/mysql.plugin.zsh.svg)](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [nice-exit-code ![GitHub stars](https://img.shields.io/github/stars/bric3/nice-exit-code.svg)](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
 * [node.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/node.plugin.zsh.svg)](https://github.com/srijanshetty/node.plugin.zsh) - Srijan Shetty's nodejs plugin for zsh with caching of nvm completions and autoloading of nvm if present.
 * [oh-my-dogesh ![GitHub stars](https://img.shields.io/github/stars/keithhamilton/oh-my-dogesh.svg)](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
@@ -145,8 +145,8 @@ Not a framework, but still useful
 * [pretty-time-zsh ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pretty-time-zsh.svg)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/robo-zsh-plugin.svg)](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
 * [rvm-zsh ![GitHub stars](https://img.shields.io/github/stars/johnhamelink/rvm-zsh.svg)](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
-* [saneopt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-saneopt.svg)](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
 * [safe-paste](https://github.com/oz/safe-paste) - safe-paste plugin. See [http://cirw.in/blog/bracketed-paste](http://cirw.in/blog/bracketed-paste)
+* [saneopt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-saneopt.svg)](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
 * [send.zsh ![GitHub stars](https://img.shields.io/github/stars/robertzk/send.zsh.svg)](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
 * [sf2.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/sf2.plugin.zsh.svg)](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
 * [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
