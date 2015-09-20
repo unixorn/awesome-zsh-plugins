@@ -261,7 +261,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) - When in a git repo, it shows the location from the git's root folder. When not in a git repo, it shows the path relative to home, `~`.
 * [glimmer ![GitHub stars](https://img.shields.io/github/stars/martnu/glimmer.svg)](https://github.com/martnu/glimmer) - Includes git branch, time and user@host
 * [hackersaurus ![GitHub stars](https://img.shields.io/github/stars/bhilburn/hackersaurus.svg)](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
-* [https://github.com/prikhi/molokai-powerline-zsh ![GitHub stars](https://img.shields.io/github/stars/prikhi/molokai-powerline-zsh.svg](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 * [intheloop-powerline ![GitHub stars](https://img.shields.io/github/stars/zyphrus/intheloop-powerline.svg)](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts
 * [itg ![GitHub stars](https://img.shields.io/github/stars/itsthatguy/itg.zsh-theme.svg)](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
 * [jcl-zsh-theme ![GitHub stars](https://img.shields.io/github/stars/jasonlewis/jcl-zsh-theme.svg)](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme
@@ -273,6 +272,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [mindful-space ![GitHub stars](https://img.shields.io/github/stars/syndbg/mindful-space-zsh-theme.svg)](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind
 * [minimal ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/S1cK94/minimal) - S1ck94's minimal theme
 * [misa ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme
+* [molokai-powerline-zsh ![GitHub stars](https://img.shields.io/github/stars/prikhi/molokai-powerline-zsh.svg](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 * [nanofish ![GitHub stars](https://img.shields.io/github/stars/tweekmonster/nanofish.svg)](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme
 * [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
