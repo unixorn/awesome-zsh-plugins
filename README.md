@@ -288,6 +288,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [racotecnic ![GitHub stars](https://img.shields.io/github/stars/elboletaire/zsh-theme-racotecnic.svg)](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git
 * [rummik/zsh-theme ![GitHub stars](https://img.shields.io/github/stars/rummik/zsh-theme.svg)](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker ![GitHub stars](https://img.shields.io/github/stars/tonyseek/oh-my-zsh-seeker-theme.svg)](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
+* [sinon ![GitHub stars](https://img.shields.io/github/stars/ramonmcros/k-kinzal/oh-my-zsh-sinon-theme.svg)](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme
 * [skeletor-syntax ![GitHub stars](https://img.shields.io/github/stars/ramonmcros/skeletor-syntax.svg)](https://github.com/ramonmcros/skeletor-syntax) - Theme collection for Atom, Prism and Zsh inspired by Skeletor from He-Man and the Masters of the Universe
 * [smiley ![GitHub stars](https://img.shields.io/github/stars/gsamokovarov/smiley.zsh-theme.svg)](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces
 * [solarizsh ![GitHub stars](https://img.shields.io/github/stars/paddykontschak/Solarizsh.svg)](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized)
