@@ -293,6 +293,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [prezto_powerline ![GitHub stars](https://img.shields.io/github/stars/davidjrice/prezto_powerline.svg)](https://github.com/davidjrice/prezto_powerline) - Powerline for prezto. Shows git information, RVM version.
 * [pure ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pure.svg)](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [racotecnic ![GitHub stars](https://img.shields.io/github/stars/elboletaire/zsh-theme-racotecnic.svg)](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git
+* [remiii ![GitHub stars](https://img.shields.io/github/stars/Remiii/remiii.zsh-theme.svg)](https://github.com/Remiii/remiii.zsh-theme) - Based on agnoster, optimized for solarized terminal themes
 * [rummik/zsh-theme ![GitHub stars](https://img.shields.io/github/stars/rummik/zsh-theme.svg)](https://github.com/rummik/zsh-theme) Rummik's theme
 * [seeker ![GitHub stars](https://img.shields.io/github/stars/tonyseek/oh-my-zsh-seeker-theme.svg)](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts
 * [sinon ![GitHub stars](https://img.shields.io/github/stars/ramonmcros/k-kinzal/oh-my-zsh-sinon-theme.svg)](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme
