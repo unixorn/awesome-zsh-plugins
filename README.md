@@ -159,6 +159,7 @@ Not a framework, but still useful
 * [zaw ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zaw.svg)](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce ![GitHub stars](https://img.shields.io/github/stars/hchbaw/zce.zsh.svg)](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
 * [zero ![GitHub stars](https://img.shields.io/github/stars/arlimus/zero.zsh.svg)](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
+* [zinfo_line ![GitHub stars](https://img.shields.io/github/stars/kmhjs/zinfo_line.svg)](https://github.com/kmhjs/zinfo_line) - Makes more information available to zsh themes
 * [zsh-256color ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-256color.svg)](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
 * [zsh-add-upstream ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-add-upstream.svg)](https://github.com/caarlos0/zsh-add-upstream) - Easily add the upstream remote to your git fork.
 * [zsh-async ![GitHub stars](https://img.shields.io/github/stars/mafredri/zsh-async.svg)](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in zsh without requiring any external tools.
