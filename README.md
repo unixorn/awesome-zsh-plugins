@@ -103,6 +103,7 @@ Not a framework, but still useful
 * [cdbk ![GitHub stars](https://img.shields.io/github/stars/MikeDacre/cdbk.svg)](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
 * [cdr ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-cdr.svg)](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for zsh.
 * [copyzshell ![GitHub stars](https://img.shields.io/github/stars/rutchkiwi/copyzshell.svg)](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
+* [crayon-syntax-zsh ![GitHub stars](https://img.shields.io/github/stars/Stibbons/crayon-syntax-zsh.svg)](https://github.com/Stibbons/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress
 * [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
 * [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools ![GitHub stars](https://img.shields.io/github/stars/jgrowl/depot_tools.svg)](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
