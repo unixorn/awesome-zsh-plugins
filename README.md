@@ -267,6 +267,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [frisk-red ![GitHub stars](https://img.shields.io/github/stars/aishsingh/zsh.svg)](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh
 * [furio ![GitHub stars](https://img.shields.io/github/stars/hectorpalmatellez/furio-theme.svg)](https://github.com/hectorpalmatellez/furio-theme) - Fork of the Cloud oh-my-zsh theme. with different colors and emojis
 * [gawaine ![GitHub stars](https://img.shields.io/github/stars/nicolaracco/gawaine.zsh-theme.svg)](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
+* [girazz ![GitHub stars](https://img.shields.io/github/stars/mdentremont/girazz.svg)](https://github.com/mdentremont/girazz) - modification to the gnzh theme which adds VI mode to the right prompt
 * [gitsome ![GitHub stars](https://img.shields.io/github/stars/mtully/gitsome.svg)](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
 * [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) - When in a git repo, it shows the location from the git's root folder. When not in a git repo, it shows the path relative to home, `~`.
 * [glimmer ![GitHub stars](https://img.shields.io/github/stars/martnu/glimmer.svg)](https://github.com/martnu/glimmer) - Includes git branch, time and user@host
