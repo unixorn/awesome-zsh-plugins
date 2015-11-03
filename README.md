@@ -187,6 +187,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-nodejs-plugin ![GitHub stars](https://img.shields.io/github/stars/poying/zsh-nodejs-plugin.svg)](https://github.com/poying/zsh-nodejs-plugin) - Po-Ying Chen's Nodejs plugin for zsh.
 * [zsh-notify ![GitHub stars](https://img.shields.io/github/stars/marzocchi/zsh-notify.svg)](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-open-pr.svg)](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
+* [zsh-opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 * [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/dotstrap-osx) - Add some common OS X related aliases and functions
 * [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool ![GitHub stars](https://img.shields.io/github/stars/RudthMael/zsh-plugin-ibtool.svg)](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
@@ -195,6 +196,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-suffix-alias ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-suffix-alias.svg)](https://github.com/srijanshetty/zsh-suffix-alias): Directly open files in the shell using ZSH's suffix aliases.
 * [zsh-syntax-highlighting ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-syntax-highlighting.svg)](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
 * [zsh-t32 ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-t32.svg)](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
+* [zsh-titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for tmux and xterm-compatible terminals.
 * [zsh-tmux-simple](https://github.com/TBSliver/zsh-plugin-tmux-simple) - Simple plugin for using tmux with zsh
 * [zsh-url-highlighter ![GitHub stars](https://img.shields.io/github/stars/ascii-soup/zsh-url-highlighter.svg)](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [zsh-vim-mode ![GitHub stars](https://img.shields.io/github/stars/sharat87/zsh-vim-mode.svg)](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
