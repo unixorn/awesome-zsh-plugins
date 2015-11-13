@@ -110,6 +110,7 @@ Not a framework, but still useful
 * [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools ![GitHub stars](https://img.shields.io/github/stars/jgrowl/depot_tools.svg)](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [elixir-oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/gusaiani/elixir-oh-my-zsh.svg)](https://github.com/gusaiani/elixir-oh-my-zsh) - Oh My Zsh plugin for Elixir, IEX, Mix and Phoenix
+* [emoji-cli ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/emoji-cli.svg)](https://github.com/b4b4r07/emoji-cli) - :scream: Emoji completion on the command line
 * [enhancd ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/enhancd.svg)](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command
 * [fzf-marks ![GitHub stars](https://img.shields.io/github/stars/uvaes/fzf-marks.svg)](https://github.com/uvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in Bash and Zsh, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
 * [get-jquery ![GitHub stars](https://img.shields.io/github/stars/voronkovich/get-jquery.plugin.zsh.svg)](https://github.com/voronkovich/get-jquery.plugin.zsh) - Plugin for fast downloading jQuery library from code.jquery.com
