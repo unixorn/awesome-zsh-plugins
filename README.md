@@ -73,7 +73,7 @@ Not a framework, but still useful
 
 ### Antigen
 * [Using Antigen to Manage your Zsh installation](http://danryan.co/using-antigen-for-zsh.html) - Dan Ryan's blog post on switching to Antigen.
-* [http://mgdm.net/weblog/zsh-antigen](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
+* [http://mgdm.net/weblog/zsh-antigen/](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
 
 ### Oh-My-Zsh
 * [ZSH Gem 24](http://www.refining-linux.org/archives/59/ZSH-Gem-24-ZSH-frameworks/) - Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery.
@@ -126,7 +126,7 @@ Not a framework, but still useful
 * [hipchat ![GitHub stars](https://img.shields.io/github/stars/robertzk/hipchat.zsh.svg)](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-hooks.svg)](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [jvm ![GitHub stars](https://img.shields.io/github/stars/mgryszko/jvm.svg)](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
-* [k ![GitHub stars](https://img.shields.io/github/stars/supercrabtree/k.svg)](https://github.com/supercrabtree/k) - Directory listings for zsh with git features.
+* [k ![GitHub stars](https://img.shields.io/github/stars/supercrabtree/k.svg)](https://github.com/rimraf/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/d12frosted/kitsunebook.plugin.zsh.svg)](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [lesaint-mvn ![GitHub stars](https://img.shields.io/github/stars/lesaint/lesaint-mvn.svg)](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [mac-packaging ![GitHub stars](https://img.shields.io/github/stars/Temikus/mac-packaging.svg)](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
@@ -154,11 +154,11 @@ Not a framework, but still useful
 * [saneopt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-saneopt.svg)](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
 * [send.zsh ![GitHub stars](https://img.shields.io/github/stars/robertzk/send.zsh.svg)](https://github.com/robertzk/send.zsh) - Shortcut script for zsh.
 * [sf2.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/sf2.plugin.zsh.svg)](https://github.com/voronkovich/sf2.plugin.zsh) - ZSH plugin for Symfony2.
-* [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/secrettriangle/smart-cd) - Runs `ls` and `git status` after chpwd.
+* [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 * [snippets ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-snippets.svg)](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 * [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
-* [wakatime ![GitHub stars](https://img.shields.io/github/stars/wbinglee/zsh-wakatime.svg)](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](http://wakatime.com/)
+* [wakatime ![GitHub stars](https://img.shields.io/github/stars/wbinglee/zsh-wakatime.svg)](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
 * [wd ![GitHub stars](https://img.shields.io/github/stars/mfaerevaag/wd.svg)](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
 * [yeoman-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/edouard-lopez/yeoman-zsh-plugin.svg)](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
 * [zaw ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zaw.svg)](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
@@ -170,7 +170,7 @@ Not a framework, but still useful
 * [zsh-async ![GitHub stars](https://img.shields.io/github/stars/mafredri/zsh-async.svg)](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in zsh without requiring any external tools.
 * [zsh-autoenv ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-autoenv.svg)](https://github.com/Tarrasch/zsh-autoenv) - If a directory contains a .env file, it will automatically be executed when you cd into it.
 * [zsh-autosuggestions ![GitHub stars](https://img.shields.io/github/stars/tarruda/zsh-autosuggestions.svg)](https://github.com/tarruda/zsh-autosuggestions) - [Fish](http://fishshell.com/)-like fast/unobtrusive autosuggestions for zsh.
-* [zsh-basex ![GitHub stars](https://img.shields.io/github/stars/dirkk/zsh-basex.svg)](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://www.basex.org) aliases for simplified usage.
+* [zsh-basex ![GitHub stars](https://img.shields.io/github/stars/dirkk/zsh-basex.svg)](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://basex.org/) aliases for simplified usage.
 * [zsh-bash ![GitHub stars](https://img.shields.io/github/stars/chrissicool/zsh-bash.svg)](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like Bash does. It also enables Bash completions.
 * [zsh-bd ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-bd.svg)](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`
 * [zsh-colors ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-colors.svg)](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
@@ -191,7 +191,7 @@ Not a framework, but still useful
 * [zsh-nodejs-plugin ![GitHub stars](https://img.shields.io/github/stars/poying/zsh-nodejs-plugin.svg)](https://github.com/poying/zsh-nodejs-plugin) - Po-Ying Chen's Nodejs plugin for zsh.
 * [zsh-notify ![GitHub stars](https://img.shields.io/github/stars/marzocchi/zsh-notify.svg)](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-open-pr.svg)](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
-* [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/zsh-osx) - Add some common OS X related aliases and functions
+* [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/dotstrap-osx) - Add some common OS X related aliases and functions
 * [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool ![GitHub stars](https://img.shields.io/github/stars/RudthMael/zsh-plugin-ibtool.svg)](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
 * [zsh-plugin-rails ![GitHub stars](https://img.shields.io/github/stars/paraqles/zsh-plugin-rails.svg)](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
@@ -217,7 +217,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [codeception-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/codeception-zsh-plugin.svg)](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
 * [codemachine ![GitHub stars](https://img.shields.io/github/stars/CodeMonkeyMike/ZshTheme-CodeMachine.svg)](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via ssh, return code of last command
 * [dbic ![GitHub stars](https://img.shields.io/github/stars/lejeunerenard/dbic-migration-env.svg)](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
-* [docker-enter-completion ![GitHub stars](https://img.shields.io/github/stars/lejeunerenard/dbic-migration-env.svg)](https://github.com/runcom/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
+* [docker-enter-completion ![GitHub stars](https://img.shields.io/github/stars/lejeunerenard/dbic-migration-env.svg)](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
 * [docker-helpers ![GitHub stars](https://img.shields.io/github/stars/unixorn/docker-helpers.zshplugin.svg)](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts
 * [docker-zsh ![GitHub stars](https://img.shields.io/github/stars/adrien-f/docker-zsh.svg)](https://github.com/adrien-f/docker-zsh) - Adds tab completion for docker
 * [docker-zsh-completion ![GitHub stars](https://img.shields.io/github/stars/felixr/docker-zsh-completion.svg)](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
@@ -252,7 +252,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [alpharized ![GitHub stars](https://img.shields.io/github/stars/NicoSantangelo/Alpharized.svg)](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
 * [angry fly ![GitHub stars](https://img.shields.io/github/stars/russjohnson/angry-fly-zsh.svg)](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt
 * [bashi ![GitHub stars](https://img.shields.io/github/stars/eli-oat/bashi.svg)](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
-* [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/0xfan/blinks-xfan) - Based on the existing theme blinks
+* [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks
 * [bluelines ![GitHub stars](https://img.shields.io/github/stars/apbarrero/bluelines.svg)](https://github.com/apbarrero/bluelines) - Clear and blue theme
 * [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) -  Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [candy-light ![GitHub stars](https://img.shields.io/github/stars/RanaExMachina/oh-my-zsh-candy-light.svg)](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme
