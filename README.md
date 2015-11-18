@@ -281,6 +281,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) - When in a git repo, it shows the location from the git's root folder. When not in a git repo, it shows the path relative to home, `~`.
 * [glimmer ![GitHub stars](https://img.shields.io/github/stars/martnu/glimmer.svg)](https://github.com/martnu/glimmer) - Includes git branch, time and user@host
 * [hackersaurus ![GitHub stars](https://img.shields.io/github/stars/bhilburn/hackersaurus.svg)](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k)
+* [honukai-iterm-zsh ![GitHub stars](https://img.shields.io/github/stars/oskarkrawczyk/honukai-iterm-zsh.svg)](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for Oh My ZSH and iTerm
 * [horse-sh ![GitHub stars](https://img.shields.io/github/stars/emileswarts/horse-sh.svg)](https://github.com/emileswarts/horse-sh) - A very minimal brown/red zsh theme
 * [intheloop-powerline ![GitHub stars](https://img.shields.io/github/stars/zyphrus/intheloop-powerline.svg)](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts
 * [itg ![GitHub stars](https://img.shields.io/github/stars/itsthatguy/itg.zsh-theme.svg)](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme
