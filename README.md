@@ -329,11 +329,11 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 
 * [Awesome Terminal Fonts ![GitHub stars](https://img.shields.io/github/stars/gabrielelana/awesome-terminal-fonts.svg)](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that includes some nice monospaced Icons.
 * [Fantasque Awesome Font ![GitHub stars](https://img.shields.io/github/stars/ztomer/fantasque_awesome_powerline.svg)](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons and Powerline-Glyphs.
-* [Fantasque-sans ![GitHub stars](https://img.shields.io/github/stars/belluzj/fantasque-sans.svg)](https://github.com/belluzj/fantasque-sans) - Another powerline font
+* [Fantasque-sans ![GitHub stars](https://img.shields.io/github/stars/belluzj/fantasque-sans.svg)](https://github.com/belluzj/fantasque-sans) - Another powerline font.
 * [Hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed specifically for source code.
 * [Input Mono](http://input.fontbureau.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 * [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
-* [nerd fonts ![GitHub stars](https://img.shields.io/github/stars/ryanoasis/nerd-fonts.svg)](https://github.com/ryanoasis/nerd-fonts) - A collection of over 20 patched fonts (over 1,700 variations) & fontforge font patcher python script for powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more
+* [nerd fonts ![GitHub stars](https://img.shields.io/github/stars/ryanoasis/nerd-fonts.svg)](https://github.com/ryanoasis/nerd-fonts) - A collection of over 20 patched fonts (over 1,700 variations) & fontforge font patcher python script for powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more.
 * [Powerline patched font collection ![GitHub stars](https://img.shields.io/github/stars/powerline/fonts.svg)](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include powerline gylphs.
 
 ## Installation
