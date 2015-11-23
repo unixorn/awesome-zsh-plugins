@@ -55,10 +55,6 @@ These frameworks make customizing your zsh setup easier.
 * [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.
 * [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
 
-Not a framework, but still useful
-
-* [zshdb ![GitHub stars](https://img.shields.io/github/stars/rocky/zshdb.svg)](https://github.com/rocky/zshdb) - A ZSH debugger
-
 ## Tutorials
 
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
@@ -373,6 +369,10 @@ Most of these plugins can be installed by adding `zgen load githubuser/reponame`
 I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
 
 ## Other Resources
+
+### ZSH Tools
+
+* [zshdb ![GitHub stars](https://img.shields.io/github/stars/rocky/zshdb.svg)](https://github.com/rocky/zshdb) - A ZSH debugger
 
 ### Other lists
 
