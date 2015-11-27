@@ -11,6 +11,23 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Frameworks](#frameworks)
+  - [[alf ![GitHub stars](https://img.shields.io/github/stars/psyrendust/alf.svg)](https://github.com/psyrendust/alf)](#alf-github-starshttpsimgshieldsiogithubstarspsyrendustalfsvghttpsgithubcompsyrendustalf)
+  - [[ant-zsh ![GitHub stars](https://img.shields.io/github/stars/anthraxx/ant-zsh.svg)](https://github.com/anthraxx/ant-zsh)](#ant-zsh-github-starshttpsimgshieldsiogithubstarsanthraxxant-zshsvghttpsgithubcomanthraxxant-zsh)
+  - [[antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/caarlos0/antibody)](#antibody-github-starshttpsimgshieldsiogithubstarscaarlos0antibodysvghttpsgithubcomcaarlos0antibody)
+  - [[antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs)](#antigen-hs-github-starshttpsimgshieldsiogithubstarstarraschantigen-hssvghttpsgithubcomtarraschantigen-hs)
+  - [[antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen)](#antigen-github-starshttpsimgshieldsiogithubstarszsh-usersantigensvghttpsgithubcomzsh-usersantigen)
+  - [[dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh)](#dotzsh-github-starshttpsimgshieldsiogithubstarsdotphilesdotzshsvghttpsgithubcomdotphilesdotzsh)
+  - [[fresh ![GitHub stars](https://img.shields.io/github/stars/freshshell/fresh.svg)](https://github.com/freshshell/fresh)](#fresh-github-starshttpsimgshieldsiogithubstarsfreshshellfreshsvghttpsgithubcomfreshshellfresh)
+  - [[oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/robbyrussell/oh-my-zsh.svg)](http://ohmyz.sh/)](#oh-my-zsh-github-starshttpsimgshieldsiogithubstarsrobbyrusselloh-my-zshsvghttpohmyzsh)
+  - [[prezto ![GitHub stars](https://img.shields.io/github/stars/sorin-ionescu/prezto.svg)](https://github.com/sorin-ionescu/prezto)](#prezto-github-starshttpsimgshieldsiogithubstarssorin-ionescupreztosvghttpsgithubcomsorin-ionescuprezto)
+  - [[pumice ![GitHub stars](https://img.shields.io/github/stars/ryutamaki/pumice.svg)](https://github.com/ryutamaki/pumice)](#pumice-github-starshttpsimgshieldsiogithubstarsryutamakipumicesvghttpsgithubcomryutamakipumice)
+  - [[zeesh ![GitHub stars](https://img.shields.io/github/stars/zeekay/zeesh.svg)](https://github.com/zeekay/zeesh)](#zeesh-github-starshttpsimgshieldsiogithubstarszeekayzeeshsvghttpsgithubcomzeekayzeesh)
+  - [[zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen)](#zgen-github-starshttpsimgshieldsiogithubstarstarjoilijazgensvghttpsgithubcomtarjoilijazgen)
+  - [[zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)](#zilsh-github-starshttpsimgshieldsiogithubstarszilshzilshsvghttpsgithubcomzilshzilsh)
+  - [[zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo)](#zoppo-github-starshttpsimgshieldsiogithubstarszoppozopposvghttpsgithubcomzoppozoppo)
+  - [[zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)](#zplug-github-starshttpsimgshieldsiogithubstarsb4b4r07zplugsvghttpsgithubcomb4b4r07zplug)
+  - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm---plugin-manager-for-zsh-similar-to-vim-plug)
+  - [[ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.](#ztanesh-github-starshttpsimgshieldsiogithubstarsmiohtamaztaneshsvghttpsgithubcommiohtamaztanesh---improve-your-unix-command-line-experience-and-productivity-with-the-the-configuration-provided-by-ztanesh-project-the-tools-will-make-your-shell-more-powerful-and-easier-to-use)
 - [Tutorials](#tutorials)
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
@@ -27,6 +44,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
+  - [ZSH Tools](#zsh-tools)
   - [Other lists](#other-lists)
   - [Other References](#other-references)
 
@@ -38,23 +56,54 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 These frameworks make customizing your zsh setup easier.
 
-* [alf ![GitHub stars](https://img.shields.io/github/stars/psyrendust/alf.svg)](https://github.com/psyrendust/alf) - Alf is an out of this world super fast and configurable framework for zsh; it's modeled after Prezto and Antigen while utilizing Oh My Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
-* [ant-zsh ![GitHub stars](https://img.shields.io/github/stars/anthraxx/ant-zsh.svg)](https://github.com/anthraxx/ant-zsh) - Tiny and lightweight ZSH configuration environment for special customization needs. It includes plugins, themes and a basic convenient setup.
-* [antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/caarlos0/antibody) - A simpler and faster replacement for antigen written in Go that can do stuff in parallel.
-* [antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs) - A replacement for antigen optimized for a low overhead when starting up the shell.
-* [antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen) - Antigen is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
-* [dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh) - Dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
-* [fresh ![GitHub stars](https://img.shields.io/github/stars/freshshell/fresh.svg)](https://github.com/freshshell/fresh) - A framework to keep your dotfiles fresh.
-* [oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/robbyrussell/oh-my-zsh.svg)](http://ohmyz.sh/) - A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
-* [prezto ![GitHub stars](https://img.shields.io/github/stars/sorin-ionescu/prezto.svg)](https://github.com/sorin-ionescu/prezto) - Prezto enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
-* [pumice ![GitHub stars](https://img.shields.io/github/stars/ryutamaki/pumice.svg)](https://github.com/ryutamaki/pumice) - A lightweight plugin manager for zsh.
-* [zeesh ![GitHub stars](https://img.shields.io/github/stars/zeekay/zeesh.svg)](https://github.com/zeekay/zeesh) - Zeesh is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
-* [zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen) - A lightweight plugin manager for ZSH inspired by antigen, but optimized for speed when starting a new shell. Can load oh-my-zsh compatible plugins and themes.
-* [zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh) - A zsh config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
-* [zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo) - The crippled configuration framework for Zsh. As an italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
-* [zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug) - :hibiscus: A next-generation zsh plugin manager
-* [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.
-* [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
+### [alf ![GitHub stars](https://img.shields.io/github/stars/psyrendust/alf.svg)](https://github.com/psyrendust/alf)
+Alf is an out of this world super fast and configurable framework for zsh; it's modeled after Prezto and Antigen while utilizing Oh My Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
+
+### [ant-zsh ![GitHub stars](https://img.shields.io/github/stars/anthraxx/ant-zsh.svg)](https://github.com/anthraxx/ant-zsh)
+Tiny and lightweight ZSH configuration environment for special customization needs. It includes plugins, themes and a basic convenient setup.
+
+### [antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/caarlos0/antibody)
+A simpler and faster replacement for antigen written in Go that can do stuff in parallel.
+
+### [antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs)
+A replacement for antigen optimized for a low overhead when starting up the shell.
+
+### [antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen)
+Antigen is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
+
+### [dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh)
+Dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
+
+### [fresh ![GitHub stars](https://img.shields.io/github/stars/freshshell/fresh.svg)](https://github.com/freshshell/fresh)
+A framework to keep your dotfiles fresh.
+
+### [oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/robbyrussell/oh-my-zsh.svg)](http://ohmyz.sh/)
+A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
+
+### [prezto ![GitHub stars](https://img.shields.io/github/stars/sorin-ionescu/prezto.svg)](https://github.com/sorin-ionescu/prezto)
+Prezto enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
+
+### [pumice ![GitHub stars](https://img.shields.io/github/stars/ryutamaki/pumice.svg)](https://github.com/ryutamaki/pumice)
+A lightweight plugin manager for zsh.
+
+### [zeesh ![GitHub stars](https://img.shields.io/github/stars/zeekay/zeesh.svg)](https://github.com/zeekay/zeesh)
+Zeesh is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+
+### [zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen)
+A lightweight plugin manager for ZSH inspired by antigen, but optimized for speed when starting a new shell. Can load oh-my-zsh compatible plugins and themes.
+
+### [zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)
+A zsh config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
+
+### [zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo)
+The crippled configuration framework for Zsh. As an italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
+
+### [zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)
+:hibiscus: A next-generation zsh plugin manager
+
+### [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.
+
+### [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
 
 ## Tutorials
 
