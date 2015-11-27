@@ -52,6 +52,7 @@ These frameworks make customizing your zsh setup easier.
 * [zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen) - A lightweight plugin manager for ZSH inspired by antigen, but optimized for speed when starting a new shell. Can load oh-my-zsh compatible plugins and themes.
 * [zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh) - A zsh config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
 * [zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo) - The crippled configuration framework for Zsh. As an italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
+* [zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug) - :hibiscus: A next-generation zsh plugin manager
 * [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.
 * [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
 
