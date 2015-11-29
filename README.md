@@ -26,8 +26,8 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)](#zilsh-github-starshttpsimgshieldsiogithubstarszilshzilshsvghttpsgithubcomzilshzilsh)
   - [[zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo)](#zoppo-github-starshttpsimgshieldsiogithubstarszoppozopposvghttpsgithubcomzoppozoppo)
   - [[zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)](#zplug-github-starshttpsimgshieldsiogithubstarsb4b4r07zplugsvghttpsgithubcomb4b4r07zplug)
-  - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm---plugin-manager-for-zsh-similar-to-vim-plug)
-  - [[ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.](#ztanesh-github-starshttpsimgshieldsiogithubstarsmiohtamaztaneshsvghttpsgithubcommiohtamaztanesh---improve-your-unix-command-line-experience-and-productivity-with-the-the-configuration-provided-by-ztanesh-project-the-tools-will-make-your-shell-more-powerful-and-easier-to-use)
+  - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm)
+  - [[ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh)](#ztanesh-github-starshttpsimgshieldsiogithubstarsmiohtamaztaneshsvghttpsgithubcommiohtamaztanesh)
 - [Tutorials](#tutorials)
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
@@ -75,7 +75,7 @@ Antigen is a small set of functions that help you easily manage your shell (zsh)
 Dotzsh strives to be platform and version independent, some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
 
 ### [fresh ![GitHub stars](https://img.shields.io/github/stars/freshshell/fresh.svg)](https://github.com/freshshell/fresh)
-A framework to keep your dotfiles fresh.
+fresh is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as Bundler for your dot files.
 
 ### [oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/robbyrussell/oh-my-zsh.svg)](http://ohmyz.sh/)
 A community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.
@@ -90,7 +90,7 @@ A lightweight plugin manager for zsh.
 Zeesh is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 
 ### [zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen)
-A lightweight plugin manager for ZSH inspired by antigen, but optimized for speed when starting a new shell. Can load oh-my-zsh compatible plugins and themes.
+A lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static init.zsh file which does nothing but sources your plugins and appends them to fpath. The downside is that you have to refresh the init script manually with zgen reset whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes.
 
 ### [zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)
 A zsh config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
@@ -101,9 +101,11 @@ The crippled configuration framework for Zsh. As an italian saying goes: "chi va
 ### [zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)
 :hibiscus: A next-generation zsh plugin manager
 
-### [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM) - Plugin manager for zsh similar to vim-plug.
+### [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)
+ZPM ( Zsh plugin manager ) is an yet another plugin manager for [zsh](http://www.zsh.org/) similar to vim-plug. ZPM is compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 
-### [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh) - Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
+### [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh)
+Improve your UNIX command line experience and productivity with the the configuration provided by ztanesh project: the tools will make your shell more powerful and easier to use.
 
 ## Tutorials
 
