@@ -132,6 +132,9 @@ Improve your UNIX command line experience and productivity with the the configur
 * [Ditching oh-my-zsh for prezto](https://linhmtran168.github.io/blog/2013/12/15/ditching-oh-my-zsh-for-prezto/) - Linh M. Tran's post about transitioning to Prezto from Oh-My-Zsh.
 * [Migrate from Oh-My-Zsh to Prezto](http://jeromedalbert.com/migrate-from-oh-my-zsh-to-prezto/) - Jerome Dalbert's blog post on migrating to Prezto.
 
+### Zgen
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using zsh with zgen. This includes a curated collection of plugins, and will automatically configure zsh to use zgen to load them.
+
 ## Plugins
 
 * [accurev-zsh ![GitHub stars](https://img.shields.io/github/stars/dalefukami/accurev-zsh.svg)](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
