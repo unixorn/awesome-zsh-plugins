@@ -32,6 +32,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Prezto](#prezto)
+  - [Zgen](#zgen)
 - [Plugins](#plugins)
 - [Even more completions](#even-more-completions)
 - [Themes](#themes)
