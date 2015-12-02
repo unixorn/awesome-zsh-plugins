@@ -72,11 +72,11 @@ These frameworks make customizing your zsh setup easier.
 
 ### [antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs)
 
-**antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell.
+**antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
 
 ### [antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen)
 
-**Antigen** is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins.
+**Antigen** is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
 
 ### [dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh)
 
@@ -104,7 +104,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with zgen reset whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes.
+**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with zgen reset whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
 
 ### [zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)
 
