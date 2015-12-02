@@ -29,6 +29,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm)
   - [[ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh)](#ztanesh-github-starshttpsimgshieldsiogithubstarsmiohtamaztaneshsvghttpsgithubcommiohtamaztanesh)
 - [Tutorials](#tutorials)
+  - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Prezto](#prezto)
