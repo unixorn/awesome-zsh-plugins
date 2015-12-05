@@ -379,6 +379,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [molokai-powerline-zsh ![GitHub stars](https://img.shields.io/github/stars/prikhi/molokai-powerline-zsh.svg)](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 * [nanofish ![GitHub stars](https://img.shields.io/github/stars/tweekmonster/nanofish.svg)](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 * [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
+* [odin ![GitHub stars](https://img.shields.io/github/stars/tylerreckart/odin.svg)](https://github.com/tylerreckart/odin) - Odin is a git-flavored zsh theme.
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh.
 * [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - shows git/svn status including time since last commit, rvm status in prompt.
 * [pad ![GitHub stars](https://img.shields.io/github/stars/eproxus/pad.zsh-theme.svg)](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
