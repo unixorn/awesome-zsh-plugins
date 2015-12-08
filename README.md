@@ -369,6 +369,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [judgedim ![GitHub stars](https://img.shields.io/github/stars/judgedim/oh-my-zsh-judgedim-theme.svg)](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu ![GitHub stars](https://img.shields.io/github/stars/kegonomics/klendathu.svg)](https://github.com/kegonomics/klendathu) - uses Powerline iconsolas.
+* [lambda ![GitHub stars](https://img.shields.io/github/stars/halfo/lambda-mod-zsh-theme.svg)](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [mdx-powerline ![GitHub stars](https://img.shields.io/github/stars/Mudox/mdx-powerline.zsh-theme.svg)](https://github.com/Mudox/mdx-powerline.zsh-theme) - A powerstylish zsh prompt theme created by Mudox.
