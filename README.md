@@ -400,6 +400,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [smiley ![GitHub stars](https://img.shields.io/github/stars/gsamokovarov/smiley.zsh-theme.svg)](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces.
 * [solarizsh ![GitHub stars](https://img.shields.io/github/stars/paddykontschak/Solarizsh.svg)](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized).
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
+* [statusline ![GitHub stars](https://img.shields.io/github/stars/el1t/statusline.svg)](https://github.com/el1t/statusline) - A responsive zsh theme that provides informational segments when you need them
 * [sugarfree ![GitHub stars](https://img.shields.io/github/stars/cbrock/sugar-free.svg)](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes.
 * [tahuri ![GitHub stars](https://img.shields.io/github/stars/Tahuri/oh-my-zshel-theme-tahuri.svg)](https://github.com/Tahuri/oh-my-zshel-theme-tahuri) - Zsh theme for Arch Linux.
 * [the-time-lord ![GitHub stars](https://img.shields.io/github/stars/jhwhite/the-time-lord.svg)](https://github.com/jhwhite/the-time-lord) - Based on gallifrey.
