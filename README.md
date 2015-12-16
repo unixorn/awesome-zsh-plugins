@@ -415,6 +415,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [zsh-prompt-iggy ![GitHub stars](https://img.shields.io/github/stars/eugenk/zsh-prompt-iggy.svg)](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, Git-aware **prezto only** theme.
 * [zsh-prompt-powerline ![GitHub stars](https://img.shields.io/github/stars/Valodim/zsh-prompt-powerline.svg)](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight zsh prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
 * [zsh2000 ![GitHub stars](https://img.shields.io/github/stars/maverick2000/zsh2000.svg)](https://github.com/maverick2000/zsh2000) - Powerline looking ZSH theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
+* [zshcomrade ![GitHub stars](https://img.shields.io/github/stars/landongn/zshcomrade.svg)](https://github.com/landongn/zshcomrade) - A ZSH theme, comrade!
 
 ### Fonts
 
