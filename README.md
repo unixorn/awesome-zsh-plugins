@@ -120,7 +120,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)
 
-**ZPM** (The Zsh plugin manager) is yet another plugin manager for [zsh](http://www.zsh.org/) similar to [vim-plug](https://github.com/junegunn/vim-plug). ZPM is compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) plugins and themes.
+**ZPM** ( Zsh plugin manager ) is an yet another plugin manager for [zsh](http://www.zsh.org/) similar to vim-plug. ZPM plugins is compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). ZPM run on Linux, Android, FreeBSD and OS X.
 
 ### [ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh)
 
