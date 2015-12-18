@@ -410,6 +410,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [vinhnx ![GitHub stars](https://img.shields.io/github/stars/vinhnx/vinhnx.zsh-theme.svg)](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry ![GitHub stars](https://img.shields.io/github/stars/mashaal/wild-cherry.svg)](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
+* [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin
 * [z4rr3t  ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
 * [zemm-blinks ![GitHub stars](https://img.shields.io/github/stars/aranasaurus/zemm-blinks.zsh-theme.svg)](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial support and other changes.
 * [zero ![GitHub stars](https://img.shields.io/github/stars/arlimus/zero.zsh.svg)](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
