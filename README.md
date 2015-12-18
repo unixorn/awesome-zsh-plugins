@@ -308,6 +308,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [gulp-autocompletion-zsh ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/gulp-autocompletion-zsh.svg)](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocompletion
 * [jumpstorm-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/netresearch/jumpstorm-zsh-plugin.svg)](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
+* [locate-sublime-projects-cli ![GitHub stars](https://img.shields.io/github/stars/david-treblig/locate-sublime-projects-cli.svg)](https://github.com/david-treblig/locate-sublime-projects-cli)
 * [npm-run.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/akoenig/npm-run.plugin.zsh.svg)](https://github.com/akoenig/npm-run.plugin.zsh) - `npm run` autocompletion
 * [nvm-completion ![GitHub stars](https://img.shields.io/github/stars/tomsquest/nvm-completion.zsh.svg)](https://github.com/tomsquest/nvm-completion.zsh) - Updated nvm completions
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
