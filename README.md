@@ -345,9 +345,9 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/0xfan/blinks-xfan) - Based on the existing theme blinks.
 * [bluelines ![GitHub stars](https://img.shields.io/github/stars/apbarrero/bluelines.svg)](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 * [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) -  Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
-* [bureau](https://github.com/isqua/bureau) – clear and informative two-lined prompt. Includes git status optimized for large repositories.
+* [bureau](https://github.com/isqua/bureau) – A clear and informative two-lined prompt. Includes git status optimized for large repositories.
 * [candy-light ![GitHub stars](https://img.shields.io/github/stars/RanaExMachina/oh-my-zsh-candy-light.svg)](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
-* [charged ![GitHub stars](https://img.shields.io/github/stars/wesbos/robwierzbowski/charged-zsh-theme.svg)](https://github.com/robwierzbowski/charged-zsh-theme) - zsh prompt optimized for solarized dark terminal theme.
+* [charged ![GitHub stars](https://img.shields.io/github/stars/wesbos/robwierzbowski/charged-zsh-theme.svg)](https://github.com/robwierzbowski/charged-zsh-theme) - A zsh prompt optimized for the solarized dark terminal theme.
 * [chi](https://github.com/andela-abankole/chi) - A zsh theme optimized for iTerm users on OS X
 * [cobalt2 ![GitHub stars](https://img.shields.io/github/stars/wesbos/Cobalt2-iterm.svg)](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2.
 * [codemachine ![GitHub stars](https://img.shields.io/github/stars/CodeMonkeyMike/ZshTheme-CodeMachine.svg)](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Codemachine theme.
@@ -359,15 +359,15 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [dropbox ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-dropbox.svg)](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [excess ![GitHub stars](https://img.shields.io/github/stars/davydovanton/excess.zsh-theme.svg)](https://github.com/davydovanton/excess.zsh-theme) - Simple zsh color theme.
 * [exercism ![GitHub stars](https://img.shields.io/github/stars/fabiokiatkowski/exercism.plugin.zsh.svg)](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/).
-* [frisk-arrow ![GitHub stars](https://img.shields.io/github/stars/BakeRolls/frisk-arrow.svg)](https://github.com/BakeRolls/frisk-arrow) - [frisk](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/frisk.zsh-theme)-based oh-my-zsh-theme.
+* [frisk-arrow ![GitHub stars](https://img.shields.io/github/stars/BakeRolls/frisk-arrow.svg)](https://github.com/BakeRolls/frisk-arrow) - A theme based on the [frisk](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh-theme.
 * [frisk-red ![GitHub stars](https://img.shields.io/github/stars/aishsingh/zsh.svg)](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh.
 * [furio ![GitHub stars](https://img.shields.io/github/stars/hectorpalmatellez/furio-theme.svg)](https://github.com/hectorpalmatellez/furio-theme) - Fork of the Cloud oh-my-zsh theme. with different colors and emojis.
 * [gawaine ![GitHub stars](https://img.shields.io/github/stars/nicolaracco/gawaine.zsh-theme.svg)](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires rvm & git plugins.
-* [girazz ![GitHub stars](https://img.shields.io/github/stars/mdentremont/girazz.svg)](https://github.com/mdentremont/girazz) - modification to the gnzh theme which adds VI mode to the right prompt.
+* [girazz ![GitHub stars](https://img.shields.io/github/stars/mdentremont/girazz.svg)](https://github.com/mdentremont/girazz) - A modification to the gnzh theme which adds VI mode to the right prompt.
 * [gitsome ![GitHub stars](https://img.shields.io/github/stars/mtully/gitsome.svg)](https://github.com/mtully/gitsome) - Super simple prompt with git info, optimized for the [Flat Terminal](https://github.com/ahmetsulek/flat-terminal) color scheme.
 * [gitster ![GitHub stars](https://img.shields.io/github/stars/shashankmehta/dotfiles.svg)](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) - When in a git repo, it shows the location from the git's root folder. When not in a git repo, it shows the path relative to home, `~`.
 * [glimmer ![GitHub stars](https://img.shields.io/github/stars/martnu/glimmer.svg)](https://github.com/martnu/glimmer) - Includes git branch, time and user@host.
-* [hackersaurus ![GitHub stars](https://img.shields.io/github/stars/bhilburn/hackersaurus.svg)](https://github.com/bhilburn/hackersaurus) - theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
+* [hackersaurus ![GitHub stars](https://img.shields.io/github/stars/bhilburn/hackersaurus.svg)](https://github.com/bhilburn/hackersaurus) - A theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 * [honukai-iterm-zsh ![GitHub stars](https://img.shields.io/github/stars/oskarkrawczyk/honukai-iterm-zsh.svg)](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for Oh My ZSH and iTerm
 * [horse-sh ![GitHub stars](https://img.shields.io/github/stars/emileswarts/horse-sh.svg)](https://github.com/emileswarts/horse-sh) - A very minimal brown/red zsh theme.
 * [intheloop-powerline ![GitHub stars](https://img.shields.io/github/stars/zyphrus/intheloop-powerline.svg)](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts.
@@ -375,7 +375,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [jcl-zsh-theme ![GitHub stars](https://img.shields.io/github/stars/jasonlewis/jcl-zsh-theme.svg)](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme.
 * [judgedim ![GitHub stars](https://img.shields.io/github/stars/judgedim/oh-my-zsh-judgedim-theme.svg)](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
-* [klendathu ![GitHub stars](https://img.shields.io/github/stars/kegonomics/klendathu.svg)](https://github.com/kegonomics/klendathu) - uses Powerline iconsolas.
+* [klendathu ![GitHub stars](https://img.shields.io/github/stars/kegonomics/klendathu.svg)](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [lambda ![GitHub stars](https://img.shields.io/github/stars/halfo/lambda-mod-zsh-theme.svg)](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
@@ -389,7 +389,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
 * [odin ![GitHub stars](https://img.shields.io/github/stars/tylerreckart/odin.svg)](https://github.com/tylerreckart/odin) - Odin is a git-flavored zsh theme.
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh.
-* [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - shows git/svn status including time since last commit, rvm status in prompt.
+* [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - Shows the git/svn status including the time since last commit, rvm status in prompt.
 * [pad ![GitHub stars](https://img.shields.io/github/stars/eproxus/pad.zsh-theme.svg)](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
 * [platypus ![GitHub stars](https://img.shields.io/github/stars/fdv/platypus.svg)](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
 * [powerlevel9k ![GitHub stars](https://img.shields.io/github/stars/bhilburn/powerlevel9k.svg)](https://github.com/bhilburn/powerlevel9k) - A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc.
