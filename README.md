@@ -291,7 +291,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [autopkg-zsh-completion ![GitHub stars](https://img.shields.io/github/stars/fuzzylogiq/autopkg-zsh-completion.svg)](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg
 * [berkshelf-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/berkshelf/berkshelf-zsh-plugin.svg)](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf
 * [bosh-zsh-autocompletion ![GitHub stars](https://img.shields.io/github/stars/krujos/bosh-zsh-autocompletion.svg)](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion
-* [brew-services ![GitHub stars](https://img.shields.io/github/stars/vasyharan/zsh-brew-services.svg)](https://github.com/vasyharan/zsh-brew-services) - completion plugin for homebrew services
+* [brew-services ![GitHub stars](https://img.shields.io/github/stars/vasyharan/zsh-brew-services.svg)](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services
 * [cabal ![GitHub stars](https://img.shields.io/github/stars/d12frosted/cabal.plugin.zsh.svg)](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal
 * [cf-zsh-autocomplete-plugin ![GitHub stars](https://img.shields.io/github/stars/frodenas/cf-zsh-autocomplete-plugin.svg)](https://github.com/frodenas/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](http://docs.cloudfoundry.org/devguide/installcf/) commands
 * [codeception-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/shengyou/codeception-zsh-plugin.svg)](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework
@@ -304,13 +304,13 @@ These plugins add tab completion without adding extra functions or aliases.
 * [docker-zsh-completion ![GitHub stars](https://img.shields.io/github/stars/felixr/docker-zsh-completion.svg)](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [dropbox ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/zsh-dropbox.svg)](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [drush_zsh_completion ![GitHub stars](https://img.shields.io/github/stars/webflo/drush_zsh_completion.svg)](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for zsh
-* [duell ![GitHub stars](https://img.shields.io/github/stars/jcxavier/oh-my-zsh-duell.svg)](https://github.com/jcxavier/oh-my-zsh-duell) - zsh plugin for [duell](https://github.com/gameduell/duell)
+* [duell ![GitHub stars](https://img.shields.io/github/stars/jcxavier/oh-my-zsh-duell.svg)](https://github.com/jcxavier/oh-my-zsh-duell) - A zsh plugin for [duell](https://github.com/gameduell/duell)
 * [etcdctl-zsh ![GitHub stars](https://img.shields.io/github/stars/sheax0r/etcdctl-zsh.svg)](https://github.com/sheax0r/etcdctl-zsh) - etcdctl autocomplete plugin for oh-my-zsh
 * [exercism ![GitHub stars](https://img.shields.io/github/stars/fabiokiatkowski/exercism.plugin.zsh.svg)](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/)
 * [git-flow-completion ![GitHub stars](https://img.shields.io/github/stars/bobthecow/git-flow-completion.svg)](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow
 * [grid5000-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/pmorillon/grid5000-zsh-plugin.svg)](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [gulp ![GitHub stars](https://img.shields.io/github/stars/akoenig/gulp.plugin.zsh.svg)](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
-* [gulp-autocompletion-zsh ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/gulp-autocompletion-zsh.svg)](https://github.com/srijanshetty/gulp-autocompletion-zsh) - gulp autocompletion
+* [gulp-autocompletion-zsh ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/gulp-autocompletion-zsh.svg)](https://github.com/srijanshetty/gulp-autocompletion-zsh) - Autocompletion for gulp
 * [jumpstorm-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/netresearch/jumpstorm-zsh-plugin.svg)](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH
 * [locate-sublime-projects-cli ![GitHub stars](https://img.shields.io/github/stars/david-treblig/locate-sublime-projects-cli.svg)](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
@@ -322,17 +322,17 @@ These plugins add tab completion without adding extra functions or aliases.
 * [oh-my-zsh_razor_plugin ![GitHub stars](https://img.shields.io/github/stars/dalang/oh-my-zsh_razor_plugin.svg)](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - shows git/svn status including time since last commit, rvm status in prompt.
 * [oh-my-zsh-spring-boot-plugin ![GitHub stars](https://img.shields.io/github/stars/linux-china/oh-my-zsh-spring-boot-plugin.svg)](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands
-* [racket completion ![GitHub stars](https://img.shields.io/github/stars/racket/shell-completion.svg)](https://github.com/racket/shell-completion) - completion for [Racket](http://racket-lang.org).
+* [racket completion ![GitHub stars](https://img.shields.io/github/stars/racket/shell-completion.svg)](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 * [rake-completion.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/rake-completion.zshplugin.svg)](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
 * [tugboat ![GitHub stars](https://img.shields.io/github/stars/DimitriSteyaert/Zsh-tugboat.svg)](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
-* [umake ![GitHub stars](https://img.shields.io/github/stars/zlsun/umake.svg)](https://github.com/zlsun/umake) - tab completion for umake
+* [umake ![GitHub stars](https://img.shields.io/github/stars/zlsun/umake.svg)](https://github.com/zlsun/umake) - Tab completion for umake
 * [z4rr3t  ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme
 * [zsh-cabal-completion ![GitHub stars](https://img.shields.io/github/stars/ehamberg/zsh-cabal-completion.svg)](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
 * [zsh-completion-generator ![GitHub stars](https://img.shields.io/github/stars/RobSis/zsh-completion-generator.svg)](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically.
 * [zsh-completions ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-completions.svg)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 * [zsh-megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [zsh-pandoc-completion ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-pandoc-completion.svg)](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin
-* [zsh-pip-completion ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-pip-completion.svg)](https://github.com/srijanshetty/zsh-pip-completion) - pip autocomplete plugin
+* [zsh-pip-completion ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-pip-completion.svg)](https://github.com/srijanshetty/zsh-pip-completion) - Autocompletion plugin for pip
 
 ## Themes
 
