@@ -165,17 +165,17 @@ These frameworks make customizing your zsh setup easier.
 
 * [accurev-zsh ![GitHub stars](https://img.shields.io/github/stars/dalefukami/accurev-zsh.svg)](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
 * [alias-tips ![GitHub stars](https://img.shields.io/github/stars/djui/alias-tips.svg)](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
-* [allergen ![GitHub stars](https://img.shields.io/github/stars/stanislas/allergen.svg)](https://github.com/stanislas/allergen) - collection of custom zsh plugins to use with antigen
+* [allergen ![GitHub stars](https://img.shields.io/github/stars/stanislas/allergen.svg)](https://github.com/stanislas/allergen) - A collection of custom zsh plugins to use with antigen
 * [almostontop ![GitHub stars](https://img.shields.io/github/stars/Valiev/almostontop.svg)](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Insipred by alwaysontop plugin for bash
 * [ansiweather ![GitHub stars](https://img.shields.io/github/stars/fcambus/ansiweather.svg)](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols
 * [antigen-git-rebase [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-rebase.svg)](https://github.com/smallhadroncollider/antigen-git-rebase) - Antigen/zsh script to aid with Git rebasing
 * [antigen-git-store [GitHub stars](https://img.shields.io/github/stars/smallhadroncollider/antigen-git-store.svg)](https://github.com/smallhadroncollider/antigen-git-store) - Antigen/zsh script to store Git's current working directory. For working with Git between two computers without forcing arbitrary commits.
-* [anyframe ![GitHub stars](https://img.shields.io/github/stars/mollifier/anyframe.svg)](https://github.com/mollifier/anyframe) - peco/percol/fzf wrapper plugin for zsh.
+* [anyframe ![GitHub stars](https://img.shields.io/github/stars/mollifier/anyframe.svg)](https://github.com/mollifier/anyframe) - A peco/percol/fzf wrapper plugin for zsh.
 * [auto-fu.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/auto-fu.zsh.svg)](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
 * [autoenv ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/autoenv.svg)](https://github.com/horosgrisa/autoenv) - Extended version of the zsh-autoenv plugin.
 * [autoupdate-antigen.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/autoupdate-antigen.zshplugin.svg)](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
 * [blackbox ![GitHub stars](https://img.shields.io/github/stars/StackExchange/blackbox.svg)](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
-* [browse-commit ![GitHub stars](https://img.shields.io/github/stars/adolfoabegg/browse-commit.svg)](https://github.com/adolfoabegg/browse-commit) - browse-commit lets you open any commit in your browser from the command line.
+* [browse-commit ![GitHub stars](https://img.shields.io/github/stars/adolfoabegg/browse-commit.svg)](https://github.com/adolfoabegg/browse-commit) - A plugin that lets you open any commit in your browser from the command line.
 * [calc ![GitHub stars](https://img.shields.io/github/stars/arzzen/calc.plugin.zsh.svg)](https://github.com/arzzen/calc.plugin.zsh) - calculator for zsh
 * [caniuse.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/walesmd/caniuse.plugin.zsh.svg)](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](http://caniuse.com) support to ZSH.
 * [cd-gitroot ![GitHub stars](https://img.shields.io/github/stars/mollifier/cd-gitroot.svg)](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to git repository root directory.
@@ -183,7 +183,7 @@ These frameworks make customizing your zsh setup easier.
 * [cdr ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-cdr.svg)](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for zsh.
 * [copyzshell ![GitHub stars](https://img.shields.io/github/stars/rutchkiwi/copyzshell.svg)](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
 * [crayon-syntax-zsh ![GitHub stars](https://img.shields.io/github/stars/Stibbons/crayon-syntax-zsh.svg)](https://github.com/Stibbons/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress
-* [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - Simple http server written in 99.9% pure zsh.
+* [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure zsh.
 * [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools ![GitHub stars](https://img.shields.io/github/stars/jgrowl/depot_tools.svg)](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [elixir-oh-my-zsh ![GitHub stars](https://img.shields.io/github/stars/gusaiani/elixir-oh-my-zsh.svg)](https://github.com/gusaiani/elixir-oh-my-zsh) - Oh My Zsh plugin for Elixir, IEX, Mix and Phoenix
@@ -198,7 +198,7 @@ These frameworks make customizing your zsh setup easier.
 * [gitfast ![GitHub stars](https://img.shields.io/github/stars/tevren/gitfast-zsh-plugin.svg)](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
-* [going_places ![GitHub stars](https://img.shields.io/github/stars/or17191/going_places.svg)](https://github.com/or17191/going_places) - plugin that helps to use, create and maintain a list of shell locations
+* [going_places ![GitHub stars](https://img.shields.io/github/stars/or17191/going_places.svg)](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations
 * [grep2awk ![GitHub stars](https://img.shields.io/github/stars/joepvd/grep2awk.svg)](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat ![GitHub stars](https://img.shields.io/github/stars/robertzk/hipchat.zsh.svg)](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-hooks.svg)](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
@@ -216,12 +216,12 @@ These frameworks make customizing your zsh setup easier.
 * [oh-my-zsh-dirstack ![GitHub stars](https://img.shields.io/github/stars/gepoch/oh-my-zsh-dirstack.svg)](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying dirstack info on a single line.
 * [oh-my-zsh-flow3-plugin ![GitHub stars](https://img.shields.io/github/stars/sandstorm/oh-my-zsh-flow3-plugin.svg)](https://github.com/sandstorm/oh-my-zsh-flow3-plugin) - This plugin makes the flow command available inside every subdirectory of the TYPO3 Flow distribution.
 * [oh-my-zsh-jira-plus ![GitHub stars](https://img.shields.io/github/stars/gerges/oh-my-zsh-jira-plus.svg)](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line.
-* [oh-my-zsh-reminder ![GitHub stars](https://img.shields.io/github/stars/AlexisBRENON/oh-my-zsh-reminder.svg)](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - plugin which displays reminders above every prompt
+* [oh-my-zsh-reminder ![GitHub stars](https://img.shields.io/github/stars/AlexisBRENON/oh-my-zsh-reminder.svg)](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - A plugin which displays reminders above every prompt
 * [oh-my-zsh-virtualenv-prompt ![GitHub stars](https://img.shields.io/github/stars/tonyseek/oh-my-zsh-virtualenv-prompt.svg)](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - A fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
 * [opp.zsh ![GitHub stars](https://img.shields.io/github/stars/hchbaw/opp.zsh.svg)](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
 * [osx-dev-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/marshallmick007/osx-dev-zsh-plugin.svg)](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install.
 * [otter ![GitHub stars](https://img.shields.io/github/stars/allanhortle/otter.svg)](https://github.com/allanhortle/otter) - Combination theme and plugin by Allan Hortle.
-* [pantheon-terminal-notify-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/deyvisonrocha/pantheon-terminal-notify-zsh-plugin.svg)](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - background notifications for long running commands. Supports Elementary OS Freya
+* [pantheon-terminal-notify-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/deyvisonrocha/pantheon-terminal-notify-zsh-plugin.svg)](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya
 * [parallels-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/benclark/parallels-zsh-plugin.svg)](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
 * [pip-app ![GitHub stars](https://img.shields.io/github/stars/sharat87/pip-app.svg)](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [pretty-time-zsh ![GitHub stars](https://img.shields.io/github/stars/sindresorhus/pretty-time-zsh.svg)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
@@ -271,7 +271,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-open-pr ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-open-pr.svg)](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 * [zsh-opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 * [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/dotstrap-osx) - Add some common OS X related aliases and functions
-* [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) utility functions to work with PosgreSQL
+* [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) Utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool ![GitHub stars](https://img.shields.io/github/stars/RudthMael/zsh-plugin-ibtool.svg)](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
 * [zsh-plugin-rails ![GitHub stars](https://img.shields.io/github/stars/paraqles/zsh-plugin-rails.svg)](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
 * [zsh-reentry-hook ![GitHub stars](https://img.shields.io/github/stars/RobSis/zsh-reentry-hook.svg)](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
