@@ -202,6 +202,7 @@ These frameworks make customizing your zsh setup easier.
 * [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
 * [going_places ![GitHub stars](https://img.shields.io/github/stars/or17191/going_places.svg)](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations
+* [gprune ![GitHub stars](https://img.shields.io/github/stars/Seinh/git-prune.svg)](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches.
 * [grep2awk ![GitHub stars](https://img.shields.io/github/stars/joepvd/grep2awk.svg)](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat ![GitHub stars](https://img.shields.io/github/stars/robertzk/hipchat.zsh.svg)](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-hooks.svg)](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
