@@ -409,7 +409,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sugarfree ![GitHub stars](https://img.shields.io/github/stars/cbrock/sugar-free.svg)](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/master/themes/candy.zsh-theme) themes.
 * [tahuri ![GitHub stars](https://img.shields.io/github/stars/Tahuri/oh-my-zshel-theme-tahuri.svg)](https://github.com/Tahuri/oh-my-zshel-theme-tahuri) - Zsh theme for Arch Linux.
 * [the-time-lord ![GitHub stars](https://img.shields.io/github/stars/jhwhite/the-time-lord.svg)](https://github.com/jhwhite/the-time-lord) - Based on gallifrey.
-* [tvline ![GitHub stars](https://img.shields.io/github/stars/thvitt/tvline.svg)](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/3712874), adds powerline font enhancements.
+* [tvline ![GitHub stars](https://img.shields.io/github/stars/thvitt/tvline.svg)](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
 * [vinhnx ![GitHub stars](https://img.shields.io/github/stars/vinhnx/vinhnx.zsh-theme.svg)](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wild-cherry ![GitHub stars](https://img.shields.io/github/stars/mashaal/wild-cherry.svg)](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
