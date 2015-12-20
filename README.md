@@ -378,7 +378,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lambda ![GitHub stars](https://img.shields.io/github/stars/halfo/lambda-mod-zsh-theme.svg)](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
-* [mdx-powerline ![GitHub stars](https://img.shields.io/github/stars/Mudox/mdx-powerline.zsh-theme.svg)](https://github.com/Mudox/mdx-powerline.zsh-theme) - A powerstylish zsh prompt theme created by Mudox.
 * [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [mindful-space ![GitHub stars](https://img.shields.io/github/stars/syndbg/mindful-space-zsh-theme.svg)](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind.
 * [minimal ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/S1cK94/minimal) - S1ck94's minimal theme.
