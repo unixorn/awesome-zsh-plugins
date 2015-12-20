@@ -24,7 +24,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zeesh ![GitHub stars](https://img.shields.io/github/stars/zeekay/zeesh.svg)](https://github.com/zeekay/zeesh)](#zeesh-github-starshttpsimgshieldsiogithubstarszeekayzeeshsvghttpsgithubcomzeekayzeesh)
   - [[zgen ![GitHub stars](https://img.shields.io/github/stars/tarjoilija/zgen.svg)](https://github.com/tarjoilija/zgen)](#zgen-github-starshttpsimgshieldsiogithubstarstarjoilijazgensvghttpsgithubcomtarjoilijazgen)
   - [[zilsh ![GitHub stars](https://img.shields.io/github/stars/zilsh/zilsh.svg)](https://github.com/zilsh/zilsh)](#zilsh-github-starshttpsimgshieldsiogithubstarszilshzilshsvghttpsgithubcomzilshzilsh)
-  - [[zim ![Github stars](https://img.shields.io/github/stars/Eriner/zim.svg)](https://github.com/Eriner/zim)](#eriner-github-starshttpsimgshieldsiogithubstarsErinerzimsvghttpsgithubcomErinerzim)
+  - [[zim ![Github stars](https://img.shields.io/github/stars/Eriner/zim.svg)](https://github.com/Eriner/zim)](#zim-github-starshttpsimgshieldsiogithubstarserinerzimsvghttpsgithubcomerinerzim)
   - [[zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo)](#zoppo-github-starshttpsimgshieldsiogithubstarszoppozopposvghttpsgithubcomzoppozoppo)
   - [[zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)](#zplug-github-starshttpsimgshieldsiogithubstarsb4b4r07zplugsvghttpsgithubcomb4b4r07zplug)
   - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm)
