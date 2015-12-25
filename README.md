@@ -415,6 +415,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [the-time-lord ![GitHub stars](https://img.shields.io/github/stars/jhwhite/the-time-lord.svg)](https://github.com/jhwhite/the-time-lord) - Based on gallifrey.
 * [tvline ![GitHub stars](https://img.shields.io/github/stars/thvitt/tvline.svg)](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
 * [vinhnx ![GitHub stars](https://img.shields.io/github/stars/vinhnx/vinhnx.zsh-theme.svg)](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
+* [vox ![GitHub stars](https://img.shields.io/github/stars/andrewbonnington/vox.plugin.zsh.svg)](https://github.com/andrewbonnington/vox.plugin.zsh) - An oh-my-zsh plugin to control [VOX](http://coppertino.com/vox/mac), a lightweight full-featured audio player for OS X that can play a variety of formats including FLAC and Ogg Vorbis
 * [wild-cherry ![GitHub stars](https://img.shields.io/github/stars/mashaal/wild-cherry.svg)](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
 * [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin
