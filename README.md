@@ -240,6 +240,7 @@ These frameworks make customizing your zsh setup easier.
 * [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
 * [wakatime ![GitHub stars](https://img.shields.io/github/stars/wbinglee/zsh-wakatime.svg)](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
+* [watson.zsh ![GitHub stars](https://img.shields.io/github/stars/bcho/Watson.zsh.svg)](https://github.com/bcho/Watson.zsh) - A plugin for [watson](https://github.com/TailorDev/Watson)
 * [wd ![GitHub stars](https://img.shields.io/github/stars/mfaerevaag/wd.svg)](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
 * [yeoman-zsh-plugin ![GitHub stars](https://img.shields.io/github/stars/edouard-lopez/yeoman-zsh-plugin.svg)](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
 * [zaw ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zaw.svg)](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
