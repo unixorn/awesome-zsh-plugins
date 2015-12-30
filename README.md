@@ -186,6 +186,7 @@ These frameworks make customizing your zsh setup easier.
 * [cdr ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-cdr.svg)](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for zsh.
 * [copyzshell ![GitHub stars](https://img.shields.io/github/stars/rutchkiwi/copyzshell.svg)](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
 * [crayon-syntax-zsh ![GitHub stars](https://img.shields.io/github/stars/Stibbons/crayon-syntax-zsh.svg)](https://github.com/Stibbons/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress
+* [crystal ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/manastech/crystal)
 * [czhttpd ![GitHub stars](https://img.shields.io/github/stars/jsks/czhttpd.svg)](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure zsh.
 * [deer ![GitHub stars](https://img.shields.io/github/stars/Vifon/deer.svg)](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools ![GitHub stars](https://img.shields.io/github/stars/jgrowl/depot_tools.svg)](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
@@ -238,6 +239,7 @@ These frameworks make customizing your zsh setup easier.
 * [smart-cd ![GitHub stars](https://img.shields.io/github/stars/secrettriangle/smart-cd.svg)](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 * [snippets ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-snippets.svg)](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 * [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
+* [tumult ![GitHub stars](https://img.shields.io/github/stars/unixorn/tumult.plugin.zsh.svg)](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for OS X
 * [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
 * [wakatime ![GitHub stars](https://img.shields.io/github/stars/wbinglee/zsh-wakatime.svg)](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
 * [watson.zsh ![GitHub stars](https://img.shields.io/github/stars/bcho/Watson.zsh.svg)](https://github.com/bcho/Watson.zsh) - A plugin for [watson](https://github.com/TailorDev/Watson)
