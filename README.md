@@ -48,6 +48,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[Oh-My-Zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
   - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
   - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
+  - [[zplug](https://github.com/b4b4r07/zplug)](#zplughttpsgithubcomb4b4r07zplug)
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
@@ -474,6 +475,10 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
 Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in.
+
+### [zplug](https://github.com/b4b4r07/zplug)
+
+Most of these plugins can be installed by adding `zplug "githubuser/reponame"` to your .zshrc file.
 
 ## Writing New Plugins
 
