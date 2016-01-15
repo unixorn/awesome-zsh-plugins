@@ -388,6 +388,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [kketcham ![GitHub stars](https://img.shields.io/github/stars/prototype27/kketcham.svg)](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu ![GitHub stars](https://img.shields.io/github/stars/kegonomics/klendathu.svg)](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [lambda ![GitHub stars](https://img.shields.io/github/stars/halfo/lambda-mod-zsh-theme.svg)](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
+* [lime ![GitHub stars](https://img.shields.io/github/stars/yous/lime.svg)](https://github.com/yous/lime) - Simple standalone Zsh theme.
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
 * [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
