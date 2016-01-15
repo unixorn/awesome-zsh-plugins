@@ -355,7 +355,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
 * [bluelines ![GitHub stars](https://img.shields.io/github/stars/apbarrero/bluelines.svg)](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 * [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
-* [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
+* [bureau ![GitHub stars](https://img.shields.io/github/stars/isqua/bureau.svg)](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
 * [candy-light ![GitHub stars](https://img.shields.io/github/stars/RanaExMachina/oh-my-zsh-candy-light.svg)](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
 * [charged ![GitHub stars](https://img.shields.io/github/stars/robwierzbowski/charged-zsh-theme.svg)](https://github.com/robwierzbowski/charged-zsh-theme) - A zsh prompt optimized for the solarized dark terminal theme.
 * [chi](https://github.com/andela-abankole/chi) - A zsh theme optimized for iTerm users on OS X
