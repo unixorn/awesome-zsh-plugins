@@ -335,11 +335,11 @@ These plugins add tab completion without adding extra functions or aliases.
 * [rake-completion.zshplugin ![GitHub stars](https://img.shields.io/github/stars/unixorn/rake-completion.zshplugin.svg)](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
 * [tugboat ![GitHub stars](https://img.shields.io/github/stars/DimitriSteyaert/Zsh-tugboat.svg)](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
 * [umake ![GitHub stars](https://img.shields.io/github/stars/zlsun/umake.svg)](https://github.com/zlsun/umake) - Tab completion for umake
-* [z4rr3t  ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme
+* [z4rr3t ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme
 * [zsh-cabal-completion ![GitHub stars](https://img.shields.io/github/stars/ehamberg/zsh-cabal-completion.svg)](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
 * [zsh-completion-generator ![GitHub stars](https://img.shields.io/github/stars/RobSis/zsh-completion-generator.svg)](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically.
 * [zsh-completions ![GitHub stars](https://img.shields.io/github/stars/zsh-users/zsh-completions.svg)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
-* [zsh-megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [zsh-megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [zsh-packer ![GitHub stars](https://img.shields.io/github/stars/wakeful/zsh-packer.svg)](https://github.com/wakeful/zsh-packer) tab completion for packer
 * [zsh-pandoc-completion ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-pandoc-completion.svg)](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin
 * [zsh-pip-completion ![GitHub stars](https://img.shields.io/github/stars/srijanshetty/zsh-pip-completion.svg)](https://github.com/srijanshetty/zsh-pip-completion) - Autocompletion plugin for pip
@@ -354,8 +354,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bashi ![GitHub stars](https://img.shields.io/github/stars/eli-oat/bashi.svg)](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
 * [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
 * [bluelines ![GitHub stars](https://img.shields.io/github/stars/apbarrero/bluelines.svg)](https://github.com/apbarrero/bluelines) - Clear and blue theme.
-* [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) -  Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
-* [bureau](https://github.com/isqua/bureau) – A clear and informative two-lined prompt. Includes git status optimized for large repositories.
+* [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
+* [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
 * [candy-light ![GitHub stars](https://img.shields.io/github/stars/RanaExMachina/oh-my-zsh-candy-light.svg)](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
 * [charged ![GitHub stars](https://img.shields.io/github/stars/robwierzbowski/charged-zsh-theme.svg)](https://github.com/robwierzbowski/charged-zsh-theme) - A zsh prompt optimized for the solarized dark terminal theme.
 * [chi](https://github.com/andela-abankole/chi) - A zsh theme optimized for iTerm users on OS X
@@ -391,7 +391,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lime ![GitHub stars](https://img.shields.io/github/stars/yous/lime.svg)](https://github.com/yous/lime) - Simple standalone Zsh theme.
 * [liquidprompt ![GitHub stars](https://img.shields.io/github/stars/nojhan/liquidprompt.svg)](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [maxulysse/myzsh ![GitHub stars](https://img.shields.io/github/stars/MaxUlysse/myzsh.svg)](https://github.com/MaxUlysse/myzsh) Maxime Garcia's myzsh theme.
-* [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character.  Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [megaprompt ![GitHub stars](https://img.shields.io/github/stars/willghatch/zsh-megaprompt.svg)](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
 * [mindful-space ![GitHub stars](https://img.shields.io/github/stars/syndbg/mindful-space-zsh-theme.svg)](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind.
 * [minimal ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/S1cK94/minimal) - S1ck94's minimal theme.
 * [misa ![GitHub stars](https://img.shields.io/github/stars/S1cK94/minimal.svg)](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme.
@@ -428,7 +428,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [wild-cherry ![GitHub stars](https://img.shields.io/github/stars/mashaal/wild-cherry.svg)](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
-* [z4rr3t  ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
+* [z4rr3t ![GitHub stars](https://img.shields.io/github/stars/inimicus/z4rr3t.svg)](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
 * [zemm-blinks ![GitHub stars](https://img.shields.io/github/stars/aranasaurus/zemm-blinks.zsh-theme.svg)](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial support and other changes.
 * [zero ![GitHub stars](https://img.shields.io/github/stars/arlimus/zero.zsh.svg)](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
 * [zsh-prompt-iggy ![GitHub stars](https://img.shields.io/github/stars/eugenk/zsh-prompt-iggy.svg)](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, Git-aware **prezto only** theme.
