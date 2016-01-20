@@ -16,7 +16,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Frameworks](#frameworks)
   - [[alf ![GitHub stars](https://img.shields.io/github/stars/psyrendust/alf.svg)](https://github.com/psyrendust/alf)](#alf-github-starshttpsimgshieldsiogithubstarspsyrendustalfsvghttpsgithubcompsyrendustalf)
   - [[ant-zsh ![GitHub stars](https://img.shields.io/github/stars/anthraxx/ant-zsh.svg)](https://github.com/anthraxx/ant-zsh)](#ant-zsh-github-starshttpsimgshieldsiogithubstarsanthraxxant-zshsvghttpsgithubcomanthraxxant-zsh)
-  - [[antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/caarlos0/antibody)](#antibody-github-starshttpsimgshieldsiogithubstarscaarlos0antibodysvghttpsgithubcomcaarlos0antibody)
+  - [[antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/getantibody/antibody)](#antibody-github-starshttpsimgshieldsiogithubstarscaarlos0antibodysvghttpsgithubcomcaarlos0antibody)
   - [[antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs)](#antigen-hs-github-starshttpsimgshieldsiogithubstarstarraschantigen-hssvghttpsgithubcomtarraschantigen-hs)
   - [[antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen)](#antigen-github-starshttpsimgshieldsiogithubstarszsh-usersantigensvghttpsgithubcomzsh-usersantigen)
   - [[dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh)](#dotzsh-github-starshttpsimgshieldsiogithubstarsdotphilesdotzshsvghttpsgithubcomdotphilesdotzsh)
@@ -279,7 +279,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-notify ![GitHub stars](https://img.shields.io/github/stars/marzocchi/zsh-notify.svg)](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-open-pr.svg)](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 * [zsh-opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
-* [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mkwmms/dotstrap-osx) - Add some common OS X related aliases and functions
+* [zsh-osx ![GitHub stars](https://img.shields.io/github/stars/mkwmms/zsh-osx.svg)](https://github.com/mwilliammyers/plugin-osx) - Add some common OS X related aliases and functions
 * [zsh-pg ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-pg.svg)](https://github.com/caarlos0/zsh-pg) Utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool ![GitHub stars](https://img.shields.io/github/stars/RudthMael/zsh-plugin-ibtool.svg)](https://github.com/RudthMael/zsh-plugin-ibtool) - ibtool shortcuts to generate localized XIB files
 * [zsh-plugin-rails ![GitHub stars](https://img.shields.io/github/stars/paraqles/zsh-plugin-rails.svg)](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
