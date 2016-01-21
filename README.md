@@ -174,6 +174,7 @@ Not a framework, but still useful
 * [zsh-dircolors-solarized ![GitHub stars](https://img.shields.io/github/stars/joel-porquet/zsh-dircolors-solarized.svg)](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
 * [zsh-directory-history ![GitHub stars](https://img.shields.io/github/stars/tymm/zsh-directory-history.svg)](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
 * [zsh-dwim ![GitHub stars](https://img.shields.io/github/stars/oknowton/zsh-dwim.svg)](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
+* [zsh-editing-workbench ![GitHub stars](https://img.shields.io/github/stars/psprint/zsh-editing-workbench.svg)](https://github.com/psprint/zsh-editing-workbench) - sane, complex command line editing (e.g. incremental history _word_ completion)
 * [zsh-functional ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/zsh-functional.svg)](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [zsh-geeknote ![GitHub stars](https://img.shields.io/github/stars/s7anley/zsh-geeknote.svg)](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
 * [zsh-git-sync ![GitHub stars](https://img.shields.io/github/stars/caarlos0/zsh-git-sync.svg)](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
