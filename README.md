@@ -16,7 +16,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Frameworks](#frameworks)
   - [[alf ![GitHub stars](https://img.shields.io/github/stars/psyrendust/alf.svg)](https://github.com/psyrendust/alf)](#alf-github-starshttpsimgshieldsiogithubstarspsyrendustalfsvghttpsgithubcompsyrendustalf)
   - [[ant-zsh ![GitHub stars](https://img.shields.io/github/stars/anthraxx/ant-zsh.svg)](https://github.com/anthraxx/ant-zsh)](#ant-zsh-github-starshttpsimgshieldsiogithubstarsanthraxxant-zshsvghttpsgithubcomanthraxxant-zsh)
-  - [[antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/getantibody/antibody)](#antibody-github-starshttpsimgshieldsiogithubstarscaarlos0antibodysvghttpsgithubcomcaarlos0antibody)
+  - [[antibody ![GitHub stars](https://img.shields.io/github/stars/caarlos0/antibody.svg)](https://github.com/caarlos0/antibody)](#antibody-github-starshttpsimgshieldsiogithubstarscaarlos0antibodysvghttpsgithubcomcaarlos0antibody)
   - [[antigen-hs ![GitHub stars](https://img.shields.io/github/stars/Tarrasch/antigen-hs.svg)](https://github.com/Tarrasch/antigen-hs)](#antigen-hs-github-starshttpsimgshieldsiogithubstarstarraschantigen-hssvghttpsgithubcomtarraschantigen-hs)
   - [[antigen ![GitHub stars](https://img.shields.io/github/stars/zsh-users/antigen.svg)](https://github.com/zsh-users/antigen)](#antigen-github-starshttpsimgshieldsiogithubstarszsh-usersantigensvghttpsgithubcomzsh-usersantigen)
   - [[dotzsh ![GitHub stars](https://img.shields.io/github/stars/dotphiles/dotzsh.svg)](https://github.com/dotphiles/dotzsh)](#dotzsh-github-starshttpsimgshieldsiogithubstarsdotphilesdotzshsvghttpsgithubcomdotphilesdotzsh)
@@ -402,6 +402,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ningxia ![GitHub stars](https://img.shields.io/github/stars/wangyandong-ningxia/ningxia.zsh-theme.svg)](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
 * [odin ![GitHub stars](https://img.shields.io/github/stars/tylerreckart/odin.svg)](https://github.com/tylerreckart/odin) - Odin is a git-flavored zsh theme.
 * [oh-my-git ![GitHub stars](https://img.shields.io/github/stars/arialdomartini/oh-my-git.svg)](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh.
+* [oh-my-zsh-node-theme ![GitHub stars](https://img.shields.io/github/stars/skuridin/oh-my-zsh-node-theme.svg)](https://github.com/skuridin/oh-my-zsh-node-theme)
 * [oh-my-zsh-robbl ![GitHub stars](https://img.shields.io/github/stars/robbl/oh-my-zsh-config.svg)](https://github.com/robbl/oh-my-zsh-config) - Shows the git/svn status including the time since last commit, rvm status in prompt.
 * [pad ![GitHub stars](https://img.shields.io/github/stars/eproxus/pad.zsh-theme.svg)](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
 * [platypus ![GitHub stars](https://img.shields.io/github/stars/fdv/platypus.svg)](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
