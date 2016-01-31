@@ -30,7 +30,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zim ![Github stars](https://img.shields.io/github/stars/Eriner/zim.svg)](https://github.com/Eriner/zim)](#zim-github-starshttpsimgshieldsiogithubstarserinerzimsvghttpsgithubcomerinerzim)
   - [[zoppo ![GitHub stars](https://img.shields.io/github/stars/zoppo/zoppo.svg)](https://github.com/zoppo/zoppo)](#zoppo-github-starshttpsimgshieldsiogithubstarszoppozopposvghttpsgithubcomzoppozoppo)
   - [[zplug ![GitHub stars](https://img.shields.io/github/stars/b4b4r07/zplug.svg)](https://github.com/b4b4r07/zplug)](#zplug-github-starshttpsimgshieldsiogithubstarsb4b4r07zplugsvghttpsgithubcomb4b4r07zplug)
-  - [[zplugin ![Github stars](https://img.shields.io/github/stars/psprint/zplugin.svg)](https://github.com/psprint/zplugin)](#zplugin-github-starshttpsimgshieldsiogithubstarsb4b4r07zpluginsvghttpsgithubcomb4b4r07zplugin))
+  - [[zplugin ![GitHub stars](https://img.shields.io/github/stars/psprint/zplugin.svg)](https://github.com/psprint/zplugin)](#zplugin-github-starshttpsimgshieldsiogithubstarspsprintzpluginsvghttpsgithubcompsprintzplugin)
   - [[ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)](#zpm-github-starshttpsimgshieldsiogithubstarshorosgrisazpmsvghttpsgithubcomhorosgrisazpm)
   - [[ztanesh ![GitHub stars](https://img.shields.io/github/stars/miohtama/ztanesh.svg)](https://github.com/miohtama/ztanesh)](#ztanesh-github-starshttpsimgshieldsiogithubstarsmiohtamaztaneshsvghttpsgithubcommiohtamaztanesh)
 - [Tutorials](#tutorials)
