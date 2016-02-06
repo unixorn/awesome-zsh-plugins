@@ -130,7 +130,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zplugin ![GitHub stars](https://img.shields.io/github/stars/psprint/zplugin.svg)](https://github.com/psprint/zplugin)
 
-**Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. The system doesn't use $FPATH, it's kept clean!
+**Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, variables, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. Also, every plugin is compiled and user can control this function. The system does not use $FPATH, it's kept clean!
 
 ### [ZPM ![GitHub stars](https://img.shields.io/github/stars/horosgrisa/ZPM.svg)](https://github.com/horosgrisa/ZPM)
 
