@@ -361,6 +361,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bashi ![GitHub stars](https://img.shields.io/github/stars/eli-oat/bashi.svg)](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
 * [blinks-xfan ![GitHub stars](https://img.shields.io/github/stars/0xfan/blinks-xfan.svg)](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
 * [bluelines ![GitHub stars](https://img.shields.io/github/stars/apbarrero/bluelines.svg)](https://github.com/apbarrero/bluelines) - Clear and blue theme.
+* [brunty ![GitHub stars](https://img.shields.io/github/stars/Brunty/omz-brunty.svg](https://github.com/Brunty/omz-brunty) - Brunty theme
 * [bullet-train ![GitHub stars](https://img.shields.io/github/stars/caiogondim/bullet-train-oh-my-zsh-theme.svg)](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [bureau ![GitHub stars](https://img.shields.io/github/stars/isqua/bureau.svg)](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
 * [candy-light ![GitHub stars](https://img.shields.io/github/stars/RanaExMachina/oh-my-zsh-candy-light.svg)](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
