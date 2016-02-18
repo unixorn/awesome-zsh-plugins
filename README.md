@@ -247,6 +247,7 @@ These frameworks make customizing your zsh setup easier.
 * [sysadmin-util ![GitHub stars](https://img.shields.io/github/stars/skx/sysadmin-util.svg)](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [tumult ![GitHub stars](https://img.shields.io/github/stars/unixorn/tumult.plugin.zsh.svg)](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for OS X
 * [vimman ![GitHub stars](https://img.shields.io/github/stars/yonchu/vimman.svg)](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
+* [virtualz ![GitHub stars](https://img.shields.io/github/stars/aperezdc/virtualz.svg)](https://github.com/aperezdc/virtualz) - Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper.
 * [wakatime ![GitHub stars](https://img.shields.io/github/stars/wbinglee/zsh-wakatime.svg)](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
 * [watson.zsh ![GitHub stars](https://img.shields.io/github/stars/bcho/Watson.zsh.svg)](https://github.com/bcho/Watson.zsh) - A plugin for [watson](https://github.com/TailorDev/Watson)
 * [wd ![GitHub stars](https://img.shields.io/github/stars/mfaerevaag/wd.svg)](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
