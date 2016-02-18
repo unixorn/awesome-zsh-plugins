@@ -299,6 +299,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-url-highlighter ![GitHub stars](https://img.shields.io/github/stars/ascii-soup/zsh-url-highlighter.svg)](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [zsh-vim-mode ![GitHub stars](https://img.shields.io/github/stars/sharat87/zsh-vim-mode.svg)](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
 * [zshmarks ![GitHub stars](https://img.shields.io/github/stars/jocelynmallon/zshmarks.svg)](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
+* [zsnapshot ![GitHub stars](https://img.shields.io/github/stars/psprint/zsnapshot.svg)](https://github.com/psprint/zsnapshot) - command which dumps current Zsh state into a file, for restoration by sourcing the file
 
 ## Even more completions
 
