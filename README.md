@@ -207,6 +207,7 @@ These frameworks make customizing your zsh setup easier.
 * [git-it-on.zsh ![GitHub stars](https://img.shields.io/github/stars/peterhurford/git-it-on.zsh.svg)](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 * [gitfast ![GitHub stars](https://img.shields.io/github/stars/tevren/gitfast-zsh-plugin.svg)](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitignore.plugin.zsh ![GitHub stars](https://img.shields.io/github/stars/voronkovich/gitignore.plugin.zsh.svg)](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
+* [gitio-zsh ![GitHub stars](https://img.shields.io/github/stars/denysdovhan/gitio-zsh.svg)](https://github.com/denysdovhan/gitio-zsh) - A zsh plugin for generating a GitHub short URL using [git.io](https://git.io).
 * [goenv ![GitHub stars](https://img.shields.io/github/stars/bbenne10/goenv.svg)](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
 * [going_places ![GitHub stars](https://img.shields.io/github/stars/or17191/going_places.svg)](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations
 * [gprune ![GitHub stars](https://img.shields.io/github/stars/Seinh/git-prune.svg)](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches.
