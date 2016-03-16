@@ -323,7 +323,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer
 * [docker-compose](https://github.com/sroze/docker-compose-zsh-plugin) Show docker container status in your prompt
 * [docker-enter-completion](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter)
-* [docker-fun](https://github.com/johnlabarge/docker_fun) - docker cnovenience functions
+* [docker-fun](https://github.com/johnlabarge/docker_fun) - docker convenience functions
 * [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker
 * [dropbox](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
