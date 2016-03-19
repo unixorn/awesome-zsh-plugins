@@ -110,7 +110,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with zgen reset whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
+**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -130,7 +130,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zplugin](https://github.com/psprint/zplugin)
 
-**Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, variables, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. Also, every plugin is compiled and user can control this function. The system does not use $FPATH, it's kept clean!
+**Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, variables, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. Also, every plugin is compiled and the user can control this function. The system does not use $FPATH, it's kept clean!
 
 ### [ZPM](https://github.com/horosgrisa/ZPM)
 
