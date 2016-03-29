@@ -205,13 +205,13 @@ These frameworks make customizing your zsh setup easier.
 * [git-aliases.zsh](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used git commands.
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra git helper scripts packaged as a plugin.
 * [git-it-on.zsh](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
+* [git-prune](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches.
 * [git-secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 * [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitignore.plugin.zsh](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [gitio-zsh](https://github.com/denysdovhan/gitio-zsh) - A zsh plugin for generating a GitHub short URL using [git.io](https://git.io).
 * [goenv](https://github.com/bbenne10/goenv) - Antigen plugin to manage $GOPATH similarly to Python's virtualenvwrapper.
 * [going_places](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations
-* [gprune](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches.
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
