@@ -342,6 +342,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [multi-shell-repo-prompt](https://github.com/dotcode/multi-shell-repo-prompt) - Provides useful information (in your prompt) about the repository that you are in. It currently works for [Git](http://git-scm.com/) and [Mercurial](http://mercurial.selenic.com/), under [zsh](http://en.wikipedia.org/wiki/Zsh) as well as [bash](http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)
 * [npm-run.plugin.zsh](https://github.com/akoenig/npm-run.plugin.zsh) - `npm run` autocompletion
 * [nvm-completion](https://github.com/tomsquest/nvm-completion.zsh) - Updated nvm completions
+* [octopress-zsh-completion](https://github.com/nsetyo/octopress-zsh-completion) - completions for Octopress
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh
 * [oh-my-zsh-nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for the nova so you don't need to remember all those pesky arguments
 * [oh-my-zsh-plugin-nvm](https://github.com/olesu/oh-my-zsh-plugin-nvm) - Ole Sunde's nvm plugin for zsh
