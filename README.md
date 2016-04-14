@@ -334,6 +334,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A zsh plugin for [duell](https://github.com/gameduell/duell)
 * [etcdctl-zsh](https://github.com/sheax0r/etcdctl-zsh) - etcdctl autocomplete plugin for oh-my-zsh
 * [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/)
+* [fly-zsh-autocomplete-plugin](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - adds autocompletion options for all [Concourse CLI](http://concourse.ci/fly-cli.html) commands.
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
