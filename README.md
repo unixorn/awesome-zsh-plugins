@@ -354,6 +354,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [oh-my-zsh_razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
+* [surf.plugin.zsh](https://github.com/markussom/surf.plugin.zsh) - Add completions for surf
 * [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
 * [umake](https://github.com/zlsun/umake) - Tab completion for umake
 * [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme
