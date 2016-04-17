@@ -357,8 +357,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
 * [surf.plugin.zsh](https://github.com/markussom/surf.plugin.zsh) - Add completions for surf
 * [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
-* [umake](https://github.com/zlsun/umake) - Tab completion for umake
-* [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme
+* [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake
 * [zsh-cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
 * [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically.
 * [zsh-completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
