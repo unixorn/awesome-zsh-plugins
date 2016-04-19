@@ -170,7 +170,6 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using zsh with zgen. This includes a curated collection of plugins, and will automatically configure zsh to use zgen to load them.
 
 ## Plugins
-
 * [accurev-zsh](https://github.com/dalefukami/accurev-zsh) - ZSH plugin for accurev.
 * [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
 * [allergen](https://github.com/stanislas/allergen) - A collection of custom zsh plugins to use with antigen
@@ -216,6 +215,7 @@ These frameworks make customizing your zsh setup easier.
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
+* [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding hub ci-status to your zsh theme.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k](https://github.com/rimraf/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
