@@ -289,7 +289,6 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
 * [zsh-maven-plugin](https://github.com/KyleChamberlin/zsh_maven_plugin) - fork of the oh-my-zsh maven plugin
 * [zsh-navigation-tools](https://github.com/psprint/zsh-navigation-tools) - `htop`-like `kill`, directory bookmarks browser, multi-word incremental history searcher and more
-* [zsh-nodejs-plugin](https://github.com/poying/zsh-nodejs-plugin) - Po-Ying Chen's Nodejs plugin for zsh.
 * [zsh-notify](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 * [zsh-opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
