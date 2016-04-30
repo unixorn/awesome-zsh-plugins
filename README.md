@@ -74,7 +74,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [antibody](https://github.com/caarlos0/antibody)
 
-**Antibody** is a simpler and faster replacement for antigen written in Go that can do stuff in parallel.
+**Antibody** A faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
