@@ -195,7 +195,7 @@ These frameworks make customizing your zsh setup easier.
 * [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure zsh.
 * [deer](https://github.com/Vifon/deer) - A file navigator for zsh heavily inspired by [ranger](http://ranger.nongnu.org/).
 * [depot-tools](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
-* [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - Oh My Zsh plugin for Elixir, IEX, Mix and Phoenix
+* [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - oh-my-zsh plugin for Elixir, IEX, Mix and Phoenix
 * [emoji-cli](https://github.com/b4b4r07/emoji-cli) - :scream: Emoji completion on the command line
 * [enhancd](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command
 * [fzf-marks](https://github.com/uvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in Bash and Zsh, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
@@ -258,7 +258,7 @@ These frameworks make customizing your zsh setup easier.
 * [wakatime](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
 * [watson.zsh](https://github.com/bcho/Watson.zsh) - A plugin for [watson](https://github.com/TailorDev/Watson)
 * [wd](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in zsh, without using cd. Why? Because cd seems ineffecient when the folder is frequently visited or has a long path.
-* [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for Oh My ZSH, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
+* [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for oh-my-zsh, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
@@ -402,7 +402,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [glimmer](https://github.com/martnu/glimmer) - Includes git branch, time and user@host.
 * [hackerquotes](https://github.com/oldratlee/hacker-quotes) - Outputs a hacker quote randomly when you open a terminal
 * [hackersaurus](https://github.com/bhilburn/hackersaurus) - A theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
-* [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for Oh My ZSH and iTerm
+* [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm
 * [horse-sh](https://github.com/emileswarts/horse-sh) - A very minimal brown/red zsh theme.
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the intheloop theme to use powerline fonts.
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme.
@@ -426,7 +426,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [oh-my-zsh-node-theme](https://github.com/skuridin/oh-my-zsh-node-theme)
 * [oh-my-zsh-robbl](https://github.com/robbl/oh-my-zsh-config) - Shows the git/svn status including the time since last commit, rvm status in prompt.
 * [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
-* [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for Oh My ZSH used by Frédéric de Villamil.
+* [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for oh-my-zsh used by Frédéric de Villamil.
 * [powerlevel9k](https://github.com/bhilburn/powerlevel9k) - A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc.
 * [powerline-cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - Based on [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
 * [prezto-cloud-prompt](https://github.com/klaude/prezto-cloud-prompt) - Prezto port of oh-my-zsh's cloud prompt.
