@@ -217,6 +217,7 @@ These frameworks make customizing your zsh setup easier.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding hub ci-status to your zsh theme.
+* [jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](http://jhipster.github.io/)
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k](https://github.com/rimraf/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
