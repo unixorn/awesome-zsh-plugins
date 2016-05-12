@@ -257,6 +257,7 @@ These frameworks make customizing your zsh setup easier.
 * [statify](https://github.com/vladmrnv/statify) - Plugin that does basic statistical analysis
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for OS X
+* [up.zsh](https://github.com/peterhurford/up.zsh) - Adds an up command to cd multiple levels up
 * [vimman](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
 * [virtualz](https://github.com/aperezdc/virtualz) - Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper.
 * [wakatime](https://github.com/wbinglee/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/)
