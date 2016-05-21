@@ -241,6 +241,7 @@ These frameworks make customizing your zsh setup easier.
 * [otter](https://github.com/allanhortle/otter) - Combination theme and plugin by Allan Hortle.
 * [pantheon-terminal-notify-zsh-plugin](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya
 * [parallels-zsh-plugin](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
+* [phpunit.plugin.zsh](https://github.com/voronkovich/phpunit.plugin.zsh) - Plugin for [PHPUnit](https://phpunit.de/)
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://codegyre.github.io/Robo/)
