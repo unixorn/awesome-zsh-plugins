@@ -216,6 +216,7 @@ These frameworks make customizing your zsh setup easier.
 * [going_places](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
+* [history-search-multi-word](https://github.com/psprint/history-search-multi-word) - multi-word history searcher for Zsh, bound to Ctrl-R
 * [history-sync](https://github.com/wulfgarpro/history-sync) - An Oh My Zsh plugin for GPG encrypted, Internet synchronized Zsh history using Git.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding hub ci-status to your zsh theme.
@@ -316,6 +317,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-vim-mode](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for zsh's vi mode so it behaves more vim-like
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh
 * [zsnapshot](https://github.com/psprint/zsnapshot) - command which dumps current Zsh state into a file, for restoration by sourcing the file
+* [Ztrace](https://github.com/psprint/ztrace) - catches output of commands, allows to reuse that output, glue it with history content
 
 ## Even more completions
 
