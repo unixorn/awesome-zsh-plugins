@@ -304,6 +304,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-konsole-theme-changer](https://github.com/horosgrisa/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
 * [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
 * [zsh-maven-plugin](https://github.com/KyleChamberlin/zsh_maven_plugin) - A fork of the oh-my-zsh maven plugin
+* [zsh-morpho](https://github.com/psprint/zsh-morpho) - terminal screen savers written in pure Zsh, and also screen saver framework
 * [zsh-navigation-tools](https://github.com/psprint/zsh-navigation-tools) - Adds `htop`-like `kill`, directory bookmarks browser, multi-word incremental history searcher and more.
 * [zsh-notify](https://github.com/marzocchi/zsh-notify) - A plugin for the Z shell (on OS X and Linux) that posts desktop notifications when a command terminates with a non-zero exit status or when it took more than 30 seconds to complete, if the terminal application is in the background (or the command's terminal tab is inactive).
 * [zsh-open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
