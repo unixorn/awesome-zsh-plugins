@@ -199,7 +199,7 @@ These frameworks make customizing your zsh setup easier.
 * [docker-fun](https://github.com/johnlabarge/docker_fun) - Adds docker convenience functions.
 * [docker-git](https://github.com/johnsockwell/docker-git) - plugin that automates common Docker commands inside a Git repo
 * [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts.
-* [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - oh-my-zsh plugin for Elixir, IEX, Mix and Phoenix
+* [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - A plugin for Elixir, IEX, Mix and Phoenix
 * [dropbox](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [emoji-cli](https://github.com/b4b4r07/emoji-cli) - :scream: Emoji completion on the command line
 * [enhancd](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command
@@ -336,6 +336,7 @@ These frameworks make customizing your zsh setup easier.
 These plugins add tab completion without adding extra functions or aliases.
 
 * [autopkg-zsh-completion](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg.
+* [aws_manager_plugin](https://github.com/EslamElHusseiny/aws_manager_plugin) - Add completions for the aws_manager CLI
 * [berkshelf-zsh-plugin](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf.
 * [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion.
 * [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services.
