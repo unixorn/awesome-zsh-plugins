@@ -197,6 +197,7 @@ These frameworks make customizing your zsh setup easier.
 * [depot-tools](https://github.com/jgrowl/depot_tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [docker-compose](https://github.com/sroze/docker-compose-zsh-plugin) Show docker container status in your prompt.
 * [docker-fun](https://github.com/johnlabarge/docker_fun) - Adds docker convenience functions.
+* [docker-git](https://github.com/johnsockwell/docker-git) - plugin that automates common Docker commands inside a Git repo
 * [docker-helpers](https://github.com/unixorn/docker-helpers.zshplugin) - A collection of docker helper scripts.
 * [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - oh-my-zsh plugin for Elixir, IEX, Mix and Phoenix
 * [dropbox](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
