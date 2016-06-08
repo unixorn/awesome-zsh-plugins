@@ -235,6 +235,7 @@ These frameworks make customizing your zsh setup easier.
 * [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
 * [mfunc](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
+* [mylocation](https://github.com/KasperChristensen/mylocation) - A plugin to show your current location based on your IP address.
 * [mysql-colorize](https://github.com/horosgrisa/mysql-colorize) - Colors for mysql tables.
 * [mysql.plugin.zsh](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
