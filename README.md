@@ -374,6 +374,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your tmux pane.
 * [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
 * [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake
+* [vert.x-omz-plugin](https://github.com/davidafsilva/vert.x-omz-plugin) - Provides autocomplete features for the [vertx](http://vertx.io/) command.
 * [zsh-cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal
 * [zsh-completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 * [zsh-ipfs](https://github.com/aramboi/zsh-ipfs) - Completions for the [Interplanetary File System](https://ipfs.io)
