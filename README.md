@@ -304,7 +304,6 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
 * [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
 * [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
-* [zsh-gvm (horosgrisa)](https://github.com/horosgrisa/zsh-gvm) - Go version manager plugin for zsh.
 * [zsh-gvm (yerinle)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm (Groovy enVironment Manager)
 * [zsh-hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md
