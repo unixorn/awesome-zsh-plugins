@@ -150,7 +150,7 @@ These frameworks make customizing your zsh setup easier.
 * [ZSH tips by Christian Schneider](http://strcat.de/zsh/#tipps) - an exhaustive list of ZSH tips by Christian Schneider.
 * [ZSH Tips by ZZapper](http://www.rayninfo.co.uk/tips/zshtips.html) - ZZapper's list of tips.
 * [https://wiki.archlinux.org/index.php/zsh](https://wiki.archlinux.org/index.php/zsh) - Arch Linux's ZSH introduction.
-* [http://commandlinepoweruser.com/](http://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
+* [http://commandlinepoweruser.com](http://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
 * Larry Schrof's [ZSH Workshop](https://www-s.acm.illinois.edu/workshops/zsh/toc.html)
 * [Why ZSH is Cooler than your Shell](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692) slideshare presentation
 
