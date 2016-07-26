@@ -311,6 +311,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [zsh-fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
+* [zsh-git-plugin](https://github.com/rcruzper/zsh-git-plugin) - Adds some functions for git
 * [zsh-git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
 * [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
 * [zsh-gvm (yerinle)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm (Groovy enVironment Manager)
