@@ -233,6 +233,7 @@ These frameworks make customizing your zsh setup easier.
 * [history-search-multi-word](https://github.com/psprint/history-search-multi-word) - multi-word history searcher for Zsh, bound to Ctrl-R
 * [history-sync](https://github.com/wulfgarpro/history-sync) - An Oh My Zsh plugin for GPG encrypted, Internet synchronized Zsh history using Git.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
+* [host-switch](https://github.com/LockonS/host-switch) - Make it easier to switch in different `/etc/hosts` files during development
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding hub ci-status to your zsh theme.
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a setjdk command so you can switch easily between different versions of the jdk
 * [jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](http://jhipster.github.io/)
