@@ -448,6 +448,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
+* [lagune](https://github.com/noplay/lagune) - a minimal zsh theme
 * [lambda](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
 * [lime](https://github.com/yous/lime) - Simple standalone Zsh theme.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
