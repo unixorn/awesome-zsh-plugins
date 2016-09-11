@@ -499,6 +499,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on gallifrey.
 * [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
+* [wang-iterm-zsh](https://github.com/0532/wang-iterm-zsh) - based on the 0532 theme
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
 * [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
