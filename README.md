@@ -431,6 +431,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [delta-prompt](https://github.com/cusxio/delta-prompt) - A minimal Zsh prompt
 * [dracula](https://github.com/zenorocha/dracula-theme) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh.
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple zsh color theme.
+* [feder](https://github.com/samfeder/feder.zsh-theme/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors
 * [friendly-fiesta](https://github.com/bruino/friendly-fiesta) - Fork of terminal-party theme
 * [frisk-arrow](https://github.com/BakeRolls/frisk-arrow) - A theme based on the [frisk](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh-theme.
 * [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh.
