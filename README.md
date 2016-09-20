@@ -33,6 +33,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zplugin](https://github.com/psprint/zplugin)](#zpluginhttpsgithubcompsprintzplugin)
   - [[ZPM](https://github.com/horosgrisa/ZPM)](#zpmhttpsgithubcomhorosgrisazpm)
   - [[ztanesh](https://github.com/miohtama/ztanesh)](#ztaneshhttpsgithubcommiohtamaztanesh)
+  - [[zulu](https://github.com/zulu-zsh/zulu)](#zuluhttpsgithubcomzulu-zshzulu)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen)
@@ -139,6 +140,10 @@ These frameworks make customizing your zsh setup easier.
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
 **Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
+
+### [zulu](https://github.com/zulu-zsh/zulu)
+
+**Zulu** is a total environment manager for ZSH 5+
 
 ## Tutorials
 
