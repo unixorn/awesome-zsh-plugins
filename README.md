@@ -318,6 +318,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
 * [zsh-dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [zsh-editing-workbench](https://github.com/psprint/zsh-editing-workbench) - Adds sane, complex command line editing (e.g. incremental history _word_ completion).
+* [zsh-favorite-directories](https://github.com/seletskiy/zsh-favorite-directories) - Fast jumps to your favorite directories
 * [zsh-functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [zsh-fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
 * [zsh-geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for zsh.
