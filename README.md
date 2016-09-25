@@ -54,7 +54,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
-  - [Other lists](#other-lists)
+  - [Other Useful Lists](#other-useful-lists)
   - [Other References](#other-references)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
