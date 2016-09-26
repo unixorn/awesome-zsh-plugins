@@ -590,6 +590,7 @@ I've documented some recommendations for writing a new plugin [here](https://git
 ### ZSH Tools
 
 * [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger
+* [zunit](https://github.com/molovo/zunit) - A powerful unit testing framework for ZSH
 
 ### Other Useful Lists
 
