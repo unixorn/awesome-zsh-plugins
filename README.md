@@ -248,6 +248,7 @@ These frameworks make customizing your zsh setup easier.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
 * [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
+* [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
 * [mfunc](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
 * [mylocation](https://github.com/KasperChristensen/mylocation) - A plugin to show your current location based on your IP address.
@@ -273,6 +274,7 @@ These frameworks make customizing your zsh setup easier.
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [plugin](https://github.com/hellodarren/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
+* [revolver](https://github.com/molovo/revolver) - A progress spinner for ZSH scripts
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://robo.li/)
 * [rockz](https://github.com/aperezdc/rockz) - Lua + LuaRocks virtual environment manager based upon VirtualZ.
 * [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
@@ -443,6 +445,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple zsh color theme.
 * [feder](https://github.com/samfeder/feder.zsh-theme/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors
 * [friendly-fiesta](https://github.com/bruino/friendly-fiesta) - Fork of terminal-party theme
+* [filthy](https://github.com/molovo/filthy) - A disgustingly clean ZSH prompt
 * [frisk-arrow](https://github.com/BakeRolls/frisk-arrow) - A theme based on the [frisk](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh-theme.
 * [frisk-red](https://github.com/aishsingh/zsh/tree/master/frisk-red) - Red version of the frisk theme from oh-my-zsh.
 * [frlo](https://github.com/fiorillo/frlo) - Uses your computer's hostname to come up with a (hopefully) unique three-color theme to display in your prompt, so you know at a glance which machine you're logged into.
