@@ -512,6 +512,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A zsh theme with git, nvm, rvm/rbenv/chruby, python, ssh and other useful indicators.
 * [spelljammer](https://github.com/radiopetushki/spelljammer) - Minimal theme for oh-my-zsh and prezto
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
+* [staples](https://github.com/dersam/staples) - based on bureau, displays user@host if connected through SSH
 * [statusline](https://github.com/el1t/statusline) - A responsive zsh theme that provides informational segments when you need them
 * [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
 * [tahuri](https://github.com/Tahuri/oh-my-zshel-theme-tahuri) - Zsh theme for Arch Linux.
