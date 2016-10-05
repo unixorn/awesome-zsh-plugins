@@ -351,6 +351,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-select](https://github.com/psprint/zsh-select) - multi-term searched selection list with approximate matching and uniq mode
 * [zsh-sudo](https://github.com/hcgraf/zsh-sudo) - the sudo plugin from oh-my-zsh, extracted to a standalone. Toggles "sudo" before the current/previous command by pressing *ESC-ESC* in emacs-mode or vi-command mode.
 * [zsh-suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias) - Directly open files in the shell using ZSH's suffix aliases.
+* [zsh-syntax-highlighting-filetypes](https://github.com/trapd00r/zsh-syntax-highlighting-filetypes) - zsh syntax highlighting with dircolors in realtime
 * [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your zsh. Make sure you load this _before_ zsh-users/zsh-history-substring-search or they will both break.
 * [zsh-t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 * [zsh-terminal-app](https://github.com/the8/zsh-terminal-app) - A plugin for integrating with the new El Capitan Terminal.app features
