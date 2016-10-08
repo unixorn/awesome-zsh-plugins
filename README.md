@@ -488,6 +488,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 * [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
 * [nknu](https://github.com/aanc/oh-my-zsh-nknu-theme) - A simple OMZ theme.
+* [nodeys](https://github.com/marszall87/nodeys-zsh-theme) - Based on ys theme, with added NodeJS version (from NVM plugin)
 * [odin](https://github.com/tylerreckart/odin) - Odin is a git-flavored zsh theme.
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh.
 * [oh-my-zsh-node-theme](https://github.com/skuridin/oh-my-zsh-node-theme)
