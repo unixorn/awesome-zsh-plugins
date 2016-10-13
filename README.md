@@ -464,6 +464,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [glimmer](https://github.com/martnu/glimmer) - Includes git branch, time and user@host.
 * [hacker-quotes](https://github.com/oldratlee/hacker-quotes) - Outputs a hacker quote randomly when you open a terminal
 * [hackersaurus](https://github.com/bhilburn/hackersaurus) - A theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
+* [haribo](https://github.com/haribo/omz-haribo-theme) - Simple git status + timestamp in prompt
 * [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm
 * [horse-sh](https://github.com/emileswarts/horse-sh) - A very minimal brown/red zsh theme.
 * [hyperzsh](https://github.com/tylerreckart/hyperzsh) - Gives you a comprehensive overview of the branch you're working on and the status of your repository without cluttering your terminal.
