@@ -495,6 +495,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
 * [nknu](https://github.com/aanc/oh-my-zsh-nknu-theme) - A simple OMZ theme.
 * [nodeys](https://github.com/marszall87/nodeys-zsh-theme) - Based on ys theme, with added NodeJS version (from NVM plugin)
+* [nt9](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) - Clean, distraction free and git focused development theme. Shows path relative to git root (or ~ when outside git repo), time since last commit, current SHA, branch and branch state.
 * [odin](https://github.com/tylerreckart/odin) - Odin is a git-flavored zsh theme.
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and zsh.
 * [oh-my-zsh-node-theme](https://github.com/skuridin/oh-my-zsh-node-theme)
