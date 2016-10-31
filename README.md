@@ -29,7 +29,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zilsh](https://github.com/zilsh/zilsh)](#zilshhttpsgithubcomzilshzilsh)
   - [[zim](https://github.com/Eriner/zim)](#zimhttpsgithubcomerinerzim)
   - [[zoppo](https://github.com/zoppo/zoppo)](#zoppohttpsgithubcomzoppozoppo)
-  - [[zplug](https://github.com/b4b4r07/zplug)](#zplughttpsgithubcomb4b4r07zplug)
+  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomb4b4r07zplug)
   - [[zplugin](https://github.com/psprint/zplugin)](#zpluginhttpsgithubcompsprintzplugin)
   - [[ZPM](https://github.com/horosgrisa/ZPM)](#zpmhttpsgithubcomhorosgrisazpm)
   - [[ztanesh](https://github.com/miohtama/ztanesh)](#ztaneshhttpsgithubcommiohtamaztanesh)
@@ -50,7 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[Oh-My-Zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
   - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
   - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
-  - [[zplug](https://github.com/b4b4r07/zplug)](#zplughttpsgithubcomb4b4r07zplug-1)
+  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomb4b4r07zplug-1)
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
@@ -125,7 +125,7 @@ These frameworks make customizing your zsh setup easier.
 
 **Zoppo** is the crippled configuration framework for Zsh. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
 
-### [zplug](https://github.com/b4b4r07/zplug)
+### [zplug](https://github.com/zplug/zplug)
 
 **:hibiscus: Zplug** is a next-generation zsh plugin manager.
 
@@ -597,7 +597,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repositories for you when you do a `zgen save`.
 
-### [zplug](https://github.com/b4b4r07/zplug)
+### [zplug](https://github.com/zplug/zplug)
 
 Most of these plugins can be installed by adding `zplug "githubuser/reponame"` to your .zshrc file.
 
