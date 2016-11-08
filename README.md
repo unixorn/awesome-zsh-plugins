@@ -29,7 +29,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[zilsh](https://github.com/zilsh/zilsh)](#zilshhttpsgithubcomzilshzilsh)
   - [[zim](https://github.com/Eriner/zim)](#zimhttpsgithubcomerinerzim)
   - [[zoppo](https://github.com/zoppo/zoppo)](#zoppohttpsgithubcomzoppozoppo)
-  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomb4b4r07zplug)
+  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomzplugzplug)
   - [[zplugin](https://github.com/psprint/zplugin)](#zpluginhttpsgithubcompsprintzplugin)
   - [[ZPM](https://github.com/horosgrisa/ZPM)](#zpmhttpsgithubcomhorosgrisazpm)
   - [[ztanesh](https://github.com/miohtama/ztanesh)](#ztaneshhttpsgithubcommiohtamaztanesh)
@@ -50,7 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[Oh-My-Zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
   - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
   - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
-  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomb4b4r07zplug-1)
+  - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomzplugzplug-1)
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
@@ -236,6 +236,7 @@ These frameworks make customizing your zsh setup easier.
 * [going_places](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations.
 * [gpg-agent](https://github.com/axtl/gpg-agent.zsh) - Plugin that tries to do the right thing when it comes to setting up the GPG agent to act as an SSH agent as well on OS X.
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
+* [gtm-terminal-plugin](https://github.com/git-time-metric/gtm-terminal-plugin) - terminal plugin for [git time metrics](https://github.com/git-time-metric/gtm/blob/master/README.md).
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [history-search-multi-word](https://github.com/psprint/history-search-multi-word) - multi-word history searcher for Zsh, bound to Ctrl-R
 * [history-sync](https://github.com/wulfgarpro/history-sync) - An Oh My Zsh plugin for GPG encrypted, Internet synchronized Zsh history using Git.
@@ -432,6 +433,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [alpharized](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
 * [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt.
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
+* [bklyn](https://github.com/gporrata/bklyn-zsh) - Variant of [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with customizations applied.
 * [blinks-xfan](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
 * [blox-zsh-theme](https://github.com/yardnsm/blox-zsh-theme) - A minimal and fast ZSH theme that shows you what you need. It consists of blocks: each block is shown inside a pair of [square brackets], and you can add blocks by simply creating a function.
 * [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme.
@@ -511,6 +513,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [poncho](https://github.com/RainyDayMedia/oh-my-zsh-poncho) - RDM's basic oh-my-zsh custom theme
 * [powerlevel9k](https://github.com/bhilburn/powerlevel9k) - A very flexible theme based on the well-known agnoster-theme with support for various VCS, AWS, rbenv, virtualenv, etc.
 * [powerline-cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - Based on [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
+* [pre-theme](https://github.com/leandromatos/pre-theme) - A collection of themes for Sublime Text, Terminal, iTerm2 and zsh.
 * [predawn-shell](https://github.com/jamiewilson/predawn-shell) - Theme for dark terminal themes
 * [prezto-cloud-prompt](https://github.com/klaude/prezto-cloud-prompt) - Prezto port of oh-my-zsh's cloud prompt.
 * [prezto-lambda](https://github.com/nixolas1/prezto-lambda) - theme for prezto
@@ -538,6 +541,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
 * [tahuri](https://github.com/Tahuri/oh-my-zshel-theme-tahuri) - Zsh theme for Arch Linux.
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on gallifrey.
+* [trinity](https://github.com/de-luca/Trinity) - A simple theme based on [geometry](https://github.com/frmendes/geometry)
 * [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wang-iterm-zsh](https://github.com/0532/wang-iterm-zsh) - based on the 0532 theme
