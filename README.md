@@ -487,6 +487,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [lagune](https://github.com/noplay/lagune) - a minimal zsh theme
 * [lambda](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
+* [lambda-pure](https://github.com/marszall87/lambda-pure) - A minimal zsh theme, based on Pure, with added NodeJS version
 * [lime](https://github.com/yous/lime) - Simple standalone Zsh theme.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
