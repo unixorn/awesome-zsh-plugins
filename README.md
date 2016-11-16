@@ -531,7 +531,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) Rummik's theme.
 * [schminitz](https://gist.github.com/schminitz/9931af23bbb59e772eec) - Shows if Vim is running in the background when using `:sh` command
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts.
-* [sepshell](https://github.com/sepehr/sepshell) - Forked from Taylor Otwell's old taybalt theme, inspired by cobalt2.
+* [sepshell](https://github.com/sepehr/sepshell) - Clean and minimal zsh theme based on the old lost taybalt theme.
 * [shellder](https://github.com/simnalamburt/shellder) - Minimal theme with git branch display. Requires a powerline font.
 * [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme.
 * [sk9-zsh](https://github.com/skeiter9/sk9-zsh) - Skeiter9's zsh theme.
