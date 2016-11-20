@@ -434,6 +434,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) - Based on Agnoster, shows battery life, date & time, git status, current directory and user & host information
 * [alpharized](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
 * [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt.
+* [aplos](https://github.com/nostophilia/aplos) - minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code.
 * [avit-d2k](https://github.com/fdaciuk/avit-da2k) - Based on Avit, with small changes.
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
 * [bklyn](https://github.com/gporrata/bklyn-zsh) - Variant of [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with customizations applied.
