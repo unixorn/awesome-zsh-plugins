@@ -273,6 +273,7 @@ These frameworks make customizing your zsh setup easier.
 * [osx-dev-zsh-plugin](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my OSX install.
 * [pantheon-terminal-notify-zsh-plugin](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya
 * [parallels-zsh-plugin](https://github.com/benclark/parallels-zsh-plugin) - Parallels desktop plugin
+* [pctl](https://github.com/ytet5uy4/pctl) - Toggle the environment variables for proxying
 * [phpunit.plugin.zsh](https://github.com/voronkovich/phpunit.plugin.zsh) - Plugin for [PHPUnit](https://phpunit.de/)
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [plugin](https://github.com/hellodarren/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks
