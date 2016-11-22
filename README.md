@@ -446,6 +446,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [bunnyruni](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) - Simple, clean, and beautiful theme.
 * [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
+* [bureau-colorized](https://github.com/CCheminaud/bureau-colorized) - Based on bureau.zsh-theme, for people who use Git and NVM.
 * [candy-light](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
 * [charged](https://github.com/robwierzbowski/charged-zsh-theme) - A zsh prompt optimized for the solarized dark terminal theme.
 * [chi](https://github.com/andela-abankole/chi) - A zsh theme optimized for iTerm users on OS X
