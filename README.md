@@ -459,6 +459,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - An OSX oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [darkblood-modular](https://github.com/InAnimaTe/darkblood-modular) - This version of the popular [darkblood](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/darkblood.zsh-theme) theme has been enhanced with a near complete rewrite enabling modularity and a few new features.
 * [delta-prompt](https://github.com/cusxio/delta-prompt) - A minimal Zsh prompt
+* [dexter](https://github.com/shvenkat/zsh-theme-dexter) - A theme with an emphasis on the right side (hence the name) of the terminal.
 * [dissonance](https://github.com/RyanScottLewis/theme-dissonance-zsh) - Comes with custom LSCOLORS and LS_COLORS settings files, works with both dark and light terminal themes
 * [dracula](https://github.com/zenorocha/dracula-theme) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh.
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple zsh color theme.
