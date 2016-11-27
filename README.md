@@ -349,7 +349,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 * [zsh-osx](https://github.com/mwilliammyers/plugin-osx) - Add some common OS X related aliases and functions
 * [zsh-peco-history](https://github.com/jimeh/zsh-peco-history) - Search shell history with Peco when pressing ctrl+r.
-* [zsh-pg](https://github.com/caarlos0/zsh-pg) - Utility functions to work with PosgreSQL
+* [zsh-pg](https://github.com/caarlos0/zsh-pg) - Adds utility functions to work with PosgreSQL
 * [zsh-plugin-ibtool](https://github.com/RudthMael/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files
 * [zsh-plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails
 * [zsh-plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for Mac OS X, Windows, and Linux
