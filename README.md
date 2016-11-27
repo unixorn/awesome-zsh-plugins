@@ -409,6 +409,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [oh-my-zsh_razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor)
 * [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets
+* [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for ssh connections.
 * [surf.plugin.zsh](https://github.com/markussom/surf.plugin.zsh) - Add completions for surf
 * [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](http://kitchen.ci/)
 * [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your tmux pane.
