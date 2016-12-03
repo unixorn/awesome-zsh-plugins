@@ -439,6 +439,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt.
 * [aplos](https://github.com/nostophilia/aplos) - minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code.
 * [avit-d2k](https://github.com/fdaciuk/avit-da2k) - Based on Avit, with small changes.
+* [bandit](https://github.com/Holger-Will/zsh_bandit) - Another Powerline variant.
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
 * [bklyn](https://github.com/gporrata/bklyn-zsh) - Variant of [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with customizations applied.
 * [blinks-xfan](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
