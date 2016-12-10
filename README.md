@@ -562,6 +562,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
 * [tahuri](https://github.com/Tahuri/oh-my-zshel-theme-tahuri) - Zsh theme for Arch Linux.
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on gallifrey.
+* [theme-line](https://github.com/yw9381/oh-my-zsh_theme_line) - Colorful theme with Git status
 * [trinity](https://github.com/de-luca/Trinity) - A simple theme based on [geometry](https://github.com/frmendes/geometry)
 * [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
