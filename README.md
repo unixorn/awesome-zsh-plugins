@@ -285,6 +285,7 @@ These frameworks make customizing your zsh setup easier.
 * [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
 * [safe-paste](https://github.com/oz/safe-paste) - A safe-paste plugin. See [http://cirw.in/blog/bracketed-paste](http://cirw.in/blog/bracketed-paste)
 * [saneopt](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
+* [schroot](https://github.com/fshp/schroot.plugin.zsh) - Show current chroot name in your prompt.
 * [send.zsh](https://github.com/robertzk/send.zsh) - Single command to git add, git commit, and git push for much faster git workflow.
 * [setenv](https://github.com/kalpakrg/setenv) - Runs a script when you change directories
 * [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
