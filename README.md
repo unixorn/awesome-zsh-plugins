@@ -569,6 +569,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [theme-line](https://github.com/yw9381/oh-my-zsh_theme_line) - Colorful theme with Git status
 * [trinity](https://github.com/de-luca/Trinity) - A simple theme based on [geometry](https://github.com/frmendes/geometry)
 * [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
+* [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme forked from [S1cK94/minimal](https://github.com/S1cK94/minimal)
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with Solarized color scheme.
 * [wang-iterm-zsh](https://github.com/0532/wang-iterm-zsh) - based on the 0532 theme
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for Zsh, iTerm, Sublime, Atom, & Mou
