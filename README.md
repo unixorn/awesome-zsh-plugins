@@ -527,6 +527,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [oh-my-zsh-node-theme](https://github.com/skuridin/oh-my-zsh-node-theme)
 * [oh-my-zsh-robbl](https://github.com/robbl/oh-my-zsh-config) - Shows the git/svn status including the time since last commit, rvm status in prompt.
 * [omz-vira](https://github.com/FernandoTorres/omz-vira) - An update of the bira theme that shows the vim bindkey -v status
+* [ozono](https://github.com/sfabrizio/ozono-zsh-theme) 🌏 OZ0NO - Let's Breathe a clean ZSH
 * [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
 * [phi φ](https://github.com/LasaleFamine/phi-zsh-theme) - A clean and simple theme for ZSH inspired and forked from [Lambda (Mod) ZSH Theme](https://github.com/halfo/lambda-mod-zsh-theme)
 * [platypus](https://github.com/fdv/platypus) - Platypus is a simple and convenient theme for oh-my-zsh used by Frédéric de Villamil.
