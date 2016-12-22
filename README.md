@@ -405,7 +405,6 @@ These plugins add tab completion without adding extra functions or aliases.
 * [newman](https://github.com/selop/newman-autocomplete) - provides autocompletion for the [Newman CLI](https://github.com/postmanlabs/newman)
 * [nix-zsh-completions](https://github.com/spwhitt/nix-zsh-completions) - Completions for [nix](https://nixos.org/nix/), [NixOS](https://nixos.org/), and [NixOps](http://nixos.org/nixops/).
 * [npm-run.plugin.zsh](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`
-* [octopress-zsh-completion](https://github.com/nsetyo/octopress-zsh-completion) - completions for Octopress
 * [oh-my-zsh-nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova
 * [oh-my-zsh-plugin-nvm](https://github.com/olesu/oh-my-zsh-plugin-nvm) - Ole Sunde's nvm plugin for zsh
 * [oh-my-zsh-spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands
