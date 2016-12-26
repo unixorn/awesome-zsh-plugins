@@ -460,6 +460,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ciacho](https://github.com/Ciacho/ciacho-ohmyzsh-theme) - Based on Agnoster
 * [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) - Minimal, clean theme with git support
 * [clean](https://github.com/akz92/clean) - Minimalist zsh theme
+* [cloudy](https://github.com/Huvik/Cloudy) - Minimal cloudy zsh theme
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Codemachine theme.
 * [cordial](https://github.com/stevelacy/cordial-zsh-theme) - Clean and effective zsh theme with git and npm support
