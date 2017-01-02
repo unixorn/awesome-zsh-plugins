@@ -450,6 +450,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [blox-zsh-theme](https://github.com/yardnsm/blox-zsh-theme) - A minimal and fast ZSH theme that shows you what you need. It consists of blocks: each block is shown inside a pair of [square brackets], and you can add blocks by simply creating a function.
 * [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 * [brunty](https://github.com/Brunty/omz-brunty) - Brunty theme
+* [bttf-color-zsh](https://github.com/yasuhiroki/bttf-color-zsh) - BTTF color theme
 * [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [bunnyruni](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) - Simple, clean, and beautiful theme.
 * [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
