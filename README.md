@@ -22,7 +22,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[dotzsh](https://github.com/dotphiles/dotzsh)](#dotzshhttpsgithubcomdotphilesdotzsh)
   - [[fresh](https://github.com/freshshell/fresh)](#freshhttpsgithubcomfreshshellfresh)
   - [[oh-my-zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
-  - [[prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
+  - [[prezto](https://github.com/zsh-users/prezto)](#preztohttpsgithubcomzsh-usersprezto)
   - [[pumice](https://github.com/ryutamaki/pumice)](#pumicehttpsgithubcomryutamakipumice)
   - [[zeesh](https://github.com/zeekay/zeesh)](#zeeshhttpsgithubcomzeekayzeesh)
   - [[zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
@@ -48,7 +48,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [[Antigen](https://github.com/zsh-users/antigen)](#antigenhttpsgithubcomzsh-usersantigen)
   - [[dotzsh](https://github.com/dotphiles/dotzsh)](#dotzshhttpsgithubcomdotphilesdotzsh-1)
   - [[Oh-My-Zsh](http://ohmyz.sh/)](#oh-my-zshhttpohmyzsh)
-  - [[Prezto](https://github.com/sorin-ionescu/prezto)](#preztohttpsgithubcomsorin-ionescuprezto)
+  - [[Prezto](https://github.com/zsh-users/prezto)](#preztohttpsgithubcomzsh-usersprezto)
   - [[Zgen](https://github.com/tarjoilija/zgen)](#zgenhttpsgithubcomtarjoilijazgen)
   - [[zplug](https://github.com/zplug/zplug)](#zplughttpsgithubcomzplugzplug-1)
 - [Writing New Plugins](#writing-new-plugins)
@@ -97,7 +97,7 @@ These frameworks make customizing your zsh setup easier.
 
 **oh-my-zsh** is a community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
-### [prezto](https://github.com/sorin-ionescu/prezto)
+### [prezto](https://github.com/zsh-users/prezto)
 
 **Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
 
@@ -627,7 +627,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 2. `git clone repo`
 3. Add the repo to your plugin list
 
-### [Prezto](https://github.com/sorin-ionescu/prezto)
+### [Prezto](https://github.com/zsh-users/prezto)
 
 1. Clone the plugin into your prezto modules directory
 2. Add the plugin to your `.zpreztorc` file
