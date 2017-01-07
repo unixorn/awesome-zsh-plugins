@@ -245,7 +245,7 @@ These frameworks make customizing your zsh setup easier.
 * [host-switch](https://github.com/LockonS/host-switch) - Make it easier to switch in different `/etc/hosts` files during development
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding hub ci-status to your zsh theme.
 * [iosctl](https://github.com/obayer/iosctl) - quickly access App, Data, and Log of the running simulator.
-* [iterm-tab-colors](https://github.com/tysonwolker/iterm-tab-colors) - Automatically changes iTerm tab color based on the current working directory 
+* [iterm-tab-colors](https://github.com/tysonwolker/iterm-tab-colors) - Automatically changes iTerm tab color based on the current working directory
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a setjdk command so you can switch easily between different versions of the jdk
 * [jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](http://jhipster.github.io/)
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
@@ -441,6 +441,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [af-magic-mod](https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`.
 * [agnosterAfro](https://github.com/afrozalm/agnosterAfro) - Based on [Powerline](https://github.com/Lokaltog/vim-powerline) and [Agnoster Theme](https://gist.github.com/agnoster/3712874) and inspired from [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme)
 * [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) - Based on Agnoster, shows battery life, date & time, git status, current directory and user & host information
+* [alien](https://github.com/eendroroy/alien) - Powerline-esque Zsh theme that shows git branch and the exit code of the last command
 * [alpharized](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
 * [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt.
 * [aplos](https://github.com/nostophilia/aplos) - minimal ZSH prompt with working directory, Git local info, Git remote info, time and exit code.
