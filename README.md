@@ -441,6 +441,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [af-magic-mod](https://raw.githubusercontent.com/desyncr/zshrc/master/themes/af-magic-mod.zsh-theme) - af-magic-mod theme. Install with `antigen theme desyncr/zshrc themes/af-magic-mod`.
 * [agnosterAfro](https://github.com/afrozalm/agnosterAfro) - Based on [Powerline](https://github.com/Lokaltog/vim-powerline) and [Agnoster Theme](https://gist.github.com/agnoster/3712874) and inspired from [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme)
 * [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) - Based on Agnoster, shows battery life, date & time, git status, current directory and user & host information
+* [alien-minimal](https://github.com/eendroroy/alien-minimal) - Minimalist Zsh theme with git status displayed
 * [alien](https://github.com/eendroroy/alien) - Powerline-esque Zsh theme that shows git branch and the exit code of the last command
 * [alpharized](https://github.com/NicoSantangelo/Alpharized) - Optimized to work with [solarized](http://ethanschoonover.com/solarized) dark. It's a modified version of the [avit theme](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/avit.zsh-theme).
 * [angry fly](https://github.com/russjohnson/angry-fly-zsh) - Shows git information in right hand prompt.
