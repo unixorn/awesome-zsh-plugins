@@ -299,6 +299,7 @@ These frameworks make customizing your zsh setup easier.
 * [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for OS X
 * [up.zsh](https://github.com/peterhurford/up.zsh) - Adds an up command to cd multiple levels up
+* [vanilli.sh](https://github.com/yous/vanilli.sh) - A lightweight start point of shell configuration.
 * [vimman](https://github.com/yonchu/vimman) - View vim plugin manuals (help) like man in zsh
 * [virtualz](https://github.com/aperezdc/virtualz) - Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper.
 * [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An oh-my-zsh plugin to control [VOX](http://coppertino.com/vox/mac), a lightweight full-featured audio player for OS X that can play a variety of formats including FLAC and Ogg Vorbis
