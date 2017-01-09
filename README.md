@@ -284,7 +284,7 @@ These frameworks make customizing your zsh setup easier.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://robo.li/)
 * [rockz](https://github.com/aperezdc/rockz) - Lua + LuaRocks virtual environment manager based upon VirtualZ.
 * [rvm-zsh](https://github.com/johnhamelink/rvm-zsh) - Initiates RVM and adds rubygem binaries (like compass) accessible in the user's $PATH
-* [safe-paste](https://github.com/oz/safe-paste) - A safe-paste plugin. See [http://cirw.in/blog/bracketed-paste](http://cirw.in/blog/bracketed-paste)
+* [safe-paste](https://github.com/oz/safe-paste) - A safe-paste plugin. See <http://cirw.in/blog/bracketed-paste>
 * [saneopt](https://github.com/willghatch/zsh-saneopt) - Sane defaults for zsh options, in the spirit of vim-sensible.
 * [schroot](https://github.com/fshp/schroot.plugin.zsh) - Show current chroot name in your prompt.
 * [send.zsh](https://github.com/robertzk/send.zsh) - Single command to git add, git commit, and git push for much faster git workflow.
@@ -452,7 +452,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
 * [bklyn](https://github.com/gporrata/bklyn-zsh) - Variant of [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with customizations applied.
 * [blinks-xfan](https://github.com/ixfan/blinks-xfan) - Based on the existing theme blinks.
-* [blox-zsh-theme](https://github.com/yardnsm/blox-zsh-theme) - A minimal and fast ZSH theme that shows you what you need. It consists of blocks: each block is shown inside a pair of [square brackets], and you can add blocks by simply creating a function.
+* [blox-zsh-theme](https://github.com/yardnsm/blox-zsh-theme) - A minimal and fast ZSH theme that shows you what you need. It consists of blocks: each block is shown inside a pair of \[square brackets\], and you can add blocks by simply creating a function.
 * [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 * [brunty](https://github.com/Brunty/omz-brunty) - Brunty theme
 * [bttf-color-zsh](https://github.com/yasuhiroki/bttf-color-zsh) - BTTF color theme
