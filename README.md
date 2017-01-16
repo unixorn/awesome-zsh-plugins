@@ -403,6 +403,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [gcloud-zsh-completion](https://github.com/littleq0903/gcloud-zsh-completion) - Add completions for the Google Cloud SDK
 * [gentoo-zsh-completions](https://github.com/gentoo/gentoo-zsh-completions) - providing Zsh completion support to various Gentoo tools that lack completion scripts upstream.
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow
+* [gradle-completion](https://github.com/eriwen/gradle-completion) - Bash and ZSH completion support for gradle
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions
 * [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - Autocompletion for gulp.
 * [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (zsh).
@@ -593,6 +594,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
 * [yairshefi](https://github.com/yaireclipse/yairshefi-ohmyzsh-theme) - Minimal theme with line separated prompts
+* [yuki](https://github.com/yuki-torii/yuki-zsh-theme) - dark optimized ZSH theme
 * [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
 * [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial support and other changes.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin
