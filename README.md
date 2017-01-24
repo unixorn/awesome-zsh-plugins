@@ -253,6 +253,7 @@ These frameworks make customizing your zsh setup easier.
 * [k](https://github.com/rimraf/k) - Directory listings for zsh with git features.
 * [kitsunebook.plugin.zsh](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for Oh-My-Zsh.
+* [listbox](https://github.com/gko/listbox) - Listbox element for shell
 * [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
 * [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
@@ -282,6 +283,7 @@ These frameworks make customizing your zsh setup easier.
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct virtualenvs so they don't conflict with any other python requirements on your system.
 * [plugin](https://github.com/hellodarren/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
+* [project](https://github.com/gko/project) - Create node/python/ruby project both locally and on github(private or public repository)
 * [revolver](https://github.com/molovo/revolver) - A progress spinner for ZSH scripts
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://robo.li/)
 * [rockz](https://github.com/aperezdc/rockz) - Lua + LuaRocks virtual environment manager based upon VirtualZ.
@@ -294,6 +296,7 @@ These frameworks make customizing your zsh setup easier.
 * [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 * [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 * [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for solarized dark theme in terminal
+* [ssh-connect](https://github.com/gko/ssh-connect) - Simple ssh manager
 * [statify](https://github.com/vladmrnv/statify) - Plugin that does basic statistical analysis
 * [sterror.plugin.zsh](https://github.com/aphelionz/strerror.plugin.zsh) - Interprets error messages from programs and displays a human readable error message when available
 * [symfony.plugin.zsh](https://github.com/voronkovich/symfony.plugin.zsh) - ZSH plugin for Symfony 2 and 3.
