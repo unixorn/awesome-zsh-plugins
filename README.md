@@ -161,6 +161,7 @@ These frameworks make customizing your zsh setup easier.
 ### Antigen
 
 * [http://mgdm.net/weblog/zsh-antigen ](http://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
+* [Oh-my-zsh is the Disease and Antigen is the Vaccine](http://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/) - Josh Davis' introduction to Antigen
 
 ### Oh-My-Zsh
 
