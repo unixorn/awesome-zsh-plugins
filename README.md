@@ -260,6 +260,7 @@ These frameworks make customizing your zsh setup easier.
 * [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
 * [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki
+* [markjump](https://github.com/zakariaGatter/MarkGate) - Allows you to mark directories so you can jump directly to them
 * [mfunc](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
 * [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management
 * [mylocation](https://github.com/KasperChristensen/mylocation) - A plugin to show your current location based on your IP address.
@@ -487,6 +488,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [delta-prompt](https://github.com/cusxio/delta-prompt) - A minimal Zsh prompt
 * [dexter](https://github.com/shvenkat/zsh-theme-dexter) - A theme with an emphasis on the right side (hence the name) of the terminal.
 * [dissonance](https://github.com/RyanScottLewis/theme-dissonance-zsh) - Comes with custom LSCOLORS and LS_COLORS settings files, works with both dark and light terminal themes
+* [dmx](https://github.com/domix/dmx.zsh-theme) - Optimized for dark terminal windows
 * [dracula](https://github.com/dracula/zsh) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, Zsh.
 * [dragon](https://github.com/sabertazimi/dragon-zsh-theme) - Minimalistic, includes git status information
 * [endless-dog](https://github.com/qwelyt/endless-dog) - OMZ theme that mimics grml-zsh-config.
@@ -527,6 +529,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lagune](https://github.com/noplay/lagune) - a minimal zsh theme
 * [lambda](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications
 * [lambda-pure](https://github.com/marszall87/lambda-pure) - A minimal zsh theme, based on Pure, with added NodeJS version
+* [lazyprodigy](https://github.com/drewlustro/lazyprodigy-zsh-theme) - Optimized for dark terminals, has variants for local and remote systems
 * [lime](https://github.com/yous/lime) - Simple standalone Zsh theme.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
