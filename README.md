@@ -251,6 +251,7 @@ These frameworks make customizing your zsh setup easier.
 * [iosctl](https://github.com/obayer/iosctl) - quickly access App, Data, and Log of the running simulator.
 * [iterm-tab-colors](https://github.com/tysonwolker/iterm-tab-colors) - Automatically changes iTerm tab color based on the current working directory
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a setjdk command so you can switch easily between different versions of the jdk
+* [jenkins-zsh](https://github.com/tomplex/jenkins-zsh) - A jenkins plugin for ZSH, heavily inspired by the excellent jira plugin
 * [jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](http://jhipster.github.io/)
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on OS X.
 * [k](https://github.com/rimraf/k) - Directory listings for zsh with git features.
