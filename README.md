@@ -307,7 +307,6 @@ These frameworks make customizing your zsh setup easier.
 * [symfony.plugin.zsh](https://github.com/voronkovich/symfony.plugin.zsh) - ZSH plugin for Symfony 2 and 3.
 * [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 * [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
-* [thirsty](https://github.com/lakshaykalbhor/Thirsty) - Helps you ensure you're drinking enough
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran (Similar to [alias-tips](https://github.com/djui/alias-tips))
 * [tsm](https://github.com/RobertAudi/tsm) - Tmux Session Manager
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for OS X
