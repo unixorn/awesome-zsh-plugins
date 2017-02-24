@@ -85,6 +85,10 @@ These frameworks make customizing your zsh setup easier.
 
 **Antigen** is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
 
+### [ax-zsh](https://github.com/alexbarton/ax-zsh)
+
+**Ax-ZSH** is a modular configuration system for ZSH. It provides sane defaults and is extendable by plugins.
+
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
 **Dotzsh** strives to be platform and version independent. Some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
