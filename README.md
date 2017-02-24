@@ -19,6 +19,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [antibody](#antibody)
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
+  - [ax-zsh](#ax-zsh)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [oh-my-zsh](#oh-my-zsh)
