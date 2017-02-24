@@ -19,6 +19,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [antibody](#antibody)
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
+  - [ax-zsh](#ax-zsh)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [oh-my-zsh](#oh-my-zsh)
@@ -84,6 +85,10 @@ These frameworks make customizing your zsh setup easier.
 ### [antigen](https://github.com/zsh-users/antigen)
 
 **Antigen** is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
+
+### [ax-zsh](https://github.com/alexbarton/ax-zsh)
+
+**Ax-ZSH** is a modular configuration system for ZSH. It provides sane defaults and is extendable by plugins.
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
