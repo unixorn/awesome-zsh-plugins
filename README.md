@@ -552,6 +552,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind.
 * [minimal](https://github.com/S1cK94/minimal) - S1ck94's minimal theme.
 * [misa](https://github.com/misalabs/misa.zsh-theme) - misalabs' zsh theme.
+* [mixed](https://github.com/dnavtoparts/mixed-zsh-theme) - Optimized for Dark Background
 * [molokai-powerline-zsh](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 * [multi-shell-repo-prompt](https://github.com/dotcode/multi-shell-repo-prompt) - Provides useful information (in your prompt) about the repository that you are in. It currently works for [Git](http://git-scm.com/) and [Mercurial](https://www.mercurial-scm.org/), under [zsh](http://en.wikipedia.org/wiki/Zsh) as well as [bash](http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)
 * [muslim](https://github.com/nksoff/muslim) - A simple minimal zsh prompt theme.
