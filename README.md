@@ -621,6 +621,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [xxf](https://gist.github.com/xfanwu/18fd7c24360c68bab884) - Shows Current commit shorten hash and message.
 * [yairshefi](https://github.com/yaireclipse/yairshefi-ohmyzsh-theme) - Minimal theme with line separated prompts
 * [ykmam](https://github.com/julienvanderkluft/ykmam-zsh-theme/blob/master/ykmam.zsh-theme) - Modified from ys theme. Optimized for a dark background
+* [ys](https://github.com/cristiancavalli/ys-zsh-custom-theme) - Clean, simple, compatible and meaningful theme meant for dark backgrounds
 * [yuki](https://github.com/yuki-torii/yuki-zsh-theme) - dark optimized ZSH theme
 * [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
 * [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial support and other changes.
