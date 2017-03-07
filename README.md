@@ -452,6 +452,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [zsh-packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for packer
 * [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin
 * [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - Autocompletion plugin for pip
+* [zsh-ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage ssh-agent
 * [zsh.plugin.haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib
 
 ## Themes
