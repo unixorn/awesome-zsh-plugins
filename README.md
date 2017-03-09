@@ -346,6 +346,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-carthage](https://github.com/cfdrake/zsh-carthage) - Provides completions and aliases for use with [Carthage](http://github.com/Carthage/Carthage)
 * [zsh-cmd-architect](https://github.com/psprint/zsh-cmd-architect) - build commands from what's in history and at prompt, move, delete, add command segments and search history with multi-word queries
 * [zsh-colors](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
+* [zsh-command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in zsh and powerlevel9k
 * [zsh-completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator.
 * [zsh-dircolors-solarized](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
 * [zsh-directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for zsh.
