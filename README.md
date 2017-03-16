@@ -7,6 +7,7 @@
 
 [![Join the chat at https://gitter.im/unixorn/awesome-zsh-plugins](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/unixorn/awesome-zsh-plugins?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+[![GitHub stars](https://img.shields.io/github/stars/unixorn/awesome-zsh-plugins.svg)](https://github.com/unixorn/awesome-zsh-plugins/stargazers)
 A collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
