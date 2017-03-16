@@ -610,6 +610,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sk9-zsh](https://github.com/skeiter9/sk9-zsh) - Skeiter9's zsh theme.
 * [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - Theme collection for Atom, Prism and Zsh inspired by Skeletor from He-Man and the Masters of the Universe.
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces.
+* [solarized-powerline](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for zsh
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized).
 * [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A zsh theme with git, nvm, rvm/rbenv/chruby, python, ssh and other useful indicators.
 * [spelljammer](https://github.com/radiopetushki/spelljammer) - Minimal theme for oh-my-zsh and prezto
