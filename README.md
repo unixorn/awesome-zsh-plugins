@@ -132,7 +132,7 @@ These frameworks make customizing your zsh setup easier.
 
 **:hibiscus: Zplug** is a next-generation zsh plugin manager.
 
-### [zplugin](https://github.com/psprint/zplugin)
+### [zplugin](https://github.com/zdharma/zplugin)
 
 **Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, variables, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. Also, every plugin is compiled and the user can control this function. The system does not use $FPATH, it's kept clean!
 
@@ -248,7 +248,7 @@ These frameworks make customizing your zsh setup easier.
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform grep command into awk command.
 * [gtm-terminal-plugin](https://github.com/git-time-metric/gtm-terminal-plugin) - terminal plugin for [git time metrics](https://github.com/git-time-metric/gtm/blob/master/README.md).
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
-* [history-search-multi-word](https://github.com/psprint/history-search-multi-word) - multi-word history searcher for Zsh, bound to Ctrl-R
+* [history-search-multi-word](https://github.com/zdharma/history-search-multi-word) - syntax highlighted, multi-word history searcher for Zsh, bound to Ctrl-R, with advanced functions (e.g. bump of history entry to top of history)
 * [history-sync](https://github.com/wulfgarpro/history-sync) - An Oh My Zsh plugin for GPG encrypted, Internet synchronized Zsh history using Git.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [host-switch](https://github.com/LockonS/host-switch) - Make it easier to switch in different `/etc/hosts` files during development
@@ -332,6 +332,7 @@ These frameworks make customizing your zsh setup easier.
 * [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for oh-my-zsh, compatible with yeoman version ≥1.0 (includes options and command auto-completion)
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for zsh.
+* [Zconvey](https://github.com/zdharma/zconvey) - allows to send commands to other Zsh sessions, use this to `cd $PWD` on all active Zshells!
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to zsh themes
 * [zsh-256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
@@ -399,6 +400,7 @@ These frameworks make customizing your zsh setup easier.
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh.
 * [zsnapshot](https://github.com/psprint/zsnapshot) - Adds command to dump the current Zsh state into a file, for later restoration by sourcing the snapshot file.
 * [Ztrace](https://github.com/psprint/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
+* [ZUI](https://github.com/zdharma/zui/) - Zsh User Interface library – CGI+DHTML-like rapid TUI application development with Zsh
 
 ## Even more completions
 
