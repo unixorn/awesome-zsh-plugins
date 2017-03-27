@@ -490,7 +490,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bttf-color-zsh](https://github.com/yasuhiroki/bttf-color-zsh) - BTTF color theme
 * [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 * [bunnyruni](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) - Simple, clean, and beautiful theme.
-* [bureau-colorized](https://github.com/CCheminaud/bureau-colorized) - Based on bureau.zsh-theme, for people who use Git and NVM.
+* [bureau-colorized](https://github.com/edwild22/bureau-colorized) - Based on bureau.zsh-theme, for people who use Git and NVM.
 * [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes git status optimized for large repositories.
 * [candy-light](https://github.com/RanaExMachina/oh-my-zsh-candy-light) - Light version of the candy theme.
 * [carcassoid](https://github.com/denmord/carcassoid-zsh-theme) - Easily customizable zsh theme.
