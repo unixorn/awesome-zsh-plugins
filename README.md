@@ -68,6 +68,10 @@ These frameworks make customizing your zsh setup easier.
 
 **Alf** is an out of this world super fast and configurable framework for zsh; it's modeled after Prezto and Antigen while utilizing Oh My Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
 
+### [ansible-role-zsh](https://github.com/viasite-ansible/ansible-role-zsh)
+
+**ansible-role-zsh** is ansible role with zero-knowledge installation. It uses antigen for manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting, fzf-widgets. Fully customizable.
+
 ### [ant-zsh](https://github.com/anthraxx/ant-zsh)
 
 **Ant-zsh** is a tiny and lightweight ZSH configuration environment for special customization needs. It includes plugins, themes and a basic convenient setup.
