@@ -13,6 +13,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 - [Frameworks](#frameworks)
   - [alf](#alf)
+  - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
   - [antigen-hs](#antigen-hs)
