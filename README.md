@@ -380,6 +380,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md.
 * [zsh-history](https://github.com/b4b4r07/zsh-history) - Extend history so that it can be queried by SQL.
 * [zsh-interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish like interactive tab completion for `cd`.
+* [zsh-iterm-touchbar](https://github.com/iam4x/zsh-iterm-touchbar) - Display iTerm2 feedback in the MacbookPro TouchBar (Current directory, git branch & status)
 * [zsh-konsole-theme-changer](https://github.com/rocknrollMarc/zsh-konsole-theme-changer) - Toggle konsole theme from zsh.
 * [zsh-kubernetes](https://github.com/Dbz/zsh-kubernetes) - Add kubernetes helper functions and aliases.
 * [zsh-manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
