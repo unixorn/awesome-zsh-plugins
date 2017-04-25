@@ -378,6 +378,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for grunt.
 * [zsh-gvm (yerinle)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for gvm (Groovy enVironment Manager).
 * [zsh-hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
+* [zsh-histdb](https://github.com/larkery/zsh-histdb) - Stores your history in an SQLite database.
 * [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after zsh-syntax-highlighting, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md.
 * [zsh-history](https://github.com/b4b4r07/zsh-history) - Extend history so that it can be queried by SQL.
 * [zsh-interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish like interactive tab completion for `cd`.
