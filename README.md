@@ -32,6 +32,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zplug](#zplug)
   - [zplugin](#zplugin)
   - [ZPM](#zpm)
+  - [ZR](#zr)
   - [ztanesh](#ztanesh)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
