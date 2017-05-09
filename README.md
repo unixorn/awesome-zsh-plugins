@@ -32,6 +32,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zplug](#zplug)
   - [zplugin](#zplugin)
   - [ZPM](#zpm)
+  - [ZR](#zr)
   - [ztanesh](#ztanesh)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
@@ -144,6 +145,10 @@ These frameworks make customizing your zsh setup easier.
 ### [ZPM](https://github.com/horosgrisa/ZPM)
 
 **ZPM** ( Zsh plugin manager ) is a plugin manager for [zsh](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). ZPM runs on Linux, Android, FreeBSD and OS X.
+
+### [ZR](https://github.com/jedahan/zr)
+
+**ZR** is a zsh plugin manager written in Rust.
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
