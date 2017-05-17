@@ -674,6 +674,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [zsh-theme-nerdish](https://github.com/nyarla/zsh-theme-nerdish) - prompt theme for zsh with Nerd Fonts.
 * [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking ZSH theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
 * [zshcomrade](https://github.com/landongn/zshcomrade) - A ZSH theme, comrade!
+* [zwsh](https://github.com/naens/zwsh) - A Zpm3/Wordstar mode/theme for zsh
 
 ### Fonts
 
