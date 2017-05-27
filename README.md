@@ -214,6 +214,7 @@ These frameworks make customizing your zsh setup easier.
 * [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a git repository.
 * [branch-manager](https://github.com/elstgav/branch-manager) - A plugin for managing git branches.
 * [browse-commit](https://github.com/adolfoabegg/browse-commit) - A plugin that lets you open any commit in your browser from the command line.
+* [bumblebee](https://github.com/Niverton/zsh-bumblebee-plugin) - A plugin to toggle optirun in the command line
 * [calc.plugin.zsh](https://github.com/arzzen/calc.plugin.zsh) - A calculator for zsh.
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to the git repository root directory.
