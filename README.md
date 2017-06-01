@@ -361,6 +361,7 @@ These frameworks make customizing your zsh setup easier.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
 * [zgdbm](https://github.com/zdharma/zgdbm) - Adds GDBM as a plugin
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to zsh themes.
+* [zredis](https://github.com/zdharma/zredis) - adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
 * [zsh-256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen TERM environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
 * [zsh-abbrev-alias](https://github.com/momo-lab/zsh-abbrev-alias) - Provides functionality similar to Vim's abbreviation expansion.
 * [zsh-async](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in zsh without requiring any external tools.
