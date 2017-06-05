@@ -106,7 +106,7 @@ These frameworks make customizing your zsh setup easier.
 
 **oh-my-zsh** is a community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
-### [prezto](https://github.com/zsh-users/prezto)
+### [prezto](https://github.com/sorin-ionescu/prezto)
 
 **Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
 
@@ -722,7 +722,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 2. `git clone repo`
 3. Add the repo to your plugin list
 
-### [Prezto](https://github.com/zsh-users/prezto)
+### [Prezto](https://github.com/sorin-ionescu/prezto)
 
 1. Clone the plugin into your prezto modules directory
 2. Add the plugin to your `.zpreztorc` file
