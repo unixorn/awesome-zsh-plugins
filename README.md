@@ -28,6 +28,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgen](#zgen)
   - [zilsh](#zilsh)
   - [zim](#zim)
+  - [zit](#zit)
   - [zoppo](#zoppo)
   - [zplug](#zplug)
   - [zplugin](#zplugin)
