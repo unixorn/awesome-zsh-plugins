@@ -684,6 +684,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [eggshausted](https://github.com/inutano/eggshausted) - A git theme for people who are tired of getting errors.
 * [endless-dog](https://github.com/qwelyt/endless-dog) - OMZ theme that mimics grml-zsh-config.
 * [enormous](https://github.com/leighmcculloch/zsh-theme-enormous) - Takes up an enormous amount of space in the terminal.
+* [eubw](https://github.com/marcosflorencio/eubw-oh-my-zsh-theme) - A simple theme with git information.
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple ZSH color theme.
 * [fattyarrow](https://github.com/sohnryang/fattyarrow) - Minimal ZSH prompt that works better on dark backgrounds.
 * [feder](https://github.com/samfeder/feder.zsh-theme/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
