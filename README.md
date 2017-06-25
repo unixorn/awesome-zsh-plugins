@@ -28,6 +28,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgen](#zgen)
   - [zilsh](#zilsh)
   - [zim](#zim)
+  - [zit](#zit)
   - [zoppo](#zoppo)
   - [zplug](#zplug)
   - [zplugin](#zplugin)
@@ -129,6 +130,10 @@ These frameworks make customizing your zsh setup easier.
 ### [zim](https://github.com/Eriner/zim)
 
 **Zim** is a Zsh configuration framework with blazing speed and modular extensions.
+
+### [zit](https://github.com/m45t3r/zit)
+
+**zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from Git repositories (and Git repositories only, them why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, PATH manipulation and others.
 
 ### [zoppo](https://github.com/zoppo/zoppo)
 
