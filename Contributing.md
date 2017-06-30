@@ -15,7 +15,8 @@ First and foremost, thanks for the help, I appreciate all of the contributions, 
 * Please make sure all framework, plugin, themes or completions list entries are sorted *alphabetically*.
 * The link should be named the name of the package or project.
 * Your PR should pass the Travis checks. If the travis checks show an error that you didn't add (a previous plugin entry has gone 404, for example) you don't _have_ to fix those errors, though I'll appreciate the help if you do.
-* It is fine to have multiple new entries in a single PR
+* It is fine to have multiple new entries in a single PR.
+* No need to squash commits. It is fine to have multiple commits in a PR.
 
 ## To remove an entry:
 
