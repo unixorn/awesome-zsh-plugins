@@ -469,6 +469,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [fly-zsh-autocomplete-plugin](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](http://concourse.ci/fly-cli.html) commands.
 * [gcloud-zsh-completion](https://github.com/littleq0903/gcloud-zsh-completion) - Add completions for the Google Cloud SDK.
 * [gentoo-zsh-completions](https://github.com/gentoo/gentoo-zsh-completions) - providing Zsh completion support to various Gentoo tools that lack completion scripts upstream.
+* [git-annex-completion](https://github.com/Schnouki/git-annex-zsh-completion) - Allows tab completion for most git-annex commands
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow.
 * [gradle-completion](https://github.com/eriwen/gradle-completion) - Bash and ZSH completion support for gradle.
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions.
