@@ -330,6 +330,7 @@ These frameworks make customizing your zsh setup easier.
 * [plugin](https://github.com/hellodarren/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks.
 * [pretty-time-zsh](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 * [project](https://github.com/gko/project) - Create node/python/ruby project both locally and on github(private or public repository).
+* [proxy-plugin](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Aliases to manage proxy shell environment settings
 * [revolver](https://github.com/molovo/revolver) - A progress spinner for ZSH scripts.
 * [ripz](https://github.com/jedahan/ripz) - A ripgrep-powered zsh plugin alias reminder.
 * [robo-zsh-plugin](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](http://robo.li/).
