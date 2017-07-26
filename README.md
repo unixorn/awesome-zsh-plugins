@@ -680,6 +680,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A zsh theme with git, nvm, rvm/rbenv/chruby, python, ssh and other useful indicators.
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
 * [staples](https://github.com/dersam/staples) - based on bureau, displays user@host if connected through SSH.
+* [starboy](https://github.com/zuck007/Starboy) - A simple zsh theme
 * [statusline](https://github.com/el1t/statusline) - A responsive zsh theme that provides informational segments when you need them.
 * [steef](https://github.com/danihodovic/steeef) - Zsh steeef theme as a standalone repository. The purpose behind this repo is avoid having a dependency on oh-my-zsh when using the steeef theme. Zsh plugin managers such as Antibody can use the theme without having to use oh-my-zsh.
 * [sugarfree](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
