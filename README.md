@@ -609,6 +609,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [lagune](https://github.com/noplay/lagune) - a minimal zsh theme.
 * [lambda-pure](https://github.com/marszall87/lambda-pure) - A minimal zsh theme, based on Pure, with added NodeJS version.
+* [lambdav](https://github.com/vkaracic/lambdav-zsh-theme) - A combination of the Lambda and Fishy themes.
 * [lambda](https://github.com/halfo/lambda-mod-zsh-theme/) - A zsh theme optimized for git users who use unicode-compatible fonts and terminal applications.
 * [lazyprodigy](https://github.com/drewlustro/lazyprodigy-zsh-theme) - Optimized for dark terminals, has variants for local and remote systems.
 * [lime](https://github.com/yous/lime) - Simple standalone Zsh theme.
