@@ -20,6 +20,8 @@ engines:
         enabled: false
       MD026:
         enabled: false
+      MD033:
+        enabled: false
   shellcheck:
     enabled: true
 ratings:
