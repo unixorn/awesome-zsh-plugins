@@ -1,11 +1,11 @@
 <!--- Provide a general summary of your changes in the Title above -->
 <!--- If you're unsure about anything in this checklist, don't hesitate to create a PR and ask. I'm happy to help! -->
 
-## Description
+# Description
 
 <!--- Describe your changes in detail -->
 
-## Type of changes
+# Type of changes
 
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
@@ -15,7 +15,7 @@
 - [ ] Add/remove a theme
 - [ ] Text cleanups/typo fixes
 
-## Checklist:
+# Checklist:
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 
