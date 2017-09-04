@@ -575,6 +575,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [dmx](https://github.com/domix/dmx.zsh-theme) - Optimized for dark terminal windows.
 * [dracula](https://github.com/dracula/zsh) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm, Sublime Text, Textmate, Terminal.app, Vim, Xcode, ZSH.
 * [dragon](https://github.com/sabertazimi/dragon-zsh-theme) - Minimalistic, includes git status information.
+* [eggshausted](https://github.com/inutano/eggshausted) - A git theme for people who are tired of getting errors.
 * [endless-dog](https://github.com/qwelyt/endless-dog) - OMZ theme that mimics grml-zsh-config.
 * [enkel](https://github.com/SShrike/enkel) - A simple and minimalistic theme for ZSH and the Solarised colour scheme featuring Git support and a few other semi-useful features such as displaying exit codes, the current system time, whether or not you have write permissions to the current directory, etc.
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple ZSH color theme.
