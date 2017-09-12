@@ -146,6 +146,10 @@ These frameworks make customizing your zsh setup easier.
 
 **Zoppo** is the crippled configuration framework for Zsh. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
 
+### [zpacker](https://github.com/happyslowly/zpacker)
+
+**Zpacker** is a lightweight ZSH plugin & theme management framework.
+
 ### [zplug](https://github.com/zplug/zplug)
 
 **:hibiscus: Zplug** is a next-generation zsh plugin manager.
