@@ -37,6 +37,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zim](#zim)
   - [zit](#zit)
   - [zoppo](#zoppo)
+  - [zpacker](#zpacker)
   - [zplug](#zplug)
   - [zplugin](#zplugin)
   - [ZPM](#zpm)
@@ -145,6 +146,10 @@ These frameworks make customizing your zsh setup easier.
 ### [zoppo](https://github.com/zoppo/zoppo)
 
 **Zoppo** is the crippled configuration framework for Zsh. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
+
+### [zpacker](https://github.com/happyslowly/zpacker)
+
+**Zpacker** is a lightweight ZSH plugin & theme management framework.
 
 ### [zplug](https://github.com/zplug/zplug)
 
