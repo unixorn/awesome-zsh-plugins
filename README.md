@@ -453,6 +453,7 @@ These frameworks make customizing your zsh setup easier.
 * [zsh-t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 * [zsh-terminal-app](https://github.com/the8/zsh-terminal-app) - A plugin for integrating with the new El Capitan Terminal.app features.
 * [zsh-titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for tmux and xterm-compatible terminals.
+* [zsh-tmux-rename](https://github.com/sei40kr/zsh-tmux-rename) - Rename tmux windows automatically.
 * [zsh-tmux-simple](https://github.com/TBSliver/zsh-plugin-tmux-simple) - Simple plugin for using tmux with ZSH.
 * [zsh-travis](https://github.com/denolfe/zsh-travis) - Opens the Travis CI page for the current repo if one exists.
 * [zsh-url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
