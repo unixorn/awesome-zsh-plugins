@@ -235,6 +235,7 @@ These frameworks make customizing your zsh setup easier.
 * [calc.plugin.zsh](https://github.com/arzzen/calc.plugin.zsh) - A calculator for zsh.
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to the git repository root directory.
+* [cd-reporoot](https://github.com/P4Cu/cd-reporoot) - A zsh plugin to cd to the google-repo repository root directory.
 * [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
 * [cdr](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for zsh.
