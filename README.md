@@ -347,6 +347,7 @@ These frameworks make customizing your zsh setup easier.
 * [project.plugin.zsh](https://github.com/voronkovich/project.plugin.zsh) - Plugin for managing projects.
 * [project](https://github.com/gko/project) - Create node/python/ruby project both locally and on github(private or public repository).
 * [proxy-plugin](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Aliases to manage proxy shell environment settings.
+* [pyenv-lazy](https://github.com/davidparsson/zsh-pyenv-lazy) - Lazy load pyenv. The initial `eval "$(pyenv init -)"`` is executed the first time pyenv is called.
 * [randeme](https://github.com/ex-surreal/randeme) - Chooses a random theme for each session. If you not like the chosen theme you can run `randeme_rm` to never show that theme again.
 * [reminder](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - A plugin which displays reminders above every prompt.
 * [revolver](https://github.com/molovo/revolver) - A progress spinner for ZSH scripts.
