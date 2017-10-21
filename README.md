@@ -338,6 +338,7 @@ These frameworks make customizing your zsh setup easier.
 * [operator](https://github.com/nivv/operator-theme) - Clean and simple theme, works best with Menlo for Powerline.
 * [opp.zsh](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for zsh.
 * [osx-dev-zsh-plugin](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my macOS install.
+* [paci](https://github.com/iloginow/zsh-paci) - Plugin for archlinux package managers
 * [pantheon-terminal-notify-zsh-plugin](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 * [pctl](https://github.com/ytet5uy4/pctl) - Toggle the environment variables for proxying.
 * [phpcs.plugin.zsh](https://github.com/voronkovich/phpcs.plugin.zsh) - Plugin for [PHP code sniffer](https://github.com/squizlabs/PHP_CodeSniffer).
