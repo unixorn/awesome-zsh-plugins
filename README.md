@@ -182,7 +182,7 @@ These frameworks make customizing your zsh setup easier.
 * [http://commandlinepoweruser.com](http://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
 * [https://wiki.archlinux.org/index.php/zsh](https://wiki.archlinux.org/index.php/zsh) - Arch Linux's ZSH introduction. Not Arch or Linux-specific.
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
-* [The Text Triumvirate](http://www.drbunsen.org/the-text-triumvirate/) - Seth Brown's tutorial on combining zsh, tmux and vim.
+* [The Text Triumvirate](http://www.drbunsen.org/the-text-triumvirate/) - Seth Brown's tutorial on combining zsh, [tmux](https://github.com/tmux/tmux/wiki) and vim.
 * [Why ZSH is Cooler than your Shell](http://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692) - slideshare presentation.
 * [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework.
 * [ZSH tips by Christian Schneider](http://strcat.de/zsh/#tipps) - An exhaustive list of ZSH tips by Christian Schneider.
@@ -199,7 +199,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### Prezto
 
-* [A Beautifully Productive Terminal Experience](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience) - Mike Buss' blog post about using Prezto, Tmux & Tmuxinator.
+* [A Beautifully Productive Terminal Experience](http://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience) - Mike Buss' blog post about using Prezto, [Tmux](https://github.com/tmux/tmux/wiki) & Tmuxinator.
 * [Ditching oh-my-zsh for prezto](https://linhmtran168.github.io/blog/2013/12/15/ditching-oh-my-zsh-for-prezto/) - Linh M. Tran's post about transitioning to Prezto from Oh-My-Zsh.
 * [Migrate from Oh-My-Zsh to Prezto](http://jeromedalbert.com/migrate-from-oh-my-zsh-to-prezto/) - Jerome Dalbert's blog post on migrating to Prezto.
 
@@ -342,7 +342,7 @@ These frameworks make customizing your zsh setup easier.
 * [iosctl](https://github.com/obayer/iosctl) - Quickly access App, Data, and Log of the running simulator.
 * [iterm-tab-colors](https://github.com/tysonwolker/iterm-tab-colors) - Automatically changes iTerm tab color based on the current working directory
 * [iterm-touchbar](https://github.com/iam4x/zsh-iterm-touchbar) - Display iTerm2 feedback in the MacbookPro TouchBar (Current directory, git branch & status).
-* [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a setjdk command so you can switch easily between different versions of the jdk.
+* [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a `setjdk` command so you can switch easily between different versions of the jdk.
 * [jenkins-zsh](https://github.com/tomplex/jenkins-zsh) - A jenkins plugin for ZSH, heavily inspired by the excellent jira plugin.
 * [jhipster-oh-my-zsh-plugin](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](https://jhipster.github.io/).
 * [jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRAs from the command line.
@@ -446,11 +446,11 @@ These frameworks make customizing your zsh setup easier.
 * [terminal-app](https://github.com/the8/zsh-terminal-app) - A plugin for integrating with the new El Capitan Terminal.app features.
 * [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran (Similar to [alias-tips](https://github.com/djui/alias-tips)).
-* [titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for tmux and xterm-compatible terminals.
-* [tmux-rename](https://github.com/sei40kr/zsh-tmux-rename) - Rename tmux windows automatically.
-* [tmux-simple](https://github.com/TBSliver/zsh-plugin-tmux-simple) - Simple plugin for using tmux with ZSH.
+* [titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for [tmux](https://github.com/tmux/tmux/wiki) and xterm-compatible terminals.
+* [tmux-rename](https://github.com/sei40kr/zsh-tmux-rename) - Rename [tmux](https://github.com/tmux/tmux/wiki) windows automatically.
+* [tmux-simple](https://github.com/TBSliver/zsh-plugin-tmux-simple) - Simple plugin for using [tmux](https://github.com/tmux/tmux/wiki) with ZSH.
 * [travis](https://github.com/denolfe/zsh-travis) - Opens the Travis CI page for the current repo if one exists.
-* [tsm](https://github.com/RobertAudi/tsm) - Adds a tmux Session Manager.
+* [tsm](https://github.com/RobertAudi/tsm) - Adds a [tmux](https://github.com/tmux/tmux/wiki) Session Manager.
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for macOS.
 * [ubuntualiases](https://github.com/GuilleDF/zsh-ubuntualiases) - Ubuntu 16 aliases.
 * [up.zsh](https://github.com/peterhurford/up.zsh) - Adds an up command to cd multiple levels up.
@@ -537,7 +537,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for ssh connections.
 * [surf.plugin.zsh](https://github.com/markussom/surf.plugin.zsh) - Add completions for surf.
 * [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](http://kitchen.ci/).
-* [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your tmux pane.
+* [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your [tmux](https://github.com/tmux/tmux/wiki) pane.
 * [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/pearkes/tugboat/) command
 * [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake
 * [vert.x-omz-plugin](https://github.com/davidafsilva/vert.x-omz-plugin) - Provides autocomplete features for the [vertx](http://vertx.io/) command.
@@ -743,7 +743,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [solarized-powerline](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for ZSH.
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized).
 * [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A ZSH theme with git, nvm, rvm/rbenv/chruby, python, ssh and other useful indicators.
-* [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, tmux powerline, vim powerline and the vim status plugin.
+* [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, [tmux](https://github.com/tmux/tmux/wiki) powerline, vim powerline and the vim status plugin.
 * [staples](https://github.com/dersam/staples) - based on bureau, displays user@host if connected through SSH.
 * [starboy](https://github.com/zuck007/Starboy) - A simple ZSH theme
 * [statusline](https://github.com/el1t/statusline) - A responsive ZSH theme that provides informational segments when you need them.
