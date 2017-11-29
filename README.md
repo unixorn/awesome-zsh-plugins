@@ -157,7 +157,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zplugin](https://github.com/zdharma/zplugin)
 
-**Zplugin** gives reports from plugin load. Plugins are no longer black boxes, report will tell what aliases, functions, bindkeys, Zle widgets, zstyles, completions, variables, PATH and FPATH elements a plugin has set up. Supported is **unloading** of plugin and ability to list, uninstall, reinstall and selectively disable, enable plugin's completions. Also, every plugin is compiled and the user can control this function. The system does not use $FPATH, it's kept clean!
+**Zplugin** is a next-era plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis).
 
 ### [ZPM](https://github.com/horosgrisa/ZPM)
 
