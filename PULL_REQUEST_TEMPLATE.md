@@ -23,4 +23,4 @@
 - [ ] My entries are single lines and are in the appropriate (plugins, themes, completions) section.
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
-- [ ] I have stripped leading **zsh-** or **oh-my-zsh-** from the link name. This makes it easier to find plugins/themes/completions by name since there aren't big clusters in the o and z sections of the list.
+- [ ] I have stripped leading and trailing **zsh-** or **oh-my-zsh-** substrings from the link name. This makes it easier to find plugins/themes/completions by name since there aren't big clusters in the o and z sections of the list.
