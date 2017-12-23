@@ -705,7 +705,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [orobbl](https://github.com/robbl/oh-my-zsh-config) - Shows the git/svn status including the time since last commit and rvm status in prompt.
 * [ozono](https://github.com/sfabrizio/ozono-zsh-theme) 🌏 OZ0NO - Let's Breathe a clean ZSH.
 * [pad](https://github.com/eproxus/pad.zsh-theme) - A concise and colorful oh-my-zsh theme.
-* [parrot-os](https://github.com/Sameera-Madushan-Perera/Parrot-OS-mod-zsh-theme) - Equivalent to the default Bash Shell Theme Used in Parrot Security Operating System.
 * [phi φ](https://github.com/LasaleFamine/phi-zsh-theme) - A clean and simple theme for ZSH inspired and forked from [Lambda (Mod) ZSH Theme](https://github.com/halfo/lambda-mod-zsh-theme).
 * [pieni](https://github.com/zaari/pieni) - Minimalist single line ZSH prompt theme.
 * [plain](https://github.com/jimeh/plain.zsh-theme) - A plain and simple theme for ZSH which shows basic git information.
