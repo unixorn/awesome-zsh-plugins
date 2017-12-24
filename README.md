@@ -462,6 +462,7 @@ These frameworks make customizing your zsh setup easier.
 * [up.zsh](https://github.com/peterhurford/up.zsh) - Adds an up command to cd multiple levels up.
 * [url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the zsh syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [vanilli.sh](https://github.com/yous/vanilli.sh) - A lightweight start point of shell configuration.
+* [velocity](https://github.com/rahulsalvi/velocity) - Powerline-based theme elements for ZSH and tmux.
 * [viexchange](https://github.com/okapia/zsh-viexchange) - Vi mode plugin for easily swapping text between two places in the buffer, like vim-exchange.
 * [vim-mode](https://github.com/sharat87/zsh-vim-mode) - Shrikant Sharat's bindings for ZSH's vi mode so it behaves more vim-like.
 * [vim-plugin](https://github.com/nviennot/zsh-vim-plugin) - Allows you to do `vim filename:123` to open a file with the cursor at a specific line.
