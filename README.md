@@ -494,7 +494,6 @@ These frameworks make customizing your zsh setup easier.
 * [Ztrace](https://github.com/psprint/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
 * [ZUI](https://github.com/zdharma/zui/) - ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.
 
-
 ## Even more completions
 
 These plugins add tab completion without adding extra functions or aliases.
