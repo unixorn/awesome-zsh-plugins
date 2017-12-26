@@ -586,6 +586,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [avit-d2k](https://github.com/fdaciuk/avit-da2k) - Based on Avit, with small changes.
 * [bandit](https://github.com/Holger-Will/zsh_bandit) - Another Powerline variant.
 * [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal Theme](https://github.com/ahmetsulek/flat-terminal) and Pasquale D'Silva's [Saturn Terminal Theme](https://github.com/psql/saturn-colors).
+* [bender](https://github.com/specious/bender) - Fancy two-line prompt with git integration.
 * [bgnoster](https://github.com/47bytes/bgnoster.zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874) variant with unicode symbols baked in.
 * [bilibili](https://github.com/jingjinghack/bilibili-zshtheme) - BiliBili Theme
 * [birame](https://github.com/maniat1k/birame) - Based on [bira](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/bira.zsh-theme).
