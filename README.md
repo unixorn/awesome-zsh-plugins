@@ -652,6 +652,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [glimmer](https://github.com/martnu/glimmer) - Includes git branch, time and user@host.
 * [guri](https://github.com/victorfsf/guri) - A Simple and fast Oh-My-Zsh theme, based on [Pure](https://github.com/sindresorhus/pure)'s design.
 * [hackersaurus](https://github.com/bhilburn/hackersaurus) - A theme with git status and exit code of last command run embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
+* [hanpen](https://github.com/kojole/hanpen.zsh-theme) - Shows git branch and status, last command exit code, last command execution time if more than `ZSH_THEME_HANPEN_CMD_MAX_EXEC_TIME`
 * [haribo](https://github.com/haribo/omz-haribo-theme) - Simple git status + timestamp in prompt.
 * [hedgehog](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157) - Simple, no-nonsense and clean, with support for git and return codes.
 * [himself](https://github.com/mwamodojnr/himself) - Optimized for people using git, solarized and unicode-compatible fonts.
