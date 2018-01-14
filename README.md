@@ -679,6 +679,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [kinda-fishy-theme](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in ssh sessions and docker containers
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
+* [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
 * [lagune](https://github.com/noplay/lagune) - a minimal ZSH theme.
 * [lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster) - Minimalist prompt that includes git information.
 * [lambda-pure](https://github.com/marszall87/lambda-pure) - A minimal ZSH theme, based on Pure, with added NodeJS version.
