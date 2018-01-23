@@ -667,6 +667,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [haribo](https://github.com/haribo/omz-haribo-theme) - Simple git status + timestamp in prompt.
 * [heart-theme](https://github.com/gko/heart-theme) - Heart themed prompt for light backgrounds.
 * [hedgehog](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157) - Simple, no-nonsense and clean, with support for git and return codes.
+* [helb](https://github.com/helb/helb.zshtheme) - Loosely based on Gentoo's old bash theme. Includes git information, return value of last command, and uses different username color and prompt char for users (`$`) and root (`#`).
 * [himself](https://github.com/mwamodojnr/himself) - Optimized for people using git, solarized and unicode-compatible fonts.
 * [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm.
 * [horizontal](https://github.com/nuimk/horizontal) - Two line prompt with a horizontal separator.
