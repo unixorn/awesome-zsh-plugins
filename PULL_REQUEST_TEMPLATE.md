@@ -19,6 +19,7 @@
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 
+- [ ] This document is covered by the [BSD License](https://github.com/unixorn/awesome-zsh-plugins/blob/master/LICENSE), and I agree to contribute this PR under the terms of the license.
 - [ ] I have confirmed that the link(s) in my PR are valid.
 - [ ] My entries are single lines and are in the appropriate (plugins, themes, completions) section.
 - [ ] I have read the **CONTRIBUTING** document.
