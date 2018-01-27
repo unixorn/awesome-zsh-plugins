@@ -16,7 +16,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Frameworks](#frameworks)
   - [alf](#alf)
@@ -31,6 +31,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [oh-my-zsh](#oh-my-zsh)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [Toasty](#toasty)
   - [zeesh](#zeesh)
   - [zgen](#zgen)
   - [zilsh](#zilsh)
@@ -122,6 +123,10 @@ These frameworks make customizing your zsh setup easier.
 ### [pumice](https://github.com/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for zsh.
+
+### [Toasty](https://github.com/5paceToast/toasty-zsh)
+
+**Toasty** is a ZSH framework made to facilitate management, not dictate it.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
