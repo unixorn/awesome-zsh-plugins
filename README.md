@@ -123,6 +123,10 @@ These frameworks make customizing your zsh setup easier.
 
 **Pumice** is a lightweight plugin manager for zsh.
 
+### [Toasty](https://github.com/5paceToast/toasty-zsh)
+
+**Toasty** is a ZSH framework made to facilitate management, not dictate it.
+
 ### [zeesh](https://github.com/zeekay/zeesh)
 
 **Zeesh** is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
