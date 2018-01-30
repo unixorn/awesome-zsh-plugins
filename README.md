@@ -78,11 +78,11 @@ These frameworks make customizing your zsh setup easier.
 
 ### [alf](https://github.com/psyrendust/alf)
 
-**Alf** is an out of this world super fast and configurable framework for zsh; it's modeled after Prezto and Antigen while utilizing Oh My Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
+**Alf** is an out of this world super fast and configurable framework for ZSH; it's modeled after Prezto and Antigen while utilizing Oh-My-Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
 
 ### [ansible-role-zsh](https://github.com/viasite-ansible/ansible-role-zsh)
 
-**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses antigen to manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting, fzf-widgets. Fully customizable.
+**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses antigen to manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting and fzf-widgets. Fully customizable.
 
 ### [ant-zsh](https://github.com/anthraxx/ant-zsh)
 
@@ -98,7 +98,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [antigen](https://github.com/zsh-users/antigen)
 
-**Antigen** is a small set of functions that help you easily manage your shell (zsh) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to zsh, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
+**Antigen** is a small set of functions that help you easily manage your shell (ZSH) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to ZSH, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
 
 ### [ax-zsh](https://github.com/alexbarton/ax-zsh)
 
@@ -106,7 +106,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
-**Dotzsh** strives to be platform and version independent. Some functionality may be lost when running under older versions of zsh, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
+**Dotzsh** strives to be platform and version independent. Some functionality may be lost when running under older versions of ZSH, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
 
 ### [fresh](https://github.com/freshshell/fresh)
 
@@ -114,7 +114,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [oh-my-zsh](http://ohmyz.sh/)
 
-**oh-my-zsh** is a community-driven framework for managing your zsh configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
+**oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
@@ -122,7 +122,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [pumice](https://github.com/ryutamaki/pumice)
 
-**Pumice** is a lightweight plugin manager for zsh.
+**Pumice** is a lightweight plugin manager for ZSH.
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
@@ -130,7 +130,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
-**Zeesh** is a cross-platform Zsh framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+**Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
@@ -138,11 +138,11 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
-**zilsh** is a zsh config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
+**zilsh** is a ZSH config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
 
 ### [zim](https://github.com/Eriner/zim)
 
-**Zim** is a Zsh configuration framework with blazing speed and modular extensions.
+**Zim** is a ZSH configuration framework with blazing speed and modular extensions.
 
 ### [zit](https://github.com/m45t3r/zit)
 
@@ -150,7 +150,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zoppo](https://github.com/zoppo/zoppo)
 
-**Zoppo** is the crippled configuration framework for Zsh. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
+**Zoppo** is the crippled configuration framework for ZSH. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
 
 ### [zpacker](https://github.com/happyslowly/zpacker)
 
@@ -158,7 +158,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zplug](https://github.com/zplug/zplug)
 
-**:hibiscus: Zplug** is a next-generation zsh plugin manager.
+**:hibiscus: Zplug** is a next-generation ZSH plugin manager.
 
 ### [zplugin](https://github.com/zdharma/zplugin)
 
@@ -166,11 +166,11 @@ These frameworks make customizing your zsh setup easier.
 
 ### [ZPM](https://github.com/horosgrisa/ZPM)
 
-**ZPM** ( Zsh plugin manager ) is a plugin manager for [zsh](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). ZPM runs on Linux, Android, FreeBSD and macOS.
+**ZPM** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). ZPM runs on Linux, Android, FreeBSD and macOS.
 
 ### [ZR](https://github.com/jedahan/zr)
 
-**ZR** is a zsh plugin manager written in Rust.
+**ZR** is a ZSH plugin manager written in Rust.
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
@@ -653,7 +653,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple ZSH color theme.
 * [fattyarrow](https://github.com/sohnryang/fattyarrow) - Minimal ZSH prompt that works better on dark backgrounds.
 * [feder](https://github.com/samfeder/feder.zsh-theme/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
-* [filthy](https://github.com/molovo/filthy) - A disgustingly clean ZSH prompt
+* [filthy](https://github.com/molovo/filthy) - A disgustingly clean ZSH prompt.
 * [fishy](https://github.com/akinjide/fishy2) - ZSH theme inspired by [original fishy](https://github.com/robbyrussell/oh-my-zsh/wiki/themes#fishy)
 * [fortuity](https://github.com/VGamezz19/oh-my-zsh-fortuity-theme) - Includes status of last command, git information and current directory.
 * [friendly-fiesta](https://github.com/bruino/friendly-fiesta) - Fork of terminal-party theme.
