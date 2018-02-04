@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins
+  - awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins,www-s.acm.illinois.edu
