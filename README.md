@@ -736,6 +736,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [mindful-space](https://github.com/syndbg/mindful-space-zsh-theme) - ZSH theme with space in mind.
 * [minimal2](https://github.com/PatTheMav/minimal2) - A minimal and extensible zsh theme. Forked from [subnixr's original](https://github.com/subnixr/minimal) and adapted for [Zimfw](https://github.com/zimfw/zimfw).
 * [minimal](https://github.com/subnixr/minimal) - Minimal yet feature-rich theme.
+* [minimalx](https://github.com/lknix/zsh-theme-minimalx) - Inspired by kolo theme from oh-my-zsh.
 * [misa](https://github.com/misalabs/misa.zsh-theme) - Misalabs' ZSH theme.
 * [mixed](https://github.com/dnavtoparts/mixed-zsh-theme) - Optimized for Dark Background.
 * [molokai-powerline-zsh](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
@@ -754,6 +755,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [nothing](https://github.com/eendroroy/nothing) - Lightning fast and really simple because it has almost nothing in it.
 * [nox](https://github.com/kbrsh/nox) - Dark theme, displays the current working directory and git status.
 * [nt9](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) - Clean, distraction free and git focused development theme. Shows path relative to git root (or ~ when outside git repo), time since last commit, current SHA, branch and branch state.
+* [nuko](https://github.com/tzing/nuko.zsh-theme) - A theme for oh-my-zsh, inspired by [zeta-zsh-theme](https://github.com/skylerlee/zeta-zsh-theme).
 * [nuqlezsh](https://github.com/Nuqlear/nuqlezsh.zsh-theme) - Simple theme for prezto and oh-my-zsh.
 * [odin](https://github.com/tylerreckart/odin) - Odin is a git-flavored ZSH theme.
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and ZSH.
