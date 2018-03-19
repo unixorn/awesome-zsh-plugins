@@ -568,6 +568,7 @@ These plugins add tab completion without adding extra functions or aliases.
 * [parallels-zsh-plugin](https://github.com/benclark/parallels-zsh-plugin) - Add completions for Parallels desktop.
 * [pass-zsh-completion](https://github.com/ninrod/pass-zsh-completion) - convenience repo to easily obtain [pass](https://www.passwordstore.org/) command completion for ZSH.
 * [pebble-zsh-completion](https://github.com/Neal/pebble-zsh-completion) - completion script for [pebble](https://developer.getpebble.com/guides/publishing-tools/pebble-tool).
+* [pipenv](https://github.com/gangleri/pipenv) - Completions for `pipenv`
 * [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets.
 * [rancher-zsh-completion](https://github.com/go/rancher-zsh-completion) - Add completions for the Rancher CLI.
