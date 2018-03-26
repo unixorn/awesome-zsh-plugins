@@ -255,7 +255,7 @@ These frameworks make customizing your zsh setup easier.
 * [branch-manager](https://github.com/elstgav/branch-manager) - A plugin for managing git branches.
 * [browse-commit](https://github.com/adolfoabegg/browse-commit) - A plugin that lets you open any commit in your browser from the command line.
 * [bumblebee](https://github.com/Niverton/zsh-bumblebee-plugin) - A plugin to toggle optirun in the command line.
-* [calc.plugin.zsh](https://github.com/arzzen/calc.plugin.zsh) - A calculator for zsh.
+* [calc.plugin.zsh](https://github.com/arzzen/calc.plugin.zsh) - A calculator for ZSH.
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [careful_rm](https://github.com/MikeDacre/careful_rm) - A wrapper for rm that adds trash/recycling and useful warnings
 * [carthage](https://github.com/cfdrake/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
@@ -562,6 +562,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [grid5000-zsh-plugin](https://github.com/pmorillon/grid5000-zsh-plugin) - Grid 5000 plugin - adds theme, autocompletions.
 * [gulp-autocompletion-zsh](https://github.com/srijanshetty/gulp-autocompletion-zsh) - Autocompletion for gulp.
 * [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (ZSH).
+* [haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib.
 * [jtool-completion](https://github.com/beaugalbraith/jtool-completion) - ZSH completions for jtool
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [keybase](https://github.com/rbirnie/oh-my-zsh-keybase) - Completions for [keybase](https://keybase.io/docs/command_line).
@@ -595,7 +596,6 @@ These plugins add tab completions without adding extra functions or aliases.
 * [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin.
 * [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - Autocompletion plugin for pip.
 * [zsh-ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage ssh-agent
-* [zsh.plugin.haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib.
 
 ## Themes
 
