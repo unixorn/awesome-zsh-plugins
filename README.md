@@ -286,6 +286,7 @@ These frameworks make customizing your zsh setup easier.
 * [dircolors-solarized](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin.
 * [dircycle](https://github.com/michaelxmcbride/zsh-dircycle) - Cycle through the directory stack.
 * [directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for ZSH.
+* [dirrc](https://github.com/gmatheu/shell-plugins) - Executes `.dirc` when present in a directory you `cd` into.
 * [dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying dirstack info on a single line.
 * [docker-aliases](https://github.com/webyneter/docker-aliases) Docker aliases for everyday use.
 * [docker-compose](https://github.com/sroze/docker-compose-zsh-plugin) Show docker container status in your prompt.
@@ -306,6 +307,7 @@ These frameworks make customizing your zsh setup easier.
 * [escape-backtick](https://github.com/bezhermoso/zsh-escape-backtick) - Quickly insert escaped backticks when double-tapping "`".
 * [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/).
 * [expand-ealias](https://github.com/zigius/expand-ealias.plugin.zsh) - Expand specific aliases with space.
+* [explain-shell](https://github.com/gmatheu/shell-plugins) - Opens commands on [explainshell.com](https://explainshell.com)
 * [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting) - Optimized an improved `zsh-users/zsh-syntax-highlighting` – better response times, `zed/vared` can edit `10 kB` functions.
 * [favorite-directories](https://github.com/seletskiy/zsh-favorite-directories) - Fast jumps to your favorite directories.
 * [firebase-zsh](https://github.com/rmrs/firebase-zsh) - Add an indicator in the prompt that you're in a directory with a `firebase.json` file (aka "firebase project").
