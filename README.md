@@ -659,6 +659,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) - Minimal, clean theme with git support.
 * [clean](https://github.com/akz92/clean) - Minimalist ZSH theme.
 * [cloudy](https://github.com/Huvik/Cloudy) - Minimal cloudy ZSH theme.
+* [clover](https://github.com/tzing/clover.zsh-theme) - Inspired by [zeta-zsh-theme](https://github.com/skylerlee/zeta-zsh-theme) and [pure](https://github.com/sindresorhus/pure).
 * [cmder](https://github.com/potasiyam/cmder-zsh-theme) - A ZSH theme that matches the theme of Cmder, a popular terminal emulator for windows.
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2.
 * [cobalt2git](https://github.com/alexeimun/cobalt2git) - Cobalt 2 theme with git extensions.
@@ -739,6 +740,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lambdav](https://github.com/vkaracic/lambdav-zsh-theme) - A combination of the Lambda and Fishy themes.
 * [lazyprodigy](https://github.com/drewlustro/lazyprodigy-zsh-theme) - Optimized for dark terminals, has variants for local and remote systems.
 * [leafia](https://github.com/Ghostrick/leafia-prompt) - Leafy prezto theme that shows git information.
+* [lila](https://github.com/raphaelivan/lila-zsh-theme) - Minimalist theme, best on a dark terminal background.
 * [lime](https://github.com/yous/lime) - Simple standalone ZSH theme.
 * [linuxer](https://github.com/patrick330602/linuxer) - Inspired by Yaris Alex Gutierrez's classyTouch, Yad Smood's ys, and Bureau theme.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
@@ -775,7 +777,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [nothing](https://github.com/eendroroy/nothing) - Lightning fast and really simple because it has almost nothing in it.
 * [nox](https://github.com/kbrsh/nox) - Dark theme, displays the current working directory and git status.
 * [nt9](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) - Clean, distraction free and git focused development theme. Shows path relative to git root (or ~ when outside git repo), time since last commit, current SHA, branch and branch state.
-* [nuko](https://github.com/tzing/nuko.zsh-theme) - A theme for oh-my-zsh, inspired by [zeta-zsh-theme](https://github.com/skylerlee/zeta-zsh-theme).
 * [nuqlezsh](https://github.com/Nuqlear/nuqlezsh.zsh-theme) - Simple theme for prezto and oh-my-zsh.
 * [odin](https://github.com/tylerreckart/odin) - Odin is a git-flavored ZSH theme.
 * [oh-my-git](https://github.com/arialdomartini/oh-my-git) - An opinionated prompt for bash and ZSH.
