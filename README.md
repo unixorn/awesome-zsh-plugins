@@ -275,7 +275,7 @@ These frameworks make customizing your zsh setup easier.
 * [command-not-found](https://github.com/Tarrasch/zsh-command-not-found) - mirror of the oh-my-zsh command-not-found plugin so you don't have to include all of omz.
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in zsh and powerlevel9k.
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
-* [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over ssh.
+* [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
 * [crash](https://github.com/molovo/crash) - Adds proper error handling, exceptions and try/catch for ZSH.
 * [crayon-syntax-zsh](https://github.com/Stibbons/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
 * [crystal](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/manastech/crystal).
@@ -299,7 +299,7 @@ These frameworks make customizing your zsh setup easier.
 * [dropbox](https://github.com/horosgrisa/zsh-dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [dune-quotes](https://github.com/brokendisk/dune-quotes) - Random Dune quote generator plugin.
 * [dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
-* [ec2ssh](https://github.com/h3poteto/zsh-ec2ssh) - List EC2 instances and ssh login to the instances easily.
+* [ec2ssh](https://github.com/h3poteto/zsh-ec2ssh) - List EC2 instances and `ssh` login to the instances easily.
 * [editing-workbench](https://github.com/psprint/zsh-editing-workbench) - Adds sane, complex command line editing (e.g. incremental history _word_ completion).
 * [elixir-oh-my-zsh](https://github.com/gusaiani/elixir-oh-my-zsh) - Adds shortcuts for Elixir, IEX, Mix and Phoenix.
 * [emoji-cli](https://github.com/b4b4r07/emoji-cli) - :scream: Emoji completion on the command line.
@@ -469,7 +469,7 @@ These frameworks make customizing your zsh setup easier.
 * [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 * [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 * [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for solarized dark theme in terminal.
-* [ssh-connect](https://github.com/gko/ssh-connect) - A simple ssh manager.
+* [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 * [startup-timer](https://github.com/paulmelnikow/zsh-startup-timer) - Print the time it takes for the shell to start up.
 * [statify](https://github.com/vladmrnv/statify) - Plugin that does basic statistical analysis.
 * [sterror.plugin.zsh](https://github.com/aphelionz/strerror.plugin.zsh) - Interprets error messages from programs and displays a human readable error message when available.
@@ -550,7 +550,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal.
 * [cf-zsh-autocomplete-plugin](https://github.com/frodenas/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/devguide/installcf/) commands.
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
-* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via ssh, return code of last command.
+* [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 * [docker-enter-completion](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter).
 * [docker-zsh-completion](https://github.com/felixr/docker-zsh-completion) - Add completions for docker.
@@ -586,7 +586,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor).
 * [snappy](https://github.com/Arlon1/Snappy_zsh_autocompletion) - Add completions for snappy.
 * [spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands.
-* [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for ssh connections.
+* [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
 * [surf.plugin.zsh](https://github.com/markussom/surf.plugin.zsh) - Add completions for surf.
 * [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](http://kitchen.ci/).
 * [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your [tmux](https://tmux.github.io) pane.
@@ -601,7 +601,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [zsh-packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for packer.
 * [zsh-pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin.
 * [zsh-pip-completion](https://github.com/srijanshetty/zsh-pip-completion) - Autocompletion plugin for pip.
-* [zsh-ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage ssh-agent
+* [zsh-ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 
 ## Themes
 
@@ -730,7 +730,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [karu](https://github.com/zaari/karu) - Minimalist single line ZSH prompt.
 * [keloran](https://github.com/Keloran/keloran.zsh-theme) - Theme that includes a few features from other themes
 * [kimwz](https://github.com/kimwz/kimwz-oh-my-zsh-theme) - Minimal theme.
-* [kinda-fishy-theme](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in ssh sessions and docker containers
+* [kinda-fishy-theme](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in `ssh` sessions and docker containers
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
@@ -838,7 +838,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sobole](https://github.com/sobolevn/sobole-zsh-theme) - A minimalistic ZSH theme inspired by the old-fashioned hobbies. No verbose gimmicks, no emoji, no fidget spinners, and no other visual noise.
 * [solarized-powerline](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for ZSH.
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [Solarized](http://ethanschoonover.com/solarized).
-* [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A ZSH theme with git, nvm, rvm/rbenv/chruby, python, ssh and other useful indicators.
+* [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A ZSH theme with `git`, `nvm`, rvm/rbenv/chruby, python, `ssh` and other useful indicators.
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, [tmux](https://tmux.github.io) powerline, vim powerline and the vim status plugin.
 * [staples](https://github.com/dersam/staples) - based on bureau, displays user@host if connected through SSH.
 * [starboy](https://github.com/zuck007/Starboy) - A simple ZSH theme
