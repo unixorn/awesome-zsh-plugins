@@ -259,7 +259,7 @@ These frameworks make customizing your zsh setup easier.
 * [calc.plugin.zsh](https://github.com/arzzen/calc.plugin.zsh) - A calculator for ZSH.
 * [caniuse.plugin.zsh](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [careful_rm](https://github.com/MikeDacre/careful_rm) - A wrapper for rm that adds trash/recycling and useful warnings
-* [carthage](https://github.com/cfdrake/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
+* [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A zsh plugin to cd to the git repository root directory.
 * [cd-reporoot](https://github.com/P4Cu/cd-reporoot) - A zsh plugin to cd to the google-repo repository root directory.
 * [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
