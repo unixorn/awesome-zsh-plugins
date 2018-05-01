@@ -334,6 +334,7 @@ These frameworks make customizing your zsh setup easier.
 * [git-plugin](https://github.com/rcruzper/zsh-git-plugin) - Adds some functions for git.
 * [git-prompt-useremail](https://github.com/mroth/git-prompt-useremail) - Adds prompt reminders for git user.email.
 * [git-prune](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches.
+* [git-scripts](https://github.com/packruler/zsh-git-scripts) - Adds `git-squash-branch` and `git-remove-merged` commands.
 * [git-secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a git repository.
 * [git-smart-commands](https://github.com/seletskiy/zsh-git-smart-commands) - Adds git commands to make some common git usages more efficient.
 * [git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync git repositories and clean them up.
