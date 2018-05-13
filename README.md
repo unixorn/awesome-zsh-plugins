@@ -718,6 +718,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [heart-theme](https://github.com/gko/heart-theme) - Heart themed prompt for light backgrounds.
 * [hedgehog](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157) - Simple, no-nonsense and clean, with support for git and return codes.
 * [helb](https://github.com/helb/helb.zshtheme) - Loosely based on Gentoo's old bash theme. Includes git information, return value of last command, and uses different username color and prompt char for users (`$`) and root (`#`).
+* [hhktony](https://github.com/hhktony/hhktony.zsh-theme) - Inspired by robbyrussell theme + ssh connection status prompt.
 * [himself](https://github.com/mwamodojnr/himself) - Optimized for people using git, solarized and unicode-compatible fonts.
 * [hipstersmoothie-p9x](https://github.com/hipstersmoothie/PowerlevelHipstersmoothie) - A variant of [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 * [honukai-iterm-zsh](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm.
@@ -830,6 +831,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [robbyrussell-WIP](https://github.com/ecbrodie/robbyrussell-WIP-theme) - Decorates the `robbyrussell` theme with output to indicate a **WIP** commit.
 * [rummik/zsh-theme](https://github.com/rummik/zsh-theme) - @rummik's theme.
 * [rzh](https://github.com/patwhatev/rzh) - Theme with git states indicated by emojis.
+* [saraiva](https://github.com/ruisaraiva19/saraiva-theme) - Includes git status, works well on a dark terminal background.
 * [schminitz](https://gist.github.com/schminitz/9931af23bbb59e772eec) - Shows if Vim is running in the background when using `:sh` command.
 * [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts.
 * [seltzer](https://github.com/GrantSeltzer/seltzer.zsh-theme) - Inspired by dieter theme, uses color-coding to provide information.
