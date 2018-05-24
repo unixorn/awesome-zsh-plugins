@@ -891,7 +891,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [yuki](https://github.com/yuki-torii/yuki-zsh-theme) - A dark optimized ZSH theme.
 * [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' pure theme.
 * [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh blinks with mercurial support and other changes.
-* [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin.
+* [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
 * [zeta](https://github.com/skylerlee/zeta-zsh-theme) - Shows username, git information, machine name, current working directory.
 * [zqt](https://github.com/ladychili/zqt-zsh-theme) - Modified version of oh-my-zsh's maran theme.
 * [zsh2000](https://github.com/maverick2000/zsh2000) - Powerline looking ZSH theme with rvm prompt, git status and branch, current time, user, hostname, pwd, exit status, root and background job status.
