@@ -132,6 +132,10 @@ These frameworks make customizing your zsh setup easier.
 
 **Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 
+### [zgem](https://github.com/qoomon/zgem)
+
+**Zgem** is a plugin manager for ZSH that supports loading and updating plugins and themes from git, http and local files.
+
 ### [zgen](https://github.com/tarjoilija/zgen)
 
 **Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
