@@ -537,7 +537,7 @@ These frameworks make customizing your zsh setup easier.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
 * [zgdbm](https://github.com/zdharma/zgdbm) - Adds GDBM as a plugin.
 * [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make compinit run only once after all loading is done by zgen.
-* [zhooks](https://github.com/agkozak/zhooks) - Display the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
+* [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to ZSH themes.
 * [zjump](https://github.com/qoomon/zjump) - Simplify zsh directory navigation; jump to already visited, parent or sub folders
 * [zredis](https://github.com/zdharma/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
