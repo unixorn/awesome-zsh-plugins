@@ -33,6 +33,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [pumice](#pumice)
   - [Toasty](#toasty)
   - [zeesh](#zeesh)
+  - [zgem](#zgem)
   - [zgen](#zgen)
   - [zilsh](#zilsh)
   - [zim](#zim)
