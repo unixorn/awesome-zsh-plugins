@@ -931,9 +931,11 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 
 ## Installation
 
-### [Antigen](https://github.com/zsh-users/antigen)
+### [Antigen](https://github.com/zsh-users/antigen) / [Antibody](https://github.com/getantibody/antibody)
 
 Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start `zsh`. You can also add the plugin to a running ZSH with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
+
+[Antibody](https://github.com/getantibody/antibody) works the same, for example, `antibody bundle githubuser/reponame`.
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
