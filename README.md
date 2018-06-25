@@ -175,7 +175,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [ZR](https://github.com/jedahan/zr)
 
-**ZR** is a ZSH plugin manager written in Rust.
+**ZR** is a quick, simple ZSH plugin manager written in Rust and easy installable with `cargo install zr`.
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
