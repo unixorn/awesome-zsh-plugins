@@ -175,7 +175,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [ZR](https://github.com/jedahan/zr)
 
-**ZR** is a ZSH plugin manager written in Rust.
+**ZR** is a quick, simple ZSH plugin manager written in Rust and easy installable with `cargo install zr`.
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
@@ -330,6 +330,7 @@ These frameworks make customizing your zsh setup easier.
 * [fzy](https://github.com/aperezdc/zsh-fzy) - Plugin that uses [fzy](https://github.com/jhawthorn/fzy) for certain fuzzy matching operations.
 * [geeknote](https://github.com/s7anley/zsh-geeknote) - Geeknote plugin for ZSH.
 * [geometry-datetime](https://github.com/desyncr/geometry-datetime) - [Geometry](https://github.com/geometry-zsh/geometry) datetime plugin. Shows datetime (`date` unix command) in your prompt.
+* [geometry-hydrate](https://github.com/jedahan/geometry-hydrate) - [Geometry](https://github.com/geometry-zsh/geometry) plugin to remind you to hydrate.
 * [get-jquery](https://github.com/voronkovich/get-jquery.plugin.zsh) - Plugin for fast downloading jQuery library from [code.jquery.com](code.jquery.com).
 * [ghost-zeus](https://github.com/fontno/ghost_zeus) - Lets you use zeus with normal rails commands.
 * [gimme](https://github.com/folixg/gimme-ohmyzsh-plugin) - Manage Go installations with gimme.
