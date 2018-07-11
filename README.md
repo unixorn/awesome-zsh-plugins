@@ -44,6 +44,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zplugin](#zplugin)
   - [ZPM](#zpm)
   - [ZR](#zr)
+  - [zshing](#zshing)
   - [ztanesh](#ztanesh)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
@@ -57,7 +58,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Themes](#themes)
   - [Fonts](#fonts)
 - [Installation](#installation)
-  - [Antigen](#antigen-1)
+  - [Antigen / Antibody](#antigen--antibody)
   - [dotzsh](#dotzsh-1)
   - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto-1)
@@ -176,6 +177,10 @@ These frameworks make customizing your zsh setup easier.
 ### [ZR](https://github.com/jedahan/zr)
 
 **ZR** is a quick, simple ZSH plugin manager written in Rust and easy installable with `cargo install zr`.
+
+### [zshing](https://github.com/zakariaGatter/zshing)
+
+**zshing** is a ZSH plugin manager similar to Vundle/Vim.
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
@@ -664,7 +669,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [beer](https://github.com/tcnksm/oh-my-zsh-beer-theme) - Inspired by [cloud](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/cloud.zsh-theme), but with beer icons.
 * [bender](https://github.com/specious/bender) - Fancy two-line prompt with git integration.
 * [bgnoster](https://github.com/47bytes/bgnoster.zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874) variant with unicode symbols baked in.
-* [bilibili](https://github.com/jingjinghack/bilibili-zshtheme) - BiliBili Theme
 * [birame](https://github.com/maniat1k/birame) - Based on [bira](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/bira.zsh-theme).
 * [bklyn](https://github.com/gporrata/bklyn-zsh) - Variant of [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) with customizations applied.
 * [blackrain](https://github.com/ginfuru/zsh-blackrain) - Another git-aware theme.
