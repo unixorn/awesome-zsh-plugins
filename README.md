@@ -177,6 +177,10 @@ These frameworks make customizing your zsh setup easier.
 
 **ZR** is a quick, simple ZSH plugin manager written in Rust and easy installable with `cargo install zr`.
 
+### [zshing](https://github.com/zakariaGatter/zshing)
+
+**zshing** is a ZSH plugin manager similar to Vundle/Vim.
+
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
 **Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
