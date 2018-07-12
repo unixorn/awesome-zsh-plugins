@@ -850,6 +850,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous vim plugin, which works well for a dark background.
 * [punctual](https://github.com/dannynimmo/punctual-zsh-theme) - Easily customizable, influenced by [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme).
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
+* [purify](https://github.com/banminkyoz/purify) - Simple, fast & cool prompt.
 * [purity](https://github.com/pmbenjamin/purity) - Inspired by robbyrussell theme + pure prompt.
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git.
 * [radium](https://github.com/dimitardimitrov/radium) - Designed for dark terminals, (works best with Solarized iTerm2 theme) (prezto).
