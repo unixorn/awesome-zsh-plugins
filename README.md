@@ -1,4 +1,3 @@
-
 # awesome-zsh-plugins
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
@@ -846,7 +845,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [powerline-cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - Based on [bullet-train](https://github.com/caiogondim/bullet-train-oh-my-zsh-theme).
 * [powerline-go](https://github.com/justjanne/powerline-go) - A beautiful and useful low-latency prompt, written in go.
 * [powerline-pills](https://github.com/lucasqueiroz/powerline-pills-zsh) - A powerline theme based on pills, created in Ruby.
-* [powerline-shell](https://github.com/banga/powerline-shell) - A [powerline](https://github.com/Lokaltog/vim-powerline)-like prompt for Bash, ZSH and Fish. Shows important details about git/svn/hg/fossil branch and is easy to customize/extend.
+* [powerline-shell (b-ryan)](https://github.com/b-ryan/powerline-shell) - Beautiful and useful prompt generator for Bash, ZSH, Fish, and tcsh.
+* [powerline-shell (banga)](https://github.com/banga/powerline-shell) - A [powerline](https://github.com/Lokaltog/vim-powerline)-like prompt for Bash, ZSH and Fish. Shows important details about git/svn/hg/fossil branch and is easy to customize/extend.
 * [powerline-train](https://github.com/sherubthakur/powerline-train) - A powerline variant
 * [powerline](https://github.com/syui/powerline.zsh) - A git aware powerline theme.
 * [powerzeesh](https://github.com/sevaho/Powerzeesh) - A Powerline based ZSH theme. It aims for simplicity, showing information only when it's relevant, optimized for speed and look. Inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) and [Powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme)
@@ -932,6 +932,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [zshcomrade](https://github.com/landongn/zshcomrade) - A ZSH theme, comrade!
 * [zwsh](https://github.com/naens/zwsh) - A Zpm3/Wordstar mode/theme for ZSH.
 * [zys](https://github.com/ZYSzys/zys-zsh-theme) - Similar to agnoster-zsh-theme, designed to disclose information contextually, with a powerline aesthetic.
+
 ### Fonts
 
 Some of the themes listed here require Powerline-compatible fonts, here are a few:
