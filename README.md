@@ -409,6 +409,7 @@ These frameworks make customizing your zsh setup easier.
 * [listbox](https://github.com/gko/listbox) - Listbox element for shell.
 * [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for Sublime Text projects and opens them in Sublime.
 * [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets data from lipsum.com.
+* [ls](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
 * [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki.
 * [macos](https://github.com/joow/macos-zsh-plugin) - A ZSH plugin for macOS.
