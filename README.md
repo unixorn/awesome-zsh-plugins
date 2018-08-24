@@ -913,6 +913,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [theraveler](https://github.com/azah/the-raveler) - Based on theunraveler.
 * [topan](https://github.com/fudyartanto/topan-theme-oh-my-zsh) - Includes git information; best on dark backgrounds.
 * [tq](https://github.com/kitian616/tq-zsh-theme) - Displays git status, time, requires a Powerline font.
+* [traffic](https://github.com/fcce/traffic-zsh-theme) - A dark theme for ZSH.
 * [trajan](https://github.com/denisinla/trajan-zsh-theme) - A dark theme for ZSH.
 * [trinity](https://github.com/de-luca/Trinity) - A simple theme based on [geometry](https://github.com/frmendes/geometry).
 * [tvline](https://github.com/thvitt/tvline) - Derived from [agnoster's theme](https://gist.github.com/agnoster/3712874), adds powerline font enhancements.
