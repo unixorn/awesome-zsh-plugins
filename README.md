@@ -165,6 +165,22 @@ These frameworks make customizing your zsh setup easier.
 
 **:hibiscus: Zplug** is a next-generation ZSH plugin manager.
 
+- Can manage everything
+  - Zsh plugins/UNIX commands on [GitHub](https://github.com) and [Bitbucket](https://bitbucket.org)
+  - Gist files ([gist.github.com](https://gist.github.com))
+  - Externally managed plugins e.g., [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and [prezto](https://github.com/sorin-ionescu/prezto) plugins/themes
+  - Binary artifacts on [GitHub Releases](https://help.github.com/articles/about-releases/)
+  - Local plugins
+  - etc. (you can add your [own sources](https://github.com/zplug/zplug/blob/master/doc/guide/External-Sources.md)!)
+- Super-fast parallel installation/update
+- Support for lazy-loading
+- Branch/tag/commit support
+- Post-update, post-load hooks
+- Dependencies between packages
+- Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin file (`*.plugin.zsh`) required
+- Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
+- Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
+
 ### [zplugin](https://github.com/zdharma/zplugin)
 
 **Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](https://github.com/zdharma/zplugin#turbo-mode), a clean fpath, reports, completion management and [services](https://github.com/zservices) support.
