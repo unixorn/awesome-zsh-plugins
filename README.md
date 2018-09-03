@@ -631,6 +631,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (ZSH).
 * [hashlink](https://github.com/tong/zsh.plugin.hashlink) - Completions for [https://hashlink.haxe.org/](https://hashlink.haxe.org/).
 * [haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib.
+* [joe-completion](https://github.com/corvofeng/joe-completion) - Adds completions for [joe](https://github.com/karan/joe) gitignore editor.
 * [jtool-completion](https://github.com/beaugalbraith/jtool-completion) - ZSH completions for jtool.
 * [jumpstorm-zsh-plugin](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
 * [keybase](https://github.com/rbirnie/oh-my-zsh-keybase) - Completions for [keybase](https://keybase.io/docs/command_line).
