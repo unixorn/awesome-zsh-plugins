@@ -905,6 +905,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [pure](https://github.com/sindresorhus/pure) - Pretty, minimal and fast ZSH prompt.
 * [purify](https://github.com/banminkyoz/purify) - Simple, fast & cool prompt.
 * [purity](https://github.com/pmbenjamin/purity) - Inspired by robbyrussell theme + pure prompt.
+* [qoomon](https://github.com/qoomon/zsh-theme-qoomon) - Optimized for dark backgrounds, includes `git` information. Theme repo includes iTerm 2 and Terminal color settings.
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git.
 * [radium](https://github.com/dimitardimitrov/radium) - Designed for dark terminals, (works best with [Solarized](https://github.com/altercation/solarized) iTerm2 theme) (prezto).
 * [rafiki](https://github.com/akabiru/rafiki-zsh) - Adds emojis to your zsh terminal.
