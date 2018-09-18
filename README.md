@@ -939,7 +939,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [solarized](https://github.com/altercation/solarized) terminals.
 * [spaceship](https://github.com/denysdovhan/spaceship-zsh-theme) - A ZSH theme with `git`, `nvm`, rvm/rbenv/chruby, python, `ssh` and other useful indicators.
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, [tmux](https://tmux.github.io) powerline, vim powerline and the vim status plugin.
-* [staples](https://github.com/dersam/staples) - based on bureau, displays user@host if connected through SSH.
+* [staples](https://github.com/dersam/staples) - Based on bureau, displays user@host if connected through SSH.
 * [starboy](https://github.com/zuck007/Starboy) - A simple ZSH theme
 * [statusline](https://github.com/el1t/statusline) - A responsive ZSH theme that provides informational segments when you need them.
 * [steef](https://github.com/danihodovic/steeef) - ZSH steeef theme as a standalone repository. The purpose behind this repo is avoid having a dependency on oh-my-zsh when using the steeef theme. ZSH plugin managers such as Antibody can use the theme without having to use oh-my-zsh.
