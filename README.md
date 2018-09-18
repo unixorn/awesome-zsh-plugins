@@ -917,6 +917,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [remiii](https://github.com/Remiii/remiii.zsh-theme) - Based on agnoster, optimized for [solarized](https://github.com/altercation/solarized) terminal themes.
 * [remolueoend](https://github.com/remolueoend/remolueoend.zsh-theme) - Prezto ZSH theme based on Sorin, using emojis for tracking GIT context.
 * [robbyrussell-WIP](https://github.com/ecbrodie/robbyrussell-WIP-theme) - Decorates the `robbyrussell` theme with output to indicate a **WIP** commit.
+* [rougarou](https://github.com/RougarouTheme/rougarou-zsh) - A dark theme.
 * [rummik](https://github.com/rummik/zsh-theme) - @rummik's theme.
 * [rzh](https://github.com/patwhatev/rzh) - Theme with git states indicated by emojis.
 * [saraiva](https://github.com/ruisaraiva19/saraiva-theme) - Includes git status, works well on a dark terminal background.
