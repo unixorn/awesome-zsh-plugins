@@ -557,6 +557,7 @@ These frameworks make customizing your zsh setup easier.
 * [vanilli.sh](https://github.com/yous/vanilli.sh) - A lightweight start point of shell configuration.
 * [velocity](https://github.com/rahulsalvi/velocity) - Powerline-based theme elements for ZSH and [tmux](https://tmux.github.io).
 * [venv-lite](https://github.com/gimbo/venv-lite.zsh) - A super-lightweight sort-of-clone of [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/); it pretty much expects you to be using [pyenv](https://github.com/pyenv/pyenv) (though you don't *have* to), and because it's based on the [`venv` module](https://docs.python.org/3/library/venv.html), (creation) only works for python >= 3.3.
+* [vi-mode](https://github.com/hschne/vi-mode) - Clone of vi-mode from oh-my-zsh, allows you to use it with other frameworks without having to include all of oh-my-zsh.
 * [viexchange](https://github.com/okapia/zsh-viexchange) - Vi mode plugin for easily swapping text between two places in the buffer, like vim-exchange.
 * [vim-mode](https://github.com/softmoth/zsh-vim-mode) - Friendly Vi-mode bindings, adding basic Emacs keys, incremental search, mode indicators and more.
 * [vim-plugin](https://github.com/nviennot/zsh-vim-plugin) - Allows you to do `vim filename:123` to open a file with the cursor at a specific line.
