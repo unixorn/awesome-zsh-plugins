@@ -743,6 +743,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [clover](https://github.com/tzing/clover.zsh-theme) - Inspired by [zeta-zsh-theme](https://github.com/skylerlee/zeta-zsh-theme) and [pure](https://github.com/sindresorhus/pure).
 * [cmder](https://github.com/potasiyam/cmder-zsh-theme) - A ZSH theme that matches the theme of Cmder, a popular terminal emulator for windows.
 * [cobalt2](https://github.com/wesbos/Cobalt2-iterm) - Wes Bos' Cobalt 2 theme for ZSH and iTerm 2.
+* [colorbira](https://github.com/CristianCantoro/colorbira-zsh-theme) - Allows per-host prompt coloring, displays rvm, virtualenv and git information.
 * [cobalt2git](https://github.com/alexeimun/cobalt2git) - Cobalt 2 theme with git extensions.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Codemachine theme.
 * [codemonkey-on-fire](https://github.com/babette-landmesser/codemonkey-on-fire.zsh-theme) - Inspired by [bashi](https://github.com/eli-oat/bashi), includes a monkey and `git` information in your prompt.
