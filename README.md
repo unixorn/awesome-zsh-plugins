@@ -580,7 +580,7 @@ These frameworks make customizing your zsh setup easier.
 * [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects
 * [yadm](https://github.com/juanrgon/yadm-zsh) - Displays a warning if there are local yadm configuration changes.
 * [yeoman-zsh-plugin](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for oh-my-zsh, compatible with yeoman version ≥1.0 (includes options and command auto-completion).
-* [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use)- ZSH plugin that reminds you to use those aliases you defined.
+* [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use) - ZSH plugin that reminds you to use those aliases you defined.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/)
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH.
@@ -825,7 +825,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [kinda-fishy](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in `ssh` sessions and docker containers
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the git info.
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
-* [kraken](https://github.com/KrakenTheme/kraken-zsh) -A dark theme for ZSH.
+* [kraken](https://github.com/KrakenTheme/kraken-zsh) - A dark theme for ZSH.
+* [kumavis](https://github.com/kumavis/kumavis-zsh-theme) - Agnoster fork optimized for solarized terminals. Requires powerline-compatible font.
 * [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
 * [lagune](https://github.com/noplay/lagune) - a minimal ZSH theme.
 * [lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster) - Minimalist prompt that includes git information.
