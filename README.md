@@ -934,6 +934,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [senpai](https://github.com/hiroru/senpai-zsh) - Clean prompt theme for Devops. Includes git information, kubernetes context, AWS profile, GCP project and Azure active cloud.
 * [sepshell](https://github.com/sepehr/sepshell) - Clean and minimal ZSH theme based on the old lost taybalt theme, with git bisecting/merging/rebasing modes and configurable prompt symbols.
 * [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
+* [shayan](https://github.com/shayanh/shayan-zsh-theme) - Simple.
 * [shellder](https://github.com/simnalamburt/shellder) - Minimal theme with git branch display. Requires a powerline font.
 * [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with git info display.
 * [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme.
