@@ -15,7 +15,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Frameworks](#frameworks)
   - [alf](#alf)
@@ -203,7 +203,12 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zulu](https://github.com/zulu-zsh/zulu)
 
-**Zulu** is a total environment manager for ZSH 5+
+**Zulu** is a environment manager for ZSH 5+, which aims to make it easy to manage your shell without writing any code.
+
+* Easily manage your shell environment without editing files.
+* Create aliases, functions and environment variables, and have them available to you at the next shell startup.
+* Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
+* Install packages, plugins and themes easily, and have them available to you immediately.
 
 ## Tutorials
 
