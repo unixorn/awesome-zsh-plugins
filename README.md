@@ -131,7 +131,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
-**Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, oh-my-zsh. It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+**Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 
 ### [zgem](https://github.com/qoomon/zgem)
 
@@ -139,7 +139,7 @@ These frameworks make customizing your zsh setup easier.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load oh-my-zsh compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
+**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This saves startup time by not having to execute time consuming logic (plugin checking, updates, etc). The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -187,15 +187,23 @@ These frameworks make customizing your zsh setup easier.
 
 ### [ZPM](https://github.com/horosgrisa/ZPM)
 
-**ZPM** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). ZPM runs on Linux, Android, FreeBSD and macOS.
+**ZPM** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](http://ohmyz.sh/). ZPM runs on Linux, macOS, FreeBSD and Android.
 
 ### [ZR](https://github.com/jedahan/zr)
 
-**ZR** is a quick, simple ZSH plugin manager written in Rust and easy installable with `cargo install zr`.
+**ZR** is a quick, simple ZSH plugin manager written in Rust and easily installable with `cargo install zr`.
 
 ### [zshing](https://github.com/zakariaGatter/zshing)
 
-**zshing** is a ZSH plugin manager similar to Vundle/Vim.
+**zshing** is a ZSH plugin manager similar to Vundle/Vim and allows you to...
+
+* keep track of and configure your plugins right in the `.zshrc`
+* Install Zsh plugins
+* Update Zsh plugins
+* Search by name all available Zsh Plugins
+* Clean unused plugins up
+* run the above actions in a *single command*
+* manages the __Source Plugins__ of your installed Plugins
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
