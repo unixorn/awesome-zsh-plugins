@@ -550,6 +550,7 @@ These frameworks make customizing your zsh setup easier.
 * [taskbook](https://github.com/mastern2k3/taskbook-zsh-plugin) - Auto-completes task numbers for taskbook.
 * [terminal-app](https://github.com/the8/zsh-terminal-app) - A plugin for integrating with the new El Capitan Terminal.app features.
 * [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
+* [terraform](https://github.com/pbar1/zsh-terraform) - Terraform convenience functions and aliases for ZSH.
 * [timewarrior](https://github.com/svenXY/timewarrior) - Plugin for [timewarrior](https://timewarrior.net/) a timetracking application.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran (Similar to [alias-tips](https://github.com/djui/alias-tips)).
 * [titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for [tmux](https://tmux.github.io) and xterm-compatible terminals.
