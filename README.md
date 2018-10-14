@@ -261,7 +261,7 @@ These frameworks make customizing your ZSH setup easier.
 * [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by alwaysontop plugin for bash.
 * [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for Ansible.
 * [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols.
-* [antigen-git-rebase](https://github.com/smallhadroncollider-deprecated/antigen-git-rebase) - Antigen/zsh script to aid with Git rebasing.
+* [antigen-git-rebase](https://github.com/smallhadroncollider/antigen-git-rebase) - Antigen/zsh script to aid with Git rebasing.
 * [antigen-git-store](https://github.com/smallhadroncollider-deprecated/antigen-git-store) - Antigen/zsh script to store Git's current working directory. For working with Git between two computers without forcing arbitrary commits.
 * [anyframe](https://github.com/mollifier/anyframe) - A peco/percol/fzf wrapper plugin for ZSH.
 * [apache2](https://github.com/voronkovich/apache2.plugin.zsh) - Adds aliases and functions for managing Apache2.
@@ -585,7 +585,7 @@ These frameworks make customizing your ZSH setup easier.
 * [virtualz](https://github.com/aperezdc/virtualz) - Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper.
 * [virtuozzo-plugin](https://github.com/TamCore/virtuozzo-zsh-plugin) - An oh-my-zsh plugin for the [virtuozzo](https://docs.virtuozzo.com/master/index.html) bare-metal virtualization system.
 * [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
-* [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An oh-my-zsh plugin to control [VOX](https://vox.rocks/vox/mac), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
+* [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An oh-my-zsh plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
 * [vsc](https://github.com/davidtong/vsc.plugin.zsh) - Plugin for Visual Studio Code on macOS.
 * [vscode](https://github.com/qianxinfeng/zsh-vscode) - Plugin for Visual Studio Code.
 * [wack](https://github.com/leoxlin/wack) - Wraps `ack` command.
