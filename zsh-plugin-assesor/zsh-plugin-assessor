@@ -1,0 +1,238 @@
+#!/bin/sh
+
+# Copyright (c) 2018 Sebastian Gniazdowski <psprint@zdharma.org>
+#
+# This script parses and processes the data in the unixorn/awesone-zsh-plugins
+# README.md page. It extracts plugins from the "Plugins" section of the
+# document, clones each of them, runs a few git commands to establish facts
+# about the plugin and outputs the plugin's overall score.
+#
+# It then creates a README.md_new file with the scoress visible near each
+# plugin's name.
+
+##
+## CONFIGURATION, RESTART TO LEAVE /bin/sh
+##
+## Via /bin/sh running, to allow selection via configuration
+## file, of the `zsh' binary that is to run this script
+##
+
+ZERO="$0"
+ZPA_DIR="${ZERO%/*}"
+[ "$ZPA_DIR" = "${ZPA_DIR#/}" ] && ZPA_DIR="$PWD/$ZPA_DIR"
+
+[ "x$ZPA_CONFIG" = "x" ] && {
+    if [ -f ${XDG_CONFIG_HOME:-$HOME/.config}/zsh-plugin-assessor/zsd.config ]; then
+        ZPA_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/zsh-plugin-assessor/zsd.config"
+    elif [ -f "${ZPA_DIR}/zpa.config" ]; then
+        ZPA_CONFIG="${ZPA_DIR}/zpa.config"
+    elif [ -f /usr/local/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/usr/local/share/zsh-plugin-assessor/zpa.config"
+    elif [ -f /usr/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/usr/share/zsh-plugin-assessor/zpa.config"
+    elif [ -f /opt/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/opt/share/zsh-plugin-assessor/zpa.config"
+    fi
+
+    [ "x$ZPA_CONFIG" != "x" ] && {
+        echo "Reading configuration from: ${ZPA_CONFIG/$HOME/~}"
+        export ZPA_CONFIG
+        . "$ZPA_CONFIG"
+    }
+} || {
+    . "$ZPA_CONFIG"
+}
+
+[ -z "$zsh_control_bin" ] && zsh_control_bin="zsh"
+
+if [ -z "$ZSH_VERSION" ]; then
+    args="\"$0\""
+    for arg; do
+        args="$args \"$arg\""
+    done
+    exec /usr/bin/env "$zsh_control_bin" -f -c "source $args"
+fi
+
+##
+## START
+##
+## Finally in a Zsh, the Zsh binary possibly selected by zpa.conf
+##
+
+emulate -R zsh -o extendedglob -o typesetsilent -o warncreateglobal
+
+zmodload zsh/datetime || { print -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
+zmodload zsh/zutil || { print -r -- "Module zsh/zutil is needed, aborting"; exit 1; }
+
+print -r -- "Running under Zsh-binary:$zsh_control_bin, version:$ZSH_VERSION"
+print
+
+[[ -z "$1" ]] && {
+    print -r -- "Usage: zsh-plugin-assessor {file.md}"
+    print -r -- " e.g.: zsh-plugin-assessor ./README.md"
+    exit 0
+}
+
+[[ ! -e "$1" ]] && {
+    print -r -- "The input file ($1) doesn't exist, aborting"
+    exit 1
+}
+
+[[ ! -f "$1" ]] && {
+    print -r -- "The input file ($1) isn't a regular file, aborting"
+    exit 1
+}
+
+[[ ! -r "$1" ]] && {
+    print -r -- "The input file ($1) is unreadable, aborting"
+    exit 1
+}
+
+typeset -g INPUT_FILE_PATH="${${(M)1:#/*}:-$PWD/$1}" INPUT_FILE_CONTENTS="$(<$1)"
+typeset -gi NUMBER_OF_PLUGINS=0 CURRENT_LINE=0 DEBUG_PLUGIN_COUNT_LIMIT=0
+typeset -ga input_file_lines gathered_plugins plugin_scores
+typeset -gA plugin_to_url plugin_to_line_num plugin_to_score
+input_file_lines=( "${(@f)INPUT_FILE_CONTENTS}" )
+
+print -r -- "The input file has ${#input_file_lines} lines"
+
+#
+# Extract plugins
+#
+
+typeset -g LINE IN_PLUGINS_SECTION=0
+for LINE in "${input_file_lines[@]}"; do
+    (( ++ CURRENT_LINE ))
+    if (( ! IN_PLUGINS_SECTION )); then
+        [[ "$LINE" = "## Plugins" ]] && IN_PLUGINS_SECTION=1
+    else
+        if [[ "$LINE" = "##"[[:blank:]]##[a-zA-Z0-9]##* ]]; then
+            IN_PLUGINS_SECTION=0
+            print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
+        elif (( DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
+            IN_PLUGINS_SECTION=0
+        # \[[^\]]##\] - plugin name (## works like + in regex)
+        # \([^\)]##\) - plugin URL
+        elif [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##* ]]; then
+            (( ++ NUMBER_OF_PLUGINS ))
+            gathered_plugins+=( "${match[1]}" )
+            plugin_to_url+=( "${match[1]}" "${match[2]}" )
+            plugin_to_line_num+=( "${match[1]}" "$CURRENT_LINE" )
+            plugin_scores+=( "0000" )
+        fi
+    fi
+done
+
+#
+# Prepare working directory (in XDG_CACHE_HOME or ~/.config)
+#
+
+typeset -g WORK_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh-plugin-assessor/clones"
+
+print -r -- "== Removing clones from previous ZPA run... =="
+
+builtin cd -q -- "${WORK_DIR:h}" 
+command rm -rf -- "$WORK_DIR"
+command mkdir -p -- "$WORK_DIR"
+builtin cd -q -- "$WORK_DIR"
+
+print -r -- "== Working in $WORK_DIR =="
+print
+
+#
+# Clone each plugin, establish its score
+#
+
+typeset -g PLUGIN
+for PLUGIN in "${gathered_plugins[@]}"; do
+    local URL="${plugin_to_url[$PLUGIN]}"
+
+    if [[ -n "$OPT_VERBOSE" ]]; then
+        print
+        command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh"
+    else
+        command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh" -q
+    fi
+
+    #
+    # The basic score [ABCD]
+    #
+
+    # Number of commits in master
+    typeset -g DATA_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --count master 2>/dev/null)
+    # Time of last commit in master
+    typeset -g DATA_LAST_COMMIT_DATE=$(command git -C "$PLUGIN" log --max-count=1 --pretty=format:%ct master 2>/dev/null)
+    # As above, for ^master
+    typeset -g DATA_COMMIT_COUNT_ALL=$(command git -C "$PLUGIN" rev-list --all --count '^master' 2>/dev/null)
+    # As above, for ^master
+    typeset -g DATA_LAST_COMMIT_DATE_BRANCHES=$(command git -C "$PLUGIN" log --max-count=1 --pretty=format:%ct --all '^master' 2>/dev/null)
+
+    #
+
+    # The score is e.g. 1112 for 1-active, 1-50-commits, 1-active, 2-100 commits
+    integer score_activity=0 score_commit_count=0 score_activity_branches=0 score_commit_count_branches=0
+
+    # Master
+    (( DATA_COMMIT_COUNT >= 50 )) && score_commit_count=1
+    (( DATA_COMMIT_COUNT >= 100 )) && score_commit_count=2
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE:-0} <= 6*30.5*24*60*60 )); then
+        score_activity=1
+    fi
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE:-0} <= 3*30.5*24*60*60 )); then
+        score_activity=2
+    fi
+
+    # Branches-only
+    (( DATA_COMMIT_COUNT_ALL >= 50 )) && score_commit_count_branches=1
+    (( DATA_COMMIT_COUNT_ALL >= 100 )) && score_commit_count_branches=2
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE_BRANCHES:-0} <= 6*30.5*24*60*60 )); then
+        score_activity_branches=1
+    fi
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE_BRANCHES:-0} <= 3*30.5*24*60*60 )); then
+        score_activity_branches=2
+    fi
+
+    integer score=score_commit_count*1000+score_activity*100+score_commit_count_branches*10+score_activity_branches
+
+    print "$PLUGIN: ${(l:4::0:)score}"
+
+    plugin_to_score[$PLUGIN]="${(l:4::0:)score}"
+done
+
+#
+# Create new README.md with the score
+# occuring near each plugin's name
+#
+
+typeset -g OUTPUT_FILE_PATH="${INPUT_FILE_PATH}"_new
+
+# Output all lines preceding "Plugins"-section body
+integer top_block_last_line_num=$(( ${plugin_to_line_num[${gathered_plugins[1]}]} - 1 ))
+print -r -- "${(F)input_file_lines[1,top_block_last_line_num]}" >! "$OUTPUT_FILE_PATH"
+
+integer line_num
+
+for PLUGIN in "${gathered_plugins[@]}"; do
+    line_num="${plugin_to_line_num[$PLUGIN]}" start_pos=0
+    LINE="${input_file_lines[line_num]}"
+
+    # \[[^\]]##\] - plugin name
+    # \([^\)]##\) - plugin URL
+    # \*\\\[[0-9]##\\\]\* - the evaluation, in markdown, i.e. *\[0000\]*
+    if [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##(\*\\\[[0-9]##\\\]\*[[:blank:]]##)* ]]; then
+        # Remove previous e.g. *[0001]*
+        LINE[${mbegin[3]},${mend[3]}]=""
+        start_pos=$(( mbegin[3] -1 ))
+    elif [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##* ]]; then
+        start_pos=$(( mend[2] + 2 ))
+    fi
+
+    LINE[start_pos]=' *\['"${plugin_to_score[$PLUGIN]}"'\]* '
+    print -r -- "$LINE" >>! "$OUTPUT_FILE_PATH"
+
+done
+
+# Output unchanged trailing document part
+print -r -- "${(F)input_file_lines[line_num+1,-1]}" >>! "$OUTPUT_FILE_PATH"
+
+# vim:ft=zsh:et:sw=4:sts=4
