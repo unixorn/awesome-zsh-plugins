@@ -428,8 +428,8 @@ These frameworks make customizing your ZSH setup easier.
 * [iterm2-colors](https://github.com/shayneholmes/zsh-iterm2colors) - Manage your iTerm 2's color scheme from the command line.
 * [iterm2-tabs](https://github.com/gimbo/iterm2-tabs.zsh) - Set colors and titles of iTerm 2 tabs.
 * [jabba](https://github.com/2m/zsh-jabba) - Adds shell integration code and completions for the [jabba](https://github.com/shyiko/jabba) Java version manager.
-* [javaVersions](https://github.com/miguefl/javaVersions) - Change between different java versions with a single command.
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a `setjdk` command so you can switch easily between different versions of the jdk.
+* [javaVersions](https://github.com/miguefl/javaVersions) - Change between different java versions with a single command.
 * [jdk-switch](https://github.com/LockonS/jdk-switch) - macOS-only plugin for switching between jdk versions.
 * [jenkins-zsh](https://github.com/tomplex/jenkins-zsh) - A jenkins plugin for ZSH, heavily inspired by the excellent jira plugin.
 * [jenv-lazy](https://github.com/shihyuho/zsh-jenv-lazy) - A ZSH plugin for lazy loading of jEnv.
