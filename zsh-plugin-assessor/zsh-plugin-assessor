@@ -59,6 +59,8 @@ fi
 ## Finally in a Zsh, the Zsh binary possibly selected by zpa.conf
 ##
 
+typeset -gF4 SECONDS=0
+
 emulate -R zsh -o extendedglob -o typesetsilent -o warncreateglobal
 
 zmodload zsh/datetime || { print -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
@@ -89,9 +91,9 @@ print
 }
 
 typeset -g INPUT_FILE_PATH="${${(M)1:#/*}:-$PWD/$1}" INPUT_FILE_CONTENTS="$(<$1)"
-typeset -gi NUMBER_OF_PLUGINS=0 CURRENT_LINE=0 DEBUG_PLUGIN_COUNT_LIMIT=0
+typeset -gi NUMBER_OF_PLUGINS=0 NUMBER_OF_THEMES=0 CURRENT_LINE=0 DEBUG_PLUGIN_COUNT_LIMIT=0 LAST_PLUGIN_IDX=0
 typeset -ga input_file_lines gathered_plugins plugin_scores
-typeset -gA plugin_to_url plugin_to_line_num plugin_to_score
+typeset -gA plugin_to_url plugin_to_line_num plugin_to_score plugin_to_emoji_str
 input_file_lines=( "${(@f)INPUT_FILE_CONTENTS}" )
 
 print -r -- "The input file has ${#input_file_lines} lines"
@@ -100,21 +102,34 @@ print -r -- "The input file has ${#input_file_lines} lines"
 # Extract plugins
 #
 
-typeset -g LINE IN_PLUGINS_SECTION=0
+typeset -g LINE IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
 for LINE in "${input_file_lines[@]}"; do
     (( ++ CURRENT_LINE ))
-    if (( ! IN_PLUGINS_SECTION )); then
-        [[ "$LINE" = "## Plugins" ]] && IN_PLUGINS_SECTION=1
+    if (( ! IN_PLUGINS_SECTION && ! IN_THEMES_SECTION )); then
+        [[ "$LINE" = "## Plugins" ]] && { IN_PLUGINS_SECTION=1; print -r -- "Processing plugins..."; }
+        [[ "$LINE" = "## Themes" ]] && { IN_THEMES_SECTION=1; print -r -- "Processing themes..."; }
     else
         if [[ "$LINE" = "##"[[:blank:]]##[a-zA-Z0-9]##* ]]; then
-            IN_PLUGINS_SECTION=0
-            print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
-        elif (( DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
-            IN_PLUGINS_SECTION=0
+            (( IN_PLUGINS_SECTION )) && {
+                IN_PLUGINS_SECTION=0
+                LAST_PLUGIN_IDX="${#gathered_plugins}"
+                print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
+            }
+            (( IN_THEMES_SECTION )) && {
+                IN_THEMES_SECTION=0
+                print -r -- "Found #$NUMBER_OF_PLUGINS themes"
+            }
+            [[ "$LINE" = "## Themes" ]] && IN_THEMES_SECTION=1
+        elif (( IN_PLUGINS_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
+            IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
+            LAST_PLUGIN_IDX="${#gathered_plugins}"
+        elif (( IN_THEMES_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_THEMES >= DEBUG_PLUGIN_COUNT_LIMIT )); then
+            IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
         # \[[^\]]##\] - plugin name (## works like + in regex)
         # \([^\)]##\) - plugin URL
         elif [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##* ]]; then
-            (( ++ NUMBER_OF_PLUGINS ))
+            (( IN_PLUGINS_SECTION )) && (( ++ NUMBER_OF_PLUGINS ))
+            (( IN_THEMES_SECTION )) && (( ++ NUMBER_OF_THEMES ))
             gathered_plugins+=( "${match[1]}" )
             plugin_to_url+=( "${match[1]}" "${match[2]}" )
             plugin_to_line_num+=( "${match[1]}" "$CURRENT_LINE" )
@@ -131,7 +146,7 @@ typeset -g WORK_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh-plugin-assessor/clones"
 
 print -r -- "== Removing clones from previous ZPA run... =="
 
-builtin cd -q -- "${WORK_DIR:h}" 
+builtin cd -q -- "${WORK_DIR:h}"
 command rm -rf -- "$WORK_DIR"
 command mkdir -p -- "$WORK_DIR"
 builtin cd -q -- "$WORK_DIR"
@@ -145,7 +160,7 @@ print
 
 typeset -g PLUGIN
 for PLUGIN in "${gathered_plugins[@]}"; do
-    local URL="${plugin_to_url[$PLUGIN]}"
+    typeset -g URL="${plugin_to_url[$PLUGIN]}"
 
     if [[ -n "$OPT_VERBOSE" ]]; then
         print
@@ -168,8 +183,41 @@ for PLUGIN in "${gathered_plugins[@]}"; do
     typeset -g DATA_LAST_COMMIT_DATE_BRANCHES=$(command git -C "$PLUGIN" log --max-count=1 --pretty=format:%ct --all '^master' 2>/dev/null)
 
     #
+    # Progress detection
+    #
 
-    # The score is e.g. 1112 for 1-active, 1-50-commits, 1-active, 2-100 commits
+    integer has_walking_pace=0 has_running_pace=0
+
+    typeset -g DATA_CURRENT_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='30 days ago' --count master 2>/dev/null)
+    typeset -g DATA_CURRENT_1_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='60 days ago' --before='30 days ago' --count master 2>/dev/null)
+    typeset -g DATA_CURRENT_2_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='90 days ago' --before='60 days ago' --count master 2>/dev/null)
+    typeset -g DATA_3_LAST_MONTHS_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='90 days ago' --count master 2>/dev/null)
+
+    if (( DATA_CURRENT_MONTH_COMMIT_COUNT > 0 && \
+            DATA_CURRENT_1_MONTH_COMMIT_COUNT > 0 && \
+            DATA_CURRENT_2_MONTH_COMMIT_COUNT > 0 ))
+    then
+        has_walking_pace=1
+        if (( DATA_CURRENT_MONTH_COMMIT_COUNT >= 3 && \
+                DATA_CURRENT_1_MONTH_COMMIT_COUNT >= 3 && \
+                DATA_CURRENT_2_MONTH_COMMIT_COUNT >= 3 ))
+        then
+            has_running_pace=1
+        elif (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 10 )); then
+            has_running_pace=1
+        fi
+    elif (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 5 )); then
+        has_walking_pace=1
+        if (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 10 )); then
+            has_running_pace=1
+        fi
+    fi
+
+    #
+    # Attention detection - the basic score [ABCD]
+    #
+
+    # The score is e.g. 1121 for 1-50-commits, 1-active, 2-100-commits, 1-active
     integer score_activity=0 score_commit_count=0 score_activity_branches=0 score_commit_count_branches=0
 
     # Master
@@ -194,9 +242,94 @@ for PLUGIN in "${gathered_plugins[@]}"; do
 
     integer score=score_commit_count*1000+score_activity*100+score_commit_count_branches*10+score_activity_branches
 
-    print "$PLUGIN: ${(l:4::0:)score}"
+    #
+    # Attention detection - emoji
+    #
+
+    integer attention_rank=0
+
+    # Time of last commit in master
+    if (( score_activity == 2 )); then
+        typeset -g DATA_THIS_MONTH_COMMIT_COUNT=$DATA_CURRENT_MONTH_COMMIT_COUNT
+        typeset -g DATA_PREVIOUS_MONTH_COMMIT_COUNT=$DATA_CURRENT_1_MONTH_COMMIT_COUNT
+        if (( DATA_THIS_MONTH_COMMIT_COUNT > 0 && DATA_PREVIOUS_MONTH_COMMIT_COUNT > 0 )); then
+            attention_rank=3
+        else
+            attention_rank=2
+        fi
+    else
+        attention_rank=score_activity
+    fi
+
+    #
+    # Research & development detection
+    #
+
+    integer has_r_and_d=0 r_and_d_active=0
+    if (( score_commit_count_branches > 0 )); then
+        has_r_and_d=1
+    fi
+    typeset -g DATA_LAST_4_MONTHS_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='120 days ago' --all --count '^master' 2>/dev/null)
+    if (( DATA_LAST_4_MONTHS_COMMIT_COUNT >= 3 )); then
+        r_and_d_active=1
+    fi
+
+    #
+    # Time and work investment detection
+    #
+
+    integer which_place_medal=0
+    if (( DATA_COMMIT_COUNT >= 50 )); then
+        which_place_medal=2
+    fi
+    if (( DATA_COMMIT_COUNT >= 100 )); then
+        which_place_medal=1
+    fi
+
+    #
+    # Construct emoji string
+    #
+
+    local emoji_string=""
+
+    # 1. Commits-medal
+    if (( which_place_medal >= 2 )); then
+        emoji_string+=":2nd_place_medal: "
+    elif (( which_place_medal == 1 )); then
+        emoji_string+=":1st_place_medal: "
+    fi
+
+    # 2. Progress pace
+    if (( has_running_pace )); then
+        emoji_string+=":running_man: "
+    elif (( has_walking_pace )); then
+        emoji_string+=":walking_man: "
+    fi
+
+    # 3. Current attention
+    if (( attention_rank >= 3 )); then
+        emoji_string+=":alarm_clock: "
+    elif (( attention_rank == 2 )); then
+        emoji_string+=":hourglass_flowing_sand: "
+    elif (( attention_rank == 1 )); then
+        emoji_string+=":hourglass: "
+    elif (( attention_rank == 0 )); then
+        #emoji_string+=":zzz: "
+        :
+    fi
+
+    # 4. Research and development
+    if (( has_r_and_d )); then
+        emoji_string+=":briefcase: "
+        if (( r_and_d_active )); then
+            emoji_string+=":chart_with_upwards_trend: "
+        fi
+    fi
+
+    print "$PLUGIN: ${(l:4::0:)score}, emoji: $emoji_string"
 
     plugin_to_score[$PLUGIN]="${(l:4::0:)score}"
+    plugin_to_emoji_str[$PLUGIN]="${emoji_string%%[[:blank:]]##}"
 done
 
 #
@@ -210,16 +343,24 @@ typeset -g OUTPUT_FILE_PATH="${INPUT_FILE_PATH}"_new
 integer top_block_last_line_num=$(( ${plugin_to_line_num[${gathered_plugins[1]}]} - 1 ))
 print -r -- "${(F)input_file_lines[1,top_block_last_line_num]}" >! "$OUTPUT_FILE_PATH"
 
-integer line_num
+integer plugin_idx=0 line_num
 
 for PLUGIN in "${gathered_plugins[@]}"; do
+    plugin_idx+=1
+
+    # Plugins ending?
+    if (( plugin_idx == LAST_PLUGIN_IDX+1 )); then
+        # Output unchanged middle document part
+        print -r -- "${(F)input_file_lines[line_num+1,${plugin_to_line_num[$PLUGIN]}-1]}" >>! "$OUTPUT_FILE_PATH"
+    fi
+
     line_num="${plugin_to_line_num[$PLUGIN]}" start_pos=0
     LINE="${input_file_lines[line_num]}"
 
     # \[[^\]]##\] - plugin name
     # \([^\)]##\) - plugin URL
-    # \*\\\[[0-9]##\\\]\* - the evaluation, in markdown, i.e. *\[0000\]*
-    if [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##(\*\\\[[0-9]##\\\]\*[[:blank:]]##)* ]]; then
+    # [a-z:_[:blank:]]## - emoji string
+    if [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##([a-z0-9:_[:blank:]]##)-[[:blank:]]##* ]]; then
         # Remove previous e.g. *[0001]*
         LINE[${mbegin[3]},${mend[3]}]=""
         start_pos=$(( mbegin[3] -1 ))
@@ -227,12 +368,13 @@ for PLUGIN in "${gathered_plugins[@]}"; do
         start_pos=$(( mend[2] + 2 ))
     fi
 
-    LINE[start_pos]=' *\['"${plugin_to_score[$PLUGIN]}"'\]* '
+    LINE[start_pos]=" ${plugin_to_emoji_str[$PLUGIN]}${plugin_to_emoji_str[$PLUGIN]:+ }"
     print -r -- "$LINE" >>! "$OUTPUT_FILE_PATH"
-
 done
 
 # Output unchanged trailing document part
 print -r -- "${(F)input_file_lines[line_num+1,-1]}" >>! "$OUTPUT_FILE_PATH"
 
+float -F2 elapsed_time=$(( SECONDS / 60.0 ))
+print "The processing took $elapsed_time minutes"
 # vim:ft=zsh:et:sw=4:sts=4
