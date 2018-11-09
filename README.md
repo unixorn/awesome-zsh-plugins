@@ -305,6 +305,7 @@ These frameworks make customizing your ZSH setup easier.
 * [caniuse](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [careful_rm](https://github.com/MikeDacre/careful_rm) - A wrapper for rm that adds trash/recycling and useful warnings
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A ZSH plugin to cd to the git repository root directory.
+* [cd-reminder](https://github.com/bartboy011/cd-reminder) - Display reminders when cd-ing into specified directories.
 * [cd-reporoot](https://github.com/P4Cu/cd-reporoot) - A ZSH plugin to cd to the google-repo repository root directory.
 * [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
@@ -585,6 +586,7 @@ These frameworks make customizing your ZSH setup easier.
 * [vanilli.sh](https://github.com/yous/vanilli.sh) - A lightweight start point of shell configuration.
 * [velocity](https://github.com/rahulsalvi/velocity-python) - Powerline-based theme elements for ZSH and [tmux](https://tmux.github.io).
 * [venv-lite](https://github.com/gimbo/venv-lite.zsh) - A super-lightweight sort-of-clone of [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/); it pretty much expects you to be using [pyenv](https://github.com/pyenv/pyenv) (though you don't *have* to), and because it's based on the [`venv` module](https://docs.python.org/3/library/venv.html), (creation) only works for python >= 3.3.
+* [vi-mode](https://github.com/sinetoami/vi-mode) - Add more `vi`-like functionality to ZSH.
 * [viexchange](https://github.com/okapia/zsh-viexchange) - Vi mode plugin for easily swapping text between two places in the buffer, like vim-exchange.
 * [vim-mode](https://github.com/softmoth/zsh-vim-mode) - Friendly Vi-mode bindings, adding basic Emacs keys, incremental search, mode indicators and more.
 * [vim-plugin](https://github.com/nviennot/zsh-vim-plugin) - Allows you to do `vim filename:123` to open a file with the cursor at a specific line.
@@ -592,7 +594,7 @@ These frameworks make customizing your ZSH setup easier.
 * [vimto](https://github.com/laurenkt/zsh-vimto) - Improved ZSH vim mode (bindkey -v) plugin.
 * [virtualenv-mod](https://github.com/mattcl/virtualenv-mod) - A modified virtualenv ZSH plugin for oh-my-zsh.
 * [virtualenv-prompt](https://github.com/tonyseek/oh-my-zsh-virtualenv-prompt) - A fork of the virtualenv plugin from upstream. It adds support for customizing the virtualenv prompt in oh-my-zsh themes.
-* [virtualz](https://github.com/aperezdc/virtualz) - Python virtualenv manager inspired by Virtualfish, replaces virtualenvwrapper.
+* [virtualz](https://github.com/aperezdc/virtualz) - Python [virtualenv](https://virtualenv.pypa.io/en/latest/) manager inspired by Adam Brenecki's [Virtualfish](https://github.com/adambrenecki/virtualfish) for the [Fish shell](http://fishshell.com/), replaces virtualenvwrapper.
 * [virtuozzo-plugin](https://github.com/TamCore/virtuozzo-zsh-plugin) - An oh-my-zsh plugin for the [virtuozzo](https://docs.virtuozzo.com/master/index.html) bare-metal virtualization system.
 * [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
 * [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An oh-my-zsh plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
