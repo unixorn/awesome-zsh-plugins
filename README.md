@@ -305,6 +305,7 @@ These frameworks make customizing your ZSH setup easier.
 * [caniuse](https://github.com/walesmd/caniuse.plugin.zsh) - Add [Can I Use...](https://caniuse.com) support to ZSH.
 * [careful_rm](https://github.com/MikeDacre/careful_rm) - A wrapper for rm that adds trash/recycling and useful warnings
 * [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A ZSH plugin to cd to the git repository root directory.
+* [cd-reminder](https://github.com/bartboy011/cd-reminder) - Display reminders when cd-ing into specified directories.
 * [cd-reporoot](https://github.com/P4Cu/cd-reporoot) - A ZSH plugin to cd to the google-repo repository root directory.
 * [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
