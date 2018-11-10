@@ -648,6 +648,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [cf-zsh-autocomplete-plugin](https://github.com/Dannyzen/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
 * [codeception-zsh-plugin](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
+* [completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 * [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop)
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 * [docker-enter-completion](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter).
@@ -669,6 +670,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [gulp](https://github.com/akoenig/gulp.plugin.zsh) - Autocompletion for your gulp.js tasks in the Z-Shell (ZSH).
 * [hashlink](https://github.com/tong/zsh.plugin.hashlink) - Completions for [https://hashlink.haxe.org/](https://hashlink.haxe.org/).
 * [haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib.
+* [ipfs](https://github.com/aramboi/zsh-ipfs) - Completions for the [Interplanetary File System](https://ipfs.io).
 * [joe-completion](https://github.com/corvofeng/joe-completion) - Adds completions for [joe](https://github.com/karan/joe) gitignore editor.
 * [jtool-completion](https://github.com/beaugalbraith/jtool-completion) - ZSH completions for jtool.
 * [jumpstorm-completion](https://github.com/netresearch/jumpstorm-zsh-plugin) - Adds autocompletion for [jumpstorm](https://github.com/netresearch/jumpstorm)
@@ -705,8 +707,6 @@ These plugins add tab completions without adding extra functions or aliases.
 * [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake.
 * [vert.x-omz-plugin](https://github.com/davidafsilva/vert.x-omz-plugin) - Provides autocomplete features for the [vertx](https://vertx.io/) command.
 * [yarn](https://github.com/g-plane/zsh-yarn-autocompletions) - Yarn autocompletions.
-* [zsh-completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
-* [zsh-ipfs](https://github.com/aramboi/zsh-ipfs) - Completions for the [Interplanetary File System](https://ipfs.io).
 
 ## Themes
 
