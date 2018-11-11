@@ -1050,7 +1050,7 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 
 * [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that includes some nice monospaced Icons.
 * [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons and Powerline-Glyphs.
-* [Fantasque-sans](https://github.com/belluzj/fantasque-sans) - Another powerline font.
+* [Fantasque-sans](https://github.com/belluzj/fantasque-sans) - Another Powerline-compatible font.
 * [Hack](https://sourcefoundry.org/hack/) - Another Powerline-compatible font designed specifically for source code.
 * [Input Mono](http://input.fontbureau.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 * [Monoid](https://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
@@ -1061,11 +1061,13 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 
 ## Installation
 
-### [Antigen](https://github.com/zsh-users/antigen) / [Antibody](https://github.com/getantibody/antibody)
+### [Antibody](https://github.com/getantibody/antibody)
+
+Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antibody will handle cloning the plugin for you automatically the next time you start `zsh`. You can also add the plugin to a running ZSH with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
+
+### [Antigen](https://github.com/zsh-users/antigen)
 
 Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start `zsh`. You can also add the plugin to a running ZSH with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
-
-[Antibody](https://github.com/getantibody/antibody) works the same, for example, `antibody bundle githubuser/reponame`.
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
