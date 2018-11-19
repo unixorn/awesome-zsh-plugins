@@ -66,12 +66,29 @@ emulate -R zsh -o extendedglob -o typesetsilent -o warncreateglobal
 zmodload zsh/datetime || { print -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
 zmodload zsh/zutil || { print -r -- "Module zsh/zutil is needed, aborting"; exit 1; }
 
-print -r -- "Running under Zsh-binary:$zsh_control_bin, version:$ZSH_VERSION"
+print -r -- "Running under Zsh-binary:\`$zsh_control_bin', version:$ZSH_VERSION"
 print
 
-[[ -z "$1" ]] && {
-    print -r -- "Usage: zsh-plugin-assessor {file.md}"
-    print -r -- " e.g.: zsh-plugin-assessor ./README.md"
+local -A opthash
+
+zparseopts -E -D -A opthash h -help v -verbose q -quiet a -no-ansi n -only-new || \
+              { print "Improper options given, see help (-h/--help)"; return 1; }
+
+(( ${+opthash[-h]} + ${+opthash[--help]} ))     && local OPT_HELP="-h"
+(( ${+opthash[-v]} + ${+opthash[--verbose]} ))  && local OPT_VERBOSE="-v"
+(( ${+opthash[-q]} + ${+opthash[--quiet]} ))    && local OPT_QUIET="-q"
+(( ${+opthash[-a]} + ${+opthash[--no-ansi]} ))  && local OPT_NO_ANSI="-a"
+(( ${+opthash[-n]} + ${+opthash[--only-new]} )) && local OPT_ONLY_NEW="-n"
+
+[[ -z "$1" || "$1" = (-h|--help) ]] && {
+    print -r -- "Usage: zsh-plugin-assessor [-h/--help] [-v|--verbose] [-a|--no-ansi] [-n|--only-new] {file.md}"
+    print -r -- " e.g.: zsh-plugin-assessor --only-new ./README.md"
+    print
+    print -r -- "The option -n/--only-new will compute the emoji indicators and add them to the"
+    print -r -- "README.md document only if there are no emoji indicators already assigned to"
+    print -r -- "the plugin or theme. This is useful to evaluate only newly added repositories."
+    print -r -- "It will however still process repositories that are inactive, etc. and do not"
+    print -r -- "have the emoji-indicators in their normal state."
     exit 0
 }
 
@@ -93,7 +110,7 @@ print
 typeset -g INPUT_FILE_PATH="${${(M)1:#/*}:-$PWD/$1}" INPUT_FILE_CONTENTS="$(<$1)"
 typeset -gi NUMBER_OF_PLUGINS=0 NUMBER_OF_THEMES=0 CURRENT_LINE=0 DEBUG_PLUGIN_COUNT_LIMIT=0 LAST_PLUGIN_IDX=0
 typeset -ga input_file_lines gathered_plugins plugin_scores
-typeset -gA plugin_to_url plugin_to_line_num plugin_to_score plugin_to_emoji_str
+typeset -gA plugin_to_url plugin_to_line_num plugin_to_score plugin_to_emoji_str plugin_no_process
 input_file_lines=( "${(@f)INPUT_FILE_CONTENTS}" )
 
 print -r -- "The input file has ${#input_file_lines} lines"
@@ -117,7 +134,7 @@ for LINE in "${input_file_lines[@]}"; do
             }
             (( IN_THEMES_SECTION )) && {
                 IN_THEMES_SECTION=0
-                print -r -- "Found #$NUMBER_OF_PLUGINS themes"
+                print -r -- "Found #$NUMBER_OF_THEMES themes"
             }
             [[ "$LINE" = "## Themes" ]] && IN_THEMES_SECTION=1
         elif (( IN_PLUGINS_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
@@ -134,6 +151,20 @@ for LINE in "${input_file_lines[@]}"; do
             plugin_to_url+=( "${match[1]}" "${match[2]}" )
             plugin_to_line_num+=( "${match[1]}" "$CURRENT_LINE" )
             plugin_scores+=( "0000" )
+            local plugin_name="${match[1]}"
+
+            # Should skip processing it? This is when --only-new/-n option
+            # is given and the plugin/theme already has emoji indicators,
+            # i.e. it was already processed, isn't a new entry.
+            #
+            # \[[^\]]##\] - plugin name
+            # \([^\)]##\) - plugin URL
+            # [a-z:_[:blank:]]## - emoji string
+            if [[ -z "$OPT_ONLY_NEW" || "$LINE" != (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##([a-z0-9:_[:blank:]]##)-[[:blank:]]##* ]]; then
+                plugin_no_process+=( $plugin_name 0 )
+            else
+                plugin_no_process+=( $plugin_name 1 )
+            fi
         fi
     fi
 done
@@ -162,6 +193,12 @@ typeset -g PLUGIN
 for PLUGIN in "${gathered_plugins[@]}"; do
     typeset -g URL="${plugin_to_url[$PLUGIN]}"
 
+    if (( plugin_no_process[$PLUGIN] )); then
+        print "Skipping ${PLUGIN}... (it isn't a new, unprocessed plugin)"
+        plugin_to_score[$PLUGIN]="0000"
+        plugin_to_emoji_str[$PLUGIN]=""
+        continue
+    fi
     if [[ -n "$OPT_VERBOSE" ]]; then
         print
         command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh"
@@ -356,6 +393,12 @@ for PLUGIN in "${gathered_plugins[@]}"; do
 
     line_num="${plugin_to_line_num[$PLUGIN]}" start_pos=0
     LINE="${input_file_lines[line_num]}"
+
+    # Output a verbatim copy of previous line
+    if (( plugin_no_process[$PLUGIN] )); then
+        print -r -- "$LINE" >>! "$OUTPUT_FILE_PATH"
+        continue
+    fi
 
     # \[[^\]]##\] - plugin name
     # \([^\)]##\) - plugin URL
