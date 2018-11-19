@@ -35,12 +35,25 @@ ZPA_DIR="${ZERO%/*}"
     fi
 
     [ "x$ZPA_CONFIG" != "x" ] && {
-        echo "Reading configuration from: ${ZPA_CONFIG/$HOME/~}"
         export ZPA_CONFIG
         . "$ZPA_CONFIG"
     }
 } || {
-    . "$ZPA_CONFIG"
+    [ -n "$ZSH_VERSION" ] && {
+        setopt extendedglob
+        if [[ " $* " != *-[^[:blank:]-]#q[^[:blank:]]#[[:blank:]]##* && \
+            " $* " != *[[:blank:]]##--quiet[[:blank:]]##* ]]
+        then
+            if [[ -z "$ZPA_CONFIG" ]];then
+                print -r -- "Couldn't find configuration file, will use the default zsh binary"
+            else
+                print -r -- "Reading configuration from: ${ZPA_CONFIG/$HOME/~}"
+                . "$ZPA_CONFIG"
+            fi
+        else
+            [[ -n "$ZPA_CONFIG" ]] && . "$ZPA_CONFIG"
+        fi
+    }
 }
 
 [ -z "$zsh_control_bin" ] && zsh_control_bin="zsh"
@@ -63,22 +76,22 @@ typeset -gF4 SECONDS=0
 
 emulate -R zsh -o extendedglob -o typesetsilent -o warncreateglobal
 
-zmodload zsh/datetime || { print -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
-zmodload zsh/zutil || { print -r -- "Module zsh/zutil is needed, aborting"; exit 1; }
-
-print -r -- "Running under Zsh-binary:\`$zsh_control_bin', version:$ZSH_VERSION"
-print
+zmodload zsh/datetime || { print -u2 -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
+zmodload zsh/zutil || { print -u2 -r -- "Module zsh/zutil is needed, aborting"; exit 1; }
 
 local -A opthash
 
 zparseopts -E -D -A opthash h -help v -verbose q -quiet a -no-ansi n -only-new || \
-              { print "Improper options given, see help (-h/--help)"; return 1; }
+              { print -r -- "Improper options given, see help (-h/--help)"; return 1; }
 
 (( ${+opthash[-h]} + ${+opthash[--help]} ))     && local OPT_HELP="-h"
 (( ${+opthash[-v]} + ${+opthash[--verbose]} ))  && local OPT_VERBOSE="-v"
 (( ${+opthash[-q]} + ${+opthash[--quiet]} ))    && local OPT_QUIET="-q"
 (( ${+opthash[-a]} + ${+opthash[--no-ansi]} ))  && local OPT_NO_ANSI="-a"
 (( ${+opthash[-n]} + ${+opthash[--only-new]} )) && local OPT_ONLY_NEW="-n"
+
+[[ -z "$OPT_QUIET" ]] && print -r -- "Running under Zsh-binary: \`$zsh_control_bin' (passed to /usr/bin/env), its version: $ZSH_VERSION"
+[[ -z "$OPT_QUIET" ]] && print
 
 [[ -z "$1" || "$1" = (-h|--help) ]] && {
     print -r -- "Usage: zsh-plugin-assessor [-h/--help] [-v|--verbose] [-a|--no-ansi] [-n|--only-new] {file.md}"
@@ -89,21 +102,25 @@ zparseopts -E -D -A opthash h -help v -verbose q -quiet a -no-ansi n -only-new |
     print -r -- "the plugin or theme. This is useful to evaluate only newly added repositories."
     print -r -- "It will however still process repositories that are inactive, etc. and do not"
     print -r -- "have the emoji-indicators in their normal state."
+    print
+    print -r -- "Option -q/--quiet will silence all messages except of stderr error messages."
+    print -r -- "Option -v/--verbose will add some messages or extend them (e.g. to show git's"
+    print -r -- "clone progress-bar (processed into an animated gauge)."
     exit 0
 }
 
 [[ ! -e "$1" ]] && {
-    print -r -- "The input file ($1) doesn't exist, aborting"
+    print -u2 -r -- "The input file ($1) doesn't exist, aborting"
     exit 1
 }
 
 [[ ! -f "$1" ]] && {
-    print -r -- "The input file ($1) isn't a regular file, aborting"
+    print -u2 -r -- "The input file ($1) isn't a regular file, aborting"
     exit 1
 }
 
 [[ ! -r "$1" ]] && {
-    print -r -- "The input file ($1) is unreadable, aborting"
+    print -u2 -r -- "The input file ($1) is unreadable, aborting"
     exit 1
 }
 
@@ -113,7 +130,7 @@ typeset -ga input_file_lines gathered_plugins plugin_scores
 typeset -gA plugin_to_url plugin_to_line_num plugin_to_score plugin_to_emoji_str plugin_no_process
 input_file_lines=( "${(@f)INPUT_FILE_CONTENTS}" )
 
-print -r -- "The input file has ${#input_file_lines} lines"
+[[ -z "$OPT_QUIET" ]] && print -r -- "The input file has ${#input_file_lines} lines"
 
 #
 # Extract plugins
@@ -123,18 +140,18 @@ typeset -g LINE IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
 for LINE in "${input_file_lines[@]}"; do
     (( ++ CURRENT_LINE ))
     if (( ! IN_PLUGINS_SECTION && ! IN_THEMES_SECTION )); then
-        [[ "$LINE" = "## Plugins" ]] && { IN_PLUGINS_SECTION=1; print -r -- "Processing plugins..."; }
-        [[ "$LINE" = "## Themes" ]] && { IN_THEMES_SECTION=1; print -r -- "Processing themes..."; }
+        [[ "$LINE" = "## Plugins" ]] && { IN_PLUGINS_SECTION=1; [[ -z "$OPT_QUIET" ]] && print -r -- "Processing plugins..."; }
+        [[ "$LINE" = "## Themes" ]] && { IN_THEMES_SECTION=1; [[ -z "$OPT_QUIET" ]] && print -r -- "Processing themes..."; }
     else
         if [[ "$LINE" = "##"[[:blank:]]##[a-zA-Z0-9]##* ]]; then
             (( IN_PLUGINS_SECTION )) && {
                 IN_PLUGINS_SECTION=0
                 LAST_PLUGIN_IDX="${#gathered_plugins}"
-                print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
+                [[ -z "$OPT_QUIET" ]] &&  print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
             }
             (( IN_THEMES_SECTION )) && {
                 IN_THEMES_SECTION=0
-                print -r -- "Found #$NUMBER_OF_THEMES themes"
+                [[ -z "$OPT_QUIET" ]] && print -r -- "Found #$NUMBER_OF_THEMES themes"
             }
             [[ "$LINE" = "## Themes" ]] && IN_THEMES_SECTION=1
         elif (( IN_PLUGINS_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
@@ -175,15 +192,15 @@ done
 
 typeset -g WORK_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh-plugin-assessor/clones"
 
-print -r -- "== Removing clones from previous ZPA run... =="
+[[ -z "$OPT_QUIET" ]] && print -r -- "== Removing clones from previous ZPA run... =="
 
 builtin cd -q -- "${WORK_DIR:h}"
 command rm -rf -- "$WORK_DIR"
 command mkdir -p -- "$WORK_DIR"
 builtin cd -q -- "$WORK_DIR"
 
-print -r -- "== Working in $WORK_DIR =="
-print
+[[ -z "$OPT_QUIET" ]] && print -r -- "== Working in $WORK_DIR =="
+[[ -z "$OPT_QUIET" ]] && print
 
 #
 # Clone each plugin, establish its score
@@ -194,13 +211,13 @@ for PLUGIN in "${gathered_plugins[@]}"; do
     typeset -g URL="${plugin_to_url[$PLUGIN]}"
 
     if (( plugin_no_process[$PLUGIN] )); then
-        print "Skipping ${PLUGIN}... (it isn't a new, unprocessed plugin)"
+        [[ -z "$OPT_QUIET" ]] && print "Skipping ${PLUGIN}...${OPT_VERBOSE:+ (it is not a new, unprocessed plugin)}"
         plugin_to_score[$PLUGIN]="0000"
         plugin_to_emoji_str[$PLUGIN]=""
         continue
     fi
     if [[ -n "$OPT_VERBOSE" ]]; then
-        print
+        [[ -z "$OPT_QUIET" ]] && print
         command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh"
     else
         command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh" -q
@@ -363,7 +380,7 @@ for PLUGIN in "${gathered_plugins[@]}"; do
         fi
     fi
 
-    print "$PLUGIN: ${(l:4::0:)score}, emoji: $emoji_string"
+    [[ -z "$OPT_QUIET" ]] && print -r -- "$PLUGIN: ${(l:4::0:)score}, emoji: $emoji_string"
 
     plugin_to_score[$PLUGIN]="${(l:4::0:)score}"
     plugin_to_emoji_str[$PLUGIN]="${emoji_string%%[[:blank:]]##}"
@@ -419,5 +436,5 @@ done
 print -r -- "${(F)input_file_lines[line_num+1,-1]}" >>! "$OUTPUT_FILE_PATH"
 
 float -F2 elapsed_time=$(( SECONDS / 60.0 ))
-print "The processing took $elapsed_time minutes"
+[[ -z "$OPT_QUIET" ]] && print -r -- "The processing took $elapsed_time minutes"
 # vim:ft=zsh:et:sw=4:sts=4
