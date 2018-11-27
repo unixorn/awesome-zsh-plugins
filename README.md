@@ -329,7 +329,6 @@ These frameworks make customizing your ZSH setup easier.
 * [crypto-prices](https://github.com/vincentdnl/zsh-crypto-prices) - Add a [powerlevel9k](https://github.com/bhilburn/powerlevel9k) segment with the current bitcoin price.
 * [crystal](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/crystal-lang/crystal).
 * [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
-* [deepjira](https://github.com/korniux/zsh.deepjira.plugin) - Fetch and print a JIRA issue summary.
 * [deer](https://github.com/Vifon/deer) - A file navigator for ZSH heavily inspired by [ranger](https://ranger.github.io/).
 * [depot-tools](https://github.com/kuoe0/zsh-depot-tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [diff-so-fancy](https://github.com/zdharma/zsh-diff-so-fancy) - Simplify installing the `diff-so-fancy` project into your user account.
@@ -700,7 +699,6 @@ These plugins add tab completions without adding extra functions or aliases.
 * [rake-completion.zshplugin](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets.
 * [rancher-zsh-completion](https://github.com/go/rancher-zsh-completion) - Add completions for the Rancher CLI.
 * [razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor).
-* [snappy](https://github.com/Arlon1/Snappy_zsh_autocompletion) - Add completions for snappy.
 * [spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands.
 * [ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 * [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
@@ -725,7 +723,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [aflah-bhari](https://github.com/AflahB/aflah-bhari-zsh-theme) - Modified version of the [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme) theme in oh-my-zsh.
 * [aftermath](https://github.com/schanur/aftermath) - Get a nice summary line after each command you run on your shell.
 * [agitnoster](https://github.com/dbestevez/agitnoster-theme) - Based on [agnoster theme](https://gist.github.com/3712874) included in [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh) and [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt). Shows detailed information about `git` status.
-* [agkozak](https://github.com/agkozak/agkozak-zsh-prompt) - Uses two asynchronous methods to keep the ZSH prompt swift while displaying color, ASCII-only indicators of Git branch and changes, SSH connection or lack thereof, exit codes, and vi mode status, along with a customizable, abbreviated, `PROMPT_DIRTRIM`-style path.
+* [agkozak](https://github.com/agkozak/agkozak-zsh-prompt) - Uses three asynchronous methods to keep the ZSH prompt swift while displaying the Git status and indicators of SSH connection, exit codes, and vi mode, along with an abbreviated, `PROMPT_DIRTRIM`-style path. Very customizable. Asynchronous even on Cygwin and MSYS2.
 * [agnoster-fcamblor](https://github.com/fcamblor/oh-my-zsh-agnoster-fcamblor) - Solarized [Agnoster](https://gist.github.com/agnoster/3712874) variant with git information. Requires a unicode font and works best with a [solarized](https://github.com/altercation/solarized) terminal.
 * [agnoster-mod](https://github.com/fsegouin/oh-my-zsh-agnoster-mod-theme) - [Agnoster](https://gist.github.com/agnoster/3712874) variant with a right-prompt.
 * [agnoster-plus](https://github.com/jiahut/agnoster-plus.zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874) variant optimized for use with [Solarized Dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) terminal color scheme. Includes git status.
