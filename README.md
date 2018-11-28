@@ -344,6 +344,7 @@ These frameworks make customizing your ZSH setup easier.
 * [docker-machine](https://github.com/asuran/zsh-docker-machine) - A docker-machine plugin for ZSH.
 * [docker-run](https://github.com/rawkode/zsh-docker-run) - Go back to running your commands "naturally", we'll handle the container.
 * [dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+* [dotfiles](https://github.com/vladmyr/dotfiles-plugin) - Keep your dotfines in sync across multiple machines using `git`.
 * [dotpyvenv](https://github.com/jeanpantoja/dotpyvenv) - If you have a `.pyvenv` virtualenv, will automagically switches to it.
 * [dropbox](https://github.com/zpm-zsh/dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [dune-quotes](https://github.com/brokendisk/dune-quotes) - Random Dune quote generator plugin.
