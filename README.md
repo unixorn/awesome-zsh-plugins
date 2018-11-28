@@ -496,7 +496,7 @@ These frameworks make customizing your ZSH setup easier.
 * [openshift-origin](https://github.com/ryanswart/openshift-origin-zsh-plugin) - Add a few shortcuts to common openshift origin (oc) actions.
 * [opera-git-plugin](https://github.com/aswitalski/oh-my-zsh-opera-git-plugin) - `git` aliases.
 * [operator](https://github.com/nivv/operator-theme) - Clean and simple theme, works best with Menlo for Powerline.
-* [opp.zsh](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
+* [opp](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
 * [opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 * [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my macOS install.
 * [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
