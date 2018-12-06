@@ -32,6 +32,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [Toasty](#toasty)
+  - [zapack](#zapack)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -130,6 +131,10 @@ These frameworks make customizing your ZSH setup easier.
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
+
+### [zapack](https://github.com/aiya000/zsh-zapack)
+
+zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
