@@ -876,6 +876,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the [intheloop](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/intheloop.zsh-theme) theme to use powerline fonts.
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme.
 * [jam](https://github.com/jesusangelm/Jam-Zsh-Theme) - Optimized for dark backgrounds, includes `git` status and `rvm` status.
+* [jbrain4](https://github.com/jbrain4/jbrain4-zsh-theme) - Variant of oh-my-zsh's stock bira theme.
 * [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 * [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme.
 * [jose](https://github.com/tmjoseantonio/shrug-zsh-theme) - Inspired by [beer-theme](https://github.com/tcnksm/oh-my-zsh-beer-theme), includes `git` status.
