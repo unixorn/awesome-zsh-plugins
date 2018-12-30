@@ -876,6 +876,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the [intheloop](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/intheloop.zsh-theme) theme to use powerline fonts.
 * [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme.
 * [jam](https://github.com/jesusangelm/Jam-Zsh-Theme) - Optimized for dark backgrounds, includes `git` status and `rvm` status.
+* [jbrain4](https://github.com/jbrain4/jbrain4-zsh-theme) - Variant of oh-my-zsh's stock bira theme.
 * [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 * [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the ys theme.
 * [jose](https://github.com/tmjoseantonio/shrug-zsh-theme) - Inspired by [beer-theme](https://github.com/tcnksm/oh-my-zsh-beer-theme), includes `git` status.
@@ -909,6 +910,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt for Bash & ZSH.
 * [llama](https://github.com/PsychoLlama/llama.zsh-theme) - Minimalist theme used by discerning llamas.
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
+* [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of lambda-mod theme. Has `git` decorations, requires a powerline-compatible terminal font.
 * [magico](https://github.com/IOsonoTAN/magico) - IOsonoTAN's magico theme.
 * [materialshell](https://github.com/carloscuesta/materialshell) - A [material design](https://material.io/guidelines/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 * [mau](https://github.com/vichargrave/mau) - A ZSH theme with a cat twist.
@@ -1005,6 +1007,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [rummik](https://github.com/rummik/zsh-theme) - @rummik's theme. Supports [psmin](https://gitlab.com/zick.kim/zsh/zsh-psmin), and `git` status information in the prompt.
 * [ryner](https://github.com/DoctorRyner/ryner-zsh-theme) - Colorful theme, includes `git` decorations and the current directory.
 * [rzh](https://github.com/patwhatev/rzh) - Theme with git states indicated by emojis.
+* [saltgen](https://github.com/saltgen/ohmyzsh-saltgen-theme) - Variant of the robbyrussell oh-my-zsh theme.
 * [saraiva](https://github.com/ruisaraiva19/saraiva-theme) - Includes git status, works well on a dark terminal background.
 * [schminitz-v2](https://github.com/mashdots/schminitz-v2) - Shows `git` status, user@host information, exit status of last command, and whether running as root.
 * [schminitz](https://gist.github.com/schminitz/9931af23bbb59e772eec) - Shows if Vim is running in the background when using `:sh` command.
