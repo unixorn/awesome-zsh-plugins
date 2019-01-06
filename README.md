@@ -404,6 +404,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [git-secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a `git` repository.
 * [git-smart-commands](https://github.com/seletskiy/zsh-git-smart-commands) - Adds git commands to make some common `git` usages more efficient.
 * [git-sync](https://github.com/caarlos0/zsh-git-sync) - A ZSH plugin to sync `git` repositories and clean them up.
+* [gitcd](https://github.com/viko16/gitcd.plugin.zsh) - cd to a git working directory after cloning it.
 * [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitgo](https://github.com/ltj/gitgo) - Open a Github/Gitlab repository in your browser from the command line (macOS only).
 * [gitignore](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
@@ -582,6 +583,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [terraform](https://github.com/pbar1/zsh-terraform) - Terraform convenience functions and aliases for ZSH.
 * [timewarrior](https://github.com/svenXY/timewarrior) - Plugin for [timewarrior](https://timewarrior.net/) a timetracking application.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
+* [title](https://github.com/zpm-zsh/title) - Allows you to set a terminal window title.
 * [titles](https://github.com/jreese/zsh-titles) - Automatic window and tab titles for [tmux](https://tmux.github.io) and xterm-compatible terminals.
 * [tmux-fork](https://github.com/sharktamer/zsh-tmux) Standalone fork of the oh-my-zsh tmux plugin
 * [tmux-rename](https://github.com/sei40kr/zsh-tmux-rename) - Rename [tmux](https://tmux.github.io) windows automatically.
@@ -912,7 +914,9 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
 * [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of lambda-mod theme. Has `git` decorations, requires a powerline-compatible terminal font.
 * [magico](https://github.com/IOsonoTAN/magico) - IOsonoTAN's magico theme.
+* [mango](https://github.com/feddamisch/zsh-theme-mango) - Resembles Solus' default bash prompt style.
 * [materialshell](https://github.com/carloscuesta/materialshell) - A [material design](https://material.io/guidelines/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
+* [mattizer](https://github.com/matt-sungwook/ohmyzsh-mattizer-theme) - Includes working directory and `git` status decorations.
 * [mau](https://github.com/vichargrave/mau) - A ZSH theme with a cat twist.
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
@@ -933,7 +937,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [muslim](https://github.com/nksoff/muslim) - A simple minimal ZSH prompt theme.
 * [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 * [neon](https://github.com/sahariko/neon) - A pretty and minimal ZSH theme with `git` decorations.
-* [nerdish](https://github.com/nyarla/zsh-theme-nerdish) - A prompt theme for ZSH with Nerd Fonts.
+* [nerdish](https://gitlab.com/nyarla/zsh-theme-nerdish) - A prompt theme for ZSH with Nerd Fonts.
 * [nescalante](https://github.com/nescalante/zsh-theme) - Optimized for dark terminal backgrounds, includes `git` decorations.
 * [newt](https://github.com/softmoth/zsh-prompt-newt) - Fat & fast theme – beautiful inside and out, styled segments done right.
 * [nextbike](https://github.com/meierjan/nextbike-zsh-theme) - A very basic theme which just features an macOS bike icon.
@@ -1022,6 +1026,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [shayan](https://github.com/shayanh/shayan-zsh-theme) - Simple.
 * [shellder](https://github.com/simnalamburt/shellder) - Minimal theme with git branch display. Requires a powerline font.
 * [shrug](https://github.com/tmjoseantonio/shrug-zsh-theme) - Simple theme which displays current directory and git information.
+* [silver](https://github.com/reujab/silver) - A cross-shell customizable powerline-like prompt heavily inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). The faster rust port of [bronze](https://github.com/reujab/bronze). Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 * [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH.
 * [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with git info display.
 * [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme.
@@ -1071,6 +1076,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ys](https://github.com/cristiancavalli/ys-zsh-custom-theme) - Clean, simple, compatible and meaningful theme meant for dark backgrounds.
 * [ysm](https://github.com/hanbinpro/ysm-zsh-theme) - Simple ZSH theme with `git` status information.
 * [yuki](https://github.com/yuki-torii/yuki-zsh-theme) - A dark optimized ZSH theme.
+* [yz50](https://github.com/lacanlale/yz50-zsh) - Colorful, based off of [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme) and [crunch](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/crunch.zsh-theme) themes. Includes `git` status decorations.
 * [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' [pure](https://github.com/sindresorhus/pure) theme.
 * [zemm-blinks](https://github.com/aranasaurus/zemm-blinks.zsh-theme) - Customized version of oh-my-zsh [blinks](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/blinks.zsh-theme) with mercurial support and other changes.
 * [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
