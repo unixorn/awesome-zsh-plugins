@@ -728,6 +728,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [rancher-zsh-completion](https://github.com/go/rancher-zsh-completion) - Add completions for the Rancher CLI.
 * [razor_plugin](https://github.com/dalang/oh-my-zsh_razor_plugin) - Provides autocomplete for [Razor](https://github.com/puppetlabs/Razor).
 * [rustup](https://github.com/pkulev/zsh-rustup-completion) - Tab completions for Rustup.
+* [sfdx-autocomplete](https://github.com/jayree/sfdx-autocomplete-plugin) - autocomplete plugin for sfdx.
 * [spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands.
 * [ssh-agent](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 * [ssh-agent](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
@@ -802,6 +803,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [candy-light](https://github.com/NicolaiRuckel/oh-my-zsh-candy-light) - Light version of the candy theme.
 * [chaotic-beef](https://github.com/ARtoriouSs/chaotic-beef-zsh-theme) - A tiny and beautiful theme for Oh-My-Zsh without anything superfluous. Includes `git` status decorations.
 * [charged](https://github.com/robwierzbowski/charged-zsh-theme) - A ZSH prompt optimized for the [solarized](https://github.com/altercation/solarized) dark terminal theme.
+* [cherry](https://github.com/feddamisch/zsh-theme-cherry) - Cool theme with `git` status decorations in the right prompt.
 * [chi](https://github.com/akinjide/chi) - A ZSH theme optimized for iTerm 2 users on macOS.
 * [ciacho](https://github.com/Ciacho/ciacho-ohmyzsh-theme) - Based on Agnoster.
 * [cinnabar](https://github.com/nvillapiano/zsh-theme---cinnabar) - Shows timestamp, large line breaks, git branch and status.
@@ -932,7 +934,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
 * [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of lambda-mod theme. Has `git` decorations, requires a powerline-compatible terminal font.
 * [magico](https://github.com/IOsonoTAN/magico) - IOsonoTAN's magico theme.
-* [mango](https://github.com/feddamisch/zsh-theme-mango) - Resembles Solus' default bash prompt style.
 * [materialshell](https://github.com/carloscuesta/materialshell) - A [material design](https://material.io/guidelines/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
 * [mattizer](https://github.com/matt-sungwook/ohmyzsh-mattizer-theme) - Includes working directory and `git` status decorations.
 * [mau](https://github.com/vichargrave/mau) - A ZSH theme with a cat twist.
