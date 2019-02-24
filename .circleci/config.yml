@@ -8,9 +8,9 @@ jobs:
       - checkout
 
       - run:
-          name: Greeting
-          command: echo Hello, world.
+          name: Install awesome_bot
+          command: gem install awesome_bot
 
       - run:
-          name: Print the Current Time
-          command: date
+          name: Check README.md
+          command: awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins,www-s.acm.illinois.edu,https://mgdm.net,https://www.concourse.ci
