@@ -12,4 +12,6 @@ Try and keep your plugins as cross-framework compatible as possible. Here are so
 
 5. If you’re making a theme, please include a screenshot so prospective users can see what it looks like without having to install it.
 
-6. Submit a PR here so your plugin is easy to find :-)
+6. Don't forget to add a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one.
+
+7. Submit a PR here so your plugin is easy to find :-)
