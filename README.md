@@ -55,7 +55,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Prezto](#prezto)
   - [Zgen](#zgen)
 - [Plugins](#plugins)
-- [Even more completions](#even-more-completions)
+- [Completions](#completions)
 - [Themes](#themes)
   - [Fonts](#fonts)
 - [Installation](#installation)
