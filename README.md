@@ -31,6 +31,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [oh-my-zsh](#oh-my-zsh)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [Sheldon](#sheldon)
   - [Toasty](#toasty)
   - [zapack](#zapack)
   - [zeesh](#zeesh)
@@ -127,6 +128,22 @@ These frameworks make customizing your ZSH setup easier.
 ### [pumice](https://github.com/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [Sheldon](https://github.com/rossmacarthur/sheldon)
+
+A fast, configurable, shell plugin manager.
+
+* Can manage
+  * Remote Git repositories.
+  * GitHub repositories.
+  * Local plugins.
+  * Gist files (planned).
+  * Arbitrary binary downloads (planned).
+* Configuration file using [TOML] syntax.
+* Uses a lock file for much faster loading of plugins.
+* Highly configurable install methods using handlebars templating.
+* Branch/tag/commit support (planned).
+* Downloads plugins in parallel (planned).
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
@@ -576,7 +593,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [startup-timer](https://github.com/paulmelnikow/zsh-startup-timer) - Print the time it takes for the shell to start up.
 * [stashy](https://github.com/MisterRios/stashy) - Plugin that simplifies using `git stash`.
 * [statify](https://github.com/vladmrnv/statify) - Plugin that does basic statistical analysis.
-* [sterror](https://github.com/aphelionz/strerror.plugin.zsh) - Interprets error messages from programs and displays a human readable error message when available.
 * [sublime](https://github.com/valentinocossar/sublime) - Same as the official Sublime plugin for Oh My Zsh, but this opens files in the current Sublime window, if there is one already open.
 * [sudo](https://github.com/hcgraf/zsh-sudo) - The `sudo` plugin from oh-my-zsh, extracted to a standalone. Toggles `sudo` before the current/previous command by pressing *ESC-ESC* in emacs-mode or vi-command mode.
 * [suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias) - Directly open files in the shell using ZSH's suffix aliases.
@@ -831,6 +847,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [cramin](https://github.com/FelipeCRamos/craminzsh) - Minimal interface with support for github plugins, based on [hyperzsh](https://github.com/tylerreckart/hyperzsh).
 * [cute-theme](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - A macOS oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [czsh](https://github.com/Cellophan/czsh) - [ZSH](https://en.wikipedia.org/wiki/Z_shell) with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [agnoster theme](https://github.com/agnoster/agnoster-zsh-theme) in a container.
+* [dangerroom](https://github.com/abbreviatedman/dangerroom) - Informative, minimal, and, above all, X-Men themed.
 * [darkblood-modular](https://github.com/InAnimaTe/darkblood-modular) - This version of the popular [darkblood](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/darkblood.zsh-theme) theme has been enhanced with a near complete rewrite enabling modularity and a few new features.
 * [darksoku](https://github.com/TooSchoolForCool/darksoku-zsh-theme) - Darksoku theme is based on the [ys](http://blog.ysmood.org/my-ys-terminal-theme/) and [astro](https://github.com/iplaces/astro-zsh-theme) themes.
 * [delta-prompt](https://github.com/cusxio/delta-prompt) - A minimal ZSH prompt.
