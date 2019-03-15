@@ -31,6 +31,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [oh-my-zsh](#oh-my-zsh)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [Sheldon](#sheldon)
   - [Toasty](#toasty)
   - [zapack](#zapack)
   - [zeesh](#zeesh)
