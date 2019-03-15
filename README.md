@@ -128,6 +128,22 @@ These frameworks make customizing your ZSH setup easier.
 
 **Pumice** is a lightweight plugin manager for ZSH.
 
+### [Sheldon](https://github.com/rossmacarthur/sheldon)
+
+A fast, configurable, shell plugin manager.
+
+* Can manage
+  * Remote Git repositories.
+  * GitHub repositories.
+  * Local plugins.
+  * Gist files (planned).
+  * Arbitrary binary downloads (planned).
+* Configuration file using [TOML] syntax.
+* Uses a lock file for much faster loading of plugins.
+* Highly configurable install methods using handlebars templating.
+* Branch/tag/commit support (planned).
+* Downloads plugins in parallel (planned).
+
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
