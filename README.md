@@ -711,6 +711,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [extract](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 * [fly-zsh-autocomplete-plugin](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://www.concourse.ci/fly-cli.html) commands.
 * [gcloud-zsh-completion](https://github.com/littleq0903/gcloud-zsh-completion) - Add completions for the Google Cloud SDK.
+* [gentoo](https://github.com/gentoo/gentoo-zsh-completions) - providing ZSH completion support to various Gentoo tools that lack completion scripts upstream.
 * [git-annex-completion](https://github.com/Schnouki/git-annex-zsh-completion) - Allows tab completion for most git-annex commands.
 * [git-flow-completion](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for git-flow.
 * [gradle-completion (eriwen)](https://github.com/gradle/gradle-completion) - Bash and ZSH completion support for gradle.
