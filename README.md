@@ -1118,7 +1118,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme with `git` indicator, vim mode indicator and shortened path.
 * [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with a [Solarized](https://github.com/altercation/solarized) color scheme.
-* [vira](https://github.com/FernandoTorres/omz-vira) - An update of the bira theme that shows the `vim` bindkey -v status.
 * [wade](https://github.com/wadehammes/wade.zsh-theme) - Mashup of the popular ZSH themes [Agnoster](https://gist.github.com/agnoster/3712874) and [Fishy](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/fishy.zsh-theme), with some visual tweaks.
 * [wang-iterm](https://github.com/0532/wang-iterm-zsh) - Based on the 0532 theme.
 * [webicons](https://github.com/Jmclerck/webicons.zsh-theme) - Includes `git` status, node and yarn versions in prompt.
