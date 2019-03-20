@@ -1103,6 +1103,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [steef (zimfw)](https://github.com/zimfw/steeef) - A customizable version of [steeef's](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/steeef.zsh-theme) theme.
 * [sugar-free](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
 * [sukeesh](https://github.com/sukeesh/sukeesh-zsh-theme) - Includes `git` status decorations. Works better on dark terminal backgrounds.
+* [superkolo](https://github.com/Minipada/superkolo) - Add date and return status to the [kolo](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/kolo.zsh-theme) theme.
 * [susi](https://github.com/carcruz/susi-zsh-iterm) - Includes `git` status decorations and an accompanying iTerm2 color scheme.
 * [tabaf](https://github.com/bvc3at/tabaf-zsh-theme) - Minimal ZSH theme optimized for dark backgrounds.
 * [tahuri](https://github.com/Tahuri/environment-configuration) - ZSH theme for Arch Linux.
