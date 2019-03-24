@@ -496,6 +496,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets data from [lipsum.com](https://www.lipsum.com).
 * [ls](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
 * [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
+* [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with Munki.
 * [macos](https://github.com/joow/macos) - A ZSH plugin for macOS.
 * [mage2docker](https://github.com/lukaszolszewski/mage2docker) - Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers.
