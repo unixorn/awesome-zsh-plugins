@@ -893,6 +893,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [furio](https://github.com/hectorpalmatellez/furio-theme) - Fork of the [Cloud](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/cloud.zsh-theme) oh-my-zsh theme. with different colors and emojis.
 * [garrett](https://github.com/chauncey-garrett/zsh-prompt-garrett) - Prezto prompt with the information you need the moment you need it.
 * [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires `rvm` & `git` plugins.
+* [gentoo](https://github.com/ikelos/gentoo-zsh-theme) - Breaks out oh-my-zsh gentoo theme to a separate repo for non-omz users.
 * [geometry](https://github.com/geometry-zsh/geometry) - A minimal ZSH theme based on Avit and Pure that displays a lot of `git` information and is composable and customizable.
 * [geometryHostInfo](https://github.com/Fuzen-py/GeometryHostInfo) Adds host info to the [geometry](https://github.com/geometry-zsh/geometry) theme.
 * [girazz](https://github.com/mdentremont/girazz) - A modification to the gnzh theme which adds `vi` mode to the right prompt.
