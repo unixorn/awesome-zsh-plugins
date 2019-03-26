@@ -948,6 +948,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [kinda-fishy](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in `ssh` sessions and docker containers.
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the `git` info.
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
+* [kote](https://github.com/wendygaoyuan/kote-zsh-theme) - Best for dark backgrounds. Includes `git` status decorations.
 * [kraken](https://github.com/KrakenTheme/kraken-zsh) - A dark theme for ZSH.
 * [kumavis](https://github.com/kumavis/kumavis-zsh-theme) - Agnoster fork optimized for solarized terminals. Requires powerline-compatible font.
 * [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
