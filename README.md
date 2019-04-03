@@ -401,6 +401,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
 * [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among your historical directories.
 * [fzf-finder](https://github.com/leophys/zsh-plugin-fzf-finder) - Plugin to have a cool search keybinding with [fzf](https://github.com/junegunn/fzf) and (optionally) [bat](https://github.com/sharkdp/bat). Searches in the local tree of subdirectories for files.
+* [fzf-git](https://github.com/hschne/fzf-git) - Add nice `git` completions using [fzf](https://github.com/junegunn/fzf).
 * [fzf-marks](https://github.com/urbainvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in `bash` and `zsh`, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
 * [fzf-mpd](https://github.com/anders-dc/fzf-mpd/) - A ZSH plugin that allows you to control [mpd](https://www.musicpd.org/) using [fzf](https://github.com/junegunn/fzf).
 * [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) - Adds some ZLE widgets for [fzf](https://github.com/junegunn/fzf).
@@ -1090,12 +1091,15 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
 * [shayan](https://github.com/shayanh/shayan-zsh-theme) - Simple.
 * [shellder](https://github.com/simnalamburt/shellder) - Minimal theme with git branch display. Requires a powerline font.
+* [shocm](https://github.com/ericvanjohnson/shocm-zsh-themes) - Forked from [sixlive](https://github.com/sixlive/sixlive-zsh-theme). Has `git` decorations.
 * [shrug](https://github.com/tmjoseantonio/shrug-zsh-theme) - Simple theme which displays current directory and git information.
 * [siegerts](https://github.com/siegerts/zsh-theme) - Includes `git` status decorations in right prompt.
 * [silver](https://github.com/reujab/silver) - A cross-shell customizable powerline-like prompt heavily inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). The faster rust port of [bronze](https://github.com/reujab/bronze). Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 * [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH.
+* [simplex](https://github.com/feddamisch/zsh-theme-simplex) - A simple theme with right-side `git` decorations.
 * [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with git info display.
 * [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme.
+* [sixlive](https://github.com/sixlive/sixlive-zsh-theme) - This theme has a unique directory listing. When inside a `git` project, the directory display is scoped to the current repository root.
 * [sk9](https://github.com/skeiter9/sk9-zsh) - Skeiter9's ZSH theme.
 * [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - Theme collection for Atom, Prism and ZSH inspired by Skeletor from He-Man and the Masters of the Universe.
 * [skill](https://github.com/frontendmonster/oh-my-zsh-skill-theme) - Optimized for a dark terminal, displays `git` status decorations.
