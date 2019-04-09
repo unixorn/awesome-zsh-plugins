@@ -23,31 +23,24 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
-  - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
   - [ax-zsh](#ax-zsh)
-  - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [oh-my-zsh](#oh-my-zsh)
   - [prezto](#prezto)
-  - [pumice](#pumice)
   - [Sheldon](#sheldon)
   - [Toasty](#toasty)
-  - [zapack](#zapack)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
-  - [zilsh](#zilsh)
   - [zim](#zim)
   - [zit](#zit)
   - [zoppo](#zoppo)
-  - [zpacker](#zpacker)
   - [zplug](#zplug)
   - [zplugin](#zplugin)
   - [ZPM](#zpm)
   - [ZR](#zr)
   - [zshing](#zshing)
-  - [ztanesh](#ztanesh)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
@@ -62,7 +55,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Installation](#installation)
   - [Antibody](#antibody)
   - [Antigen](#antigen-1)
-  - [dotzsh](#dotzsh-1)
   - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
@@ -97,10 +89,6 @@ These frameworks make customizing your ZSH setup easier.
 
 **Antibody** A faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
-### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
-
-**antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
-
 ### [antigen](https://github.com/zsh-users/antigen)
 
 **Antigen** is a small set of functions that help you easily manage your shell (ZSH) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to ZSH, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
@@ -108,10 +96,6 @@ These frameworks make customizing your ZSH setup easier.
 ### [ax-zsh](https://github.com/alexbarton/ax-zsh)
 
 **Ax-ZSH** is a modular configuration system for ZSH. It provides sane defaults and is extendable by plugins.
-
-### [dotzsh](https://github.com/dotphiles/dotzsh)
-
-**Dotzsh** strives to be platform and version independent. Some functionality may be lost when running under older versions of ZSH, but it should degrade cleanly and allow you to use the same setup on multiple machines of differing OSes without problems.
 
 ### [fresh](https://github.com/freshshell/fresh)
 
@@ -124,10 +108,6 @@ These frameworks make customizing your ZSH setup easier.
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
 **Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
-
-### [pumice](https://github.com/ryutamaki/pumice)
-
-**Pumice** is a lightweight plugin manager for ZSH.
 
 ### [Sheldon](https://github.com/rossmacarthur/sheldon)
 
@@ -149,10 +129,6 @@ A fast, configurable, shell plugin manager.
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
 
-### [zapack](https://github.com/aiya000/zsh-zapack)
-
-zapack is a basic fast minimal ZSH plugin loader.
-
 ### [zeesh](https://github.com/zeekay/zeesh)
 
 **Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
@@ -165,10 +141,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 **Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This saves startup time by not having to execute time consuming logic (plugin checking, updates, etc). The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
 
-### [zilsh](https://github.com/zilsh/zilsh)
-
-**zilsh** is a ZSH config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
-
 ### [zim](https://github.com/zimfw/zimfw)
 
 **Zim** is a ZSH configuration framework with blazing speed and modular extensions.
@@ -180,10 +152,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 ### [zoppo](https://github.com/zoppo/zoppo)
 
 **Zoppo** is the crippled configuration framework for ZSH. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
-
-### [zpacker](https://github.com/happyslowly/zpacker)
-
-**Zpacker** is a lightweight ZSH plugin & theme management framework.
 
 ### [zplug](https://github.com/zplug/zplug)
 
@@ -228,10 +196,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 * Clean unused plugins up
 * run the above actions in a *single command*
 * manages the __Source Plugins__ of your installed Plugins
-
-### [ztanesh](https://github.com/miohtama/ztanesh)
-
-**Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
 
 ### [zulu](https://github.com/zulu-zsh/zulu)
 
@@ -1195,12 +1159,6 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 ### [Antigen](https://github.com/zsh-users/antigen)
 
 Most of these plugins can be installed by adding `antigen bundle githubuser/reponame` to your .zshrc file. Antigen will handle cloning the plugin for you automatically the next time you start `zsh`. You can also add the plugin to a running ZSH with `antigen bundle githubuser/reponame` for testing before adding it to your `.zshrc`.
-
-### [dotzsh](https://github.com/dotphiles/dotzsh)
-
-1. Clone new plugins into `.zsh.local/modules`
-2. Load the plugin module in `.zshrc`
-3. Open a new ZSH terminal window or tab
 
 ### [Oh-My-Zsh](http://ohmyz.sh/)
 
