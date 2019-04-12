@@ -955,6 +955,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [kote](https://github.com/wendygaoyuan/kote-zsh-theme) - Best for dark backgrounds. Includes `git` status decorations.
 * [kotterstep](https://github.com/sorenvonsarvort/kotterstep-zsh-theme) - Two line theme designed for dark terminals, has `git` decorations.
+* [krak3n](https://github.com/krak3n/zsh-theme) - Shows golang version and the current `git` branch.
 * [kraken](https://github.com/KrakenTheme/kraken-zsh) - A dark theme for ZSH.
 * [kumavis](https://github.com/kumavis/kumavis-zsh-theme) - Agnoster fork optimized for solarized terminals. Requires powerline-compatible font.
 * [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
