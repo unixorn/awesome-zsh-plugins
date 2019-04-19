@@ -22,6 +22,7 @@
 # Checklist:
 
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
+
 - [ ] I have confirmed that the link(s) in my PR are valid.
 - [ ] My entries are single lines and are in the appropriate (plugins, themes or completions) section, and in alphabetical order in their section.
 - [ ] I have read the **CONTRIBUTING** document.
