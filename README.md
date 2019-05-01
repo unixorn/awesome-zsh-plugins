@@ -123,7 +123,7 @@ These frameworks make customizing your ZSH setup easier.
 
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
-**Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes.
+**Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes. There are some prezto-specific plugins at [https://github.com/belak/prezto-contrib](https://github.com/belak/prezto-contrib).
 
 ### [pumice](https://github.com/ryutamaki/pumice)
 
