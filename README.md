@@ -646,6 +646,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [tsm](https://github.com/RobertAudi/tsm) - Adds a [tmux](https://tmux.github.io) Session Manager.
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for macOS.
 * [ubuntualiases](https://github.com/GuilleDF/zsh-ubuntualiases) - Ubuntu 16 aliases.
+* [undollar](https://github.com/zpm-zsh/undollar) - ZStrips the dollar sign from the beginning of the terminal prompt.
 * [up.zsh](https://github.com/peterhurford/up.zsh) - Adds an up command to `cd` multiple levels up.
 * [url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the ZSH syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 * [uvenv](https://github.com/vincentto13/uvenv.plugin.zsh) - Extends the functionality of the original oh-my-zsh venv module
