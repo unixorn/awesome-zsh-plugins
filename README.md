@@ -31,7 +31,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [oh-my-zsh](#oh-my-zsh)
   - [prezto](#prezto)
   - [pumice](#pumice)
-  - [Sheldon](#sheldon)
+  - [sheldon](#sheldon)
   - [Toasty](#toasty)
   - [zapack](#zapack)
   - [zeesh](#zeesh)
@@ -129,21 +129,21 @@ These frameworks make customizing your ZSH setup easier.
 
 **Pumice** is a lightweight plugin manager for ZSH.
 
-### [Sheldon](https://github.com/rossmacarthur/sheldon)
+### [sheldon](https://github.com/rossmacarthur/sheldon)
 
 A fast, configurable, shell plugin manager.
 
 * Can manage
-  * Remote Git repositories.
-  * GitHub repositories.
-  * Local plugins.
-  * Gist files (planned).
-  * Arbitrary binary downloads (planned).
-* Configuration file using [TOML] syntax.
+  * Any Git repository.
+    * Branch/tag/commit support.
+    * Extra support for GitHub repositories.
+    * Extra support for Gists.
+  * Arbitrary remote files, simply specify the URL.
+  * Local plugins, simply specify the directory path.
+* Highly configurable install methods using [handlebars](http://handlebarsjs.com/) templating.
+* Super-fast parallel installation.
+* Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
 * Uses a lock file for much faster loading of plugins.
-* Highly configurable install methods using handlebars templating.
-* Branch/tag/commit support (planned).
-* Downloads plugins in parallel (planned).
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
