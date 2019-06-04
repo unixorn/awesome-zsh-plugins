@@ -1029,6 +1029,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [minimalx](https://github.com/lknix/zsh-theme-minimalx) - Inspired by kolo theme from oh-my-zsh.
 * [misa](https://github.com/misalabs/misa.zsh-theme) - Misalabs' ZSH theme.
 * [mixed](https://github.com/dekermendzhy/mixed-zsh-theme) - Optimized for dark backgrounds.
+* [moderno](https://github.com/obrassard/moderno-zsh) - A simple and modern ZSH theme inspired by the [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme) theme from Oh-My-ZSH. Includes `git` status decorations.
 * [molokai-powerline](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 * [moonline](https://github.com/kagamilove0707/moonline.zsh) - Minimal but easily extensible prompt.
 * [moux](https://github.com/gagbo/moux) - Works well with a dark background, includes `git` decorations in `RPROMPT`.
