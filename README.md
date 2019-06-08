@@ -1111,6 +1111,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git.
 * [radium](https://github.com/dimitardimitrov/radium) - Designed for dark terminals, (works best with [Solarized](https://github.com/altercation/solarized) iTerm 2 theme) (prezto).
 * [rafiki](https://github.com/akabiru/rafiki-zsh) - Adds emojis to your ZSH terminal.
+* [rainbowie](https://github.com/druskus20/rainbowie) - Colorful theme with `git` information.
 * [random-emoji-robbyrussell](https://github.com/parwat08/random-emoji-robbyrussell) - Based on [random-emoji](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) and `robbyrussell` themes.
 * [random-emoji](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) - Random emoji.
 * [raytek](https://github.com/Raytek/raytek-zsh-theme) - Simple and colorful theme with `git` status decorations.
