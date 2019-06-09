@@ -1164,7 +1164,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [solarized-powerline (houjunchen)](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for ZSH.
 * [solarized-powerline (KuoE0)](https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme) - Solarized powerline variant.
 * [solarizsh](https://github.com/paddykontschak/Solarizsh) - Color fix for robbyrussell's oh-my-zsh theme to work with [solarized](https://github.com/altercation/solarized) terminals.
-* [spaceship](https://github.com/denysdovhan/spaceship-prompt) - A ZSH theme with `git`, `nvm`, rvm/rbenv/chruby, python, `ssh` and other useful indicators.
+* [spaceship](https://github.com/denysdovhan/spaceship-prompt) - Theme with `git`, `nvm`, rvm/rbenv/chruby, python, `ssh` and other useful status indicators.
 * [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by agnoster, [tmux](https://tmux.github.io) powerline, vim powerline and the vim status plugin.
 * [staples](https://github.com/dersam/staples) - Based on bureau, displays user@host if connected through SSH.
 * [starboy](https://github.com/prdpx7/Starboy) - A simple ZSH theme
