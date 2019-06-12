@@ -913,6 +913,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [enormous](https://github.com/leighmcculloch/zsh-theme-enormous) - Takes up an enormous amount of space in the terminal.
 * [eriner](https://github.com/zimfw/eriner) - A Zim fork of the Powerline-inspired agnoster prompt theme. Includes `git` status decorations.
 * [eubw](https://github.com/eptaccio/eubw-oh-my-zsh-theme) - A simple theme with `git` information.
+* [eucalyptus](https://github.com/relastle/eucalyptus) - Simple one-line theme for minimalist vi-mode users inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme) and [powerlevel9k](https://github.com/bhilburn/powerlevel9k). Includes `git` status indicator, vi-mode indicator, current directory and current path.
 * [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple ZSH color theme.
 * [fattyarrow](https://github.com/sohnryang/fattyarrow) - Minimal ZSH prompt that works better on dark backgrounds.
 * [feder](https://github.com/samfeder/mac-themes/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
