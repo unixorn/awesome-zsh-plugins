@@ -313,7 +313,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - [Fish](https://fishshell.com/)-like fast/unobtrusive autosuggestions for ZSH.
 * [autoswitch-virtualenv](https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv) - ZSH plugin to automatically switch python virtualenvs when traversing directories.
 * [autoupdate-antigen](https://github.com/unixorn/autoupdate-antigen.zshplugin) - Antigen doesn't do automatic updates like oh-my-zsh. This plugin adds auto updating for antigen, both of antigen and the bundles loaded in your configuration.
-* [autoupdate-oh-my-zsh-plugins](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins) - oh-my-zsh doesn't autoupdate non-core plugins, this adds plugin autoupdating to oh-my-zsh.
+* [autoupdate-oh-my-zsh-plugins](https://github.com/TamCore/autoupdate-oh-my-zsh-plugins) - oh-my-zsh doesn't automatically update non-core plugins, this adds plugin autoupdating to oh-my-zsh.
 * [aws-cli-mfa](https://github.com/joepjoosten/aws-cli-mfa-oh-my-zsh) - plugin for AWS CLI MFA based on sweharris' [aws-cli-mfa](https://github.com/sweharris/aws-cli-mfa).
 * [aws-mfa](https://github.com/FreebirdRides/oh-my-zsh-aws-mfa) - Plugin for AWS MFA.
 * [aws-upload](https://github.com/borracciaBlu/aws-upload-zsh) - Boost your productivity with `aws-upload`.
@@ -467,6 +467,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 * [host-switch](https://github.com/LockonS/host-switch) - Make it easier to switch in different `/etc/hosts` files during development.
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding `hub` ci-status to your ZSH theme.
+* [igit](https://github.com/ytakahashi/igit) - Interactive `git` commands using [fzf](https://github.com/junegunn/fzf).
 * [ing](https://github.com/rummik/zsh-ing) - `ping`, but shorter output.
 * [intellij](https://github.com/mgryszko/intellij) - Extract intellij bookmarks into markdown format.
 * [interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish-like interactive tab completion for `cd`.
@@ -1023,6 +1024,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [mau](https://github.com/vichargrave/mau) - A ZSH theme with a cat twist.
 * [maxulysse/myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 * [megaprompt](https://github.com/willghatch/zsh-megaprompt) - A maximalist prompt including keyboard mode, ownership info, and other contextual info, with λ as the prompt character. Requires the [hooks](https://github.com/willghatch/zsh-hooks) plugin.
+* [mexassi](https://github.com/Mexassi/mexassi-zsh-theme) - Checks the `/sys/class/power_supply` folders to determine if the system is installed on a laptop or desktop machine. Reads the battery percentage grepping acpi command and displays it in the prompt. Includes `git` decorations.
 * [midin](https://github.com/xlshiz/midin) - Works well on dark terminal background, includes `git` status decorations.
 * [milight](https://github.com/frodoslaw/milight-zsh) - Minimal ZSH prompt with `git` status display, works best with dark terminal backgrounds.
 * [min](https://github.com/andrepolischuk/min) - A minimalistic ZSH prompt.
