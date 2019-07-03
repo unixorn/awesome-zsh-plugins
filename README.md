@@ -828,6 +828,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [archie](https://github.com/dcavalcante/archie) - Arch Linux inspired ZSH theme. Based on the [norm](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/norm.zsh-theme) theme.
 * [arity](https://github.com/hybras/Arity-Zsh-Theme) - Arity is a simple theme designed for readability and to give an overview at a glance. Includes path and `git` decorations.
 * [aronhoyer](https://github.com/aronhoyer/zsh-theme) - Minimalist theme with right-side `git` status decorations.
+* [arrow-minimal](https://github.com/maxim-usikov/arrow-minimal.zsh-theme) - A minimal ZSH theme with `git` decorations.
 * [asciigit](https://github.com/cemsbr/asciigit) - An ASCII-only theme for `git` users who don't want to use fonts with extra glyphs.
 * [asq](https://github.com/AugustoQueiroz/asq-theme) - Based on [theunraveler](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#theunraveler).
 * [astral](https://github.com/alphabetum/astral) - Theme for dark backgrounds with zen mode.
