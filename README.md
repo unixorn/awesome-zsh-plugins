@@ -1158,8 +1158,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [silver](https://github.com/reujab/silver) - A cross-shell customizable powerline-like prompt heavily inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). A faster rust port of [bronze](https://github.com/reujab/bronze). Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 * [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH.
 * [simplex](https://github.com/feddamisch/zsh-theme-simplex) - A simple theme with right-side `git` decorations.
-* [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with git info display.
-* [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme.
+* [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with `git` info display.
+* [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme. Includes `git` status decorations.
 * [sixlive](https://github.com/sixlive/sixlive-zsh-theme) - This theme has a unique directory listing. When inside a `git` project, the directory display is scoped to the current repository root.
 * [sk9](https://github.com/skeiter9/sk9-zsh) - Skeiter9's ZSH theme.
 * [skeletor-syntax](https://github.com/ramonmcros/skeletor-syntax) - Theme collection for Atom, Prism and ZSH inspired by Skeletor from He-Man and the Masters of the Universe.
