@@ -556,6 +556,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [pctl](https://github.com/ytet5uy4/pctl) - Toggle the environment variables for proxying.
 * [peco-history](https://github.com/jimeh/zsh-peco-history) - Search shell history with Peco when pressing ctrl+R.
 * [percol](https://github.com/robturtle/percol.plugin.zsh) - Interactively and incrementally search history/resume background jobs using [percol](https://github.com/mooz/percol).
+* [pew](https://github.com/shosca/zsh-pew) - Sets up and manages virtualenvs using [pew](https://github.com/berdario/pew), automatically switches virtualenvs as you move directories.
 * [pg](https://github.com/caarlos0-graveyard/zsh-pg) - Adds utility functions to work with [PostgreSQL](https://www.postgresql.org/).
 * [php-version-rcfile-switcher](https://github.com/xellos866/php-version_rcfile-switcher) - Automatically switch between php versions using [php-version](https://github.com/wilmoore/php-version) if an rc-file is present in a directory.
 * [phpcs](https://github.com/voronkovich/phpcs.plugin.zsh) - Plugin for [PHP code sniffer](https://github.com/squizlabs/PHP_CodeSniffer).
