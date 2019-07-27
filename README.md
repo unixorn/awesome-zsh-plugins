@@ -207,7 +207,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zplugin](https://github.com/zdharma/zplugin)
 
-**Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](https://github.com/zdharma/zplugin#turbo-mode), a clean fpath, reports, completion management and [services](https://github.com/zservices) support.
+**Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](https://github.com/zdharma/zplugin#turbo-mode), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) to edit your Zplugin commands in your `~.zshrc`.
 
 ### [ZPM](https://github.com/zpm-zsh/zpm)
 
