@@ -1176,6 +1176,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [silver](https://github.com/reujab/silver) - A cross-shell customizable powerline-like prompt heavily inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). A faster rust port of [bronze](https://github.com/reujab/bronze). Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
 * [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH.
 * [simple-agnoster](https://github.com/iwat/simple-agnoster.zsh-theme) - Powerline-inspired simple theme with `git` decorations.
+* [simple](https://github.com/pavdmyt/simple-oh-my-zsh-theme) - Minimalist theme based on [robbyrussel](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#robbyrussell) that embeds `git` status information in iTerm's window title bar instead of using space in the prompt.
 * [simplex](https://github.com/feddamisch/zsh-theme-simplex) - A simple theme with right-side `git` decorations.
 * [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with `git` info display.
 * [sinon](https://github.com/k-kinzal/oh-my-zsh-sinon-theme) - k-kinzal's sinon theme. Includes `git` status decorations.
