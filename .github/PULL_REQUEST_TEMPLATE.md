@@ -27,4 +27,7 @@
 - [ ] My entries are single lines and are in the appropriate (plugins, themes or completions) section, and in alphabetical order in their section.
 - [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
+- [ ] Any added completions have a license file in their repository.
+- [ ] Any added plugins have a license file in their repository.
+- [ ] Any added themes have a screen shot and a license file in their repository.
 - [ ] I have stripped leading and trailing **zsh-** or **oh-my-zsh-** substrings from the link name. This makes it easier to find plugins/themes/completions by name since there aren't big clusters in the **O** and **Z** sections of the list.
