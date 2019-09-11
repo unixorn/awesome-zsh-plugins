@@ -539,6 +539,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [new-file-from-template](https://github.com/zpm-zsh/new-file-from-template) -  Generates file from template.
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
 * [nix-shell](https://github.com/chisui/zsh-nix-shell) - Plugin that lets you use ZSH as the default `nix-shell` shell.
+* [node-path](https://github.com/andyrichardson/zsh-node-path) - Automatically adds the "npm bin" of your current directory to your path.
 * [node](https://github.com/srijanshetty/node.plugin.zsh) - Srijan Shetty's nodejs plugin for ZSH with caching of `nvm` completions and autoloading of `nvm` if present.
 * [nodenv](https://github.com/jsahlen/nodenv.plugin.zsh) - Auto-load `nodenv` and its completions into the shell.
 * [nohup](https://github.com/micrenda/zsh-nohup) - Add `nohup` to the current command pressing `Ctrl-H`.
