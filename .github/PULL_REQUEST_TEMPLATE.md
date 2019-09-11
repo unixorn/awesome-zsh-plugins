@@ -3,7 +3,7 @@
 
 # Description
 
-<!--- Describe your changes in detail -->
+<!--- Describe your changes in detail, ideally [linking](example.com) to the project/resouce in this description. -->
 
 # Type of changes
 
