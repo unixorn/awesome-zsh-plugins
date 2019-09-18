@@ -486,6 +486,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [iterm-touchbar](https://github.com/iam4x/zsh-iterm-touchbar) - Display iTerm2 feedback in the MacbookPro TouchBar (Current directory, git branch & status).
 * [iterm2-colors](https://github.com/shayneholmes/zsh-iterm2colors) - Manage your iTerm 2's color scheme from the command line.
 * [iterm2-tabs](https://github.com/gimbo/iterm2-tabs.zsh) - Set colors and titles of iTerm 2 tabs.
+* [iterm2-utilities](https://github.com/decayofmind/zsh-iterm2-utilities) - Helps download various iTerm2 utilities. The plugin lets you omit cloning of the whole iterm2-website repository or relying on other repos which may be out of sync.
 * [iterm2](https://github.com/laggardkernel/zsh-iterm2) - Packs iTerm's ZSH integration scripts into a ZSH plugin to avoid polluting your $HOME directory, with a negligible time increase of only 2ms.
 * [jabba](https://github.com/2m/zsh-jabba) - Adds shell integration code and completions for the [jabba](https://github.com/shyiko/jabba) Java version manager.
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a `setjdk` command so you can switch easily between different versions of the jdk.
