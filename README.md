@@ -207,12 +207,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zplugin](https://github.com/zdharma/zplugin)
 
-**Zplugin** is an innovative plugin manager with [semigraphical
-UI](https://github.com/zdharma/zplugin-crasis), [Turbo
-Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a
-clean fpath, reports, completion management and
-[services](https://github.com/zservices) support. You can use
-[crasis](https://github.com/zdharma/zplugin-crasis) and also
+**Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) and also
 [declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zplugin
 commands in your `~.zshrc`.
 
@@ -422,6 +417,7 @@ commands in your `~.zshrc`.
 * [fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
 * [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among your historical directories.
 * [fzf (wyntau)](https://github.com/wyntau/fzf-zsh) - Wraps [fzf](https://github.com/junegunn/fzf) for use with ZSH.
+* [fzf-fasd](https://github.com/wookayin/fzf-fasd) - integrates [fzf](https://github.com/junegunn/fzf) and [fasd](https://github.com/clvv/fasd) --- tab completion of `z` with fzf's fuzzy search!
 * [fzf-finder](https://github.com/leophys/zsh-plugin-fzf-finder) - Plugin to have a cool search keybinding with [fzf](https://github.com/junegunn/fzf) and (optionally) [bat](https://github.com/sharkdp/bat). Searches in the local tree of subdirectories for files.
 * [fzf-git](https://github.com/hschne/fzf-git) - Add nice `git` completions using [fzf](https://github.com/junegunn/fzf).
 * [fzf-marks](https://github.com/urbainvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in `bash` and `zsh`, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
