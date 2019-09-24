@@ -207,7 +207,14 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zplugin](https://github.com/zdharma/zplugin)
 
-**Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) to edit your Zplugin commands in your `~.zshrc`.
+**Zplugin** is an innovative plugin manager with [semigraphical
+UI](https://github.com/zdharma/zplugin-crasis), [Turbo
+Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a
+clean fpath, reports, completion management and
+[services](https://github.com/zservices) support. You can use
+[crasis](https://github.com/zdharma/zplugin-crasis) and also
+[declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zplugin
+commands in your `~.zshrc`.
 
 ### [ZPM](https://github.com/zpm-zsh/zpm)
 
@@ -711,7 +718,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 * [z-a-bin-gem-node](https://github.com/zplugin/z-a-bin-gem-node) - Zplugin extension that a) exposes binaries without altering `$PATH`, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet.
 * [z-a-man](https://github.com/zplugin/z-a-man) - Zplugin extension that generates man pages for all plugins and snippets.
-* [z-a-patch-dl](https://github.com/zplugin/z-a-bin-gem-node) - Zplugin extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
+* [z-a-patch-dl](https://github.com/zplugin/z-a-patch-dl) - Zplugin extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
 * [z-a-test](https://github.com/zplugin/z-a-test) - Zplugin extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
 * [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
