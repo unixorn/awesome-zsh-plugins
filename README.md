@@ -345,7 +345,7 @@ commands in your `~.zshrc`.
 * [cd-reporoot](https://github.com/P4Cu/cd-reporoot) - A ZSH plugin to `cd` to the current repository checkout's root directory.
 * [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
 * [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
-* [cdc](https://github.com/evanthegrayt/cdc) - Shell function for changing directory to frequently-used places.
+* [cdc](https://github.com/evanthegrayt/cdc) - Shell function for changing directory to a directory found in one of your defined frequently-used places.
 * [cdr](https://github.com/willghatch/zsh-cdr) - Easy setup of cdr for ZSH.
 * [change-case](https://github.com/mtxr/zsh-change-case) - Plugin for fast swap between upper and lower case in your command line. :sunglasses:
 * [check-deps](https://github.com/zpm-zsh/check-deps) - Helper for ZSH plugins that allows them to show how to install any missing dependencies. Works on Debian (and derivatives like Ubuntu), Arch and its derivatives, Nodejs and ZSH plugins if you are using the [zpm](https://github.com/zpm-zsh/zpm) framework.
