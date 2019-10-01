@@ -763,6 +763,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
 * [completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
+* [conda-zsh-completion](https://github.com/esc/conda-zsh-completion) - ZSH tab completion for conda.
 * [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop).
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 * [docker-enter-completion](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter).
