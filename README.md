@@ -61,7 +61,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Themes](#themes)
   - [Fonts](#fonts)
 - [Installation](#installation)
-  - [Antibody](#antibody)
+  - [Antibody](#antibody-1)
   - [Antigen](#antigen-1)
   - [dotzsh](#dotzsh-1)
   - [Oh-My-Zsh](#oh-my-zsh-1)
