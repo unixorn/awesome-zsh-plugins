@@ -281,7 +281,6 @@ commands in your `~.zshrc`.
 
 ### Zplugin
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
-
 * [zplugin-configs](https://github.com/zdharma/zplugin-configs) - Real-world configuration files (basically zshrc-s) holding Zplugin invocations.
 
 ## Plugins
