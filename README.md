@@ -43,7 +43,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
   - [zplug](#zplug)
-  - [zplugin](#zplugin)
+  - [Zplugin](#zplugin)
   - [ZPM](#zpm)
   - [ZR](#zr)
   - [zshing](#zshing)
@@ -206,11 +206,12 @@ zapack is a basic fast minimal ZSH plugin loader.
 - Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
 - Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
 
-### [zplugin](https://github.com/zdharma/zplugin)
+### [Zplugin](https://github.com/zdharma/zplugin)
 
 **Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) and also
 [declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zplugin
-commands in your `~.zshrc`.
+commands in your `~.zshrc` and also use [zplugin-console](https://github.com/zplugin/zplugin-console) to view and change
+the state of the Zsh session and to delete the plugins and snippets from the disk.
 
 ### [ZPM](https://github.com/zpm-zsh/zpm)
 
@@ -741,6 +742,7 @@ commands in your `~.zshrc`.
 * [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
 * [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
 * [zredis](https://github.com/zdharma/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
+* [zplugin-console](https://github.com/zplugin/zplugin-console) – a semigraphical (curses) consolette for [Zplugin](#zplugin)
 * [zsh-z](https://github.com/agkozak/zsh-z) - Jump quickly to directories that you have visited "frecently." A native ZSH port of `z.sh` - without `awk`, `sed`, `sort`, or `date`.
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh.
 * [zshrc](https://github.com/freak2geek/zshrc) - Load local `.zshrc` files from your project scopes.
