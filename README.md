@@ -82,6 +82,8 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 These frameworks make customizing your ZSH setup easier.
 
+[zdharma](https://github.com/zdharma) collected some interesting performance timing comparisons of various frameworks at [zdharma/pm-perf-test](https://github.com/zdharma/pm-perf-test).
+
 ### [alf](https://github.com/psyrendust/alf)
 
 **Alf** is an out of this world super fast and configurable framework for ZSH; it's modeled after Prezto and Antigen while utilizing Oh-My-Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
