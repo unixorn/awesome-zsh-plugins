@@ -500,7 +500,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [iterm-touchbar](https://github.com/iam4x/zsh-iterm-touchbar) - Display iTerm2 feedback in the MacbookPro TouchBar (Current directory, git branch & status).
 * [iterm2-colors](https://github.com/shayneholmes/zsh-iterm2colors) - Manage your iTerm 2's color scheme from the command line.
 * [iterm2-tabs](https://github.com/gimbo/iterm2-tabs.zsh) - Set colors and titles of iTerm 2 tabs.
-* [iterm2-utilities](https://github.com/decayofmind/zsh-iterm2-utilities) - Helps download various iTerm2 utilities. The plugin lets you omit cloning of the whole iterm2-website repository or relying on other repos which may be out of sync.
+* [iterm2-utilities](https://github.com/decayofmind/zsh-iterm2-utilities) - Helps download various iTerm2 utilities and lets you omit cloning of the whole iterm2-website repository or relying on other repos which may be out of sync.
 * [iterm2](https://github.com/laggardkernel/zsh-iterm2) - Packs iTerm's ZSH integration scripts into a ZSH plugin to avoid polluting your $HOME directory, with a negligible time increase of only 2ms.
 * [jabba](https://github.com/2m/zsh-jabba) - Adds shell integration code and completions for the [jabba](https://github.com/shyiko/jabba) Java version manager.
 * [java-zsh-plugin](https://github.com/Xetius/java-zsh-plugin) - Adds a `setjdk` command so you can switch easily between different versions of the jdk.
@@ -729,6 +729,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [z-a-bin-gem-node](https://github.com/zplugin/z-a-bin-gem-node) - Zplugin extension that a) exposes binaries without altering `$PATH`, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet.
 * [z-a-man](https://github.com/zplugin/z-a-man) - Zplugin extension that generates man pages for all plugins and snippets.
 * [z-a-patch-dl](https://github.com/zplugin/z-a-patch-dl) - Zplugin extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
+* [z-a-rust](https://github.com/zplugin/z-a-rust) - Zplugin extension that that installs rust and cargo packages inside plugin directories.
 * [z-a-test](https://github.com/zplugin/z-a-test) - Zplugin extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
 * [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
