@@ -1292,6 +1292,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [whale](https://github.com/whalesea520/whale-zsh-theme) - Fast reimplementation of the whale theme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou.
 * [work-line](https://github.com/afnizarnur/work-line) - Theme with nice emojis.
+* [workbench](https://github.com/u8slvn/oh-my-zsh-workbench-theme) - Includes `git` status decorations, working directory, exit status of last command and current `virtualenv`.
 * [wynwyn](https://github.com/thaffenden/wynwyn.zsh-theme) - A theme that aims to show you the information you need when you need it. `wynwyn` takes inspiration from the default theme `avit` and the excellent [Spaceship prompt](https://github.com/denysdovhan/spaceship-prompt).
 * [xm](https://github.com/Shiaoming/xm) - Theme for dark terminals. Has `git` decorations.
 * [xremix](https://github.com/xremix/oh-my-zsh-xremix-theme) - An oh-my-zsh shell theme based on the Jreese theme plugin.
