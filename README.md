@@ -215,9 +215,15 @@ zapack is a basic fast minimal ZSH plugin loader.
 commands in your `~.zshrc` and also use [zplugin-console](https://github.com/zplugin/zplugin-console) to view and change
 the state of the Zsh session and to delete the plugins and snippets from the disk.
 
-### [ZPM](https://github.com/zpm-zsh/zpm)
+### [zpm](https://github.com/zpm-zsh/zpm)
 
-**ZPM** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) similar to vim-plug. ZPM plugins are compatible with [oh-my-zsh](http://ohmyz.sh/). ZPM runs on Linux, macOS, FreeBSD and Android.
+**zpm** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) who combines the imperative and declarative approach. At first run, zpm will do complex logic and generate cache, after that will be used cache only, so it makes this framework to be very fast.
+
+* Fastest plugin manager (Really, after the first run, zpm will not be used at all)
+* Support for async loading
+* Dependencies between packages
+* zpm runs on Linux, macOS, FreeBSD and Android.
+* zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/). 
 
 ### [ZR](https://github.com/jedahan/zr)
 
