@@ -44,7 +44,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zpacker](#zpacker)
   - [zplug](#zplug)
   - [Zplugin](#zplugin)
-  - [ZPM](#zpm)
+  - [zpm](#zpm)
   - [ZR](#zr)
   - [zshing](#zshing)
   - [ztanesh](#ztanesh)
