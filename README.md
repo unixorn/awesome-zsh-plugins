@@ -379,7 +379,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [command-note](https://github.com/KKRainbow/zsh-command-note.plugin) - Record complex commands and comment on them.
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
-* [containerized-ansible](https://github.com/hermitmaster/containerized-ansible) - A plugin that adds containerized Ansible commands to zsh.
+* [containerized-ansible](https://github.com/hermitmaster/containerized-ansible) - A plugin that adds containerized Ansible commands to ZSH.
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
 * [crash](https://github.com/molovo/crash) - Adds proper error handling, exceptions and try/catch for ZSH.
 * [crayon-syntax](https://github.com/gsemet/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
@@ -656,7 +656,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [saml2aws-auto](https://github.com/devndive/zsh-saml2aws-auto) - When using multiple AWS profiles, e.g. different accounts for your stages (development, pre-prod, prod), can be used to determine which profile is currently exported and if the token is still valid.
 * [saneopt](https://github.com/willghatch/zsh-saneopt) - Sane defaults for ZSH options, in the spirit of vim-sensible.
 * [schroot](https://github.com/fshp/schroot.plugin.zsh) - Show current `chroot` name in your prompt.
-* [sdkman](https://github.com/hermitmaster/sdkman) - A plugin that adds SDKMAN! to zsh.
+* [sdkman](https://github.com/hermitmaster/sdkman) - A plugin that adds SDKMAN! to ZSH.
 * [select](https://github.com/psprint/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 * [send](https://github.com/robertzk/send.zsh) - Single command to `git add`, `git commit`, and `git push` for much faster `git` workflow.
 * [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
