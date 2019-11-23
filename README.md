@@ -380,6 +380,8 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
 * [containerized-ansible](https://github.com/hermitmaster/containerized-ansible) - A plugin that adds containerized Ansible commands to ZSH.
+* [containerized-gradle](https://github.com/hermitmaster/containerized-gradle) - A plugin that adds containerized Gradle commands to ZSH.
+* [containerized-maven](https://github.com/hermitmaster/containerized-maven) - A plugin that adds containerized Maven commands to ZSH.
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
 * [crash](https://github.com/molovo/crash) - Adds proper error handling, exceptions and try/catch for ZSH.
 * [crayon-syntax](https://github.com/gsemet/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
