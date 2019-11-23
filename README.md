@@ -481,6 +481,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform `grep` command into `awk` command.
 * [grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for `grunt`.
 * [gtm-terminal-plugin](https://github.com/git-time-metric/gtm-terminal-plugin) - terminal plugin for [git time metrics](https://github.com/git-time-metric/gtm/blob/master/README.md).
+* [guish](https://github.com/gcarrarom/oh-my-guish) - Collection of utility functions and aliases.
 * [gumsible](https://github.com/Lowess/gumsible-oh-my-zsh-plugin) - Wrapper plugin for [Molecule](https://molecule.readthedocs.io/en/latest/index.html).
 * [gvm (dgnest)](https://github.com/dgnest/zsh-gvm-plugin) - gvm (Go version manager) plugin for ZSH.
 * [gvm (yerinle)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for `gvm` (Groovy enVironment Manager).
