@@ -696,6 +696,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [tfenv](https://github.com/CDA0/zsh-tfenv) - Installs, updates, and loads tfenv inspired by [zsh-pyenv](https://github.com/mattberther/zsh-pyenv)
 * [thefuck](https://github.com/laggardkernel/thefuck) - Loads [thefuck](https://github.com/nvbn/thefuck) (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically.
 * [theia-dev-tools](https://github.com/taPublic/zsh-theia-dev-tools) - Convenience functions for working with [theia-ide](https://github.com/theia-ide/theia).
+* [tig](https://github.com/zdharma/zsh-tig-plugin) - Automatically adds a few advanced bindings and also provides a Zsh-rewritten function and/or script `tig-pick`.
 * [timewarrior](https://github.com/svenXY/timewarrior) - Plugin for [timewarrior](https://timewarrior.net/), a timetracking application.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
 * [title](https://github.com/zpm-zsh/title) - Allows you to set a terminal window title.
