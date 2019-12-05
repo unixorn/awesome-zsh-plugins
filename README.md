@@ -223,7 +223,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * Support for async loading
 * Dependencies between packages
 * zpm runs on Linux, macOS, FreeBSD and Android.
-* zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/). 
+* zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
 
 ### [ZR](https://github.com/jedahan/zr)
 
@@ -981,6 +981,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [cramin](https://github.com/FelipeCRamos/craminzsh) - Minimal interface with support for github plugins, based on [hyperzsh](https://github.com/tylerreckart/hyperzsh).
 * [cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - A macOS oh-my-zsh shell theme with Cute emoji based on the Powerline Vim plugin.
 * [cxzh](https://github.com/MakeWorkSimple/cxzh.zsh-theme) - Works well on dark background, has `git` status decorations.
+* [cypher-ruby](https://github.com/ston1x/cypher-ruby) - Similar to [cypher](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/cypher.zsh-theme) but includes the active Ruby version.
 * [czsh](https://github.com/Cellophan/czsh) - [ZSH](https://en.wikipedia.org/wiki/Z_shell) with [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) and the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme in a container.
 * [daily](https://github.com/ghlin/zsh-theme-daily) - Includes `git` and `ssh` status decorations.
 * [damino](https://github.com/njdom24/Damino-Zsh-Theme) - Minimal powerline-esque theme with `git` decorations.
