@@ -943,6 +943,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [bougenville](https://github.com/bougenville/zsh-theme) - Variant of [dallas](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/dallas.zsh-theme).
 * [bronze](https://github.com/reujab/bronze) - A cross-shell customizable powerline-like prompt with icons written in go. Requires [nerd-fonts](https://github.com/ryanoasis/nerd-fonts).
 * [brs](https://github.com/evenhold/brs-zsh-theme) - Displays the current song in the prompt with `audtool`.
+* [bruh](https://github.com/haze/bruh) - Includes `git` status decorations.
 * [brunty](https://github.com/Brunty/omz-brunty) - Brunty theme.
 * [bryce-robbyrussell](https://github.com/Bryan-Cee/bryce-robbyrussell) - Inspired by the [powerline](https://github.com/Lokaltog/vim-powerline) and [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#robbyrussell) themes.
 * [bttf-color](https://github.com/yasuhiroki/bttf-color-zsh) - BTTF color theme.
