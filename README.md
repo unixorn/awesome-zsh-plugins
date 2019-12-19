@@ -817,7 +817,8 @@ These plugins add tab completions without adding extra functions or aliases.
 * [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
 * [etcdctl](https://github.com/sheax0r/etcdctl-zsh) - Adds etcdctl tab completions.
 * [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](https://exercism.io/).
-* [extract](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
+* [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and it supports a wide variety of archive filetypes.
+* [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 * [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://www.concourse.ci/fly-cli.html) commands.
 * [gcloud-zsh-completion](https://github.com/littleq0903/gcloud-zsh-completion) - Add completions for the Google Cloud SDK.
 * [gentoo](https://github.com/gentoo/gentoo-zsh-completions) - providing ZSH completion support to various Gentoo tools that lack completion scripts upstream.
@@ -1288,7 +1289,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [shrug](https://github.com/tmjoseantonio/shrug-zsh-theme) - Simple theme which displays current directory and git information.
 * [siegerts](https://github.com/siegerts/zsh-theme) - Includes `git` status decorations in right prompt.
 * [silver](https://github.com/reujab/silver) - A cross-shell customizable powerline-like prompt heavily inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). A faster rust port of [bronze](https://github.com/reujab/bronze). Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts).
-* [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH.
+* [simpalt](https://github.com/m-lima/simpalt) - An information-rich small-footprint theme for ZSH based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme).
 * [simple-agnoster](https://github.com/iwat/simple-agnoster.zsh-theme) - Powerline-inspired simple theme with `git` decorations.
 * [simple](https://github.com/pavdmyt/simple-oh-my-zsh-theme) - Minimalist theme based on [robbyrussel](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes#robbyrussell) that embeds `git` status information in iTerm's window title bar instead of using space in the prompt.
 * [simplezsh](https://github.com/fr0zn/simplezsh) - Minimal theme with `git` info display.
@@ -1327,7 +1328,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on gallifrey.
 * [theme-line](https://github.com/yw9381/oh-my-zsh_theme_line) - Colorful theme with `git` status.
 * [thetraveler](https://github.com/bassopenguin/thetraveler) - Inspired by theunraveler, uses symbols to display `git` status.
-* [thnikk](https://github.com/thnikk/zsh-theme-thnikk) - A minimal version of the [spaceship](https://github.com/denysdovhan/spaceship-prompt) theme. 
+* [thnikk](https://github.com/thnikk/zsh-theme-thnikk) - A minimal version of the [spaceship](https://github.com/denysdovhan/spaceship-prompt) theme.
 * [thyme](https://github.com/kawamurakazushi/thyme) - Simple theme with `git` status decorations.
 * [topan](https://github.com/fudyartanto/topan-theme-oh-my-zsh) - Includes `git` information; best on dark backgrounds.
 * [tq](https://github.com/kitian616/tq-zsh-theme) - Displays `git` status, time, requires a Powerline font.
