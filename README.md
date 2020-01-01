@@ -756,6 +756,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [yapipenv](https://github.com/AnonGuy/yapipenv.zsh) - Automatically activate a directory's pip environment if `pipenv` detects the presence of one.
 * [yeoman](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's Yeoman plugin for oh-my-zsh, compatible with yeoman version ≥1.0 (includes options and command auto-completion).
 * [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use) - ZSH plugin that reminds you to use those aliases you defined.
+* [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 * [z-a-bin-gem-node](https://github.com/zplugin/z-a-bin-gem-node) - Zplugin extension that a) exposes binaries without altering `$PATH`, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet.
 * [z-a-man](https://github.com/zplugin/z-a-man) - Zplugin extension that generates man pages for all plugins and snippets.
