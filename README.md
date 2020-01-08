@@ -379,7 +379,6 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [command-note](https://github.com/KKRainbow/zsh-command-note.plugin) - Record complex commands and comment on them.
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
-* [containerized-ansible](https://github.com/hermitmaster/containerized-ansible) - A plugin that adds containerized Ansible commands to ZSH.
 * [containerized-gradle](https://github.com/hermitmaster/containerized-gradle) - A plugin that adds containerized Gradle commands to ZSH.
 * [containerized-maven](https://github.com/hermitmaster/containerized-maven) - A plugin that adds containerized Maven commands to ZSH.
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
@@ -967,7 +966,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [chaotic-beef](https://github.com/ARtoriouSs/chaotic-beef-zsh-theme) - A tiny and beautiful theme for Oh-My-Zsh without anything superfluous. Includes `git` status decorations.
 * [charged](https://github.com/robwierzbowski/charged-zsh-theme) - A ZSH prompt optimized for the [solarized](https://github.com/altercation/solarized) dark terminal theme.
 * [chi](https://github.com/akinjide/chi) - A ZSH theme optimized for iTerm 2 users on macOS.
-* [ciacho](https://github.com/Ciacho/ciacho-ohmyzsh-theme) - Based on Agnoster.
 * [cinnabar](https://github.com/nvillapiano/zsh-theme---cinnabar) - Shows timestamp, large line breaks, git branch and status.
 * [clarity](https://github.com/nbitmage/clarity.zsh) - Designed for for simpleness and extensibility.
 * [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) - Minimal, clean theme with `git` support.
