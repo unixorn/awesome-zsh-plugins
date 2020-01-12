@@ -1336,6 +1336,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [superkolo](https://github.com/Minipada/superkolo) - Add date and return status to the [kolo](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/kolo.zsh-theme) theme.
 * [susi](https://github.com/carcruz/susi-zsh-iterm) - Includes `git` status decorations and an accompanying iTerm2 color scheme.
 * [sy](https://github.com/ttttmr/sy-zsh-theme) - Based on [ys](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/ys.zsh-theme), includes `git` status decorations.
+* [t2er](https://github.com/t2er/t2er-zsh-theme) - Minimalist theme with `git` decorations.
 * [tabaf](https://github.com/bvc3at/tabaf-zsh-theme) - Minimal ZSH theme optimized for dark backgrounds.
 * [tepig-ys](https://github.com/thingerpig/tepig-ys.zsh-theme) - Includes `git` status decorations and conda/virtualenv status.
 * [termuxer](https://github.com/patrick330602/termuxer) - Theme inspired by agnoster and linuxer.
