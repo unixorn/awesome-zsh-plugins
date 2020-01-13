@@ -214,6 +214,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 [declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zplugin
 commands in your `~.zshrc` and also use [zplugin-console](https://github.com/zplugin/zplugin-console) to view and change
 the state of the Zsh session and to delete the plugins and snippets from the disk.
+The project is very active – currently > 2000 commits.
 
 ### [zpm](https://github.com/zpm-zsh/zpm)
 
@@ -789,6 +790,7 @@ the state of the Zsh session and to delete the plugins and snippets from the dis
 * [zsnapshot](https://github.com/psprint/zsnapshot) - Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file.
 * [Ztrace](https://github.com/psprint/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
 * [ZUI](https://github.com/zdharma/zui/) - ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.
+* [zzcomplete](https://github.com/zdharma/zzcomplete) - An alternate completer that allows to browse the man page of the command and select the needed option via a comfortable curses interface.
 
 ## Completions
 
