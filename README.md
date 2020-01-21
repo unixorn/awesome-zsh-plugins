@@ -39,11 +39,11 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgen](#zgen)
   - [zilsh](#zilsh)
   - [zim](#zim)
+  - [Zinit](#zinit)
   - [zit](#zit)
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
   - [zplug](#zplug)
-  - [Zplugin](#zplugin)
   - [zpm](#zpm)
   - [ZR](#zr)
   - [zshing](#zshing)
@@ -55,7 +55,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Prezto](#prezto)
   - [Zgen](#zgen)
-  - [Zplugin](#zplugin-1)
+  - [Zinit](#zinit-1)
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
@@ -90,7 +90,7 @@ These frameworks make customizing your ZSH setup easier.
 
 ### [ansible-role-zsh](https://github.com/viasite-ansible/ansible-role-zsh)
 
-**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses antigen to manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting and [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) and [fzf-marks](https://github.com/popstas/urbainvaes/fzf-marks). Fully customizable.
+**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses antigen to manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting and [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) and [fzf-marks](https://github.com/urbainvaes/fzf-marks). Fully customizable.
 
 ### [ant-zsh](https://github.com/anthraxx/ant-zsh)
 
@@ -176,6 +176,14 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 **Zim** is a ZSH configuration framework with blazing speed and modular extensions.
 
+### [Zinit](https://github.com/zdharma/zinit)
+
+**Zinit** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) and also
+[declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zinit
+commands in your `~.zshrc` and also use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session and to delete the plugins and snippets from the disk.
+
+The project is very active – currently > 2000 commits.
+
 ### [zit](https://github.com/m45t3r/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from Git repositories (and Git repositories only, them why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, PATH manipulation and others.
@@ -207,14 +215,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 - Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin file (`*.plugin.zsh`) required
 - Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
 - Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
-
-### [Zplugin](https://github.com/zdharma/zplugin)
-
-**Zplugin** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zplugin/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) and also
-[declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zplugin
-commands in your `~.zshrc` and also use [zplugin-console](https://github.com/zplugin/zplugin-console) to view and change
-the state of the Zsh session and to delete the plugins and snippets from the disk.
-The project is very active – currently > 2000 commits.
 
 ### [zpm](https://github.com/zpm-zsh/zpm)
 
@@ -289,7 +289,7 @@ The project is very active – currently > 2000 commits.
 * [rad-shell](https://github.com/brandon-fryslie/rad-shell) - A fantastically feature rich, lightning-fast shell setup, powered by [ZSH](http://www.zsh.org/), [Prezto](https://github.com/sorin-ionescu/prezto), and [Zgen](https://github.com/tarjoilija/zgen).
 * [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, and will automatically configure ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them, configures [zgen](https://github.com/tarjoilija/zgen) to periodically automatically update itself, the plugins, and the quickstart kit itself.
 
-### Zplugin
+### Zinit
 
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
 * [zplugin-configs](https://github.com/zdharma/zplugin-configs) - Real-world configuration files (basically zshrc-s) holding Zplugin invocations.
@@ -704,7 +704,7 @@ The project is very active – currently > 2000 commits.
 * [tfenv](https://github.com/CDA0/zsh-tfenv) - Installs, updates, and loads tfenv inspired by [zsh-pyenv](https://github.com/mattberther/zsh-pyenv)
 * [thefuck](https://github.com/laggardkernel/thefuck) - Loads [thefuck](https://github.com/nvbn/thefuck) (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically.
 * [theia-dev-tools](https://github.com/taPublic/zsh-theia-dev-tools) - Convenience functions for working with [theia-ide](https://github.com/theia-ide/theia).
-* [tig](https://github.com/zdharma/zsh-tig-plugin) - Automatically adds a few advanced bindings and also provides a Zsh-rewritten function and/or script `tig-pick`.
+* [tig](https://github.com/zdharma/zsh-tig-plugin) - Automatically adds a few advanced bindings and also provides a ZSH-rewritten function and/or script `tig-pick`.
 * [timewarrior](https://github.com/svenXY/timewarrior) - Plugin for [timewarrior](https://timewarrior.net/), a timetracking application.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
 * [title](https://github.com/zpm-zsh/title) - Allows you to set a terminal window title.
@@ -875,7 +875,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [ssh-agent (bobsoppe)](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 * [ssh-agent (hkupty)](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
 * [ssh](https://github.com/zpm-zsh/ssh) - Add host completion for `ssh`.
-* [startify](https://github.com/zdharma/zsh-startify) - vim-startify -like plugin for Zshell.
+* [startify](https://github.com/zdharma/zsh-startify) - vim-startify -like plugin for ZSH.
 * [surf](https://github.com/beardcoder/surf.plugin.zsh) - Add completions for surf.
 * [symphony (TheGrowingPlant)](https://github.com/TheGrowingPlant/symfony.plugin.zsh) - Autocompletion for Symfony 3 and 4 commands.
 * [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](https://kitchen.ci/).
