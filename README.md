@@ -137,7 +137,7 @@ These frameworks make customizing your ZSH setup easier.
 A fast, configurable, shell plugin manager.
 
 * Can manage
-  * Any Git repository.
+  * Any `git` repository.
     * Branch/tag/commit support.
     * Extra support for GitHub repositories.
     * Extra support for Gists.
@@ -166,7 +166,9 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have a minimal overhead when starting up the shell because nobody likes waiting. The script generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This saves startup time by not having to execute time consuming logic (plugin checking, updates, etc). The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
+**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
+
+To do this, `zgen` generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc). The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -178,7 +180,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [Zinit](https://github.com/zdharma/zinit)
 
-**Zinit** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) and also
+**Zinit** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) or
 [declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zinit
 commands in your `~.zshrc` and also use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session and to delete the plugins and snippets from the disk.
 
@@ -235,9 +237,9 @@ The project is very active – currently > 2000 commits.
 **zshing** is a ZSH plugin manager similar to Vundle/Vim and allows you to...
 
 * keep track of and configure your plugins right in the `.zshrc`
-* Install Zsh plugins
-* Update Zsh plugins
-* Search by name all available Zsh Plugins
+* Install ZSH plugins
+* Update ZSH plugins
+* Search by name all available ZSH Plugins
 * Clean unused plugins up
 * run the above actions in a *single command*
 * manages the __Source Plugins__ of your installed Plugins
@@ -287,12 +289,12 @@ The project is very active – currently > 2000 commits.
 ### Zgen
 
 * [rad-shell](https://github.com/brandon-fryslie/rad-shell) - A fantastically feature rich, lightning-fast shell setup, powered by [ZSH](http://www.zsh.org/), [Prezto](https://github.com/sorin-ionescu/prezto), and [Zgen](https://github.com/tarjoilija/zgen).
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, and will automatically configure ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them, configures [zgen](https://github.com/tarjoilija/zgen) to periodically automatically update itself, the plugins, and the quickstart kit itself.
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
 ### Zinit
 
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
-* [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically `.zshrc`s) holding Zplugin invocations.
+* [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zplugin invocations.
 
 ## Plugins
 
