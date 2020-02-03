@@ -881,7 +881,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [startify](https://github.com/zdharma/zsh-startify) - vim-startify -like plugin for ZSH.
 * [surf](https://github.com/beardcoder/surf.plugin.zsh) - Add completions for surf.
 * [symphony (TheGrowingPlant)](https://github.com/TheGrowingPlant/symfony.plugin.zsh) - Autocompletion for Symfony 3 and 4 commands.
-* [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](https://kitchen.ci/).
+* [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](https://github.com/test-kitchen/test-kitchen)).
 * [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your [tmux](https://tmux.github.io) pane.
 * [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/petems/tugboat) command.
 * [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake.
