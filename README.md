@@ -533,7 +533,7 @@ The project is very active – currently > 2000 commits.
 * [jhipster](https://github.com/jhipster/jhipster-oh-my-zsh-plugin) - Adds commands for [jHipster](https://www.jhipster.tech/).
 * [jira-plus](https://github.com/gerges/oh-my-zsh-jira-plus) - Create JIRA tickets from the command line.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
-* [jq-zsh-plugin](https://github.com/reegnz/jq-zsh-plugin) jq-repl with line editor functionality.
+* [jq](https://github.com/reegnz/jq-zsh-plugin) jq-repl with line editor functionality.
 * [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
 * [kill-node](https://github.com/vmattos/kill-node) - ZSH plugin for murdering `node` process families.
 * [kitsunebook](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
