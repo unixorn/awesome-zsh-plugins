@@ -291,7 +291,7 @@ The project is very active – currently > 2000 commits.
 * [rad-shell](https://github.com/brandon-fryslie/rad-shell) - A fantastically feature rich, lightning-fast shell setup, powered by [ZSH](http://www.zsh.org/), [Prezto](https://github.com/sorin-ionescu/prezto), and [Zgen](https://github.com/tarjoilija/zgen).
 * [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
-### Zinit
+### Zinit (née zplugin)
 
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
 * [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zplugin invocations.
