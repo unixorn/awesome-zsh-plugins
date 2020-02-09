@@ -180,9 +180,21 @@ To do this, `zgen` generates a static `init.zsh` file which does nothing but sou
 
 ### [Zinit](https://github.com/zdharma/zinit)
 
-**Zinit** is an innovative plugin manager with [semigraphical UI](https://github.com/zdharma/zplugin-crasis), [Turbo Mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53), a clean fpath, reports, completion management and [services](https://github.com/zservices) support. You can use [crasis](https://github.com/zdharma/zplugin-crasis) or
-[declare-zsh](https://github.com/zdharma/declare-zsh) to edit your Zinit
-commands in your `~.zshrc` and also use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session and to delete the plugins and snippets from the disk.
+**Zinit** is an innovative and currently the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
+
+- [Turbo mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53) – **80%** faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms!,
+- reports (from the plugin loads – plugins are no longer black boxes!),
+- completion management,
+- snippets (regular files downloaded via-URL e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
+- annexes (Zinit [extensions](https://github.com/zinit-zsh)),
+- plugin unloading (allows e.g.: dynamic theme switching),
+- `bindkey` catching and remapping,
+- [packages](https://zdharma.org/zinit/wiki/Zinit-Packages/),
+- clean fpath,
+- [services](https://github.com/zservices),
+- and all the mechanisms from the [Zsh Plugin Standard](http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html) – Zinit is a reference implementation of the standard.
+
+You can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session and to delete the plugins and snippets from the disk.
 
 The project is very active – currently > 2000 commits.
 
@@ -294,7 +306,7 @@ The project is very active – currently > 2000 commits.
 ### Zinit (née zplugin)
 
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
-* [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zplugin invocations.
+* [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zinit invocations.
 
 ## Plugins
 
@@ -768,7 +780,7 @@ The project is very active – currently > 2000 commits.
 * [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 * [z-a-bin-gem-node](https://github.com/zinit-zsh/z-a-bin-gem-node) - Zinit extension that a) exposes binaries without altering `$PATH`, b) installs Ruby gems and Node modules and easily exposes their binaries, c) updates the gems and modules on update of the associated plugin or snippet.
-* [z-a-man](https://github.com/zinit-zsh/z-a-man) - zinit extension that generates man pages for all plugins and snippets.
+* [z-a-man](https://github.com/zinit-zsh/z-a-man) - Zinit extension that generates man pages for all plugins and snippets.
 * [z-a-patch-dl](https://github.com/zinit-zsh/z-a-patch-dl) - Zinit extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
 * [z-a-rust](https://github.com/zinit-zsh/z-a-rust) - Zinit extension that that installs rust and cargo packages inside plugin directories.
 * [z-a-test](https://github.com/zinit-zsh/z-a-test) - Zinit extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
@@ -785,7 +797,7 @@ The project is very active – currently > 2000 commits.
 * [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
 * [zimfw-extras](https://github.com/PatTheMav/zimfw-extras) - Custom extras for zimfw, packaged into a zimfw plugin.
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to ZSH themes.
-* [zinit-console](https://github.com/zinit-zsh/zinit-console) – a semigraphical (curses) consolette for [zinit](#zinit)
+* [zinit-console](https://github.com/zinit-zsh/zinit-console) – a semigraphical (curses) consolette for [zinit](#zinit) plugin manager.
 * [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
 * [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
 * [zredis](https://github.com/zdharma/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
