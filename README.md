@@ -55,7 +55,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Prezto](#prezto)
   - [Zgen](#zgen)
-  - [Zinit](#zinit-1)
+  - [Zinit (née zplugin)](#zinit-n%C3%A9e-zplugin)
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
