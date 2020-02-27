@@ -585,6 +585,7 @@ The project is very active – currently > 2000 commits.
 * [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 * [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
 * [morpho](https://github.com/psprint/zsh-morpho) - Terminal screen savers written in pure ZSH, and also screen saver framework.
+* [mouse-status](https://github.com/gryffyn/mouse-status) - Changes mouse color based on status code, uses libratbag.
 * [msf](https://github.com/sathish09/zsh_plugins/tree/master/msf) - Metasploit handler plugin for starting handlers easily.
 * [mylocation](https://github.com/fALKENdk/mylocation) - A plugin to show your current location based on your IP address.
 * [mysql-colorize](https://github.com/zpm-zsh/mysql-colorize) - Adds color for mysql tables.
