@@ -788,7 +788,6 @@ The project is very active – currently > 2000 commits.
 * [zsnapshot](https://github.com/psprint/zsnapshot) - Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file.
 * [Ztrace](https://github.com/psprint/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
 * [ZUI](https://github.com/zdharma/zui/) - ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.
-* [zzcomplete](https://github.com/zdharma/zzcomplete) - An alternate completer that allows to browse the man page of the command and select the needed option via a comfortable curses interface.
 
 ### Completions
 
@@ -914,6 +913,7 @@ either by changing bindings or adding syntax highlighting.
 * [vim-mode](https://github.com/softmoth/zsh-vim-mode) - Friendly `vi`-mode bindings, adding basic Emacs keys, incremental search, mode indicators and more.
 * [vimto](https://github.com/laurenkt/zsh-vimto) - Improved ZSH `vi` mode (bindkey -v) plugin.
 * [zredis](https://github.com/zdharma/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
+* [zzcomplete](https://github.com/zdharma/zzcomplete) - An alternate completer that allows to browse the man page of the command and select the needed option via a comfortable curses interface.
 
 ## Themes
 
