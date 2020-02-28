@@ -57,7 +57,10 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zgen](#zgen)
   - [Zinit (née zplugin)](#zinit-n%C3%A9e-zplugin)
 - [Plugins](#plugins)
-- [Completions](#completions)
+  - [Commands](#commands)
+  - [Environment](#environment)
+  - [Completions](#completions)
+  - [ZLE (Zsh Line Editor)](#zle-zsh-line-editor)
 - [Themes](#themes)
   - [Fonts](#fonts)
 - [Installation](#installation)
@@ -310,6 +313,24 @@ The project is very active – currently > 2000 commits.
 
 ## Plugins
 
+### Commands
+
+These plugins add new commands or wrap old commands.
+The primary purpose of these plugins is
+to provide new functions or aliases.
+
+<!-- TODO -->
+<!-- Maybe subdivide this section into OS/dev/... sections? -->
+
+### Environment
+
+The primary purpose of these plugins is
+to alter environment variables,
+and/or hook into other actions taken by the shell
+(such as changing directory or executing a command).
+
+<!-- TODO -->
+<!-- Maybe subdivide this section into OS/dev/... sections? -->
 
 * [256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen `TERM` environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
 * [abbr-path](https://github.com/felixgravila/zsh-abbr-path) - Adds functionality of the `theme_title_use_abbreviated_path` parameter from some oh-my-fish themes.
@@ -782,7 +803,8 @@ The project is very active – currently > 2000 commits.
 
 ### Completions
 
-These plugins add tab completions without adding extra functions or aliases.
+The primary purpose of these plugins
+is to add tab completions without adding extra functions or aliases.
 
 * [_url-httplink](https://github.com/Valodim/zsh-_url-httplink) - Extends ZSH's \_urls completion, allowing it to complete urls from html pages.
 * [ansible-server](https://github.com/viasite-ansible/zsh-ansible-server) - Completions for viasite-ansible/ansible-server.
@@ -876,8 +898,9 @@ These plugins add tab completions without adding extra functions or aliases.
 
 ### ZLE: Zsh Line Editor
 
-These plugins change the behavior of the command line editor,
-either by changing bindings or adding syntax highlighting.
+The primary purpose of these plugins
+is to change the behavior of the command line editor,
+either by changing keybindings or adding syntax highlighting.
 
 * [autopair](https://github.com/hlissner/zsh-autopair) - A ZSH plugin for auto-closing, deleting and skipping over matching delimiters. Only tested on ZSH 5.0.2 or later.
 * [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - [Fish](https://fishshell.com/)-like fast/unobtrusive autosuggestions for ZSH.
