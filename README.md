@@ -884,6 +884,9 @@ These plugins add tab completions without adding extra functions or aliases.
 
 ### ZLE: Zsh Line Editor
 
+These plugins change the behavior of the command line editor,
+either by changing bindings or adding syntax highlighting.
+
 * [dwim](https://github.com/oknowton/zsh-dwim) - zsh-dwim attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [crayon-syntax](https://github.com/gsemet/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
 * [escape-backtick](https://github.com/bezhermoso/zsh-escape-backtick) - Quickly insert escaped backticks when double-tapping "\`".
