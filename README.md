@@ -790,7 +790,7 @@ The project is very active – currently > 2000 commits.
 * [z-a-patch-dl](https://github.com/zinit-zsh/z-a-patch-dl) - Zinit extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
 * [z-a-rust](https://github.com/zinit-zsh/z-a-rust) - Zinit extension that that installs rust and cargo packages inside plugin directories.
 * [z-a-test](https://github.com/zinit-zsh/z-a-test) - Zinit extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
-* [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements.
+* [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH.
 * [zconvey](https://github.com/zdharma/zconvey) - Adds ability to send commands to other ZSH sessions, you can use this to `cd $PWD` on all active Z shell sessions, for example.
