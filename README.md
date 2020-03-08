@@ -189,7 +189,7 @@ To do this, `zgen` generates a static `init.zsh` file which does nothing but sou
 - annexes (Zinit [extensions](https://github.com/zinit-zsh)),
 - plugin unloading (allows e.g.: dynamic theme switching),
 - `bindkey` catching and remapping,
-- [packages](https://zdharma.org/zinit/wiki/Zinit-Packages/),
+- packages
 - clean fpath,
 - [services](https://github.com/zservices),
 - and all the mechanisms from the [Zsh Plugin Standard](http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html) – Zinit is a reference implementation of the standard.
