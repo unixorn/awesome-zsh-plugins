@@ -883,6 +883,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
 * [npm-run](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`.
 * [okta](https://github.com/sirhc/okta.plugin.zsh) - provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) command.
+* [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 * [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
 * [pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin.
 * [parallels](https://github.com/benclark/parallels-zsh-plugin) - Add completions for Parallels desktop.
