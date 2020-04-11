@@ -398,6 +398,7 @@ The project is very active – currently > 2000 commits.
 * [command-note](https://github.com/KKRainbow/zsh-command-note.plugin) - Record complex commands and comment on them.
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k). Similar to `REPORTTIME` builtin, but only outputs when user + system time >= `REPORTTIME`.
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
+* [copy-pasta](https://github.com/ChrisPenner/copy-pasta) - Copy and paste files in your terminal like you would in a GUI.
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
 * [crash](https://github.com/molovo/crash) - Adds proper error handling, exceptions and try/catch for ZSH.
 * [crayon-syntax](https://github.com/gsemet/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
@@ -528,7 +529,6 @@ The project is very active – currently > 2000 commits.
 * [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding `hub` ci-status to your ZSH theme.
 * [igit](https://github.com/ytakahashi/igit) - Interactive `git` commands using [fzf](https://github.com/junegunn/fzf).
 * [ing](https://github.com/rummik/zsh-ing) - `ping`, but shorter output.
-* [intellij](https://github.com/mgryszko/intellij) - Extract intellij bookmarks into markdown format.
 * [interactive-cd](https://github.com/changyuheng/zsh-interactive-cd) - Fish-like interactive tab completion for `cd`.
 * [iosctl](https://github.com/obayer/iosctl) - Quickly access App, Data, and Log of the running simulator.
 * [ipip](https://github.com/SukkaW/zsh-ipip) - plugin for [IPIP](https://en.ipip.net).
@@ -696,6 +696,7 @@ The project is very active – currently > 2000 commits.
 * [select](https://github.com/psprint/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 * [send](https://github.com/robertzk/send.zsh) - Single command to `git add`, `git commit`, and `git push` for much faster `git` workflow.
 * [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
+* [session-sauce](https://github.com/ChrisPenner/session-sauce) - An fzf interface for tmux session creation and management for all your projects.
 * [setenv](https://github.com/kalpakrg/setenv) - Runs a script when you change directories.
 * [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python SimpleHTTPServer and SimpleHTTPSServer.
 * [slugify](https://github.com/lashoun/slugify) - ZSH plugin that converts filenames and directories to a web friendly format.
@@ -1371,7 +1372,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sm](https://github.com/blyndusk/sm-theme) A **Simplist** & **Minimalist** theme for your **favorite** terminal. Includes `git` status decorations.
 * [small-terminal-diy](https://github.com/Sokkam/small-terminal-diy-theme) - Variant of the [ys](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/ys.zsh-theme) theme in [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh).
 * [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces.
-* [snakypy](https://github.com/snakypy/snakypy-prompt) - Focused on the needs of [Python](https://www.python.org/) developers. Displays `git` and `venv` status decorations. Includes an installer script.
 * [sobole](https://github.com/sobolevn/sobole-zsh-theme) - A minimalistic ZSH theme inspired by the old-fashioned hobbies. No verbose gimmicks, no emoji, no fidget spinners, and no other visual noise. Has both light and dark modes.
 * [solarized-powerline (houjunchen)](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for ZSH.
 * [solarized-powerline (KuoE0)](https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme) - Solarized powerline variant.

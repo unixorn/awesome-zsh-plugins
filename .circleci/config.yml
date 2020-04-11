@@ -13,4 +13,4 @@ jobs:
 
       - run:
           name: Check README.md
-          command: awesome_bot README.md --allow-dupe --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins,www-s.acm.illinois.edu,https://mgdm.net,https://www.concourse.ci,https://grml.org/zsh/zsh-lovers.html,https://geeknote.me,https://en.ipip.net,https://docs.virtuozzo.com,kubernetes.io
+          command: awesome_bot README.md --allow-dupe --request-delay 1 --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins,www-s.acm.illinois.edu,https://mgdm.net,https://www.concourse.ci,https://grml.org/zsh/zsh-lovers.html,https://geeknote.me,https://en.ipip.net,https://docs.virtuozzo.com,kubernetes.io
