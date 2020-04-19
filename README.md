@@ -745,6 +745,7 @@ The project is very active – currently > 2000 commits.
 * [tmuxrepl](https://github.com/csurfer/tmuxrepl) - Simple ZSH plugin to have a R-EP-L tmux session.
 * [toggl](https://github.com/natterstefan/toggl-zsh-plugin) - Adds a `toggl-week` command to display the total working hours tracked on [toggl.com](https://toggl.com)
 * [toggle-command-prefix](https://github.com/xPMo/zsh-toggle-command-prefix) - Add a widget to toggle a prefix to a command. Binds Alt+s to prefix a command with `sudo` by default.
+* [traista](https://github.com/odgon/traista) - Includes `git` status decorations and color-coded exit status of the last command run. Better with dark terminal themes.
 * [travis](https://github.com/denolfe/zsh-travis) - Opens the Travis CI page for the current repo if one exists.
 * [tsm](https://github.com/RobertAudi/tsm) - Adds a [tmux](https://tmux.github.io) Session Manager.
 * [tumult](https://github.com/unixorn/tumult.plugin.zsh) - Adds tools for macOS.
