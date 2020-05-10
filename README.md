@@ -786,6 +786,7 @@ The project is very active – currently > 2000 commits.
 * [warhol](https://github.com/unixorn/warhol.plugin.zsh) - Configures colorization with [grc](https://github.com/garabik/grc).
 * [watson.zsh](https://github.com/bcho/Watson.zsh) - A plugin for the [watson](https://github.com/TailorDev/Watson) time management system.
 * [wd](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in ZSH, without using `cd`. Why? Because `cd` seems inefficient when the folder is frequently visited or has a long path.
+* [wdnote](https://github.com/Vesdii/zsh-wdnote) - Prints the contents of a `.wdnote` if present upon changing directories.
 * [web-search](https://github.com/sinetoami/web-search) - Add commands to run bing, google, yahoo, & duckduckgo searches directly from the CLI.
 * [whobrokemycode](https://github.com/cameronbroe/whobrokemycode) - Highlight where a particular line was last changed in a file using `git blame`.
 * [windows-title](https://github.com/mdarocha/zsh-windows-title/issues) - Dynamically updates terminal window title with current directory and the last command run.
