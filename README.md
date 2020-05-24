@@ -841,6 +841,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [autopkg-zsh-completion](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg.
 * [aws-completions](https://github.com/eastokes/aws-plugin-zsh) - Adds completion support for `awscli` to manage AWS profiles/regions and display them in the prompt.
 * [aws_manager completions](https://github.com/EslamElHusseiny/aws_manager_plugin) - Add completions for the aws_manager CLI.
+* [bash-completions-fallback](https://github.com/3v1n0/zsh-bash-completions-fallback) - Support `bash` completions for commands when no native ZSH one is available.
 * [bazel](https://github.com/jackwish/bazel) - A copy of the zsh completion script from the official [bazel](https://raw.githubusercontent.com/bazelbuild/bazel/64d9a4d6dcd720a3b7a60ff550a17a7707dd41d0/scripts/zsh_completion/_bazel) repo.
 * [berkshelf-completions](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf.
 * [better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) - Better tab completion for `npm`.
