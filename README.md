@@ -852,7 +852,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) - Better tab completion for `npm`.
 * [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion.
 * [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services.
-* [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool [buidler.dev](https://github.com/gonzalobellino/buidler-zsh/blob/master/buidler.dev).
+* [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool [buidler.dev](https://buidler.dev).
 * [cabal-completion](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal.
 * [cabal](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal.
 * [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
