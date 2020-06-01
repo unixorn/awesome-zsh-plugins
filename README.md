@@ -1524,6 +1524,10 @@ Most of these plugins can be installed by adding `zgen load githubuser/reponame`
 
 Most of these plugins can be installed by adding `zplug "githubuser/reponame"` to your `.zshrc` file.
 
+### [zpm](https://github.com/zpm-zsh/zpm)
+
+Most of these plugins can be installed by adding `zpm load "githubuser/reponame"` to your `.zshrc` file.
+
 ## Writing New Plugins
 
 I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
