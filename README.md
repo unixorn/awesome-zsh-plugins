@@ -68,6 +68,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
   - [zplug](#zplug-1)
+  - [zpm](#zpm-1)
 - [Writing New Plugins](#writing-new-plugins)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
