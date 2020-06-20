@@ -199,7 +199,7 @@ You can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view 
 
 The project is very active – currently > 2000 commits.
 
-### [zit](https://github.com/m45t3r/zit)
+### [zit](https://github.com/thiagokokada/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from Git repositories (and Git repositories only, them why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, PATH manipulation and others.
 
@@ -578,6 +578,7 @@ The project is very active – currently > 2000 commits.
 * [lazyload](https://github.com/qoomon/zsh-lazyload) - Lazy load commands and speed up start up time of ZSH.
 * [lesaint-git](https://github.com/lesaint/lesaint-git) - Replacement `git` plugin for Oh-My-Zsh-compatible frameworks.
 * [lesaint-mvn](https://github.com/lesaint/lesaint-mvn) - Maven plugins for oh-my-zsh.
+* [linkfile](https://github.com/JaumeRF/linkfile-zsh) - Add shortcuts to your favorite directories.
 * [linus-rants](https://github.com/bhayward93/Linus-rants-ZSH) - Outputs a random Linus Torvalds rant when opening a terminal.
 * [linuxbrew](https://github.com/zpm-zsh/linuxbrew) - ZSH plugin for [linuxbrew](http://linuxbrew.sh/).
 * [listbox](https://github.com/gko/listbox) - Listbox element for shell.
@@ -654,6 +655,7 @@ The project is very active – currently > 2000 commits.
 * [phpunit](https://github.com/voronkovich/phpunit.plugin.zsh) - Plugin for [PHPUnit](https://phpunit.de/).
 * [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct Python virtualenvs so they don't conflict with any other python requirements on your system.
 * [pip-env](https://github.com/iboyperson/zsh-pipenv) - Automatic [pipenv](https://pipenv.readthedocs.io/en/latest/) activation upon entry into a pipenv project.
+* [pkenv](https://github.com/ptavares/zsh-pkenv) - Installs and loads [pkenv](https://github.com/iamhsa/pkenv.git)
 * [plugin-ibtool](https://github.com/rgalite/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files.
 * [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
 * [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for macOS, Windows, and Linux.
