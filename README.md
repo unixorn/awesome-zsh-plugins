@@ -312,7 +312,7 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 
 ### Zinit (née zplugin)
 
-* [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:
+* [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:. Includes powerline, fzf integration, Weather and image viewing in some terminals.
 * [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zinit invocations.
 
 ## Plugins
