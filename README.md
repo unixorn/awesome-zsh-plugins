@@ -703,6 +703,7 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 * [rbenv (Meroje)](https://github.com/Meroje/zsh-rbenv) - Inspired by [https://github.com/lukechilds/zsh-nvm/](https://github.com/lukechilds/zsh-nvm/), makes it easier to work with ruby rbenvs.
 * [rbpi](https://github.com/kcousot/rbpi-plugin) - Raspberry Pi utility scripts.
 * [rc-files](https://github.com/0b10/rc-files) - Adds shortcut functions for editing various rc files.
+* [recall](https://github.com/mango-tree/zsh-recall) - Makes using command history easier.
 * [redis](https://github.com/zservices/redis) - Will run `redis-server` pointing it to the `redis.conf` configuration file. This can be used with the [zdharma/zredis](https://github.com/zdharma/zredis) plugin to share variables between shells.
 * [reentry-hook](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
 * [reminder](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - A plugin which displays reminders above every prompt.
