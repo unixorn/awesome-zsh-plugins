@@ -34,6 +34,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [pumice](#pumice)
   - [sheldon](#sheldon)
   - [Toasty](#toasty)
+  - [uz](#uz)
   - [zapack](#zapack)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
@@ -158,6 +159,10 @@ A fast, configurable, shell plugin manager.
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
+
+### [uz](https://github.com/maxrodrigo/uz)
+
+A ZSH micro plugin manager.
 
 ### [zapack](https://github.com/aiya000/zsh-zapack)
 
