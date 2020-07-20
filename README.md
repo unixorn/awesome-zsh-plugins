@@ -50,6 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ZR](#zr)
   - [zshing](#zshing)
   - [ztanesh](#ztanesh)
+  - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
@@ -271,6 +272,10 @@ The project is very active – currently > 2000 commits.
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
 **Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
+
+### [ztheme](https://github.com/SkyyySi/ztheme)
+
+ztheme is a small and fast theme engine for ZSH.
 
 ### [ztupide](https://github.com/mpostaire/ztupide)
 
@@ -1468,7 +1473,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with a [Solarized](https://github.com/altercation/solarized) color scheme.
 * [wade](https://github.com/wadehammes/wade.zsh-theme) - Mashup of the popular ZSH themes [Agnoster](https://gist.github.com/agnoster/3712874) and [Fishy](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/fishy.zsh-theme), with some visual tweaks.
 * [wang-iterm](https://github.com/0532/wang-iterm-zsh) - Based on the 0532 theme.
-* [webicons](https://github.com/Jmclerck/webicons.zsh-theme) - Includes `git` status, node and yarn versions in prompt.
 * [whale](https://github.com/whalesea520/whale-zsh-theme) - Fast reimplementation of the whale theme.
 * [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou.
 * [work-line](https://github.com/afnizarnur/work-line) - Theme with nice emojis.
