@@ -50,6 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ZR](#zr)
   - [zshing](#zshing)
   - [ztanesh](#ztanesh)
+  - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
 - [Tutorials](#tutorials)
@@ -271,6 +272,10 @@ The project is very active – currently > 2000 commits.
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
 **Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
+
+### [ztheme](https://github.com/SkyyySi/ztheme)
+
+ztheme is a small and fast theme engine for ZSH.
 
 ### [ztupide](https://github.com/mpostaire/ztupide)
 
