@@ -10,8 +10,9 @@
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
 - [ ] A link to an external resource like a blog post
-- [ ] Add/remove a tab completion
+- [ ] Add/remove a framework
 - [ ] Add/remove a plugin
+- [ ] Add/remove a tab completion
 - [ ] Add/remove a theme
 - [ ] Text cleanups/typo fixes
 
@@ -22,7 +23,7 @@
 # Checklist:
 
 <!---
-Go over all the following points, and put an `x` in all the boxes that apply. 
+Go over all the following points, and put an `x` in all the boxes that apply.
 
 You only need to check the box for completions/plugins/themes if you added something in those categories
 -->
