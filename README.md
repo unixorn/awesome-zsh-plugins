@@ -331,6 +331,23 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:. Includes powerline, fzf integration, Weather and image viewing in some terminals.
 * [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zinit invocations.
 
+### ZSH on Windows
+
+* [superconsole](https://github.com/alexchmykhalo/superconsole) - Windows-only.
+
+  * ConEmu/zsh out-of-the-box configured to restore previously opened tabs and shell working directories after ConEmu restart
+  * Choose between clean and inherited environment when starting new SuperConsole sessions
+  * Custom colorful scheme, colorful output for various commands
+  * MSYS2 included, `zsh` and necessary software preinstalled, uses zsh-grml-config
+  * Uses Antigen for ZSH theme and config management
+  * Enabled number of ZSH plugins to activate completion, highlighting and history for most comfortable use
+  * Git-for-Windows repo with proper `git` and git lfs support for MSYS2 environment is configured, `git` client already installed.
+  * `ssh-agent` for `git` works out-of-box, add your keys to `ConEmu/msys64/ConEmu/msys64/home/user/.ssh` dir
+  * Non-blocking ZSH prompt status updates thanks to agkozak-zsh-prompt
+  * Customized for MSYS2 command-not-found handler suggests what package to install
+  * Sets up `nano` as main editor, enables `nano` syntax highlighting
+  * Custom helper scripts added to `ConEmu/msys64/3rdparty`
+
 ## Plugins
 
 * [256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen `TERM` environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
