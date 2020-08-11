@@ -87,7 +87,10 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 These frameworks make customizing your ZSH setup easier.
 
-[zdharma](https://github.com/zdharma) collected some interesting performance timing comparisons of various frameworks at [zdharma/pm-perf-test](https://github.com/zdharma/pm-perf-test).
+You can find some interesting performance timing comparisons of various frameworks in the following locations.
+
+* [zdharma/pm-perf-test](https://github.com/zdharma/pm-perf-test)
+* [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark)
 
 ### [alf](https://github.com/psyrendust/alf)
 
