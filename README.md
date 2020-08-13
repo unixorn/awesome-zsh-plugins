@@ -308,6 +308,7 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 ### Antigen
 
 * [belak/zsh-utils](https://github.com/belak/zsh-utils) - A minimal set of ZSH plugins designed to be low-friction and low-complexity.
+* [Frictionless zsh And oh-my-zsh Management With Antigen](https://thorsten-hans.com/frictionless-zsh-and-oh-my-zsh-management-with-antigen) - Guides you through the setup process and demonstrates how to manage plugins and themes with Antigen to tailor your ZSH experience.
 * [mgdm.net/weblog/zsh-antigen/](https://mgdm.net/weblog/zsh-antigen/) - Michael Maclean's article about switching from oh-my-zsh to antigen.
 * [Oh-my-zsh is the Disease and Antigen is the Vaccine](https://joshldavis.com/2014/07/26/oh-my-zsh-is-a-disease-antigen-is-the-vaccine/) - Josh Davis' introduction to Antigen.
 
