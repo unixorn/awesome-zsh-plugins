@@ -569,7 +569,7 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 * [hacker-quotes](https://github.com/oldratlee/hacker-quotes) - Outputs a hacker quote randomly when you open a terminal.
 * [hadoop-plugin](https://github.com/valek/zsh-hadoop-plugin) - Adds some convenience aliases for hadoop functions.
 * [hanami](https://github.com/davydovanton/hanami-zsh) - ZSH plugin for [hanami](http://hanamirb.org) projects.
-* [hangul](https://github.com/gomjellie/zsh-hangul) - auto translate to english when you type hangul(한글, korean) by mistake
+* [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to english when it was supposed to type english.
 * [hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 * [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 * [histdb](https://github.com/larkery/zsh-histdb) - Stores your history in an SQLite database.
