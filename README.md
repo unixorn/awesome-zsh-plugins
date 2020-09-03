@@ -1131,6 +1131,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [dkniffin](https://github.com/dkniffin/zsh-theme) - Includes `ruby` version and `git` status.
 * [dmx](https://github.com/domix/dmx.zsh-theme) - Optimized for dark terminal windows.
 * [dp](https://github.com/davidparsson/zsh-dp-theme) - Low contrast theme that shows current git branch, if the repository is dirty and the value of `$PYENV_VERSION`.
+* [Dr4kk0nnys_v2](https://github.com/Dr4kk0nnys/Dr4kk0nnys_theme_ohmyzsh_v2/) - Works well on dark backgrounds, includes `git` status decorations.
 * [dracula](https://github.com/dracula/zsh) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm 2, Sublime Text, Textmate, Terminal.app, Vim, Xcode, and ZSH.
 * [dragon](https://github.com/sabertazimi/dragon-zsh-theme) - Minimalistic, includes `git` status information.
 * [droolscar](https://github.com/isuke/droolscar) - [Powerline](https://github.com/powerline/powerline) variant.
