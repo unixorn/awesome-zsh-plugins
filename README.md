@@ -1126,6 +1126,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [delta-prompt](https://github.com/cusxio/delta-prompt) - A minimal ZSH prompt.
 * [delta](https://github.com/dongri/delta-zsh-theme) - Another minimal theme with embedded `git` status.
 * [dexter](https://github.com/shvenkat/zsh-theme-dexter) - A theme with an emphasis on the right side (hence the name) of the terminal.
+* [dino](https://github.com/OdilonDamasceno/dino-zsh-theme) - Includes decorations for node, golang, flutter, lua, python & java, also includes `git` decorations. Requires nerdfonts.
 * [dissonance](https://github.com/RyanScottLewis/theme-dissonance-zsh) - Comes with custom LSCOLORS and LS_COLORS settings files, works with both dark and light terminal themes.
 * [diy-ys](https://github.com/aprilnops/zsh-theme) - Variant of [ys](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/ys.zsh-theme) without hostname or time.
 * [dkniffin](https://github.com/dkniffin/zsh-theme) - Includes `ruby` version and `git` status.
@@ -1505,7 +1506,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [tsotra](https://github.com/nylo-andry/zsh-themes) - Minimalist theme, includes `git` status decorations, k8s context, and `rvm` status.
 * [tvline](https://github.com/thvitt/tvline) - Derived from the [agnoster](https://gist.github.com/agnoster/3712874) theme, adds powerline font enhancements.
 * [type0](https://github.com/MikereDD/type0_zsh-theme) - Inspired by [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) by yarisgutierrez. Includes `git` decorations.
-* [typewritten](https://github.com/reobin/typewritten) - Minimal and informative theme that leaves room for what's important.
+* [typewritten](https://github.com/reobin/typewritten) - Minimal and informative theme that leaves room for what's important. Does asynchronous `git` decoration updates for speed.
 * [ubuntu-ish](https://github.com/Thesola10/zsh-ubuntu-ish) - Mimics the default Debian/Ubuntu `bash` prompt.
 * [ubuntu-with-vitamins](https://github.com/ureesoriano/zsh-ubuntu-with-vitamins-zim-theme) - Mimics the default Ubuntu prompt, but with `git` decorations.
 * [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme with `git` indicator, vim mode indicator and shortened path.
