@@ -53,6 +53,8 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
+- [Setups](#setups)
+  - [zgen](#zgen-1)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen)
@@ -60,6 +62,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Prezto](#prezto)
   - [Zgen](#zgen)
   - [Zinit (née zplugin)](#zinit-n%C3%A9e-zplugin)
+  - [ZSH on Windows](#zsh-on-windows)
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
@@ -293,6 +296,14 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 * Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
 * Install packages, plugins and themes easily, and have them available to you immediately.
 
+## Setups
+
+This section is for full setup dropins - they aren't frameworks, but they're not simple plugins/themes either.
+
+### zgen
+
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
+
 ## Tutorials
 
 ### Generic ZSH
@@ -328,7 +339,6 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 ### Zgen
 
 * [rad-shell](https://github.com/brandon-fryslie/rad-shell) - A fantastically feature rich, lightning-fast shell setup, powered by [ZSH](http://www.zsh.org/), [Prezto](https://github.com/sorin-ionescu/prezto), and [Zgen](https://github.com/tarjoilija/zgen).
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
 ### Zinit (née zplugin)
 
