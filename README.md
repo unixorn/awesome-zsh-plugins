@@ -59,7 +59,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen)
-  - [Oh-My-Zsh](#oh-my-zsh)
+  - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto)
   - [Zgen](#zgen)
   - [Zinit (née zplugin)](#zinit-n%C3%A9e-zplugin)
@@ -72,7 +72,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Antibody](#antibody)
   - [Antigen](#antigen-1)
   - [dotzsh](#dotzsh-1)
-  - [Oh-My-Zsh](#oh-my-zsh-1)
+  - [Oh-My-Zsh](#oh-my-zsh-2)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
   - [zplug](#zplug-1)
@@ -1371,6 +1371,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [nothing](https://github.com/eendroroy/nothing) - Lightning fast and really simple because it has almost nothing in it.
 * [nox](https://github.com/kbrsh/nox) - Dark theme, displays the current working directory and git status.
 * [nt9](https://github.com/lenguyenthanh/nt9-oh-my-zsh-theme) - A clean, distraction free and `git` focused development theme. Shows path relative to `git` root (or ~ when outside `git` repo), time since last commit, current SHA, branch and branch state.
+* [nunorc](https://github.com/nunorc/nunorc.zsh-theme) - Minimalist theme, works well on dark backgrounds. Includes `git`, `mercurial` and `svn` satus decorations.
 * [nuqlezsh](https://github.com/Nuqlear/nuqlezsh.zsh-theme) - A simple theme for prezto and oh-my-zsh.
 * [nuts](https://github.com/rafaelsq/nuts.zsh-theme) - Minimalist theme, includes `git` status decorations and time.
 * [odin](https://github.com/tylerreckart/odin) - Odin is a `git`-flavored ZSH theme.
