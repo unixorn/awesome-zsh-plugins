@@ -55,7 +55,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zulu](#zulu)
 - [Setups](#setups)
   - [zgen](#zgen-1)
-  - [Oh-My-Zsh](#oh-my-zsh)
+  - [zinit](#zinit)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen)
@@ -305,16 +305,16 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 * [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
-### Oh-My-Zsh
+### zinit
 
-* [zpwr](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment with Zsh as interactive shell built on top of [oh-my-zsh](http://ohmyz.sh/).  It is a full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:
+* [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma/zinit) for maximum speed.  A full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:
 
 - 11200+ tab completions
 - 1800+ aliases
 - 300+ git aliases
-- 260+ zpwr subcommands
+- 265+ zpwr subcommands
 - 1300+ functions
-- 105+ zpwr environment variables
+- 110+ zpwr environment variables
 - 165+ perl, python, bash, zsh scripts
 - 2600k line README.md
 - 40k+ LOC
