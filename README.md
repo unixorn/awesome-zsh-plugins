@@ -180,23 +180,23 @@ To do this, `zgen` generates a static `init.zsh` file which does nothing but sou
 
 ### [Zinit](https://github.com/zdharma/zinit)
 
-**Zinit** is an innovative and currently the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
+**Zinit** is an innovative and probably (because of the Turbo) the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
 
-- [Turbo mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53) – **80%** faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms!,
-- reports (from the plugin loads – plugins are no longer black boxes!),
+- [**Turbo mode**](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53) – **80%** faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms,
 - completion management (selectively disable and enable completions),
-- snippets (regular files downloaded via-URL e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
-- annexes (Zinit [extensions](https://github.com/zinit-zsh)),
+- snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
+- annexes (↔ Zinit [**extensions**](https://github.com/zinit-zsh)),
+- reports (from the plugin loads – plugins are no longer black boxes),
 - plugin unloading (allows e.g.: dynamic theme switching),
-- `bindkey` [catching and remapping](https://zdharma.org/zinit/wiki/Bindkeys/#using_the_upar_etc_shorthands),
-- [packages](https://github.com/Zsh-Packages),
-- clean fpath,
-- [services](https://github.com/zservices),
-- and all the mechanisms from the [Zsh Plugin Standard](http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html) – Zinit is a reference implementation of the standard.
+- `bindkey` [**capturing and remapping**](https://zdharma.org/zinit/wiki/Bindkeys/#using_the_upar_etc_shorthands),
+- [**packages**](https://github.com/Zsh-Packages),
+- clean fpath (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated),
+- [**services**](https://github.com/zservices) ↔ a single-instance, background plugins,
+- also, in general: all the mechanisms from the [Zsh Plugin Standard](http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html) – Zinit is a reference implementation of the standard.
 
-You can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session and to delete the plugins and snippets from the disk.
+Bonus: you can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
-The project is very active – currently > 2000 commits.
+The project is very active – currently > 3000 commits.
 
 ### [zit](https://github.com/m45t3r/zit)
 
