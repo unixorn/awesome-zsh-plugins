@@ -29,7 +29,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [oh-my-zsh](#oh-my-zsh)
-  - [PMS pms](#pms-pms)
+  - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [sheldon](#sheldon)
@@ -136,7 +136,7 @@ You can find some interesting performance timing comparisons of various framewor
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
-### PMS [pms](https://github.com/JoshuaEstes/pms)
+### [PMS](https://github.com/JoshuaEstes/pms)
 
 PMS allows you to manage your shell in a way to that helps decrease setup time and increases your productivity. It has support for themes (change the way your shell looks), plugins (adds functionality to your shell), and dotfile management.
 
