@@ -1649,6 +1649,7 @@ I've documented some recommendations for writing a new plugin [here](https://git
 
 ### ZSH Tools
 
+* [ShellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 * [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger
 * [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH
 
