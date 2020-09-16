@@ -43,6 +43,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zim](#zim)
   - [Zinit](#zinit)
   - [zit](#zit)
+  - [znap](#znap)
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
   - [zplug](#zplug)
@@ -221,6 +222,12 @@ The project is very active – currently > 3000 commits.
 ### [zit](https://github.com/thiagokokada/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from Git repositories (and Git repositories only, them why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, PATH manipulation and others.
+
+### [znap](https://github.com/marlonrichert/zsh-snap)
+
+**Znap** is a light-weight plugin manager for Zsh that's easy to grok.
+
+Consisting of only ~4 kilobytes of source code, Znap does everything you need from a plugin manager, but without any bloat.
 
 ### [zoppo](https://github.com/zoppo/zoppo)
 
