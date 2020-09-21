@@ -1466,6 +1466,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ryner](https://github.com/DoctorRyner/ryner-zsh-theme) - Colorful theme, includes `git` decorations and the current directory.
 * [rzh](https://github.com/patwhatev/rzh) - Theme with git states indicated by emojis.
 * [s1ck94](https://github.com/zimfw/s1ck94) - Fork of the (first deprecated, now extinct) minimal prompt by S1cK94. Shows whether user is root, background job status, vi-mode, exit status of last command, and `git` status decorations.
+* [s7c](https://github.com/Samega7Cattac/s7c.zsh-theme) - Works well with dark backgrounds. Includes `git` status decorations.
 * [saltgen](https://github.com/saltgen/ohmyzsh-saltgen-theme) - Variant of the robbyrussell oh-my-zsh theme.
 * [samshell](https://github.com/samuelb/samshell) - A minimalist zsh theme with `git`, kubernetes and python virtualenv decorations.
 * [saraiva](https://github.com/ruisaraiva19/saraiva-theme) - Includes `git` status decorations, works well on a dark terminal background.
