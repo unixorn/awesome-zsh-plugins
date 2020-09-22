@@ -203,16 +203,16 @@ To do this, `zgen` generates a static `init.zsh` file which does nothing but sou
 
 **Zinit** is an innovative and probably (because of the Turbo) the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
 
-- [**Turbo mode**](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53) – **80%** faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms,
+- [Turbo mode](http://zdharma.org/zinit/wiki/INTRODUCTION/#turbo_mode_zsh_62_53) – 80% faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms,
 - completion management (selectively disable and enable completions),
 - snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
-- annexes (↔ Zinit [**extensions**](https://github.com/zinit-zsh)),
+- annexes (↔ Zinit [extensions](https://github.com/zinit-zsh)),
 - reports (from the plugin loads – plugins are no longer black boxes),
 - plugin unloading (allows e.g.: dynamic theme switching),
-- `bindkey` [**capturing and remapping**](https://zdharma.org/zinit/wiki/Bindkeys/#using_the_upar_etc_shorthands),
-- [**packages**](https://github.com/Zsh-Packages),
+- `bindkey` [capturing and remapping](https://zdharma.org/zinit/wiki/Bindkeys/#using_the_upar_etc_shorthands),
+- [packages](https://github.com/Zsh-Packages),
 - clean fpath (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated),
-- [**services**](https://github.com/zservices) ↔ a single-instance, background plugins,
+- [services](https://github.com/zservices) ↔ a single-instance, background plugins,
 - also, in general: all the mechanisms from the [Zsh Plugin Standard](http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html) – Zinit is a reference implementation of the standard.
 
 Bonus: you can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
@@ -225,9 +225,17 @@ The project is very active – currently > 3000 commits.
 
 ### [znap](https://github.com/marlonrichert/zsh-snap)
 
-**Znap** is a light-weight plugin manager for Zsh that's easy to grok.
+**:zap:Znap** is a light-weight plugin manager for Zsh that's easy to grok.
 
-Consisting of only ~4 kilobytes of source code, Znap does everything you need from a plugin manager, but without any bloat.
+Consisting of just ~16 kilobytes of source code (9 KB zipped), Znap does everything you need from a plugin manager, but without any bloat.
+
+Znap can:
+
+- Make any prompt appear instantly. Reduce your startup time from ~200ms to ~40ms with just one command.
+- Asynchronously compile your plugins and functions.
+- Cache those expensive `eval $(commands)`.
+- Clone or pull multiple repos in parallel.
+- Re-clone all your repos without you having to re-enter them.
 
 ### [zoppo](https://github.com/zoppo/zoppo)
 
