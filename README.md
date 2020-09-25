@@ -133,6 +133,14 @@ You can find some interesting performance timing comparisons of various framewor
 
 **fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as Bundler for your dot files.
 
+### [miniplug](https://github.com/YerinAlexey/miniplug)
+
+**miniplug** is a minimalistic plugin manager for ZSH.
+
+* No crashes or double plugin loading when re-sourcing .zshrc
+* Unlike other frameworks, Miniplug does not pollute your $PATH
+* Only does the bare minimum for managing plugins
+
 ### [oh-my-zsh](https://ohmyz.sh/)
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
@@ -782,7 +790,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [proxy](https://github.com/SukkaW/zsh-proxy) - Configure your proxy settings.
 * [pyenv-lazy-load](https://github.com/erikced/zsh-pyenv-lazy-load) - Plugin for lazy-loading `pyenv` in ZSH.
 * [pyenv-lazy](https://github.com/davidparsson/zsh-pyenv-lazy) - Lazy load pyenv. The initial `eval "$(pyenv init -)"` is executed the first time `pyenv` is called.
-* [pyenv](https://github.com/mattberther/zsh-pyenv) - Inspired by zsh-rbenv. Installs, updates or loads `pyenv`.
+* [pyenv](https://github.com/mattberther/zsh-pyenv) - Inspired by zsh-rbenv. Installs, updates or loads `pyenv`, and adds extra functionality.
 * [q (cal2195)](https://github.com/cal2195/q) - Add `vim`-like macro registers to your ZSH shell.
 * [q (tomsquest)](https://github.com/tomsquest/q.plugin.zsh) - Tail/remove the temp file for [Q](https://github.com/y0ssar1an/q), the Dirty Debugging Tool.
 * [quoter](https://github.com/pxgamer/quoter-zsh) - Display a random quote when opening a new terminal session.
