@@ -2,11 +2,14 @@
 
 First and foremost, thanks for the help, I appreciate all of the contributions, and the awesome-zsh-plugins list wouldn't be nearly as complete without them. You may add to the list by submitting a pull request or adding a link in an issue.
 
+I want to be clear that real, useful PRs are welcome. But if you came here just to make a junk PR because you watched that idiot CodeWithHarry's youtube video, _I will report it to DigitalOcean, you will be disqualified from Hacktoberfest and you won't get the free stuff you're trying for._
+
 ## Entry Guidelines
 
 ### General
 
 * Please make sure all new framework, plugin, themes or completions entries have a license file. Some users are particular about the code they use and want to be sure they are compliant with licensing, so please make sure it's easy for them to determine what the license is. I am aware that there are existing entries without licenses, they were added before I instituted the license policy.
+
 * Descriptions should be clear, concise, and non-promotional.
 * The list is split into sections for frameworks, plugins, themes and completions, please add your entries to the appropriate section(s). If an entry is a plugin that provides both plugin functionality and tab completions, add it to the plugins section. If an entry is a plugin that provides both plugin functionality and a theme, please add it to the theme section. The completions section is meant for projects that only provide extra tab completions.
 * Descriptions should follow the link, on the same line, with capitalization consistent with the other entries in the section.
