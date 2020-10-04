@@ -28,6 +28,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ax-zsh](#ax-zsh)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
+  - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
   - [prezto](#prezto)
