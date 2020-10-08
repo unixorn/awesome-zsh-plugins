@@ -40,6 +40,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
+  - [zgenom](#zgenom)
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
@@ -77,7 +78,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
-  - [zgenom](#zgenom)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins](#writing-new-plugins)
@@ -200,6 +200,10 @@ zapack is a basic fast minimal ZSH plugin loader.
 **Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
 
 To do this, `zgen` generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during startup. The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your plugin list in your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
+
+### [zgenom](https://github.com/jandamm/zgenom)
+
+A lightweight plugin manager for ZSH based on zgen. It is a superset of the brilliant [zgen](https://github.com/tarjoilija/zgen) that provides more features and bugfixes while being fully backwards compatible.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -1669,10 +1673,6 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
 Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repositories for you when you do a `zgen save`.
-
-### [zgenom](https://github.com/jandamm/zgenom)
-
-A lightweight plugin manager for ZSH based on zgen. It is a superset of the brilliant [zgen](https://github.com/tarjoilija/zgen) that provides more features and bugfixes while being fully backwards compatible.
 
 ### [zplug](https://github.com/zplug/zplug)
 
