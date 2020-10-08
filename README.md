@@ -77,6 +77,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
+  - [zgenom](#zgenom)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins](#writing-new-plugins)
@@ -367,6 +368,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### Oh-My-Zsh
 
+* [Oh-My-Zsh! A Work of CLI Magic](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb) - Michiel Mulders installation guide for Ubuntu
 * [ZSH Gem 24](https://www.refining-linux.org/archives/59-ZSH-Gem-24-ZSH-frameworks.html) - Part of the 2011 ZSH Advent Calendar. Covers oh-my-zsh and zshuery.
 
 ### Prezto
@@ -1667,6 +1669,10 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
 Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repositories for you when you do a `zgen save`.
+
+### [zgenom](https://github.com/jandamm/zgenom)
+
+A lightweight plugin manager for ZSH based on zgen. It is a superset of the brilliant [zgen](https://github.com/tarjoilija/zgen) that provides more features and bugfixes while being fully backwards compatible.
 
 ### [zplug](https://github.com/zplug/zplug)
 
