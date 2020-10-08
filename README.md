@@ -69,7 +69,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
-  - [Fonts](#fonts)
+- [Fonts](#fonts)
 - [Installation](#installation)
   - [Antibody](#antibody)
   - [Antigen](#antigen-1)
@@ -1623,7 +1623,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [zwsh](https://github.com/naens/zwsh) - A Zpm3/Wordstar mode/theme for ZSH.
 * [zys](https://github.com/ZYSzys/zys-zsh-theme) - Similar to agnoster-zsh-theme, designed to disclose information contextually, with a powerline aesthetic.
 
-### Fonts
+## Fonts
 
 Some of the themes listed here require Powerline-compatible fonts, here are a few:
 
