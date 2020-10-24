@@ -3,7 +3,11 @@
 
 <!--- # Spam warning
 
-First, I want to be clear that real, useful PRs are welcome. But if you came here to make a useless PR because you watched that idiot CodeWithHarry's youtube video, I will report it to DigitalOcean and you will be disqualified from Hacktoberfest and won't get the free stuff you're trying for.
+First, I want to be clear that real, useful PRs are welcome.
+
+But if you came here to make a useless PR because you watched that idiot CodeWithHarry's youtube video, I will report it to Digital Ocean and you will be disqualified from Hacktoberfest and won't get the free stuff you're trying for.
+
+Second, you _must_ check the box for copyright assignment or I cannot accept your PR.
 
 -->
 
@@ -16,10 +20,10 @@ First, I want to be clear that real, useful PRs are welcome. But if you came her
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
 - [ ] A link to an external resource like a blog post
-- [ ] Add/remove a framework
-- [ ] Add/remove a plugin
-- [ ] Add/remove a tab completion
-- [ ] Add/remove a theme
+- [ ] Add/remove/update a link to a framework
+- [ ] Add/remove/update a link to a plugin
+- [ ] Add/remove/update a link to a tab completion
+- [ ] Add/remove/update a link to a theme
 - [ ] Text cleanups/typo fixes
 
 # Copyright Assignment
@@ -34,11 +38,11 @@ Go over all the following points, and put an `x` in all the boxes that apply.
 You only need to check the box for completions/plugins/themes if you added something in those categories
 -->
 
+- [ ] I have read the **CONTRIBUTING** document.
 - [ ] I have confirmed that the link(s) in my PR are valid.
 - [ ] My entries are single lines and are in the appropriate (plugins, themes or completions) section, and in alphabetical order in their section.
-- [ ] I have read the **CONTRIBUTING** document.
 - [ ] All new and existing tests passed.
 - [ ] Any added completions have a license file in their repository.
 - [ ] Any added plugins have a license file in their repository.
 - [ ] Any added themes have a screen shot and a license file in their repository.
-- [ ] I have stripped leading and trailing **zsh-** or **oh-my-zsh-** substrings from the link name. This makes it easier to find plugins/themes/completions by name since there aren't big clusters in the **O** and **Z** sections of the list.
+- [ ] I have stripped leading and trailing **zsh-**, **zsh-plugin** and/or **oh-my-zsh-** substrings from the link name. This makes it easier to find plugins/themes/completions by name by preventing big clusters in the **O** and **Z** sections of the list.
