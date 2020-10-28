@@ -1,16 +1,6 @@
 <!--- Provide a general summary of your changes in the Title above -->
 <!--- If you're unsure about anything in this checklist, don't hesitate to create a PR and ask. I'm happy to help! -->
 
-<!--- # Spam warning
-
-First, I want to be clear that real, useful PRs are welcome.
-
-But if you came here to make a useless PR because you watched that idiot CodeWithHarry's youtube video, I will report it to Digital Ocean and you will be disqualified from Hacktoberfest and won't get the free stuff you're trying for.
-
-Second, you _must_ check the box for copyright assignment or I cannot accept your PR.
-
--->
-
 # Description
 
 <!--- Describe your changes in detail, ideally [linking](example.com) to the project/resouce in this description. -->
