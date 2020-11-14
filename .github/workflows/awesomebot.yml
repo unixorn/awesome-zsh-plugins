@@ -1,0 +1,18 @@
+name: Awesomebot
+
+on:
+  push:
+    branches: [ '*' ]
+  pull_request:
+    branches: [ '*' ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - uses: docker://dkhamsing/awesome_bot:latest
+      with:
+        args: /github/workspace/README.md  --allow-dupe --request-delay 1 --allow-redirect --white-list https://ipfs.io,slideshare,https://img.shields.io,https://codeclimate.com/github/unixorn/awesome-zsh-plugins,www-s.acm.illinois.edu,https://mgdm.net,https://www.concourse.ci,https://grml.org/zsh/zsh-lovers.html,https://geeknote.me,https://en.ipip.net,https://docs.virtuozzo.com,kubernetes.io,https://youtube-dl.org,https://1password.com,https://iterm2.com,kafka.apache.org
