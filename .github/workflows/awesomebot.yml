@@ -1,4 +1,4 @@
-name: Awesomebot
+name: Check links in README.md
 
 on:
   push:
