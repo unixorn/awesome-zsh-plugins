@@ -1445,7 +1445,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [nmaxcom](https://github.com/nmaxcom/nmaxcom-zsh-theme) - Minimalist ZSH theme with `git` status decorations.
 * [node](https://github.com/skuridin/oh-my-zsh-node-theme) - oh-my-zsh's node theme, broken out to make it easier to use with other plugin managers.
 * [nodeys (marszall87)](https://github.com/marszall87/nodeys-zsh-theme) - Based on the ys theme, with added NodeJS version (from NVM plugin).
-* [nodeys (tianheg)](https://github.com/tianheg/zsh-config) - Based on the ys theme, with added NodeJS version (from NVM plugin).
+* [nodeys (tianheg)](https://github.com/tianheg/config/blob/main/shell/nodeys.zsh-theme) - Based on the ys theme, with added NodeJS version (from NVM plugin).
 * [noon](https://github.com/silky/noon.zsh-theme) - Has light and dark variants, shows `git` information.
 * [nord](https://github.com/TyWR/Nord-zsh) - Includes `git` status decorations and displays the active conda environment.
 * [nothing](https://github.com/eendroroy/nothing) - Lightning fast and really simple because it has almost nothing in it.
