@@ -768,6 +768,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [operator](https://github.com/nivv/operator-theme) - Clean and simple theme, works best with Menlo for Powerline.
 * [opp](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
 * [opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
+* [osx-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 * [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my macOS install.
 * [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
 * [paci](https://github.com/iloginow/zsh-paci) - Plugin for archlinux package managers.
