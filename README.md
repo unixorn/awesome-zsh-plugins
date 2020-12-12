@@ -50,7 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zpacker](#zpacker)
   - [zplug](#zplug)
   - [zpm](#zpm)
-  - [ZR](#zr)
+  - [zr](#zr)
   - [zshing](#zshing)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
@@ -289,9 +289,9 @@ Znap can:
 * zpm runs on Linux, macOS, FreeBSD and Android.
 * zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
 
-### [ZR](https://github.com/jedahan/zr)
+### [zr](https://github.com/jedahan/zr)
 
-**ZR** is a quick, simple ZSH plugin manager written in Rust and easily installable with `cargo install zr`.
+**zr** is a quick, simple ZSH plugin manager written in Rust and easily installable with `cargo install zr`.
 
 ### [zshing](https://github.com/zakariaGatter/zshing)
 
