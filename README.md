@@ -1638,7 +1638,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [theto](https://github.com/victorgama/theto-zsh-theme) - Needs [Nerd Fonts](https://nerdfonts.com/), has `git` status decorations.
 * [thetraveler](https://github.com/bassopenguin/thetraveler) - Inspired by theunraveler, uses symbols to display `git` status.
 * [thnikk](https://github.com/thnikk/zsh-theme-thnikk) - A minimal version of the [spaceship](https://github.com/denysdovhan/spaceship-prompt) theme.
-* [thyme](https://github.com/kawamurakazushi/thyme) - Simple theme with `git` status decorations.
+* [thyme (chenhao-ye)](https://github.com/chenhao-ye/thyme) - Based on [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme), [gnzh](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme), and [bullet-train](https://github.com/caiogondim/bullet-train.zsh/blob/master/bullet-train.zsh-theme).
+* [thyme (kawamurakazushi)](https://github.com/kawamurakazushi/thyme) - Simple theme with `git` status decorations.
 * [topan](https://github.com/fudyartanto/topan-theme-oh-my-zsh) - Includes `git` information; best on dark backgrounds.
 * [tq](https://github.com/kitian616/tq-zsh-theme) - Displays `git` status, time, requires a Powerline font.
 * [traffic](https://github.com/fcce/traffic-zsh-theme) - A dark theme for ZSH.
