@@ -49,6 +49,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
   - [zplug](#zplug)
+  - [zplugr](#zplugr)
   - [zpm](#zpm)
   - [zr](#zr)
   - [zshing](#zshing)
@@ -278,6 +279,10 @@ Znap can:
 - Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin file (`*.plugin.zsh`) required
 - Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
 - Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
+
+### [zplugr](https://github.com/mattmc3/pz)
+
+Too many plugin managers try to do too many things. zplugr isn't a clever plugin manager, it's a smart one. Simple. Easy to understand. Doesn't try to be too much. Does everything you'd want a plugin manager to do and lets you do the rest.
 
 ### [zpm](https://github.com/zpm-zsh/zpm)
 
