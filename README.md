@@ -860,6 +860,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python SimpleHTTPServer and SimpleHTTPSServer.
 * [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
 * [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
+* [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
 * [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 * [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
 * [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
