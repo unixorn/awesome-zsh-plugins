@@ -1449,6 +1449,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [miramare](https://github.com/franbach/oh-my-deepin-miramare) - Includes `git` status decorations. Works best with Deepin Terminal.
 * [misa](https://github.com/misalabs/misa.zsh-theme) - Misalabs' ZSH theme.
 * [mixed](https://github.com/dekermendzhy/mixed-zsh-theme) - Optimized for dark backgrounds.
+* [mnml](https://github.com/mnml-theme/prompt) - Minimal font with `git` status decorations.
 * [mochi2](https://github.com/mochidaz/zsh-themes) - Minimalist theme. Includes `git` and `hg` status decorations.
 * [mochi](https://github.com/mochidaz/zsh-themes) - Simple theme, designed to resemble rust main function. Includes `git` and `hg` status decorations.
 * [moderno](https://github.com/obrassard/moderno-zsh) - A simple and modern ZSH theme inspired by the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme from Oh-My-ZSH. Includes `git` status decorations.
