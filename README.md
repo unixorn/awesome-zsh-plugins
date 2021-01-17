@@ -33,6 +33,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [pz](#pz)
   - [sheldon](#sheldon)
   - [Toasty](#toasty)
   - [uz](#uz)
@@ -49,7 +50,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
   - [zplug](#zplug)
-  - [zplugr](#zplugr)
   - [zpm](#zpm)
   - [zr](#zr)
   - [zshing](#zshing)
@@ -160,6 +160,11 @@ PMS allows you to manage your shell in a way to that helps decrease setup time a
 
 **Pumice** is a lightweight plugin manager for ZSH.
 
+### [pz](https://github.com/mattmc3/pz)
+
+A plugin manager for ZSH doesn't have to be complicated to be powerful. PZ doesn't try to be clever when it can be smart. PZ is a full featured, fast, and easy to understand plugin manager encapsulated in a single file with about 200 lines of clean ZSH.
+
+PZ does just enough to manage your ZSH plugins really well, and then gets out of your way.
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
 A fast, configurable, shell plugin manager.
@@ -279,10 +284,6 @@ Znap can:
 - Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin file (`*.plugin.zsh`) required
 - Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
 - Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
-
-### [zplugr](https://github.com/mattmc3/pz)
-
-Too many plugin managers try to do too many things. zplugr isn't a clever plugin manager, it's a smart one. Simple. Easy to understand. Doesn't try to be too much. Does everything you'd want a plugin manager to do and lets you do the rest.
 
 ### [zpm](https://github.com/zpm-zsh/zpm)
 
