@@ -33,6 +33,7 @@ You only need to check the box for completions/plugins/themes if you added somet
 - [ ] My entries are single lines and are in the appropriate (plugins, themes or completions) section, and in alphabetical order in their section.
 - [ ] All new and existing tests passed.
 - [ ] Any added completions have a license file in their repository.
+- [ ] Any added frameworks have a license file in their repository.
 - [ ] Any added plugins have a license file in their repository.
 - [ ] Any added themes have a screen shot and a license file in their repository.
 - [ ] I have stripped leading and trailing **zsh-**, **zsh-plugin** and/or **oh-my-zsh-** substrings from the link name. This makes it easier to find plugins/themes/completions by name by preventing big clusters in the **O** and **Z** sections of the list.
