@@ -1419,7 +1419,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [linuxer](https://github.com/patrick330602/linuxer) - Inspired by Yaris Alex Gutierrez's [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh), Yad Smood's ys, and Bureau theme.
 * [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt with useful information when you need it. It shows you what you need when you need it. You will notice what changes when it changes, saving time and frustration.
 * [llama](https://github.com/PsychoLlama/llama.zsh-theme) - Minimalist theme used by discerning llamas.
-* [logico](https://github.com/logico-software/logico-zsh-theme) - Has `git` decorations. Shows remote status and indicator for vi-mode.
+* [logico](https://github.com/logico/logico-zsh-theme) - Has `git` decorations. Shows remote status and indicator for vi-mode.
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
 * [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of lambda-mod theme. Has `git` decorations, requires a powerline-compatible terminal font.
 * [luke](https://github.com/xueguangl23/luke_zsh_theme) - Includes `git` decorations. Based on the [frisk](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh theme.
@@ -1454,7 +1454,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [miramare](https://github.com/franbach/oh-my-deepin-miramare) - Includes `git` status decorations. Works best with Deepin Terminal.
 * [misa](https://github.com/misalabs/misa.zsh-theme) - Misalabs' ZSH theme.
 * [mixed](https://github.com/dekermendzhy/mixed-zsh-theme) - Optimized for dark backgrounds.
-* [mnml](https://github.com/mnml-theme/prompt) - Minimal font with `git` status decorations.
+* [mnml](https://github.com/mnml-theme/prompt) - Minimal theme with `git` status decorations.
 * [mochi2](https://github.com/mochidaz/zsh-themes) - Minimalist theme. Includes `git` and `hg` status decorations.
 * [mochi](https://github.com/mochidaz/zsh-themes) - Simple theme, designed to resemble rust main function. Includes `git` and `hg` status decorations.
 * [moderno](https://github.com/obrassard/moderno-zsh) - A simple and modern ZSH theme inspired by the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme from Oh-My-ZSH. Includes `git` status decorations.
