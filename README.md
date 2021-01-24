@@ -862,6 +862,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
 * [session-sauce](https://github.com/ChrisPenner/session-sauce) - An fzf interface for tmux session creation and management for all your projects.
 * [setenv](https://github.com/kalpakrg/setenv) - Runs a script when you change directories.
+* [shelf](https://github.com/ecmma/shelf) -Utility which can be used to bookmark and access directly any file using mnemonics.
 * [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python SimpleHTTPServer and SimpleHTTPSServer.
 * [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
 * [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
