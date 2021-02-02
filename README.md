@@ -29,6 +29,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [miniplug](#miniplug)
+  - [mzpm](#mzpm)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
   - [prezto](#prezto)
@@ -142,6 +143,10 @@ You can find some interesting performance timing comparisons of various framewor
 * No crashes or double plugin loading when re-sourcing .zshrc
 * Unlike other frameworks, Miniplug does not pollute your $PATH
 * Only does the bare minimum for managing plugins
+
+### [mzpm](https://github.com/Insert-Creative-Name-Here/mzpm)
+
+**mzpm** is a minimalist plugin manager for ZSH.
 
 ### [oh-my-zsh](https://ohmyz.sh/)
 
