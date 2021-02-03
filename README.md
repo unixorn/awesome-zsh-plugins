@@ -249,9 +249,9 @@ The project is very active – currently > 3000 commits.
 
 ### [znap](https://github.com/marlonrichert/zsh-snap)
 
-**:zap:Znap** is a light-weight plugin manager for Zsh that's easy to grok.
+**:zap:Znap** is a light-weight plugin manager & Git repo manager for ZSH that's easy to grok. While tailored for ZSH plugins specifically, Znap also functions as a general-pupose utility for managing Git repos.
 
-Consisting of just ~16 kilobytes of source code (9 KB zipped), Znap does everything you need from a plugin manager, but without any bloat.
+Znap
 
 Znap can:
 
@@ -260,6 +260,8 @@ Znap can:
 - Cache those expensive `eval $(commands)`.
 - Clone or pull multiple repos in parallel.
 - Re-clone all your repos without you having to re-enter them.
+- Multi-repo management
+- Automatic `compinit` and `bashinit` - you no longer need them in your `.zshrc`, znap will do them automatically as needed.
 
 ### [zoppo](https://github.com/zoppo/zoppo)
 
