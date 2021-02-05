@@ -1536,7 +1536,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [palenight (rhklite)](https://github.com/rhklite/palenight_zsh_theme) - Shows detailed `git` status information with icons in the prompt.
 * [panda](https://github.com/davymai/oh-my-zsh-panda-theme) - Includes `git` and `root` status decorations. Best on a dark background.
 * [papercolor](https://github.com/erikschreier/PaperColor-themes) - Color scheme for ZSH, `vim` and `tmux`. Includes `git` status decorations.
-* [parrot](https://github.com/kennedy69/parrot-zsh-theme) - Imitates Parrot Security prompt, includes [tmux](https://github.com/tmux/tmux) configuration file.
 * [passion](https://github.com/ChesterYue/ohmyzsh-theme-passion) - Includes `git` status decorations, command run time in milliseconds. Requires coreutils on macOS.
 * [pastel](https://github.com/iboyperson/pastel) - A ZSH theme inspired by [sugar-free](https://github.com/cbrock/sugar-free). Includes `git` decorations.
 * [pentesters](https://github.com/sdcampbell/lpha3cho-Oh-My-Zsh-theme-for-pentesters) - Modified version of the [intheloop](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/intheloop.zsh-theme) theme for pentesters which includes the date, time, and IP address for pentest logging.
