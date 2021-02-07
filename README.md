@@ -350,15 +350,15 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 * [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma/zinit) for maximum speed.  A full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:
 
-- 11200+ tab completions
-- 1800+ aliases
-- 300+ git aliases
-- 265+ zpwr subcommands
-- 1300+ functions
-- 110+ zpwr environment variables
-- 165+ perl, python, bash, zsh scripts
-- 2600k line README.md
-- 40k+ LOC
+- 11.5k+ tab completions
+- 1.9k+ aliases
+- 330+ git aliases
+- 350+ zpwr subcommands
+- 2.1k functions
+- 150+ zpwr environment variables
+- 170+ perl, python, bash, zsh scripts
+- 2.8k line README.md
+- 46k+ LOC
 - 1 line install
 
 ## Tutorials
