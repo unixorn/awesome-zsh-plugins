@@ -38,6 +38,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [sheldon](#sheldon)
   - [Toasty](#toasty)
   - [uz](#uz)
+  - [yazt](#yazt)
   - [zapack](#zapack)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
@@ -192,6 +193,10 @@ A fast, configurable, shell plugin manager.
 ### [uz](https://github.com/maxrodrigo/uz)
 
 A ZSH micro plugin manager.
+
+### [yazt](https://github.com/bashelled/yazt)
+
+Yazt is a simple zsh theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in bash.
 
 ### [zapack](https://github.com/aiya000/zsh-zapack)
 
