@@ -1054,6 +1054,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
 * [completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 * [conda-zsh-completion](https://github.com/esc/conda-zsh-completion) - ZSH tab completion for conda.
+* [cpan](https://github.com/MenkeTechnologies/zsh-cpan-completion) - Adds `cpan install word<tab>` and `cpanm install <tab>` to complete remote CPAN package names.
 * [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop).
 * [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 * [docker (felixr)](https://github.com/felixr/docker-zsh-completion) - Add tab completions for `docker`.
