@@ -726,6 +726,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [lando](https://github.com/JoshuaBedford/lando-zsh) - A collection of alias functions to enable the use of the CLIs within [Lando](https://docs.lando.dev) without having to type lando to access them.
 * [laradock-workspace](https://github.com/rluders/laradock-workspace-zsh) - Provides an interface to [Laradock](http://laradock.io/)'s workspace.
 * [laravel-au](https://github.com/Saleh7/laravel-au-zsh-plugin) - Adds aliases for Laravel 6.
+* [laravel-sail](https://github.com/ariaieboy/laravel-sail) - Adds shortcuts for `sail` commands.
 * [laravel](https://github.com/crazybooot/laravel-zsh-plugin) - Add shortcuts for Laravel 5, 5.1, 5.2 & 5.3.
 * [last-working-dir-tmux](https://github.com/Curly-Mo/last-working-dir-tmux) - Keeps track of the last used working directory globally and per tmux session and automatically jumps into it for new shells.
 * [last-working-directory (mdumitru)](https://github.com/mdumitru/last-working-dir) - Broken out copy of the version in [oh-my-zsh](http://ohmyz.sh/). Keeps track of the last used working directory and automatically jumps into it for new shells.
@@ -999,6 +1000,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [z-a-test](https://github.com/zinit-zsh/z-a-test) - [Zinit](https://github.com/zdharma/zinit) extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
 * [z-a-unscope](https://github.com/zinit-zsh/z-a-unscope) - Allows installing plugins for [Zinit](https://github.com/zdharma/zinit) without specifying the user name by querying the Github API.
 * [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh.
+* [zabb](https://github.com/Mellbourn/zabb) - `zabb` is a command that tries to figure out the shortest memorable abbreviation of a directory that is usable by [z](https://github.com/ajeetdsouza/zoxide) to unambiguously jump to that directory.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH.
 * [zcolors](https://github.com/marlonrichert/zcolors) - Uses your `$LS_COLORS` to generate a coherent theme for Git and your Zsh prompt, completions and [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
@@ -1098,6 +1100,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [mx-honey](https://github.com/mukel/mx-honey) - Provides completions for [mx](https://github.com/graalvm/mx); a command-line tool used for the development of Graal projects. It's meant to improve the usual workflow `build unittest benchmark ...` ease discovery and provide handy aliases.
 * [newman](https://github.com/selop/newman-autocomplete) - Provides autocompletion for the [Newman CLI](https://github.com/postmanlabs/newman).
 * [nix-zsh-completions](https://github.com/spwhitt/nix-zsh-completions) - Completions for [nix](https://nixos.org/nix/), [NixOS](https://nixos.org/), and [NixOps](https://nixos.org/nixops/).
+* [node-ace](https://github.com/romch007/node-ace-zsh-completion) - Completions for `node ace`.
 * [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
 * [npm-run](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`.
 * [okta](https://github.com/sirhc/okta.plugin.zsh) - provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) command.
