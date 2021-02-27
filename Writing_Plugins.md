@@ -14,6 +14,6 @@ Keep your plugins as cross-framework compatible as possible. Here are some sugge
 
 6. If your plugin adds any of its subdirectories to the `fpath`, make sure those subdirectories only contain function definition files. This allows for frameworks to correctly [zcompile all functions](http://zsh.sourceforge.net/Doc/Release/Functions.html#Autoloading-Functions). Don't make your plugin add its root directory to the `fpath`.
 
-6. Don't forget to add a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one.
+7. Don't forget to add a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one.
 
-7. Submit a PR here so your plugin is easy to find :-)
+8. Submit a PR here so your plugin is easy to find :-)
