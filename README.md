@@ -802,6 +802,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [osx-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 * [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on my macOS install.
 * [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
+* [p10k-promptconfig](https://github.com/doctormemes/p10k-promptconfig) - adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the `P10K_PROMPT` variable in your `.zshrc` file.
 * [paci](https://github.com/iloginow/zsh-paci) - Plugin for archlinux package managers.
 * [pantheon-terminal-notify](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 * [passwordless-history](https://github.com/jgogstad/passwordless-history) - Keeps passwords from entering your command line history.
