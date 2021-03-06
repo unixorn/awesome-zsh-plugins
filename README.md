@@ -577,6 +577,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [elixir](https://github.com/gusaiani/elixir-oh-my-zsh) - Adds shortcuts for Elixir, IEX, Mix, Kiex and Phoenix.
 * [emacs](https://github.com/cowboyd/zsh-emacs) - Make Emacs the default for CLI operations like editing git commit messages; set up handy aliases.
 * [emoji-cli](https://github.com/b4b4r07/emoji-cli) - :scream: Emoji completion on the command line.
+* [emoji-fzf](https://github.com/pschmitt/emoji-fzf.zsh) - Configurable ZSH plugin for the excellent [emoji-fzf](https://github.com/noahp/emoji-fzf). It is heavily inspired by [emoji-cli](https://github.com/b4b4r07/emoji-cli).
 * [emojis](https://github.com/MichaelAquilina/zsh-emojis) - Adds numerous ascii art emojis to your environment in convenient variables.
 * [enhancd](https://github.com/b4b4r07/enhancd) - A simple tool that provides enhanced `cd` command.
 * [envrc](https://github.com/fabiogibson/envrc-zsh-plugin) - Automatically loads and unloads environment variables if a `.envrc` file is found in a directory.
@@ -606,7 +607,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [forgit](https://github.com/wfxr/forgit) - Utility tool for `git` which takes advantage of fuzzy finder [fzf](https://github.com/junegunn/fzf).
 * [functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 * [fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
-* [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among your historical directories.
+* [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among directories in your history.
 * [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/tree/master) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
 * [fzf-fasd](https://github.com/wookayin/fzf-fasd) - Integrates [fzf](https://github.com/junegunn/fzf) and [fasd](https://github.com/clvv/fasd) --- tab completion of `z` with fzf's fuzzy search!
 * [fzf-finder](https://github.com/leophys/zsh-plugin-fzf-finder) - Plugin to have a cool search keybinding with [fzf](https://github.com/junegunn/fzf) and (optionally) [bat](https://github.com/sharkdp/bat). Searches in the local tree of subdirectories for files.
@@ -1005,7 +1006,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [z-a-submods](https://github.com/zinit-zsh/z-a-submods) - [Zinit](https://github.com/zdharma/zinit) extenstion allows installing and managing additional submodules within a plugin or snippet.
 * [z-a-test](https://github.com/zinit-zsh/z-a-test) - [Zinit](https://github.com/zdharma/zinit) extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
 * [z-a-unscope](https://github.com/zinit-zsh/z-a-unscope) - Allows installing plugins for [Zinit](https://github.com/zdharma/zinit) without specifying the user name by querying the Github API.
-* [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than z.sh.
+* [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than [z.sh](https://github.com/rupa/z).
 * [zabb](https://github.com/Mellbourn/zabb) - `zabb` is a command that tries to figure out the shortest memorable abbreviation of a directory that is usable by [z](https://github.com/ajeetdsouza/zoxide) to unambiguously jump to that directory.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH.
