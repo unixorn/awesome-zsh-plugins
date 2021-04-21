@@ -1103,6 +1103,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [hashlink](https://github.com/tong/zsh.plugin.hashlink) - Completions for [https://hashlink.haxe.org/](https://hashlink.haxe.org/).
 * [haskell](https://github.com/coot/zsh-haskell) - Adds completions for `cabal`, `ghc` and `ghc-pkgs` commands.
 * [haxelib](https://github.com/tong/zsh.plugin.haxelib) - Completions for haxelib.
+* [helmfile](https://github.com/Downager/zsh-helmfile) - Adds autocompletion for `helm`.
 * [ipfs](https://github.com/hellounicorn/zsh-ipfs) - Completions for the [Interplanetary File System](https://ipfs.io).
 * [joe](https://github.com/corvofeng/joe-completion) - Adds completions for [joe](https://github.com/karan/joe) gitignore editor.
 * [jtool-completion](https://github.com/beaugalbraith/jtool-completion) - ZSH completions for jtool.
