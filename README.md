@@ -60,7 +60,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztupide](#ztupide)
   - [zulu](#zulu)
 - [Setups](#setups)
-  - [zgen](#zgen-1)
+  - [zgenom](#zgenom-1)
   - [zinit](#zinit)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
@@ -347,9 +347,9 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 
 This section is for full setup dropins - they aren't frameworks, but they're not simple plugins/themes either.
 
-### zgen
+### zgenom
 
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgen](https://github.com/tarjoilija/zgen). This includes a curated collection of plugins, automatically configures ZSH to use [zgen](https://github.com/tarjoilija/zgen) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
+* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgenom](https://github.com/jandamm/zgenom). This includes a curated collection of plugins, automatically configures ZSH to use [zgenom](https://github.com/jandamm/zgenom) to load them and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
 ### zinit
 
