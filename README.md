@@ -80,6 +80,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh-1)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
+  - [Zgenom](#zgenom)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins](#writing-new-plugins)
@@ -212,13 +213,17 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
-
-To do this, `zgen` generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`. This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during startup. The downside is that you have to refresh the init script manually with `zgen reset` whenever you update your plugin list in your `.zshrc`. Can load [oh-my-zsh](http://ohmyz.sh/)-compatible plugins and themes, and will automagically clone them for you when you add them to your plugin list.
+**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have minimal overhead when starting up the shell because nobody likes waiting. It is currently not being actively maintained and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is.
 
 ### [zgenom](https://github.com/jandamm/zgenom)
 
-A lightweight plugin manager for ZSH based on zgen. It is a superset of the brilliant [zgen](https://github.com/tarjoilija/zgen) that provides more features and bugfixes while being fully backwards compatible.
+A lightweight plugin manager for ZSH that is a fork that extends the brilliant [zgen](https://github.com/tarjoilija/zgen) and provides more features and bugfixes while being fully backwards compatible.
+
+To keep loading fast during new terminal sessions, `zgenom` generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`.
+
+This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
+
+Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git` clone plugins for you when you add them to your plugin list.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -1081,15 +1086,16 @@ These plugins add tab completions without adding extra functions or aliases.
 * [docker (felixr)](https://github.com/felixr/docker-zsh-completion) - Add tab completions for `docker`.
 * [docker (greymd)](https://github.com/greymd/docker-zsh-completion) - Add tab completions for `docker` and `docker-compose`.
 * [docker-enter-completion](https://github.com/primait/docker-enter-completion) - Command completion for [docker-enter](https://github.com/jpetazzo/nsenter).
+* [dotnet](https://github.com/MenkeTechnologies/zsh-dotnet-completion) - Dotnet tab completion.
 * [dropbox](https://github.com/zpm-zsh/dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for ZSH.
 * [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
 * [etcdctl](https://github.com/sheax0r/etcdctl-zsh) - Adds etcdctl tab completions.
-* [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](https://exercism.io/).
 * [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and it supports a wide variety of archive filetypes.
 * [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 * [flowr](https://github.com/oubasan/flowr) - Completion support for [git-flow](http://github.com/nvie/gitflow).
 * [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://www.concourse.ci/fly-cli.html) commands.
+* [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, bash & applications using GNU Readline.
 * [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
 * [gcloud](https://github.com/littleq0903/gcloud-zsh-completion) - Add completions for the Google Cloud SDK.
 * [gentoo](https://github.com/gentoo/gentoo-zsh-completions) - providing ZSH completion support to various Gentoo tools that lack completion scripts upstream.
@@ -1498,6 +1504,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lone-star](https://github.com/designfrontier/lonestar-zsh-theme/blob/master/lone-star.zsh-theme) - Texas-themed theme based on Sindre Sorhus' pure theme.
 * [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of lambda-mod theme. Has `git` decorations, requires a powerline-compatible terminal font.
 * [luke](https://github.com/xueguangl23/luke_zsh_theme) - Includes `git` decorations. Based on the [frisk](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh theme.
+* [lukerandall-extended](https://github.com/mpyw/oh-my-zsh-lukerandall-extended) - Extended version of the [lukerandall](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/lukerandall.zsh-theme) theme. Includes decorations for `git` status and the status of the last command run.
 * [macos](https://github.com/alejandromume/macos-zsh-theme) - Includes `git` status decorations.
 * [mad](https://github.com/MartinWie/ohmyzsh-theme-mad) - Includes `git` status decorations.
 * [magicmace](https://github.com/zimfw/magicmace) - Inspired by [xero's zsh prompt](http://code.xero.nu/dotfiles) and [eriner's prompt](https://github.com/zimfw/eriner). Includes status codes for active python `venv`, exit status of last command, shortened working directory, `git` status decorations.
@@ -1859,7 +1866,17 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
-Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in. Zgen will automatically clone the repositories for you when you do a `zgen save`.
+Zgen is not being actively maintained. Consider switching to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
+
+Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in.
+
+Zgen will automatically clone the plugin repositories for you when you do a `zgen save`.
+
+### [Zgenom](https://github.com/jandamm/zgenom)
+
+Most of these plugins can be installed by adding `zgenom load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgenom load` calls in.
+
+Zgenom will automatically clone the plugin repositories for you when you do a `zgenom save`.
 
 ### [zplug](https://github.com/zplug/zplug)
 
