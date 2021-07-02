@@ -139,7 +139,7 @@ You can find some interesting performance timing comparisons of various framewor
 
 **fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as Bundler for your dot files.
 
-### [miniplug](https://github.com/YerinAlexey/miniplug)
+### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 
 **miniplug** is a minimalistic plugin manager for ZSH.
 
