@@ -288,6 +288,10 @@ Znap can:
 
 **Zpacker** is a lightweight ZSH plugin & theme management framework.
 
+### [zpico](https://github.com/thornjad/zpico)
+
+The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
+
 ### [zplug](https://github.com/zplug/zplug)
 
 **:hibiscus: Zplug** is a next-generation ZSH plugin manager.
