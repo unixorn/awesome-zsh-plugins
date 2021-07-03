@@ -52,6 +52,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [znap](#znap)
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
+  - [zpico](#zpico)
   - [zplug](#zplug)
   - [zpm](#zpm)
   - [zr](#zr)
