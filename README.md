@@ -52,6 +52,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [znap](#znap)
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
+  - [zpico](#zpico)
   - [zplug](#zplug)
   - [zpm](#zpm)
   - [zr](#zr)
@@ -287,6 +288,10 @@ Znap can:
 ### [zpacker](https://github.com/happyslowly/zpacker)
 
 **Zpacker** is a lightweight ZSH plugin & theme management framework.
+
+### [zpico](https://github.com/thornjad/zpico)
+
+The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
 
 ### [zplug](https://github.com/zplug/zplug)
 
