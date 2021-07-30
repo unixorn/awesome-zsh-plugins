@@ -28,7 +28,7 @@ Go over all the following points, and put an `x` in all the boxes that apply.
 You only need to check the box for completions/plugins/themes if you added something in those categories
 -->
 
-- [ ] I have read the **CONTRIBUTING** document.
+- [ ] I have read the [CONTRIBUTING](https://github.com/unixorn/awesome-zsh-plugins/blob/main/Contributing.md) document.
 - [ ] I have confirmed that the link(s) in my PR are valid.
 - [ ] My entries are single lines and are in the appropriate (plugins, themes or completions) section, and in alphabetical order in their section.
 - [ ] All new and existing tests passed.
