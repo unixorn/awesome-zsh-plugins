@@ -750,6 +750,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [jq](https://github.com/reegnz/jq-zsh-plugin) jq-repl with line editor functionality.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
 * [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
+* [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
 * [kill-node](https://github.com/vmattos/kill-node) - ZSH plugin for murdering `node` process families.
 * [kitsunebook](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [konsole-theme-changer](https://github.com/rocknrollMarc/zsh-konsole-theme-changer) - Toggle konsole theme from ZSH.
