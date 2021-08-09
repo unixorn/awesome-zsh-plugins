@@ -2,7 +2,7 @@
 
 First and foremost, thanks for the help, I appreciate all of the contributions, and the awesome-zsh-plugins list wouldn't be nearly as complete without them. You may add to the list by submitting a pull request or adding a link in an issue.
 
-I want to be clear that real, useful PRs are always welcome. _But_ if you came here just to make a PR because you watched that idiot CodeWithHarry's youtube video, _I will report it to DigitalOcean_, you will be disqualified from Hacktoberfest and you won't get the free stuff you're trying for._
+I want to be clear that real, useful PRs are always welcome. _But_ if you came here just to make a useless PR because you watched that idiot CodeWithHarry's youtube video, _I will report it to DigitalOcean_, you will be disqualified from Hacktoberfest and you won't get the free stuff you're trying for._
 
 ## Entry Guidelines
 
@@ -18,7 +18,9 @@ I want to be clear that real, useful PRs are always welcome. _But_ if you came h
 
 * Descriptions should follow the link, on the same line, with capitalization consistent with the other entries in the section.
 
-* Each entry should be a single line that ends in a period. This makes keeping the sections sorted easier. We let GitHub's markdown formatter handle adding any required line breaks rather than embedding breaks in the entries ourselves, this also allows us to work with any browser window width.
+* Each entry should be a single line that ends in a period. This makes keeping the sections sorted easier.
+
+* Plugin, theme and completions entries _must_ be a single line and be added in alphabetical order in their respective sections of the list. We let GitHub's markdown formatter handle adding any required line breaks rather than embedding line breaks in the entries ourselves, this also allows us to work correctly with any browser window width.
 
 * For consistency, please use all caps for ZSH in all entry descriptions.
 
@@ -26,9 +28,9 @@ I want to be clear that real, useful PRs are always welcome. _But_ if you came h
 
 * Please make sure all framework, plugin, themes or completions list entries are sorted *alphabetically*.
 
-* The link should be named the name of the package or project.
+* The link should be named the name of the package or project. Please remove any leading or trailing `zsh-plugin`, `zsh-theme` from the visible portion of the link.
 
-* Your PR should pass the CircleCI checks. If the checks show an error that you didn't add (a previous plugin entry has gone 404, for example) you don't _have_ to fix those errors, though I'll certainly appreciate the help if you do, or if you create an issue documenting the problem so I can fix it.
+* Your PR should pass the Github Action checks. If the checks show an error that you didn't add (a previous plugin entry has gone 404, for example) you don't _have_ to fix those errors, though I'll certainly appreciate the help if you do, or if you create an issue documenting the problem so I can fix it.
 
 ### Themes
 
