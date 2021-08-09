@@ -752,6 +752,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [jq](https://github.com/reegnz/jq-zsh-plugin) jq-repl with line editor functionality.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
 * [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
+* [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
 * [kill-node](https://github.com/vmattos/kill-node) - ZSH plugin for murdering `node` process families.
 * [kitsunebook](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for oh-my-zsh.
 * [konsole-theme-changer](https://github.com/rocknrollMarc/zsh-konsole-theme-changer) - Toggle konsole theme from ZSH.
@@ -1575,7 +1576,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [lunachar](https://github.com/r-mohammadi1/lunachar) - Minimalist theme, includes `git` status decorations.
 * [macos](https://github.com/alejandromume/macos-zsh-theme) - Includes `git` status decorations.
 * [mad](https://github.com/MartinWie/ohmyzsh-theme-mad) - Includes `git` status decorations.
-* [magicmace](https://github.com/zimfw/magicmace) - Inspired by xero's ZSH prompt and [eriner's prompt](https://github.com/zimfw/eriner). Includes status codes for active python `venv`, exit status of last command, shortened working directory, `git` status decorations.
+* [magicmace](https://github.com/zimfw/magicmace) - Inspired by xero's zsh prompt and [eriner's prompt](https://github.com/zimfw/eriner). Includes status codes for active python `venv`, exit status of last command, shortened working directory, `git` status decorations.
 * [magico](https://github.com/IOsonoTAN/magico) - IOsonoTAN's magico theme.
 * [maivana](https://github.com/nylo-andry/zsh-themes) - Includes `kubectl` context, `git` status decorations.
 * [materialshell](https://github.com/carloscuesta/materialshell) - A [material design](https://material.io/guidelines/style/color.html) theme for your shell with a good contrast and color pops at the important parts. Designed to be easy on the eyes.
@@ -1860,6 +1861,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
 * [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
 * [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
+* [vertepommes](https://github.com/TheRojam/vertepommes-theme) - Based on ys. Includes vcs status, username and current directory decorations.
 * [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from themes/mgutz.zsh-theme.Looks great when using with a [Solarized](https://github.com/altercation/solarized) color scheme.
 * [vitesse](https://github.com/rafaeldellaquila/zsh-vitesse-theme/blob/master/img/preview.png) - Inspired by VS Code's [Vitesse](https://github.com/antfu/vscode-theme-vitesse) theme. Includes `git` status decorations.
 * [vulcan](https://github.com/Bruceboy/vulcan-zsh-theme) - Minimal theme reminiscent of the default `bash` theme. Includes `git` decorations.
