@@ -175,7 +175,7 @@ The PMS framework also allows you to use the same framework in different shells.
 
 A plugin manager for ZSH doesn't have to be complicated to be powerful. PZ doesn't try to be clever when it can be smart. PZ is a full featured, fast, and easy to understand plugin manager encapsulated in a single file with about 200 lines of clean ZSH.
 
-PZ does just enough to manage your ZSH plugins really well, and then gets out of your way.
+PZ does just enough to manage your Zsh plugins really well, and then gets out of your way. And it's unit tested too to make sure it works as expected!
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
 A fast, configurable, shell plugin manager.
