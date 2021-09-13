@@ -42,6 +42,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [uz](#uz)
   - [yazt](#yazt)
   - [zapack](#zapack)
+  - [zcomet](#zcomet)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -215,6 +216,10 @@ zapack is a basic fast minimal ZSH plugin loader.
 ### [zeesh](https://github.com/zeekay/zeesh)
 
 **Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+
+### [zcomet](https://github.com/agkozak/zcomet)
+
+**zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in Git repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
 
 ### [zgem](https://github.com/qoomon/zgem)
 
