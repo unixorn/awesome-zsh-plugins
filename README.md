@@ -177,6 +177,7 @@ The PMS framework also allows you to use the same framework in different shells.
 A plugin manager for ZSH doesn't have to be complicated to be powerful. PZ doesn't try to be clever when it can be smart. PZ is a full featured, fast, and easy to understand plugin manager encapsulated in a single file with about 200 lines of clean ZSH.
 
 PZ does just enough to manage your Zsh plugins really well, and then gets out of your way. And it's unit tested too to make sure it works as expected!
+
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
 A fast, configurable, shell plugin manager.
@@ -213,13 +214,13 @@ Yazt is a simple zsh theme manager in maintence that is compatible with nearly e
 
 zapack is a basic fast minimal ZSH plugin loader.
 
-### [zeesh](https://github.com/zeekay/zeesh)
-
-**Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
-
 ### [zcomet](https://github.com/agkozak/zcomet)
 
 **zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in Git repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
+
+### [zeesh](https://github.com/zeekay/zeesh)
+
+**Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
 
 ### [zgem](https://github.com/qoomon/zgem)
 
