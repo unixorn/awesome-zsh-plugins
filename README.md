@@ -1159,6 +1159,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [dropbox](https://github.com/zpm-zsh/dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
 * [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for ZSH.
 * [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
+* [efibootmgr](https://github.com/wehlando/efibootmgr-zsh-completion) - Tab completions for `efibootmgr`.
 * [etcdctl](https://github.com/sheax0r/etcdctl-zsh) - Adds etcdctl tab completions.
 * [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and supports a wide variety of archive filetypes.
 * [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
