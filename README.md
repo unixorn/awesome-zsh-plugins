@@ -1416,6 +1416,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [dr4kk0nnys_v2](https://github.com/Dr4kk0nnys/Dr4kk0nnys_theme_ohmyzsh_v2/) - Works well on dark backgrounds, includes `git` status decorations.
 * [dracula](https://github.com/dracula/zsh) - A dark theme for Atom, Alfred, Chrome DevTools, iTerm 2, Sublime Text, Textmate, Terminal.app, Vim, Xcode, and ZSH.
 * [dragon](https://github.com/sabertazimi/dragon-zsh-theme) - Minimalistic, includes `git` status information.
+* [drkat](https://github.com/katrinaalaimo/drkat-zsh-theme) - Reminiscent of [Powerline](https://github.com/powerline/powerline). Includes directory, `git` status, and hostname decorations.
 * [droolscar](https://github.com/isuke/droolscar) - [Powerline](https://github.com/powerline/powerline) variant.
 * [dtheme](https://github.com/OlukaDenis/DTheme) - Optimized for people using a solarized terminal color scheme and `git`. Works best with a unicode font.
 * [duckster](https://github.com/ducky/duckster) - A fork of Gitster ZSH theme that's more ducky fresh.
