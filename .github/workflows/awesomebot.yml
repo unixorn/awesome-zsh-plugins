@@ -1,4 +1,4 @@
-name: Check links in README.md
+name: Check links in ZSH list
 
 on:
   push:
