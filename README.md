@@ -1524,6 +1524,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [hina](https://github.com/ucpr/hina) - Written in `golang`, includes `git` status decoration and kubernetes context.
 * [hip-fellow](https://github.com/haitaim/hip-fellow) - Includes `git` status decorations and works with standard fonts.
 * [hipstersmoothie-p9x](https://github.com/hipstersmoothie/PowerlevelHipstersmoothie) - A variant of [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
+* [home](https://github.com/sheerun/home) - Pretty and short one-line theme that makes you feel at home.
 * [honukai-iterm](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm 2.
 * [horizontal](https://github.com/nuimk/horizontal) - Two line prompt with a horizontal separator.
 * [hornix](https://github.com/fusion809/zsh-theme) - Displays time & date, OS (including distro if on Linux), directory and whether running as root.
