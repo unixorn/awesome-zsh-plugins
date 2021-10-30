@@ -246,23 +246,23 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 
 **Zim** is a ZSH configuration framework with blazing speed and modular extensions.
 
-### [Zinit](https://github.com/zdharma/zinit)
+### [Zinit](https://github.com/zdharma-continuum/zinit)
 
 **Zinit** is an innovative and probably (because of the Turbo) the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
 
-- Turbo mode – 80% faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms,
-- completion management (selectively disable and enable completions),
-- snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
-- annexes (↔ Zinit extensions),
-- reports (from the plugin loads – plugins are no longer black boxes),
-- plugin unloading (allows e.g.: dynamic theme switching),
-- `bindkey` capturing and remapping,
-- [packages](https://github.com/Zsh-Packages),
-- clean `fpath` (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated),
-- [services](https://github.com/zservices) ↔ a single-instance, background plugins,
-- also, in general: all the mechanisms from the Zsh Plugin Standard – Zinit is a reference implementation of the standard.
+- Turbo mode – 80% faster ZSH startup! for example: instead of 200 ms, it'll be 40 ms
+- Completion management (selectively disable and enable completions)
+- Snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead)
+- Annexes (↔ Zinit extensions)
+- Reports (from the plugin loads – plugins are no longer black boxes)
+- Plugin unloading (allows e.g.: dynamic theme switching)
+- `bindkey` capturing and remapping
+- packages
+- Clean `fpath` (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated)
+- Services ↔ a single-instance, background plugins
+- Also, in general: all the mechanisms from the ZSH Plugin Standard – Zinit is a reference implementation of the standard.
 
-Bonus: you can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
+Bonus: you can use zinit-console to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 The project is very active – currently > 3100 commits.
 
@@ -394,7 +394,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 * [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) - Tutorial using a combination of [iTerm 2](https://www.iterm2.com/#/section/home), [ZSH](https://en.wikipedia.org/wiki/Z_shell), [Prezto](https://github.com/sorin-ionescu/prezto), [Tmux](https://tmux.github.io), and [Tmuxinator](https://github.com/tmuxinator/tmuxinator) to make for an extremely productive developer workflow.
 * [Arch Linux's ZSH introduction](https://wiki.archlinux.org/index.php/zsh) -  Not actually Arch or Linux-specific.
-* [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting/), and more.
+* [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting/), and more.
 * [How To Make an Awesome Custom Shell with ZSH](https://linuxstans.com/how-to-make-an-awesome-custom-shell-with-zsh/) - A beginner-friendly tutorial on how to install and configure a ZSH shell.
 * [commandlinepoweruser.com](https://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
@@ -632,7 +632,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [f-shortcuts](https://github.com/zpm-zsh/f-shortcuts) - Makes a shortcuts toolbar using F1 to F12 keys.
 * [fancy-ctrl-z](https://github.com/mdumitru/fancy-ctrl-z) - Broken out version of the version in [oh-my-zsh](http://ohmyz.sh/) so users of other frameworks don't have to import all of oh-my-zsh.
 * [fast-alias-tips](https://github.com/sei40kr/zsh-fast-alias-tips) - Helps remember the aliases you defined and forgot about. Ported from [djui/alias-tips](https://github.com/djui/alias-tips).
-* [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting) - Optimized and improved `zsh-users/zsh-syntax-highlighting` – better response times, switchable highlight themes.
+* [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting) - Optimized and improved `zsh-users/zsh-syntax-highlighting` – better response times, switchable highlight themes.
 * [fav](https://github.com/ddnexus/fav) - ZSH/[fzf](https://github.com/junegunn/fzf) plugin that makes it really easy to add and recall named favorites of your important directories.
 * [favorite-directories](https://github.com/seletskiy/zsh-favorite-directories) - Fast jumps to your favorite directories.
 * [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
@@ -1081,8 +1081,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 * [yup](https://github.com/redxtech/zsh-yup) - Adds helper function to upgrade all the dependencies in a yarn/npm project.
-* [z-a-bin-gem-node](https://github.com/zinit-zsh/z-a-bin-gem-node) - [Zinit](https://github.com/zdharma/zinit) extension that exposes binaries without altering `$PATH`, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated.
-* [z-a-man](https://github.com/zinit-zsh/z-a-man) - [Zinit](https://github.com/zdharma/zinit) extension that generates man pages for all plugins and snippets.
+* [z-a-bin-gem-node](https://github.com/zinit-zsh/z-a-bin-gem-node) - [Zinit](https://github.com/zdharma-continuum/zinit) extension that exposes binaries without altering `$PATH`, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated.
+* [z-a-man](https://github.com/zinit-zsh/z-a-man) - [Zinit](https://github.com/zdharma-continuum/zinit) extension that generates man pages for all plugins and snippets.
 * [z-a-meta-plugins](https://github.com/zinit-zsh/z-a-meta-plugins) - Install groups of plugins with a single label ([Zinit](https://github.com/zdharma/zinit) only).
 * [z-a-patch-dl](https://github.com/zinit-zsh/z-a-patch-dl) - [Zinit](https://github.com/zdharma/zinit) extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
 * [z-a-rust](https://github.com/zinit-zsh/z-a-rust) - [Zinit](https://github.com/zdharma/zinit) extension that that installs rust and cargo packages inside plugin directories.
