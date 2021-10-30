@@ -247,7 +247,7 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 
 ### [Zinit](https://github.com/zdharma-continuum/zinit)
 
-**Zinit** is an innovative and probably (because of the Turbo) the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
+**Zinit** is an innovative and probably (because of the Turbo) the fastest plugin manager with support for:
 
 - Turbo mode – 80% faster ZSH startup! for example: instead of 200 ms, it'll be 40 ms
 - Completion management (selectively disable and enable completions)
