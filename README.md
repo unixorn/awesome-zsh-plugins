@@ -1095,6 +1095,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh.
 * [zshrc](https://github.com/freak2geek/zshrc) - Load local `.zshrc` files from your project scopes.
 * [zsnapac](https://github.com/johnramsden/zsh-zsnapac) - Plugin for taking ZFS pre/post upgrade snapshots on Arch Linux.
+* [ztouch](https://github.com/mjrafferty/ztouch) - Adds touchbar controls for recent history commands, directory stack, cycling between modes and user-mappable commands to the touchbar on macOS.
 
 ## Completions
 
