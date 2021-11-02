@@ -101,7 +101,6 @@ These frameworks make customizing your ZSH setup easier.
 
 You can find some interesting performance timing comparisons of various frameworks in the following locations.
 
-* [zdharma/pm-perf-test](https://github.com/zdharma/pm-perf-test)
 * [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark)
 
 ### [alf](https://github.com/psyrendust/alf)
@@ -246,23 +245,23 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 
 **Zim** is a ZSH configuration framework with blazing speed and modular extensions.
 
-### [Zinit](https://github.com/zdharma/zinit)
+### [Zinit](https://github.com/zdharma-continuum/zinit)
 
-**Zinit** is an innovative and probably (because of the Turbo) the [fastest](https://github.com/zdharma/pm-perf-test) plugin manager with support for:
+**Zinit** is an innovative and probably (because of the Turbo) the fastest plugin manager with support for:
 
-- Turbo mode – 80% faster Zsh startup! for example: instead of 200 ms, it'll be 40 ms,
-- completion management (selectively disable and enable completions),
-- snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead),
-- annexes (↔ Zinit extensions),
-- reports (from the plugin loads – plugins are no longer black boxes),
-- plugin unloading (allows e.g.: dynamic theme switching),
-- `bindkey` capturing and remapping,
-- [packages](https://github.com/Zsh-Packages),
-- clean `fpath` (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated),
-- [services](https://github.com/zservices) ↔ a single-instance, background plugins,
-- also, in general: all the mechanisms from the Zsh Plugin Standard – Zinit is a reference implementation of the standard.
+- Turbo mode – 80% faster ZSH startup! for example: instead of 200 ms, it'll be 40 ms
+- Completion management (selectively disable and enable completions)
+- Snippets (↔ regular files downloaded via-URL, e.g.: scripts) and through them Oh My Zsh and Prezto plugins support (→ low overhead)
+- Annexes (↔ Zinit extensions)
+- Reports (from the plugin loads – plugins are no longer black boxes)
+- Plugin unloading (allows e.g.: dynamic theme switching)
+- `bindkey` capturing and remapping
+- packages
+- Clean `fpath` (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated)
+- Services ↔ a single-instance, background plugins
+- Also, in general: all the mechanisms from the ZSH Plugin Standard – Zinit is a reference implementation of the standard.
 
-Bonus: you can use [zinit-console](https://github.com/zinit-zsh/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
+Bonus: you can use zinit-console to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 The project is very active – currently > 3100 commits.
 
@@ -375,7 +374,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### zinit
 
-* [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma/zinit) for maximum speed.  A full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:
+* [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma-continuum/zinit) for maximum speed.  A full terminal configuration framework including zsh, tmux, fzf, vim and spacemacs configurations.  It includes:
 
 - 11.5k+ tab completions
 - 1.9k+ aliases
@@ -394,7 +393,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 * [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) - Tutorial using a combination of [iTerm 2](https://www.iterm2.com/#/section/home), [ZSH](https://en.wikipedia.org/wiki/Z_shell), [Prezto](https://github.com/sorin-ionescu/prezto), [Tmux](https://tmux.github.io), and [Tmuxinator](https://github.com/tmuxinator/tmuxinator) to make for an extremely productive developer workflow.
 * [Arch Linux's ZSH introduction](https://wiki.archlinux.org/index.php/zsh) -  Not actually Arch or Linux-specific.
-* [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting/), and more.
+* [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting/), and more.
 * [How To Make an Awesome Custom Shell with ZSH](https://linuxstans.com/how-to-make-an-awesome-custom-shell-with-zsh/) - A beginner-friendly tutorial on how to install and configure a ZSH shell.
 * [commandlinepoweruser.com](https://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
 * [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
@@ -430,7 +429,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 ### Zinit (née zplugin)
 
 * [BlaCk-Void-Zsh](https://github.com/black7375/BlaCk-Void-Zsh) - :crystal_ball: Awesome, Customable Zsh Starter Kit :stars::stars:. Includes powerline, fzf integration, Weather and image viewing in some terminals.
-* [zinit-configs](https://github.com/zdharma/zinit-configs) - Real-world configuration files (basically a collection of `.zshrc` files) holding Zinit invocations.
 
 ### ZSH on Windows
 
@@ -480,6 +478,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [async](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in ZSH without requiring any external tools. Allows you to run multiple asynchronous jobs, enforce unique jobs (multiple instances of the same job will not run), flush all currently running jobs and create multiple workers (each with their own jobs).
 * [atom-plugin](https://github.com/CorradoRossi/oh-my-zsh-atom-plugin) - Based on the [Sublime](https://github.com/valentinocossar/sublime) plugin, lets you launch a file or folder in [Atom](https://atom.io) from [iTerm 2](https://iterm2.com).
 * [atuin](https://github.com/ellie/atuin) - Replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server.
+* [aur-install](https://github.com/redxtech/zsh-aur-install) - Small plugin to install packages from the AUR.
 * [auto-color-ls](https://github.com/gretzky/auto-color-ls) - Automatically list directories with `colorls`.
 * [auto-fortune-cowsay](https://github.com/babasbot/auto-fortune-cowsay-zsh) - Prints out an ASCII picture of a cow saying a random epigram on every zsh start.
 * [auto-fu.zsh](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
@@ -519,6 +518,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [bepoptimist](https://github.com/sheoak/zsh-bepoptimist) - Remap ZSH `vi`-mode for French [bépo keyboard](http://bepo.fr/wiki/Accueil).
 * [betterbrew](https://github.com/timothyrowan/betterbrew-zsh-plugin) - Add more command aliases for `brew`
 * [bitbucket-git-helpers](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh) - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.
+* [bitwarden](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
 * [blackbox](https://github.com/StackExchange/blackbox) - [Stack Exchange](https://stackexchange.com)'s toolkit for storing keys/credentials securely in a `git` repository.
 * [bofh](https://github.com/fundor333/bofh) - Adds functions to display random bofh fortunes.
 * [bol](https://github.com/ikhurramraza/bol) - Prints a random quote when you open a terminal window.
@@ -549,7 +549,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [chgo](https://github.com/sbfaulkner/chgo-plugin-zsh) - Clone of chruby modified to make it easy to switch between multiple Go versions.
 * [clean-project](https://github.com/wwilsman/zsh-clean-project) - Remove files from projects (automatically by default). Useful for keeping `.DS_Store` and `Thumbs.db` files from cluttering your directories.
 * [clipboard](https://github.com/zpm-zsh/clipboard) - Adds a cross-platform helper function to access the system clipboard. Works on macOS, X11 (and Wayland) and Cygwin.
-* [cmd-architect](https://github.com/psprint/zsh-cmd-architect) - Build commands from what's in history and at prompt, move, delete, add command segments and search history with multi-word queries.
 * [cmd-status](https://github.com/BlaineEXE/zsh-cmd-status) - Reports the status of commands including return code and duration.
 * [cmdtime](https://github.com/tom-auger/cmdtime) - Displays the duration of a command to the terminal forked from the [timer](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/timer) plugin.
 * [code-review](https://github.com/xorkevin/code-review-zsh) - Launches `git difftool` on `git merge-base target_branch base_branch` and `target_branch`.
@@ -574,12 +573,10 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [crypto-prices](https://github.com/vincentdnl/zsh-crypto-prices) - Add a [powerlevel9k](https://github.com/bhilburn/powerlevel9k) segment with the current bitcoin price.
 * [crystal](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/crystal-lang/crystal).
 * [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
-* [declare-zsh](https://github.com/zdharma/declare-zsh) - A command-line parser for Zinit commands in `zshrc`.
 * [deepx](https://github.com/GetAmbush/deepx-zsh-plugin) - Collection of useful and fun commands to improve workflow and quality of life.
 * [deer](https://github.com/Vifon/deer) - A file navigator for ZSH heavily inspired by [ranger](https://ranger.github.io/).
 * [depot-tools](https://github.com/kuoe0/zsh-depot-tools) - Simple oh-my-zsh plugin for installing the chromium depot_tools. Installing this plugin will put all of the chromium depot_tools in your path automatically.
 * [dev](https://github.com/sbfaulkner/dev-plugin-zsh) - Provides a lightweight version of [Shopify's internal dev tool](https://devproductivity.io/dev-shopifys-all-purpose-development-tool/index.html)
-* [diff-so-fancy](https://github.com/zdharma/zsh-diff-so-fancy) - Simplify installing the `diff-so-fancy` project into your user account.
 * [diractions](https://github.com/AdrieanKhisbe/diractions) - Allow you to map a short logical/mnemonic name to directories to quickly access them, or perform actions in them.
 * [dircolors-solarized (joel-porquet)](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin, with options for dark or light terminal backgrounds.
 * [dircolors-solarized (pinelibg)](https://github.com/pinelibg/dircolors-solarized-zsh) - Enables [Solarized Color Theme for GNU ls](https://github.com/seebi/dircolors-solarized).
@@ -605,7 +602,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [dwim](https://github.com/oknowton/zsh-dwim) - Attempts to predict what you will want to do next. It provides a key binding (control-u) that will replace the current (or previous) command line with the command you will want to run next.
 * [easy-motion](https://github.com/IngoHeimbach/zsh-easy-motion) - A port of [vim-easymotion](https://github.com/easymotion/vim-easymotion) for ZSH.
 * [ec2ssh](https://github.com/h3poteto/zsh-ec2ssh) - List EC2 instances and `ssh` login to the instances easily.
-* [editing-workbench](https://github.com/psprint/zsh-editing-workbench) - Adds sane, complex command line editing (e.g. incremental history _word_ completion).
 * [edward cli](https://github.com/matthieusb/zsh-edward) - Adds smart completions and alises for [edward CLI micro-service launcher](https://github.com/yext/edward).
 * [elixir](https://github.com/gusaiani/elixir-oh-my-zsh) - Adds shortcuts for Elixir, IEX, Mix, Kiex and Phoenix.
 * [emacs (cowboyd)](https://github.com/cowboyd/zsh-emacs) - Make Emacs the default for CLI operations like editing git commit messages; set up handy aliases.
@@ -631,7 +627,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [f-shortcuts](https://github.com/zpm-zsh/f-shortcuts) - Makes a shortcuts toolbar using F1 to F12 keys.
 * [fancy-ctrl-z](https://github.com/mdumitru/fancy-ctrl-z) - Broken out version of the version in [oh-my-zsh](http://ohmyz.sh/) so users of other frameworks don't have to import all of oh-my-zsh.
 * [fast-alias-tips](https://github.com/sei40kr/zsh-fast-alias-tips) - Helps remember the aliases you defined and forgot about. Ported from [djui/alias-tips](https://github.com/djui/alias-tips).
-* [fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting) - Optimized and improved `zsh-users/zsh-syntax-highlighting` – better response times, switchable highlight themes.
+* [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting) - Optimized and improved `zsh-users/zsh-syntax-highlighting` – better response times, switchable highlight themes.
 * [fav](https://github.com/ddnexus/fav) - ZSH/[fzf](https://github.com/junegunn/fzf) plugin that makes it really easy to add and recall named favorites of your important directories.
 * [favorite-directories](https://github.com/seletskiy/zsh-favorite-directories) - Fast jumps to your favorite directories.
 * [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
@@ -694,7 +690,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of oh-my-zsh gitfast plugin.
 * [gitgo](https://github.com/ltj/gitgo) - Open a Github/Gitlab repository in your browser from the command line (macOS only).
 * [github](https://github.com/shakir-abdo/zsh-github-plugin) - Fork of the original [github plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github) embedded in [oh-my-zsh](http://ohmyz.sh/).
-* [github-issues](https://github.com/zdharma/zsh-github-issues) - Subscribe to projects on Github and receive within shell (under prompt) notifications about new issues.
 * [gitignore](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
 * [gitio](https://github.com/denysdovhan/gitio-zsh) - A ZSH plugin for generating a GitHub short URL using [git.io](https://git.io).
 * [gitstatus](https://github.com/Insert-Creative-Name-Here/gitstatus.zsh) -  Makes it easy to show your `git` status in your prompt.
@@ -729,7 +724,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [history-filter](https://github.com/MichaelAquilina/zsh-history-filter) - Allows you to specify patterns that will automatically exclude commands from being inserted into your permanent history. Particularly useful for preventing secrets being written.
 * [history-here](https://github.com/leonjza/history-here) - Binds `^G` to quickly toggle the current shell history file location.
 * [history-popup](https://github.com/lcrespom/oh-my-zsh-history-popup) - Captures the PageUp key and uses `dialog` to open a popup menu with the history, so the user can interactively navigate through it and pick the history line to bring back to the prompt.
-* [history-search-multi-word](https://github.com/zdharma/history-search-multi-word) - A syntax highlighted, multi-word history searcher for ZSH, bound to Ctrl-R, with advanced functions (e.g. bump of history entry to top of history).
 * [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after `zsh-syntax-highlighting`, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md.
 * [history-sync](https://github.com/wulfgarpro/history-sync) - An Oh My Zsh plugin for GPG encrypted, Internet synchronized ZSH history using `git`.
 * [history](https://github.com/b4b4r07/zsh-history) - Extend history so that it can be queried by SQL.
@@ -811,7 +805,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 * [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
 * [monthrename](https://github.com/NotTheDr01ds/zsh-plugin-monthrename) - Renames month names to numbers in filenames.
-* [morpho](https://github.com/psprint/zsh-morpho) - Terminal screen savers written in pure ZSH, and also screen saver framework.
 * [mouse-status](https://github.com/gryffyn/mouse-status) - Changes mouse color based on status code, uses libratbag.
 * [msf](https://github.com/sathish09/zsh_plugins/tree/master/msf) - Metasploit handler plugin for starting handlers easily.
 * [mvn-contexts](https://github.com/artemy/zsh-mvn-contexts) - Allows fast switching between maven configurations.
@@ -820,7 +813,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [mysql](https://github.com/voronkovich/mysql.plugin.zsh) - Adds some functions for dealing with mysql.
 * [n](https://github.com/gretzky/n.zsh) - Auto-switches node versions based on project environment using [n](https://github.com/tj/n).
 * [navi](https://github.com/icatalina/zsh-navi-plugin/) - Plugin for [navi](https://github.com/denisidoro/navi).
-* [navigation-tools](https://github.com/psprint/zsh-navigation-tools) - Adds `htop`-like `kill`, directory bookmarks browser, multi-word incremental history searcher and more.
 * [new-file-from-template](https://github.com/zpm-zsh/new-file-from-template) -  Generates file from template.
 * [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
 * [nix-shell](https://github.com/chisui/zsh-nix-shell) - Plugin that lets you use ZSH as the default shell in a `nix-shell` environment.
@@ -925,7 +917,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [rbenv (jsahlen)](https://github.com/jsahlen/rbenv.plugin.zsh) - Variant based on the original oh-my-zsh rbenv plugin.
 * [rc-files](https://github.com/0b10/rc-files) - Adds shortcut functions for editing various rc files.
 * [recall](https://github.com/mango-tree/zsh-recall) - Makes using command history easier.
-* [redis](https://github.com/zservices/redis) - Will run `redis-server` pointing it to the `redis.conf` configuration file. This can be used with the [zdharma/zredis](https://github.com/zdharma/zredis) plugin to share variables between shells.
 * [reentry-hook](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
 * [reload](https://github.com/aubreypwd/zsh-plugin-reload) - Adds function to quickly reload your `.zshrc`.
 * [reminder](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - A plugin which displays reminders above every prompt.
@@ -948,7 +939,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [sdkman](https://github.com/ptavares/zsh-sdkman) - Installs [sdkman](https://github.com/sdkman) and adds completions and aliases for it.
 * [search-directory-history](https://github.com/cmaahs/search-directory-history) - Allows complex search of per-directory history created using the [per-directory-history](https://github.com/jimhester/per-directory-history) plugin.
 * [sed-sub](https://github.com/MenkeTechnologies/zsh-sed-sub) - Adds keybindings to do global search and replace on current command line.
-* [select](https://github.com/psprint/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 * [send](https://github.com/robertzk/send.zsh) - Single command to `git add`, `git commit`, and `git push` for much faster `git` workflow.
 * [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
 * [session-sauce](https://github.com/ChrisPenner/session-sauce) - An fzf interface for tmux session creation and management for all your projects.
@@ -1000,7 +990,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [tgswitch](https://github.com/ptavares/zsh-tgswitch) - Installs and loads [tgswitch](https://github.com/warrensbox/tgswitch).
 * [thefuck](https://github.com/laggardkernel/thefuck) - Loads [thefuck](https://github.com/nvbn/thefuck) (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically.
 * [theia-dev-tools](https://github.com/taPublic/zsh-theia-dev-tools) - Convenience functions for working with [theia-ide](https://github.com/theia-ide/theia).
-* [tig](https://github.com/zdharma/zsh-tig-plugin) - Adds a few advanced bindings and also provides a ZSH-rewritten function and/or script `tig-pick`.
 * [timewarrior](https://github.com/svenXY/timewarrior) - Adds support for [timewarrior](https://timewarrior.net/), a time-tracking application.
 * [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
 * [title](https://github.com/zpm-zsh/title) - Allows you to set a terminal window title.
@@ -1080,39 +1069,26 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
 * [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 * [yup](https://github.com/redxtech/zsh-yup) - Adds helper function to upgrade all the dependencies in a yarn/npm project.
-* [z-a-bin-gem-node](https://github.com/zinit-zsh/z-a-bin-gem-node) - [Zinit](https://github.com/zdharma/zinit) extension that exposes binaries without altering `$PATH`, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated.
-* [z-a-man](https://github.com/zinit-zsh/z-a-man) - [Zinit](https://github.com/zdharma/zinit) extension that generates man pages for all plugins and snippets.
-* [z-a-meta-plugins](https://github.com/zinit-zsh/z-a-meta-plugins) - Install groups of plugins with a single label ([Zinit](https://github.com/zdharma/zinit) only).
-* [z-a-patch-dl](https://github.com/zinit-zsh/z-a-patch-dl) - [Zinit](https://github.com/zdharma/zinit) extension that downloads files and applies patches through the provided `dl''` and `patch''` ices.
-* [z-a-rust](https://github.com/zinit-zsh/z-a-rust) - [Zinit](https://github.com/zdharma/zinit) extension that that installs rust and cargo packages inside plugin directories.
-* [z-a-submods](https://github.com/zinit-zsh/z-a-submods) - [Zinit](https://github.com/zdharma/zinit) extenstion allows installing and managing additional submodules within a plugin or snippet.
-* [z-a-test](https://github.com/zinit-zsh/z-a-test) - [Zinit](https://github.com/zdharma/zinit) extension that runs tests (via `make test`, for example) – if it finds any of them – after installing and updating a plugin or snippet.
-* [z-a-unscope](https://github.com/zinit-zsh/z-a-unscope) - Allows installing plugins for [Zinit](https://github.com/zdharma/zinit) without specifying the user name by querying the Github API.
 * [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than [z.sh](https://github.com/rupa/z).
 * [zabb](https://github.com/Mellbourn/zabb) - `zabb` is a command that tries to figure out the shortest memorable abbreviation of a directory that is usable by [z](https://github.com/ajeetdsouza/zoxide) to unambiguously jump to that directory.
 * [zabrze](https://github.com/Ryooooooga/zabrze) - A ZSH abbreviation expansion plugin.
 * [zaw](https://github.com/zsh-users/zaw) - ZSH anything.el-like widget.
 * [zce](https://github.com/hchbaw/zce.zsh) - Vim’s EasyMotion / Emacs’s ace-jump-mode for ZSH.
 * [zcolors](https://github.com/marlonrichert/zcolors) - Uses your `$LS_COLORS` to generate a coherent theme for Git and your Zsh prompt, completions and [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
-* [zconvey](https://github.com/zdharma/zconvey) - Adds ability to send commands to other ZSH sessions, you can use this to `cd $PWD` on all active Z shell sessions, for example.
 * [zed](https://github.com/eendroroy/zed-zsh) - A simple wrapper for [z](https://github.com/rupa/z) to install it via a ZSH plugin.
 * [zeit](https://github.com/zeit/zeit.zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
 * [zeno](https://github.com/yuki-yano/zeno.zsh) - Fuzzy completion and utility plugin powered by [Deno](https://deno.land/).
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
-* [zflai](https://github.com/zdharma/zflai) - A fast logging framework for ZSH.
 * [zfzf](https://github.com/b0o/zfzf) - A fzf-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
-* [zgdbm](https://github.com/zdharma/zgdbm) - Adds GDBM as a plugin.
 * [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make compinit run only once after all loading is done by [zgen](https://github.com/tarjoilija/zgen).
 * [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
 * [zimfw-extras](https://github.com/PatTheMav/zimfw-extras) - Custom extras for zimfw, packaged into a zimfw plugin.
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to ZSH themes.
-* [zinit-console](https://github.com/zinit-zsh/zinit-console) – A semigraphical (curses) consolette for [zinit](#zinit) plugin manager.
 * [zinsults](https://github.com/ahmubashshir/zinsults) - Prints insults if a command fails.
 * [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
 * [zlitefetch](https://github.com/ippee/zlitefetch) - Lightweight system information plugin.
 * [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
 * [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
-* [zredis](https://github.com/zdharma/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
 * [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + Oh-My-ZSH installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 * [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in vim.
 * [zsh-z (agkozak)](https://github.com/agkozak/zsh-z) - Jump quickly to directories that you have visited "frecently." A native ZSH port of `z.sh` - without `awk`, `sed`, `sort`, or `date`.
@@ -1120,9 +1096,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for oh-my-zsh.
 * [zshrc](https://github.com/freak2geek/zshrc) - Load local `.zshrc` files from your project scopes.
 * [zsnapac](https://github.com/johnramsden/zsh-zsnapac) - Plugin for taking ZFS pre/post upgrade snapshots on Arch Linux.
-* [zsnapshot](https://github.com/psprint/zsnapshot) - Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file.
-* [ztrace](https://github.com/psprint/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
-* [zui](https://github.com/zdharma/zui/) - ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.
+* [ztouch](https://github.com/mjrafferty/ztouch) - Adds touchbar controls for recent history commands, directory stack, cycling between modes and user-mappable commands to the touchbar on macOS.
 
 ## Completions
 
@@ -1203,6 +1177,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [kubeadm](https://github.com/gantsign/zsh-plugins/tree/master/kubeadm) - Add tab completions for [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).
 * [kubectl-fzf](https://github.com/bonnefoa/kubectl-fzf) - Fast and powerful [`fzf`](https://github.com/junegunn/fzf)-powered autocompletion for `kubectl`.
 * [lets](https://github.com/lets-cli/lets-zsh-plugin) - Add autocompletion for [lets](https://github.com/lets-cli/lets) cli task runner.
+* [ls-go](https://github.com/MohamedElashri/ls-go-zsh) - Adds some useful aliases for [ls-go](https://github.com/acarl005/ls-go).
 * [mooseX-App](https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion) - completion generator for Perl module `MooseX::App`.
 * [more-completions](https://github.com/MenkeTechnologies/zsh-more-completions) - 10500 zsh compsys completions!
 * [msfvenom](https://github.com/Green-m/msfvenom-zsh-completion) - Tab completions for Metasploit.
@@ -1238,7 +1213,6 @@ These plugins add tab completions without adding extra functions or aliases.
 * [ssh-agent (bobsoppe)](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 * [ssh-agent (hkupty)](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
 * [ssh](https://github.com/zpm-zsh/ssh) - Add host completion for `ssh`.
-* [startify](https://github.com/zdharma/zsh-startify) - vim-startify -like plugin for ZSH.
 * [surf](https://github.com/beardcoder/surf.plugin.zsh) - Add completions for surf.
 * [symphony (TheGrowingPlant)](https://github.com/TheGrowingPlant/symfony.plugin.zsh) - Autocompletion for Symfony 3 and 4 commands.
 * [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](https://github.com/test-kitchen/test-kitchen)).
@@ -1254,7 +1228,7 @@ These plugins add tab completions without adding extra functions or aliases.
 
 ## Themes
 
-If you're using [Antigen](https://github.com/zsh-users/antigen), you can test these themes in a running ZSH with `antigen theme githubuser/repo`. If you're using [zgen](https://github.com/tarjoilija/zgen), add them to your `init.zsh` with `zgen load githubuser/reponame`.
+If you're using [Antigen](https://github.com/zsh-users/antigen), you can test these themes in a running ZSH with `antigen theme githubuser/repo`. If you're using [zgenom](https://github.com/jandamm/zgenom), add them to your `init.zsh` with `zgenom load githubuser/reponame`.
 
 * [000](https://github.com/Abid-Ahmad/oh-my-zsh-000-theme) - Multiline prompt with username, hostname, full path, return status and `git` decorations.
 * [0i0](https://github.com/0i0/0i0.zsh-theme) - Optimized for dark terminal windows, uses nerdfont `git` status decorations.
@@ -1832,6 +1806,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
 * [shadow](https://github.com/agentshadow/shadow-zsh-theme) - Includes `git` status, directory, host name, username and time decorations.
 * [shayan](https://github.com/shayanh/shayan-zsh-theme) - Simple theme with `git` status decorations.
+* [shelby](https://github.com/athul/shelby) - Fast, lightweight and minimal prompt written in pure `golang`. Includes decorations for last command exit status, `git` status and the current working directory.
 * [shellder](https://github.com/simnalamburt/shellder) - Minimal theme with git branch display. Requires a Powerline-compatible font.
 * [shichi](https://github.com/arturoalviar/shichi-zsh-theme) - A simple theme with the first character being 七(shichi/nana), the number 7. The primary color is red with a yellow accent. Includes `git` status decorations.
 * [shini](https://github.com/bashelled/shini) - A tiny theme that just shouts out small. Includes directory, username, hostname, time and `git` decorations.
@@ -2019,10 +1994,6 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 Zgen is not being actively maintained. Consider switching to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
 
-Most of these plugins can be installed by adding `zgen load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgen load` calls in.
-
-Zgen will automatically clone the plugin repositories for you when you do a `zgen save`.
-
 ### [Zgenom](https://github.com/jandamm/zgenom)
 
 Most of these plugins can be installed by adding `zgenom load githubuser/reponame` to your .zshrc file in the same function you're doing your other `zgenom load` calls in.
@@ -2046,8 +2017,9 @@ I've documented some recommendations for writing a new plugin [here](https://git
 ### ZSH Tools
 
 * [ShellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
-* [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger
-* [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH
+* [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH.
+* [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger.
+* [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 
 ### Other Useful Lists
 
