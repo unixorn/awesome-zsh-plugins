@@ -966,6 +966,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 * [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
 * [sshukh](https://github.com/anatolykopyl/sshukh-zsh-plugin) - Will update your `known_hosts` file when you `ssh` into a server.
+* [startify](https://github.com/NorthIsMirror/zsh-startify) - Shows recently used `vim` files, shell-util files, active `tmux` sessions, recently-run `git` commands and more.
 * [startup-timer](https://github.com/paulmelnikow/zsh-startup-timer) - Print the time it takes for the shell to start up.
 * [stashy](https://github.com/MisterRios/stashy) - Plugin that simplifies using `git stash`.
 * [statify](https://github.com/vladmrnv/statify) - Plugin that does basic statistical analysis.
