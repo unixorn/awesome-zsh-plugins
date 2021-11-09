@@ -261,7 +261,7 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 - Services ↔ a single-instance, background plugins
 - Also, in general: all the mechanisms from the ZSH Plugin Standard – Zinit is a reference implementation of the standard.
 
-Bonus: you can use zinit-console to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
+Bonus: you can use [zinit-console](https://github.com/z-shell/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 The project is very active – currently > 3100 commits.
 
@@ -1114,6 +1114,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make compinit run only once after all loading is done by [zgen](https://github.com/tarjoilija/zgen).
 * [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
 * [zimfw-extras](https://github.com/PatTheMav/zimfw-extras) - Custom extras for zimfw, packaged into a zimfw plugin.
+* [zinit-console](https://github.com/z-shell/zinit-console) - A semigraphical (curses) consolette for the [zinit](https://github.com/zdharma-continuum/zinit) plugin manager.
 * [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to ZSH themes.
 * [zinsults](https://github.com/ahmubashshir/zinsults) - Prints insults if a command fails.
 * [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
