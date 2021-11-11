@@ -765,7 +765,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [jq (northismirror)](https://github.com/NorthIsMirror/jq-zsh-plugin) - Interactively build [jq](https://stedolan.github.io/jq/) expressions.
 * [jq (reegnz)](https://github.com/reegnz/jq-zsh-plugin) - `jq`-repl with line editor functionality.
 * [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
-* [k3d](https://github.com/dwaynebradley/k3d) - Adds aliases and tab completions for [k3d](https://k3d.io/).
+* [k3d](https://github.com/dwaynebradley/k3d-oh-my-zsh-plugin) - Adds aliases and tab completions for [k3d](https://k3d.io/).
 * [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
 * [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
 * [kill-node](https://github.com/vmattos/kill-node) - ZSH plugin for murdering `node` process families.
