@@ -2046,6 +2046,8 @@ Most of these plugins can be installed by adding `zpm load "githubuser/reponame"
 
 I've documented some recommendations for writing a new plugin [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins.md).
 
+There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html).
+
 ## Other Resources
 
 ### ZSH Tools
