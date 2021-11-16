@@ -70,7 +70,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Prezto](#prezto)
   - [Zgen](#zgen)
-  - [Zinit (né zplugin)](#zinit-n%C3%A9e-zplugin)
+  - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
 - [Plugins](#plugins)
 - [Completions](#completions)
