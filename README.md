@@ -1821,6 +1821,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [remiii](https://github.com/Remiii/remiii.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for [solarized](https://github.com/altercation/solarized) terminal themes.
 * [remolueoend](https://github.com/remolueoend/remolueoend.zsh-theme) - Prezto ZSH theme based on Sorin, using emojis for tracking GIT context.
 * [rho](https://github.com/andrejreznik/rho-zsh-theme) - Minimalist theme.
+* [ribbon](https://github.com/tactlessfish/ribbon-prompt) - Reminiscent of powerline. Includes Python `virtualenv` decorator.
 * [river](https://github.com/revir/river-zsh-config) - Dark theme with `git` information.
 * [robbyolivier](https://github.com/YuyeQingshan/robbyolivier) - Based on ideas from the the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme and the project [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
 * [robbyrussell-WIP](https://github.com/ecbrodie/robbyrussell-WIP-theme) - Decorates the `robbyrussell` theme with output to indicate a **WIP** commit.
