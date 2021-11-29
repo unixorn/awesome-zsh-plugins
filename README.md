@@ -1103,6 +1103,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [zconvey](https://github.com/zdharma-continuum/zconvey) - Adds ability to send commands to other ZSH sessions, you can use this to `cd $PWD` on all active ZSH sessions, for example.
 * [zed](https://github.com/eendroroy/zed-zsh) - A simple wrapper for [z](https://github.com/rupa/z) to install it via a ZSH plugin.
 * [zeit](https://github.com/zeit/zeit.zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
+* [zellij (jaeheonji)](https://github.com/jaeheonji/zsh-zellij-plugin) - Provides an environment that uses [zellij](https://github.com/zellij-org/zellij). Requires `tmux`.
+* [zellij (tranzystorek-io)](https://github.com/tranzystorek-io/zellij-zsh) - Provides an environment that autostarts [zellij](https://github.com/zellij-org/zellij) as your terminal's multiplexer.
 * [zeno](https://github.com/yuki-yano/zeno.zsh) - Fuzzy completion and utility plugin powered by [Deno](https://deno.land/).
 * [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the github page for installation details.
 * [zflai](https://github.com/zdharma-continuum/zflai) - A fast logging framework for ZSH.
