@@ -7,7 +7,6 @@
 [![License](https://img.shields.io/github/license/unixorn/awesome-zsh-plugins.svg)](https://opensource.org/licenses/BSD-3-Clause)
 ![Awesomebot](https://github.com/unixorn/awesome-zsh-plugins/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/awesome-zsh-plugins.svg)](https://github.com/unixorn/awesome-zsh-plugins/stargazers)
-[![Issue Count](https://codeclimate.com/github/unixorn/awesome-zsh-plugins/badges/issue_count.svg)](https://codeclimate.com/github/unixorn/awesome-zsh-plugins)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/awesome-zsh-plugins/main.svg)](https://github.com/unixorn/awesome-zsh-plugins)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/unixorn/awesome-zsh-plugins/)
 
@@ -18,7 +17,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 ## Table of Contents
 
 - [Frameworks](#frameworks)
-  - [alf](#alf)
   - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
@@ -1585,6 +1583,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [jpegleg](https://github.com/jpegleg/zshrc) - Similar to dark blood theme, includes timestamp and `git` decorations.
 * [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
 * [just-another](https://github.com/supertassu/another-theme) - Just another theme, with hostname when you're sshed to another machine.
+* [just-around-the-corner](https://github.com/DevinLeamy/just-around-the-corner) - Counts down the days until Christmas. Includes `git` status decorations.
 * [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
 * [jyumpp](https://github.com/Jyumpp/jyumpp-zsh-theme) - Configuration file and installer for Powerlevel 10K.
 * [kali](https://github.com/h4ck3r0/kali-theme) - Includes `git` decorations.
