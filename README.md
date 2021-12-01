@@ -2073,7 +2073,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 ### ZSH Tools
 
 * [ShellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
-* [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH.
+* [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH. It measures user-visible latency of interactive `zsh`: input lag, command lag, etc
 * [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger.
 * [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
 * [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
