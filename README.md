@@ -503,7 +503,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [aws-vault (blimmer)](https://github.com/blimmer/zsh-aws-vault) - Plugin for [aws-vault](https://github.com/99designs/aws-vault). Includes tab completions.
 * [aws-vault (reegnz)](https://github.com/reegnz/aws-vault-zsh-plugin) - Makes it easier to use [aws-vault](https://github.com/99designs/aws-vault) in your environment.
 * [aws2](https://github.com/drgr33n/oh-my-zsh_aws2-plugin) - Provides completion support for version 2 of the [awscli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and a few utilities to manage AWS profiles and display them in the prompt.
-* [aws](https://github.com/apachler/zsh-aws) - Forked from the original oh-my-zsh [aws](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws). Includes completions for `awscli`.
+* [aws](https://github.com/apachler/zsh-aws) - Forked from the original oh-my-zsh [aws](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws). Includes completions for `awscli` and a few utilities for managing AWS profiles and displaying them in your prompt.
 * [awsume](https://github.com/Sordie/AWSume) - Plugin that enables showing the current [awsume](https://github.com/trek10inc/awsume) profile.
 * [azcli](https://github.com/dmakeienko/azcli) - Helper for using the azure cli tools.
 * [azure-subscription](https://github.com/dmakeienko/azure-subscription-prompt) - Displays information about the Azure current Subscription and tenant.
@@ -1458,7 +1458,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [eivmosn](https://github.com/eivmosn/eivmosn-omz) - Trimmed down variant of `ys` theme.
 * [eleastic](https://github.com/jinseobhong/eleastic-zsh-theme) - Inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for solarized terminal theme, includes `git` status decorations. Requires powerline-compatible font.
 * [elessar](https://github.com/fjpalacios/elessar-theme) - A `git`-aware theme based on [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme). Requires a Powerline-compatible font.
-* [elm](https://github.com/gacallea/elm-zsh-theme) - Includes `git` status, user@host and path decorators.
+* [elm](https://github.com/gacallea/elm-zsh-theme) - Includes `git` status, user@host, date, time and path decorators.
 * [elsa](https://github.com/faycito/elsa) - Includes root status, pwd and `git` status decorations.
 * [emojeer](https://github.com/lxynox/emojeer-ohmyzsh) - Emoji flavored [oh-my-zsh](ohmyzsh/ohmyzsh) theme.
 * [emoji](https://github.com/masaakifuruki/emoji.zsh-theme) - Based on  [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) oh-my-zsh theme with the `git` prompt symbols replaced with emoji for better clarity.
