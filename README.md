@@ -39,6 +39,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [yazt](#yazt)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
+  - [zebrafish](#zebrafish)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -215,7 +216,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zebrafish](https://github.com/mattmc3/zebrafish)
 
-**Zebrafish** is a lightweight, full-featured, blazing-fast Zsh micro-framework in just one file.
+**Zebrafish** is a lightweight, full-featured, blazing-fast ZSH micro-framework in just one file.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
