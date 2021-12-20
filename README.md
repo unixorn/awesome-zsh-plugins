@@ -39,6 +39,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [yazt](#yazt)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
+  - [zebrafish](#zebrafish)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -215,7 +216,7 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zebrafish](https://github.com/mattmc3/zebrafish)
 
-**Zebrafish** is a lightweight, full-featured, blazing-fast Zsh micro-framework in just one file.
+**Zebrafish** is a lightweight, full-featured, blazing-fast ZSH micro-framework in just one file.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
@@ -572,7 +573,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k). Similar to `REPORTTIME` builtin, but only outputs when user + system time >= `REPORTTIME`.
 * [compe](https://github.com/tamago324/compe-zsh) - Add completion for [nvim-compe](https://github.com/hrsh7th/nvim-compe).
 * [completion-generator](https://github.com/RobSis/zsh-completion-generator) - This plugin tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
-* [completion-zstyles](https://github.com/zshzoo/completion-zstyles) - Zstyle settings for Zsh completions based on Prezto's.
+* [completion-zstyles](https://github.com/zshzoo/completion-zstyles) - Zstyle settings for ZSH completions based on Prezto's.
 * [copier](https://github.com/zshzoo/copier) - Standalone clipboard utilities from oh-my-zsh.
 * [copy-pasta](https://github.com/ChrisPenner/copy-pasta) - Copy and paste files in your terminal like you would in a GUI.
 * [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
@@ -812,11 +813,11 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
 * [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
 * [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
-* [macos](https://github.com/joow/macos) - A ZSH plugin for macOS.
-* [macos](https://github.com/zshzoo/macos) - Zsh goodies for MacOS users.
+* [macos (joow)](https://github.com/joow/macos) - A ZSH plugin for macOS.
+* [macos (zshzoo)](https://github.com/zshzoo/macos) - ZSH goodies for MacOS users.
 * [mage2docker](https://github.com/lukaszolszewski/mage2docker) - Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers.
 * [magento-2](https://github.com/dambrogia/oh-my-zsh-plugin-magento-2) - Adds `m2` function to run magento binary, adds tab completions.
-* [magic-enter](https://github.com/zshzoo/magic-enter) - Make your enter key magical by binding a Zsh command to it.
+* [magic-enter](https://github.com/zshzoo/magic-enter) - Make your enter key magical by binding a ZSH command to it.
 * [manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
 * [markedit](https://github.com/zakariaGatter/MarkEdit) - Mark files and edit them with autocompletion for existing marks.
 * [markgate](https://github.com/zakariaGatter/MarkGate) - Allows you to mark directories so you can jump directly to them.
@@ -1405,6 +1406,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [charged](https://github.com/robwierzbowski/charged-zsh-theme) - A ZSH prompt optimized for the [solarized](https://github.com/altercation/solarized) dark terminal theme.
 * [chello](https://github.com/Abdalla981/chello) - Works well on dark backgrounds. Depends on [autojump](https://github.com/wting/autojump), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 * [chi](https://github.com/akinjide/chi) - A ZSH theme optimized for iTerm 2 users on macOS.
+* [chinipage](https://github.com/andresemartinez/chinipage-zsh-theme) - Minimalist theme that includes `git` decorations. Requires powerline-compatible fonts and the [git-prompt](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-prompt) plugin.
 * [chrisandrew.cl](https://github.com/chrisandrewcl/chrisandrew.cl.zsh-theme) - Includes `git` decorations. Requires powerline-compatible terminal font.
 * [cinnabar](https://github.com/nvillapiano/zsh-theme---cinnabar) - Shows timestamp, large line breaks, git branch and status.
 * [clarity](https://github.com/nbitmage/clarity.zsh) - Designed for for simpleness and extensibility.
