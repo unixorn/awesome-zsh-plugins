@@ -1287,6 +1287,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [yabai](https://github.com/Amar1729/yabai-zsh-completions) - Add completions for macOS [yabai](https://github.com/koekeishiya/yabai/) tiling window manager.
 * [yarn](https://github.com/g-plane/zsh-yarn-autocompletions) - Add autocompletions for `yarn add`, `yarn remove`, `yarn upgrade`, `yarn why` and `yarn run`.
 * [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses `argparse` and it will write a ZSH completion to your current directory.
+* [zstyle-completions](https://github.com/zshzoo/zstyle-completions) - Gives [prezto-style](https://github.com/sorin-ionescu/prezto) completions when you hit tab.
 
 ## Themes
 
