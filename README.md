@@ -1203,6 +1203,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
 * [efibootmgr](https://github.com/wehlando/efibootmgr-zsh-completion) - Tab completions for `efibootmgr`.
 * [etcdctl](https://github.com/sheax0r/etcdctl-zsh) - Adds etcdctl tab completions.
+* [expressvpn](https://github.com/tk7r/zsh-expressvpn) - Adds tab completions for the [expressVPN](https://www.expressvpn.com/support/vpn-setup/app-for-linux/) client.
 * [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and supports a wide variety of archive filetypes.
 * [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 * [flowr](https://github.com/oubasan/flowr) - Completion support for [git-flow](http://github.com/nvie/gitflow).
