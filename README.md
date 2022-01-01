@@ -1628,7 +1628,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [kiss](https://github.com/rileytwo/kiss) - Simple theme for oh-my-zsh, VSCode, iTerm2, Neovim, and RStudio. Includes `git` status decorations.
 * [kketcham](https://github.com/prototype27/kketcham) - Theme with nifty colors on the `git` info.
 * [klassiker](https://github.com/mrdotx/zsh-theme) - Very minimal theme with `git` decorations.
-* [klendathu](https://github.com/kegonomics/klendathu) - Uses Powerline iconsolas.
 * [kote](https://github.com/wendygaoyuan/kote-zsh-theme) - Best for dark backgrounds. Includes `git` status decorations.
 * [kotterstep](https://github.com/sorenvonsarvort/kotterstep-zsh-theme) - Two line theme designed for dark terminals, has `git` decorations.
 * [krak3n](https://github.com/krak3n/zsh-theme) - Shows golang version and the current `git` branch.
