@@ -44,6 +44,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgem](#zgem)
   - [zgen](#zgen)
   - [zgenom](#zgenom)
+  - [ZI](#zi)
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
@@ -240,6 +241,12 @@ This minimizes startup time by not having to execute time consuming logic (plugi
 
 Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git clone` plugins for you when you add them to your plugin list.
 
+### [ZI](https://github.com/z-shell/zi)
+
+**ZI** is a Swiss Army Knife for Zsh Unix shell. Formerly known as zplugin, zinit. ZI - [Wiki Pages](https://z-shell.pages.dev/).
+
+Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
+
 ### [zilsh](https://github.com/zilsh/zilsh)
 
 **zilsh** is a ZSH config system that aims to appeal more to power-users and follow the simplistic approach of vim-pathogen.
@@ -263,8 +270,6 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 - Clean `fpath` (the array `$fpath` is not being used to add completions and autoload functions, hence it stays concise, not bloated)
 - Services ↔ a single-instance, background plugins
 - Also, in general: all the mechanisms from the ZSH Plugin Standard – Zinit is a reference implementation of the standard.
-
-Bonus: you can use [zinit-console](https://github.com/z-shell/zinit-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 The project is very active – currently > 3100 commits.
 
