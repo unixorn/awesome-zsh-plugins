@@ -18,7 +18,7 @@
 
 # Copyright Assignment
 
-- [ ] This document is covered by the [BSD License](https://github.com/unixorn/awesome-zsh-plugins/blob/master/LICENSE), and I agree to contribute this PR under the terms of the license.
+- [ ] This document is covered by the [BSD License](https://github.com/unixorn/awesome-zsh-plugins/blob/master/LICENSE), and I agree to contribute this PR under the terms of the license. This is for the list submission, not for the project(s) you're adding, I don't care what license the plugins have as long as they have something.
 
 # Checklist:
 
