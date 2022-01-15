@@ -1155,8 +1155,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 * [zlitefetch](https://github.com/ippee/zlitefetch) - Lightweight system information plugin.
 * [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses notify-send and ring a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
 * [zman](https://github.com/mattmc3/zman) - Use `fzf` to quickly browse Zsh manuals.
-* [zoxide (ajeetdsouza)](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
-* [zoxide (hermitmaster)](https://github.com/hermitmaster/zsh-zoxide-plugin) - Automatically loads `zoxide` ZSH settings.
+* [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
 * [zredis](https://github.com/zdharma-continuum/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
 * [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + Oh-My-ZSH installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 * [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in vim.
