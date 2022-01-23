@@ -151,6 +151,12 @@ You can find some interesting performance timing comparisons of various framewor
 
 **mzpm** is a minimalist plugin manager for ZSH.
 
+Features:
+
+- Fetching and loading plugins from GitHub
+- Loading local plugins
+- Loading themes
+
 ### [oh-my-zsh](https://ohmyz.sh/)
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
