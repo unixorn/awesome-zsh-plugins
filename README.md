@@ -1202,7 +1202,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [cargo](https://github.com/MenkeTechnologies/zsh-cargo-completion) - All the functionality of the original OMZ cargo completion, with additional support for remote crates via `cargo search` in `cargo add`.
 * [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
 * [cf-zsh-autocomplete](https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
-* [cod](https://github.com/dim-an/cod) - A completion demon for bash/fish/ZSH which creates completion functions on the fly when it sees you run something with `--help`.
+* [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 * [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 * [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
 * [comonicon](https://github.com/Roger-luo/ComoniconZSHCompletion.jl) - Tab completions for [comonicon](https://github.com/Roger-luo/Comonicon.jl).
@@ -1257,6 +1257,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [kompose](https://github.com/gantsign/zsh-plugins/tree/master/kompose) - Add tab completions for [Kompose](http://kompose.io/).
 * [kubeadm](https://github.com/gantsign/zsh-plugins/tree/master/kubeadm) - Add tab completions for [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).
 * [kubectl-fzf](https://github.com/bonnefoa/kubectl-fzf) - Fast and powerful [`fzf`](https://github.com/junegunn/fzf)-powered autocompletion for `kubectl`.
+* [lazycomplete](https://github.com/rsteube/lazycomplete) - Lazy loading for shell completion scripts.
 * [lets](https://github.com/lets-cli/lets-zsh-plugin) - Add autocompletion for [lets](https://github.com/lets-cli/lets) cli task runner.
 * [ls-go](https://github.com/MohamedElashri/ls-go-zsh) - Adds some useful aliases for [ls-go](https://github.com/acarl005/ls-go).
 * [mooseX-App](https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion) - completion generator for Perl module `MooseX::App`.
@@ -1268,7 +1269,7 @@ These plugins add tab completions without adding extra functions or aliases.
 * [node-ace](https://github.com/romch007/node-ace-zsh-completion) - Completions for `node ace`.
 * [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
 * [npm-run](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`.
-* [nx](https://github.com/jscutlery/nx-completion) - Completions for nx. Requires [`jq`](https://stedolan.github.io/jq/).
+* [nx](https://github.com/jscutlery/nx-completion) - Completions for [nx](https://nx.dev). Requires [`jq`](https://stedolan.github.io/jq/).
 * [okta](https://github.com/sirhc/okta.plugin.zsh) - Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https://github.com/jmhale/okta-awscli) commands.
 * [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 * [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
@@ -1964,7 +1965,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 * [ssfprompt](https://github.com/hugoh/zsh-ssfprompt) - Simple, slim, fast. Includes `ssh`, virtualenv and vcs decorations.
 * [staples](https://github.com/dersam/staples) - Based on bureau, displays user@host if connected through SSH.
 * [starboy](https://github.com/prdpx7/Starboy) - A simple ZSH theme.
-* [starship](https://github.com/starship/starship) - Minimal, fast, extremely customizable.
+* [starship](https://starship.rs/) - Minimal, fast, extremely customizable.
 * [statusline](https://github.com/el1t/statusline) - A responsive ZSH theme that provides informational segments when you need them.
 * [steef (danihodovic)](https://github.com/danihodovic/steeef) - ZSH steeef theme as a standalone repository. The purpose behind this repo is avoid having a dependency on oh-my-zsh when using the steeef theme. ZSH plugin managers such as Antibody can use the theme without having to use oh-my-zsh.
 * [steef (zimfw)](https://github.com/zimfw/steeef) - A customizable version of [steeef's](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/steeef.zsh-theme) theme.
