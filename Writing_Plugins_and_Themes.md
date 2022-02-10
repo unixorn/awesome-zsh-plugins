@@ -16,6 +16,10 @@ Here are some suggestions to make installing and using your plugin/theme as simp
 
 7. If your plugin adds any of its subdirectories to the user's `fpath`, make sure those subdirectories only contain function definition files. This allows for frameworks to correctly [zcompile all functions](http://zsh.sourceforge.net/Doc/Release/Functions.html#Autoloading-Functions). Please don't make your plugin add its root directory to the `fpath` - this will cause problems with `zcompile`.
 
-8. Don't forget to add a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one if you don't have something specific already in mind.
+8. Leave ZSH settings alone.
+  - If you're using `setopt` to override the user's existing settings, you _will_ break someone's workflow. If you feel you absolutely must tweak `setopt` settings, make sure there's an easy way to disable your overrides - consider looking for a file named `~/.YOURPLUGIN_disable_SETTINGSNAME`.
+  -  If you're touching the magic ZSH settings variables like `HISTSIZE`, _only do it if the variable is unset_. Wrap it in a `if [[ -z "$VARNAME" ]]; then` block so you don't step on a user's existing settings.
 
-9. Submit a PR here so your plugin is easy for users to find :-)
+9. Don't forget to add a license. A lot of people won't use anything that doesn't have a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one if you don't already have something specific in mind.
+
+10. Submit a PR or add an issue here at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) so your plugin is easy for users to find :-)
