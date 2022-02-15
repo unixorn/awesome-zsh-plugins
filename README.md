@@ -145,9 +145,9 @@ You can find some interesting performance timing comparisons of various framewor
 
 **miniplug** is a minimalistic plugin manager for ZSH.
 
-* No crashes or double plugin loading when re-sourcing .zshrc
-* Unlike other frameworks, Miniplug does not pollute your $PATH
-* Only does the bare minimum for managing plugins
+- No crashes or double plugin loading when re-sourcing .zshrc
+- Unlike other frameworks, Miniplug does not pollute your $PATH
+- Only does the bare minimum for managing plugins
 
 ### [mzpm](https://github.com/Insert-Creative-Name-Here/mzpm)
 
@@ -187,17 +187,17 @@ PZ does just enough to manage your Zsh plugins really well, and then gets out of
 
 A fast, configurable, shell plugin manager.
 
-* Can manage
-  * Any `git` repository.
-    * Branch/tag/commit support.
-    * Extra support for GitHub repositories.
-    * Extra support for Gists.
-  * Arbitrary remote files, simply specify the URL.
-  * Local plugins, simply specify the directory path.
-* Highly configurable install methods using [handlebars](http://handlebarsjs.com/) templating.
-* Super-fast parallel installation.
-* Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
-* Uses a lock file for much faster loading of plugins.
+- Can manage
+  - Any `git` repository.
+    - Branch/tag/commit support.
+    - Extra support for GitHub repositories.
+    - Extra support for Gists.
+  - Arbitrary remote files, simply specify the URL.
+  - Local plugins, simply specify the directory path.
+- Highly configurable install methods using [handlebars](http://handlebarsjs.com/) templating.
+- Super-fast parallel installation.
+- Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
+- Uses a lock file for much faster loading of plugins.
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
@@ -337,11 +337,11 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 
 **zpm** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) who combines the imperative and declarative approach. At first run, zpm will do complex logic and generate cache, after that will be used cache only, so it makes this framework to be very fast.
 
-* Fastest plugin manager (Really, after the first run, zpm will not be used at all)
-* Support for async loading
-* Dependencies between packages
-* zpm runs on Linux, macOS, FreeBSD and Android.
-* zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
+- Fastest plugin manager (Really, after the first run, zpm will not be used at all)
+- Support for async loading
+- Dependencies between packages
+- zpm runs on Linux, macOS, FreeBSD and Android.
+- zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
 
 ### [zr](https://github.com/jedahan/zr)
 
@@ -351,13 +351,13 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 
 **zshing** is a ZSH plugin manager similar to Vundle/Vim and allows you to...
 
-* keep track of and configure your plugins right in the `.zshrc`
-* Install ZSH plugins
-* Update ZSH plugins
-* Search by name all available ZSH Plugins
-* Clean unused plugins up
-* run the above actions in a *single command*
-* manages the __Source Plugins__ of your installed Plugins
+- keep track of and configure your plugins right in the `.zshrc`
+- Install ZSH plugins
+- Update ZSH plugins
+- Search by name all available ZSH Plugins
+- Clean unused plugins up
+- run the above actions in a *single command*
+- manages the __Source Plugins__ of your installed Plugins
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
@@ -375,10 +375,10 @@ A simple and fast ZSH plugin manager. It uses zcompile and async loading to spee
 
 **Zulu** is a environment manager for ZSH 5+, which aims to make it easy to manage your shell without writing any code.
 
-* Easily manage your shell environment without editing files.
-* Create aliases, functions and environment variables, and have them available to you at the next shell startup.
-* Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
-* Install packages, plugins and themes easily, and have them available to you immediately.
+- Easily manage your shell environment without editing files.
+- Create aliases, functions and environment variables, and have them available to you at the next shell startup.
+- Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
+- Install packages, plugins and themes easily, and have them available to you immediately.
 
 ## Setups
 
@@ -386,11 +386,11 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### zgenom
 
-* [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgenom](https://github.com/jandamm/zgenom). This automatically configures ZSH to use [zgenom](https://github.com/jandamm/zgenom) to load a curated collection of plugins and periodically automatically update itself, the plugins, and the quickstart kit itself.
+- [zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) - A simple quickstart for using ZSH with [zgenom](https://github.com/jandamm/zgenom). This automatically configures ZSH to use [zgenom](https://github.com/jandamm/zgenom) to load a curated collection of plugins and periodically automatically update itself, the plugins, and the quickstart kit itself.
 
 ### zinit
 
-* [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma-continuum/zinit) for maximum speed.  A full terminal configuration framework including `zsh`, `tmux`, `fzf`, `vim` and spacemacs configurations.  It includes:
+- [ZPWR](https://github.com/MenkeTechnologies/zpwr) - An extremely powerful custom terminal environment built on top of [Zinit](https://github.com/zdharma-continuum/zinit) for maximum speed.  A full terminal configuration framework including `zsh`, `tmux`, `fzf`, `vim` and spacemacs configurations.  It includes:
 
 - 11.5k+ tab completions
 - 1.9k+ aliases
