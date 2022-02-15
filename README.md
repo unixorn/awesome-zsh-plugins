@@ -85,7 +85,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zgenom](#zgenom)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
-- [Writing New Plugins](#writing-new-plugins)
+- [Writing New Plugins and Themes](#writing-new-plugins-and-themes)
 - [Other Resources](#other-resources)
   - [ZSH Tools](#zsh-tools)
   - [Other Useful Lists](#other-useful-lists)
