@@ -605,6 +605,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [crystal](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/crystal-lang/crystal).
 - [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
 - [declare-zsh](https://github.com/z-shell/declare-zsh) - A parser for zinit commands in `.zshrc`. It allows to perform the following actions on `.zshrc` from the command-line - enable and disable plugins add or remove snippets.
+- [ddev](https://github.com/voronkovich/ddev.plugin.zsh) - A ZSH plugin for the [ddev](https://github.com/drud/ddev) tool for setting up PHP development environments.
 - [deepx](https://github.com/GetAmbush/deepx-zsh-plugin) - Collection of useful and fun commands to improve workflow and quality of life.
 - [deer](https://github.com/Vifon/deer) - A file navigator for ZSH heavily inspired by [ranger](https://ranger.github.io/).
 - [defer](https://github.com/romkatv/zsh-defer) - Defers execution of a `zsh` command until `zsh` has nothing else to do and is waiting for user input. Its intended purpose is staged `zsh` startup. It works similarly to Turbo mode in [zinit](https://github.com/zdharma-continuum/zinit).
