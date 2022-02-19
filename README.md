@@ -1629,6 +1629,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [hyperzsh](https://github.com/tylerreckart/hyperzsh) - Gives you a comprehensive overview of the branch you're working on and the status of your repository without cluttering your terminal.
 - [iGeek](https://github.com/KalebHawkins/ohmyzsh-IGeek-OSX) - Modified iGeek theme. Works with macOS out-of the box, includes `git` status decorations.
 - [iamskok](https://github.com/iamskok/iamskok.zsh-theme) - Works well on a dark background.
+* [iay](https://github.com/aaqaishtyaq/iay) - A {ba,z}sh prompt written in Rust. Includes decorations for the current directory and `git` status.
 - [ice](https://github.com/Lenart12/ice.zsh-theme) - Very lightly modified [bureau](https://github.com/isqua/bureau) theme combined with [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme).
 - [icicle](https://github.com/JamesConlan96/Icicle) - Includes `git` status decorations, and whether running as root.
 - [iggy](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, `git`-aware **prezto only** theme.
