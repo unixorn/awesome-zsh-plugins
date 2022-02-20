@@ -1209,6 +1209,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [batect](https://github.com/batect/batect-zsh-completion/) - Adds tab completions for [batect](https://batect.dev/) build system.
 - [berkshelf-completions](https://github.com/berkshelf/berkshelf-zsh-plugin) - Adds tab completion for berkshelf.
 - [better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) - Better tab completion for `npm`.
+- [bio](https://github.com/yamaton/zsh-completions-bio/) - Completions for bioinformatics tools.
 - [bosh-zsh-autocompletion](https://github.com/krujos/bosh-zsh-autocompletion) - Adds BOSH autocompletion.
 - [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services.
 - [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool [buidler.dev](https://buidler.dev).
