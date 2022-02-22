@@ -1180,6 +1180,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [zman](https://github.com/mattmc3/zman) - Use `fzf` to quickly browse Zsh manuals.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
 - [zredis](https://github.com/zdharma-continuum/zredis) - Adds Redis database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
+- [zservice-py3http](https://github.com/z-shell/zservice-py3http) - Serve a given directory with Python 3's http server from the standard library.
 - [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + Oh-My-ZSH installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 - [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in vim.
 - [zsh-select](https://github.com/z-shell/zsh-select) - Displays a selection list. It is similar to `selecta`, but uses the curses library to do display, and when compared to [fzf](https://github.com/junegunn/fzf), the main difference is approximate matching instead of fuzzy matching.
