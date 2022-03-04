@@ -72,6 +72,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zgen](#zgen)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
+    - [superconsole - Windows-only.](#superconsole---windows-only)
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
@@ -450,18 +451,18 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### ZSH on Windows
 
-- [superconsole](https://github.com/alexchmykhalo/superconsole) - Windows-only.
+#### [superconsole](https://github.com/alexchmykhalo/superconsole) - Windows-only.
 
-  - ConEmu/zsh out-of-the-box configured to restore previously opened tabs and shell working directories after ConEmu restart
+  - `ConEmu`/`zsh` out-of-the-box configured to restore previously opened tabs and shell working directories after `ConEmu` restart
   - Choose between clean and inherited environment when starting new SuperConsole sessions
   - Custom colorful scheme, colorful output for various commands
-  - MSYS2 included, `zsh` and necessary software preinstalled, uses zsh-grml-config
-  - Uses Antigen for ZSH theme and config management
+  - `MSYS2` included, `zsh` and necessary software preinstalled, uses zsh-grml-config
+  - Uses [Antigen](https://github.com/zsh-users/antigen) for ZSH theme and config management
   - Enabled number of ZSH plugins to activate completion, highlighting and history for most comfortable use
-  - Git-for-Windows repo with proper `git` and git lfs support for MSYS2 environment is configured, `git` client already installed.
+  - Git-for-Windows repo with proper `git` and `git lfs` support for `MSYS2` environment is configured, `git` client already installed.
   - `ssh-agent` for `git` works out-of-box, add your keys to `ConEmu/msys64/ConEmu/msys64/home/user/.ssh` dir
-  - Non-blocking ZSH prompt status updates thanks to agkozak-zsh-prompt
-  - Customized for MSYS2 command-not-found handler suggests what package to install
+  - Non-blocking ZSH prompt status updates thanks to [agkozak-zsh-prompt](https://github.com/agkozak/agkozak-zsh-prompt)
+  - Command-not-found handler customized for `MSYS2` suggests what package to install
   - Sets up `nano` as main editor, enables `nano` syntax highlighting
   - Custom helper scripts added to `ConEmu/msys64/3rdparty`
 
