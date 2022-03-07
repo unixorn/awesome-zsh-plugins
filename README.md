@@ -20,6 +20,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
+  - [antidote](#antidote)
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
   - [ax-zsh](#ax-zsh)
@@ -31,7 +32,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
-  - [pz](#pz)
   - [sheldon](#sheldon)
   - [Toasty](#toasty)
   - [tzpm](#tzpm)
@@ -120,6 +120,10 @@ You can find some interesting performance timing comparisons of various framewor
 
 **Antibody** is a faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
+### [antidote](https://github.com/mattmc3/antidote)
+
+**Antidote** is a faster, simpler antigen, written in native Zsh. It picks up where antibody left off.
+
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
 **antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
@@ -177,12 +181,6 @@ The PMS framework also allows you to use the same framework in different shells.
 ### [pumice](https://github.com/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
-
-### [pz](https://github.com/mattmc3/pz)
-
-A plugin manager for ZSH doesn't have to be complicated to be powerful. PZ doesn't try to be clever when it can be smart. PZ is a full featured, fast, and easy to understand plugin manager encapsulated in a single file with about 200 lines of clean ZSH.
-
-PZ does just enough to manage your Zsh plugins really well, and then gets out of your way. And it's unit tested too to make sure it works as expected!
 
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
