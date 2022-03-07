@@ -39,7 +39,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [yazt](#yazt)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
-  - [zebrafish](#zebrafish)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -221,10 +220,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 ### [zcomet](https://github.com/agkozak/zcomet)
 
 **zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in Git repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
-
-### [zebrafish](https://github.com/mattmc3/zebrafish)
-
-**Zebrafish** is a lightweight, full-featured, blazing-fast ZSH micro-framework in just one file.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
