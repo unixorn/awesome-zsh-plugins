@@ -20,6 +20,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
+  - [antidote](#antidote)
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
   - [ax-zsh](#ax-zsh)
@@ -31,7 +32,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
-  - [pz](#pz)
   - [sheldon](#sheldon)
   - [Toasty](#toasty)
   - [tzpm](#tzpm)
@@ -39,7 +39,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [yazt](#yazt)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
-  - [zebrafish](#zebrafish)
   - [zeesh](#zeesh)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -120,6 +119,10 @@ You can find some interesting performance timing comparisons of various framewor
 
 **Antibody** is a faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
+### [antidote](https://github.com/mattmc3/antidote)
+
+**Antidote** is a faster, simpler antigen, written in native Zsh. It picks up where antibody left off.
+
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
 **antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
@@ -178,12 +181,6 @@ The PMS framework also allows you to use the same framework in different shells.
 
 **Pumice** is a lightweight plugin manager for ZSH.
 
-### [pz](https://github.com/mattmc3/pz)
-
-A plugin manager for ZSH doesn't have to be complicated to be powerful. PZ doesn't try to be clever when it can be smart. PZ is a full featured, fast, and easy to understand plugin manager encapsulated in a single file with about 200 lines of clean ZSH.
-
-PZ does just enough to manage your Zsh plugins really well, and then gets out of your way. And it's unit tested too to make sure it works as expected!
-
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
 A fast, configurable, shell plugin manager.
@@ -223,10 +220,6 @@ zapack is a basic fast minimal ZSH plugin loader.
 ### [zcomet](https://github.com/agkozak/zcomet)
 
 **zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in Git repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
-
-### [zebrafish](https://github.com/mattmc3/zebrafish)
-
-**Zebrafish** is a lightweight, full-featured, blazing-fast ZSH micro-framework in just one file.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
@@ -1250,7 +1243,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [expressvpn](https://github.com/tk7r/zsh-expressvpn) - Adds tab completions for the [expressVPN](https://www.expressvpn.com/support/vpn-setup/app-for-linux/) client.
 - [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and supports a wide variety of archive filetypes.
 - [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
-- [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://www.concourse.ci/fly-cli.html) commands.
+- [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://concourse-ci.org/fly.html) commands.
 - [fzf-gcloud](https://github.com/mbhynes/fzf-gcloud) - Fuzzy completion to navigate and preview all Google Cloud SDK `gcloud` CLI commands
 - [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, bash & applications using GNU Readline.
 - [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
