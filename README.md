@@ -1673,6 +1673,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
 - [jyumpp](https://github.com/Jyumpp/jyumpp-zsh-theme) - Configuration file and installer for Powerlevel 10K.
 - [kali](https://github.com/h4ck3r0/kali-theme) - Includes `git` decorations.
+- [kalsowerus](https://github.com/kalsowerus/kalsowerus.zsh-theme) - Powerline-inspired theme, includes decorations for `git` status, directory, and `nvm` information.
 - [karu](https://github.com/zaari/karu) - Minimalist single line ZSH prompt.
 - [keloran](https://github.com/Keloran/keloran.zsh-theme) - Theme that includes a few features from other themes.
 - [kenton](https://github.com/notnek/zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
