@@ -119,10 +119,13 @@ You can find some interesting performance timing comparisons of various framewor
 
 **Antibody** is a faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
-### [antidote](https://github.com/mattmc3/antidote)
+### [antidote](https://getantidote.github.io/)
 
-**Antidote** is a faster, simpler antigen, written in native Zsh. It picks up where antibody left off.
+**Antidote** is a Zsh plugin manager made from the ground up thinking about performance.
 
+It is fast because it can do things concurrently, and generates an ultra-fast static plugin file that you can include in your Zsh config.
+
+It is written natively in Zsh, is well tested, and picks up where Antibody left off.
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
 **antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
@@ -538,7 +541,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [bepoptimist](https://github.com/sheoak/zsh-bepoptimist) - Remap ZSH `vi`-mode for French [bépo keyboard](http://bepo.fr/wiki/Accueil).
 - [betterbrew](https://github.com/timothyrowan/betterbrew-zsh-plugin) - Add more command aliases for `brew`
 - [bitbucket-git-helpers](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh) - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.
-- [bitwarden](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
+- [bitwarden (game4move78)](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
+- [bitwarden (kalsowerus)](https://github.com/kalsowerus/zsh-bitwarden) - Opens a fzf widget containing your [Bitwarden](https://bitwarden.com/) vault items. Upon selecting an item either the username or password will be either written into the shell or copied into the clipboard. Requires `fzf`, `jq` and `bitwarden`.
 - [blackbox](https://github.com/StackExchange/blackbox) - [Stack Exchange](https://stackexchange.com)'s toolkit for storing keys/credentials securely in a `git` repository.
 - [bofh](https://github.com/fundor333/bofh) - Adds functions to display random bofh fortunes.
 - [bol](https://github.com/ikhurramraza/bol) - Prints a random quote when you open a terminal window.
@@ -2042,6 +2046,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ubuntu-with-vitamins](https://github.com/ureesoriano/zsh-ubuntu-with-vitamins-zim-theme) - Mimics the default Ubuntu prompt, but with `git` decorations.
 - [ubuntu](https://github.com/janstuemmel/zsh-ubuntu-theme) - Minimal theme, includes `git` status decorations.
 - [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme with `git` indicator, vim mode indicator and shortened path.
+- [ultimator](https://github.com/Ultimator14/ultimator-zsh-theme) - Agnoster-like theme. Includes decorators for current directory, `user@host`, python virtualenv, background jobs, last command exit status, and `git` status information. Requires [zsh-git-prompt](https://github.com/Ultimator14/zsh-git-prompt) plugin and Nerdfonts.
 - [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
 - [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
 - [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
