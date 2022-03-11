@@ -119,10 +119,13 @@ You can find some interesting performance timing comparisons of various framewor
 
 **Antibody** is a faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
 
-### [antidote](https://github.com/mattmc3/antidote)
+### [antidote](https://getantidote.github.io/)
 
-**Antidote** is a faster, simpler antigen, written in native Zsh. It picks up where antibody left off.
+**Antidote** is a Zsh plugin manager made from the ground up thinking about performance.
 
+It is fast because it can do things concurrently, and generates an ultra-fast static plugin file that you can include in your Zsh config.
+
+It is written natively in Zsh, is well tested, and picks up where Antibody left off.
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
 **antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
