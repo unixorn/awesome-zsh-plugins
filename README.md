@@ -734,7 +734,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [github-folders](https://github.com/buzuloiu/zsh-github-folders) - Organizes your github checkouts for you.
 - [github](https://github.com/shakir-abdo/zsh-github-plugin) - Fork of the original [github plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/github) embedded in [oh-my-zsh](http://ohmyz.sh/).
 - [gitignore](https://github.com/voronkovich/gitignore.plugin.zsh) - Plugin for creating `.gitignore` files.
-- [gitio](https://github.com/denysdovhan/gitio-zsh) - A ZSH plugin for generating a GitHub short URL using [git.io](https://git.io).
+- [gitio (denysdovhan)](https://github.com/denysdovhan/gitio-zsh) - A ZSH plugin for generating a GitHub short URL using [git.io](https://git.io).
+- [gitio (nicolodiamante)](https://github.com/nicolodiamante/gitio) - Uses [git.io](https://git.io/) to shorten `git` urls.
 - [gitstatus](https://github.com/Insert-Creative-Name-Here/gitstatus.zsh) -  Makes it easy to show your `git` status in your prompt.
 - [gitsync](https://github.com/washtubs/gitsync) - ZSH plugin to improve workflows for one person developing on the same repository on multiple machines.
 - [goenv (CDA0)](https://github.com/CDA0/zsh-goenv/blob/master/zsh-goenv.plugin.zsh) - Plugin for installing, updating and loading goenv.
@@ -1668,7 +1669,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
 - [jyumpp](https://github.com/Jyumpp/jyumpp-zsh-theme) - Configuration file and installer for Powerlevel 10K.
 - [kali](https://github.com/h4ck3r0/kali-theme) - Includes `git` decorations.
-- [kalsowerus](https://github.com/kalsowerus/kalsowerus.zsh-theme) - Powerline-inspired theme, includes decorations for `git` status, directory, and `nvm` information.
+- [kalsowerus](https://github.com/kalsowerus/kalsowerus.zsh-theme) - Colorful powerline-inspired multi-line theme, includes decorations for `git` status, directory, last command exit status and `nvm` information.
 - [karu](https://github.com/zaari/karu) - Minimalist single line ZSH prompt.
 - [keloran](https://github.com/Keloran/keloran.zsh-theme) - Theme that includes a few features from other themes.
 - [kenton](https://github.com/notnek/zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
