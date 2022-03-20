@@ -1299,6 +1299,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
 - [npm-run](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`.
 - [nx](https://github.com/jscutlery/nx-completion) - Completions for [nx](https://nx.dev). Requires [`jq`](https://stedolan.github.io/jq/).
+- [octo](https://github.com/gembaadvantage/octo-oh-my-zsh) - Add completions for [octo](https://github.com/gembaadvantage/octo).
 - [okta](https://github.com/sirhc/okta.plugin.zsh) - Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https://github.com/jmhale/okta-awscli) commands.
 - [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 - [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
