@@ -1094,6 +1094,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the ZSH syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 - [uvenv](https://github.com/vincentto13/uvenv.plugin.zsh) - Extends the functionality of the original oh-my-zsh venv module.
 - [vagrant-box-wrapper](https://github.com/evanthegrayt/vagrant-box-wrapper) - A wrapper plugin for [vagrant](https://www.vagrantup.com/) that allows for calling `vagrant` commands from outside of the box directory. The plugin also ships with a few extra commands that help to manage more than one box, along with custom tab-completion.
+- [valet](https://github.com/NasirNobin/zsh-valet/) - Reads `.valetphprc` from the project root and will switch to that PHP version automatically.
 - [vanilli.sh](https://github.com/yous/vanilli.sh) - A lightweight start point of shell configuration.
 - [vapor](https://github.com/notf0und/zsh-vapor) - Laravel vapor plugin for zsh to help you to run vapor from anywhere in the project tree, with auto-completion!
 - [vcshr](https://github.com/aubreypwd/zsh-plugin-vcshr) - Help vcsh users require Github repositories using `vcsh` for auto-installation in `~/.zshrc`, etc.
@@ -1298,6 +1299,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
 - [npm-run](https://github.com/akoenig/npm-run.plugin.zsh) - Autocompletion support for `npm run`.
 - [nx](https://github.com/jscutlery/nx-completion) - Completions for [nx](https://nx.dev). Requires [`jq`](https://stedolan.github.io/jq/).
+- [octo](https://github.com/gembaadvantage/octo-oh-my-zsh) - Add completions for [octo](https://github.com/gembaadvantage/octo).
 - [okta](https://github.com/sirhc/okta.plugin.zsh) - Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https://github.com/jmhale/okta-awscli) commands.
 - [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 - [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
@@ -1327,7 +1329,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [surf](https://github.com/beardcoder/surf.plugin.zsh) - Add completions for surf.
 - [symphony (TheGrowingPlant)](https://github.com/TheGrowingPlant/symfony.plugin.zsh) - Autocompletion for Symfony 3 and 4 commands.
 - [test-kitchen-zsh-plugin](https://github.com/pelletiermaxime/test-kitchen-zsh-plugin) - Add completions for [Test Kitchen](https://github.com/test-kitchen/test-kitchen)).
-- [tinygo](https://github.com/sago35/tinygo-autocmpl) - Add tab completions for tinygo.
+- [tinygo](https://github.com/sago35/tinygo-autocmpl) - Add tab completions for [tinygo](https://tinygo.org/).
 - [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your [tmux](https://tmux.github.io) pane.
 - [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/petems/tugboat) command.
 - [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake.
