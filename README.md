@@ -1836,6 +1836,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [om](https://github.com/sirshikher/zsh-om) - Minimal theme, works with dark backgrounds, includes `git` status decorations.
 - [omszt](https://github.com/MU001999/omszt) - Minimalist theme with `git` decorations.
 - [omuse](https://github.com/ouuan/omuse-zsh-theme) - Based on Oh-My-ZSH's [amuse](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/amuse.zsh-theme). Has decorations for `git` status, time, absolute pwd, RAM usage, time used by last command, and last command exit status.
+- [ortiz](https://github.com/guesswhozzz/guezwhoz-zsh-theme) - Simplified ork of [eriner](https://github.com/zimfw/eriner) with `git` status, `kubectl` context and elapsed time decorations.
 - [owczarczak](https://github.com/ThemysciraData/owczarczak.zsh-theme) - Inspired by bira, dieter and fino-time. Includes `venv` and vcs status decorations.
 - [owi](https://github.com/owitech/zsh-theme/) - Minimalist theme with `git` status decorations.
 - [owiewestside](https://github.com/owenstranathan/owiewestside.zsh-theme) - Includes `git` status and virtualenv information.
