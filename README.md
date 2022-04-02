@@ -1092,6 +1092,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [unwrap](https://github.com/foxleigh81/unwrap-zsh-plugin) - Allows you to remove a directory without removing the contents - it puts them in the directory's parent directory.
 - [up (cjayross)](https://github.com/cjayross/up) - A simple way to navigate up through directories.
 - [up (peterhurford)](https://github.com/peterhurford/up.zsh) - Adds an up command to `cd` multiple levels up.
+- [up-dir](https://github.com/sgpthomas/zsh-up-dir) - Binds `ctrl-h` to navigating up a directory. This makes it very easy to go up a few directories without having to type any commands.
 - [update-zsh](https://github.com/AndrewHaluza/zsh-update-plugin) - Updates custom oh-my-zsh plugins. Only works with the oh-my-zsh framework.
 - [url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the ZSH syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
 - [uvenv](https://github.com/vincentto13/uvenv.plugin.zsh) - Extends the functionality of the original oh-my-zsh venv module.
@@ -1441,6 +1442,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
 - [boom](https://github.com/the0neWhoKnocks/zsh-theme-boom) - Multiline theme, best on dark backgrounds.
 - [boxy](https://github.com/evil-tim/boxy-zsh-theme) - Works well with solarized terminal colors. Includes decorators for `username@hostname`, current directory, `git` status, return code for last command, and time last command was run.
+- [brisa](https://github.com/brisa-dev/oh-my-zsh-brisa-theme) - Multiline theme based on [fino-time](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fino-time.zsh-theme). Includes decorations for username, host, current directory, and `git` status.
 - [bronze](https://github.com/reujab/bronze) - A cross-shell customizable powerline-like prompt with icons written in go. Requires [nerd-fonts](https://github.com/ryanoasis/nerd-fonts).
 - [brs](https://github.com/evenhold/brs-zsh-theme) - Displays the current song in the prompt with `audtool`.
 - [bruh](https://github.com/haze/bruh) - Includes `git` status decorations.
@@ -1480,6 +1482,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [clean (patr1ot)](https://github.com/Patr1ot/clean.zsh-theme) - Fork of the upstream [clean](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#clean) with host information added.
 - [cleansh](https://github.com/diegoos/cleansh) - Minimalist, includes `git`, Ruby, node and Python version status decorations. Works with standard fonts.
 - [clearance](https://github.com/H00N24/clearance-theme-oh-my-zsh) - minimalist theme with `git`, nix-shell and virtualenv status decorations.
+- [clipper](https://github.com/Robert-96/clipper) - Minimalist ZSH theme with `git` support. It includes decorations for pwd, last command exit status code and `git` status & branch.
 - [cloudy](https://github.com/Huvik/Cloudy) - Minimal cloudy ZSH theme.
 - [clover](https://github.com/tzing/clover.zsh-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme) and [pure](https://github.com/sindresorhus/pure).
 - [cmder-wsl](https://github.com/szyminson/cmder-wsl-zsh) - Configuration file for [cmder](http://cmder.net/) configured to work in quake mode with ZSH and a modified [Agnoster](https://gist.github.com/agnoster/3712874) theme.
@@ -1661,6 +1664,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [imp](https://github.com/igormp/Imp) - Based on [zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork) and optimized for dark backgrounds.
 - [infernus](https://github.com/jshiell/infernus-zsh-theme) - Minimalist theme, better on dark backgrounds.
 - [infoline](https://github.com/hevi9/infoline-zsh-theme) - Clean theme that shows `git` status, background jobs, remote host, and other information.
+- [inthedeepspace](https://github.com/alionapermes/inthedeepspace/) - Based on [intheloop](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#user-content-intheloop) and inspired by [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space)
 - [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the [intheloop](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/intheloop.zsh-theme) theme to use powerline fonts.
 - [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme.
 - [ivy](https://github.com/ivyhjk/ohmyzsh-theme-ivy) - Works well on dark backgrounds. Includes user@host, `git` status and time decorators. Based on the [obraun](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#obraun) theme.
@@ -1730,6 +1734,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [lime](https://github.com/yous/lime) - Simple and easily customizable ZSH theme.
 - [limpide](https://github.com/shooteram/limpide) - Modified version of [miloshadzic](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#miloshadzic) theme which displays parent and current directory.
 - [linear](https://github.com/MrYazdan/zsh-linear-theme) - Reminiscent of Powerline. Includes segments with `git` status, Pythonvirtualenv, current directory and current time.
+- [link](https://github.com/linkdevk/link-zsh-theme) - Minimalist. Includes `git` status and last command exit decorations.
 - [linuxer](https://github.com/patrick330602/linuxer) - Inspired by Yaris Alex Gutierrez's [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh), Yad Smood's `ys`, and the [Bureau](https://github.com/isqua/bureau) theme.
 - [linuxero](https://github.com/andreshincapier/linuxero) - Minimalist. Includes decorations for root status, current directory, `git` status, current ruby rvm environment and current python virtualenv.
 - [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt with useful information when you need it. It shows you what you need when you need it. You will notice what changes when it changes, saving time and frustration.
