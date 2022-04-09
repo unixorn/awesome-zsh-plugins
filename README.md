@@ -531,6 +531,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [azcli](https://github.com/dmakeienko/azcli) - Helper for using the azure cli tools.
 - [azure-keyvault](https://github.com/milespossing/Azure-Keyvault-Zsh) - Makes using azure keyvaults less verbose from the cli.
 - [azure-subscription](https://github.com/dmakeienko/azure-subscription-prompt) - Displays information about the Azure current Subscription and tenant.
+- [backcountry](https://github.com/jvzaniolo/zsh-backcountry) - Manage backcountry projects.
 - [background](https://github.com/zpm-zsh/background) - ZSH plugin which executes functions in the background.
 - [base16](https://github.com/chriskempson/base16-shell) - Adds script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as [Vim](https://www.vim.org).
 - [baseballfunfacts](https://github.com/richardmoyer/baseballfunfacts) - Print random baseball related "fun facts" in your shell. Depends on `fortune` and `cowsay` being installed.
@@ -859,6 +860,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 - [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
 - [monthrename](https://github.com/NotTheDr01ds/zsh-plugin-monthrename) - Renames month names to numbers in filenames.
+- [more-hooks-for-git](https://github.com/capsulescodes/more-hooks-for-git) - Adds extra hooks for `git add`, `git diff` and `git status`.
 - [mouse-status](https://github.com/gryffyn/mouse-status) - Changes mouse color based on status code, uses libratbag.
 - [msf](https://github.com/sathish09/zsh_plugins/tree/master/msf) - Metasploit handler plugin for starting handlers easily.
 - [mvn-contexts](https://github.com/artemy/zsh-mvn-contexts) - Allows fast switching between maven configurations.
