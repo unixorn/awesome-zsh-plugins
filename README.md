@@ -1017,6 +1017,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will double verify your action.
 - [shift-select](https://github.com/jirutka/zsh-shift-select) - Emacs shift-select mode for ZSH - select text in the command line using Shift, as in many text editors, browsers and other GUI programs.
 - [show-path](https://github.com/redxtech/zsh-show-path) - Provides a function shows the `$PATH` line by line.
+- [silverstein-quotes](https://github.com/silversteinsoftware/silverstein_quotes) - Show a random quote from a Silverstein song during shell startup.
 - [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python `SimpleHTTPServer` and `SimpleHTTPSServer`.
 - [skim](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
