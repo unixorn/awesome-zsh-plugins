@@ -875,6 +875,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [navigation-tools](https://github.com/zdharma-continuum/zsh-navigation-tools) - Adds `htop`-like kill, directory bookmarks browser, a multi-word incremental history searcher and more.
 - [new-file-from-template](https://github.com/zpm-zsh/new-file-from-template) -  Generates file from template.
 - [newvwp](https://github.com/aubreypwd/zsh-plugin-newvwp) - Spins up a new WordPress site using Valet.
+- [nhl-schedule](https://github.com/Matt561/zsh-nhl-schedule) - Retreives and displays the NHL schedule.
 - [nice-exit-code](https://github.com/bric3/nice-exit-code) - Maps exit status code to human readable string.
 - [nix-shell](https://github.com/chisui/zsh-nix-shell) - Plugin that lets you use ZSH as the default shell in a `nix-shell` environment.
 - [nnvm](https://github.com/torifat/nnvm) - auto-switches node versions based on `.nvmrc`. Requires [n](https://github.com/tj/n).
