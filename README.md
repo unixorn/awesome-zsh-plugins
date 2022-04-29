@@ -33,6 +33,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [sheldon](#sheldon)
+  - [shplug](#shplug)
   - [Toasty](#toasty)
   - [tzpm](#tzpm)
   - [uz](#uz)
@@ -199,6 +200,10 @@ A fast, configurable, shell plugin manager.
 - Super-fast parallel installation.
 - Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
 - Uses a lock file for much faster loading of plugins.
+
+### [shplug](https://github.com/dtrugman/shplug)
+
+An easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
