@@ -33,6 +33,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [sheldon](#sheldon)
+  - [shplug](#shplug)
   - [Toasty](#toasty)
   - [tzpm](#tzpm)
   - [uz](#uz)
@@ -199,6 +200,10 @@ A fast, configurable, shell plugin manager.
 - Super-fast parallel installation.
 - Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
 - Uses a lock file for much faster loading of plugins.
+
+### [shplug](https://github.com/dtrugman/shplug)
+
+An easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
@@ -1677,6 +1682,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [iay](https://github.com/aaqaishtyaq/iay) - A {ba,z}sh prompt written in Rust. Includes decorations for the current directory and `git` status.
 - [ice](https://github.com/Lenart12/ice.zsh-theme) - Very lightly modified [bureau](https://github.com/isqua/bureau) theme combined with [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme).
 - [icicle](https://github.com/JamesConlan96/Icicle) - Includes `git` status decorations, and whether running as root.
+- [igeek](https://github.com/Saleh7/igeek-zsh-theme) - Displays system information when starting a new terminal session.
 - [iggy](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, `git`-aware **prezto only** theme.
 - [igorsilva](https://github.com/igor9silva/zsh-theme) - Shows current directory, customizable delimiter, current branch, `git` status.
 - [iguanidae](https://github.com/btd1337/iguanidae-zsh-theme) - Includes `git`, `nvm` and `venv` decorations.
