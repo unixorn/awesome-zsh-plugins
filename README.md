@@ -2118,6 +2118,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [whale](https://github.com/whalesea520/whale-zsh-theme) - Fast reimplementation of the whale theme.
 - [whales](https://github.com/lbergelson/zsh_whales_theme) - Includes decorators for `git` status, java version, last command return status, and directory.
 - [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou.
+- [winline](https://github.com/khuei/winline) - Async version of Greg Hurrell's [prompt](https://github.com/wincent/wincent/blob/master/aspects/dotfiles/files/.zshrc). Includes decorators for `git` status, duration of last command, current directory, nested shells, root status.
 - [wkentaro](https://github.com/wkentaro/wkentaro.zsh-theme) - A simple theme for Python users. Includes virtualenv and `git` status decorators.
 - [work-line](https://github.com/afnizarnur/work-line) - Theme with nice emojis.
 - [workbench](https://github.com/u8slvn/oh-my-zsh-workbench-theme) - Includes `git` status decorations, working directory, exit status of last command and current `virtualenv`.
