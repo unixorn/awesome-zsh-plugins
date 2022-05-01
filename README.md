@@ -106,11 +106,11 @@ You can find some interesting performance timing comparisons of various framewor
 - [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
 ### [alf](https://github.com/psyrendust/alf)
 
-**Alf** is an out of this world super fast and configurable framework for ZSH; it's modeled after Prezto and Antigen while utilizing Oh-My-Zsh under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
+**Alf** is an out of this world super fast and configurable framework for ZSH; it's modeled after [Prezto](https://github.com/sorin-ionescu/prezto) and [Antigen](https://github.com/zsh-users/antigen) while utilizing [Oh-My-Zsh](https://ohmyz.sh) under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
 
 ### [ansible-role-zsh](https://github.com/viasite-ansible/ansible-role-zsh)
 
-**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses antigen to manage bundles and oh-my-zsh. Can load bundles conditionally. By default it includes powerlevel9k theme, autosuggestions, syntax-highlighting and [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) and [fzf-marks](https://github.com/urbainvaes/fzf-marks). Fully customizable.
+**ansible-role-zsh** is an ansible role with zero-knowledge installation. It uses [antigen](https://github.com/zsh-users/antigen) to manage bundles and [oh-my-zsh](ohmyz.sh). Can load bundles conditionally. By default it includes the powerlevel9k theme, autosuggestions, syntax-highlighting and [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) and [fzf-marks](https://github.com/urbainvaes/fzf-marks). Fully customizable.
 
 ### [ant-zsh](https://github.com/anthraxx/ant-zsh)
 
@@ -118,18 +118,19 @@ You can find some interesting performance timing comparisons of various framewor
 
 ### [antibody](https://github.com/getantibody/antibody)
 
-**Antibody** is a faster and simpler antigen written in Golang. More details at [http://getantibody.github.io/](http://getantibody.github.io/).
+**Antibody** is a faster and simpler [antigen](https://github.com/zsh-users/antigen) written in Golang. More details are available at [http://getantibody.github.io/](http://getantibody.github.io/).
 
 ### [antidote](https://getantidote.github.io/)
 
-**Antidote** is a Zsh plugin manager made from the ground up thinking about performance.
+**Antidote** is a ZSH plugin manager made from the ground up thinking about performance.
 
-It is fast because it can do things concurrently, and generates an ultra-fast static plugin file that you can include in your Zsh config.
+It is fast because it can do things concurrently, and generates an ultra-fast static plugin file that you can include in your ZSH config.
 
-It is written natively in Zsh, is well tested, and picks up where Antibody left off.
+It is written natively in ZSH, is well tested, and picks up where [Antibody](https://github.com/getantibody/antibody) left off.
+
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
-**antigen-hs** is a replacement for antigen optimized for a low overhead when starting up the shell. It will automatically clone plugins for you.
+**antigen-hs** is a replacement for [antigen](https://github.com/zsh-users/antigen) optimized for a low overhead when starting up a `zsh` session. It will automatically clone plugins for you.
 
 ### [antigen](https://github.com/zsh-users/antigen)
 
@@ -153,8 +154,8 @@ It is written natively in Zsh, is well tested, and picks up where Antibody left 
 
 **miniplug** is a minimalistic plugin manager for ZSH.
 
-- No crashes or double plugin loading when re-sourcing .zshrc
-- Unlike other frameworks, Miniplug does not pollute your $PATH
+- No crashes or double plugin loading when re-sourcing `.zshrc`
+- Unlike other frameworks, Miniplug does not pollute your `$PATH`
 - Only does the bare minimum for managing plugins
 
 ### [mzpm](https://github.com/Insert-Creative-Name-Here/mzpm)
@@ -169,17 +170,17 @@ Features:
 
 ### [oh-my-zsh](https://ohmyz.sh/)
 
-**oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, git, macOS, hub, capistrano, brew, ant, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
+**oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
 ### [PMS](https://github.com/JoshuaEstes/pms)
 
 PMS allows you to manage your shell in a way to that helps decrease setup time and increases your productivity. It has support for themes (change the way your shell looks), plugins (adds functionality to your shell), and dotfile management.
 
-The PMS framework also allows you to use the same framework in different shells. Use ZSH on your personal laptop, and use bash on remote servers. Wanna try fish? Go ahead, try out different shells.
+The PMS framework also allows you to use the same framework in different shells. Use ZSH on your personal laptop, and use bash on remote servers. Wanna try `fish`? Go ahead, try out different shells.
 
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
-**Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes. There are some prezto-specific plugins at [https://github.com/belak/prezto-contrib](https://github.com/belak/prezto-contrib).
+**Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes. There are some [prezto](https://github.com/sorin-ionescu/prezto)-specific plugins at [https://github.com/belak/prezto-contrib](https://github.com/belak/prezto-contrib).
 
 ### [pumice](https://github.com/ryutamaki/pumice)
 
@@ -219,15 +220,15 @@ A ZSH micro plugin manager.
 
 ### [yazt](https://github.com/bashelled/yazt)
 
-Yazt is a simple zsh theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in bash.
+**Yazt** is a simple ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in `bash`.
 
 ### [zapack](https://github.com/aiya000/zsh-zapack)
 
-zapack is a basic fast minimal ZSH plugin loader.
+**zapack** is a basic fast minimal ZSH plugin loader.
 
 ### [zcomet](https://github.com/agkozak/zcomet)
 
-**zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in Git repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
+**zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in `git` repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 
@@ -235,11 +236,11 @@ zapack is a basic fast minimal ZSH plugin loader.
 
 ### [zgem](https://github.com/qoomon/zgem)
 
-**Zgem** is a plugin manager for ZSH that supports loading and updating plugins and themes from git, http and local files.
+**zgem** is a plugin manager for ZSH that supports loading and updating plugins and themes from git, http and local files.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by Antigen. The goal is to have minimal overhead when starting up the shell because nobody likes waiting. It is currently not being actively maintained and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is.
+**Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting. It is currently not being actively maintained and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is.
 
 ### [zgenom](https://github.com/jandamm/zgenom)
 
@@ -247,13 +248,13 @@ A lightweight plugin manager for ZSH that is a fork that extends the brilliant [
 
 To keep loading fast during new terminal sessions, `zgenom` generates a static `init.zsh` file which does nothing but source your plugins and append them to your `fpath`.
 
-This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
+This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during every shell session's startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
 
 Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git clone` plugins for you when you add them to your plugin list.
 
 ### [ZI](https://github.com/z-shell/zi)
 
-**ZI** is a Swiss Army Knife for Zsh Unix shell. Formerly known as zplugin, zinit. ZI - [Wiki Pages](https://z-shell.pages.dev/).
+**ZI** is a Swiss Army Knife for ZSH. Formerly known as `zplugin` and`zinit`. ZI - [Wiki Pages](https://z-shell.pages.dev/).
 
 Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
@@ -285,13 +286,11 @@ The project is very active – currently > 3100 commits.
 
 ### [zit](https://github.com/thiagokokada/zit)
 
-**zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from Git repositories (and Git repositories only, them why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, PATH manipulation and others.
+**zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from `git` repositories (and `git` repositories only, that's why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, `$PATH` manipulation and others.
 
 ### [znap](https://github.com/marlonrichert/zsh-snap)
 
-**:zap:Znap** is a light-weight plugin manager & Git repo manager for ZSH that's easy to grok. While tailored for ZSH plugins specifically, Znap also functions as a general-pupose utility for managing Git repos.
-
-Znap
+**:zap:Znap** is a light-weight plugin manager & `git` repository manager for ZSH that's easy to grok. While tailored for ZSH plugins specifically, **Znap** also functions as a general-pupose utility for managing `git` repositories.
 
 Znap can:
 
@@ -320,7 +319,7 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 **:hibiscus: Zplug** is a next-generation ZSH plugin manager.
 
 - Can manage everything
-  - Zsh plugins/UNIX commands on [GitHub](https://github.com) and [Bitbucket](https://bitbucket.org)
+  - ZSH plugins/UNIX commands on [GitHub](https://github.com) and [Bitbucket](https://bitbucket.org)
   - Gist files ([gist.github.com](https://gist.github.com/discover))
   - Externally managed plugins e.g., [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and [prezto](https://github.com/sorin-ionescu/prezto) plugins/themes
   - Binary artifacts on [GitHub Releases](https://help.github.com/articles/about-releases/)
@@ -331,19 +330,19 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 - Branch/tag/commit support
 - Post-update, post-load hooks
 - Dependencies between packages
-- Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin file (`*.plugin.zsh`) required
+- Unlike [antigen](https://github.com/zsh-users/antigen), no ZSH plugin files (`*.plugin.zsh`) are required
 - Interactive interface ([fzf](https://github.com/junegunn/fzf), [peco](https://github.com/peco/peco), [zaw](https://github.com/zsh-users/zaw), and so on)
 - Cache mechanism for reducing [the startup time](https://github.com/zplug/zplug#vs)
 
 ### [zpm](https://github.com/zpm-zsh/zpm)
 
-**zpm** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) who combines the imperative and declarative approach. At first run, zpm will do complex logic and generate cache, after that will be used cache only, so it makes this framework to be very fast.
+**zpm** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) which combines the imperative and declarative approach. At first run, zpm will do complex logic and generate a cache, after that will only use the cache, so it makes this framework very fast.
 
 - Fastest plugin manager (Really, after the first run, zpm will not be used at all)
 - Support for async loading
 - Dependencies between packages
-- zpm runs on Linux, macOS, FreeBSD and Android.
-- zpm plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
+- **zpm** runs on Linux, macOS, FreeBSD and Android.
+- **zpm** plugins are compatible with [oh-my-zsh](http://ohmyz.sh/).
 
 ### [zr](https://github.com/jedahan/zr)
 
@@ -353,13 +352,13 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 
 **zshing** is a ZSH plugin manager similar to Vundle/Vim and allows you to...
 
-- keep track of and configure your plugins right in the `.zshrc`
+- Keep track of and configure your plugins right in the `.zshrc`
 - Install ZSH plugins
 - Update ZSH plugins
 - Search by name all available ZSH Plugins
 - Clean unused plugins up
-- run the above actions in a *single command*
-- manages the __Source Plugins__ of your installed Plugins
+- Run the above actions in a *single command*
+- Manages the __Source Plugins__ of your installed Plugins
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
@@ -367,15 +366,15 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 
 ### [ztheme](https://github.com/SkyyySi/ztheme)
 
-ztheme is a small and fast theme engine for ZSH.
+**ztheme** is a small and fast theme engine for ZSH.
 
 ### [ztupide](https://github.com/mpostaire/ztupide)
 
-A simple and fast ZSH plugin manager. It uses zcompile and async loading to speed up your shell startup time.
+A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to speed up your shell startup time.
 
 ### [zulu](https://github.com/zulu-zsh/zulu)
 
-**Zulu** is a environment manager for ZSH 5+, which aims to make it easy to manage your shell without writing any code.
+**Zulu** is a environment manager for ZSH 5 or later, which aims to make it easy to manage your shell without writing any code.
 
 - Easily manage your shell environment without editing files.
 - Create aliases, functions and environment variables, and have them available to you at the next shell startup.
