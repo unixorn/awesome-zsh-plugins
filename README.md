@@ -1248,6 +1248,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bio](https://github.com/yamaton/zsh-completions-bio/) - Completions for bioinformatics tools.
 - [bosh (krujos)](https://github.com/krujos/bosh-zsh-autocompletion) - Adds [BOSH](https://github.com/cloudfoundry/bosh) autocompletion.
 - [bosh (thomasmitchell)](https://github.com/thomasmitchell/bosh-complete) - Tab completion for [BOSH(https://github.com/cloudfoundry/bosh)].
+- [brew-completions](https://github.com/z-shell/brew-completions) - Brings [Homebrew Shell Completion](https://docs.brew.sh/Shell-Completion) under the control of ZSH & [ZI](https://github.com/z-shell/zi/).
 - [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services.
 - [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool [buidler.dev](https://buidler.dev).
 - [bw](https://github.com/CupricReki/zsh-bw-completion) - Adds completion for [Bitwarden](https://bitwarden.com/).
