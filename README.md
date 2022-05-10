@@ -953,7 +953,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
 - [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for macOS, Windows, and Linux.
 - [plugin](https://github.com/darrenbutcher/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks.
-- [pnpm](https://github.com/ntnyq/omz-plugin-pnpm) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands.
+- [pnpm (baliestri)](https://github.com/baliestri/pnpm.plugin.zsh) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands, and tab completions.
+- [pnpm (ntnyq)](https://github.com/ntnyq/omz-plugin-pnpm) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands.
 - [poetry (darvid)](https://github.com/darvid/zsh-poetry) - Automatically activates and deactivates [Poetry](https://poetry.eustace.io/)-created python virtualenvs.
 - [poetry (sudosabin)](https://github.com/sudosubin/zsh-poetry) - Enables poetry `$PATH` and autocompletions.
 - [posh-git-bash](https://github.com/lyze/posh-git-sh) - Adds `git` status in your prompt.
@@ -1191,6 +1192,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [zfzf](https://github.com/b0o/zfzf) - A fzf-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
 - [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make compinit run only once after all loading is done by [zgen](https://github.com/tarjoilija/zgen).
 - [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
+- [zi-rbenv](https://github.com/z-shell/zi-rbenv) - Fast `rbenv` loads if you're using [zi](https://github.com/z-shell/zi/).
 - [zimfw-extras](https://github.com/PatTheMav/zimfw-extras) - Custom extras for zimfw, packaged into a zimfw plugin.
 - [zinfo_line](https://github.com/kmhjs/zinfo_line) - Makes more information available to ZSH themes.
 - [zinit-annex-bin-gem-node](https://github.com/zdharma-continuum/zinit-annex-bin-gem-node) - [zinit](https://github.com/zdharma-continuum/zinit) extension that exposes binaries without altering `$PATH`, installs Ruby gems and Node modules and easily exposes their binaries, and updates the gems and modules when the associated plugin or snippet is updated.
@@ -1246,6 +1248,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bio](https://github.com/yamaton/zsh-completions-bio/) - Completions for bioinformatics tools.
 - [bosh (krujos)](https://github.com/krujos/bosh-zsh-autocompletion) - Adds [BOSH](https://github.com/cloudfoundry/bosh) autocompletion.
 - [bosh (thomasmitchell)](https://github.com/thomasmitchell/bosh-complete) - Tab completion for [BOSH(https://github.com/cloudfoundry/bosh)].
+- [brew-completions](https://github.com/z-shell/brew-completions) - Brings [Homebrew Shell Completion](https://docs.brew.sh/Shell-Completion) under the control of ZSH & [ZI](https://github.com/z-shell/zi/).
 - [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for homebrew services.
 - [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool [buidler.dev](https://buidler.dev).
 - [bw](https://github.com/CupricReki/zsh-bw-completion) - Adds completion for [Bitwarden](https://bitwarden.com/).
@@ -1256,6 +1259,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cargo](https://github.com/MenkeTechnologies/zsh-cargo-completion) - All the functionality of the original OMZ cargo completion, with additional support for remote crates via `cargo search` in `cargo add`.
 - [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
 - [cf-zsh-autocomplete](https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
+- [click-completion](https://github.com/click-contrib/click-completion) - Add automatic completion support for [Click](http://click.pocoo.org/), including displaying the options and commands help during the tab completion.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 - [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 - [codemachine](https://github.com/CodeMonkeyMike/ZshTheme-CodeMachine) - Displays git info, whether you're logged in via `ssh`, return code of last command.
@@ -1353,6 +1357,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [sfdx-autocomplete](https://github.com/jayree/sfdx-autocomplete-plugin) - Autocomplete plugin for sfdx.
 - [speedtest](https://github.com/Yash-Singh1/zsh-plugin-speedtest) - Tab completions for the speedtest [cli](https://www.speedtest.net/insights/blog/introducing-speedtest-cli/).
 - [spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands.
+- [ssh](https://github.com/sunlei/zsh-ssh) - Better host completion for `ssh`.
 - [ssh-agent (bobsoppe)](https://github.com/bobsoppe/zsh-ssh-agent) - Manage `ssh-agent`.
 - [ssh-agent (hkupty)](https://github.com/hkupty/ssh-agent) - Automatically starts `ssh-agent` to set up and load whichever credentials you want for `ssh` connections.
 - [ssh](https://github.com/zpm-zsh/ssh) - Add host completion for `ssh`.
@@ -1375,6 +1380,7 @@ These plugins add tab completions without adding extra functions or aliases.
 If you're using [Antigen](https://github.com/zsh-users/antigen), you can test these themes in a running ZSH with `antigen theme githubuser/repo`. If you're using [zgenom](https://github.com/jandamm/zgenom), add them to your `init.zsh` with `zgenom load githubuser/reponame`.
 
 - [000](https://github.com/Abid-Ahmad/oh-my-zsh-000-theme) - Multiline prompt with username, hostname, full path, return status and `git` decorations.
+- [021011](https://github.com/guesswhozzz/021011.zsh-theme) - Minimalist. Includes a single `git` marker for VS Code.
 - [0i0](https://github.com/0i0/0i0.zsh-theme) - Optimized for dark terminal windows, uses nerdfont `git` status decorations.
 - [14degree](https://github.com/saims0n/14degree-zsh-theme/) - Includes `git`, `virtualenv` and `rvm` status decorations.
 - [a](https://github.com/chammanganti/a-zsh-theme) - Simple theme with current directory and `git` status decorations.
