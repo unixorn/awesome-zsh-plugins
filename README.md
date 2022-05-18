@@ -954,8 +954,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
 - [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for macOS, Windows, and Linux.
 - [plugin](https://github.com/darrenbutcher/plugin) - Creates custom oh-my-zsh plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks.
-- [pnpm (baliestri)](https://github.com/baliestri/pnpm.plugin.zsh) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands, and tab completions.
-- [pnpm (ntnyq)](https://github.com/ntnyq/omz-plugin-pnpm) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands.
+- [pnpm](https://github.com/ntnyq/omz-plugin-pnpm) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands.
 - [poetry (darvid)](https://github.com/darvid/zsh-poetry) - Automatically activates and deactivates [Poetry](https://poetry.eustace.io/)-created python virtualenvs.
 - [poetry (sudosabin)](https://github.com/sudosubin/zsh-poetry) - Enables poetry `$PATH` and autocompletions.
 - [posh-git-bash](https://github.com/lyze/posh-git-sh) - Adds `git` status in your prompt.
@@ -1945,6 +1944,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous `vim` plugin, which works well for a dark background.
 - [prompt](https://github.com/nathanblair/prompt) - A lightweight prompt consistent across `sh`, `dash`, `ash`, `zsh`, and `pwsh`. Includes `git` status decorations.
 - [prompt_j2](https://github.com/malinoskj2/prompt_j2) - Has a dynamic exit status indicator, can change to two lines dynamically to display context.
+- [promptor](https://github.com/MickaelBlet/Promptor) - Powerline-inspired. Includes decorators for `git` status, username, hostname, working directory and time.
 - [promptus](https://github.com/willeccles/promptus) - Simple, minimalist and configurable shell prompt program in C which can be used to make your prompt the same on any shell. Includes exit code and working directory decorations.
 - [pronto](https://github.com/jthat/zsh-pronto) - Simple and fast theme with `git` decorations and timing information.
 - [ps1.py](https://github.com/jwodder/ps1.py) - Has `git` status, truncated directory, `chroot` and `virtualenv` prompt decorations.
