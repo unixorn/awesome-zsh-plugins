@@ -1320,7 +1320,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [kompose](https://github.com/gantsign/zsh-plugins/tree/master/kompose) - Add tab completions for [Kompose](http://kompose.io/).
 - [kubeadm](https://github.com/gantsign/zsh-plugins/tree/master/kubeadm) - Add tab completions for [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).
 - [kubectl-fzf](https://github.com/bonnefoa/kubectl-fzf) - Fast and powerful [`fzf`](https://github.com/junegunn/fzf)-powered autocompletion for `kubectl`.
-- [kubectl-plugin](https://github.com/MartinSimango/kubectl-plugin_completion) - `kubectl` completion scripts that extend the `kubectl` auto complete functionality in order to accomodate for plugin sub-commands.
+- [kubectl-plugin](https://github.com/MartinSimango/kubectl-plugin_completion) - `kubectl` completion scripts that extend the `kubectl` auto complete functionality to accomodate for plugin sub-commands.
 - [lazycomplete](https://github.com/rsteube/lazycomplete) - Lazy loading for shell completion scripts.
 - [lets](https://github.com/lets-cli/lets-zsh-plugin) - Add autocompletion for [lets](https://github.com/lets-cli/lets) cli task runner.
 - [ls-go](https://github.com/MohamedElashri/ls-go-zsh) - Adds some useful aliases for [ls-go](https://github.com/acarl005/ls-go).
@@ -1622,7 +1622,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [furio](https://github.com/hectorpalmatellez/furio-theme) - Fork of the [Cloud](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/cloud.zsh-theme) oh-my-zsh theme. with different colors and emojis.
 - [furry-umbrella](https://github.com/kb10uy/zsh-theme-furry-umbrella) - Colorful theme, works better on a dark background.
 - [gaia](https://github.com/gcaracuel/gaia.zsh-theme) - Originally a fork of [Bureau](https://github.com/isqua/bureau) adds new virtual environments info to the prompt: Kubernetess, virtualenv, rbenv and Java versions. Includes git status integration.
-- [gal](https://github.com/x6r/gal) - gal is based on [gallois](https://github.com/ohmyzsh/ohmyzsh/commits/master/themes/gallois.zsh-theme).
+- [gal](https://github.com/x6r/gal) - Minimalist theme based on [gallois](https://github.com/ohmyzsh/ohmyzsh/commits/master/themes/gallois.zsh-theme).
 - [garden](https://github.com/fecat233/garden) - Works better with a dark terminal background, includes `git` status decorations.
 - [garrett](https://github.com/chauncey-garrett/zsh-prompt-garrett) - Prezto prompt with the information you need the moment you need it.
 - [gawaine](https://github.com/nicolaracco/gawaine.zsh-theme) - Nicola Racco's theme. Requires `rvm` & `git` plugins.
@@ -1668,7 +1668,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [hapin](https://github.com/hanamiyuna/hapin-zsh-theme/blob/master/hapin.zsh-theme) - Based on oxide, includes `git` status decorations and current user/host information.
 - [haribo](https://github.com/haribo/omz-haribo-theme) - Simple `git` status + timestamp in prompt.
 - [hcompact](https://github.com/fusion809/zsh-theme) - Displays time, OS (including distro if on Linux), directory and whether running as root.
-- [headline](https://github.com/Moarram/headline-zsh-theme) - A responsive ZSH theme featuring Git status information and a colored line above the prompt.
+- [headline](https://github.com/Moarram/headline) - A responsive ZSH theme featuring Git status information and a colored line above the prompt.
 - [heart](https://github.com/gko/heart) - Heart themed prompt for light backgrounds.
 - [hedgehog](https://gist.github.com/hedgehog1029/dfbb7e66511e2c399157) - Simple, no-nonsense and clean, with support for `git` and return codes.
 - [hedroed-bureau](https://github.com/Hedroed/hedroed-bureau.zsh-theme) - Based on [bureau](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bureau), with added `git` status decorations and `npm` status.
