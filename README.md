@@ -993,7 +993,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [qiime2](https://github.com/misialq/zsh-qiime2) - Adds functions and aliases to make working with [Quiime 2](https://qiime2.org/) easier.
 - [quer-ps1](https://github.com/ya0201/qwer-ps1) - A highly extendable manager for your ZSH prompt
 - [quoter](https://github.com/pxgamer/quoter-zsh) - Display a random quote when opening a new terminal session.
-- [quotify](https://github.com/damofthemoon/zsh-quotify) - Displays inspiring coding quotes from our pairs when starting up.
+- [quotify](https://github.com/dpretet/zsh-quotify) - Displays inspiring coding quotes from our pairs when starting up.
 - [randeme](https://github.com/ex-surreal/randeme) - Chooses a random theme for each session. If you not like the chosen theme you can run `randeme_rm` to never show that theme again.
 - [random-quotes](https://github.com/vkolagotla/zsh-random-quotes) - Displays random quotes or facts.
 - [RaspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh) - Puts the Raspberry Pi temperature into a spaceship prompt segment
