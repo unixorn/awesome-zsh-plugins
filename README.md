@@ -669,6 +669,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [exa (ptavares)](https://github.com/ptavares/zsh-exa) - Installs and loads [exa](https://github.com/ogham/exa.git).
 - [exa (ritchies)](https://github.com/RitchieS/zsh-exa/) - Adds aliases to make using [exa](https://github.com/ogham/exa.git) easier.
 - [exa (todie)](https://github.com/todie/exa.plugin.zsh) - Integration and completions for [exa](https://the.exa.website/), a modern replacement for `ls`.
+- [exa (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-exa) - Combines [DarrinTisdale/zsh-aliases-exa](https://github.com/DarrinTisdale/zsh-aliases-exa), [hermitmaster/zsh-exa-plugin](https://github.com/hermitmaster/zsh-exa-plugin), [MohamedElashri/exa-zsh](https://github.com/MohamedElashri/exa-zsh), [ptavares/zsh-exa](https://github.com/ptavares/zsh-exa), [RitchieS/zsh-exa/](https://github.com/RitchieS/zsh-exa/), [todie/exa.plugin.zsh](https://github.com/todie/exa.plugin.zsh), [zplugin/zsh-exa](https://github.com/zplugin/zsh-exa) and [zsh-exa-ls-plugin](https://github.com/birdhackor/zsh-exa-ls-plugin). It also adds the default `bash` `ls` aliases and changes some aliases to avoid conflicts with other commands that [exa](https://the.exa.website) does not replace.
 - [exa (zplugin)](https://github.com/zplugin/zsh-exa) - replace GNU/ls with [ogham/exa](https://github.com/ogham/exa).
 - [exa-ls](https://github.com/birdhackor/zsh-exa-ls-plugin) - Adds aliases so that you can use [exa](https://the.exa.website) as a drop-in replacement for `ls` and `tree`.
 - [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/).
@@ -861,7 +862,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [listbox](https://github.com/gko/listbox) - Listbox element for shell.
 - [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for [Sublime Text](https://www.sublimetext.com) projects and opens them in Sublime.
 - [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets its data from [lipsum.com](https://www.lipsum.com).
-- [ls](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
+- [ls (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-ls) - Adds some more aliases for `ls`.
+- [ls (zpm-zsh)](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
 - [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
 - [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
 - [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
