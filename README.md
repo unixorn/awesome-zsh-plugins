@@ -2002,7 +2002,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [rei (arturoalviar)](https://github.com/arturoalviar/rei-zsh-theme) - A simple theme with the first character 零(rei), the number 0. Includes `git` status decorations.
 - [rei (eilaluth)](https://github.com/Eilaluth/rei/) - A minimalist theme with current directory and `git` status decorations.
 - [remiii](https://github.com/Remiii/remiii.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for [solarized](https://github.com/altercation/solarized) terminal themes.
-- [remolueoend](https://github.com/remolueoend/remolueoend.zsh-theme) - Prezto ZSH theme based on Sorin, using emojis for tracking GIT context.
+- [remolueoend](https://github.com/remolueoend/remolueoend.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), using emojis for tracking GIT context. Only works with [Prezto](https://github.com/sorin-ionescu/prezto).
 - [repo](https://github.com/gkide/zsh-repo-theme) - Shows detailed `git` status information
 - [rho](https://github.com/andrejreznik/rho-zsh-theme) - Minimalist theme.
 - [ribbon](https://github.com/pyjamafish/ribbon-prompt) - Reminiscent of powerline. Includes Python `virtualenv` decorator.
