@@ -2206,6 +2206,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [zish](https://github.com/RubixDev/zish/) - Based on the `fish` shell's default look.
 - [zlambda](https://github.com/wdhg/zlambda) - Minimalist, includes `git` decorations without special font requirements.
 - [zodiac](https://github.com/adamalsen/zsh-zodiac) - Includes an emoji for the animal corresponding to the current year.
+- [zp](https://github.com/Karitham/zp) - Fast prompt, written in `zig`. Includes `git` status and current directory decorators.
 - [zprompts](https://github.com/z-shell/zprompts) - Themes (prompts) that use original `zsh` theming subsystem.
 - [zqt](https://github.com/ladychili/zqt-zsh-theme) - Modified version of oh-my-zsh's [maran](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/maran.zsh-theme) theme.
 - [zsh1999](https://github.com/DTan13/zsh1999) - Includes network connectivity, battery and `git` status decorations.
