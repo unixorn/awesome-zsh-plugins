@@ -12,7 +12,7 @@ Go over all the following points, and put an `x` in all the boxes that apply.
 -->
 I am submitting a
 - [ ] Article link - something useful to ZSH users
-- [ ] New framework
+- [ ] A link to a new ZSH framework
 - [  ] New plugin
 - [  ] New theme
 - [  ] New tab completion
