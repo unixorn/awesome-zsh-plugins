@@ -482,7 +482,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [actiona](https://github.com/matthieusb/act) - Make it easier to call [actiona](https://github.com/Jmgr/actiona) scripts from your command line. Includes tab completions.
 - [activate-py-environment](https://github.com/se-jaeger/zsh-activate-py-environment) - Automagically detects and activates your python environments (`poetry`, `virtualenv` and `conda`) while traversing directories.
 - [alacritty](https://github.com/casonadams/alacritty-shell) - Control [alacritty](https://github.com/alacritty/alacritty/wiki/Color-schemes) color schemes.
-- [alehouse](https://github.com/sticklerm3/alehouse) - Contains short aliases for [brew](https://brew.sh) commands, inspired by [betterbrew](https://github.com/timothyrowan/betterbrew-zsh-plugin).
+- [alehouse](https://github.com/sticklerm3/alehouse) - Contains short aliases for [brew](https://brew.sh) commands, inspired by `betterbrew`.
 - [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
 - [alias](https://github.com/xylous/alias-zsh) - Tool for managing your aliases.
 - [allergen](https://github.com/stanislas/allergen) - A collection of custom ZSH plugins to use with Antigen.
@@ -550,7 +550,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [battery_state](https://github.com/Jactry/zsh_battery_state) - Show battery state in right-prompt.
 - [bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`.
 - [bepoptimist](https://github.com/sheoak/zsh-bepoptimist) - Remap ZSH `vi`-mode for French [bépo keyboard](http://bepo.fr/wiki/Accueil).
-- [betterbrew](https://github.com/timothyrowan/betterbrew-zsh-plugin) - Add more command aliases for `brew`
 - [bitbucket-git-helpers](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh) - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.
 - [bitwarden (game4move78)](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
 - [bitwarden (kalsowerus)](https://github.com/kalsowerus/zsh-bitwarden) - Opens a [fzf](https://github.com/junegunn/fzf) widget containing your [Bitwarden](https://bitwarden.com/) vault items. Upon selecting an item either the username or password will be either written into the shell or copied into the clipboard. Requires `fzf`, `jq` and `bitwarden`.
@@ -2152,6 +2151,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ultimator](https://github.com/Ultimator14/ultimator-zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874)-like theme. Includes decorators for current directory, `user@host`, python virtualenv, background jobs, last command exit status, and `git` status information. Requires [zsh-git-prompt](https://github.com/Ultimator14/zsh-git-prompt) plugin and Nerdfonts.
 - [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
 - [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
+- [vehemence](https://github.com/H1N1-dev/vehemence-zsh) - Includes decorators for `pwd`, `user@host`, `tty`, time, last command exit code and `git` status.
 - [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
 - [vertepommes](https://github.com/TheRojam/vertepommes-theme) - Based on ys. Includes vcs status, username and current directory decorations.
 - [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from [mgutz](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/mgutz.zsh-theme). Looks great when using with a [Solarized](https://github.com/altercation/solarized) color scheme.
