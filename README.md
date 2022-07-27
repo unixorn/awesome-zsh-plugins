@@ -1001,6 +1001,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [quoter](https://github.com/pxgamer/quoter-zsh) - Display a random quote when opening a new terminal session.
 - [quotify](https://github.com/dpretet/zsh-quotify) - Displays inspiring coding quotes from our pairs when starting up.
 - [randeme](https://github.com/ex-surreal/randeme) - Chooses a random theme for each session. If you not like the chosen theme you can run `randeme_rm` to never show that theme again.
+- [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
 - [random-quotes](https://github.com/vkolagotla/zsh-random-quotes) - Displays random quotes or facts.
 - [RaspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh) - Puts the Raspberry Pi temperature into a spaceship prompt segment
 - [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
