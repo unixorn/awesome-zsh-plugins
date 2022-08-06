@@ -1354,6 +1354,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [nx](https://github.com/jscutlery/nx-completion) - Completions for [nx](https://nx.dev). Requires [`jq`](https://stedolan.github.io/jq/).
 - [okta](https://github.com/sirhc/okta.plugin.zsh) - Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https://github.com/jmhale/okta-awscli) commands.
 - [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
+- [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) - Tab completions for some macOS-specific commands like `launchctl`.
 - [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
 - [pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin.
 - [parallels](https://github.com/benclark/parallels-zsh-plugin) - Add completions for Parallels desktop.
