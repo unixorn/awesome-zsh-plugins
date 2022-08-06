@@ -1279,7 +1279,8 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 - [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 - [comonicon](https://github.com/Roger-luo/ComoniconZSHCompletion.jl) - Tab completions for [comonicon](https://github.com/Roger-luo/Comonicon.jl).
-- [completions](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
+- [completions (clarketm)](https://github.com/clarketm/zsh-completions) - This includes the zsh-users[completions](https://github.com/zsh-users/zsh-completions), zchee's [completions](https://github.com/zchee/zsh-completions), nilsonholger's [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) and various other custom completions.
+- [completions (zsh-users)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 - [conda](https://github.com/esc/conda-zsh-completion) - ZSH tab completion for conda.
 - [cpan](https://github.com/MenkeTechnologies/zsh-cpan-completion) - Adds `cpan install word<tab>` and `cpanm install <tab>` to complete remote CPAN package names.
 - [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop).
