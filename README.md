@@ -1182,6 +1182,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects.
 - [worktree](https://github.com/jspears/worktree) - Adds functions that wrap `git worktree`.
 - [wsl2-ssh-pageant](https://github.com/antoinemartin/wsl2-ssh-pageant-oh-my-zsh-plugin) - Use your Yubikey stored GPG keys from WSL. This packages the instructions from [wsl2-ssh-pageant repo](https://github.com/BlackReloaded/wsl2-ssh-pageant) as a ZSH plugin.
+- [xdg-basedir](https://github.com/mattmc3/zsh-xdg-basedir) - Supports [XDG](https://wiki.archlinux.org/index.php/XDG_Base_Directory) base directory settings.
 - [xxh-plugin-zsh-zshrc](https://github.com/roman-geraskin/xxh-plugin-zsh-zshrc) - plugin for [xxh-shell-zsh](https://github.com/xxh/xxh-shell-zsh) that copies your `~/.zshrc` to a remote host and sources it with [xxh-shell-zsh](https://github.com/xxh/xxh-shell-zsh).
 - [yadm](https://github.com/juanrgon/yadm-zsh) - Displays a warning if there are local [yadm](https://thelocehiliosan.github.io/yadm/) configuration changes.
 - [yapipenv](https://github.com/AnonGuy/yapipenv.zsh) - Automatically activate a directory's `pip` environment if `pipenv` detects the presence of one.
