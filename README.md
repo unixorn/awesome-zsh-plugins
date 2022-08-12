@@ -1608,7 +1608,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [efritas](https://github.com/erikfritas/efritas) - Includes username, hostname, `venv`, `rvm` and `git` status decorations.
 - [eggshausted](https://github.com/inutano/eggshausted) - A `git`-aware theme for people who are tired of getting errors.
 - [elagoht](https://github.com/Elagoht/Elagoht.zsh-theme) - Includes decorations for hostname, current directory, virtual environment, `git` status, and the execution time of last command.
-- [eleastic](https://github.com/jinseobhong/eleastic-zsh-theme) - Inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for solarized terminal theme, includes `git` status decorations. Requires powerline-compatible font.
 - [elessar](https://github.com/fjpalacios/elessar-theme) - A `git`-aware theme based on [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme). Requires a Powerline-compatible font.
 - [elm](https://github.com/gacallea/elm-zsh-theme) - Includes `git` status, user@host, date, time and path decorators.
 - [elsa](https://github.com/faycito/elsa) - Includes root status, pwd and `git` status decorations.
