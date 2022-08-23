@@ -1005,6 +1005,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [quer-ps1](https://github.com/ya0201/qwer-ps1) - A highly extendable manager for your ZSH prompt
 - [quoter](https://github.com/pxgamer/quoter-zsh) - Display a random quote when opening a new terminal session.
 - [quotify](https://github.com/dpretet/zsh-quotify) - Displays inspiring coding quotes from our pairs when starting up.
+- [qwy](https://github.com/Ryooooooga/qwy) - ZSH fuzzy completion plugin.
 - [randeme](https://github.com/ex-surreal/randeme) - Chooses a random theme for each session. If you not like the chosen theme you can run `randeme_rm` to never show that theme again.
 - [random-quotes](https://github.com/vkolagotla/zsh-random-quotes) - Displays random quotes or facts.
 - [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
@@ -1505,6 +1506,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [bluo](https://github.com/varunpbardwaj/bluo) - Colorful prompt segments reminiscent of [bullet-train](https://github.com/caiogondim/bullet-train.zsh) or [powerlevel10k](https://github.com/romkatv/powerlevel10k). Includes `git` status decorations.
 - [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
 - [boom](https://github.com/the0neWhoKnocks/zsh-theme-boom) - Multiline theme, best on dark backgrounds.
+- [born-in-the-purple](https://github.com/LeonardMH/born-in-the-purple) - Simple theme with a purple motif. Inspired by [Pure](https://github.com/sindresorhus/pure).
 - [boxy](https://github.com/evil-tim/boxy-zsh-theme) - Works well with solarized terminal colors. Includes decorators for `username@hostname`, current directory, `git` status, return code for last command, and time last command was run.
 - [bref](https://github.com/mpostaire/bref-zsh-prompt) - A simple prompt. It includes decorators to display `git` status asynchronously, a notification if the `ssh` session is remote, the battery level and the number of background jobs.
 - [brisa](https://github.com/brisa-dev/oh-my-zsh-brisa-theme) - Multiline theme based on [fino-time](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fino-time.zsh-theme). Includes decorations for username, host, current directory, and `git` status.
