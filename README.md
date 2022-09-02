@@ -1480,6 +1480,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [barion](https://github.com/SEbbaDK/barion) - A fast compiled prompt with a compact `git` status overview. Reminiscent of powerline. Requires [Crystal](https://crystal-lang.org/) to build.
 - [bash](https://github.com/starseekist/bash-zsh-theme) - Looks like the default `bash` prompt.
 - [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal](https://github.com/ahmetsulek/flat-terminal) theme and Pasquale D'Silva's [Saturn Terminal](https://github.com/psql/saturn-colors) theme.
+- [bashplus](https://github.com/Elagoht/BashPlusZshTheme) - Colorized replica of the default bash prompt with decorators for virtualenv and `git` status.
 - [bastard](https://github.com/jsundqvist/bastard.zsh-theme) - Modified version of [gitster](https://github.com/zimfw/gitster) theme for [ZIM](https://github.com/zimfw/zimfw).
 - [bearable](https://github.com/JanmanX/bearable-zsh) - Works well with dark terminal backgrounds.
 - [bearings](https://github.com/liamg/bearings) - A fast, clean, super-customizable shell prompt. Includes decorators for current directory, `git` status, exit code of last command, duration of last command, background jobs & username.
@@ -1883,6 +1884,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [mzpt](https://github.com/linrongbin16/mzpt/) - Minimal prompt inspired by [powerlevel10k](https://github.com/romkatv/powerlevel10k).
 - [myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 - [mzt](https://github.com/honbey/mzt) - Sets up `LS_COLORS`, colorizes `diff` and includes `git` status and current working directory decorations.
+- [nanika](https://github.com/justforuse/nanika-zsh-theme/) - Optimized variant of [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell). Includes `git` status decorations.
 - [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 - [nbrylevv](https://github.com/nbrylevv/nbrylevv-zsh-theme) - Minimalist theme with text `git` status decorations.
 - [nctu](https://github.com/leovincentseles/nctu.zsh-theme) - Lightweight theme with an emphasis on speed. Includes `git` status decorations.
