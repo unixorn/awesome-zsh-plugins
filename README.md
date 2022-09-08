@@ -1289,6 +1289,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 - [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
 - [comonicon](https://github.com/Roger-luo/ComoniconZSHCompletion.jl) - Tab completions for [comonicon](https://github.com/Roger-luo/Comonicon.jl).
+- [complete-mac](https://github.com/vitkabele/complete-mac) - Add completions for macOS `ioreg`, `lsmp`, `scselect`, `system_profiler` and `tmutil` commands.
 - [completions (clarketm)](https://github.com/clarketm/zsh-completions) - This includes the zsh-users[completions](https://github.com/zsh-users/zsh-completions), zchee's [completions](https://github.com/zchee/zsh-completions), nilsonholger's [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) and various other custom completions.
 - [completions (zchee)](https://github.com/zchee/zsh-completions) - Yet another collection of tab completions.
 - [completions (zsh-users)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
