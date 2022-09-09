@@ -1369,6 +1369,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 - [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) - Tab completions for some macOS-specific commands like `launchctl`.
 - [packer](https://github.com/wakeful/zsh-packer) - Adds tab completion for [packer](https://packer.io).
+- [pagerduty](https://github.com/jedelson-pagerduty/pagerduty-omz-plugin) - Adds completions for the pagerduty [cli](https://github.com/jedelson-pagerduty/pagerduty-omz-plugin/blob/main/pagerduty-cli)
 - [pandoc-completion](https://github.com/srijanshetty/zsh-pandoc-completion) - Pandoc completion plugin.
 - [parallels](https://github.com/benclark/parallels-zsh-plugin) - Add completions for Parallels desktop.
 - [pass-zsh-completion](https://github.com/ninrod/pass-zsh-completion) - convenience repo to easily obtain [pass](https://www.passwordstore.org/) command completion for ZSH.
