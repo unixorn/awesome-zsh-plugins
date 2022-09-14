@@ -1236,7 +1236,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
 - [zlitefetch](https://github.com/ippee/zlitefetch) - Lightweight system information plugin.
 - [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses `notify-send` and rings a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
-- [zman](https://github.com/mattmc3/zman) - Use [fzf](https://github.com/junegunn/fzf) to quickly browse Zsh manuals.
+- [zman](https://github.com/mattmc3/zman) - Use [fzf](https://github.com/junegunn/fzf) to quickly browse ZSH manuals.
+- [zoo](https://github.com/salamantos/zoo_sh) - Casual theme with animal emoji. Includes decorators for current directory, time and `git` status.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
 - [zpy](https://github.com/AndydeCleyre/zpy) - Manage Python Environments, dependencies, and isolated app installations, with a ZSH frontend to [pip-tools](https://github.com/jazzband/pip-tools).
 - [zredis](https://github.com/zdharma-continuum/zredis) - Adds [Redis](https://redis.io/) database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
