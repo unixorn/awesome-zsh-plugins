@@ -49,6 +49,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zim](#zim)
   - [Zinit](#zinit)
   - [zit](#zit)
+  - [zlugin](#zlugin)
   - [znap](#znap)
   - [zoppo](#zoppo)
   - [zpacker](#zpacker)
@@ -287,6 +288,10 @@ The project is very active – currently > 3100 commits.
 ### [zit](https://github.com/thiagokokada/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from `git` repositories (and `git` repositories only, that's why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, `$PATH` manipulation and others.
+
+### [zlugin](https://github.com/DrgnFireYellow/zlugin)
+
+**zlugin** is a very lightweight ZSH plugin manager.
 
 ### [znap](https://github.com/marlonrichert/zsh-snap)
 
@@ -885,7 +890,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [media-sync](https://github.com/redxtech/zsh-media-sync) - A plugin to facilitate copying media between two `rclone` locations.
 - [mercurial](https://github.com/hcgraf/zsh-mercurial) - Extracted from [oh-my-zsh](https://ohmyz.sh) so you can use it without the rest of oh-my-zsh.
 - [mfunc](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
-- [mkarch](https://github.com/0xRZ/mkarch) - Zsh plugin that allows you to create archives using multiple different compression formats.
+- [mkarch](https://github.com/0xRZ/mkarch) - ZSH plugin that allows you to create archives using multiple different compression formats.
 - [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 - [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
 - [monthrename](https://github.com/NotTheDr01ds/zsh-plugin-monthrename) - Renames month names to numbers in filenames.
