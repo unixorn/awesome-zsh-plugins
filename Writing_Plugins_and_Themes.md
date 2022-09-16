@@ -16,11 +16,23 @@ Here are some suggestions to make installing and using your plugin/theme as simp
 
 7. If your plugin adds any of its subdirectories to the user's `fpath`, make sure those subdirectories only contain function definition files. This allows for frameworks to correctly [zcompile all functions](http://zsh.sourceforge.net/Doc/Release/Functions.html#Autoloading-Functions). Please don't make your plugin add its root directory to the `fpath` - this will cause problems with `zcompile`.
 
-8. Leave ZSH settings alone.
+8. If your plugin adds aliases or functions that rely on a given program to be installed, check for the program and only add them when it's present. Same if it only works on one OS - check for the OS first. Example:
+
+```sh
+function has_command() {
+  which "$@" > /dev/null 2>&1
+}
+if has_command pbcopy; then
+   # On macOS, make ^Y yank the selection to the system clipboard. On Linux you can alias pbcopy to `xclip -selection clipboard` or corresponding tool.
+   fzf_default_opts+=("--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'")
+fi
+```
+
+9. Leave ZSH settings alone.
 
    - If you're using `setopt` to override the user's existing settings, you _will_ break someone's workflow. If you feel you absolutely must tweak `setopt` settings, make sure there's an easy way to disable your overrides - consider looking for a file named `~/.YOURPLUGIN_disable_SETTINGSNAME`.
    - If you're touching the magic ZSH settings variables like `HISTSIZE`, _only do it if the variable is unset_. Wrap it in a `if [[ -z "$VARNAME" ]]; then` block so you don't step on a user's existing settings.
 
-9. Don't forget to add a license. A lot of people won't use anything that doesn't have a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one if you don't already have something specific in mind.
+10. Don't forget to add a license. A lot of people won't use anything that doesn't have a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one if you don't already have something specific in mind.
 
-10. Submit a PR or add an issue here at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) so your plugin is easy for users to find :-)
+11. Submit a PR or add an issue here at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) so your plugin is easy for users to find :-)
