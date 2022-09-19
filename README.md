@@ -1191,6 +1191,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [web-search (sinetoami)](https://github.com/sinetoami/web-search) - Add commands to run bing, google, yahoo, & duckduckgo searches directly from the CLI.
 - [web-search (yabanahano)](https://github.com/Yabanahano/web-search) - Adds aliases for searching with Google, Wiki, Bing, YouTube and other popular services.
 - [whobrokemycode](https://github.com/cameronbroe/whobrokemycode) - Highlight where a particular line was last changed in a file using `git blame`.
+- [which-jspm](https://github.com/zkuzmic/which-jspm/) - Adds `npm`, `yarn` or `pnpm` to the end of your prompt depending on what lockfile(s) it detects in the current directory.
 - [window-title](https://github.com/olets/zsh-window-title) - Adds informative tiles to your terminal windows.
 - [windows-title](https://github.com/mdarocha/zsh-windows-title) - Dynamically updates terminal window title with current directory and the last command run.
 - [wordle](https://github.com/zechris/zwordle) - Wordle for ZSH, with tab-completions.
