@@ -2314,7 +2314,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
-Zgen is not being actively maintained. Consider switching to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
+Zgen is not being actively maintained. I recommend that you switch to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
 
 ### [Zgenom](https://github.com/jandamm/zgenom)
 
