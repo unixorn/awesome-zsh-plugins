@@ -439,6 +439,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 - [Configuration to use Hyper.js as a ZSH terminal with a Windows Subsystem Linux on windows 10, with Oh My Zsh and the Powerlevel10k theme](https://github.com/jkergal/hyperjs-wsl-zsh-powerlevel10k-config-on-windows/) - How-to for getting Oh-My-ZSH running on WSL.
 - [Getting started with oh-my-zsh](https://medium.com/@dienbui/using-oh-my-zsh-f65be6460d3f) - A beginners guide to oh-my-zsh by Dien Bui
+- [How to Install and Configure Z Shell in Ubuntu](https://github.com/profpan396/how-to-install-and-configure-zshell) - Amar Pan's article will walk you through the process of installing and configuring ZSH, including how to change themes and enable the time-saving autosuggestions plug-in.
 - [iTerm2 + Oh-My-ZSH: Supercharge Your Mac Terminal](https://catalins.tech/improve-mac-terminal) - Catalin Pit's tutorial on getting started with Oh-My-ZSH on macOS.
 - [Learn Zsh in 80 Minutes macOS](https://www.youtube.com/watch?v=MSPu-lYF-A8) - A beginners guide to using Oh My Zsh on macOS by Karl Hadwen
 - [Oh-My-Zsh! A Work of CLI Magic](https://medium.com/wearetheledger/oh-my-zsh-made-for-cli-lovers-installation-guide-3131ca5491fb) - Michiel Mulders installation guide for Ubuntu
@@ -1073,6 +1074,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
 - [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 - [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
+- [spaceship-ocm](https://github.com/iamkirkbater/spaceship-ocm-plugin) - Queries your OpenShift Cluster Manager (ocm) configuration to show which environment you're connected to. Requires [NerdFont](https://www.nerdfonts.com/font-downloads) in your terminal.
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 - [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
@@ -2211,6 +2213,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [whale](https://github.com/whalesea520/whale-zsh-theme) - Fast reimplementation of the whale theme.
 - [whales](https://github.com/lbergelson/zsh_whales_theme) - Includes decorators for `git` status, java version, last command return status, and directory.
 - [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou.
+- [windows](https://github.com/juliavallina/windows-zsh-theme/) - Inspired by the Windows Command Prompt. Includes a decorator for the current directory.
 - [winline](https://github.com/khuei/winline) - Async version of Greg Hurrell's [prompt](https://github.com/wincent/wincent/blob/master/aspects/dotfiles/files/.zshrc). Includes decorators for `git` status, duration of last command, current directory, nested shells, root status.
 - [wkentaro](https://github.com/wkentaro/wkentaro.zsh-theme) - A simple theme for Python users. Includes virtualenv and `git` status decorators.
 - [work-line](https://github.com/afnizarnur/work-line) - Theme with nice emojis.
@@ -2312,7 +2315,7 @@ Most of these plugins can be installed by adding `antigen bundle githubuser/repo
 
 ### [Zgen](https://github.com/tarjoilija/zgen)
 
-Zgen is not being actively maintained. Consider switching to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
+Zgen is not being actively maintained. I recommend that you switch to the [Zgenom](https://github.com/jandamm/zgenom) fork, which is.
 
 ### [Zgenom](https://github.com/jandamm/zgenom)
 
