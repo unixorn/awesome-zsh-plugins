@@ -752,6 +752,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [git-it-on](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 - [git-lfs](https://github.com/nekofar/zsh-git-lfs) - Adds short aliases for the `git-lfs` commands.
 - [git-plugin](https://github.com/rcruzper/zsh-git-plugin) - Adds some functions for `git`.
+- [git-prompt-enhanced](https://github.com/LFabre/zsh-git-prompt-enhanced) - Provides a more granular information about a `git` repository.
 - [git-prompt-useremail](https://github.com/mroth/git-prompt-useremail) - Adds prompt reminders for `git` user.email.
 - [git-prune (diazod)](https://github.com/diazod/git-prune) - Allows you to delete all branches that are already merged in your local `git` repository and/or that were merged in your remote origin `git` repository.
 - [git-prune (seinh)](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches in a `git` repository.
