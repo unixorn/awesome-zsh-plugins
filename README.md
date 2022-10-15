@@ -479,6 +479,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ## Plugins
 
+
 - [1999](https://github.com/DTan13/zsh1999) - Powerline-esque theme. Includes `git` status decorations, network and battery status.
 - [1password](https://github.com/agpenton/1password-zsh-plugin) - Adds [1Password](https://1password.com/) functionality including a `opswd` command that wraps the `op` command. It takes a service name as an argument and copies the password for that service to the clipboard.
 - [256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen `TERM` environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
@@ -696,9 +697,8 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [fastcache](https://github.com/QuarticCat/zsh-fastcache) - Caches command output to improve shell startup time.
 - [fav](https://github.com/ddnexus/fav) - ZSH/[fzf](https://github.com/junegunn/fzf) plugin that makes it really easy to add and recall named favorites of your important directories.
 - [favorite-directories](https://github.com/seletskiy/zsh-favorite-directories) - Fast jumps to your favorite directories.
-- [fd](https://github.com/aubreypwd/zsh-plugin-fd) - Use [fzf](https://github.com/junegunn/fzf) to browse directories.
 - [fd-plugin](https://github.com/MohamedElashri/fd-zsh) - Adds aliases for [fd](https://github.com/sharkdp/fd), a modern replacement for `find`.
-
+- [fd](https://github.com/aubreypwd/zsh-plugin-fd) - Use [fzf](https://github.com/junegunn/fzf) to browse directories.
 - [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
 - [firebase (Seqi)](https://github.com/Seqi/firebase-zsh) - Display the current working project or project alias when in a Firebase project directory or subdirectory.
 - [firebase (rmrs)](https://github.com/rmrs/firebase-zsh) - Add an indicator in the prompt that you're in a directory with a `firebase.json` file (aka "firebase project").
@@ -972,13 +972,13 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [phpcs](https://github.com/voronkovich/phpcs.plugin.zsh) - Plugin for [PHP code sniffer](https://github.com/squizlabs/PHP_CodeSniffer).
 - [phpenv](https://github.com/sptndc/phpenv.plugin.zsh) - Auto-load [phpenv](https://github.com/sptndc/phpenv) and its completions.
 - [phpunit](https://github.com/voronkovich/phpunit.plugin.zsh) - Plugin for [PHPUnit](https://phpunit.de/).
-- [plenv](https://github.com/TwoPizza9621536/zsh-plenv) - Plugin for the perl [plenv](https://github.com/tokuhirom/plenv) version manager based on jenv.
 - [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct Python virtualenvs so they don't conflict with any other python requirements on your system.
 - [pip-env](https://github.com/iboyperson/zsh-pipenv) - Automatic [pipenv](https://pipenv.readthedocs.io/en/latest/) activation upon entry into a `pipenv` project.
 - [pipenv (owenstranathan)](https://github.com/owenstranathan/pipenv.zsh) - Automatically activates a **pipenv** when entering a directory if there is Pipfile in that directory. Includes `pipenv` completions.
 - [pipenv (sudosubin)](https://github.com/sudosubin/zsh-pipenv) - Enables `pipenv`'s `$PATH` and adds completions.
 - [pipx](https://github.com/thuandt/zsh-pipx) - Autocompletions for [pipx](https://github.com/pypa/pipx).
 - [pkenv](https://github.com/ptavares/zsh-pkenv) - Installs and loads [pkenv](https://github.com/iamhsa/pkenv.git).
+- [plenv](https://github.com/TwoPizza9621536/zsh-plenv) - Plugin for the perl [plenv](https://github.com/tokuhirom/plenv) version manager based on jenv.
 - [plugin-ibtool](https://github.com/rgalite/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files.
 - [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
 - [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for macOS, Windows, and Linux.
