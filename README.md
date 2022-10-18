@@ -92,6 +92,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ZSH Tools](#zsh-tools)
   - [Other Useful Lists](#other-useful-lists)
   - [Other References](#other-references)
+- [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -2379,3 +2380,13 @@ Find other useful awesome-* lists at the [awesome collection](https://github.com
 - The [ZSH Reference Card](http://www.bash2zsh.com/zsh_refcard/refcard.pdf) and [zsh-lovers site](https://grml.org/zsh/zsh-lovers.html) are indispensable.
 
 - [Mastering ZSH](https://github.com/rothgar/mastering-zsh) is a great tutorial that builds on the basics to show you advanced ZSH usage, customizations, and practical examples.
+
+## Thanks
+
+Many thanks to all the contributors over the years. The list wouldn't be nearly as complete without all your help.
+
+<a href="https://github.com/unixorn/awesome-zsh-plugins/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=unixorn/awesome-zsh-plugins" />
+</a>
+
+Made with [contributors-img](https://contributors-img.web.app).
