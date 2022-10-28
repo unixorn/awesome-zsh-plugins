@@ -1010,7 +1010,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [prompt-generator](https://github.com/the10thWiz/zsh-prompt-generator) - Generates custom themes. Some generated themes require powerline-compatible fonts.
 - [proxy-plugin](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Quickly enable and disable proxy shell environment settings.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
-- [pseudo-projectile](https://github.com/git-girl/pseudo-projectile-plugin/) - Like `projectile` in emacs? This adds similar functionality to your ZSH environment.
+- [pseudo-projectile](https://github.com/git-girl/pseudo-projectile-plugin/) - Like `projectile` in emacs? This adds similar functionality to your ZSH environment by opening `fzf`-selected paths in `nvim`.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
 - [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by zsh-rbenv. Installs, updates or loads `pyenv`, and adds extra functionality.
 - [pyenv (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-pyenv) - Based on the oh-my-zsh [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv) plugin with modifications from the rbenv and jenv plugins.
@@ -1074,6 +1074,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [show-path](https://github.com/redxtech/zsh-show-path) - Provides a function shows the `$PATH` line by line.
 - [silverstein-quotes](https://github.com/silversteinsoftware/silverstein_quotes) - Show a random quote from a Silverstein song during shell startup.
 - [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python `SimpleHTTPServer` and `SimpleHTTPSServer`.
+- [singularityenv](https://github.com/saravanabalagi/zsh-plugin-singularityenv) - Provides a `singularityenv_prompt_info` function which returns the current singularity environment name
 - [skaffold](https://github.com/todie/skaffold.plugin.zsh) - ZSH integration and completions for [skaffold](https://skaffold.dev) local kubernetes development environment.
 - [skim (casonadams)](https://github.com/casonadams/skim.zsh) - Tries to determine where [skim](https://github.com/lotabout/skim) is installed, then enables its fuzzy auto-completion and key bindings.
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
@@ -1198,7 +1199,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [watch](https://github.com/enrico9034/zsh-watch-plugin) - Easily prefix your current or previous commands with watch by pressing `CTRL + W`.
 - [watson.zsh](https://github.com/bcho/Watson.zsh) - A plugin for the [watson](https://github.com/TailorDev/Watson) time management system.
 - [wd](https://github.com/mfaerevaag/wd) - Warp directory lets you jump to custom directories in ZSH, without using `cd`. Why? Because `cd` seems inefficient when the folder is frequently visited or has a long path.
-- [wdnote](https://github.com/Vesdii/zsh-wdnote) - Prints the contents of a `.wdnote` file if present when changing to a new directory.
 - [web-search (sinetoami)](https://github.com/sinetoami/web-search) - Add commands to run bing, google, yahoo, & duckduckgo searches directly from the CLI.
 - [web-search (yabanahano)](https://github.com/Yabanahano/web-search) - Adds aliases for searching with Google, Wiki, Bing, YouTube and other popular services.
 - [which-jspm](https://github.com/zkuzmic/which-jspm/) - Adds `npm`, `yarn` or `pnpm` to the end of your prompt depending on what lockfile(s) it detects in the current directory.
