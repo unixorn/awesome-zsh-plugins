@@ -1438,6 +1438,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [wsl-notify](https://github.com/masonc15/wsl-notify-zsh) - Uses [wsl-notify-send](https://github.com/stuartleeks/wsl-notify-send) to notify when a command takes longer than 15 seconds. Windows-only.
 - [yabai](https://github.com/Amar1729/yabai-zsh-completions) - Add completions for macOS [yabai](https://github.com/koekeishiya/yabai/) tiling window manager.
 - [yarn](https://github.com/g-plane/zsh-yarn-autocompletions) - Add autocompletions for `yarn add`, `yarn remove`, `yarn upgrade`, `yarn why` and `yarn run`.
+- [yt-dlp](https://github.com/clavelm/yt-dlp-omz-plugin) - Tab completions for [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 - [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses `argparse` and it will write a ZSH completion to your current directory.
 
 ## Themes
