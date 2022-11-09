@@ -558,6 +558,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [basex](https://github.com/dirkk/zsh-basex) - Adds several [BaseX](http://basex.org/) aliases for simplified usage.
 - [bash-quote](https://github.com/jtprog/bash-quote) - Get random quote from Bash.im.
 - [bash](https://github.com/chrissicool/zsh-bash) - Makes ZSH more Bash compatible. It redefines the source command to act more like `bash` does. It also enables `bash` completions.
+- [bat](https://github.com/fdellwing/zsh-bat) - Adds some helper aliases for [bat](https://github.com/sharkdp/bat) users.
 - [battery_state](https://github.com/Jactry/zsh_battery_state) - Show battery state in right-prompt.
 - [bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`.
 - [bepoptimist](https://github.com/sheoak/zsh-bepoptimist/) Remaps vi-mode for the French [bépo](http://bepo.fr/wiki/Accueil) keyboard.
