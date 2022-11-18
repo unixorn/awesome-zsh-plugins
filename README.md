@@ -1346,6 +1346,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 - [fancy-completions](https://github.com/z-shell/zsh-fancy-completions) - Provides various completions tools, libraries and integrations.
 - [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://concourse-ci.org/fly.html) commands.
+- [fnm](https://github.com/zap-zsh/fnm) - Adds tab completions for Fast Node Manager [fnm](https://github.com/Schniz/fnm).
 - [fzf-gcloud](https://github.com/mbhynes/fzf-gcloud) - Fuzzy completion to navigate and preview all Google Cloud SDK `gcloud` CLI commands
 - [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, bash & applications using GNU Readline.
 - [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
