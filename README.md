@@ -1525,7 +1525,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [barion](https://github.com/SEbbaDK/barion) - A fast compiled prompt with a compact `git` status overview. Reminiscent of powerline. Requires [Crystal](https://crystal-lang.org/) to build.
 - [bash](https://github.com/starseekist/bash-zsh-theme) - Looks like the default `bash` prompt.
 - [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal](https://github.com/ahmetsulek/flat-terminal) theme and Pasquale D'Silva's [Saturn Terminal](https://github.com/psql/saturn-colors) theme.
-- [bashplus](https://github.com/Elagoht/BashPlusZshTheme) - Colorized replica of the default bash prompt with decorators for virtualenv and `git` status.
+- [bashplus](https://github.com/Elagoht/BashPlusZshTheme) - Colorized replica of the default `bash` prompt with decorators for virtualenv and `git` status.
 - [bastard](https://github.com/jsundqvist/bastard.zsh-theme) - Modified version of [gitster](https://github.com/zimfw/gitster) theme for [ZIM](https://github.com/zimfw/zimfw).
 - [bearable](https://github.com/JanmanX/bearable-zsh) - Works well with dark terminal backgrounds.
 - [bearings](https://github.com/liamg/bearings) - A fast, clean, super-customizable shell prompt. Includes decorators for current directory, `git` status, exit code of last command, duration of last command, background jobs & username.
@@ -1660,6 +1660,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [dustmod](https://github.com/bmihaila/dustmod) - Derived from the [dst](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/dst.zsh-theme) theme in oh-my-zsh.
 - [dyzsh](https://github.com/daotoyi/dyzsh-zsh-theme) - Based on astro. Includes decorators for `git` branch & hash, current directory, user, host & time.
 - [dzhi](https://github.com/pentago/dzhi-zsh-theme) - Optimized for people using [Nord](https://www.nordtheme.com/). Includes `git` status decorations.
+- [easytocloud](https://github.com/easytocloud/oh-my-easytocloud) - Based on [agnoster](https://github.com/agnoster/agnoster-zsh-theme), with an added AWS environment decorator.
 - [eckig](https://github.com/fouladi/eckig) - Minimalist theme with utf-8 icons. Includes `git` status decorations and a clock.
 - [efritas](https://github.com/erikfritas/efritas) - Includes username, hostname, `venv`, `rvm` and `git` status decorations.
 - [eggshausted](https://github.com/inutano/eggshausted) - A `git`-aware theme for people who are tired of getting errors.
