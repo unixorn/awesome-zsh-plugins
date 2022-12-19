@@ -1528,6 +1528,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [avil](https://github.com/avil13/avil-zsh-theme) - Minimalist theme with `git` decorations.
 - [avit-d2k](https://github.com/fdaciuk/avit-da2k) - Based on the oh-my-zsh [avit](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/avit.zsh-theme) theme, with small changes.
 - [avit-mod](https://github.com/zlsun/avit-mod) - Modified version of oh-my-zsh's [avit](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/avit.zsh-theme) theme.
+- [aws](https://github.com/chiemerieezechukwu/aws-zsh-theme) - Based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell), with an extra decorator to show your `$AWS_PROFILE` when it is set.
 - [banana](https://github.com/sorcererxw/banana-zsh-theme) - Includes `git` status decorations and current directory.
 - [bandit](https://github.com/Holger-Will/zsh_bandit) - Another Powerline variant.
 - [bar (anki-code)](https://github.com/anki-code/bar-theme) - Minimalist settings for [p10k](https://github.com/romkatv/powerlevel10k).
@@ -2020,6 +2021,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [phi φ](https://github.com/LasaleFamine/phi-zsh-theme) - A clean and simple theme for ZSH inspired and forked from the [Lambda (Mod) ZSH](https://github.com/halfo/lambda-mod-zsh-theme) theme.
 - [pi](https://github.com/tobyjamesthomas/pi) - A minimalist theme with `git` status decorations.
 - [piboy](https://github.com/sflems/piboy-zsh-theme) - A simple and elegant multi-line theme for ZSH. Includes a colourized timestamp, `git` & syntax highlighting, and elevated root theme.
+- [pico](https://github.com/PicoGeyer/zsh-pico-prompt) - Simple prompt modified from [zap-prompt](https://github.com/zap-zsh/zap-prompt) with decorators for `git` information, user@hostname and working directory.
 - [pifabs](https://github.com/pifabs/pifabs-zsh-theme) - Minimal theme with decorators for `git` status, username, host and working directory.
 - [plain-ui](https://github.com/purveshpatel511/plain-ui) - Minimalist, but includes `git` status decorations.
 - [plain](https://github.com/jimeh/plain.zsh-theme) - A plain and simple theme for ZSH which shows basic `git` information.
