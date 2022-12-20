@@ -2253,6 +2253,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme with decorators for `git` status, vim mode indicator and shortened path.
 - [ultimator](https://github.com/Ultimator14/ultimator-zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874)-like theme. Includes decorators for current directory, `user@host`, python virtualenv, background jobs, last command exit status, and `git` status information. Requires [zsh-git-prompt](https://github.com/Ultimator14/zsh-git-prompt) plugin and Nerdfonts.
 - [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
+- [valuca](https://github.com/keyaedisa/Valuca) - Variant of [ducula](https://github.com/janjoswig/Ducula). Includes decorators for background job status, username, hostname, virtualenv, current directory, last command's exit code, `git` information and the current time.
 - [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
 - [vehemence](https://github.com/H1N1-dev/vehemence-zsh) - Includes decorators for `pwd`, `user@host`, `tty`, time, last command exit code and `git` status.
 - [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
