@@ -59,6 +59,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zpm](#zpm)
   - [zr](#zr)
   - [zshing](#zshing)
+  - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
   - [ztupide](#ztupide)
@@ -369,6 +370,10 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 - Clean unused plugins up
 - Run the above actions in a *single command*
 - Manages the __Source Plugins__ of your installed Plugins
+
+### [zshPlug](https://github.com/Atlas34/zshPlug)
+
+**zshPlug** is a minimalist plugin manager heavily based on [zap](https://github.com/zap-zsh/zap).
 
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
