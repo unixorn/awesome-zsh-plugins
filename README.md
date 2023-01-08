@@ -58,6 +58,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zplug](#zplug)
   - [zpm](#zpm)
   - [zr](#zr)
+  - [zsh.ai](#zshai)
   - [zshing](#zshing)
   - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
@@ -358,6 +359,10 @@ The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH co
 ### [zr](https://github.com/jedahan/zr)
 
 **zr** is a quick, simple ZSH plugin manager written in Rust and easily installable with `cargo install zr`.
+
+### zsh.ai
+
+Focuses on security and hardening of local system. Requires [fzf](https://github.com/junegunn/fzf)
 
 ### [zshing](https://github.com/zakariaGatter/zshing)
 
