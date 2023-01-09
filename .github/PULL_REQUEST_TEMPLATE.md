@@ -1,6 +1,14 @@
 <!--- Provide a general summary of your changes in the Title above -->
 <!--- If you're unsure about anything in this checklist, don't hesitate to create a PR and ask. I'm happy to help! -->
+<!---
+Please make sure you've trimmed any trailing or leading .zsh, .zshplugin,
+.oh-my-zsh, .omz or similar language from the visible portion of the links in your entry.
 
+Basically zsh-foo or foo.zshplugin should have foo as the visible part of the link.
+
+This keeps entries from clumping in the O and Z portions of the list and
+also makes the links look prettier.
+-->
 # Description
 
 <!--- Describe your changes in detail, ideally [linking](example.com) to the project/resource in this description. -->
