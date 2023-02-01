@@ -508,7 +508,6 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [alehouse](https://github.com/sticklerm3/alehouse) - Contains short aliases for [brew](https://brew.sh) commands, inspired by `betterbrew`.
 - [alias-finder](https://github.com/akash329d/zsh-alias-finder) - Displays an alias when you use a command you have aliased previously. Helpful for remembering aliases you have defined in the past. Written as a pure ZSH script for speed
 - [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
-- [alias](https://github.com/xylous/alias-zsh) - Tool for managing your aliases.
 - [allergen](https://github.com/stanislas/allergen) - A collection of custom ZSH plugins to use with Antigen.
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
 - [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the alt-c (copy), alt-v (paste), alt-x (cut) keyboard shortcut to a commands: copy-region-as-kill, yank, kill-region. Remaps the execute command to Alt-Shift-X.
@@ -1404,6 +1403,8 @@ These plugins add tab completions without adding extra functions or aliases.
 - [kitty](https://github.com/redxtech/zsh-kitty) - Completions for [kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 - [kompose](https://github.com/gantsign/zsh-plugins/tree/master/kompose) - Add tab completions for [Kompose](http://kompose.io/).
 - [kubeadm](https://github.com/gantsign/zsh-plugins/tree/master/kubeadm) - Add tab completions for [kubeadm](https://kubernetes.io/docs/reference/setup-tools/kubeadm/kubeadm/).
+- [kubectl (chrishrb)](https://github.com/chrishrb/zsh-kubectl) - Automatically loads completions for [kubectl](https://github.com/kubernetes/kubectl)
+)
 - [kubectl-fzf](https://github.com/bonnefoa/kubectl-fzf) - Fast and powerful [fzf](https://github.com/junegunn/fzf)-powered autocompletion for `kubectl`.
 - [kubectl-plugin](https://github.com/MartinSimango/kubectl-plugin_completion) - Generates `kubectl` completion scripts to extend the `kubectl` auto complete functionality to accomodate for plugin sub-commands.
 - [kustomize](https://github.com/ralgozino/oh-my-kustomize) - Adds tab completions for [kustomize](https://kustomize.io/)
@@ -2223,7 +2224,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [spaceship](https://github.com/denysdovhan/spaceship-prompt) - Theme with `git`, `nvm`, rvm/rbenv/chruby, python, `ssh` and other useful status decorators.
 - [spowerline](https://mbauhardt.github.io/spowerline/) - Written in scala, inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), [tmux](https://tmux.github.io) powerline, vim powerline and the vim status plugin.
 - [spyrhoo](https://github.com/FajarKim/spyrhoo-zsh-theme) - Includes time, `git` and current directory decorations.
-- [squanchy](https://github.com/gabrielecanepa/zsh-custom/tree/master/themes) - Minimalist theme. Includes `git`, `node` and `rbenv` status decorations.
 - [ssfprompt](https://github.com/hugoh/zsh-ssfprompt) - Simple, slim, fast. Includes `ssh`, virtualenv and vcs decorations.
 - [staples](https://github.com/dersam/staples) - Based on bureau, displays user@host if connected through SSH.
 - [starboy](https://github.com/prdpx7/Starboy) - A simple ZSH theme.
