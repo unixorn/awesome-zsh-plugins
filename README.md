@@ -1382,6 +1382,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [git-annex](https://github.com/Schnouki/git-annex-zsh-completion) - Allows tab completion for most git-annex commands.
 - [git-flow](https://github.com/bobthecow/git-flow-completion) - ZSH completion support for [git-flow](http://github.com/nvie/gitflow).
 - [git-fzf](https://github.com/alexiszamanidis/zsh-git-fzf) - ZSH plugin that wraps `git` operations for simplicity and productivity. It also contains completions and combines support for [fzf](https://github.com/junegunn/fzf).
+- [git-multiuser](https://github.com/baliestri/git-multiuser.plugin.zsh) - managing multiple git users in a single `.gitconfig` file.
 - [github-cli](https://github.com/sudosubin/zsh-github-cli) - Tab completions for the github cli.
 - [gitlab-runner](https://github.com/pseyfert/zsh-gitlab-runner-completion) - ZSH completions for gitlab-ci-multi-runner.
 - [gradle-completion (gradle)](https://github.com/gradle/gradle-completion) - Bash and ZSH completion support for gradle.
