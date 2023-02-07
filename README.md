@@ -67,13 +67,13 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zulu](#zulu)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
-  - [zinit](#zinit)
+  - [zinit](#zinit-1)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
-  - [Antigen](#antigen)
-  - [Oh-My-Zsh](#oh-my-zsh)
-  - [Prezto](#prezto)
-  - [Zgen](#zgen)
+  - [Antigen](#antigen-1)
+  - [Oh-My-Zsh](#oh-my-zsh-1)
+  - [Prezto](#prezto-1)
+  - [Zgen](#zgen-1)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
     - [superconsole - Windows-only.](#superconsole---windows-only)
@@ -82,12 +82,12 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Themes](#themes)
 - [Fonts](#fonts)
 - [Installation](#installation)
-  - [Antigen](#antigen-1)
+  - [Antigen](#antigen-2)
   - [dotzsh](#dotzsh-1)
-  - [Oh-My-Zsh](#oh-my-zsh-1)
-  - [Prezto](#prezto-1)
-  - [Zgen](#zgen-1)
-  - [Zgenom](#zgenom)
+  - [Oh-My-Zsh](#oh-my-zsh-2)
+  - [Prezto](#prezto-2)
+  - [Zgen](#zgen-2)
+  - [Zgenom](#zgenom-2)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins and Themes](#writing-new-plugins-and-themes)
@@ -560,6 +560,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - [aws-plugin](https://github.com/pookey/zsh-aws-plugin) - Adds helper functions for `aws` command. Includes mfa and `assume-role` helpers.
 - [aws-upload](https://github.com/borracciaBlu/aws-upload-zsh) - Boost your productivity with `aws-upload`.
 - [aws-vault](https://github.com/blimmer/zsh-aws-vault) - Plugin for [aws-vault](https://github.com/99designs/aws-vault). Includes tab completions.
+- [aws-vault-profiles](https://github.com/jonscheiding/zsh-plugin-aws-vault-profiles) - Plugin that integrates usage of [aws-vault](https://github.com/99designs/aws-vault) with the `$AWS_PROFILE` environment variable.
 - [aws2](https://github.com/drgr33n/oh-my-zsh_aws2-plugin) - Provides completion support for version 2 of the [awscli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and a few utilities to manage AWS profiles and display them in the prompt.
 - [aws](https://github.com/apachler/zsh-aws) - Forked from the original [oh-my-zsh](https://ohmyz.sh/) [aws](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws). Includes completions for `awscli` and a few utilities for managing AWS profiles and displaying them in your prompt.
 - [awsume](https://github.com/Sordie/AWSume) - Plugin that enables showing the current [awsume](https://github.com/trek10inc/awsume) profile.
