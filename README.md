@@ -2143,7 +2143,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [rigel](https://github.com/othiagos/rigel-zsh-theme/) - Includes decorators for `git` information, user@hostname and current directory.
 - [risbow](https://github.com/waddupp00/risbow) - A [risto](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/risto.zsh-theme) inspired ZSH theme with a lolcat like rainbow effect.
 - [river](https://github.com/revir/river-zsh-config) - Dark theme with `git` information.
-- [river_dreams](https://github.com/f1redr4g0n/river_dreams) - Includes decorators for last command exit status, Python virtualenv, `git` information, whether running as root, current song playing in `mpd`, and license info for the current directory.
 - [robbyolivier](https://github.com/YuyeQingshan/robbyolivier) - Based on ideas from the the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme and the project [zsh-git-prompt](https://github.com/olivierverdier/zsh-git-prompt).
 - [robbyrussell-WIP](https://github.com/ecbrodie/robbyrussell-WIP-theme) - Decorates the `robbyrussell` theme with output to indicate a **WIP** commit.
 - [robbyrussell-fullpath](https://github.com/toytag/robbyrussell-fullpath.zsh-theme) - The original [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) with a fullpath in the prompt.
