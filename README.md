@@ -2438,6 +2438,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 
 ### ZSH Tools
 
+- [oh-plugin](https://github.com/mbergo/oh-plugin) - helps you install plugins for [oh-my-zsh](https://ohmyz.sh) by typing `oh-plugin install repository_address`.
 - [ShellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/iterative/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
 - [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH. It measures user-visible latency of interactive `zsh`: input lag, command lag, etc
