@@ -67,13 +67,14 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zulu](#zulu)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
-  - [zinit](#zinit-1)
+  - [zinit](#zinit)
+- [Prerequisites](#prerequisites)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
-  - [Antigen](#antigen-1)
-  - [Oh-My-Zsh](#oh-my-zsh-1)
-  - [Prezto](#prezto-1)
-  - [Zgen](#zgen-1)
+  - [Antigen](#antigen)
+  - [Oh-My-Zsh](#oh-my-zsh)
+  - [Prezto](#prezto)
+  - [Zgen](#zgen)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
     - [superconsole - Windows-only.](#superconsole---windows-only)
@@ -82,12 +83,12 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Themes](#themes)
 - [Fonts](#fonts)
 - [Installation](#installation)
-  - [Antigen](#antigen-2)
+  - [Antigen](#antigen-1)
   - [dotzsh](#dotzsh-1)
-  - [Oh-My-Zsh](#oh-my-zsh-2)
-  - [Prezto](#prezto-2)
-  - [Zgen](#zgen-2)
-  - [Zgenom](#zgenom-2)
+  - [Oh-My-Zsh](#oh-my-zsh-1)
+  - [Prezto](#prezto-1)
+  - [Zgen](#zgen-1)
+  - [Zgenom](#zgenom)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins and Themes](#writing-new-plugins-and-themes)
@@ -423,6 +424,29 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - 2.8k line README.md
 - 50k+ LOC
 - 1 line install
+
+## Prerequisites
+
+If you're on a Mac, the `zsh` that comes with it is usually pretty stale. You can use `brew install zsh` to update it.
+
+Many of the themes here use special glyphs for things like displaying a branch icon. You'll need to use a Nerd font or a Powerline-compatible font in your terminal program or you'll see ugly broken boxes where the symbols should be.
+
+Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
+
+* [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that include some nice monospaced Icons.
+* [Cascadia Code](https://github.com/microsoft/cascadia-code) - Microsoft's Cascadia Code
+* [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons, and Powerline-Glyphs.
+* [Fira Mono](https://github.com/mozilla/Fira) - Mozilla's Fira type family.
+* [Hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed for source code and terminal usage.
+* [Input Mono](https://input.djr.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes Powerline glyphs.
+* [Iosevka](https://be5invis.github.io/Iosevka/) - Iosevka is an open source slender monospace sans-serif and slab-serif typeface inspired by [Pragmata Pro](http://www.fsd.it/fonts/pragmatapro.htm), [M+](http://mplus-fonts.osdn.jp/) and [PF DIN Mono](https://www.myfonts.com/fonts/parachute/pf-din-mono/), designed to be the ideal font for programming.
+* [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
+* [Mononoki](https://madmalik.github.io/mononoki/) - Mononoki is a typeface by Matthias Tellen, created to enhance code formatting.
+* [More Nerd Fonts](https://www.nerdfonts.com/font-downloads) - Another site to download nerd fonts.
+* [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - A collection of over 20 patched fonts (over 1,700 variations) & the fontforge font patcher python script for Powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more. These can be installed with `brew` - do `brew tap homebrew/cask-fonts && brew install --cask fontname`
+* [Powerline patched font collection](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include Powerline glyphs.
+* [Victor Mono](https://rubjo.github.io/victor-mono/) - Victor Mono is a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
+* [spacemono](https://github.com/googlefonts/spacemono) - Google's new original monospace display typeface family.
 
 ## Tutorials
 
