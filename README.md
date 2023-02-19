@@ -182,7 +182,7 @@ Features:
 
 PMS allows you to manage your shell in a way to that helps decrease setup time and increases your productivity. It has support for themes (change the way your shell looks), plugins (adds functionality to your shell), and dotfile management.
 
-The PMS framework also allows you to use the same framework in different shells. Use ZSH on your personal laptop, and use bash on remote servers. Wanna try `fish`? Go ahead, try out different shells.
+The PMS framework also allows you to use the same framework in different shells. Use ZSH on your personal laptop, and use `bash` on remote servers. Wanna try `fish`? Go ahead, try out different shells.
 
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
@@ -1401,7 +1401,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [fnm](https://github.com/zap-zsh/fnm) - Adds tab completions for Fast Node Manager [fnm](https://github.com/Schniz/fnm).
 - [fvm](https://github.com/olrtg/zsh-fvm) - Adds tab completions for the [Flutter Version Manager (FVM)](https://fvm.app/).
 - [fzf-gcloud](https://github.com/mbhynes/fzf-gcloud) - Fuzzy completion to navigate and preview all Google Cloud SDK `gcloud` CLI commands
-- [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, bash & applications using GNU Readline.
+- [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, `bash` & applications using GNU Readline.
 - [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
 - [fzshell](https://github.com/mnowotnik/fzshell) - Fetches fuzzy completions from sources predefined by a user.
 - [gardenctl](https://github.com/holgerkoser/gardenctl) - Tab completions for the [Gardener](https://github.com/gardener/gardenctl-v2) command-line interface, as well as some aliases for common gardenctl commands
