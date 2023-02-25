@@ -1815,7 +1815,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [gugulenok](https://github.com/gugulen0k/gugulenok/) - Has both a dark and a light mode. Includes decorators for `git` status, time and current directory.
 - [guri](https://github.com/victorfsf/guri) - A Simple and fast Oh-My-Zsh theme, based on [Pure](https://github.com/sindresorhus/pure)'s design.
 - [gus](https://github.com/gusye1234/Gus-zsh-theme/) - Hackable transient theme. Includes decorators for conda, `git` information and current directory.
-- [gusrylmubarok](https://github.com/gusrylmubarok/gusrylmubarok-zsh-theme/) - Includes decorators for `git` status and last command exit status.
 - [hackersaurus](https://github.com/bhilburn/hackersaurus) - A theme with `git` status and exit code of last command run decorators embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
 - [halfeld](https://github.com/IgorHalfeld/halfeld-zsh-theme) - Minimalist theme with `git` decorations.
 - [halil](https://github.com/5m0k3r/zsh-themes) - Fork of oh-my-zsh's [amuse](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/amuse.zsh-theme) theme.
@@ -2320,6 +2319,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ubuntu](https://github.com/janstuemmel/zsh-ubuntu-theme) - Minimal theme, includes `git` status decorations.
 - [ultimate](https://github.com/b4b4r07/ultimate) - Minimalist theme with decorators for `git` status, vim mode indicator and shortened path.
 - [ultimator](https://github.com/Ultimator14/ultimator-zsh-theme) - [Agnoster](https://gist.github.com/agnoster/3712874)-like theme. Includes decorators for current directory, `user@host`, python virtualenv, background jobs, last command exit status, and `git` status information. Requires [zsh-git-prompt](https://github.com/Ultimator14/zsh-git-prompt) plugin and Nerdfonts.
+- [unicorn](https://github.com/juliuscaesar/unicorn) - Includes decorators for root status, virtualenv, nvm, rvm, current directory, the time, current directory and emoji `git` information. Inspired by [wild cherry](https://github.com/mashaal/wild-cherry).
 - [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
 - [valuca](https://github.com/keyaedisa/Valuca) - Variant of [ducula](https://github.com/janjoswig/Ducula). Includes decorators for background job status, username, hostname, virtualenv, current directory, last command's exit code, `git` information and the current time.
 - [vanan](https://github.com/avano/vanan-zsh-theme) - Minimalist theme with `git` information for dark terminals.
