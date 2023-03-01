@@ -1125,6 +1125,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [senv](https://github.com/joepvd/senv) - Report presence of sensitive environment variables in the prompt
 - [session-sauce](https://github.com/ChrisPenner/session-sauce) - An [fzf](https://github.com/junegunn/fzf) interface for tmux session creation and management for all your projects.
 - [setenv](https://github.com/kalpakrg/setenv) - Runs a script when you change directories.
+- [setpath](https://github.com/mys721tx/set_path) - Adds some local paths to your `fpath` and `$PATH`.
 - [shelf](https://github.com/ecmma/shelf) -Utility which can be used to bookmark and access directly any file using mnemonics.
 - [shell-fns](https://github.com/Hdoc1509/shell-fns) - Includes `git`, `neovim`, `npm`, `pip` extended functionality.
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action.
