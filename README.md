@@ -1125,6 +1125,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [senv](https://github.com/joepvd/senv) - Report presence of sensitive environment variables in the prompt
 - [session-sauce](https://github.com/ChrisPenner/session-sauce) - An [fzf](https://github.com/junegunn/fzf) interface for tmux session creation and management for all your projects.
 - [setenv](https://github.com/kalpakrg/setenv) - Runs a script when you change directories.
+- [setpath](https://github.com/mys721tx/set_path) - Adds some local paths to your `fpath` and `$PATH`.
 - [shelf](https://github.com/ecmma/shelf) -Utility which can be used to bookmark and access directly any file using mnemonics.
 - [shell-fns](https://github.com/Hdoc1509/shell-fns) - Includes `git`, `neovim`, `npm`, `pip` extended functionality.
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action.
@@ -2303,7 +2304,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [thnikk](https://github.com/thnikk/zsh-theme-thnikk) - A minimal version of the [spaceship](https://github.com/denysdovhan/spaceship-prompt) theme.
 - [thyme (chenhao-ye)](https://github.com/chenhao-ye/thyme) - Seasoning for shells. Based on [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme), [gnzh](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme), and [bullet-train](https://github.com/caiogondim/bullet-train.zsh/blob/master/bullet-train.zsh-theme).
 - [thyme (kawamurakazushi)](https://github.com/kawamurakazushi/thyme) - Simple theme with `git` status decorations.
-- [toledo](https://github.com/mmatongo/toledo) - Quick minimalist theme with `git` status decorations.
+- [toledo](https://github.com/mmatongo/toledo) - Quick minimalist theme with `git` status decorations. Works with `zsh`, `bash`, `dash` and `yash`.
 - [tonni4](https://github.com/AndreyPuzanov/tonni4-zsh-theme) - Includes time and `git` status decorators.
 - [topan](https://github.com/fudyartanto/topan-theme-oh-my-zsh) - Includes `git` information; best on dark backgrounds.
 - [tq](https://github.com/kitian616/tq-zsh-theme) - Displays `git` status, time, requires a Powerline font.
