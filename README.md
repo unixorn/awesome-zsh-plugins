@@ -2011,7 +2011,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [multiline](https://github.com/jan-auer/zsh-multiline) - Powerline-esque theme based on [agnoster](https://github.com/agnoster/agnoster-zsh-theme).
 - [muslim](https://github.com/nksoff/muslim) - A simple minimal ZSH prompt theme.
 - [musy](https://github.com/THaGKI9/musy-zsh-theme) - Inspured by muse theme. Includes `git` status decorations.
-- [my-hl2](https://github.com/liamm91/my-hl2) - Includes virtualenv, `git` status and directory decorations. Based on omz's [half-life](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/half-life.zsh-theme) theme.
 - [my](https://github.com/fabiendelpierre/my-zsh-theme/) - Variant of [kolo](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#kolo).
 - [myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 - [mzpt](https://github.com/linrongbin16/mzpt/) - Minimal prompt inspired by [powerlevel10k](https://github.com/romkatv/powerlevel10k).
