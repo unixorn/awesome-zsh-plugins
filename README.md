@@ -327,6 +327,8 @@ Znap can:
 
 The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
 
+ZSH package managers are abundant, but most are bloated, slow or have excessive requirements. On top of that, more than a few have been abandoned for years. Zpico does not seek to be the best of the best, rather to balance functionality against a tiny, fast footprint.
+
 ### [zplug](https://github.com/zplug/zplug)
 
 **:hibiscus: Zplug** is a next-generation ZSH plugin manager.
