@@ -1896,6 +1896,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [just-around-the-corner](https://github.com/DevinLeamy/just-around-the-corner) - Counts down the days until Christmas. Includes `git` status decorations.
 - [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
 - [jyumpp](https://github.com/Jyumpp/jyumpp-zsh-theme) - Configuration file and installer for Powerlevel 10K.
+- [kali-like](https://github.com/clamy54/kali-like-zsh-theme) - Inspired by the Kali Linux default ZSH theme. Includes decorators for user@host, current directory and `git` information.
 - [kali](https://github.com/h4ck3r0/kali-theme) - Includes `git` decorations.
 - [kalsowerus](https://github.com/kalsowerus/kalsowerus.zsh-theme) - Colorful powerline-inspired multi-line theme, includes decorations for `git` status, directory, last command exit status and `nvm` information.
 - [karu](https://github.com/zaari/karu) - Minimalist single line ZSH prompt.
@@ -1967,6 +1968,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [lunachar](https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/lunachar.zsh-theme) - Minimalist theme.
 - [macos](https://github.com/alejandromume/macos-zsh-theme) - Includes `git` status decorations.
 - [mad](https://github.com/MartinWie/ohmyzsh-theme-mad) - Includes `git` status and last command execution time decorations.
+- [madas](https://github.com/Madasish/madas-zsh-theme) - Inspired by af-magic. Includes decorators for `git` status, user@host, and whether the last command failed.
 - [magento](https://github.com/cmuench/zsh-magento-cloud/blob/main/zsh-magento-cloud.plugin.zsh) - Add Magento Cloud Command Line Interface ([magento-cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=en)) completions.
 - [magicmace](https://github.com/zimfw/magicmace) - Inspired by xero's ZSH prompt and [eriner's prompt](https://github.com/zimfw/eriner). Includes status codes for active python `venv`, exit status of last command, shortened working directory, `git` status decorations.
 - [magico](https://github.com/IOsonoTAN/magico) - IOsonoTAN's magico theme.
