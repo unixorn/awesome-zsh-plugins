@@ -27,16 +27,13 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [miniplug](#miniplug)
-  - [mzpm](#mzpm)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
   - [prezto](#prezto)
-  - [pumice](#pumice)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
   - [Toasty](#toasty)
   - [tzpm](#tzpm)
-  - [uz](#uz)
   - [yazt](#yazt)
   - [zap](#zap)
   - [zapack](#zapack)
@@ -53,17 +50,14 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zlugin](#zlugin)
   - [znap](#znap)
   - [zoppo](#zoppo)
-  - [zpacker](#zpacker)
   - [zpico](#zpico)
   - [zplug](#zplug)
   - [zpm](#zpm)
   - [zr](#zr)
   - [zsh.ai](#zshai)
   - [zshing](#zshing)
-  - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
-  - [ztupide](#ztupide)
   - [zulu](#zulu)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
@@ -164,16 +158,6 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 - Unlike other frameworks, Miniplug does not pollute your `$PATH`
 - Only does the bare minimum for managing plugins
 
-### [mzpm](https://github.com/Insert-Creative-Name-Here/mzpm)
-
-**mzpm** is a minimalist plugin manager for ZSH.
-
-Features:
-
-- Fetching and loading plugins from GitHub
-- Loading local plugins
-- Loading themes
-
 ### [oh-my-zsh](https://ohmyz.sh/)
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, macports, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
@@ -187,10 +171,6 @@ The PMS framework also allows you to use the same framework in different shells.
 ### [prezto](https://github.com/sorin-ionescu/prezto)
 
 **Prezto** enriches the ZSH command line interface environment with sane defaults, aliases, functions, auto completion, and prompt themes. There are some [prezto](https://github.com/sorin-ionescu/prezto)-specific plugins at [https://github.com/belak/prezto-contrib](https://github.com/belak/prezto-contrib).
-
-### [pumice](https://github.com/ryutamaki/pumice)
-
-**Pumice** is a lightweight plugin manager for ZSH.
 
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 
@@ -220,10 +200,6 @@ An easy solution for managing your shell environments. Works with both `bash` an
 
 The tiniest ZSH plugin manager. Still under development.
 
-### [uz](https://github.com/maxrodrigo/uz)
-
-A ZSH micro plugin manager.
-
 ### [yazt](https://github.com/bashelled/yazt)
 
 **Yazt** is a simple ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in `bash`.
@@ -231,9 +207,6 @@ A ZSH micro plugin manager.
 ### [zap](https://github.com/zap-zsh/zap)
 
 **zap** is a minimal ZSH plugin manager.
-### [zapack](https://github.com/aiya000/zsh-zapack)
-
-**zapack** is a basic fast minimal ZSH plugin loader.
 
 ### [zcomet](https://github.com/agkozak/zcomet)
 
@@ -319,10 +292,6 @@ Znap can:
 
 **Zoppo** is the crippled configuration framework for ZSH. As an Italian saying goes: "chi va con lo zoppo, impara a zoppicare", we realized we were walking with a cripple and are now going to become crippled ourselves.
 
-### [zpacker](https://github.com/happyslowly/zpacker)
-
-**Zpacker** is a lightweight ZSH plugin & theme management framework.
-
 ### [zpico](https://github.com/thornjad/zpico)
 
 The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
@@ -379,10 +348,6 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 - Run the above actions in a *single command*
 - Manages the __Source Plugins__ of your installed Plugins
 
-### [zshPlug](https://github.com/Atlas34/zshPlug)
-
-**zshPlug** is a minimalist plugin manager heavily based on [zap](https://github.com/zap-zsh/zap).
-
 ### [ztanesh](https://github.com/miohtama/ztanesh)
 
 **Ztanesh** aims to improve your UNIX command line experience and productivity with the the configuration provided by the ztanesh project: the tools will make your shell more powerful and easier to use.
@@ -390,10 +355,6 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 ### [ztheme](https://github.com/SkyyySi/ztheme)
 
 **ztheme** is a small and fast theme engine for ZSH.
-
-### [ztupide](https://github.com/mpostaire/ztupide)
-
-A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to speed up your shell startup time.
 
 ### [zulu](https://github.com/zulu-zsh/zulu)
 
@@ -689,7 +650,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [dircolors-solarized (pinelibg)](https://github.com/pinelibg/dircolors-solarized-zsh) - Enables [Solarized Color Theme for GNU ls](https://github.com/seebi/dircolors-solarized).
 - [dircycle](https://github.com/michaelxmcbride/zsh-dircycle) - Cycle through the directory stack.
 - [directory-history](https://github.com/tymm/zsh-directory-history) - A per directory history for ZSH which implements forward/backward navigation as well as substring search in a directory sensitive manner.
-- [direnv](https://github.com/ptavares/zsh-direnv) - A plugin for installing and loading [direnv](https://github.com/direnv/direnv.git). Inspired by [zsh-pyenv](https://github.com/mattberther/zsh-pyenv).
 - [dirrc](https://github.com/gmatheu/shell-plugins) - Executes `.dirc` when present in a directory you `cd` into.
 - [dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying the dirstack info on a single line.
 - [doas (anatolykopyl)](https://github.com/anatolykopyl/doas-zsh-plugin) - Easily prefix your current or previous commands with `doas` by pressing `ESC` twice.
@@ -702,8 +662,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
 - [dotbare](https://github.com/kazhala/dotbare) - Interactive dotfile management with the help of [fzf](https://github.com/junegunn/fzf).
 - [dotfiles](https://github.com/vladmyr/dotfiles-plugin) - Keep your dotfiles in sync across multiple machines using `git`.
-- [dotpyvenv](https://github.com/jeanpantoja/dotpyvenv) - Automagically switch to a python virtual environment located (that you previously have created with virtualenv program) in a directory named `.pyvenv` when you `cd` into a directory.
-- [download](https://github.com/aubreypwd/zsh-plugin-download) - Helper to download files with `aria2c`.
 - [dropbox](https://github.com/zpm-zsh/dropbox) - A [dropbox](https://www.dropbox.com/) plugin for ZSH that provides `dropbox-cli` and `dropbox-uploader` commands.
 - [drupal](https://github.com/yhaefliger/zsh-drupal) - Adds aliases for common tasks and also tab-completion for `drush`. Inspired by [Artisan](https://github.com/jessarcher/zsh-artisan).
 - [dune-quotes](https://github.com/brokendisk/dune-quotes) - Random Dune quote generator plugin.
@@ -1077,7 +1035,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [pyenv (xlshiz)](https://github.com/xlshiz/pyenv-zsh-plugin) - Loads [pyenv](https://github.com/pyenv/pyenv) into the current shell and provides prompt info via the `pyenv_prompt_info` function. Also loads [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) if available.
 - [pyenv-lazy-load](https://github.com/erikced/zsh-pyenv-lazy-load) - Plugin for lazy-loading `pyenv` in ZSH.
 - [pyenv-lazy](https://github.com/davidparsson/zsh-pyenv-lazy) - Lazy load [pyenv](https://github.com/pyenv/pyenv). The initial `eval "$(pyenv init -)"` is executed the first time `pyenv` is called.
-- [pyvenv-fast](https://github.com/ACmyles/pyvenv-fast) - Launch a Python `venv` with one command. Designed for use with [dotpyvenv](https://github.com/jeanpantoja/dotpyvenv).
 - [q (cal2195)](https://github.com/cal2195/q) - Add `vim`-like macro registers to your ZSH shell.
 - [q (tomsquest)](https://github.com/tomsquest/q.plugin.zsh) - Tail/remove the temp file for [Q](https://github.com/y0ssar1an/q), the Dirty Debugging Tool.
 - [qiime2](https://github.com/misialq/zsh-qiime2) - Adds functions and aliases to make working with [Quiime 2](https://qiime2.org/) easier.
