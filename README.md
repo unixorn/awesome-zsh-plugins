@@ -1019,6 +1019,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [path-ethic](https://github.com/sha1n/path-ethic) - Helps manage your `$PATH` quickly and easily. Doesn't touch your existing `.zshrc`, `.zprofile`, but adds on top of your existing environment instead.
 - [pctl](https://github.com/ytet5uy4/pctl) - Toggle the environment variables for proxying.
 - [peco-history](https://github.com/jimeh/zsh-peco-history) - Search shell history with Peco when pressing `ctrl+R`.
+- [penmux](https://github.com/mfulz/zsh-penmux) - A session manager plugin meant to be used for penetration testing sessions and tracking the terminal sessions to be used in reports.
 - [pentest](https://github.com/jhwohlgemuth/oh-my-zsh-pentest-plugin) - Aliases and functions for the lazy penetration tester.
 - [per-directory-history](https://github.com/jimhester/per-directory-history) - Per directory history for ZSH, as well as global history, and the ability to toggle between them with `^G`.
 - [percol](https://github.com/robturtle/percol.plugin.zsh) - Interactively and incrementally search history/resume background jobs using [percol](https://github.com/mooz/percol).
