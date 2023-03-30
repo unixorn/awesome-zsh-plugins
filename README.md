@@ -851,6 +851,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [hab](https://github.com/alexdesousa/hab) - Automatically loads OS environment variables defined in the file `.envrc` if it's found when changing to a new directory.
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes) - Outputs a random hacker quote when you open a terminal.
 - [hadoop-plugin](https://github.com/valek/zsh-hadoop-plugin) - Adds some convenience aliases for [hadoop](https://hadoop.apache.org/) functions.
+- [haiku](https://github.com/alesr/oh-my-zsh-haiku-plugin) - Prints a haiku promoting work-life balance and stress management once every 24 hours when the terminal is open.
 - [hanami](https://github.com/davydovanton/hanami-zsh) - ZSH plugin for [hanami](http://hanamirb.org) projects.
 - [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to English when it was supposed to be typed in English. 영어를 타이핑 해야되는데 한글로 타이핑된경우 자동으로 수정합니다.
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
@@ -1090,6 +1091,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [qwy](https://github.com/Ryooooooga/qwy) - ZSH fuzzy completion plugin.
 - [randeme](https://github.com/ex-surreal/randeme) - Chooses a random theme for each session. If you not like the chosen theme you can run `randeme_rm` to never show that theme again.
 - [random-quotes](https://github.com/vkolagotla/zsh-random-quotes) - Displays random quotes or facts.
+- [ranger](https://github.com/rc2dev/ranger-zshz) Integrates [zsh-z](https://github.com/agkozak/zsh-z) into [ranger](https://github.com/ranger/ranger).
 - [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
 - [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh) - Puts the Raspberry Pi temperature into a spaceship prompt segment
 - [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
@@ -1658,6 +1660,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [chaffee](https://github.com/jasonchaffee/chaffee.zsh-theme) - Based on sorin. Shows the current active versions of Java, Scala, Go, Node, Python and Ruby.
 - [chaotic-beef](https://github.com/ARtoriouSs/chaotic-beef-zsh-theme) - A tiny and beautiful theme for Oh-My-Zsh without anything superfluous. Includes `git` status decorations.
 - [charged](https://github.com/robwierzbowski/charged-zsh-theme) - A ZSH prompt optimized for the [solarized](https://github.com/altercation/solarized) dark terminal theme.
+- [cheeky](https://github.com/kampanosg/zsh-cheeky-prompt) - Includes chicken emoji, decorators for current directory, `git` information and current GCP cluster and project.
 - [chello](https://github.com/Abdalla981/chello) - Works well on dark backgrounds. Depends on [autojump](https://github.com/wting/autojump), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [chi](https://github.com/akinjide/chi) - A ZSH theme optimized for iTerm 2 users on macOS.
 - [chill](https://github.com/JKerboeuf/chill.zsh-theme) - Has decorations for the current working directory, last command exit status and `git` status.
@@ -1881,6 +1884,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [intheloop-powerline](https://github.com/zyphrus/intheloop-powerline) - An extension of the [intheloop](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/intheloop.zsh-theme) theme to use powerline fonts.
 - [itg](https://github.com/itsthatguy/itg.zsh-theme) - itsthatguy's theme.
 - [itlbv](https://github.com/itlbv/itlbv-ohmyzsh-theme) - Minimalist. Includes decorators for `git` status and the current directory.
+- [ittecture](https://github.com/ittecture/ittecture-omz-theme) - Includes decorators for current directory and `git` information.
 - [ivabus](https://github.com/ivabus/ivabus-zsh-theme) - Inspired by the GitHub Codespaces prompt. Includes decorators for `git` status, username and current directory.
 - [ivy](https://github.com/ivyhjk/ohmyzsh-theme-ivy) - Works well on dark backgrounds. Includes user@host, `git` status and time decorators. Based on the [obraun](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#obraun) theme.
 - [jacobin](https://github.com/Jsharkc/jacobin-zsh-theme) - Based on refined and ys themes, includes `git` status decorations. Includes an optional iterm2 color scheme.
