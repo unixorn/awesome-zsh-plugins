@@ -2357,6 +2357,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [vulcan](https://github.com/Bruceboy/vulcan-zsh-theme) - Minimal theme reminiscent of the default `bash` theme. Includes `git` decorations.
 - [wade](https://github.com/wadehammes/wade.zsh-theme) - Mashup of the popular ZSH themes [Agnoster](https://gist.github.com/agnoster/3712874) and [Fishy](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fishy.zsh-theme), with some visual tweaks.
 - [wang-iterm](https://github.com/0532/wang-iterm-zsh) - Based on the 0532 theme.
+- [warm-colours](https://github.com/BastionAtackDev/Warm-Colours.zsh-theme/) - Includes decorators for user@host, current directory and datetime.
 - [whale](https://github.com/whalesea520/whale-zsh-theme) - Fast reimplementation of the whale theme.
 - [whales](https://github.com/lbergelson/zsh_whales_theme) - Includes decorators for `git` status, java version, last command return status, and directory.
 - [wild-cherry](https://github.com/mashaal/wild-cherry) - A fairy-tale inspired theme for ZSH, iTerm 2, Sublime, Atom, & Mou.
