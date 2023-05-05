@@ -1308,6 +1308,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zflai](https://github.com/zdharma-continuum/zflai) - A fast logging framework for ZSH.
 - [zfzf](https://github.com/b0o/zfzf) - A fzf-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
 - [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make `compinit` run only once after all loading is done by [zgen](https://github.com/tarjoilija/zgen).
+- [zgenom-ext-eval](https://github.com/jandamm/zgenom-ext-eval/) - Zgenom extension for creating plugins inline.
 - [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
 - [zi-rbenv](https://github.com/z-shell/zi-rbenv) - Fast `rbenv` loads if you're using [zi](https://github.com/z-shell/zi/).
 - [zimfw-extras](https://github.com/PatTheMav/zimfw-extras) - Custom extras for [zimfw](https://github.com/zimfw/zimfw), packaged into a zimfw plugin.
