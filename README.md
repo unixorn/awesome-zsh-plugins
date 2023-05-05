@@ -2162,6 +2162,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [purify (kyoz)](https://github.com/kyoz/purify) - A clean and vibrant theme, best on dark backgrounds. Includes `git` status decorations.
 - [purity](https://github.com/petermbenjamin/purity) - Inspired by the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme and the [pure](https://github.com/sindresorhus/pure) prompt.
 - [purpleblood](https://github.com/HFMorais/oh-my-zsh-purpleblood-theme/) - Based on [darkblood](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/darkblood.zsh-theme). Includes decorators for `username@host`, `git` status, and current directory.
+- [purr](https://github.com/mubinben/purr-zsh-theme) - Minimalist. Includes decorations for `git` status, username and current directory.
 - [purs](https://github.com/xcambar/purs) - A fast [pure](https://github.com/sindresorhus/pure)-inspired prompt written in [Rust](https://www.rust-lang.org/).
 - [pustelto](https://github.com/Pustelto/shell_theme) - Colorful theme inspired by the [Spaceship](https://github.com/denysdovhan/spaceship-prompt) theme, includes `git` decorations.
 - [pwn](https://github.com/gh05t-4/pwn-theme) - Includes decorators for user@host, `git` & `hg` status, ruby version, python virtualenv and current working directory.
