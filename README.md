@@ -2218,6 +2218,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [rzh](https://github.com/patwhatev/rzh) - Theme with `git` states indicated by emojis.
 - [s1ck94](https://github.com/zimfw/s1ck94) - Fork of the (first deprecated, now extinct) minimal prompt by S1cK94. Shows whether user is root, background job status, vi-mode, exit status of last command, and `git` status decorations.
 - [s7c](https://github.com/Samega7Cattac/s7c.zsh-theme) - Works well with dark backgrounds. Includes `git` status decorations.
+- [sailormoon](https://github.com/Domanowska/zshSailorMoonThemes) - A collection of Sailor Moon themed themes.
 - [samshell](https://github.com/samuelb/samshell) - A minimalist ZSH theme with `git`, kubernetes and python virtualenv decorations.
 - [saraiva](https://github.com/ruisaraiva19/saraiva-theme) - Includes `git` status decorations, works well on a dark terminal background.
 - [saturn](https://github.com/gantoreno/saturn-prompt) - A soft & minimalistic prompt for those who love space and want to have a bit of it on their terminal, featuring cool emojis & highly customizable prompt elements (such as icons, colors, time format, and more).
