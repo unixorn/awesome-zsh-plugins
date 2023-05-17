@@ -1264,6 +1264,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [virtualz](https://github.com/aperezdc/virtualz) - Python [virtualenv](https://virtualenv.pypa.io/en/latest/) manager inspired by Adam Brenecki's [Virtualfish](https://github.com/adambrenecki/virtualfish) for the [Fish shell](http://fishshell.com/), replaces virtualenvwrapper.
 - [virtuozzo-plugin](https://github.com/TamCore/virtuozzo-zsh-plugin) - An [oh-my-zsh](https://ohmyz.sh/) plugin for the [virtuozzo](https://docs.virtuozzo.com/master/index.html) bare-metal virtualization system.
 - [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
+- [vivid](https://github.com/ryanccn/vivid-zsh) - Make it easier to use `LSCOLORS` with [vivid](https://github.com/sharkdp/vivid).
 - [volta (cowboyd)](https://github.com/cowboyd/zsh-volta) - Seamlessly install and configure the [Volta](https://volta.sh) NodeJS toolchain manager.
 - [volta](https://github.com/ri7nz/zsh-volta) - Installs and loads [ Volta: JS Toolchains as Code](https://github.com/volta-cli/volta).
 - [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An [oh-my-zsh](https://ohmyz.sh/) plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
