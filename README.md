@@ -1785,6 +1785,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [fe80](https://github.com/fe80/fe80.zsh-theme) - Includes decorators for `git` information, current directory, user@hostname, time, and the return code of last command when it is nonzero.
 - [feder](https://github.com/samfeder/mac-themes/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
 - [filthy](https://github.com/molovo/filthy) - A disgustingly clean ZSH prompt.
+- [firefoxic](https://github.com/firefoxic/firefoxic-zsh-theme/) - Fork of [Bureau](https://github.com/isqua/bureau) with tweaks to the node and `git` decorators.
 - [fish](https://github.com/Raniconduh/zshfish) - ZSH theme reminiscent of the default `fish` shell theme. Includes `git` status decorations.
 - [fishy-lite](https://github.com/sudorook/fishy-lite) - Fork of the original [fishy](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#fishy) theme in oh-my-zsh with much of the extraneous stuff cut out to improve load speeds. Includes a battery gauge and `git` status display that can be enabled on the right-hand side of the prompt.
 - [fishy2](https://github.com/akinjide/fishy2) - ZSH theme inspired by [original fishy](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#fishy).
