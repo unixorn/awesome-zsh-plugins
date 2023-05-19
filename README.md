@@ -803,6 +803,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [git-aliases (peterhurford)](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used `git` commands.
 - [git-aliases (remino)](https://github.com/remino/omz-plugin-git-aliases) - Aliases all `git xyz` commands to `gxyz`. Also aliases `g` to `git`.
 - [git-branches](https://github.com/Schroefdop/git-branches) - Makes a menu of `git` branches you can switch to without having to type long branch names.
+- [git-check](https://github.com/git-girl/git-check) - Adds a zsh hook to check if the origin of the current branch has changes to local in the background and sends a notification.
 - [git-clean-branch](https://github.com/gobriansteele/git-clean-branch) - Cleans up dead `git` branches.
 - [git-complete-urls](https://github.com/rapgenic/zsh-git-complete-urls) - Enhance `git` completion to include in the remotes completion (e.g. from `git clone`) any URL in the clipboard.
 - [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra `git` helper scripts packaged as a plugin.
@@ -1083,7 +1084,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [prompt-generator](https://github.com/the10thWiz/zsh-prompt-generator) - Generates custom themes. Some generated themes require powerline-compatible fonts.
 - [proxy-plugin](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Quickly enable and disable proxy shell environment settings.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
-- [pseudo-projectile](https://github.com/git-girl/pseudo-projectile-plugin/) - Like `projectile` in emacs? This adds similar functionality to your ZSH environment by opening `fzf`-selected paths in `nvim`.
+- [pseudo-projectile](https://github.com/git-girl/pseudo-projectile-plugin/) - Like `projectile` in emacs? This adds similar functionality to your ZSH environment by opening `fzf`-selected paths in `nvim`. Deprecated by author.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
 - [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by [zsh-rbenv](https://github.com/ecortinas/zsh-rbenv). Installs, updates or loads `pyenv`, and adds extra functionality.
 - [pyenv (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-pyenv) - Based on the oh-my-zsh [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv) plugin with modifications from the rbenv and jenv plugins.
