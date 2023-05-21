@@ -2317,6 +2317,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [steef (zimfw)](https://github.com/zimfw/steeef) - A customizable version of [steeef's](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/steeef.zsh-theme) theme.
 - [steeple](https://github.com/erwanjugand/steeple-zsh-theme) - Minimalist theme with `git` status decorations.
 - [stellachar](https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/stellachar.zsh-theme) - Minimal, pastels.
+- [stigmata](https://github.com/VLtim43/stigmata.zsh-theme) - Includes decorators for user@host and current directory.
 - [sublime](https://github.com/pjmp/sublime) - A sublime, clean, minimalistic ZSH theme with `git` status decorations.
 - [sugar-free](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
 - [sukeesh](https://github.com/sukeesh/sukeesh-zsh-theme) - Includes `git` status decorations. Works better on dark terminal backgrounds.
