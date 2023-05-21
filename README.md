@@ -1382,9 +1382,9 @@ These plugins add tab completions without adding extra functions or aliases.
 - [better-npm-completion](https://github.com/lukechilds/zsh-better-npm-completion) - Better tab completion for `npm`.
 - [bio](https://github.com/yamaton/zsh-completions-bio/) - Completions for bioinformatics tools.
 - [bosh (krujos)](https://github.com/krujos/bosh-zsh-autocompletion) - Adds [BOSH](https://github.com/cloudfoundry/bosh) autocompletion.
-- [bosh (thomasmitchell)](https://github.com/thomasmitchell/bosh-complete) - Tab completion for [BOSH(https://github.com/cloudfoundry/bosh)].
+- [bosh (thomasmitchell)](https://github.com/thomasmitchell/bosh-complete) - Tab completion for [BOSH](https://github.com/cloudfoundry/bosh)].
 - [brew-completions](https://github.com/z-shell/brew-completions) - Brings [Homebrew Shell Completion](https://docs.brew.sh/Shell-Completion) under the control of ZSH & [ZI](https://github.com/z-shell/zi/).
-- [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for [homebrew](brew.sh) services.
+- [brew-services](https://github.com/vasyharan/zsh-brew-services) - Completion plugin for [homebrew](https://brew.sh) services.
 - [buidler](https://github.com/gonzalobellino/buidler-zsh) - Adds completion and useful aliases for NomicLabs Buidler tool.
 - [bw](https://github.com/CupricReki/zsh-bw-completion) - Adds completion for [Bitwarden](https://bitwarden.com/).
 - [cabal (d12frosted)](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal.
@@ -1767,8 +1767,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [elessar](https://github.com/fjpalacios/elessar-theme) - A `git`-aware theme based on [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme). Requires a Powerline-compatible font.
 - [elm](https://github.com/gacallea/elm-zsh-theme) - Includes `git` status, user@host, date, time and path decorators.
 - [elsa](https://github.com/faycito/elsa) - Includes root status, pwd and `git` status decorations.
-- [emojeer](https://github.com/lxynox/emojeer-ohmyzsh) - Emoji flavored [oh-my-zsh](ohmyzsh/ohmyzsh) theme.
-- [emoji](https://github.com/masaakifuruki/emoji.zsh-theme) - Based on  [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) oh-my-zsh theme with the `git` prompt symbols replaced with emoji for better clarity.
+- [emojeer](https://github.com/lxynox/emojeer-ohmyzsh) - Emoji flavored [oh-my-zsh](https://ohmyz.sh/) theme.
+- [emoji](https://github.com/masaakifuruki/emoji.zsh-theme) - Based on the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) oh-my-zsh theme with the `git` prompt symbols replaced with emoji for better clarity.
 - [emojirussell](https://github.com/Bergiu/emojirussell) - Based on  [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) oh-my-zsh theme, with status decorations for current working directory, last command exit status, `git` branch and status.
 - [endless-dog](https://github.com/qwelyt/endless-dog) - oh-my-zsh-compatible theme that mimics grml-zsh-config.
 - [enlightenment](https://github.com/w33tmaricich/enlightenment) - Includes decorations for `git` status, `vi`-mode indicator, and the time for last command to execute.
