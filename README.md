@@ -1025,6 +1025,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [p10k-promptconfig](https://github.com/doctormemes/p10k-promptconfig) - adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the `P10K_PROMPT` variable in your `.zshrc` file.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
 - [package-any-node](https://github.com/zdharma-continuum/zsh-package-any-node) - Easy installing of any Node modules inside the plugin directory, exposing their binaries via shims (i.e.: forwarder scripts) created automatically by [Bin-Gem-Node](https://github.com/zdharma-continuum/z-a-bin-gem-node) annex.
+- [pack](https://github.com/fourdim/zsh-pack/) - Pack your source code with ZSH.
 - [packer](https://github.com/BreakingPitt/zsh-packer) - Adds aliases and auto-completes for Hashicorp [packer](https://www.packer.io/).
 - [pantheon-terminal-notify](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 - [passwordless-history](https://github.com/jgogstad/passwordless-history) - Keeps passwords from entering your command line history.
@@ -1620,6 +1621,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [barion](https://github.com/SEbbaDK/barion) - A fast compiled prompt with a compact `git` status overview. Reminiscent of powerline. Requires [Crystal](https://crystal-lang.org/) to build.
 - [bash](https://github.com/starseekist/bash-zsh-theme) - Looks like the default `bash` prompt.
 - [bashi](https://github.com/eli-oat/bashi) - Optimized for Ahmet Sülek's [Flat UI Terminal](https://github.com/ahmetsulek/flat-terminal) theme and Pasquale D'Silva's [Saturn Terminal](https://github.com/psql/saturn-colors) theme.
+- [bashlover](https://github.com/Vu0811/bashlover) - Designed for those who appreciate the powerful features of ZSH shell but still prefer a simple, classic interface similar to the `bash` shell. Includes decorators for `git` information, user@host and the current working directory
 - [bashpluszsh](https://github.com/Elagoht/BashPlusZshTheme) - Colorized replica of the default `bash` prompt with decorators for `virtualenv` and `git` status.
 - [bastard](https://github.com/jsundqvist/bastard.zsh-theme) - Modified version of [gitster](https://github.com/zimfw/gitster) theme for [ZIM](https://github.com/zimfw/zimfw).
 - [bearable](https://github.com/JanmanX/bearable-zsh) - Works well with dark terminal backgrounds.
