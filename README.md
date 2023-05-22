@@ -1372,6 +1372,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [ansible-server](https://github.com/viasite-ansible/zsh-ansible-server) - Completions for [viasite-ansible/ansible-server](https://github.com/viasite-ansible/ansible-server).
 - [antibody-completion](https://github.com/sinetoami/antibody-completion) - This plugin provides completion for [Antibody](https://github.com/getantibody/antibody) plugin manager.
 - [appspec](https://github.com/perlpunk/App-AppSpec-p5) - Generating completions for Bash and ZSH from YAML specs
+- [argc-completions](https://github.com/sigoden/argc-completions) - Uses [argc](https://github.com/sigoden/argc) and [jq](https://github.com/stedolan/jq) to add ZSH tab completions.
 - [autopkg-zsh-completion](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg.
 - [autorestic](https://github.com/naegling/zsh-autorestic) - automatically installs [Restic](https://github.com/cupcakearmy/autorestic/)'s completions for you, and keeps them up to date as your autorestic version changes.
 - [aws-completions](https://github.com/eastokes/aws-plugin-zsh) - Adds completion support for `awscli` to manage AWS profiles/regions and display them in the prompt.
