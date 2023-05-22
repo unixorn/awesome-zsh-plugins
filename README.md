@@ -1025,6 +1025,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [p10k-promptconfig](https://github.com/doctormemes/p10k-promptconfig) - adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the `P10K_PROMPT` variable in your `.zshrc` file.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
 - [package-any-node](https://github.com/zdharma-continuum/zsh-package-any-node) - Easy installing of any Node modules inside the plugin directory, exposing their binaries via shims (i.e.: forwarder scripts) created automatically by [Bin-Gem-Node](https://github.com/zdharma-continuum/z-a-bin-gem-node) annex.
+- [pack](https://github.com/fourdim/zsh-pack/) - Pack your source code with ZSH.
 - [packer](https://github.com/BreakingPitt/zsh-packer) - Adds aliases and auto-completes for Hashicorp [packer](https://www.packer.io/).
 - [pantheon-terminal-notify](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 - [passwordless-history](https://github.com/jgogstad/passwordless-history) - Keeps passwords from entering your command line history.
