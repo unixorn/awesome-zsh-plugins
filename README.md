@@ -1426,6 +1426,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [extract (le0me55i)](https://github.com/le0me55i/zsh-extract) - Defines a function called extract that extracts the archive file you pass it, and supports a wide variety of archive filetypes.
 - [extract (thetic)](https://github.com/thetic/extract) - Fork of the oh-my-zsh extract plugin.
 - [fancy-completions](https://github.com/z-shell/zsh-fancy-completions) - Provides various completions tools, libraries and integrations.
+- [fluxcd](https://github.com/l-umaca/omz-fluxcd-plugin) - Adds tab completion for the [FluxCD command line](https://fluxcd.io/flux/cmd/) tool, as well as some aliases for the most common flux commands.
 - [fly-zsh-autocomplete](https://github.com/Sbodiu-pivotal/fly-zsh-autocomplete-plugin) - Adds autocompletion options for all [Concourse CLI](https://concourse-ci.org/fly.html) commands.
 - [fnm](https://github.com/zap-zsh/fnm) - Adds tab completions for Fast Node Manager [fnm](https://github.com/Schniz/fnm).
 - [fvm](https://github.com/olrtg/zsh-fvm) - Adds tab completions for the [Flutter Version Manager (FVM)](https://fvm.app/).
