@@ -847,6 +847,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [golinks](https://github.com/slessans/oh-my-zsh-golinks-plugin) - Launch golinks from your terminal.
 - [gpg-agent](https://github.com/axtl/gpg-agent.zsh) - Plugin that tries to do the right thing when it comes to setting up the GPG agent to act as an SSH agent as well on macOS.
 - [gpg-crypt](https://github.com/Czocher/gpg-crypt) - ZSH plugin to encrypt and decrypt files or directories in place.
+- [gpt](https://github.com/antonjs/zsh-gpt) - Enable querying ChatGPT from the command line.
 - [grep2awk](https://github.com/joepvd/grep2awk) - ZLE widget to transform `grep` command into `awk` command.
 - [grunt-plugin](https://github.com/clauswitt/zsh-grunt-plugin) - Add autocompletion for `grunt`.
 - [gsh](https://github.com/cjayross/gsh) - Collection of helper functions for `git`
