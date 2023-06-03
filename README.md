@@ -154,7 +154,7 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 
 ### [fresh](https://github.com/freshshell/fresh)
 
-**fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as Bundler for your dot files.
+**fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as [Bundler](https://bundler.io) for your dot files.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 
