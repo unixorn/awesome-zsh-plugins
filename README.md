@@ -154,7 +154,7 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 
 ### [fresh](https://github.com/freshshell/fresh)
 
-**fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as Bundler for your dot files.
+**fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as [Bundler](https://bundler.io) for your dot files.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 
@@ -1155,6 +1155,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [shell-fns](https://github.com/Hdoc1509/shell-fns) - Includes `git`, `neovim`, `npm`, `pip` extended functionality.
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action.
 - [shift-select](https://github.com/jirutka/zsh-shift-select) - Emacs shift-select mode for ZSH - select text in the command line using Shift, as in many text editors, browsers and other GUI programs.
+- [show-git-user](https://github.com/luisprgr/zsh-show-git-user) - When you need to work with multiple `git` users on the same machine this plugin will show which `git` user name is active in your prompt.
 - [show-path](https://github.com/redxtech/zsh-show-path) - Provides a function shows the `$PATH` line by line.
 - [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python `SimpleHTTPServer` and `SimpleHTTPSServer`.
 - [singularityenv](https://github.com/saravanabalagi/zsh-plugin-singularityenv) - Provides a `singularityenv_prompt_info` function which returns the current singularity environment name
@@ -1297,6 +1298,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [wordle](https://github.com/zechris/zwordle) - Wordle for ZSH, with tab-completions.
 - [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects.
 - [worktree](https://github.com/jspears/worktree) - Adds functions that wrap `git worktree`.
+- [wsl](https://github.com/florentinl/omz-wsl) - Adds helper functions to make it easier to work in ZSH when running inside WSL.
 - [wsl2-ssh-pageant](https://github.com/antoinemartin/wsl2-ssh-pageant-oh-my-zsh-plugin) - Use your Yubikey stored GPG keys from WSL. This packages the instructions from [wsl2-ssh-pageant repo](https://github.com/BlackReloaded/wsl2-ssh-pageant) as a ZSH plugin.
 - [xxh-plugin-zsh-zshrc](https://github.com/roman-geraskin/xxh-plugin-zsh-zshrc) - plugin for [xxh-shell-zsh](https://github.com/xxh/xxh-shell-zsh) that copies your `~/.zshrc` to a remote host and sources it with [xxh-shell-zsh](https://github.com/xxh/xxh-shell-zsh).
 - [yadm](https://github.com/juanrgon/yadm-zsh) - Displays a warning if there are local [yadm](https://thelocehiliosan.github.io/yadm/) configuration changes.
