@@ -1932,6 +1932,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jpegleg](https://github.com/jpegleg/zshrc) - Similar to dark blood theme, includes timestamp and `git` decorations.
 - [js-magic](https://github.com/JSextonn/js-magic) - A simplified take on [af-magic](https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme). Includes current working directory and `git` status decorations.
 - [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
+- [july](https://github.com/skippyr/july) - Minimalist prompt. Includes decorators for user, host and current directory.
 - [just-another](https://github.com/supertassu/another-theme) - Just another theme, with hostname when you're sshed to another machine.
 - [just-around-the-corner](https://github.com/DevinLeamy/just-around-the-corner) - Counts down the days until Christmas. Includes `git` status decorations.
 - [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
