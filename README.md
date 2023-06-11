@@ -2067,6 +2067,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 - [mzpt](https://github.com/linrongbin16/mzpt/) - Minimal prompt inspired by [powerlevel10k](https://github.com/romkatv/powerlevel10k).
 - [mzt](https://github.com/honbey/mzt) - Sets up `LS_COLORS`, colorizes `diff` and includes `git` status and current working directory decorations.
+- [nablaman](https://github.com/kokkonisd/nablaman-zsh-theme) - Similar to [powerlevel10k](https://github.com/romkatv/powerlevel10k). Includes decorators for the last command's exit status, user@hostname, `git` status and the current directory. Works best with a dark terminal theme.
 - [nanika](https://github.com/justforuse/nanika-zsh-theme/) - Optimized variant of [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell). Includes `git` status decorations.
 - [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 - [nbrylevv](https://github.com/nbrylevv/nbrylevv-zsh-theme) - Minimalist theme with text `git` status decorations.
