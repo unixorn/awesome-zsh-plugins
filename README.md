@@ -108,7 +108,7 @@ These frameworks make customizing your ZSH setup easier.
 
 You can find some interesting performance timing comparisons of various frameworks in the following locations.
 
-- [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark)
+- [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark) - Contains performance benchmarks for the most popular ZSH frameworks, including both install time and load time.
 - [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
 ### [alf](https://github.com/psyrendust/alf)
 
@@ -1933,6 +1933,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jpegleg](https://github.com/jpegleg/zshrc) - Similar to dark blood theme, includes timestamp and `git` decorations.
 - [js-magic](https://github.com/JSextonn/js-magic) - A simplified take on [af-magic](https://github.com/andyfleming/oh-my-zsh/blob/master/themes/af-magic.zsh-theme). Includes current working directory and `git` status decorations.
 - [judgedim](https://github.com/judgedim/oh-my-zsh-judgedim-theme) - Minimalist prompt.
+- [july](https://github.com/skippyr/july) - Minimalist prompt. Includes decorators for user, host and current directory.
 - [just-another](https://github.com/supertassu/another-theme) - Just another theme, with hostname when you're sshed to another machine.
 - [just-around-the-corner](https://github.com/DevinLeamy/just-around-the-corner) - Counts down the days until Christmas. Includes `git` status decorations.
 - [jwalter](https://github.com/jeffwalter/zsh-jwalter) - Powerline-style theme with `git`, `svn`, `npm`, `rvm` and network awareness. Requires Powerline-compatible terminal font.
@@ -2067,6 +2068,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [myzsh](https://github.com/MaxUlysse/myzsh) - Maxime Garcia's myzsh theme.
 - [mzpt](https://github.com/linrongbin16/mzpt/) - Minimal prompt inspired by [powerlevel10k](https://github.com/romkatv/powerlevel10k).
 - [mzt](https://github.com/honbey/mzt) - Sets up `LS_COLORS`, colorizes `diff` and includes `git` status and current working directory decorations.
+- [nablaman](https://github.com/kokkonisd/nablaman-zsh-theme) - Similar to [powerlevel10k](https://github.com/romkatv/powerlevel10k). Includes decorators for the last command's exit status, user@hostname, `git` status and the current directory. Works best with a dark terminal theme.
 - [nanika](https://github.com/justforuse/nanika-zsh-theme/) - Optimized variant of [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell). Includes `git` status decorations.
 - [nanofish](https://github.com/tweekmonster/nanofish) - Adds fish-style directory prompt to nanotech theme.
 - [nbrylevv](https://github.com/nbrylevv/nbrylevv-zsh-theme) - Minimalist theme with text `git` status decorations.
