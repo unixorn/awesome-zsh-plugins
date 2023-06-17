@@ -1370,6 +1370,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ztrace](https://github.com/zdharma-continuum/ztrace) - Catches output of commands, allows to reuse that output, glue it with history content.
 - [zui](https://github.com/zdharma-continuum/zui) - ZSH User Interface library – CGI+DHTML-like rapid TUI application development with ZSH.)
 - [zypper-short](https://github.com/justanotherinternetguy/zypper-short) - Plugin for OpenSuse Tumbleweed's package manager, `zypper`.
+- [zsh-watch](https://github.com/Thearas/zsh-watch) - Simple `watch` that supports alias and completion.
 
 ## Completions
 
