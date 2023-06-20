@@ -1698,6 +1698,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [chello](https://github.com/Abdalla981/chello) - Works well on dark backgrounds. Depends on [autojump](https://github.com/wting/autojump), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [chi](https://github.com/akinjide/chi) - A ZSH theme optimized for iTerm 2 users on macOS.
 - [chill](https://github.com/JKerboeuf/chill.zsh-theme) - Has decorations for the current working directory, last command exit status and `git` status.
+- [chinatown](https://github.com/skippyr/chinatown) - Powerline-esque theme with decorators for the exit status of the last command run, user@hostname, virtual environments and current directory. Requires a nerdfont font.
 - [chinipage](https://github.com/andresemartinez/chinipage-zsh-theme) - Minimalist theme that includes `git` decorations. Requires powerline-compatible fonts and the [git-prompt](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git-prompt) plugin.
 - [chrisandrew.cl](https://github.com/chrisandrewcl/chrisandrew.cl.zsh-theme) - Includes `git` decorations. Requires a powerline-compatible terminal font.
 - [cinnabar](https://github.com/nvillapiano/zsh-theme---cinnabar) - Shows timestamp, large line breaks, git branch and status.
@@ -2123,6 +2124,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ortiz (andres-ortizl)](https://github.com/andres-ortizl/ortiz-zsh-theme) - Fork of [eriner](https://github.com/zimfw/eriner) with decorations for the interval between commands and k8s context.
 - [ortiz (guezwhoz)](https://github.com/guesswhozzz/guezwhoz-zsh-theme) - Simplified fork of [eriner](https://github.com/zimfw/eriner) with `git` status, `kubectl` context and elapsed time decorations.
 - [otter](https://github.com/OtterArkar/otter-zsh/) - Otter-themed theme with `git` status, user@host and current directory decorators.
+- [outer space](https://github.com/skippyr/outer_space) - Includes decorators for user@hostname, active python virtual environment,current directory and `git` status.
 - [owczarczak](https://github.com/ThemysciraData/owczarczak.zsh-theme) - Inspired by bira, dieter and [fino-time](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fino-time.zsh-theme). Includes `venv` and vcs status decorations.
 - [owi](https://github.com/owitech/zsh-theme/) - Minimalist theme with `git` status decorations.
 - [owiewestside](https://github.com/owenstranathan/owiewestside.zsh-theme) - Includes `git` status and virtualenv information.
@@ -2245,7 +2247,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [rougarou](https://github.com/RougarouTheme/rougarou-zsh) - A dark theme.
 - [rounded](https://github.com/daniilty/rounded-zsh-theme) - Includes current directory and `git` status decorations.
 - [roundy](https://github.com/nullxception/roundy) - Fast, cute and roundy theme. Includes decorators for `git` status, current directory and last command execution time. Requires nerd fonts and a unicode-capable terminal application.
-- [roz](https://github.com/rozNum/roz-zsh-theme) - Minimalist. Includes `git` status decorations, best on a darker background.
 - [rs](https://github.com/rogeliosamuel621/rs-zsh-theme) - Includes `git` decorations. Requires unicode capable terminal.
 - [rufus](https://github.com/runarsf/rufus-zsh-theme) - Optimized for dark backgrounds.
 - [rummik](https://github.com/rummik/zsh-theme) - @rummik's theme. Supports [psmin](https://gitlab.com/zick.kim/zsh/zsh-psmin), and `git` status information in the prompt.
