@@ -12,7 +12,7 @@ repos:
     rev: v0.35.0
     hooks:
       - id: markdownlint-fix
-        args: ["--ignore", "LICENSE.md"]
+        args: ["--ignore", "LICENSE.md", "--disable", "~MD013"]
   - repo: https://github.com/thlorenz/doctoc
     rev: v2.2.0
     hooks:
