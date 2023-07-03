@@ -13,7 +13,7 @@ also makes the links look prettier.
 
 <!--- Describe your changes in detail, ideally [linking](example.com) to the project/resource in this description. -->
 
-# Type of changes
+## Type of changes
 
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
@@ -24,11 +24,11 @@ also makes the links look prettier.
 - [ ] Add/remove/update a link to a theme
 - [ ] Text cleanups/typo fixes
 
-# Copyright Assignment
+## Copyright Assignment
 
 - [ ] This document is covered by the [BSD License](https://github.com/unixorn/awesome-zsh-plugins/blob/master/LICENSE), and I agree to contribute this PR under the terms of the license. This is for the list submission, not for the project(s) you're adding, I don't care what license the plugins have as long as they have something.
 
-# Checklist:
+## Checklist
 
 <!---
 Go over all the following points, and put an `x` in all the boxes that apply.

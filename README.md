@@ -17,6 +17,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 ## Table of Contents
 
 - [Frameworks](#frameworks)
+  - [alf](#alf)
   - [ansible-role-zsh](#ansible-role-zsh)
   - [ant-zsh](#ant-zsh)
   - [antibody](#antibody)
@@ -77,7 +78,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zgen](#zgen)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
-    - [superconsole - Windows-only.](#superconsole---windows-only)
+    - [superconsole - Windows-only](#superconsole---windows-only)
 - [Plugins](#plugins)
 - [Completions](#completions)
 - [Themes](#themes)
@@ -110,6 +111,7 @@ You can find some interesting performance timing comparisons of various framewor
 
 - [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark) - Contains performance benchmarks for the most popular ZSH frameworks, including both install time and load time.
 - [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
+
 ### [alf](https://github.com/psyrendust/alf)
 
 **Alf** is an out of this world super fast and configurable framework for ZSH; it's modeled after [Prezto](https://github.com/sorin-ionescu/prezto) and [Antigen](https://github.com/zsh-users/antigen) while utilizing [Oh-My-Zsh](https://ohmyz.sh) under the covers; and offers standard defaults, aliases, functions, auto completion, automated updates and installable prompt themes and plugins.
@@ -378,7 +380,7 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 - Search by name all available ZSH Plugins
 - Clean unused plugins up
 - Run the above actions in a *single command*
-- Manages the __Source Plugins__ of your installed Plugins
+- Manages the **Source Plugins** of your installed Plugins
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 
@@ -436,20 +438,20 @@ Many of the themes here use special glyphs for things like displaying a branch i
 
 Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 
-* [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that include some nice monospaced Icons.
-* [Cascadia Code](https://github.com/microsoft/cascadia-code) - Microsoft's Cascadia Code
-* [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons, and Powerline-Glyphs.
-* [Fira Mono](https://github.com/mozilla/Fira) - Mozilla's Fira type family.
-* [Hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed for source code and terminal usage.
-* [Input Mono](https://input.djr.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes Powerline glyphs.
-* [Iosevka](https://be5invis.github.io/Iosevka/) - Iosevka is an open source slender monospace sans-serif and slab-serif typeface inspired by [Pragmata Pro](http://www.fsd.it/fonts/pragmatapro.htm), [M+](http://mplus-fonts.osdn.jp/) and [PF DIN Mono](https://www.myfonts.com/fonts/parachute/pf-din-mono/), designed to be the ideal font for programming.
-* [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
-* [Mononoki](https://madmalik.github.io/mononoki/) - Mononoki is a typeface by Matthias Tellen, created to enhance code formatting.
-* [More Nerd Fonts](https://www.nerdfonts.com/font-downloads) - Another site to download nerd fonts.
-* [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - A collection of over 20 patched fonts (over 1,700 variations) & the fontforge font patcher python script for Powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more. These can be installed with `brew` - do `brew tap homebrew/cask-fonts && brew install --cask fontname`
-* [Powerline patched font collection](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include Powerline glyphs.
-* [Victor Mono](https://rubjo.github.io/victor-mono/) - Victor Mono is a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
-* [spacemono](https://github.com/googlefonts/spacemono) - Google's new original monospace display typeface family.
+- [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that include some nice monospaced Icons.
+- [Cascadia Code](https://github.com/microsoft/cascadia-code) - Microsoft's Cascadia Code
+- [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons, and Powerline-Glyphs.
+- [Fira Mono](https://github.com/mozilla/Fira) - Mozilla's Fira type family.
+- [Hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed for source code and terminal usage.
+- [Input Mono](https://input.djr.com/) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes Powerline glyphs.
+- [Iosevka](https://be5invis.github.io/Iosevka/) - Iosevka is an open source slender monospace sans-serif and slab-serif typeface inspired by [Pragmata Pro](http://www.fsd.it/fonts/pragmatapro.htm), [M+](http://mplus-fonts.osdn.jp/) and [PF DIN Mono](https://www.myfonts.com/fonts/parachute/pf-din-mono/), designed to be the ideal font for programming.
+- [Monoid](http://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
+- [Mononoki](https://madmalik.github.io/mononoki/) - Mononoki is a typeface by Matthias Tellen, created to enhance code formatting.
+- [More Nerd Fonts](https://www.nerdfonts.com/font-downloads) - Another site to download nerd fonts.
+- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - A collection of over 20 patched fonts (over 1,700 variations) & the fontforge font patcher python script for Powerline, devicons, and vim-devicons: includes Droid Sans, Meslo, AnonymousPro, ProFont, Inconsolta, and many more. These can be installed with `brew` - do `brew tap homebrew/cask-fonts && brew install --cask fontname`
+- [Powerline patched font collection](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include Powerline glyphs.
+- [Victor Mono](https://rubjo.github.io/victor-mono/) - Victor Mono is a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
+- [spacemono](https://github.com/googlefonts/spacemono) - Google's new original monospace display typeface family.
 
 ## Tutorials
 
@@ -503,20 +505,20 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 
 ### ZSH on Windows
 
-#### [superconsole](https://github.com/alexchmykhalo/superconsole) - Windows-only.
+#### [superconsole](https://github.com/alexchmykhalo/superconsole) - Windows-only
 
-  - `ConEmu`/`zsh` out-of-the-box configured to restore previously opened tabs and shell working directories after `ConEmu` restart
-  - Choose between clean and inherited environment when starting new SuperConsole sessions
-  - Custom colorful scheme, colorful output for various commands
-  - `MSYS2` included, `zsh` and necessary software preinstalled, uses zsh-grml-config
-  - Uses [Antigen](https://github.com/zsh-users/antigen) for ZSH theme and config management
-  - Enabled number of ZSH plugins to activate completion, highlighting and history for most comfortable use
-  - Git-for-Windows repo with proper `git` and `git lfs` support for `MSYS2` environment is configured, `git` client already installed.
-  - `ssh-agent` for `git` works out-of-box, add your keys to `ConEmu/msys64/ConEmu/msys64/home/user/.ssh` dir
-  - Non-blocking ZSH prompt status updates thanks to [agkozak-zsh-prompt](https://github.com/agkozak/agkozak-zsh-prompt)
-  - Command-not-found handler customized for `MSYS2` suggests what package to install
-  - Sets up `nano` as main editor, enables `nano` syntax highlighting
-  - Custom helper scripts added to `ConEmu/msys64/3rdparty`
+- `ConEmu`/`zsh` out-of-the-box configured to restore previously opened tabs and shell working directories after `ConEmu` restart
+- Choose between clean and inherited environment when starting new SuperConsole sessions
+- Custom colorful scheme, colorful output for various commands
+- `MSYS2` included, `zsh` and necessary software preinstalled, uses zsh-grml-config
+- Uses [Antigen](https://github.com/zsh-users/antigen) for ZSH theme and config management
+- Enabled number of ZSH plugins to activate completion, highlighting and history for most comfortable use
+- Git-for-Windows repo with proper `git` and `git lfs` support for `MSYS2` environment is configured, `git` client already installed.
+- `ssh-agent` for `git` works out-of-box, add your keys to `ConEmu/msys64/ConEmu/msys64/home/user/.ssh` dir
+- Non-blocking ZSH prompt status updates thanks to [agkozak-zsh-prompt](https://github.com/agkozak/agkozak-zsh-prompt)
+- Command-not-found handler customized for `MSYS2` suggests what package to install
+- Sets up `nano` as main editor, enables `nano` syntax highlighting
+- Custom helper scripts added to `ConEmu/msys64/3rdparty`
 
 ## Plugins
 
@@ -769,7 +771,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fuzzy-wd](https://github.com/spodin/zsh-fuzzy-wd) - Adds fuzzy search for directories warped with the [WD](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/wd) plugin.
 - [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among directories in your history.
 - [fzf (gimbo)](https://github.com/gimbo/fzf.zsh) - Helpers for using [fzf](https://github.com/junegunn/fzf) in ZSH. Requires [brew.sh](https://brew.sh).
-- [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/tree/master) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
+- [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
 - [fzf-copyq-clipboard](https://github.com/magidc/fzf-copyq-clipboard-zsh-plugin) - Add [fzf](https://github.com/junegunn/fzf) support for [CopyQ](https://hluk.github.io/CopyQ/).
 - [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for `zsh` using `fzf`.
 - [fzf-fasd](https://github.com/wookayin/fzf-fasd) - Integrates [fzf](https://github.com/junegunn/fzf) and [fasd](https://github.com/clvv/fasd) --- tab completion of `z` with `fzf`'s fuzzy search!
@@ -786,7 +788,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf-tools](https://github.com/happycod3r/fzf-tools) - Designed to enhance your command-line workflow by providing interactive selection capabilities through [fzf](https://github.com/junegunn/fzf), allowing you to quickly find files, search & run commands from history, run scripts of many supported types, browse `git` commits, and more.
 - [fzf-utils](https://github.com/redxtech/zsh-fzf-utils) - Provides functions to kill proceses and find in path with [fzf](https://github.com/junegunn/fzf).
 - [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) - Adds some ZLE widgets for [fzf](https://github.com/junegunn/fzf).
-- [fzf-z](https://github.com/andrewferrier/fzf-z) - Brings together the *z- plugin and *[fzf](https://github.com/junegunn/fzf)- to allow you to easily browse recently used directories at any point on the command line.
+- [fzf-z](https://github.com/andrewferrier/fzf-z) - Brings together the `z` plugin and [fzf](https://github.com/junegunn/fzf)- to allow you to easily browse recently used directories at any point on the command line.
 - [fzy](https://github.com/aperezdc/zsh-fzy) - Plugin that uses [fzy](https://github.com/jhawthorn/fzy) for certain fuzzy matching operations.
 - [gcloud-project](https://github.com/avivl/gcloud-project) - Easy selection of Google Cloud Projects.
 - [gdbm](https://github.com/zdharma-continuum/zgdbm) - Adds GDBM as a plugin.
@@ -1191,7 +1193,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [switch-git](https://github.com/robin-mbg/switch-git) - Easy switching between `git` repositories. Just type `sgr <some part of you repo's name>`, press enter and you're there.
 - [symfony (voronkovich)](https://github.com/voronkovich/symfony.plugin.zsh) - ZSH plugin for [Symfony](https://symfony.com/).
 - [syntax-highlighting-filetypes](https://github.com/trapd00r/zsh-syntax-highlighting-filetypes) - ZSH syntax highlighting with dircolors in realtime.
-- [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your ZSH. Make sure you load this _before_ [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) or they will both break.
+- [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your ZSH. Make sure you load this *before* [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) or they will both break.
 - [sys-diver](https://github.com/ToruIwashita/sys-diver-zsh) - A ZSH plugin for directory change or editor startup with only key operations using widgets without typing commands.
 - [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 - [system-clipboard](https://github.com/kutsan/zsh-system-clipboard) - Adds key bindings support for ZLE (Zsh Line Editor) clipboard operations for `vi` emulation keymaps. It works under Linux, macOS and Android (via Termux).
@@ -1279,7 +1281,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
 - [vivid](https://github.com/ryanccn/vivid-zsh) - Make it easier to use `LSCOLORS` with [vivid](https://github.com/sharkdp/vivid).
 - [volta (cowboyd)](https://github.com/cowboyd/zsh-volta) - Seamlessly install and configure the [Volta](https://volta.sh) NodeJS toolchain manager.
-- [volta](https://github.com/ri7nz/zsh-volta) - Installs and loads [ Volta: JS Toolchains as Code](https://github.com/volta-cli/volta).
+- [volta](https://github.com/ri7nz/zsh-volta) - Installs and loads [Volta: JS Toolchains as Code](https://github.com/volta-cli/volta).
 - [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An [oh-my-zsh](https://ohmyz.sh/) plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
 - [vsc](https://github.com/davidtong/vsc.plugin.zsh) - Plugin for [Visual Studio Code](https://code.visualstudio.com/) on macOS.
 - [vscode (kasperhesthaven)](https://github.com/kasperhesthaven/vscode) - Simple plugin to open [Visual Studio Code](https://code.visualstudio.com/) a little more easily across systems.
