@@ -605,7 +605,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [bat](https://github.com/fdellwing/zsh-bat) - Adds some helper aliases for [bat](https://github.com/sharkdp/bat) users.
 - [battery_state](https://github.com/Jactry/zsh_battery_state) - Show battery state in right-prompt.
 - [bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`.
-- [bepoptimist](https://github.com/sheoak/zsh-bepoptimist/) Remaps vi-mode for the French [bépo](http://bepo.fr/wiki/Accueil) keyboard.
+- [bepoptimist](https://github.com/sheoak/zsh-bepoptimist/) Remaps vi-mode for the French bépo keyboard.
 - [bitbucket-git-helpers](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh) - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.
 - [bitwarden (casonadams)](https://github.com/casonadams/bitwarden-cli) - A [Bitwarden](https://bitwarden.com/download/) CLI fuzzy finder using [fzf](https://github.com/junegunn/fzf). Requires [jq](https://stedolan.github.io/jq/).
 - [bitwarden (game4move78)](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
