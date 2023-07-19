@@ -1907,7 +1907,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [home](https://github.com/sheerun/home) - Pretty and short one-line theme that makes you feel at home.
 - [hometown](https://github.com/olets/hometown-prompt) - A feature rich, high performance `git`-aware ZSH theme with segments for the user, host, time, the current working directory and its parent, and detailed full Git status within a Git repo.
 - [honukai-iterm](https://github.com/oskarkrawczyk/honukai-iterm-zsh) - Honukai theme and colors for oh-my-zsh and iTerm 2.
-- [hoozeth](https://github.com/hooay233/Hoozeeth) - Minimalist theme, includes decorators for user@hostname, the date & time, and the current working directory.
+- [hoozeeth](https://github.com/hooay233/Hoozeeth) - Minimalist theme, includes decorators for user@hostname, the date & time, and the current working directory.
 - [horizontal](https://github.com/nuimk/horizontal) - Two line prompt with a horizontal separator.
 - [hornix](https://github.com/fusion809/zsh-theme) - Displays time & date, OS (including distro if on Linux), directory and whether running as root.
 - [horse-sh](https://github.com/emileswarts/horse-sh) - A very minimal brown/red ZSH theme.
