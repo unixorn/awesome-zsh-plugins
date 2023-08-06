@@ -1358,6 +1358,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [znvm](https://github.com/Ajnasz/znvm) - A [nodejs](https://nodejs.org) version manager for ZSH similar to [nvm.sh](https://github.com/nvm-sh/nvm) but faster.
 - [zoo](https://github.com/salamantos/zoo_sh) - Casual theme with animal emoji. Includes decorators for current directory, time and `git` status.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
+- [zplug-blame](https://github.com/jkcdarunday/zplug-blame) - A [zplug](https://github.com/zplug/zplug)-specific plugin that displays how long each of your plugins took to load.
 - [zpy](https://github.com/AndydeCleyre/zpy) - Manage Python Environments, dependencies, and isolated app installations, with a ZSH frontend to [pip-tools](https://github.com/jazzband/pip-tools).
 - [zredis-cmd](https://github.com/z-shell/zredis-cmd) - Utilizes variable sharing done by [zredis](https://github.com/zdharma-continuum/zredis) plugin to implement remote command execution.
 - [zredis](https://github.com/zdharma-continuum/zredis) - Adds [Redis](https://redis.io/) database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
