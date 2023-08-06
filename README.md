@@ -2123,7 +2123,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [noon](https://github.com/silky/noon.zsh-theme) - Has light and dark variants, shows `git` information.
 - [nord](https://github.com/TyWR/Nord-zsh) - Includes `git` status decorations and displays the active conda environment.
 - [normanius](https://github.com/normanius/normanius-zsh-theme) - Derived from [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme). Includes decorators for `git` status, `user@host`, python `virtualenv`, and ruby `rvm` version.
-- [nostalgia](https://github.com/skippyr/nostalgia) - Minimalist theme, includes decorators for user@hostname, `git` status, current directory and python virtualenv.
+- [nostalgia](https://github.com/skippyr/nostalgia) - Minimalist theme inspired by Windows CMD prompt. Includes decorators for user@hostname, `git` status, current directory and python virtualenv.
 - [nothing](https://github.com/eendroroy/nothing) - Lightning fast and really simple because it has almost nothing in it.
 - [nova](https://github.com/body20002/nova) - Includes `git` status decroations. Overrides `LS_COLORS` and `LSCOLORS` settings.
 - [nox](https://github.com/kbrsh/nox) - Dark theme, displays the current working directory and git status.
