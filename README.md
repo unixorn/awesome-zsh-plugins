@@ -1100,7 +1100,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
 - [pseudo-projectile](https://github.com/git-girl/pseudo-projectile-plugin/) - Like `projectile` in emacs? This adds similar functionality to your ZSH environment by opening `fzf`-selected paths in `nvim`. Deprecated by author.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
-- [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by [zsh-rbenv](https://github.com/ecortinas/zsh-rbenv). Installs, updates or loads `pyenv`, and adds extra functionality.
+- [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by **zsh-rbenv**. Installs, updates or loads `pyenv`, and adds extra functionality.
 - [pyenv (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-pyenv) - Based on the oh-my-zsh [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv) plugin with modifications from the rbenv and jenv plugins.
 - [pyenv (xlshiz)](https://github.com/xlshiz/pyenv-zsh-plugin) - Loads [pyenv](https://github.com/pyenv/pyenv) into the current shell and provides prompt info via the `pyenv_prompt_info` function. Also loads [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) if available.
 - [pyenv-lazy-load](https://github.com/erikced/zsh-pyenv-lazy-load) - Plugin for lazy-loading `pyenv` in ZSH.
@@ -1119,7 +1119,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ranger](https://github.com/rc2dev/ranger-zshz) Integrates [zsh-z](https://github.com/agkozak/zsh-z) into [ranger](https://github.com/ranger/ranger).
 - [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh) - Puts the Raspberry Pi temperature into a spaceship prompt segment
 - [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
-- [rbenv (ecortinas)](https://github.com/ecortinas/zsh-rbenv) - Based on the [zsh-pyenv](https://github.com/mattberther/zsh-pyenv) plugin. This plugin will install `rbenv` and make it readily available
 - [rbenv (elliottcable)](https://github.com/ELLIOTTCABLE/rbenv.plugin.zsh) - A faster fork of the `rbenv` plugin from [oh-my-zsh](https://ohmyz.sh/).
 - [rbenv (jsahlen)](https://github.com/jsahlen/rbenv.plugin.zsh) - Variant based on the original [oh-my-zsh](https://ohmyz.sh/) `rbenv` plugin.
 - [rbenv (meroje)](https://github.com/Meroje/zsh-rbenv) - Inspired by [https://github.com/lukechilds/zsh-nvm/](https://github.com/lukechilds/zsh-nvm/), makes it easier to work with ruby `rbenv` environments.
