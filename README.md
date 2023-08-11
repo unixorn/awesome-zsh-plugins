@@ -1033,7 +1033,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [osx-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on a macOS install.
 - [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
-- [p10k-promptconfig](https://github.com/doctormemes/p10k-promptconfig) - adds the ability to easily switch between Powerlevel10k prompt theme config files by defining the `P10K_PROMPT` variable in your `.zshrc` file.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
 - [package-any-node](https://github.com/zdharma-continuum/zsh-package-any-node) - Easy installing of any Node modules inside the plugin directory, exposing their binaries via shims (i.e.: forwarder scripts) created automatically by [Bin-Gem-Node](https://github.com/zdharma-continuum/z-a-bin-gem-node) annex.
 - [pack](https://github.com/fourdim/zsh-pack/) - Pack your source code with ZSH.
