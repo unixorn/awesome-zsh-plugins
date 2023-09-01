@@ -50,6 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
+  - [zinit-4](#zinit-4)
   - [zit](#zit)
   - [zlugin](#zlugin)
   - [znap](#znap)
@@ -295,6 +296,17 @@ Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view a
 - Also, in general: all the mechanisms from the ZSH Plugin Standard – Zinit is a reference implementation of the standard.
 
 The project is very active – currently > 3100 commits.
+
+### [zinit-4](https://github.com/psprint/Zinit-4)
+
+This is Zinit 4 from the [original author](https://github.com/psprint), who once removed the [Zinit](https://github.com/zdharma-continuum/zinit) repo from GitHub. This spawned a community-driven [zdharma-continuum](https://github.com/zdharma-continuum) organization that revived all of psprint's ZSH projects. Its main innovations from the @zdharma-continuum fork are:
+
+- AppImage distribution (release link),
+- Action complete – press Alt-Shift-A and Alt-Shift-C to complete plugin names and ice modifiers,
+- Themes – set $ZITHEME to one of default, blue and gold to set a color set to use for Zinit 4 messages,
+- New ice `build` which is equivalent of three other ices: `null`, `configure` and `make install` and simply builds the project from sources, with support for autotools/CMake/Meson/Scons.
+
+These are the most visible changes, but there are more (like e.g.: support for compiling with libraries from previously built projects/`$ZPFX`).
 
 ### [zit](https://github.com/thiagokokada/zit)
 
