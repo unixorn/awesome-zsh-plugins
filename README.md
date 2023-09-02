@@ -50,6 +50,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
+  - [zinit-4](#zinit-4)
   - [zit](#zit)
   - [zlugin](#zlugin)
   - [znap](#znap)
@@ -296,6 +297,17 @@ Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view a
 
 The project is very active – currently > 3100 commits.
 
+### [zinit-4](https://github.com/psprint/Zinit-4)
+
+This is Zinit 4 from the [original author](https://github.com/psprint), who once removed the [Zinit](https://github.com/zdharma-continuum/zinit) repo from GitHub. This spawned a community-driven [zdharma-continuum](https://github.com/zdharma-continuum) organization that revived all of psprint's ZSH projects. Its main innovations from the @zdharma-continuum fork are:
+
+- AppImage distribution (release link),
+- Action complete – press Alt-Shift-A and Alt-Shift-C to complete plugin names and ice modifiers,
+- Themes – set $ZITHEME to one of default, blue and gold to set a color set to use for Zinit 4 messages,
+- New ice `build` which is equivalent of three other ices: `null`, `configure` and `make install` and simply builds the project from sources, with support for autotools/CMake/Meson/Scons.
+
+These are the most visible changes, but there are more (like e.g.: support for compiling with libraries from previously built projects/`$ZPFX`).
+
 ### [zit](https://github.com/thiagokokada/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from `git` repositories (and `git` repositories only, that's why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, `$PATH` manipulation and others.
@@ -458,6 +470,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 ### Generic ZSH
 
 - [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/) - Tutorial using a combination of [iTerm 2](https://www.iterm2.com/#/section/home), [ZSH](https://en.wikipedia.org/wiki/Z_shell), [Prezto](https://github.com/sorin-ionescu/prezto), [Tmux](https://tmux.github.io), and [Tmuxinator](https://github.com/tmuxinator/tmuxinator) to make for an extremely productive developer workflow.
+- [A Guide to ZSH Completion With Examples](https://thevaluable.dev/zsh-completion-guide-examples/) - Explains ZSH autocompletion configuration with examples.
 - [adamnorwood-zsh](https://github.com/adamnorwood/adamnorwood-zsh/) - A minimalist but readable ZSH setup based on [oh-my-posh](https://ohmyposh.dev/).
 - [Arch Linux's ZSH introduction](https://wiki.archlinux.org/index.php/zsh) -  Not actually Arch or Linux-specific.
 - [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting/), and more.
@@ -794,7 +807,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzy](https://github.com/aperezdc/zsh-fzy) - Plugin that uses [fzy](https://github.com/jhawthorn/fzy) for certain fuzzy matching operations.
 - [gcloud-project](https://github.com/avivl/gcloud-project) - Easy selection of Google Cloud Projects.
 - [gdbm](https://github.com/zdharma-continuum/zgdbm) - Adds GDBM as a plugin.
-- [geeknote](https://github.com/s7anley/zsh-geeknote) - [Geeknote](https://www1.geeknote.me) plugin for ZSH.
 - [gentoo](https://github.com/MattiaG-afk/gentoo-ohmyzsh) - Adds some aliases and functions to work with Gentoo Linux.
 - [geometry-datetime](https://github.com/desyncr/geometry-datetime) - [Geometry](https://github.com/geometry-zsh/geometry) datetime plugin. Shows datetime (`date` unix command) in your prompt.
 - [geometry-hydrate](https://github.com/jedahan/geometry-hydrate) - [Geometry](https://github.com/geometry-zsh/geometry) plugin to remind you to hydrate.
