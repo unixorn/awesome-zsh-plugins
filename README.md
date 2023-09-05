@@ -28,7 +28,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [miniplug](#miniplug)
-  - [mzpm](#mzpm)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
   - [prezto](#prezto)
@@ -166,16 +165,6 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 - No crashes or double plugin loading when re-sourcing `.zshrc`
 - Unlike other frameworks, Miniplug does not pollute your `$PATH`
 - Only does the bare minimum for managing plugins
-
-### [mzpm](https://github.com/Insert-Creative-Name-Here/mzpm)
-
-**mzpm** is a minimalist plugin manager for ZSH.
-
-Features:
-
-- Fetching and loading plugins from GitHub
-- Loading local plugins
-- Loading themes
 
 ### [oh-my-zsh](https://ohmyz.sh/)
 
@@ -1603,6 +1592,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [agnoster](https://gist.github.com/agnoster/3712874) - Optimized for solarized terminal color schemes, shows `git` decorations, user@host, working directory, the previous command's exit status and whether you are running with root privileges. Requires a Powerline-compatible font.
 - [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) - Based on [Agnoster](https://gist.github.com/agnoster/3712874), shows battery life, date & time, `git` status, current directory and user & host information.
 - [ai-hayasaka](https://github.com/aeghost/ai-hayasaka-zsh-theme) - Minimalist theme with `git` status, ruby env and python virtualenv decorators.
+- [aifrim](https://github.com/aifrim/aifrim.zsh-theme) - Minimalist theme with decorators for `git` status, truncated current directory, and package versions for javascript, rust and golang.
 - [air](https://github.com/Ivan-Kuzmichev/air) - Minimalist theme with `git` status decorations.
 - [akzsh](https://github.com/awkimball/akzsh) - Works best with a dark terminal theme, includes `git` decorations.
 - [al-magic](https://github.com/Alustrat/al-magic/) - Clone of the oh-my-zsh [af-magic](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/af-magic.zsh-theme) theme with the time added at the right of the prompt.
@@ -2263,8 +2253,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [redline](https://github.com/DrissTM/redline.zsh-theme) - Minimalist theme. Includes `git` status, time, user.
 - [refpx](https://github.com/refpx/refpx-zsh-theme) - Includes `git` status, last command status, user@hostname and directory decorations.
 - [reggae](https://github.com/nmercado1986/zsh-reggae-theme) - Compresses a lot of information into the prompt with color-coded status decorations.
-- [rei (arturoalviar)](https://github.com/arturoalviar/rei-zsh-theme) - A simple theme with the first character 零(rei), the number 0. Includes `git` status decorations.
-- [rei (eilaluth)](https://github.com/Eilaluth/rei/) - A minimalist theme with current directory and `git` status decorations.
+- [rei](https://github.com/arturoalviar/rei-zsh-theme) - A simple theme with the first character 零(rei), the number 0. Includes `git` status decorations.
 - [remiii](https://github.com/Remiii/remiii.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for [solarized](https://github.com/altercation/solarized) terminal themes.
 - [remolueoend](https://github.com/remolueoend/remolueoend.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), using emojis for tracking `git` context. Only works with [Prezto](https://github.com/sorin-ionescu/prezto).
 - [renanborgez](https://github.com/renanborgez/ohmyzsh-theme-renanborgez) - Works well on dark backgrounds. Includes decorators for `nvm` and `git` information.
