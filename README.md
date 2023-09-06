@@ -25,6 +25,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
   - [ax-zsh](#ax-zsh)
+  - [deer](#deer)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
   - [miniplug](#miniplug)
@@ -149,6 +150,10 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 **Ax-ZSH** is a modular configuration system for ZSH. It provides sane defaults and is extendable by plugins.
 
 **Ax-ZSH** integrates well with [Powerlevel10k](https://github.com/romkatv/powerlevel10k) and other extensions, including plugins compatible with [oh-my-zsh](https://ohmyz.sh/).
+
+### [deer](https://github.com/ArtixLabs/deer)
+
+A minimalist ZSH plugin manager.
 
 ### [dotzsh](https://github.com/dotphiles/dotzsh)
 
