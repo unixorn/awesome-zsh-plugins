@@ -39,6 +39,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [tzpm](#tzpm)
   - [uz](#uz)
   - [yazt](#yazt)
+  - [yzsh](#yzsh)
   - [zap](#zap)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
@@ -224,6 +225,10 @@ A ZSH micro plugin manager.
 ### [yazt](https://github.com/bashelled/yazt)
 
 **Yazt** is a simple ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in `bash`.
+
+### [yzsh](https://github.com/yunielrc/yzsh)
+
+**yzsh** is a simple ZSH framework for managing plugins, themes, functions, aliases and environment variables.
 
 ### [zap](https://github.com/zap-zsh/zap)
 
