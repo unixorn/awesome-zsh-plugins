@@ -63,6 +63,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zr](#zr)
   - [zsh.ai](#zshai)
   - [zshing](#zshing)
+  - [zsh-dot-plugin](#zsh-dot-plugin)
   - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
@@ -392,6 +393,10 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 - Clean unused plugins up
 - Run the above actions in a *single command*
 - Manages the **Source Plugins** of your installed Plugins
+
+### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
+
+Customize your .zshrc with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 
