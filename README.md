@@ -63,6 +63,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zr](#zr)
   - [zsh.ai](#zshai)
   - [zshing](#zshing)
+  - [zsh-dot-plugin](#zsh-dot-plugin)
   - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
@@ -392,6 +393,10 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 - Clean unused plugins up
 - Run the above actions in a *single command*
 - Manages the **Source Plugins** of your installed Plugins
+
+### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
+
+Customize your .zshrc with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 
@@ -977,7 +982,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (z-shell)](https://github.com/z-shell/zsh-lsd) - Replaces `ls` with [lsd](https://github.com/Peltoche/lsd).
 - [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
-- [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS, iTerm 2, Visual Studio Code and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes a `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.  ✖   747:52   List item description must start with valid casing            remark-lint:awesome-list-item
+- [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS, iTerm 2, Visual Studio Code and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes a `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
 - [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
 - [macos (joow)](https://github.com/joow/macos) - A ZSH plugin for macOS.
 - [macos (zshzoo)](https://github.com/zshzoo/macos) - ZSH goodies for macOS users.
@@ -1071,6 +1076,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [pg](https://github.com/caarlos0-graveyard/zsh-pg) - Adds utility functions to work with [PostgreSQL](https://www.postgresql.org/).
 - [ph-marks](https://github.com/lainiwa/ph-marks) - Bookmark pornhub videos from your terminal.
 - [php-version-rcfile-switcher](https://github.com/xellos866/php-version_rcfile-switcher) - Automatically switch between php versions using [php-version](https://github.com/wilmoore/php-version) if an rc-file is present in a directory.
+- [php-version-switcher](https://github.com/Akollade/php-version-switcher.plugin.zsh) - Changes php versions if a `.php-version` file is found.
 - [phpcs](https://github.com/voronkovich/phpcs.plugin.zsh) - Plugin for [PHP code sniffer](https://github.com/squizlabs/PHP_CodeSniffer).
 - [phpunit](https://github.com/voronkovich/phpunit.plugin.zsh) - Plugin for [PHPUnit](https://phpunit.de/).
 - [pins](https://github.com/mehalter/zsh-pins) - ZSH plugin for pinning directories. Like a CLI folder bookmark manager with tab completions.
