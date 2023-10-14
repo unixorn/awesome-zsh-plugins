@@ -36,7 +36,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [sheldon](#sheldon)
   - [shplug](#shplug)
   - [Toasty](#toasty)
-  - [tzpm](#tzpm)
   - [uz](#uz)
   - [yazt](#yazt)
   - [yzsh](#yzsh)
@@ -213,10 +212,6 @@ An easy solution for managing your shell environments. Works with both `bash` an
 ### [Toasty](https://github.com/5paceToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
-
-### [tzpm](https://github.com/notusknot/tzpm)
-
-The tiniest ZSH plugin manager. Still under development.
 
 ### [uz](https://github.com/maxrodrigo/uz)
 
