@@ -894,6 +894,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [hanami](https://github.com/davydovanton/hanami-zsh) - ZSH plugin for [hanami](http://hanamirb.org) projects.
 - [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to English when it was supposed to be typed in English. 영어를 타이핑 해야되는데 한글로 타이핑된경우 자동으로 수정합니다.
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
+- [hebzsh](https://github.com/admons/hebzsh) - If a command is not found as typed in Hebrew, translates the command as if it was typed on a keyboard with a US English layout and tries again.
 - [hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 - [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 - [hist](https://github.com/marlonrichert/zsh-hist) - Edit your history in ZSH, without ever leaving the command line.
