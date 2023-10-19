@@ -547,7 +547,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [alehouse](https://github.com/sticklerm3/alehouse) - Contains short aliases for [brew](https://brew.sh) commands, inspired by `betterbrew`.
 - [alias-finder](https://github.com/akash329d/zsh-alias-finder) - Displays an alias when you use a command you have aliased previously. Helpful for remembering aliases you have defined in the past. Written as a pure ZSH script for speed.
 - [alias-maker](https://github.com/MefitHp/alias-maker) - Allows you to easily create and manage aliases from the command line.
-- [alias-snippet-toolkit](https://github.com/tapyu/zsh-alias-snippet-toolkit) - Creates snippets, expand alias/snippets, and remind you about them.
 - [alias-tips](https://github.com/djui/alias-tips) - An oh-my-zsh plugin to help remembering those aliases you defined once.
 - [allergen](https://github.com/stanislas/allergen) - A collection of custom ZSH plugins to use with Antigen.
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
@@ -899,7 +898,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [history-popup](https://github.com/lcrespom/oh-my-zsh-history-popup) - Captures the `PageUp` key and uses `dialog` to open a popup menu with the history, so the user can interactively navigate through it and pick the history line to bring back to the prompt.
 - [history-search-multi-word](https://github.com/zdharma-continuum/history-search-multi-word) - A syntax highlighted, multi-word history searcher for ZSH, bound to Ctrl-R, with advanced functions (e.g. bump of history entry to top of history).
 - [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after `zsh-syntax-highlighting`, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md.
-- [history-sync (vitobotta)](https://github.com/vitobotta/zsh-history-sync/) - Syncs your ZSH history across computers using a `git` private repository.
+- [history-sync (vitobotta)](https://github.com/vitobotta/zsh-history-sync/) - Syncs your ZSH history across computers using a `git` private repository. Uses `openssl` to encrypt the history.
 - [history-sync (wulfgarpro)](https://github.com/wulfgarpro/history-sync) - An [oh-my-zsh](https://ohmyz.sh/) plugin for [GPG](https://www.gnupg.org/) encrypted, Internet synchronized ZSH history using `git`.
 - [history](https://github.com/b4b4r07/zsh-history) - Extend history so that it can be queried by SQL.
 - [hitokoto](https://github.com/derry96/hitokoto) - Displays a random quote from [hitokoto.cn](https://hitokoto.cn/).
