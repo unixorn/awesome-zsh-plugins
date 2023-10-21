@@ -668,6 +668,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [coffee-time](https://github.com/gakimball/zsh-coffee-time) - Adds the `caf` alias, which runs `caffeinate -dims`. The extra flags keep everything awake: the system, the drive, and the display.
 - [colored-man-pages-mod](https://github.com/zuxfoucault/colored-man-pages_mod) - Forked from [ohmyzsh/ohmyzsh/plugins/colored-man-pages](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/colored-man-pages/colored-man-pages.plugin.zsh). Colorizes `man` output.
 - [colored-man-pages](https://github.com/ael-code/zsh-colored-man-pages) - Colorize `man` pages.
+- [colorize-functions](https://github.com/Freed-Wu/zsh-colorize-functions) - Colorizes functions for ZSH.
 - [colorize](https://github.com/zpm-zsh/colorize) - Colorize the output of various programs.
 - [colorls](https://github.com/Kallahan23/zsh-colorls) - Defines a few helpful shortcuts to some colorls functions.
 - [colors (Tarrasch)](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
@@ -888,6 +889,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to English when it was supposed to be typed in English. 영어를 타이핑 해야되는데 한글로 타이핑된경우 자동으로 수정합니다.
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
 - [hebzsh](https://github.com/admons/hebzsh) - If a command is not found as typed in Hebrew, translates the command as if it was typed on a keyboard with a US English layout and tries again.
+- [help](https://github.com/Freed-Wu/zsh-help) - Colorizes the output of commands run with `--help`.
 - [hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 - [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 - [hist](https://github.com/marlonrichert/zsh-hist) - Edit your history in ZSH, without ever leaving the command line.
