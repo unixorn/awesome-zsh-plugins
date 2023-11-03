@@ -1377,6 +1377,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zinsults](https://github.com/ahmubashshir/zinsults) - Prints insults if a command fails.
 - [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
 - [zlitefetch](https://github.com/ippee/zlitefetch) - Lightweight system information plugin.
+- [zload](https://github.com/mollifier/zload) - Hot Reload for ZSH functions. Enables rapid development.
 - [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses `notify-send` and rings a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
 - [zman](https://github.com/mattmc3/zman) - Use [fzf](https://github.com/junegunn/fzf) to quickly browse ZSH manuals.
 - [znotify](https://github.com/rudeigerc/znotify) - A simple plugin for sending notifications to other services.
