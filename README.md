@@ -567,10 +567,10 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [arduino](https://github.com/raghur/zsh-arduino) - Adds scripts to build, upload and monitor arduino sketches from a command line. Requires [`jq`](https://stedolan.github.io/jq/).
 - [artisan](https://github.com/jessarcher/zsh-artisan) - Laravel `artisan` plugin for ZSH to help you to run `artisan` from anywhere in the project tree, with tab completion!
 - [asciidoctor](https://github.com/sparsick/asciidoctor-zsh) - A plugin for AsciiDoctor.
-- [asdf-direnv](https://github.com/redxtech/zsh-asdf-direnv) - Integration and completions for [asdf](https://github.com/asdf-vm/asdf) and [direnv](https://github.com/asdf-community/asdf-direnv).
-- [asdf-prompt](https://github.com/CurryEleison/zsh-asdf-prompt) - Provides a function usable in prompts that displays version information for your current tool versions.
 - [asdf (kiurchv)](https://github.com/kiurchv/asdf.plugin.zsh) - Integration and completions for [asdf](https://github.com/asdf-vm/asdf), the extendable version manager, with support for Ruby, Node.js, Elixir, Erlang and more.
 - [asdf (zimfw)](https://github.com/zimfw/asdf) - Initializes [asdf](https://github.com/asdf-vm/asdf), installing it using `git` if not installed yet. Also, bypasses the shims if you're using the [direnv](https://github.com/asdf-community/asdf-direnv) plugin, as suggested by the plugin [pro-tips](https://github.com/asdf-community/asdf-direnv/#pro-tips).
+- [asdf-direnv](https://github.com/redxtech/zsh-asdf-direnv) - Integration and completions for [asdf](https://github.com/asdf-vm/asdf) and [direnv](https://github.com/asdf-community/asdf-direnv).
+- [asdf-prompt](https://github.com/CurryEleison/zsh-asdf-prompt) - Provides a function usable in prompts that displays version information for your current tool versions.
 - [ask](https://github.com/Licheam/zsh-ask) - Serves as a ChatGPT API frontend, enabling you to interact with ChatGPT directly from the ZSH shell using only `cURL` and `jq`.
 - [assume-role](https://github.com/weizard/assume-role) - ZSH plugin to allow you to assume AWS IAM roles easily. Includes completions.
 - [async](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in ZSH without requiring any external tools. Allows you to run multiple asynchronous jobs, enforce unique jobs (multiple instances of the same job will not run), flush all currently running jobs and create multiple workers (each with their own jobs).
@@ -757,8 +757,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [exa (zap-zsh)](https://github.com/zap-zsh/exa) - Overrides common commands to use exa instead.
 - [exa (zplugin)](https://github.com/zplugin/zsh-exa) - replace `ls` with [ogham/exa](https://github.com/ogham/exa).
 - [exa (zshell)](https://github.com/z-shell/zsh-exa) - replace `ls` with [ogham/exa](https://github.com/ogham/exa).
-- [exa-ls](https://github.com/birdhackor/zsh-exa-ls-plugin) - Adds aliases so that you can use [exa](https://the.exa.website) as a drop-in replacement for `ls` and `tree`.
 - [exa-ls (zpm-zsh)](https://github.com/zpm-zsh/ls) - Zsh plugin for ls.
+- [exa-ls](https://github.com/birdhackor/zsh-exa-ls-plugin) - Adds aliases so that you can use [exa](https://the.exa.website) as a drop-in replacement for `ls` and `tree`.
 - [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/).
 - [expand-ealias](https://github.com/zigius/expand-ealias.plugin.zsh) - Expand specific aliases with space.
 - [expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases, incorrect spellings and phrases, globs, history expansion and $parameters with the spacebar key.
@@ -1176,8 +1176,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sealion](https://github.com/xyproto/sealion) - Allows you to set reminders that will appear in your terminal when your prompt is refreshed.
 - [search-directory-history](https://github.com/cmaahs/search-directory-history) - Allows complex search of per-directory history created using the [per-directory-history](https://github.com/jimhester/per-directory-history) plugin.
 - [sed-sub](https://github.com/MenkeTechnologies/zsh-sed-sub) - Adds keybindings to do global search and replace on current command line.
-- [select](https://github.com/z-shell/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 - [select-with-lf](https://github.com/chmouel/zsh-select-with-lf) - Lets user select files or a directory using [lf](https://github.com/gokcehan/lf).
+- [select](https://github.com/z-shell/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 - [send](https://github.com/robertzk/send.zsh) - Single command to `git add`, `git commit`, and `git push` for much faster `git` workflow.
 - [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
 - [senv](https://github.com/joepvd/senv) - Report presence of sensitive environment variables in the prompt
