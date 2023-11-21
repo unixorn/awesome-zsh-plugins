@@ -710,6 +710,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [dietpi](https://github.com/unixorn/dietpi.plugin.zsh) - Adds utilities for [dietpi](https://dietpi.com) to your `$PATH` (and includes aliases to automagically run them with `sudo`) when you log into a machine running  [dietpi](https://dietpi.com).
 - [diff-so-fancy](https://github.com/z-shell/zsh-diff-so-fancy) - Automatically installs [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) and enables its use in ZSH and `git`.
 - [diractions](https://github.com/AdrieanKhisbe/diractions) - Allow you to map a short logical/mnemonic name to directories to quickly access them, or perform actions in them.
+- [diralert](https://github.com/roskatom/dir-alert) - Provides dynamic, contextual alerts in your terminal when navigating directories, enhancing the command-line experience by displaying custom alerts based on the current directory's context, such as reminders, warnings, and informational messages.
 - [dircolors-solarized (joel-porquet)](https://github.com/joel-porquet/zsh-dircolors-solarized) - Solarized dircolors plugin, with options for dark or light terminal backgrounds.
 - [dircolors-solarized (pinelibg)](https://github.com/pinelibg/dircolors-solarized-zsh) - Enables [Solarized Color Theme for GNU ls](https://github.com/seebi/dircolors-solarized).
 - [dircycle](https://github.com/michaelxmcbride/zsh-dircycle) - Cycle through the directory stack.
@@ -1119,6 +1120,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [project (gko)](https://github.com/gko/project) - Create node/python/ruby projects both locally and on GitHub (private or public repository).
 - [project (voronkovich)](https://github.com/voronkovich/project.plugin.zsh) - Plugin for managing projects.
 - [projen](https://github.com/p6m7g8/p6-zsh-projen-plugin) - Adds aliases for [projen](https://github.com/projen/projen).
+- [prompt-dir-perms](https://github.com/xPMo/zsh-prompt-dir-perms) - Creates a segment displaying the permissions of the current directory you can use in your ZSH prompt.
 - [prompt-generator](https://github.com/the10thWiz/zsh-prompt-generator) - Generates custom themes. Some generated themes require powerline-compatible fonts.
 - [proxy-plugin](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Quickly enable and disable proxy shell environment settings.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
@@ -2316,6 +2318,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [rwahasugui](https://github.com/rafawhs/rwahasugui.zsh-theme/) - Includes decorators for `git` information, current time, current working directory and active python  virtualenv.
 - [ryner](https://github.com/DoctorRyner/ryner-zsh-theme) - Colorful theme, includes `git` decorations and the current directory.
 - [rzh](https://github.com/patwhatev/rzh) - Theme with `git` states indicated by emojis.
+- [s1ck3r](https://github.com/pseifer/s1ck3r) - Sleek, transient and space-efficient. Includes decorators for `vi`-mode, elevated permissions, last command exit status, if background jobs are running, working directory and `git` status,
 - [s1ck94](https://github.com/zimfw/s1ck94) - Fork of the (first deprecated, now extinct) minimal prompt by S1cK94. Shows whether user is root, background job status, vi-mode, exit status of last command, and `git` status decorations.
 - [s7c](https://github.com/Samega7Cattac/s7c.zsh-theme) - Works well with dark backgrounds. Includes `git` status decorations.
 - [sailormoon](https://github.com/Domanowska/zshSailorMoonThemes) - A collection of Sailor Moon themed themes.
