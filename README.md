@@ -436,7 +436,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 - 400+ zpwr subcommands
 - 2.8k functions
 - 175+ zpwr environment variables
-- 175+ perl, python, bash, zsh scripts
+- 175+ perl, python, bash, ZSH scripts
 - 2.8k line README.md
 - 50k+ LOC
 - 1 line install
@@ -674,7 +674,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [colors (Tarrasch)](https://github.com/Tarrasch/zsh-colors) - Makes it easier to colorize text from the CLI. `red foo` just works.
 - [colors (zpm-zsh)](https://github.com/zpm-zsh/colors) - Enhanced colors for ZSH.
 - [command-execution-timer](https://github.com/olets/command-execution-timer) - Displays the time an interactive shell command takes to execute.
-- [command-not-found (freed-wu)](https://github.com/Freed-Wu/zsh-command-not-found) - Uses the command-not-found package for zsh to provide suggested packages to be installed if a command cannot be found.
+- [command-not-found (freed-wu)](https://github.com/Freed-Wu/zsh-command-not-found) - Uses the command-not-found package for ZSH to provide suggested packages to be installed if a command cannot be found.
 - [command-not-found (tarrasch)](https://github.com/Tarrasch/zsh-command-not-found) - A mirror of the [oh-my-zsh](https://ohmyz.sh) [command-not-found](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/command-not-found) plugin so you don't have to include all of oh-my-zsh.
 - [command-note](https://github.com/KKRainbow/zsh-command-note.plugin) - Record complex commands and comment on them.
 - [command-time](https://github.com/popstas/zsh-command-time) - Show execution time for long commands in ZSH and [powerlevel9k](https://github.com/bhilburn/powerlevel9k). Similar to `REPORTTIME` builtin, but only outputs when user + system time >= `REPORTTIME`.
@@ -828,7 +828,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [git-aliases (peterhurford)](https://github.com/peterhurford/git-aliases.zsh) - Creates a lot of useful aliases for combinations of commonly used `git` commands.
 - [git-aliases (remino)](https://github.com/remino/omz-plugin-git-aliases) - Aliases all `git xyz` commands to `gxyz`. Also aliases `g` to `git`.
 - [git-branches](https://github.com/Schroefdop/git-branches) - Makes a menu of `git` branches you can switch to without having to type long branch names.
-- [git-check](https://github.com/git-girl/git-check) - Adds a zsh hook to check if the origin of the current branch has changes to local in the background and sends a notification.
+- [git-check](https://github.com/git-girl/git-check) - Adds a ZSH hook to check if the origin of the current branch has changes to local in the background and sends a notification.
 - [git-clean-branch](https://github.com/gobriansteele/git-clean-branch) - Cleans up dead `git` branches.
 - [git-complete-urls](https://github.com/rapgenic/zsh-git-complete-urls) - Enhance `git` completion to include in the remotes completion (e.g. from `git clone`) any URL in the clipboard.
 - [git-extra-commands](https://github.com/unixorn/git-extra-commands) - Extra `git` helper scripts packaged as a plugin.
@@ -1404,7 +1404,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zshange_directory_recent](https://github.com/Kjeldgaard/zshange_directory_recent) - Change to a recent directory. Requires [fzf]( https://github.com/junegunn/fzf).
 - [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for [oh-my-zsh](https://ohmyz.sh).
 - [zshrc](https://github.com/freak2geek/zshrc) - Load local `.zshrc` files from your project scopes.
-- [zshrpg](https://github.com/aliervo/zshrpg) - A wrapper that fully integrates [rpg-cli](https://github.com/facundoolano/rpg-cli/) with zsh!
+- [zshrpg](https://github.com/aliervo/zshrpg) - A wrapper that fully integrates [rpg-cli](https://github.com/facundoolano/rpg-cli/) with ZSH!
 - [zsnapac](https://github.com/johnramsden/zsh-zsnapac) - Plugin for taking ZFS pre/post upgrade snapshots on Arch Linux.
 - [zsnapshot](https://github.com/zdharma-continuum/zsnapshot) - Adds command to dump the current ZSH state into a file, for later restoration by sourcing the snapshot file.
 - [ztouch](https://github.com/mjrafferty/ztouch) - Adds touchbar controls for recent history commands, directory stack, cycling between modes and user-mappable commands to the touchbar on macOS.
@@ -1455,7 +1455,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [completions (zsh-users)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 - [conda](https://github.com/conda-incubator/conda-zsh-completion) - ZSH tab completion for [conda](http://conda.pydata.org/).
 - [cpan](https://github.com/MenkeTechnologies/zsh-cpan-completion) - Adds `cpan install word<tab>` and `cpanm install <tab>` to complete remote CPAN package names.
-- [cross-compiler](https://github.com/Freed-Wu/zsh-completions-for-cross-compilers) - In cross compilations, there are many tools like x86_64-w64-mingw32-gcc, x86_64-linux-android32-clang, arm-none-eabi-gcc, etc. This plugin provides zsh completions for them.
+- [cross-compiler](https://github.com/Freed-Wu/zsh-completions-for-cross-compilers) - In cross compilations, there are many tools like x86_64-w64-mingw32-gcc, x86_64-linux-android32-clang, arm-none-eabi-gcc, etc. This plugin provides ZSH completions for them.
 - [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop).
 - [dagger](https://github.com/jygastaud/dagger-oh-my-zsh) - Completions for dagger.
 - [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
@@ -1527,7 +1527,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [miniconda](https://github.com/cmuench/zsh-miniconda) - Tab completions for [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 - [misc-completions](https://github.com/syohex/zsh-misc-completions) - Adds completions for more unix and perl commands.
 - [mooseX-App](https://github.com/perlpunk/MooseX-App-Plugin-ZshCompletion) - completion generator for Perl module `MooseX::App`.
-- [more-completions](https://github.com/MenkeTechnologies/zsh-more-completions) - 10500 zsh compsys completions!
+- [more-completions](https://github.com/MenkeTechnologies/zsh-more-completions) - 10500 ZSH compsys completions!
 - [msfvenom](https://github.com/Green-m/msfvenom-zsh-completion) - Tab completions for Metasploit.
 - [mx-honey](https://github.com/mukel/mx-honey) - Provides completions for [mx](https://github.com/graalvm/mx); a command-line tool used for the development of Graal projects. It's meant to improve the usual workflow `build unittest benchmark ...` ease discovery and provide handy aliases.
 - [myincr](https://github.com/gaojunbin/zsh-myincr/) - Speeds up pasting with autosuggest and incr.
@@ -1939,7 +1939,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [hematite](https://github.com/bigdave/hematite) - Minimalist promot that tries to show only the status decorations that are actively useful at a given time.
 - [hermit](https://github.com/liyangxia/omz-theme-hermit) - Clean and efficient theme with decorators for `git` status, current directory, and exit status of last command run.
 - [hex](https://github.com/hectorBrown/hex-zsh) - Heavily based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira), and [gruvbox](https://github.com/sbugzu/gruvbox-zsh), which in turn is based on [agnoster](https://gist.github.com/agnoster/3712874). Includes decorators for current directory, `git` status information, active python virtualenv, exit status of the last command run. Requires a Powerline-compatible font.
-- [hexagon](https://github.com/diogoazevedos/hexagon) - Minimalist zsh theme based on [geometry](https://github.com/geometry-zsh/geometry).
+- [hexagon](https://github.com/diogoazevedos/hexagon) - Minimalist ZSH theme based on [geometry](https://github.com/geometry-zsh/geometry).
 - [hfulldate](https://github.com/fusion809/zsh-theme) - Displays time, date, OS (including distro if on Linux), directory and whether running as root.
 - [hhktony](https://github.com/hhktony/hhktony.zsh-theme) - Inspired by robbyrussell theme + ssh connection status prompt.
 - [hijack](https://github.com/thegodheehee/hijack-zsh) - Includes decorators for user@hostname, current directory, and `git` information.
@@ -2255,7 +2255,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous `vim` plugin, which works well for a dark background.
 - [prompt](https://github.com/nathanblair/prompt) - A lightweight prompt consistent across `sh`, `dash`, `ash`, `zsh`, and `pwsh`. Includes `git` status decorations.
 - [prompt_j2](https://github.com/malinoskj2/prompt_j2) - Has a dynamic exit status indicator, can change to two lines dynamically to display context.
-- [promptly](https://github.com/manuelcattelan/promptly) - Lightweight, async zsh theme for a prompt(ly) experience.
+- [promptly](https://github.com/manuelcattelan/promptly) - Lightweight, async ZSH theme for a prompt(ly) experience.
 - [promptor](https://github.com/MickaelBlet/Promptor) - Powerline-inspired. Includes decorators for `git` status, username, hostname, working directory and time.
 - [promptus](https://github.com/willeccles/promptus) - Simple, minimalist and configurable shell prompt program in C which can be used to make your prompt the same on any shell. Includes exit code and working directory decorations.
 - [pronto](https://github.com/jthat/zsh-pronto) - Simple and fast theme with `git` decorations and timing information.
