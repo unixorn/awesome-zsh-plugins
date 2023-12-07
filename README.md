@@ -2029,6 +2029,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [kyuu](https://github.com/arturoalviar/kyuu-zsh-theme) - A simple theme with the first character being 九(kyuu), the number 9. The primary color is blue with a magenta accent. Includes `git` status decorations.
 - [laconic](https://github.com/Saka7/laconic.zsh-theme) - Simple theme with `git` status and current directory decorators.
 - [lagune](https://github.com/noplay/lagune) - A minimal ZSH theme.
+- [lambda (bluedragon1221)](https://github.com/bluedragon1221/zsh-lambda-prompt) - Includes decorators for current directory and `git` status.
 - [lambda (cdimascio)](https://github.com/cdimascio/lambda-zsh-theme) -  Inspired by the [lambda](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/lambda.zsh-theme) theme. Includes `git` status decorations.
 - [lambda (halfo)](https://github.com/halfo/lambda-mod-zsh-theme/) - A ZSH theme optimized for `git` users who use unicode-compatible fonts and terminal applications.
 - [lambda-blazinggit](https://github.com/zalefin/lambda-blazinggit) - Includes blazing fast, detailed `git` information. Requires [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) and the [gitstatus](https://github.com/romkatv/gitstatus) plugin.
