@@ -1240,6 +1240,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [taskbook](https://github.com/mastern2k3/taskbook-zsh-plugin) - Auto-completes task numbers for taskbook.
 - [telepresence](https://github.com/alexgervais/telepresence-ps1) - Add the current [Telepresence](https://www.telepresence.io/) connection status and context to your ZSH prompt.
 - [terminal-app](https://github.com/the8/terminal-app.zsh) - A plugin for integrating with the new macOS El Capitan Terminal.app features.
+- [terminal-aliases](https://github.com/dvir-levy/terminal-aliases) - Adds convenience aliases for [terraform] [git] and more.
 - [terminal-title](https://github.com/AnimiVulpis/zsh-terminal-title) - Adds a `set-term-title` function you can use to title terminal windows.
 - [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
 - [termux](https://github.com/zpm-zsh/termux) - Adds compatibility for [Termux](https://termux.com/).
