@@ -220,7 +220,7 @@ A ZSH micro plugin manager.
 
 ### [yazt](https://github.com/bashelled/yazt)
 
-**Yazt** is a simple ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes, with a few modifications, you can even use it in `bash`.
+**Yazt** is a simple ZSH theme manager in maintence that is compatible with nearly everything. You can use prompts in plugins, mix 'n' match two themes and with a few modifications, you can even use it in `bash`.
 
 ### [yzsh](https://github.com/yunielrc/yzsh)
 
@@ -248,7 +248,9 @@ A ZSH micro plugin manager.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting. **It is currently not being actively maintained** and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and extended.
+**Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
+
+**It is currently not being actively maintained** and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continutes to get new features.
 
 ### [zgenom](https://github.com/jandamm/zgenom)
 
@@ -391,7 +393,7 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 
 ### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
 
-Customize your .zshrc with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
+Customize your `.zshrc` with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 
