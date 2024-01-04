@@ -2198,6 +2198,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [omuse](https://github.com/ouuan/omuse-zsh-theme) - Based on Oh-My-ZSH's [amuse](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/amuse.zsh-theme). Has decorations for `git` status, time, absolute pwd, RAM usage, time used by last command, and last command exit status.
 - [ortiz (andres-ortizl)](https://github.com/andres-ortizl/ortiz-zsh-theme) - Fork of [eriner](https://github.com/zimfw/eriner) with decorations for the interval between commands and k8s context.
 - [ortiz (guezwhoz)](https://github.com/guesswhozzz/guezwhoz-zsh-theme) - Simplified fork of [eriner](https://github.com/zimfw/eriner) with `git` status, `kubectl` context and elapsed time decorations.
+- [osx2](https://github.com/RizkiIqbal02/zsh-theme-custom) - Based on archcraft. Minimalist. Includes decorator for current directory.
 - [otter](https://github.com/OtterArkar/otter-zsh/) - Otter-themed theme with `git` status, user@host and current directory decorators.
 - [outer space](https://github.com/skippyr/outer_space) - Includes decorators for user@hostname, active python virtual environment,current directory and `git` status.
 - [owczarczak](https://github.com/ThemysciraData/owczarczak.zsh-theme) - Inspired by bira, dieter and [fino-time](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fino-time.zsh-theme). Includes `venv` and vcs status decorations.
