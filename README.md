@@ -1160,6 +1160,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [rc-files](https://github.com/0b10/rc-files) - Adds shortcut functions for editing various rc files.
 - [recall](https://github.com/mango-tree/zsh-recall) - Makes using command history easier.
 - [redis](https://github.com/z-shell/redis) - Will run [redis-server](https://redis.io/) pointing it to the `redis.conf` configuration file. This can be used with the [zdharma/zredis](https://github.com/z-shell/zredis) plugin to share variables between shells.
+- [redo](https://github.com/joknarf/redo) - Adds an interactive history menu to replace `Ctrl-R` and `ESC+/`.
 - [reentry-hook](https://github.com/RobSis/zsh-reentry-hook) - Plugin that re-enters working directory if it has been removed and re-created.
 - [reload](https://github.com/aubreypwd/zsh-plugin-reload) - Adds function to quickly reload your `.zshrc`.
 - [reminder](https://github.com/AlexisBRENON/oh-my-zsh-reminder) - A plugin which displays reminders above every prompt.
