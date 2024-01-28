@@ -1189,6 +1189,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sed-sub](https://github.com/MenkeTechnologies/zsh-sed-sub) - Adds keybindings to do global search and replace on current command line.
 - [select-with-lf](https://github.com/chmouel/zsh-select-with-lf) - Lets user select files or a directory using [lf](https://github.com/gokcehan/lf).
 - [select](https://github.com/z-shell/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
+- [selector](https://github.com/joknarf/selector) - Make it easy to create selection menus.
 - [send](https://github.com/robertzk/send.zsh) - Single command to `git add`, `git commit`, and `git push` for much faster `git` workflow.
 - [sensei-git](https://github.com/aswitalski/oh-my-zsh-sensei-git-plugin) - Adds many `git` aliases and helper shell functions.
 - [senv](https://github.com/joepvd/senv) - Report presence of sensitive environment variables in the prompt
