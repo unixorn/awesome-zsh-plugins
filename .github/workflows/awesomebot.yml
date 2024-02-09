@@ -1,6 +1,9 @@
+---
 name: Check links in ZSH list
 
 on:
+  # Run daily
+  schedule: [{cron: "0 1 * * *"}]
   push:
     branches: ["*"]
   pull_request:
