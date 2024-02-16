@@ -1774,6 +1774,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [chrisandrew.cl](https://github.com/chrisandrewcl/chrisandrew.cl.zsh-theme) - Includes `git` decorations. Requires a powerline-compatible terminal font.
 - [cinnabar](https://github.com/nvillapiano/zsh-theme---cinnabar) - Shows timestamp, large line breaks, git branch and status.
 - [clarity](https://github.com/nbitmage/clarity.zsh) - Designed for for simpleness and extensibility.
+- [classic](https://github.com/freakinu/classic-zsh-theme) - A classic unix theme with decorators for username, host, current directory and `git` status.
 - [classyTouchName](https://github.com/dylanroman03/classyTouchName) - Inspired by [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh). Works better with dark backgrounds. Includes `git` status decorations.
 - [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) - Minimal, clean theme with `git` support.
 - [clean (akz92)](https://github.com/akz92/clean) - Minimalist ZSH theme.
