@@ -625,7 +625,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [bitwarden (casonadams)](https://github.com/casonadams/bitwarden-cli) - A [Bitwarden](https://bitwarden.com/download/) CLI fuzzy finder using [fzf](https://github.com/junegunn/fzf). Requires [jq](https://stedolan.github.io/jq/).
 - [bitwarden (game4move78)](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
 - [bitwarden (kalsowerus)](https://github.com/kalsowerus/zsh-bitwarden) - Opens a [fzf](https://github.com/junegunn/fzf) widget containing your [Bitwarden](https://bitwarden.com/) vault items. Upon selecting an item either the username or password will be either written into the shell or copied into the clipboard. Requires `fzf`, `jq` and `bitwarden`.
-- [blackbox](https://github.com/StackExchange/blackbox) - [Stack Exchange](https://stackexchange.com)'s toolkit for storing keys/credentials securely in a `git` repository.
+- [blackbox](https://github.com/StackExchange/blackbox) - Stack Exchange's toolkit for storing keys/credentials securely in a `git` repository.
 - [bob](https://github.com/wintermi/zsh-bob) - Plugin for [bob](https://github.com/MordechaiHadad/bob) a cross-platform and easy-to-use Neovim version manager.
 - [bofh](https://github.com/fundor333/bofh) - Adds functions to display random bofh fortunes.
 - [bol](https://github.com/ikhurramraza/bol) - Prints a random quote when you open a terminal window.
