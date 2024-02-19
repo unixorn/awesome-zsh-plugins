@@ -1935,6 +1935,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [gndx](https://github.com/gndx/gndx-zsh-theme) - Includes `git` status, hostname, directory and last command exit status decorations.
 - [gnrnzh](https://github.com/PaoloneM/gnrnzh-zsh-theme) - Customization of [gnzh.zsh-theme](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme) from oh-my-zsh.
 - [gocilla](https://github.com/goranvasic/gocilla-iterm-zsh) - Theme for iTerm 2 and ZSH. Uncludes `git` status, user@host, path and date decorators.
+- [goldenprompt](https://github.com/Goldeneye128/goldenprompt) - A simple prompt that incorporates fish-like functionality and decorators for `git` status, current directory.
 - [goprompt](https://github.com/NonLogicalDev/shell.async-goprompt) - Lightning fast. Includes decorators for truncated current directory, last command duration & exit status, vim-mode indicators, `git` information, datetime and parent process name.
 - [gops](https://github.com/noxer/gops) - Fast powerline-like prompt. Includes `git` status, current directory, root status decorations.
 - [gorchak](https://github.com/evgenygorchakov/oh-my-zsh-gorchak-theme/) - Inspired by [robbyrussell(https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell)] and [af-magic](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#af-magic). Includes decorators for `git` information and Node.js version.
