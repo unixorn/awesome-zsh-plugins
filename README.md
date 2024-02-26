@@ -1996,6 +1996,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [iamskok](https://github.com/iamskok/iamskok.zsh-theme) - Works well on a dark background.
 - [iay](https://github.com/aaqaishtyaq/iay) - A `{ba,z}sh` prompt written in Rust. Includes decorations for the current directory and `git` status.
 - [ice](https://github.com/Lenart12/ice.zsh-theme) - Very lightly modified [bureau](https://github.com/isqua/bureau) theme combined with [bira](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bira.zsh-theme).
+- [ichirei](https://github.com/ichirei/ichirei.zsh-theme) - Colorful. Includes decorators for `git` status, time & current directory. Requires a Nerd Font.
 - [icicle](https://github.com/JamesConlan96/Icicle) - Includes `git` status decorations, and whether running as root.
 - [igeek](https://github.com/Saleh7/igeek-zsh-theme) - Displays system information when starting a new terminal session.
 - [iggy](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, `git`-aware **prezto only** theme.
