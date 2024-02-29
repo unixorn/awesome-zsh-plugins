@@ -6,7 +6,7 @@ Here are some suggestions to make installing and using your plugin/theme as simp
 
 2. Only put one plugin or theme in a repository. This makes using it a simple `git clone` for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users, and simpler for other framework users as well - they won't have to specify a subdirectory, just username/reponame.
 
-3. Only oh-my-zsh sets the `${ZSH_CUSTOM}` variable. Relying on your plugin being in `${ZSH_CUSTOM}/yourPluginName` will make your plugin not work with anything but oh-my-zsh. `$(dirname $0)` will tell you what directory your plugin is actually installed in, is cross-framework and won't break when a user inevitably renames your plugin directory.
+3. Only oh-my-zsh sets the `${ZSH_CUSTOM}` variable. Relying on your plugin being in `${ZSH_CUSTOM}/yourPluginName` will make your plugin not work with anything but oh-my-zsh. The [ZSH Plugin Standard](https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html#zero-handling) has sample code to make it easy to find your plugin's home directory in a cross-framework way and won't break when a user inevitably renames your plugin directory.
 
 4. Don't assume your plugin will be checked out into a directory with the same name you gave the plugin. This is another case where `$(dirname ${0})` will work and `${ZSH_CUSTOM}/hardcoded-directory-name` will fail miserably.
 
@@ -35,4 +35,6 @@ fi
 
 10. Don't forget to add a license. A lot of people won't use anything that doesn't have a license. [choosealicense.com](https://choosealicense.com) is a good tool to help you pick one if you don't already have something specific in mind.
 
-11. Submit a PR or add an issue here at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) so your plugin is easy for users to find :-)
+11. Look at the [ZSH Plugin Standard](https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html). It has a lot of good suggestions.
+
+12. Submit a PR or add an issue here at [awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) so your plugin is easy for users to find :-)
