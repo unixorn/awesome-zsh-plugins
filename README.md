@@ -1194,6 +1194,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sealion](https://github.com/xyproto/sealion) - Allows you to set reminders that will appear in your terminal when your prompt is refreshed.
 - [search-directory-history](https://github.com/cmaahs/search-directory-history) - Allows complex search of per-directory history created using the [per-directory-history](https://github.com/jimhester/per-directory-history) plugin.
 - [sed-sub](https://github.com/MenkeTechnologies/zsh-sed-sub) - Adds keybindings to do global search and replace on current command line.
+- [select-history-skim](https://github.com/okhiroyuki/zsh-select-history-skim) Rummage through your history with [skim](https://github.com/lotabout/skim).
 - [select-with-lf](https://github.com/chmouel/zsh-select-with-lf) - Lets user select files or a directory using [lf](https://github.com/gokcehan/lf).
 - [select](https://github.com/z-shell/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
 - [selector](https://github.com/joknarf/selector) - Make it easy to create selection menus.
