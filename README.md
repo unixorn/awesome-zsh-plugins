@@ -63,6 +63,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zsh.ai](#zshai)
   - [zshing](#zshing)
   - [zsh-dot-plugin](#zsh-dot-plugin)
+  - [zsh-mgr](#zsh-mgr)
   - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
@@ -394,6 +395,14 @@ Focuses on security and hardening of local system. Requires [fzf](https://github
 ### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
 
 Customize your `.zshrc` with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
+
+### [zsh-mgr](https://github.com/amt911/zsh-mgr)
+
+A simple plugin manager for zsh. Features:
+
+- Auto-updates all plugins.
+- Auto-updates itself.
+- Configurable time interval for both auto-updaters.
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 
