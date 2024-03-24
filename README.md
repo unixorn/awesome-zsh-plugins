@@ -1891,6 +1891,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ez-pz](https://github.com/mangosmoothie/ez-pz) - Minimalist theme with `git` status decorations, inspired by [bureau](https://github.com/isqua/bureau).
 - [fall](https://github.com/jottenlips/seasonal-zshthemes) - Minimalist theme with fall icons. Includes `git` status decorations.
 - [fattyarrow](https://github.com/sohnryang/fattyarrow) - Minimal ZSH prompt that works better on dark backgrounds.
+- [fbi](https://github.com/bateman/fbi-zsh-theme) - Powerline-inspired fork of [Bureau](https://github.com/isqua/bureau) with decorators for `nvm` environment, `git` status, username@hostname and current directory.
 - [fdT2K](https://github.com/FDT2k/FDT2K-theme)- Based on [agnoster](https://github.com/agnoster/agnoster-zsh-theme), preset to include virtualenv, last command status, `nvm`, `docker machine` and `git`, `hg` and `bzr` status decorations.
 - [fe80](https://github.com/fe80/fe80.zsh-theme) - Includes decorators for `git` information, current directory, user@hostname, time, and the return code of last command when it is nonzero.
 - [feder](https://github.com/samfeder/mac-themes/blob/master/feder.zsh-theme) - Clean, simple, compatible and meaningful. Tested on Linux, Unix and Windows under ANSI colors.
