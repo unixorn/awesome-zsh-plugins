@@ -2204,6 +2204,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [nidoranarion](https://github.com/NicolaiRuckel/nidoranarion) - Colorful, shows `git` status decorations.
 - [nikitakot](https://github.com/nikitakot/nikitakot-oh-my-zsh-theme) - Small and simple oh-my-zsh theme. Shows current directory and 2 directories behind, `git` and `nodejs` status decorations.
 - [ningxia](https://github.com/wangyandong-ningxia/ningxia.zsh-theme) - Based on af-magic.
+- [ninik](https://github.com/NimaNikfar/ninik-zsh-theme) - Inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme) and [ubunly](https://github.com/alejandromume/ubunly-zsh-theme). Includes decorators for OS, current directory, python virtualenv and `git` status. Requires a Nerd Font or Powerline-patched font.
 - [niotna](https://github.com/niotna/niotna-theme) - Includes decorators for `git` status and current directory. Customizable colors.
 - [nknu](https://github.com/aanc/oh-my-zsh-nknu-theme) - A simple oh-my-zsh theme.
 - [nmaxcom](https://github.com/nmaxcom/nmaxcom-zsh-theme) - Minimalist ZSH theme with `git` status decorations.
