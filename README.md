@@ -2356,8 +2356,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ribbon](https://github.com/pyjamafish/ribbon-prompt) - Reminiscent of powerline. Includes Python `virtualenv` decorator.
 - [rigel](https://github.com/othiagos/rigel-zsh-theme/) - Includes decorators for `git` information, user@hostname and current directory.
 - [risbow](https://github.com/waddupp00/risbow) - A [risto](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/risto.zsh-theme) inspired ZSH theme with a lolcat like rainbow effect.
+- [river-dreams](https://github.com/skippyr/river-dreams) - Includes decorators for `git` information, machine's IP address, time, disk usage on `/`, current Python `venv`, current directory, root status, and the last command's exit status.
 - [river](https://github.com/revir/river-zsh-config) - Dark theme with `git` information.
-- [river_dreams](https://github.com/skippyr/river_dreams) - Includes decorators for `git` information, machine's IP address, time, disk usage on `/`, current Python `venv`, current directory, root status, and the last command's exit status.
 - [riverside](https://github.com/skippyr/riverside) - A more portable descendent of [River Dreams](https://github.com/skippyr/river_dreams) inspired by robbyrussell and kafeitu. Includes decorators for `git` status, user@hostname, current directory and the current python virtual environment.
 - [rkj-logik](https://github.com/logik93/rkj-logik.zsh-theme) - Based on omz's [rkj](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/rkj.zsh-theme). Includes decorators for user@host, current directory, time & date.
 - [rkj-with-conda](https://github.com/cain986/rkj-with-conda-zsh-theme) - Based on omz's [rkj](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/rkj.zsh-theme) and adds conda environment and `git` status decorators.
