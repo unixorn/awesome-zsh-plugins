@@ -46,7 +46,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgem](#zgem)
   - [zgen](#zgen)
   - [zgenom](#zgenom)
-  - [ZI](#zi)
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
@@ -262,12 +261,6 @@ To keep loading fast during new terminal sessions, `zgenom` generates a static `
 This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during every shell session's startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
 
 Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git clone` plugins for you when you add them to your plugin list.
-
-### [ZI](https://github.com/z-shell/zi)
-
-**ZI** is a Swiss Army Knife for ZSH. Formerly known as `zplugin` and`zinit`. ZI - [Wiki Pages](https://z-shell.pages.dev/).
-
-Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
