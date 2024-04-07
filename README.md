@@ -16,6 +16,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Disclaimer](#disclaimer)
 - [Frameworks](#frameworks)
   - [alf](#alf)
   - [ansible-role-zsh](#ansible-role-zsh)
@@ -104,6 +105,20 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 *Please read the [Contributing Guidelines](Contributing.md) before contributing.*
+## Disclaimer
+
+While I have done my best to not add entries with embedded malicious code, I don't have the time to sift through the source of every entry in the list.
+
+THIS LIST IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Frameworks
 
