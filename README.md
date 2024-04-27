@@ -16,6 +16,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
+- [Disclaimer](#disclaimer)
 - [Frameworks](#frameworks)
   - [alf](#alf)
   - [ansible-role-zsh](#ansible-role-zsh)
@@ -46,7 +47,6 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgem](#zgem)
   - [zgen](#zgen)
   - [zgenom](#zgenom)
-  - [ZI](#zi)
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
@@ -105,6 +105,20 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 *Please read the [Contributing Guidelines](Contributing.md) before contributing.*
+## Disclaimer
+
+While I have done my best to not add entries with embedded malicious code, I don't have the time to sift through the source of every entry in the list.
+
+THIS LIST IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Frameworks
 
@@ -262,12 +276,6 @@ To keep loading fast during new terminal sessions, `zgenom` generates a static `
 This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during every shell session's startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
 
 Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git clone` plugins for you when you add them to your plugin list.
-
-### [ZI](https://github.com/z-shell/zi)
-
-**ZI** is a Swiss Army Knife for ZSH. Formerly known as `zplugin` and`zinit`. ZI - [Wiki Pages](https://z-shell.pages.dev/).
-
-Bonus: you can use [zi-console](https://github.com/z-shell/zi-console) to view and change the state of the ZSH session (e.g.: list and unload plugins) and to delete the plugins and snippets from the disk.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 
@@ -1970,6 +1978,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [gorchak](https://github.com/evgenygorchakov/oh-my-zsh-gorchak-theme/) - Inspired by [robbyrussell(https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell)] and [af-magic](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#af-magic). Includes decorators for `git` information and Node.js version.
 - [grayt](https://github.com/evanthegrayt/grayt-zsh-theme) - Simple yet informative theme that includes `git` decorations and the return status of the last command.
 - [greencastle](https://github.com/GustavGroenborg/greencastle-zsh-theme/) - Minimalistic theme, that supports really, **really**, long branch names, without severely truncating the prompt. The theme is inspired by the [jonathan theme](https://github.com/thlorenz/oh-my-zsh/blob/master/themes/jonathan.zsh-theme) and the [robby russel theme](https://github.com/thlorenz/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme). Includes decorators for current directory, `git` information and the exit status of the last command run.
+- [greenclean](https://github.com/dmicha16/greenclean) - Fork of [akz92/clean](https://github.com/akz92/clean) with a bit more green and permanent clock on the right.
 - [griffin](https://github.com/GriffinLedingham/griffin.zsh-theme) - Minimalist, includes `git` status decorations.
 - [grs](https://github.com/gersontpc/zsh-theme-grs) - Includes `git` status, user id and working directory decorators.
 - [gruvbox (hgaiser)](https://github.com/hgaiser/gruvbox-zsh) - Sets colors from the [gruvbox](https://github.com/morhetz/gruvbox) `vim` plugin.
