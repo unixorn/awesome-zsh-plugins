@@ -808,6 +808,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
 - [firebase (Seqi)](https://github.com/Seqi/firebase-zsh) - Display the current working project or project alias when in a Firebase project directory or subdirectory.
 - [firebase (rmrs)](https://github.com/rmrs/firebase-zsh) - Add an indicator in the prompt that you're in a directory with a `firebase.json` file (aka "firebase project").
+- [firmine](https://github.com/GNUWood/firmine) - Includes decorators for user@hostname, date & time, current directory and [Kaomoji](https://en.wikipedia.org/wiki/Kaomoji) icons for last command exit status.
 - [fixnumpad-osx](https://github.com/zackintosh/fixnumpad-osx.plugin.zsh/blob/master/fixnumpad-osx.plugin.zsh) - Enables numpad keys of Apple keyboards to be recognized in ZSH.
 - [flow-plugin](https://github.com/sandstorm/oh-my-zsh-flow-plugin) - This plugin makes the `flow` command available inside every subdirectory of the TYPO3 Flow distribution.
 - [fnm (dominik-schwabe)](https://github.com/dominik-schwabe/zsh-fnm) - Installs and loads the [Fast Node Manager (fnm)](https://github.com/Schniz/fnm) if it is missing.
@@ -973,6 +974,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
 - [kill-node](https://github.com/vmattos/kill-node) - ZSH plugin for murdering `node` process families.
 - [kitsunebook](https://github.com/d12frosted/kitsunebook.plugin.zsh) - KitsuneBook plugin for [oh-my-zsh](https://ohmyz.sh).
+- [kiwi](https://github.com/fruitydog/kiwi.zsh-theme) - Dog-themed, includes `git` status and last command exit status decorators.
 - [konsole-theme-changer](https://github.com/rocknrollMarc/zsh-konsole-theme-changer) - Toggle konsole theme from ZSH.
 - [kube-aliases](https://github.com/Dbz/kube-aliases) - Adds functions and aliases to make working with `kubectl` more pleasant.
 - [kube-ps1](https://github.com/jonmosco/kube-ps1) - ZSH plugin for `kubectl` that adds current context and namespace.
@@ -1648,6 +1650,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [yarn](https://github.com/g-plane/zsh-yarn-autocompletions) - Add autocompletions for `yarn add`, `yarn remove`, `yarn upgrade`, `yarn why` and `yarn run`.
 - [yt-dlp](https://github.com/clavelm/yt-dlp-omz-plugin) - Tab completions for [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 - [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses `argparse` and it will write a ZSH completion to your current directory.
+- [zoxide](https://github.com/jnooree/zoxide-zsh-completion) - Tab completions for [zoxide](https://github.com/ajeetdsouza/zoxide).
 
 ## Themes
 
