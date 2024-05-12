@@ -790,7 +790,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [expand-ealias](https://github.com/zigius/expand-ealias.plugin.zsh) - Expand specific aliases with space.
 - [expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases, incorrect spellings and phrases, globs, history expansion and $parameters with the spacebar key.
 - [expander](https://github.com/ianthehenry/zsh-expander) - A `zle` widget that allows you to write custom expanders and select them with [fzf](https://github.com/junegunn/fzf).
-- [explain-shell (brokentoaster)](https://github.com/brokentoaster/zsh-explainshell) - Uses [lynx](https://lynx.browser.org/) to look up the current command line on [explainshell.com](https://github.com/brokentoaster/zsh-explainshell/blob/main/explain.com).
+- [explain-shell (brokentoaster)](https://github.com/brokentoaster/zsh-explainshell) - Uses [lynx](https://lynx.browser.org/) to look up the current command line on [explainshell.com](https://explainshell.com).
 - [explain-shell (gmatheu)](https://github.com/gmatheu/shell-plugins) - Opens commands on [explainshell.com](https://explainshell.com).
 - [extend-history](https://github.com/xav-b/zsh-extend-history) - Extends command history by adding the exit code for each command in the history.
 - [ez-cmd](https://github.com/akgarhwal/ez-cmd) - Simplifies and streamlines common command-line tasks by providing easy-to-use shortcuts and aliases.
@@ -898,7 +898,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [gitstatus](https://github.com/Insert-Creative-Name-Here/gitstatus.zsh) -  Makes it easy to show your `git` status in your prompt.
 - [gitsync](https://github.com/washtubs/gitsync) - ZSH plugin to improve workflows for one person developing on the same repository on multiple machines.
 - [goenv (bbenne10)](https://github.com/bbenne10/goenv) - Manage `$GOPATH` similarly to Python's virtualenvwrapper.
-- [goenv (cda0)](https://github.com/CDA0/zsh-goenv/blob/master/zsh-goenv.plugin.zsh) - Plugin for installing, updating and loading `goenv`.
+- [goenv (cda0)](https://github.com/CDA0/zsh-goenv/) - Plugin for installing, updating and loading `goenv`.
 - [goenv (heyvito)](https://github.com/heyvito/goenv.zsh) - Automatically reads `.goenv` files in the current directory and sets `GOPRIVATE` environment variables.
 - [going_places](https://github.com/or17191/going_places) - A plugin that helps to use, create and maintain a list of shell locations.
 - [golang](https://github.com/wintermi/zsh-golang) - Adds tooling for the Go programming language toolchain.
@@ -1188,7 +1188,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ranger (niziL)](https://github.com/NiziL/ranger.plugin.zsh) - provide prompt element for [ranger](https://github.com/ranger/ranger). Shows current `RANGER_LEVEL`, displaying nothing when the environment variable is unset, something when it is equals to 1, and something else when it is greater than 1.
 - [ranger (rc2dev)](https://github.com/rc2dev/ranger-zshz) - Integrates [zsh-z](https://github.com/agkozak/zsh-z) into [ranger](https://github.com/ranger/ranger).
 - [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
-- [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin/blob/main/RaspberryPi4TemperaturePromptPlugin.zsh) - Puts the Raspberry Pi temperature into a spaceship prompt segment
+- [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin) - Puts the Raspberry Pi temperature into a spaceship prompt segment
 - [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
 - [rbenv (elliottcable)](https://github.com/ELLIOTTCABLE/rbenv.plugin.zsh) - A faster fork of the `rbenv` plugin from [oh-my-zsh](https://ohmyz.sh/).
 - [rbenv (jsahlen)](https://github.com/jsahlen/rbenv.plugin.zsh) - Variant based on the original [oh-my-zsh](https://ohmyz.sh/) `rbenv` plugin.
