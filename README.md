@@ -839,7 +839,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf-tools](https://github.com/happycod3r/fzf-tools) - Provides functions, aliases and key-bindings for commands such as `alias`, `find`, `ls`, `man`, `printenv` that are designed to enhance your command-line workflow by making them to default to filtering through [fzf](https://github.com/junegunn/fzf), allowing you to quickly find files, search & run commands from history, run scripts of many supported types, browse `git` commits, and more.
 - [fzf-utils](https://github.com/redxtech/zsh-fzf-utils) - Provides functions to kill proceses and find in path with [fzf](https://github.com/junegunn/fzf).
 - [fzf-widgets](https://github.com/ytet5uy4/fzf-widgets) - Adds some ZLE widgets for [fzf](https://github.com/junegunn/fzf).
-- [fzf-z](https://github.com/andrewferrier/fzf-z) - Brings together the `z` plugin and [fzf](https://github.com/junegunn/fzf)- to allow you to easily browse recently used directories at any point on the command line.
 - [fzfsh](https://github.com/ethan605/fzfsh) - Add [fzf](https://github.com/junegunn/fzf) plugins for `chezmoi`, `docker`, `git`, `kubectl` and `pass`.
 - [fzy](https://github.com/aperezdc/zsh-fzy) - Plugin that uses [fzy](https://github.com/jhawthorn/fzy) for certain fuzzy matching operations.
 - [gcloud-project](https://github.com/avivl/gcloud-project) - Easy selection of Google Cloud Projects.
