@@ -265,7 +265,7 @@ A ZSH micro plugin manager.
 
 **Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
 
-**It is currently not being actively maintained** and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continutes to get new features.
+**It is currently not being actively maintained** and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continues to get new features.
 
 ### [zgenom](https://github.com/jandamm/zgenom)
 
@@ -1283,7 +1283,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [system-clipboard](https://github.com/kutsan/zsh-system-clipboard) - Adds key bindings support for ZLE (Zsh Line Editor) clipboard operations for `vi` emulation keymaps. It works under Linux, macOS and Android (via Termux).
 - [systemd](https://github.com/le0me55i/zsh-systemd) - Adds many aliases for `systemd`.
 - [t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
-- [tab-title](https://github.com/trystan2k/zsh-tab-title) - Set the terminal tab title according to current directory or running process. Forked from [termsupport.zsh](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/termsupport.zsh)
+- [tab-title (p1r473)](https://github.com/p1r473/tab-title/) - Rename [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://www.gnu.org/software/screen/manual/screen.html) panes and windows.
+- [tab-title (trystan2k)](https://github.com/trystan2k/zsh-tab-title) - Set the terminal tab title according to current directory or running process. Forked from [termsupport.zsh](https://github.com/ohmyzsh/ohmyzsh/blob/master/lib/termsupport.zsh).
 - [tailf](https://github.com/rummik/zsh-tailf) - Adds `tailf` function with prefixed newlines instead of trailing newlines.
 - [take](https://github.com/amyreese/zsh-take) - Replicates `take` from [oh-my-zsh](https://ohmyz.sh/).
 - [taskbook](https://github.com/mastern2k3/taskbook-zsh-plugin) - Auto-completes task numbers for taskbook.
