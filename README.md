@@ -2209,6 +2209,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [minimal (glsorre)](https://github.com/glsorre/minimal/) - A minimal asynchronous ZSH theme optimized for use with the [Fira Code](https://github.com/tonsky/FiraCode) font and the [Solarized Light](https://ethanschoonover.com/solarized) terminal theme.
 - [minimal (subnixr)](https://github.com/subnixr/minimal) - Minimal yet feature-rich theme.
 - [minimal-improved](https://github.com/gdsrosa/minimal_improved) - Theme for dark terminals, includes `git` decorations in the right-side prompt.
+- [minimal-os](https://github.com/nkurata/zsh-theme) - A minimalist prompt with helpful `git` status and system-specific decorators.
 - [minimal-terminal](https://github.com/Lissy93/minimal-terminal-prompt) - Includes decorators for username@host, current directory, `git` information and the last command's exit code.
 - [minimal2](https://github.com/PatTheMav/minimal2) - A minimal and extensible ZSH theme. Forked from [subnixr's original](https://github.com/subnixr/minimal) and adapted for [Zimfw](https://github.com/zimfw/zimfw).
 - [minimalx](https://github.com/lknix/zsh-theme-minimalx) - Inspired by kolo theme from oh-my-zsh.
@@ -2537,6 +2538,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [termuxer](https://github.com/patrick330602/termuxer) - Theme inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) and linuxer.
 - [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on [gallifrey](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gallifrey.zsh-theme).
 - [theme-line](https://github.com/yw9381/oh-my-zsh_theme_line) - Colorful theme with `git` status.
+- [themer](https://github.com/MrRedacted/zsh-themer) - Includes multiple color scheme options, with `git` status decorators. There are also multiple icons to choose from within the `.zsh-theme` file. Based on [strug](https://github.com/triplepointfive/oh-my-zsh/blob/master/themes/strug.zsh-theme).
 - [themeraf](https://github.com/oliver-svrcek/Themeraf) - Has decorators for username, last two directories in working directory path, `git` status, timestamp, last exit status and also name of active virtual environment.
 - [theozera](https://github.com/theogandara/zsh-theme) - Includes decorators for `git` status, a truncated current directory, and the exit status of the last command run.
 - [theta-async](https://github.com/jesec/zsh_theme_theta-async) - Async version of [theta](https://github.com/eendroroy/theta). Includes vcs status information.
