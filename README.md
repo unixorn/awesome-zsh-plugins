@@ -2227,6 +2227,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [molokai-powerline](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 - [momoyo](https://github.com/momoyo-droid/momoyo-zsh-theme) - Reminiscent of powerline. Includes decorations for `git` status, username, and working directory.
 - [monsi](https://github.com/rafa-wine/monsi_oh-my-zsh_theme) - Includes `git` status, last command exit status and current directory decorators.
+- [moon-lite](https://github.com/anotherlusitano/moon-light) - Minimalist. Includes decorators for `git` status, current directory and the exit status of the last command run.
 - [moonline](https://github.com/kagamilove0707/moonline.zsh) - Minimal but easily extensible prompt.
 - [moux](https://github.com/gagbo/moux) - Works well with a dark terminal background, includes `git` decorations in `RPROMPT`.
 - [msys2](https://github.com/water-logger/MSYS2-Theme/) - Inspired by MSYS2. Includes decorators for user@host, `git` status and the current directory.
