@@ -1024,6 +1024,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets its data from [lipsum.com](https://www.lipsum.com).
 - [ls (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-ls) - Adds some more aliases for `ls`.
 - [ls (zpm-zsh)](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
+- [lsd (tankeryang)](https://github.com/tankeryang/zsh-lsd) - Replaces `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (z-shell)](https://github.com/z-shell/zsh-lsd) - Replaces `ls` with [lsd](https://github.com/Peltoche/lsd).
 - [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
