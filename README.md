@@ -2223,6 +2223,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [minimal-terminal](https://github.com/Lissy93/minimal-terminal-prompt) - Includes decorators for username@host, current directory, `git` information and the last command's exit code.
 - [minimal2](https://github.com/PatTheMav/minimal2) - A minimal and extensible ZSH theme. Forked from [subnixr's original](https://github.com/subnixr/minimal) and adapted for [Zimfw](https://github.com/zimfw/zimfw).
 - [minimalx](https://github.com/lknix/zsh-theme-minimalx) - Inspired by kolo theme from oh-my-zsh.
+- [mint](https://github.com/FalconLee1011/mint-zsh-theme) - Includes decorators for current directory, whether running on a laptop or a desktop, and `git` status.
 - [mira](https://github.com/mbStavola/mira) - A modified [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira) with time info and a simplified start prompt.
 - [mirage](https://github.com/robin-pfeiffer/ohmyzsh-mirage-theme/) - Includes prompt decorations for `git` status, last command exit code, whether `sudo` timestamp file is present and current active Python virtual environment.
 - [miramare](https://github.com/franbach/oh-my-deepin-miramare) - Includes `git` status decorations. Works best with [Deepin Terminal](https://www.deepin.org/en/original/deepin-terminal/).
