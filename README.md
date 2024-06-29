@@ -236,8 +236,7 @@ A ZSH micro plugin manager.
 
 ### [x-cmd](https://github.com/x-cmd/x-cmd)
 
-**x-cmd** is a toolset implemented using posix shell and awk.
-It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
+**x-cmd** is a toolset implemented using posix shell and awk.It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
 
 Tools Provided by x-cmd:
   - [Wrappers for Common Commands (e.g., cd, ip, ps, tar, apt, brew)](https://x-cmd.com/mod/zuz): These wrapped commands are more intelligent and easier to use compared to the native commands.
