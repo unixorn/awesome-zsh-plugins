@@ -38,6 +38,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [shplug](#shplug)
   - [Toasty](#toasty)
   - [uz](#uz)
+  - [x-cmd](#x-cmd)
   - [yazt](#yazt)
   - [yzsh](#yzsh)
   - [zap](#zap)
@@ -232,6 +233,17 @@ An easy solution for managing your shell environments. Works with both `bash` an
 ### [uz](https://github.com/maxrodrigo/uz)
 
 A ZSH micro plugin manager.
+
+### [x-cmd](https://github.com/x-cmd/x-cmd)
+
+**x-cmd** is a toolset implemented using posix shell and awk.
+It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
+
+Tools Provided by x-cmd:
+  - [Wrappers for Common Commands (e.g., cd, ip, ps, tar, apt, brew)](https://x-cmd.com/mod/zuz): These wrapped commands are more intelligent and easier to use compared to the native commands.
+  - [Lightweight Package Management Tool](https://x-cmd.com/pkg/): We have implemented a lightweight package management tool using shell and awk. Through it, you can quickly obtain most common software tools, such as jq, 7za, bat, nvim, python, node, go, etc.
+  - [CLI for Useful Websites (e.g., github.com, cht.sh)](https://x-cmd.com/mod/cht): We have wrapped their APIs using shell and awk for daily use and to obtain corresponding services in scripts.
+  - [AI Tools](https://x-cmd.com/mod/openai): We provide CLIs for ChatGPT, Gemini, Jina.ai, etc., and have wrapped corresponding shortcut commands for different application scenarios, such as `@gemini` for chatting with Gemini AI and `@zh` for using AI to translate specified content or command results.
 
 ### [yazt](https://github.com/bashelled/yazt)
 
