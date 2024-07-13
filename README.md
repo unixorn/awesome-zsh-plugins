@@ -2462,6 +2462,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [serious](https://github.com/oliversandli/serious-zsh-theme) - Includes command exit status and `git` status decorations.
 - [seti_UX](https://github.com/ginfuru/iTerm-Seti_UX) - A simple oh-my-zsh-compatible theme with a corresponding iTerm 2 color scheme.
 - [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
+- [shades of purple](https://github.com/nmcc1212/shades-of-purple-windows-terminal/) - Purple theme for Windows terminal that is reminiscent of [powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme).
 - [shadow](https://github.com/agentshadow/shadow-zsh-theme) - Includes `git` status, directory, host name, username and time decorations.
 - [shayan](https://github.com/shayanh/shayan-zsh-theme) - Simple theme with `git` status decorations.
 - [shelby](https://github.com/athul/shelby) - Fast, lightweight and minimal prompt written in pure `golang`. Includes decorations for last command exit status, `git` status and the current working directory.
