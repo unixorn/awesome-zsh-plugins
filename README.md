@@ -1620,6 +1620,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [nx](https://github.com/jscutlery/nx-completion) - Completions for [nx](https://nx.dev). Requires [`jq`](https://stedolan.github.io/jq/).
 - [oh-my-update](https://github.com/utox39/oh-my-update) - Updates plugins in [oh-my-zsh](https://ohmyz.sh/).
 - [okta](https://github.com/sirhc/okta.plugin.zsh) - Provides command line completions for the [`aws-okta`](https://github.com/segmentio/aws-okta) and [okta-awscli](https://github.com/jmhale/okta-awscli) commands.
+- [ollama](https://github.com/Katrovsky/zsh-ollama-completion) - Tab command completion for Ollama AI models management.
 - [op](https://github.com/sirhc/op.plugin.zsh) - Tab completions for [1Password](https://1password.com/)'s [op](https://1password.com/downloads/command-line/) command line tool.
 - [openstack](https://github.com/florentinl/openstack-zsh-plugin) - Add functions and aliases for managing [OpenStack](https://www.openstack.org/).
 - [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) - Tab completions for some macOS-specific commands like `launchctl`.
