@@ -2572,6 +2572,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [tepig-ys](https://github.com/thingerpig/tepig-ys.zsh-theme) - Includes `git` status decorations and conda/virtualenv status.
 - [termux](https://github.com/rooted-cyber/Termux-zsh-theme) - Minimalist theme.
 - [termuxer](https://github.com/patrick330602/termuxer) - Theme inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) and linuxer.
+- [thayne](https://github.com/tmccombs/thayne.zsh-theme) - Includes decorators for exit status of last command, time to run if > 1 second, current time, current directory and `git` status. Requires a Nerd Font.
 - [the-time-lord](https://github.com/jhwhite/the-time-lord) - A theme based on [gallifrey](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gallifrey.zsh-theme).
 - [theme-line](https://github.com/yw9381/oh-my-zsh_theme_line) - Colorful theme with `git` status.
 - [themer](https://github.com/MrRedacted/zsh-themer) - Includes multiple color scheme options, with `git` status decorators. There are also multiple icons to choose from within the `.zsh-theme` file. Based on [strug](https://github.com/triplepointfive/oh-my-zsh/blob/master/themes/strug.zsh-theme).
