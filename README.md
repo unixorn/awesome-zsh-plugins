@@ -2111,6 +2111,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jam](https://github.com/jesusangelm/Jam-Zsh-Theme) - Optimized for dark backgrounds, includes `git` status and `rvm` status.
 - [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 - [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the `ys` theme.
+- [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Includes decorators for user@host, time, current directory and `git` status. Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).
 - [jerome](https://github.com/jeromescuggs/jerome-theme) - Colorful theme based on the [dieter](https://github.com/jeromescuggs/jerome-theme) theme, but with a yellow hostname. Includes `git` decorations.
 - [jhleeeme](https://github.com/JHLeeeMe/JHLeeeMe-Zsh-Theme) - Includes `git` and python virtualenv status decorations, user, pwd,time and system name.
 - [jnooree](https://github.com/jnooree/jnooree-zsh-theme) - Minimalist theme with colors adapted from the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme. Includes decorators for `git` status, whether running as non-default user and current working directory.
