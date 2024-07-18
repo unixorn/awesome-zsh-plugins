@@ -812,6 +812,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [eza (mohamedelashri)](https://github.com/MohamedElashri/eza-zsh) - Adds aliases for [eza](https://github.com/eza-community/eza), a modern replacement for `ls`.
 - [eza (twopizza9621536)](https://github.com/twopizza9621536/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
 - [eza (z-shell)](https://github.com/z-shell/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
+- [eza-ls](https://github.com/birdhackor/zsh-eza-ls-plugin) - Adds aliases allowing [eza(https://github.com/eza-community/eza)], to act as a drop-in replacement for `ls` and `tree`.
 - [f-shortcuts](https://github.com/zpm-zsh/f-shortcuts) - Makes a shortcuts toolbar using `F1` to `F12` keys.
 - [fancy-ctrl-z](https://github.com/mdumitru/fancy-ctrl-z) - Broken out version of the version in [oh-my-zsh](http://ohmyz.sh/) so users of other frameworks don't have to import all of [oh-my-zsh](https://ohmyz.sh).
 - [fast-alias-tips](https://github.com/decayofmind/zsh-fast-alias-tips) - Helps remember the aliases you defined and forgot about. Ported from [djui/alias-tips](https://github.com/djui/alias-tips). Active fork of [sei40kr/zsh-fast-alias-tips](https://github.com/sei40kr/zsh-fast-alias-tips).
@@ -2674,7 +2675,8 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [zemoji](https://github.com/therzka/zemoji) - Based on [wild-cherry]( https://github.com/mashaal/wild-cherry/tree/master/zsh). Includes exit status, `virtualenv`, `nvm`, `rvm` and `git` status decorations.
 - [zen](https://github.com/cybardev/zen.zsh) - A minimalist theme for `*NIX` systems. Includes decorators for execution time of last command run, curreent directory and vcs status information.
 - [zenith](https://github.com/waki285/Zenith) - Minimalist. Includes decorators for username, current directory and `git` status.
-- [zero](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
+- [zero (arlimus)](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
+- [zero (shirozuki)](https://github.com/shirozuki/zero-zsh-theme) - Minimalistic prompt with decorators for `git` status, current directory, exit status and time to execute of last command run.
 - [zeroastro](https://github.com/zeroastro/zeroastro-zsh-theme) - Works best on dark backgrounds, includes `git` status decorations.
 - [zerocake](https://github.com/ZeroPoke/ZeroCake.zsh-theme) - Works better on dark brackgrounds.
 - [zest](https://github.com/hash-bang/zsh-theme-zest) - A functional theme for ZSH. Influenced by [zsh2000](https://github.com/consolemaverick/zsh2000), [agnoster](https://gist.github.com/agnoster/3712874) and [powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme) themes.
