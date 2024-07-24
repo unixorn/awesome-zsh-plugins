@@ -1411,6 +1411,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [web-search (anant-mishra1729)](https://github.com/Anant-mishra1729/web-search/) - Adds aliases for searching with Google, Bing, Wiki, YouTube, Yahoo, Duck Duck Go, GitHub, Stack Overflow and other services straight from the command line.
 - [web-search (sinetoami)](https://github.com/sinetoami/web-search) - Add commands to run bing, google, yahoo, & duckduckgo searches directly from the CLI.
 - [web-search (yabanahano)](https://github.com/Yabanahano/web-search) - Adds aliases for searching with Google, Wiki, Bing, YouTube and other popular services.
+- [welcome-banner](https://github.com/joshuadanpeterson/zsh-welcome-banner) - Displays a login banner with a random quote.
 - [which-jspm](https://github.com/zkuzmic/which-jspm/) - Adds `npm`, `yarn` or `pnpm` to the end of your prompt depending on what lockfile(s) it detects in the current directory.
 - [whobrokemycode](https://github.com/cameronbroe/whobrokemycode) - Highlight where a particular line was last changed in a file using `git blame`.
 - [window-title](https://github.com/olets/zsh-window-title) - Adds informative tiles to your terminal windows.
