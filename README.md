@@ -2451,6 +2451,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [ribbon](https://github.com/pyjamafish/ribbon-prompt) - Reminiscent of powerline. Includes Python `virtualenv` decorator.
 - [rigel](https://github.com/othiagos/rigel-zsh-theme/) - Includes decorators for `git` information, user@hostname and current directory.
 - [risbow](https://github.com/waddupp00/risbow) - A [risto](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/risto.zsh-theme) inspired ZSH theme with a lolcat like rainbow effect.
+- [ritz](https://github.com/Ritzier/ritz.zsh-theme) - Includes decorators for time, current directory, `git` status, exit status and time used for last command run.
 - [river-dreams](https://github.com/skippyr/river-dreams) - Includes decorators for `git` information, machine's IP address, time, disk usage on `/`, current Python `venv`, current directory, root status, and the last command's exit status.
 - [river](https://github.com/revir/river-zsh-config) - Dark theme with `git` information.
 - [riverside](https://github.com/skippyr/riverside) - A more portable descendent of [River Dreams](https://github.com/skippyr/river_dreams) inspired by robbyrussell and kafeitu. Includes decorators for `git` status, user@hostname, current directory and the current python virtual environment.
