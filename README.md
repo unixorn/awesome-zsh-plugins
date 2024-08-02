@@ -155,6 +155,8 @@ It is fast because it can do things concurrently, and generates an ultra-fast st
 
 It is written natively in ZSH, is well tested, and picks up where [Antibody](https://github.com/getantibody/antibody) left off.
 
+[use-omz](https://github.com/getantidote/use-omz) enables easy use of [Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh) with antidote.
+
 ### [antigen-hs](https://github.com/Tarrasch/antigen-hs)
 
 **antigen-hs** is a replacement for [antigen](https://github.com/zsh-users/antigen) optimized for a low overhead when starting up a `zsh` session. It will automatically clone plugins for you.
