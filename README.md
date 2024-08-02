@@ -948,6 +948,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [hist-delete](https://github.com/p1r473/zsh-hist-delete-fzf/) - Delete history items from zsh's [fzf](https://github.com/junegunn/fzf) Ctrl+R history search.
 - [hist](https://github.com/marlonrichert/zsh-hist) - Edit your history in ZSH, without ever leaving the command line.
 - [histdb](https://github.com/larkery/zsh-histdb) - Stores your history in an SQLite database. Can be integrated with [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions).
+- [historikeeper](https://github.com/stiliajohny/historikeeper) - Captures history in a database.
 - [history-enquirer](https://github.com/zthxxx/zsh-history-enquirer) - Enhances history search with more interaction and a multiline selection menu. Requires Node.js.
 - [history-filter](https://github.com/MichaelAquilina/zsh-history-filter) - Allows you to specify patterns that will automatically exclude commands from being inserted into your permanent history. Particularly useful for preventing secrets being written.
 - [history-here](https://github.com/leonjza/history-here) - Binds `^G` to quickly toggle the current shell history file location.
