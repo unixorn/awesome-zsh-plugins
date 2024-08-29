@@ -851,8 +851,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf-marks](https://github.com/urbainvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in `bash` and `zsh`, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
 - [fzf-packagemanager](https://github.com/goarano/zsh-fzf-packagemanager) - Adds commands for installing tools via various package managers using [fzf](https://github.com/junegunn/fzf). Supports `apt`, `brew` & `dnf`.
 - [fzf-pass](https://github.com/smeagol74/zsh-fzf-pass) - Better handling of passwords using [fzf](https://github.com/junegunn/fzf) and [pass](https://www.passwordstore.org/).
-- [fzf-plugin (atlas34)](https://github.com/Atlas34/fzf-plugin) - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)'s `fzf` plugin extracted so it can be used easily with other plugin managers.
-- [fzf-plugin (hwk929)](https://github.com/hwk929/zsh-fzf) - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)'s `fzf` plugin extracted so it can be used easily with other plugin managers.
+- [fzf-plugin](https://github.com/Atlas34/fzf-plugin) - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)'s `fzf` plugin extracted so it can be used easily with other plugin managers.
 - [fzf-prezto](https://github.com/lildude/fzf-prezto) - Prezto plugin that finds where [fzf](https://github.com/junegunn/fzf) has been installed and enables its auto-completion and key-bindings. This plugin works as a Prezto `zstyle` configuration option.
 - [fzf-tab-widgets](https://github.com/tom-power/fzf-tab-widgets) - Adds widgets for [fzf-tab](https://github.com/Aloxaf/fzf-tab).
 - [fzf-tab](https://github.com/Aloxaf/fzf-tab) - Replace ZSH's default completion selection menu with [fzf](https://github.com/junegunn/fzf).
@@ -2109,7 +2108,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [icicle](https://github.com/JamesConlan96/Icicle) - Includes `git` status decorations, and whether running as root.
 - [igeek](https://github.com/Saleh7/igeek-zsh-theme) - Displays system information when starting a new terminal session.
 - [iggy](https://github.com/eugenk/zsh-prompt-iggy) - A super happy awesome Powerline-style, `git`-aware **prezto only** theme.
-- [igorsilva](https://github.com/igor9silva/zsh-theme) - Shows current directory, customizable delimiter, current branch, and `git` status decorators.
+- [igorsilva](https://github.com/igor9silva/igorsilva-zsh-theme) - Shows current directory, customizable delimiter, current branch, and `git` status decorators.
 - [iguanidae](https://github.com/btd1337/iguanidae-zsh-theme) - Includes `git`, `nvm` and `venv` decorations.
 - [illusion](https://github.com/shabane/illusion) - Includes username, current working directory, `git` status and last command status decorators.
 - [illuvia-gitster](https://github.com/lopezator/lluvia-gitster) - Fork of [ergenekonyigit/lambda-gitster](https://github.com/ergenekonyigit/lambda-gitster) with spacing improvements and an updated icon. Includes `git` status information.
@@ -2126,6 +2125,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [jacobin](https://github.com/Jsharkc/jacobin-zsh-theme) - Based on refined and ys themes, includes `git` status decorations. Includes an optional iterm2 color scheme.
 - [jake](https://github.com/JakeHuneau/Jake.zsh-theme) - Shows the time, the current directory, and `git` branch information including the branch name and a red + if the branch has un-pushed changes.
 - [jam](https://github.com/jesusangelm/Jam-Zsh-Theme) - Optimized for dark backgrounds, includes `git` status and `rvm` status.
+- [jax](https://github.com/jhammerberg/jax-theme) Reminiscent of Powerline. Includes decorators for current directory and current user.
 - [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 - [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the `ys` theme.
 - [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Includes decorators for user@host, time, current directory and `git` status. Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).
@@ -2195,6 +2195,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [leverage](https://github.com/gschnall/leverage) - Based on [minimal](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/minimal.zsh-theme), uses colors, and an extra `¬` character, to better distinguish the command line prompt from your output.
 - [lewis](https://github.com/lewisflude/oh-my-lewis) - Black, white and red theme. Shows `git` status information.
 - [lgbtq](https://github.com/PhoenixSmaug/zsh-lgbtq-themes) - A collection of lgbtq themes for your terminal.
+- [light](https://github.com/InfinityUniverse0/light-zsh) - Works best on a light background. Includes decorators for username@hostname, `git` status and the current directory.
 - [lightbulb](https://github.com/lightbulb703/lightbulb-zsh-theme) - Includes decorations for kernel, OS version, uptime and `git`.
 - [lighthaus](https://github.com/lighthaus-theme/zsh) - A prompt that compliments the [Lighthaus](https://github.com/lighthaus-theme/lighthaus) theme. Shows `git` information, GitHub/GitLab logo and shows changes as and when they occur.
 - [lila](https://github.com/raphaelivan/lila-zsh-theme) - Minimalist theme, best on a dark terminal background.
@@ -2502,7 +2503,6 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [senpai](https://github.com/hiroru/senpai-zsh) - Clean prompt theme for Devops. Includes decorators for `git` status, the kubernetes context, AWS profile, GCP project and Azure active cloud.
 - [sensa](https://github.com/miccou/sensa-theme) - Includes decorators for `git` status, GitHub username and current directory.
 - [sepshell](https://github.com/sepehr/sepshell) - Clean and minimal ZSH theme based on the old lost taybalt theme, with `git` bisecting/merging/rebasing modes and configurable prompt symbols.
-- [serious](https://github.com/oliversandli/serious-zsh-theme) - Includes command exit status and `git` status decorations.
 - [seti_UX](https://github.com/ginfuru/iTerm-Seti_UX) - A simple oh-my-zsh-compatible theme with a corresponding iTerm 2 color scheme.
 - [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
 - [shades of purple](https://github.com/nmcc1212/shades-of-purple-windows-terminal/) - Purple theme for Windows terminal that is reminiscent of [powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme).
@@ -2648,6 +2648,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
 - [vertepommes](https://github.com/TheRojam/vertepommes-theme) - Based on ys. Includes vcs status, username and current directory decorations.
 - [vinhnx](https://github.com/vinhnx/vinhnx.zsh-theme) - Modified from [mgutz](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/mgutz.zsh-theme). Looks great when using with a [Solarized](https://github.com/altercation/solarized) color scheme.
+- [vszambon-ocean](https://github.com/vzambon/vszambon_ocean-zsh-theme) - Includes decorators for current directory, `git` status, a day/night icon, whether or not it is running inside a `docker` container and the date and time.
 - [vitesse](https://github.com/rafaeldellaquila/zsh-vitesse-theme/blob/master/img/preview.png) - Inspired by VS Code's [Vitesse](https://github.com/antfu/vscode-theme-vitesse) theme. Includes `git` status decorations.
 - [voidy](https://github.com/rwejdling/voidy) - Borrows elements from [lambda](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/lambda.zsh-theme) and [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) themes and adds the active [aws-vault](https://github.com/99designs/aws-vault) profile to the right side of the prompt.
 - [vtex](https://github.com/charleseduardome/oh-my-zsh-vtex) - Includes decorators for `git` status, current directory, vtex account and vtex workspace.
