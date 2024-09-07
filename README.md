@@ -1110,6 +1110,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [nvim-switcher](https://github.com/dacarey/zsh-nvim-switcher)- Manages switching between `nvim` distributinons such as [Lazyvim](https://www.lazyvim.org/), [kickstart](https://github.com/nvim-lua/kickstart.nvim) or a home made configuration.
 - [nvm-auto-use (jrr997)](https://github.com/jrr997/zsh-nvm-auto-use) - Automatically manages your Node.js versions with [nvm](https://github.com/nvm-sh/nvm) based on your current directory.
 - [nvm-auto-use (tomsquest)](https://github.com/tomsquest/nvm-auto-use.zsh) - Calls `nvm use` automatically whenever you enter a directory that contains an `.nvmrc` file with a string telling `nvm` which node to use.
+- [nvm-deferred](https://github.com/davidparsson/zsh-nvm-deferred) - Defers loading of the `nvm` oh-my-zsh plugin using [zsh-defer](https://github.com/romkatv/zsh-defer) to speed up shell startup.
 - [nvm-lazy](https://github.com/davidparsson/zsh-nvm-lazy) - Plugin for lazy loading of oh-my-zsh's **nvm*- plugin. It supports lazy-loading `nvm` for more than one binary/entrypoint, with the defaults being `nvm`, `node` and `npm`.
 - [nvm](https://github.com/lukechilds/zsh-nvm) - ZSH plugin for installing, updating and loading `nvm`.
 - [oath](https://github.com/alexdesousa/oath) - Manages 2FA authentication 6 digit tokens. It was highly inspired by this article about [using oathtool for 2 step verification](https://www.cyberciti.biz/faq/use-oathtool-linux-command-line-for-2-step-verification-2fa/).
@@ -1905,9 +1906,10 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [cramin](https://github.com/FelipeCRamos/craminzsh) - Minimal interface with support for GitHub plugins, based on [hyperzsh](https://github.com/tylerreckart/hyperzsh).
 - [cravend](https://github.com/cravend/theme) - Includes `hostname` decorator (only in active `ssh` sessions) and `git` status decorations.
 - [croque](https://github.com/Ryooooooga/croque) - Powerline-inspired theme with decorators for OS, user@host, `git` information, `git` username, current directory and exit status of last command.
+- [crème fraîche](https://github.com/koenwoortman/creme-fraiche-zsh-theme) - Works best with light terminal backgrounds, includes `git` and `vi`-mode status decorations.
 - [cryo-long](https://github.com/cryocaustik/cryo-long-zsh-theme) - Variant of [cryo](https://github.com/cryocaustik/cryo-zsh-theme/) with added decorators for hostname and current directory.
 - [cryo](https://github.com/cryocaustik/cryo-zsh-theme) - A standalone clone of the original oh-my-zsh theme with date and time added.
-- [crème fraîche](https://github.com/koenwoortman/creme-fraiche-zsh-theme) - Works best with light terminal backgrounds, includes `git` and `vi`-mode status decorations.
+- [cryptic](https://github.com/thederpykrafter/cryptic.zsh-theme) - Based on [aphrodite-terminal-theme](https://github.com/win0err/aphrodite-terminal-theme). Includes decorators for current directory, `git` status, time, username, hostname and virtual environment.
 - [cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - A macOS oh-my-zsh shell theme with cute emoji based on the Powerline Vim plugin.
 - [cxzh](https://github.com/MakeWorkSimple/cxzh.zsh-theme) - Works well on dark background, has `git` status decorations.
 - [cybensis](https://github.com/cybensis/cybensis-zsh-theme) - Based on [af-magic](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/af-magic.zsh-theme). Includes decorators for `git` information, `hg` information, and python virtualenv.
