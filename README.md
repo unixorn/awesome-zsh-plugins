@@ -30,6 +30,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [deer](#deer)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
+  - [gh-source](#gh-source)
   - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
@@ -182,6 +183,10 @@ A minimalist ZSH plugin manager.
 ### [fresh](https://github.com/freshshell/fresh)
 
 **fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as [Bundler](https://bundler.io) for your dot files.
+
+### [gh-source](https://github.com/Yarden-zamir/gh-source)
+
+**gh-source** is a plugin manager for people who don't like plugin managers. It's a simple shell function that downloads and installs plugins from GitHub as part of the sourcing step. It's designed to be used with `zsh`, but it should work with any shell.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 
