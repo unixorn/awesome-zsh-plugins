@@ -30,6 +30,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [deer](#deer)
   - [dotzsh](#dotzsh)
   - [fresh](#fresh)
+  - [gh-source](#gh-source)
   - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
   - [PMS](#pms)
@@ -182,6 +183,10 @@ A minimalist ZSH plugin manager.
 ### [fresh](https://github.com/freshshell/fresh)
 
 **fresh** is a tool to source shell configuration (aliases, functions, etc) from others into your own configuration files. We also support files such as ackrc and gitconfig. Think of it as [Bundler](https://bundler.io) for your dot files.
+
+### [gh-source](https://github.com/Yarden-zamir/gh-source)
+
+**gh-source** is a plugin manager for people who don't like plugin managers. It's a simple shell function that downloads and installs plugins from GitHub as part of the sourcing step. It's designed to be used with `zsh`, but it should work with any shell.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 
@@ -770,6 +775,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [docker-machine](https://github.com/asuran/zsh-docker-machine) - A docker-machine plugin for ZSH.
 - [docker-run](https://github.com/rawkode/zsh-docker-run) - Go back to running your commands "naturally", we'll handle the container.
 - [dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+- [dot-up](https://github.com/toku-sa-n/zsh-dot-up) - Converts `...`, `....`, `.....`, etc., into `cd` commands to navigate parent directories.
 - [dotbare](https://github.com/kazhala/dotbare) - Interactive dotfile management with the help of [fzf](https://github.com/junegunn/fzf).
 - [dotfiles](https://github.com/vladmyr/dotfiles-plugin) - Keep your dotfiles in sync across multiple machines using `git`.
 - [dotpyvenv](https://github.com/jeanpantoja/dotpyvenv) - Automagically switch to a python virtual environment located (that you previously have created with virtualenv program) in a directory named `.pyvenv` when you `cd` into a directory.
@@ -1370,6 +1376,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [undollar](https://github.com/zpm-zsh/undollar) - Strips the dollar sign from the beginning of the terminal prompt.
 - [unique-id](https://github.com/z-shell/zsh-unique-id) - Provides a unique number that identifies a running Zshell session, in its shell variable `$ZUID_ID`. Besides this unique number, also a unique codename is provided, in shell variable `$ZUID_CODENAME`. An example use case is to hold logs in files `.../mylog-${ZUID_CODENAME}.log`, so that two different Zshells will not write to the same file at the same time.
 - [unix-simple](https://github.com/redxtech/zsh-unix-simple) - A command that shows a graphic about the simplicity of unix.
+- [unraid](https://github.com/donbuehl/zsh-unraid) - Adds convenient aliases and functions for managing your Unraid server directly from the command line.
 - [unwrap](https://github.com/foxleigh81/unwrap-zsh-plugin) - Allows you to remove a directory without removing the contents - it puts them in the directory's parent directory.
 - [up (cjayross)](https://github.com/cjayross/up) - A simple way to navigate up through directories.
 - [up (peterhurford)](https://github.com/peterhurford/up.zsh) - Adds an up command to `cd` multiple levels up.
@@ -2220,6 +2227,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [lperezp](https://github.com/lperezp/lperezp-zsh-theme) - Includes decorators for user@hostname, `git` status, current directory and the exit status of the last command run.
 - [lpha3cho](https://github.com/sdcampbell/lpha3cho-Oh-My-Zsh-theme-for-pentesters) - Modified version of the [intheloop](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/intheloop.zsh-theme) theme for pentesters which includes the date, time, and IP address for pentest logging.
 - [luceast](https://github.com/LucEast/luceast-zsh-theme) - Optimized for `git`. Includes decorations for username, host, time & working directory.
+- [luckycoding](https://github.com/ZitherPeng/oh-my-zsh-luckycoding-theme) - Based on the [robbyrussell](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme) theme, includes `git` decorations and the last command's exit code.
 - [ludvig](https://github.com/daviludvig/ludvig-theme-zsh) - Minimalist. Includes decorators for `git` status, current directory, current time and the last command's exit status.
 - [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of [lambda-mod](https://github.com/halfo/lambda-mod-zsh-theme) theme. Has `git` decorations, requires a powerline-compatible terminal font.
 - [luke](https://github.com/xueguangl23/luke_zsh_theme) - Includes `git` decorations. Based on the [frisk](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh theme.
@@ -2578,6 +2586,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [starship](https://starship.rs/) - Minimal, fast, extremely customizable.
 - [statusline](https://github.com/el1t/statusline) - A responsive ZSH theme that provides informational segments when you need them.
 - [steef (danihodovic)](https://github.com/danihodovic/steeef) - Oh-my-zsh steeef theme as a standalone repository. The purpose behind this repo is avoid having a dependency on oh-my-zsh when using the steeef theme. ZSH plugin managers such as Antibody can use the theme without having to use oh-my-zsh.
+- [steef (zelongguo)](https://github.com/ZelongGuo/steeef) - Based on the [zimfw steef theme](https://github.com/zimfw/steeef). Includes decorators for username@hostname, python venv, `git` status and current directory. Requires [git-info](https://github.com/zimfw/git-info).
 - [steef (zimfw)](https://github.com/zimfw/steeef) - A customizable version of [steeef's](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/steeef.zsh-theme) theme.
 - [steeple](https://github.com/erwanjugand/steeple-zsh-theme) - Minimalist theme with `git` status decorations.
 - [stellachar](https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/stellachar.zsh-theme) - Minimal, pastels.
