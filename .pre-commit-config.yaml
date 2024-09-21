@@ -1,7 +1,7 @@
 ---
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.4.0
+    rev: v4.6.0
     hooks:
       - id: check-merge-conflict
       - id: check-yaml
@@ -10,7 +10,7 @@ repos:
       - id: forbid-submodules
       - id: mixed-line-ending
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.35.0
+    rev: v0.41.0
     hooks:
       - id: markdownlint-fix
         args: ["--ignore", "LICENSE.md", "--disable", "~MD013"]
