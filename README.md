@@ -219,7 +219,8 @@ A minimalist ZSH plugin manager.
 - Only does the bare minimum for managing plugins
 
 ### [oh-my-zsh](https://ohmyz.sh/)
-![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh)
+![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh) ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/oh-my-zsh)
+
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, MacPorts, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
