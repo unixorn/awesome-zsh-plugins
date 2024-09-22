@@ -211,6 +211,7 @@ A minimalist ZSH plugin manager.
 **gh-source** is a plugin manager for people who don't like plugin managers. It's a simple shell function that downloads and installs plugins from GitHub as part of the sourcing step. It's designed to be used with `zsh`, but it should work with any shell.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
+![GitHub last commit](https://img.shields.io/github/last-commit/yerinalexey/miniplug) ![GitHub Repo stars](https://img.shields.io/github/stars/yerinalexey/miniplug)
 
 **miniplug** is a minimalistic plugin manager for ZSH.
 
