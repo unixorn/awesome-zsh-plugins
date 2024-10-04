@@ -38,6 +38,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [pumice](#pumice)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
+  - [TheFly](#thefly)
   - [Toasty](#toasty)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
@@ -269,9 +270,14 @@ A fast, configurable, shell plugin manager.
 
 An easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
+### [TheFly](https://github.com/joknarf/thefly)
+
+`bash`/`zsh`/`ksh` plugin manager and env teleporter
+
+Makes your shell env and plugins available everywhere (hosts/users)!
+
 ### [Toasty](https://github.com/CosmicToast/toasty-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/CosmicToast/toasty-zsh) ![GitHub Repo stars](https://img.shields.io/github/stars/CosmicToast/toasty-zsh)
-
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
 
