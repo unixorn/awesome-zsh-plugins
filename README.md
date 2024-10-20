@@ -2545,6 +2545,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [prezto-lambda](https://github.com/nixolas1/prezto-lambda) - Lambda theme (for prezto).
 - [princess](https://github.com/mellypop/princess) - Modeled after [abhiyan.zsh](https://github.com/abhiyandhakal/abhiyan.zsh) with perhaps a bit too much pink and arguably too few emojis. Includes decorators for current directory and `git` status.
 - [probe](https://github.com/probe2k/probe_zsh) - Includes `git` status decorations.
+- [prompt_blocks](https://github.com/MiloradFilipovic/promptblocks) - A minimal node js + git theme. Includes decorators for `git` status, node version and current directory.
 - [prompt_j2](https://github.com/malinoskj2/prompt_j2) - Has a dynamic exit status indicator, can change to two lines dynamically to display context.
 - [prompt-powerline](https://github.com/Valodim/zsh-prompt-powerline) - A fairly heavyweight ZSH prompt, based on the powerline font from the popular eponymous `vim` plugin, which works well for a dark background.
 - [prompt](https://github.com/nathanblair/prompt) - A lightweight prompt consistent across `sh`, `dash`, `ash`, `zsh`, and `pwsh`. Includes `git` status decorations.
