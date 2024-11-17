@@ -36,6 +36,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [ryzshckt](#ryzshckt)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
   - [TheFly](#thefly)
