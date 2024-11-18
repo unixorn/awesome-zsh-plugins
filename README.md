@@ -36,6 +36,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [ryzshckt](#ryzshckt)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
   - [TheFly](#thefly)
@@ -245,6 +246,10 @@ The PMS framework also allows you to use the same framework in different shells.
  ![GitHub Repo stars](https://img.shields.io/github/stars/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [ryzshckt](https://github.com/ryzshck/ryzshckt)
+
+Ryzshck is a smart, innovative plugin manager like Oh My Zsh, designed to enhance your terminal experience with professional and cool features. It boosts productivity by providing efficient shell management, sleek themes, and powerful plugins. Perfect for developers seeking a modern and intelligent way to work with their terminal
 
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rossmacarthur/sheldon)
