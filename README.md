@@ -36,7 +36,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
-  - [ryzshckt](#ryzshckt)
+  - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
   - [TheFly](#thefly)
@@ -247,9 +247,11 @@ The PMS framework also allows you to use the same framework in different shells.
 
 **Pumice** is a lightweight plugin manager for ZSH.
 
-### [ryzshckt](https://github.com/ryzshck/ryzshckt)
+### [ryzshrc](https://github.com/ryzshrc/ryzshrc)
+![GitHub last commit](https://img.shields.io/github/last-commit/ryzshrc/ryzshrc)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/ryzshrc/ryzshrc)
 
-Ryzshck is a smart, innovative plugin manager like Oh My Zsh, designed to enhance your terminal experience with professional and cool features. It boosts productivity by providing efficient shell management, sleek themes, and powerful plugins. Perfect for developers seeking a modern and intelligent way to work with their terminal
+ryzshrc is a smart, innovative plugin manager like [Oh My Zsh](https://ohmyz.sh/), designed to enhance your terminal experience with professional and cool features. It boosts productivity by providing efficient shell management, sleek themes, and powerful plugins. Perfect for developers seeking a modern and intelligent way to work with their terminal
 
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rossmacarthur/sheldon)
@@ -1420,6 +1422,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 - [snr](https://github.com/raisedadead/zsh-snr) - Passes the selected output of the first command to the next.
 - [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
+- [some-peco](https://github.com/MoeBensu/zsh-some-peco/) - Enhances your command-line experience with [peco](https://github.com/peco/peco) i.e. providing quick directory navigation and history search.
 - [spaceship-ocm](https://github.com/iamkirkbater/spaceship-ocm-plugin) - Queries your OpenShift Cluster Manager (ocm) configuration to show which environment you're connected to. Requires [NerdFont](https://www.nerdfonts.com/font-downloads) in your terminal.
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
 - [ssh-agent](https://github.com/sdiebolt/zsh-ssh-agent) - Automatically launches `ssh-agent` if it isn't already running.
