@@ -1704,6 +1704,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 - [ddc](https://github.com/Shougo/ddc-zsh) - Adds tab completions for [ddc](https://github.com/Shougo/ddc.vim).
 - [deno](https://github.com/marcelohmdias/zsh-deno) - Tab completions for [deno](https://deno.com/).
+- [deoplete-zsh](https://github.com/zchee/deoplete-zsh) - ZSH completion for [deoplete.nvim](https://github.com/Shougo/deoplete.nvim)
 - [docker (chr-fritz)](https://github.com/chr-fritz/docker-completion.zshplugin) - Loads `docker` ZSH tab completions directly from **Docker for Mac**.
 - [docker (felixr)](https://github.com/felixr/docker-zsh-completion) - Add tab completions for `docker`.
 - [docker (greymd)](https://github.com/greymd/docker-zsh-completion) - Add tab completions for `docker` and `docker-compose`.
