@@ -1704,6 +1704,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [dbic](https://github.com/lejeunerenard/dbic-migration-env) - Automatically sets up Environment variables for DBIx::Class::Migration's script and Dancer.
 - [ddc](https://github.com/Shougo/ddc-zsh) - Adds tab completions for [ddc](https://github.com/Shougo/ddc.vim).
 - [deno](https://github.com/marcelohmdias/zsh-deno) - Tab completions for [deno](https://deno.com/).
+- [deoplete-zsh](https://github.com/zchee/deoplete-zsh) - ZSH completion for [deoplete.nvim](https://github.com/Shougo/deoplete.nvim)
 - [docker (chr-fritz)](https://github.com/chr-fritz/docker-completion.zshplugin) - Loads `docker` ZSH tab completions directly from **Docker for Mac**.
 - [docker (felixr)](https://github.com/felixr/docker-zsh-completion) - Add tab completions for `docker`.
 - [docker (greymd)](https://github.com/greymd/docker-zsh-completion) - Add tab completions for `docker` and `docker-compose`.
@@ -2091,6 +2092,7 @@ If you're using [Antigen](https://github.com/zsh-users/antigen), you can test th
 - [djkakaroto](https://github.com/djkakaroto/theme-zsh/) - Includes `git` status decorations, works with all fonts.
 - [dkniffin](https://github.com/dkniffin/zsh-theme) - Includes `ruby` version and `git` status.
 - [dmx](https://github.com/domix/dmx.zsh-theme) - Optimized for dark terminal windows.
+- [do-you-even-nix](https://github.com/miche1e/do-you-even-nix) - Simple powerline-esque theme designed to increase [nix](https://nixos.org) power. Includes decorators for username@hostname, current directory, `git` status, whether you're in a nix shell, and whether there is a flake.nix or shell.nix file in the current directory.
 - [domixgit](https://github.com/tariqdomi/ohmyzsh-domixgit) - Prompt with `git` status and current directory decorators.
 - [doodleshell](https://github.com/cdodd/doodleshell-zsh-theme) - Minimalist theme, includes `git`, `terraform` and `aws` status decorations.
 - [doom](https://github.com/CMOISDEAD/doom-zsh) - Doom-inspired. Looks similar to powerline. Has customizable segments, decorators for `git` status, `rust`, `Node.js`, `python` and `ruby` versions.
