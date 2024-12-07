@@ -278,6 +278,7 @@ A fast, configurable, shell plugin manager.
 An easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
 ### [TheFly](https://github.com/joknarf/thefly)
+!GitHub last commit](https://img.shields.io/github/last-commit/joknarf/thefly) ![GitHub Repo stars](https://img.shields.io/github/stars/joknarf/thefly)
 
 `bash`/`zsh`/`ksh` plugin manager and env teleporter
 
