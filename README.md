@@ -1198,6 +1198,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [msf](https://github.com/sathish09/zsh_plugins/tree/master/msf) - [Metasploit](https://www.metasploit.com/) handler plugin for starting handlers easily.
 - [multi-evalcache](https://github.com/rwwiv/multi-evalcache) - Cache multiple eval loads to improve startup time, inspired by [mroth/evalcache](https://github.com/mroth/evalcache).
 - [mvn-contexts](https://github.com/artemy/zsh-mvn-contexts) - Allows fast switching between `maven` configurations.
+- [mycli](https://github.com/remino/omz-plugin-mycli-alias) - Add alias for [`mycli`](https://www.mycli.net) with login path.
 - [mylocation](https://github.com/fALKENdk/mylocation) - A plugin to show your current location based on your IP address.
 - [myservice](https://github.com/jarlor/zsh-myservice) - Designed to help you manage custom systemd services and Docker containers more conveniently. This plugin provides user-friendly commands to list and check the status of your custom services and Docker containers straight from your command line.
 - [mysql-colorize](https://github.com/zpm-zsh/mysql-colorize) - Adds color for `mysql` tables.
