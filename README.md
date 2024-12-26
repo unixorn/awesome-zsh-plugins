@@ -2284,7 +2284,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [jax](https://github.com/jhammerberg/jax-theme) Reminiscent of Powerline. Includes decorators for current directory and current user.
 - [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 - [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the `ys` theme.
-- [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Includes decorators for user@host, time, current directory and `git` status. Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).
+- [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).  Includes decorators for user@host, time, current directory and `git` status.
 - [jerome](https://github.com/jeromescuggs/jerome-theme) - Colorful theme based on the [dieter](https://github.com/jeromescuggs/jerome-theme) theme, but with a yellow hostname. Includes `git` decorations.
 - [jhleeeme](https://github.com/JHLeeeMe/JHLeeeMe-Zsh-Theme) - Includes `git` and python virtualenv status decorations, user, pwd,time and system name.
 - [jnooree](https://github.com/jnooree/jnooree-zsh-theme) - Minimalist theme with colors adapted from the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme. Includes decorators for `git` status, whether running as non-default user and current working directory.
