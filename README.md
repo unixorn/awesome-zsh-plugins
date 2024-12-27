@@ -1198,6 +1198,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [msf](https://github.com/sathish09/zsh_plugins/tree/master/msf) - [Metasploit](https://www.metasploit.com/) handler plugin for starting handlers easily.
 - [multi-evalcache](https://github.com/rwwiv/multi-evalcache) - Cache multiple eval loads to improve startup time, inspired by [mroth/evalcache](https://github.com/mroth/evalcache).
 - [mvn-contexts](https://github.com/artemy/zsh-mvn-contexts) - Allows fast switching between `maven` configurations.
+- [mycli](https://github.com/remino/omz-plugin-mycli-alias) - Add alias for [`mycli`](https://www.mycli.net) with login path.
 - [mylocation](https://github.com/fALKENdk/mylocation) - A plugin to show your current location based on your IP address.
 - [myservice](https://github.com/jarlor/zsh-myservice) - Designed to help you manage custom systemd services and Docker containers more conveniently. This plugin provides user-friendly commands to list and check the status of your custom services and Docker containers straight from your command line.
 - [mysql-colorize](https://github.com/zpm-zsh/mysql-colorize) - Adds color for `mysql` tables.
@@ -1276,6 +1277,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [perlbrew](https://github.com/tfiala/zsh-perlbrew/) - Installs [perlbrew](https://perlbrew.pl/) if not already installed and initializes it for your shell.
 - [pew](https://github.com/shosca/zsh-pew) - Sets up and manages Python virtualenvs using [pew](https://github.com/berdario/pew), automatically switches virtualenvs as you move directories.
 - [pg](https://github.com/caarlos0-graveyard/zsh-pg) - Adds utility functions to work with [PostgreSQL](https://www.postgresql.org/).
+- [pgconnect](https://github.com/ruslan-korneev/pgconnect-zsh) - Provides an easy way to manage and connect to PostgreSQL databases using `pgcli` and [fzf](https://github.com/junegunn/fzf) for a seamless command-line experience.
 - [ph-marks](https://github.com/lainiwa/ph-marks) - Bookmark pornhub videos from your terminal.
 - [php-version-rcfile-switcher](https://github.com/xellos866/php-version_rcfile-switcher) - Automatically switch between php versions using [php-version](https://github.com/wilmoore/php-version) if an rc-file is present in a directory.
 - [php-version-switcher](https://github.com/Akollade/php-version-switcher.plugin.zsh) - Changes php versions if a `.php-version` file is found.
@@ -2192,6 +2194,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [gk3000](https://github.com/gk3000/gk3000-oh-my-zsh-theme) - Includes `git` status decorations and full path to current directory.
 - [glider](https://github.com/MrRedacted/zsh-glider) - Based on [strug](https://github.com/triplepointfive/oh-my-zsh/blob/master/themes/strug.zsh-theme). Includes decorators for `git` status, username, hostname and current directory.
 - [glimmer](https://github.com/martnu/glimmer) - Includes `git` branch, time and user@host decorators.
+- [gn-z11](https://github.com/xxidbr9/zsh_GN-z11-theme) - Includes decorators for `git` status and the last command's exit status.
 - [gndx](https://github.com/gndx/gndx-zsh-theme) - Includes `git` status, hostname, directory and last command exit status decorations.
 - [gnrnzh](https://github.com/PaoloneM/gnrnzh-zsh-theme) - Customization of [gnzh.zsh-theme](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/gnzh.zsh-theme) from oh-my-zsh.
 - [gocilla](https://github.com/goranvasic/gocilla-iterm-zsh) - Theme for iTerm 2 and ZSH. Uncludes `git` status, user@host, path and date decorators.
@@ -2281,7 +2284,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [jax](https://github.com/jhammerberg/jax-theme) Reminiscent of Powerline. Includes decorators for current directory and current user.
 - [jc](https://github.com/jclementex/jc-zsh-theme) - For dark terminal backgrounds, includes `git` status information.
 - [jcl](https://github.com/jasonlewis/jcl-zsh-theme) - Loosely based on the `ys` theme.
-- [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Includes decorators for user@host, time, current directory and `git` status. Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).
+- [jeff](https://github.com/jbaranski/jeff-zsh-theme) - Based on [bira](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#bira).  Includes decorators for user@host, time, current directory and `git` status.
 - [jerome](https://github.com/jeromescuggs/jerome-theme) - Colorful theme based on the [dieter](https://github.com/jeromescuggs/jerome-theme) theme, but with a yellow hostname. Includes `git` decorations.
 - [jhleeeme](https://github.com/JHLeeeMe/JHLeeeMe-Zsh-Theme) - Includes `git` and python virtualenv status decorations, user, pwd,time and system name.
 - [jnooree](https://github.com/jnooree/jnooree-zsh-theme) - Minimalist theme with colors adapted from the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme. Includes decorators for `git` status, whether running as non-default user and current working directory.
@@ -2425,13 +2428,14 @@ These plugins add tab completions without adding extra functions or aliases.
 - [mnml](https://github.com/mnml-theme/prompt) - Minimal theme with `git` status decorations.
 - [mochi](https://github.com/mochidaz/zsh-themes) - Simple theme, designed to resemble rust main function. Includes `git` and `hg` status decorations.
 - [mochi2](https://github.com/mochidaz/zsh-themes) - Minimalist theme. Includes `git` and `hg` status decorations.
+- [modern](https://github.com/BadRat-in/zsh-modern-theme) - Automatically adapts to light and dark terminal themes. This theme provides a clean and informative prompt with git integration, command execution time, and a beautiful rainbow directory path.
 - [moderno](https://github.com/obrassard/moderno-zsh) - A simple and modern ZSH theme inspired by the [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) theme from Oh-My-ZSH. Includes `git` status decorations.
 - [modesty](https://github.com/saravanabalagi/zsh-theme-modesty) - A clean and modest ZSH theme with `condaenv`, `virtualenv` and `git` status decorations displayed neatly right aligned. Requires [condaenv](https://github.com/saravanabalagi/zsh-plugin-condaenv) plugin.
 - [molokai-powerline](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 - [momoyo](https://github.com/momoyo-droid/momoyo-zsh-theme) - Reminiscent of powerline. Includes decorations for `git` status, username, and working directory.
 - [monsi](https://github.com/rafa-wine/monsi_oh-my-zsh_theme) - Includes `git` status, last command exit status and current directory decorators.
-- [moonbloom](https://github.com/moonbloom-theme/zsh) - Adapts to the color scheme of your terminal emulator. Includes decorators for current directory and `git` status.
 - [moon-lite](https://github.com/anotherlusitano/moon-light) - Minimalist. Includes decorators for `git` status, current directory and the exit status of the last command run.
+- [moonbloom](https://github.com/moonbloom-theme/zsh) - Adapts to the color scheme of your terminal emulator. Includes decorators for current directory and `git` status.
 - [moonline](https://github.com/kagamilove0707/moonline.zsh) - Minimal but easily extensible prompt.
 - [moux](https://github.com/gagbo/moux) - Works well with a dark terminal background, includes `git` decorations in `RPROMPT`.
 - [msys2](https://github.com/water-logger/MSYS2-Theme/) - Inspired by MSYS2. Includes decorators for user@host, `git` status and the current directory.
