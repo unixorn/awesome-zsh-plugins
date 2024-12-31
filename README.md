@@ -1996,6 +1996,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bureau-env](https://github.com/angus-lherrou/bureau-env) - Modification of the Oh-My-Zsh [Bureau](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/bureau.zsh-theme) theme that adds a Python virtual environment label to the left of the `git` block.
 - [bureau-parrot](https://github.com/BenjaminGuzman/bureau-parrot) - Based on [bureau](https://github.com/robbyrussell/oh-my-zsh/blob/master/themes/bureau.zsh-theme). Includes `git` decorations.
 - [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes `git` status optimized for large repositories.
+- [burn](https://github.com/Xatra1/burn) - Includes decorators for user@hostname and current directory.
 - [buster](https://github.com/grantbuster/buster_zsh_theme) - Plays well with WSL2. Based loosely on Fox and Jonathan themes from oh-my-zsh.
 - [cabovianco](https://github.com/cabovianco/cabovianco-zsh-theme) - Includes decorators for `git` status and current directory.
 - [cactus](https://github.com/welksonramos/cactus) - Minimalist theme with `git` status decorations.
