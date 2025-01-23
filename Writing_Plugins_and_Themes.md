@@ -2,7 +2,7 @@
 
 Here are some suggestions to make installing and using your plugin/theme as simple as possible for end users, no matter what ZSH framework (if any) they are using.
 
-1. Make using your plugin easier for end users and put the plugin file at the root level of your plugin repository instead of hiding it in a subdirectory. This allows [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users to install it with a simple `git clone git@github.com:you/yourplugin.git` in their `custom/plugins` directory and also lets [Antigen](https://github.com/zsh-users/antigen) and [zgenom](https://github.com/jandamm/zgenom) users let the framework automatically clone the repository without having to specify a subdirectory path.
+1. Make using your plugin easier for end users and put the plugin file at the root level of your plugin repository instead of hiding it in a subdirectory. This allows [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users to install it with a simple `git clone git@github.com:you/yourplugin.git` in their `custom/plugins` directory and also lets [Antigen](https://github.com/zsh-users/antigen) and [zgenom](https://github.com/jandamm/zgenom) users to let the framework automatically clone the repository without having to specify a subdirectory path.
 
 2. Only put one plugin or theme in a repository. This makes using it a simple `git clone` for [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) users, and simpler for other framework users as well - they won't have to specify a subdirectory, just username/reponame.
 
