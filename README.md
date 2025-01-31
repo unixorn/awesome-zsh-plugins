@@ -2795,6 +2795,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [toledo](https://github.com/mmatongo/toledo) - Quick minimalist theme with `git` status decorations. Works with `zsh`, `bash`, `dash` and `yash`.
 - [tonni4](https://github.com/AndreyPuzanov/tonni4-zsh-theme) - Includes time and `git` status decorators.
 - [topan](https://github.com/fudyartanto/topan-theme-oh-my-zsh) - Includes `git` information; best on dark backgrounds.
+- [torim](https://github.com/Aggrathon/torim) - Inspired by the [sorin](https://github.com/zimfw/sorin), [asciiship](https://github.com/zimfw/asciiship) and [mh](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#mh) themes. Includes decorators for user@hostname (when accessed by `ssh`), truncated path to working directory, whether running as root, error code of last command run if it failed, current time, duration of long running commands, current virtual environment and `git` status.
 - [tq](https://github.com/kitian616/tq-zsh-theme) - Displays `git` status, time, requires a Powerline font.
 - [traffic](https://github.com/fcce/traffic-zsh-theme) - A dark theme for ZSH.
 - [trajan](https://github.com/denisinla/trajan-zsh-theme) - A dark theme for ZSH.
