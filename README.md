@@ -1212,6 +1212,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [namelink](https://github.com/jthat/zsh-namelink) - Provides an automatically synchronized mapping of filesystem entries (typically symbolic links) in a set of directories to their counterparts in the named directory hash.
 - [navi](https://github.com/icatalina/zsh-navi-plugin/) - Plugin for [navi](https://github.com/denisidoro/navi).
 - [navigation-tools](https://github.com/zdharma-continuum/zsh-navigation-tools) - Adds `htop`-like kill, directory bookmarks browser, a multi-word incremental history searcher and more.
+- [nerd-font-check](https://github.com/delorenj/nerd-font-check) - Offers to install [Nerd Fonts](https://www.nerdfonts.com/font-downloads) with [brew](https://brew.sh/) if not present.
 - [new-file-from-template](https://github.com/zpm-zsh/new-file-from-template) -  Generates file from template.
 - [newvwp](https://github.com/aubreypwd/zsh-plugin-newvwp) - Spins up a new WordPress site using Valet.
 - [nhl-schedule](https://github.com/Matt561/zsh-nhl-schedule) - Retrieves and displays the NHL schedule.
