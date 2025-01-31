@@ -2820,6 +2820,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [unit-1](https://github.com/nerdbude/Unit-1) - Minimalist theme with ITWTB colors.
 - [userandnode](https://github.com/timhilton/userandnode) - A clean theme with decorators for username, node version, current directory, and `git` info.
 - [valuca](https://github.com/keyaedisa/Valuca) - Variant of [ducula](https://github.com/janjoswig/Ducula). Includes decorators for background job status, username, hostname, virtualenv, current directory, last command's exit code, `git` information and the current time.
+- [vanan](https://github.com/avano/vanan.zsh-theme) - Enhances your terminal with detailed `git` information. Also includes decorators for `vi`-mode and status of the last command run.
 - [vehemence](https://github.com/H1N1-dev/vehemence-zsh) - Includes decorators for `pwd`, `user@host`, `tty`, time, last command exit code and `git` status.
 - [velvet](https://github.com/dor133/velvet-zsh-theme) - Includes decorators for `git` status, username, current directory, exit status of last command, and the time.
 - [vercel](https://github.com/vercel/zsh-theme) - Minimalist theme with `git` status decorations.
