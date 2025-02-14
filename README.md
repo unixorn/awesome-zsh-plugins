@@ -2553,6 +2553,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [phi φ](https://github.com/LasaleFamine/phi-zsh-theme) - A clean and simple theme for ZSH inspired and forked from the [Lambda (Mod) ZSH](https://github.com/halfo/lambda-mod-zsh-theme) theme.
 - [pi](https://github.com/tobyjamesthomas/pi) - A minimalist theme with `git` status decorations.
 - [piboy](https://github.com/sflems/piboy-zsh-theme) - A simple and elegant multi-line theme for ZSH. Includes a colourized timestamp, `git` & syntax highlighting, and elevated root theme.
+- [pickaxe](https://github.com/mikhaben/pickaxe-zsh-theme) - Includes decorators for `user@host`, current directory, current time, conda environment, node version and `git` status.
 - [pico](https://github.com/PicoGeyer/zsh-pico-prompt) - Simple prompt modified from [zap-prompt](https://github.com/zap-zsh/zap-prompt) with decorators for `git` information, user@hostname and working directory.
 - [pifabs](https://github.com/pifabs/pifabs-zsh-theme) - Minimal theme with decorators for `git` status, username, host and working directory.
 - [plain-ui](https://github.com/purveshpatel511/plain-ui) - Minimalist, but includes `git` status decorations.
