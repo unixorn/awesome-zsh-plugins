@@ -1426,6 +1426,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
 - [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
+- [smart-files](https://github.com/vxfemboy/zsh-smart-files) - Enhances CLI by providing visual feedback for file paths and automatically creating directories when needed. It highlights paths in different colors based on their status (existing, new, or permission-denied) and handles directory creation automatically.
 - [smartcache](https://github.com/QuarticCat/zsh-smartcache) - Caches command output to speed up shell startup time.
 - [smartinput](https://github.com/momo-lab/zsh-smartinput) - When you type brackets or quotes, the corresponding end brackets/quotes are automatically added.
 - [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
