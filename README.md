@@ -1572,6 +1572,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [welcome-banner](https://github.com/joshuadanpeterson/zsh-welcome-banner) - Displays a login banner with a random quote.
 - [westchange](https://github.com/TomiVidal99/westchange) - Allows you to quickly change between directories. Requires [fzf](https://github.com/junegunn/fzf).
 - [which-jspm](https://github.com/zkuzmic/which-jspm/) - Adds `npm`, `yarn` or `pnpm` to the end of your prompt depending on what lockfile(s) it detects in the current directory.
+- [whisp](https://github.com/jaacob/whisp) - Adds idempotency and convenience features to OpenAI's Whisper CLI tool. It helps you efficiently transcribe audio files without duplicating work.
 - [whobrokemycode](https://github.com/cameronbroe/whobrokemycode) - Highlight where a particular line was last changed in a file using `git blame`.
 - [window-title](https://github.com/olets/zsh-window-title) - Adds informative tiles to your terminal windows.
 - [windows-title](https://github.com/mdarocha/zsh-windows-title) - Dynamically updates terminal window title with current directory and the last command run.
