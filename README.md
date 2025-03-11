@@ -2028,6 +2028,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [calma](https://github.com/luislve17/calma) - Minimalist theme that works well on dark backgrounds. Includes decorators for truncated current directory, `git` information, time, and for the exit status of last command.
 - [candy-fantasy](https://github.com/fffelix-huang/candy-fantasy) - Modified version of [Candy Kingdowm](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/candy-kingdom.zsh-theme)theme.
 - [candy-light](https://github.com/NicolaiRuckel/oh-my-zsh-candy-light) - Light version of the candy theme.
+- [capsule](https://github.com/42LM/capsule) - A simple single file terminal prompt that is completely customizable. Display is divided into capsules (`TIMER` > `DIR` > `GIT` > `GIT ACTION`).
 - [carriage-return](https://github.com/treyssatvincent/carriage-return.zsh-theme) - omz's [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) with an added carriage return.
 - [catpuccin-kali](https://github.com/Robinx0/catpuccin-kali-theme.zsh-theme) - Inspired by oh-my-posh catpuccin theme. Includes decorators for username@hostname, current directory and `git` status.
 - [catpuccin](https://github.com/JannoTjarks/catppuccin-zsh) - Minimalist theme. Includes decorators for current directory, exit status of last command and `git` status.
