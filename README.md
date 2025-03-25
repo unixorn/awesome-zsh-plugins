@@ -1945,7 +1945,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [arrow-minimal](https://github.com/maxim-usikov/arrow-minimal.zsh-theme) - A minimal ZSH theme with `git` decorations.
 - [arrow](https://github.com/milon/arrow-zsh-theme) - Minimal theme, includes `git` status decorations.
 - [asciigit](https://github.com/cemsbr/asciigit) - An ASCII-only theme for `git` users who don't want to use fonts with extra glyphs.
-- [asq](https://github.com/AugustoQueiroz/asq-theme) - Based on [theunraveler](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#theunraveler).
 - [astral (skippyr)](https://github.com/skippyr/astral) - Dual line theme with decorators for user@hostname, current directory, python virtual environment and `git` information.
 - [astral (xwmx)](https://github.com/xwmx/astral) - Theme for dark backgrounds with zen mode. Works well with the zsh-users [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugin. Includes decorators for execution time of last command, when it was run, its exit status, machine name, current path, `ssh` status, and `git` status.
 - [astro](https://github.com/iplaces/astro-zsh-theme) - Based on the `ys` and [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell) themes.
