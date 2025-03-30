@@ -1445,6 +1445,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 - [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
 - [ssh-quickconnect](https://github.com/breda/zsh-ssh-quickconnect) - Simple utility to quickly connect to hosts from your `ssh` config & `known_hosts` file.
+- [sshpky](https://github.com/jeffzhangc/sshpky_zsh_plugin) - Auto updates git-repositories in the `$ZSH_CUSTOM` folder.
 - [sshukh](https://github.com/anatolykopyl/sshukh-zsh-plugin) - Will update your `known_hosts` file when you `ssh` into a server.
 - [startify](https://github.com/NorthIsMirror/zsh-startify) - Shows recently used `vim` files, shell-util files, active `tmux` sessions, recently-run `git` commands and more.
 - [startup-timer](https://github.com/paulmelnikow/zsh-startup-timer) - Print the time it takes for the shell to start up.
