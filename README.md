@@ -297,6 +297,7 @@ A ZSH micro plugin manager.
 ### [x-cmd](https://github.com/x-cmd/x-cmd)
 ![GitHub last commit](https://img.shields.io/github/last-commit/x-cmd/x-cmd)
  ![GitHub Repo stars](https://img.shields.io/github/stars/x-cmd/x-cmd)
+
 **x-cmd** is a toolset implemented using posix shell and awk.It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
 
 Tools Provided by x-cmd:
@@ -632,6 +633,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ZSH for Humans](https://github.com/romkatv/zsh4humans) - A turnkey configuration for ZSH that aims to work really well out of the box. It combines a curated set of ZSH plugins into a coherent whole that feels like a finished product rather than a DIY starter kit.
 - [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework.
 - [ZSH tips by Christian Schneider](http://strcat.de/zsh/#tipps) - An exhaustive list of ZSH tips by Christian Schneider.
+- [ZSH Setup by Easy-Cloud-in](https://github.com/Easy-Cloud-in/zsh-setup) - A powerful Zsh environment setup with Oh My Posh themes, essential plugins, and advanced search capabilities. This repository provides scripts to automatically configure your terminal with modern features and aesthetics. Requires a Debian or Ubuntu based system.
 - [ZSH Unplugged](https://github.com/mattmc3/zsh_unplugged) - Good resource if you want to eliminate using a framework but still easily use plugins.
 
 ### Antigen
