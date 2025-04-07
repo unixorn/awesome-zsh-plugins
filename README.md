@@ -1748,6 +1748,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [fnm](https://github.com/zap-zsh/fnm) - Adds tab completions for Fast Node Manager [fnm](https://github.com/Schniz/fnm).
 - [fvm](https://github.com/olrtg/zsh-fvm) - Adds tab completions for the [Flutter Version Manager (FVM)](https://fvm.app/).
 - [fzf-gcloud](https://github.com/mbhynes/fzf-gcloud) - Fuzzy completion to navigate and preview all Google Cloud SDK `gcloud` CLI commands
+- [fzf-rg](https://github.com/ppcamp/zsh-fzf-rg) - Add some functionalities to terminal using [fzf](https://github.com/junegunn/fzf), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).
 - [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, `bash` & applications using GNU Readline.
 - [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
 - [fzshell](https://github.com/mnowotnik/fzshell) - Fetches fuzzy completions from sources predefined by a user.
