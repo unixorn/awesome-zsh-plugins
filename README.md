@@ -297,6 +297,7 @@ A ZSH micro plugin manager.
 ### [x-cmd](https://github.com/x-cmd/x-cmd)
 ![GitHub last commit](https://img.shields.io/github/last-commit/x-cmd/x-cmd)
  ![GitHub Repo stars](https://img.shields.io/github/stars/x-cmd/x-cmd)
+
 **x-cmd** is a toolset implemented using posix shell and awk.It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
 
 Tools Provided by x-cmd:
@@ -632,6 +633,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ZSH for Humans](https://github.com/romkatv/zsh4humans) - A turnkey configuration for ZSH that aims to work really well out of the box. It combines a curated set of ZSH plugins into a coherent whole that feels like a finished product rather than a DIY starter kit.
 - [ZSH Pony](https://github.com/mika/zsh-pony) - Covers customizing ZSH without a framework.
 - [ZSH tips by Christian Schneider](http://strcat.de/zsh/#tipps) - An exhaustive list of ZSH tips by Christian Schneider.
+- [ZSH Setup by Easy-Cloud-in](https://github.com/Easy-Cloud-in/zsh-setup) - A powerful Zsh environment setup with Oh My Posh themes, essential plugins, and advanced search capabilities. This repository provides scripts to automatically configure your terminal with modern features and aesthetics. Requires a Debian or Ubuntu based system.
 - [ZSH Unplugged](https://github.com/mattmc3/zsh_unplugged) - Good resource if you want to eliminate using a framework but still easily use plugins.
 
 ### Antigen
@@ -1180,7 +1182,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [lsd (tankeryang)](https://github.com/tankeryang/zsh-lsd) - Replaces `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (z-shell)](https://github.com/z-shell/zsh-lsd) - Replaces `ls` with [lsd](https://github.com/Peltoche/lsd).
-- [lsi](https://github.com/ppcamp/zsh-lsi) - Improve `ls` listing output.
 - [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
 - [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS, iTerm 2, Visual Studio Code and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes a `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
 - [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
@@ -1746,6 +1747,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [fnm](https://github.com/zap-zsh/fnm) - Adds tab completions for Fast Node Manager [fnm](https://github.com/Schniz/fnm).
 - [fvm](https://github.com/olrtg/zsh-fvm) - Adds tab completions for the [Flutter Version Manager (FVM)](https://fvm.app/).
 - [fzf-gcloud](https://github.com/mbhynes/fzf-gcloud) - Fuzzy completion to navigate and preview all Google Cloud SDK `gcloud` CLI commands
+- [fzf-rg](https://github.com/ppcamp/zsh-fzf-rg) - Add some functionalities to terminal using [fzf](https://github.com/junegunn/fzf), [bat](https://github.com/sharkdp/bat) and [ripgrep](https://github.com/BurntSushi/ripgrep).
 - [fzf-tab-completion](https://github.com/lincheney/fzf-tab-completion) - Add tab completion for ZSH, `bash` & applications using GNU Readline.
 - [fzf-zsh-completions](https://github.com/chitoku-k/fzf-zsh-completions) - Fuzzy completions for [fzf](https://github.com/junegunn/fzf) and [ZSH](https://www.zsh.org/) that can be triggered by a trigger sequence that defaults to `**`.
 - [fzshell](https://github.com/mnowotnik/fzshell) - Fetches fuzzy completions from sources predefined by a user.
@@ -2560,6 +2562,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [pastel](https://github.com/iboyperson/pastel) - A ZSH theme inspired by [sugar-free](https://github.com/cbrock/sugar-free). Includes `git` decorations.
 - [paulmanjarres](https://github.com/paul-manjarres/paulmanjarres-zsh-theme) - Based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme), [agnoster](https://gist.github.com/agnoster/3712874) and [nuts](https://github.com/rafaelsq/nuts.zsh-theme). Includes decorators for current directory, `git` status and the time.
 - [paxton](https://github.com/p1xt4n/ohmyzsh-theme-paxton) - Inspired by powerline. Includes segments for `git` branch, time, last command exit status and current directory. Requires a powerline-compatible font.
+- [pbdevflow](https://github.com/pbarovsky/pbdevflow) - Designed and optimized for use with [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts). Includes decorators for current directory, `git` status and username.
 - [pbsegments](https://github.com/pbarovsky/pbsegments) -A  minimal and visually appealing custom theme for [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh). It features a clean, segment-based prompt, optimized for readability and usability. Includes decorators for `git` status, current directory and username.
 - [pecodez](https://github.com/pecodez/pecodez-zsh-theme) - Optimized for dark terminals. Has decorators for `snyk` version, `node` version, AWS profile, kubernetes context and `git` status.
 - [pedantic](https://github.com/nemeshnorbert/pedantic-zsh-theme) - Customizable colors and output. Includes decorators for detailed `git` information, root status, last command's exit status, user@host, current directory and the time.
