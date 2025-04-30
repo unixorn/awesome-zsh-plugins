@@ -2486,6 +2486,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [molokai-powerline](https://github.com/prikhi/molokai-powerline-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874).
 - [momoyo](https://github.com/momoyo-droid/momoyo-zsh-theme) - Reminiscent of powerline. Includes decorations for `git` status, username, and working directory.
 - [monsi](https://github.com/rafa-wine/monsi_oh-my-zsh_theme) - Includes `git` status, last command exit status and current directory decorators.
+- [moonlight](https://github.com/vosalt/moonlight-zsh-theme) - Dark lunar aesthetic with celestial tokens for `git` status.Heavily inspired by the [daivasmara](https://github.com/Daivasmara/daivasmara.zsh-theme/tree/master) theme.
 - [moon-lite](https://github.com/anotherlusitano/moon-light) - Minimalist. Includes decorators for `git` status, current directory and the exit status of the last command run.
 - [moonbloom](https://github.com/moonbloom-theme/zsh) - Adapts to the color scheme of your terminal emulator. Includes decorators for current directory and `git` status.
 - [moonline](https://github.com/kagamilove0707/moonline.zsh) - Minimal but easily extensible prompt.
