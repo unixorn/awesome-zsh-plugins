@@ -2388,6 +2388,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [kevin](https://github.com/KevinParnell/Kevin-zsh) - Colorful theme, includes iTerm 2 color schemes.
 - [kgzsh](https://github.com/Kashugoyal/kgzsh) - Includes `git` status deorations, works well on darker backgrounds.
 - [kido](https://github.com/KidoThunder/kido-zsh-theme) - Based on `ys` and `robbyrussell` themes. Includes decorators for the exit code of the last command run, python virtualenv and VCS status.
+- [kindahv](https://github.com/kshnkvn/kindahv-zsh-theme) - A clean ZSH theme with command execution time tracking.
 - [kimwz](https://github.com/kimwz/kimwz-oh-my-zsh-theme) - Minimal theme.
 - [kinda-fishy](https://github.com/folixg/kinda-fishy-theme) - Based on Fishy theme, but shows full paths instead of abbreviated directories and only shows user@machine in `ssh` sessions and docker containers.
 - [kiss](https://github.com/rileytwo/kiss) - Simple theme for oh-my-zsh, VSCode, iTerm2, Neovim, and RStudio. Includes `git` status decorations.
