@@ -41,6 +41,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [shplug](#shplug)
   - [TheFly](#thefly)
   - [Toasty](#toasty)
+  - [Usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
   - [yazt](#yazt)
@@ -287,6 +288,26 @@ Makes your shell env and plugins available everywhere (hosts/users)!
 ![GitHub last commit](https://img.shields.io/github/last-commit/CosmicToast/toasty-zsh) ![GitHub Repo stars](https://img.shields.io/github/stars/CosmicToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
+
+### [Usepkg](https://github.com/gynamics/zsh-usepkg)
+![GitHub last commit](https://img.shields.io/github/last-commit/gynamics/zsh-usepkg) ![GitHub Repo stars](https://img.shields.io/github/stars/gynamics/zsh-usepkg)
+
+A minimal declarative zsh plugin manager.
+
+Supports:
+- fetch & load plugin(s) with declared methods
+- list, check, reload, update & remove plugin(s) with commands
+
+Dependencies:
+- zsh
+- gnu coreutils
+- git (optional, if you want to clone git repositories from internet)
+- curl (optional, if you want to fetch a script file by url)
+
+Pros:
+- extremely simple and light, but enough to use.
+- compared to similar packages like `zplug`, it has a much simpler configuration grammar.
+
 
 ### [uz](https://github.com/maxrodrigo/uz)
 ![GitHub last commit](https://img.shields.io/github/last-commit/maxrodrigo/uz)
