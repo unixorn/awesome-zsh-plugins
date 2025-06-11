@@ -1714,6 +1714,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [1password-op](https://github.com/unixorn/1password-op.plugin.zsh) - Loads autocompletions for 1Password's [op](https://developer.1password.com/docs/cli/get-started/) command line tool.
 - [aider](https://github.com/hmgle/aider-zsh-complete) - Tab completions for [aider](https://aider.chat/).
 - [aircrack](https://github.com/Doc0x1/Aircrack-Zsh-Completions) - Adds completions for `airbase-ng`, `aircrack-ng`, `airdecap-ng`, `airdecloak-ng`, `aireplay-ng`, `airmon-ng`, `airodump-ng`, `airolib-ng`, `airserv-ng`, `airtun-ng`, `airventriloquist-ng`.
+- [alembic](https://github.com/datumbrain/oh-my-zsh-alembic) - Adds completions for [Alembic](https://alembic.sqlalchemy.org/), the database migration tool for SQLAlchemy. Includes helper functions for faster workflow, command aliases and status overview functions.
 - [aliyun](https://github.com/thuandt/zsh-aliyun) - Add completions for the [Aliyun CLI](https://github.com/aliyun/aliyun-cli).
 - [ansible-server](https://github.com/viasite-ansible/zsh-ansible-server) - Completions for [viasite-ansible/ansible-server](https://github.com/viasite-ansible/ansible-server).
 - [antibody](https://github.com/sinetoami/antibody-completion) - This plugin provides completion for the [Antibody](https://github.com/getantibody/antibody) plugin manager.
