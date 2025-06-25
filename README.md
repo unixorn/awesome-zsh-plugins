@@ -944,6 +944,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [emojis](https://github.com/MichaelAquilina/zsh-emojis) - Adds numerous ASCII art emojis to your environment in convenient variables.
 - [enhancd](https://github.com/b4b4r07/enhancd) - A simple tool that provides an enhanced `cd` command by memorizing all directories visited by a user and use it for the pathname resolution.
 - [ensure-kube-context](https://github.com/do-i-need-a-username/ensure-kube-context) - Ensures that the `--context` flag is passed to various Kubernetes commands like `kubectl`, `cilium`, `stern`, and more.
+- [env-secrets](https://github.com/singular0/zsh-env-secrets) - Automatically retrieves secrets from secure storage backends and exports them as environment variables during shell initialization. This eliminates the need to store sensitive information in plain text configuration files. Works with `pass` and the macOS keychain.
 - [envrc](https://github.com/fabiogibson/envrc-zsh-plugin) - Automatically loads and unloads environment variables if a `.envrc` file is found in a directory.
 - [escape-backtick](https://github.com/bezhermoso/zsh-escape-backtick) - Quickly insert escaped backticks when double-tapping "`".
 - [evalcache](https://github.com/mroth/evalcache) - Caches the output of a binary initialization command like `eval "$(hub alias -s)"`, to help lower shell startup time by loading from cache instead of re-running every new shell session.
