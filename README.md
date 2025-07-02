@@ -2151,7 +2151,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [daily-emoji](https://github.com/huytran-wq/zsh-daily-emoji-theme/) - Shows random emoji at the beginning of each command depending on the day of the week.
 - [daily](https://github.com/ghlin/zsh-theme-daily) - Includes `git` and `ssh` status decorations.
 - [daivasmara](https://github.com/Daivasmara/daivasmara.zsh-theme) - Chill theme with decorators for current directory (truncated if necessary) and `git` information, including time since last commit.
-- [dalailahner](https://github.com/dalailahner/dalailahner.zsh-theme) - Minimalist theme with decorators for `git` status, username and current directory. Based on Steve Losh's [Prose](https://github.com/sjl/oh-my-zsh/blob/master/themes/prose.zsh-theme) theme.
+- [dalailahner](https://github.com/dalailahner/dalailahner.zsh-theme) - Minimalist theme with decorators for `git` status, for VCS status (based on [Bart Trojanowski's zsh prompt](http://www.jukie.net/bart/blog/pimping-out-zsh-prompt)), username and current directory. Based on Steve Losh's [Prose](https://github.com/sjl/oh-my-zsh/blob/master/themes/prose.zsh-theme) theme.
 - [damino](https://github.com/njdom24/Damino-Zsh-Theme) - Minimal powerline-esque theme with `git` decorations.
 - [dangerroom](https://github.com/abbreviatedman/dangerroom) - Informative, minimal, and, above all, X-Men themed. Includes decorators for `git` status, working directory, parent directory and `vim` mode.
 - [dango](https://github.com/ann-kilzer/annkilzer.zsh-theme) - Includes decorations for current directory and `git` status.
