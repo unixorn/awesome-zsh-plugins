@@ -26,6 +26,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [antidote](#antidote)
   - [antigen-hs](#antigen-hs)
   - [antigen](#antigen)
+  - [awesome-lazy-zsh](#awesome-lazy-zsh)
   - [ax-zsh](#ax-zsh)
   - [deer](#deer)
   - [dotzsh](#dotzsh)
@@ -179,6 +180,19 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
  ![GitHub Repo stars](https://img.shields.io/github/stars/zsh-users/antigen)
 
 **Antigen** is a small set of functions that help you easily manage your shell (ZSH) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to ZSH, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
+
+### [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh)
+![GitHub last commit](https://img.shields.io/github/last-commit/AmJaradat01/awesome-lazy-zsh)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/AmJaradat01/awesome-lazy-zsh)
+
+Awesome-Lazy-Zsh is a simplified and customizable Zsh setup tool for managing plugins and themes. It streamlines your terminal environment with an easy-to-use CLI interface, allowing you to manage .zshrc configurations effectively.
+Features
+
+- Plugin Management: Install and manage plugins easily.
+- Theme Customization: Apply a variety of Zsh themes.
+- Backup and Restore: Safeguard your .zshrc configurations.
+- Interactive CLI: User-friendly setup options.
+- Dependency Management: Automatically checks for Git, Node.js, and Homebrew.
 
 ### [ax-zsh](https://github.com/alexbarton/ax-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/alexbarton/ax-zsh)
