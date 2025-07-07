@@ -1438,6 +1438,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [rockz](https://github.com/aperezdc/rockz) - Lua + LuaRocks virtual environment manager based upon VirtualZ.
 - [ros2-env](https://github.com/Butakus/ros2-env) - Manage [ROS 2](https://github.com/ros2) environment and workspaces.
 - [rose-pine-man](https://github.com/const-void/rose-pine-man) - Colorizes `man` pages.
+- [rtm-reminder](https://github.com/aranel616/rtm-reminder-zsh) - Displays urgent [Remember The Milk](https://www.rememberthemilk.com/) tasks after each command execution. Clean, non-intrusive, and terminal-only.
 - [run-scripts](https://github.com/Aireck2/zsh-run-scripts) - Runs scripts from `package.json`.
 - [rust (cowboyd)](https://github.com/cowboyd/zsh-rust) - Configure your [rust](https://www.rust-lang.org/) toolchain, installing [rustup](https://rustup.rs) if it is not currently installed already.
 - [rust (wintermi)](https://github.com/wintermi/zsh-rust) - Plugin for the [rust](https://www.rust-lang.org/) toolchain.
@@ -2451,6 +2452,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [lambda-zen](https://github.com/seamile/lambda-zen) - inspired by [lambda mod theme](https://github.com/halfo/lambda-mod-zsh-theme) with graphical `git` status decorations.
 - [lambder](https://github.com/avillen/zsh-theme-lambder) - Includes `git` status decorations, works best with a dark terminal theme.
 - [laniksj](https://github.com/LanikSJ/laniksj-zsh-theme) - Works best on a dark background. Based on the great `ys` theme and [Honukai ZSH Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh). Shows root status and `git` status decorations.
+- [larn](https://github.com/tourcoder/larn.zsh-theme) - A clean and customizable oh my zsh theme with Git integration, designed for dark terminals. It features a colorful prompt with decorators for  `git` branch and status indicators, current directory and distinct `ls` colors for files and directories.
 - [lazyprodigy](https://github.com/drewlustro/lazyprodigy-zsh-theme) - Optimized for dark terminals, has variants for local and remote systems.
 - [leafia](https://github.com/Ghostrick/leafia-prompt) - Leafy prezto theme that shows `git` status information.
 - [lean](https://github.com/miekg/lean) - Inspired by [pure](https://github.com/sindresorhus/pure). Has decorators for `git` status information, exit status of last command run, and the elapsed time of last command.
