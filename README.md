@@ -1519,6 +1519,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sys-diver](https://github.com/ToruIwashita/sys-diver-zsh) - A ZSH plugin for directory change or editor startup with only key operations using widgets without typing commands.
 - [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 - [system-clipboard](https://github.com/kutsan/zsh-system-clipboard) - Adds key bindings support for ZLE (Zsh Line Editor) clipboard operations for `vi` emulation keymaps. It works under Linux, macOS and Android (via Termux).
+- [system-update](https://github.com/cnlee1702/zsh-system-update) - A smart, efficient system update plugin for [oh-my-zsh](https://ohmyz.sh/) that handles APT packages, Conda environments, and pip installations with intelligent caching to minimize update times.
 - [systemd](https://github.com/le0me55i/zsh-systemd) - Adds many aliases for `systemd`.
 - [t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 - [tab-title (p1r473)](https://github.com/p1r473/tab-title/) - Rename [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://www.gnu.org/software/screen/manual/screen.html) panes and windows.
