@@ -1438,6 +1438,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [rockz](https://github.com/aperezdc/rockz) - Lua + LuaRocks virtual environment manager based upon VirtualZ.
 - [ros2-env](https://github.com/Butakus/ros2-env) - Manage [ROS 2](https://github.com/ros2) environment and workspaces.
 - [rose-pine-man](https://github.com/const-void/rose-pine-man) - Colorizes `man` pages.
+- [rtm-reminder](https://github.com/aranel616/rtm-reminder-zsh) - Displays urgent [Remember The Milk](https://www.rememberthemilk.com/) tasks after each command execution. Clean, non-intrusive, and terminal-only.
 - [run-scripts](https://github.com/Aireck2/zsh-run-scripts) - Runs scripts from `package.json`.
 - [rust (cowboyd)](https://github.com/cowboyd/zsh-rust) - Configure your [rust](https://www.rust-lang.org/) toolchain, installing [rustup](https://rustup.rs) if it is not currently installed already.
 - [rust (wintermi)](https://github.com/wintermi/zsh-rust) - Plugin for the [rust](https://www.rust-lang.org/) toolchain.
@@ -1519,6 +1520,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sys-diver](https://github.com/ToruIwashita/sys-diver-zsh) - A ZSH plugin for directory change or editor startup with only key operations using widgets without typing commands.
 - [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 - [system-clipboard](https://github.com/kutsan/zsh-system-clipboard) - Adds key bindings support for ZLE (Zsh Line Editor) clipboard operations for `vi` emulation keymaps. It works under Linux, macOS and Android (via Termux).
+- [system-update](https://github.com/cnlee1702/zsh-system-update) - A smart, efficient system update plugin for [oh-my-zsh](https://ohmyz.sh/) that handles APT packages, Conda environments, and pip installations with intelligent caching to minimize update times.
 - [systemd](https://github.com/le0me55i/zsh-systemd) - Adds many aliases for `systemd`.
 - [t32](https://github.com/chrissicool/zsh-t32) - Plugin for the Lauterbach Trace32 toolset. It automatically registers fonts and sets all necessary environment variables to run the t32 toolset.
 - [tab-title (p1r473)](https://github.com/p1r473/tab-title/) - Rename [tmux](https://github.com/tmux/tmux/wiki) and [screen](https://www.gnu.org/software/screen/manual/screen.html) panes and windows.
@@ -2450,6 +2452,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [lambda-zen](https://github.com/seamile/lambda-zen) - inspired by [lambda mod theme](https://github.com/halfo/lambda-mod-zsh-theme) with graphical `git` status decorations.
 - [lambder](https://github.com/avillen/zsh-theme-lambder) - Includes `git` status decorations, works best with a dark terminal theme.
 - [laniksj](https://github.com/LanikSJ/laniksj-zsh-theme) - Works best on a dark background. Based on the great `ys` theme and [Honukai ZSH Theme](https://github.com/oskarkrawczyk/honukai-iterm-zsh). Shows root status and `git` status decorations.
+- [larn](https://github.com/tourcoder/larn.zsh-theme) - A clean and customizable oh my zsh theme with Git integration, designed for dark terminals. It features a colorful prompt with decorators for  `git` branch and status indicators, current directory and distinct `ls` colors for files and directories.
 - [lazyprodigy](https://github.com/drewlustro/lazyprodigy-zsh-theme) - Optimized for dark terminals, has variants for local and remote systems.
 - [leafia](https://github.com/Ghostrick/leafia-prompt) - Leafy prezto theme that shows `git` status information.
 - [lean](https://github.com/miekg/lean) - Inspired by [pure](https://github.com/sindresorhus/pure). Has decorators for `git` status information, exit status of last command run, and the elapsed time of last command.
@@ -2779,6 +2782,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [senpai](https://github.com/hiroru/senpai-zsh) - Clean prompt theme for Devops. Includes decorators for `git` status, the kubernetes context, AWS profile, GCP project and Azure active cloud.
 - [sensa](https://github.com/miccou/sensa-theme) - Includes decorators for `git` status, GitHub username and current directory.
 - [sepshell](https://github.com/sepehr/sepshell) - Clean and minimal ZSH theme based on the old lost taybalt theme, with `git` bisecting/merging/rebasing modes and configurable prompt symbols.
+- [serenity](https://github.com/ars2062/serenity-zsh-theme) - Minimalist theme which displays essential context info in soft-colored boxes above the command line, using Unicode separators to stay clean yet expressive. Includes decorators for root status, username, hostname, host IP address, `git` status and current directory.
 - [seti_UX](https://github.com/ginfuru/iTerm-Seti_UX) - A simple oh-my-zsh-compatible theme with a corresponding iTerm 2 color scheme.
 - [sfz](https://github.com/mreinhardt/sfz-prompt.zsh) - An evolution of lean prompt which itself is a rewrite of pure.
 - [shades of purple](https://github.com/nmcc1212/shades-of-purple-windows-terminal/) - Purple theme for Windows terminal that is reminiscent of [powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme).
