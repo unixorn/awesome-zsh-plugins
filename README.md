@@ -1773,6 +1773,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [click-completion](https://github.com/click-contrib/click-completion) - Add automatic completion support for [Click](http://click.pocoo.org/), including displaying the options and commands help during the tab completion.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 - [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
+- [codex](https://github.com/pressdarling/codex-zsh-plugin) - Vibe-coded tab completion for OpenAI's [codex](https://github.com/openai/codex) tool. Generates completions in the background so it doesn't slow down shell startup.
 - [comonicon](https://github.com/Roger-luo/ComoniconZSHCompletion.jl) - Tab completions for [comonicon](https://github.com/Roger-luo/Comonicon.jl).
 - [complete-lastf](https://github.com/chougousui/complete-lastf) - Adds a tab completion to select the most recently modified file or directory.
 - [complete-mac](https://github.com/vitkabele/complete-mac) - Add completions for macOS `ioreg`, `lsmp`, `scselect`, `system_profiler` and `tmutil` commands.
