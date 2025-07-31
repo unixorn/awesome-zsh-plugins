@@ -2035,7 +2035,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [aws](https://github.com/chiemerieezechukwu/aws-zsh-theme) - Based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell), with an extra decorator to show your `$AWS_PROFILE` when it is set.
 - [backbone](https://github.com/42LM/backbone-zsh-prompt) - A bare minimum single file prompt, fast as a roadrunner MEEP! MEEP. Includes `git` status and current directory decorations.
 - [baddcafe](https://github.com/dimgatz98/Baddcafe_zsh_theme) - Provides dynamic system information. Includes decorators for `git` status, cpu usage, memory usage, battery level, local and global IP addresses, current time, current directory and the exit status of the last command run.
-- [bahman](https://github.com/bahmanworld/bahman-zsh-theme) - Requires [Nerd Font](https://github.com/ryanoasis/nerd-fonts). Has `git` status decorator.
+- [bahman](https://github.com/bahmanworld/bahman-zsh-theme) - Requires a [Nerd Font](https://github.com/ryanoasis/nerd-fonts). Has `git` status decorator.
 - [banana](https://github.com/sorcererxw/banana-zsh-theme) - Includes `git` status decorations and current directory.
 - [bandit](https://github.com/Holger-Will/zsh_bandit) - Another Powerline variant.
 - [bar (anki-code)](https://github.com/anki-code/shell-prompt-theme-bar) - Minimalist settings for [p10k](https://github.com/romkatv/powerlevel10k).
