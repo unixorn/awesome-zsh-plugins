@@ -845,6 +845,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [caper-bush](https://github.com/kobylinski/caper-bush) - Enhances Git's tab autocomplete by using AI to generate concise, context-aware summaries of staged changes for thoughtful commit messages. Requires and OpenAI key, `jq` and `yq`.
 - [careful_rm](https://github.com/MikeDacre/careful_rm) - A wrapper for `rm` that adds trash/recycling and useful warnings.
 - [case](https://github.com/rtuin/zsh-case) - A ZSH plugin that adds two aliases `tolower` and `toupper` to switch output case.
+- [ccusage](https://github.com/hydai/zsh-ccusage) - Displays real-time AI usage costs from the `ccusage` CLI tool directly in your terminal prompt.
 - [cd-gitroot](https://github.com/mollifier/cd-gitroot) - A ZSH plugin to `cd` to the `git` repository root directory.
 - [cd-ls](https://github.com/zshzoo/cd-ls) - Automatically `ls` after `cd`.
 - [cd-reminder](https://github.com/bartboy011/cd-reminder) - Display reminders when `cd`-ing into specified directories.
@@ -901,6 +902,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [crypto-prices](https://github.com/vincentdnl/zsh-crypto-prices) - Add a [powerlevel9k](https://github.com/bhilburn/powerlevel9k) segment with the current bitcoin price.
 - [crystal](https://github.com/veelenga/crystal-zsh) - A plugin for [Crystal](https://github.com/crystal-lang/crystal).
 - [cvideo](https://github.com/aubreypwd/zsh-plugin-cvideo) - Quickly compress video with `ffmpeg`.
+- [cwebp](https://github.com/adi-li/zsh-cwebpb) - Converts common image formats (JPG, PNG, GIF, BMP, TIFF) to WebP format using Google's `cwebp` tool in batch mode.
 - [cycle-fav-dirs](https://github.com/cibinmathew/cycle-fav-dirs) - A plugin to cycle through your favourite directories.
 - [cycle-jobs](https://github.com/aemonge/zsh-cycle-jobs) - The ZSH Cycle Jobs Plugin is a simple yet powerful tool that enhances your terminal workflow by allowing you to cycle through background jobs using a single keyboard shortcut. This plugin is particularly useful for developers and system administrators who frequently work with multiple background processes.
 - [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
@@ -1017,6 +1019,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for `zsh` using `fzf` that allows the user to switch to any directory from anywhere and to anywhere. It also maintains a history of recently visited directories. Additionally, you can use hotkeys to move back and forth between directories in the shell session.
 - [fzf-fasd](https://github.com/wookayin/fzf-fasd) - Integrates [fzf](https://github.com/junegunn/fzf) and [fasd](https://github.com/clvv/fasd) --- tab completion of `z` with `fzf`'s fuzzy search!
 - [fzf-finder](https://github.com/leophys/zsh-plugin-fzf-finder) - Plugin to have a cool search keybinding with [fzf](https://github.com/junegunn/fzf) and (optionally) [bat](https://github.com/sharkdp/bat) and [fd](https://github.com/sharkdp/fd). Falls back to `find` and `cat`. Searches in the local tree of subdirectories for files.
+- [fzf-git-worktree](https://github.com/banyan/zsh-fzf-git-worktree) - Manage `git` worktrees with [fzf](https://github.com/junegunn/fzf) integration.
 - [fzf-history-search](https://github.com/joshskidmore/zsh-fzf-history-search) - Replaces `Ctrl+R` with an [fzf](https://github.com/junegunn/fzf)-driven history search that includes date/times.
 - [fzf-it](https://github.com/micakce/fzf-it) - Make any command interactive wrapping it with [fzf](https://github.com/junegunn/fzf) functionality.
 - [fzf-marks](https://github.com/urbainvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in `bash` and `zsh`, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
@@ -2035,7 +2038,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [aws](https://github.com/chiemerieezechukwu/aws-zsh-theme) - Based on [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell), with an extra decorator to show your `$AWS_PROFILE` when it is set.
 - [backbone](https://github.com/42LM/backbone-zsh-prompt) - A bare minimum single file prompt, fast as a roadrunner MEEP! MEEP. Includes `git` status and current directory decorations.
 - [baddcafe](https://github.com/dimgatz98/Baddcafe_zsh_theme) - Provides dynamic system information. Includes decorators for `git` status, cpu usage, memory usage, battery level, local and global IP addresses, current time, current directory and the exit status of the last command run.
-- [bahman](https://github.com/bahmanworld/bahman-zsh-theme) - Requires [Nerd Font](https://github.com/ryanoasis/nerd-fonts). Has `git` status decorator.
+- [bahman](https://github.com/bahmanworld/bahman-zsh-theme) - Requires a [Nerd Font](https://github.com/ryanoasis/nerd-fonts). Has `git` status decorator.
 - [banana](https://github.com/sorcererxw/banana-zsh-theme) - Includes `git` status decorations and current directory.
 - [bandit](https://github.com/Holger-Will/zsh_bandit) - Another Powerline variant.
 - [bar (anki-code)](https://github.com/anki-code/shell-prompt-theme-bar) - Minimalist settings for [p10k](https://github.com/romkatv/powerlevel10k).
