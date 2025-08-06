@@ -1721,6 +1721,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zsh-z (agkozak)](https://github.com/agkozak/zsh-z) - Jump quickly to directories that you have visited "frecently." A native ZSH port of `z.sh` - without `awk`, `sed`, `sort`, or `date`.
 - [zsh-z (ptavares)](https://github.com/ptavares/zsh-z) - Installs and loads [z](https://github.com/rupa/z.git).
 - [zshange_directory_recent](https://github.com/Kjeldgaard/zshange_directory_recent) - Change to a recent directory. Requires [fzf]( https://github.com/junegunn/fzf).
+- [zshclean](https://github.com/bepisdev/zshclean) - Helps you keep your $HOME directory tidy by removing temporary files and common system clutter. It supports both macOS and Linux, safely deleting common cache, history, swap, and log files with a single command.
 - [zshcp](https://github.com/michaelsousajr/zshcp) - A lightweight and intuitive clipboard management plugin for Zsh that enhances your command-line workflow with easy copy-paste operations.
 - [zshmarks](https://github.com/jocelynmallon/zshmarks) - A port of Bashmarks (by Todd Werth), a simple command line bookmarking plugin, for [oh-my-zsh](https://ohmyz.sh).
 - [zshrc-sync](https://github.com/Skylor-Tang/zshrc-sync) - Detects changes to `.zshrc` and pushes them to github when `zsh` exits.
