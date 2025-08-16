@@ -2546,6 +2546,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [misa](https://github.com/misalabs/misa.zsh-theme) - Misalabs' ZSH theme.
 - [mixed](https://github.com/dekermendzhy/mixed-zsh-theme) - Optimized for dark backgrounds.
 - [mnml](https://github.com/mnml-theme/prompt) - Minimal theme with `git` status decorations.
+- [mocha-fusion](https://github.com/saeed0xf/mocha-fusion) - Based on [catpuccin](https://catppuccin.com/). Includes `git`, current directory and username@host decorators.
 - [mochi](https://github.com/mochidaz/zsh-themes) - Simple theme, designed to resemble rust main function. Includes `git` and `hg` status decorations.
 - [mochi2](https://github.com/mochidaz/zsh-themes) - Minimalist theme. Includes `git` and `hg` status decorations.
 - [modern](https://github.com/BadRat-in/zsh-modern-theme) - Automatically adapts to light and dark terminal themes. This theme provides a clean and informative prompt with git integration, command execution time, and a beautiful rainbow directory path.
