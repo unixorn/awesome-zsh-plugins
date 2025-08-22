@@ -1770,7 +1770,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cabal (d12frosted)](https://github.com/d12frosted/cabal.plugin.zsh) - Adds autocompletion for cabal.
 - [cabal (ehamberg)](https://github.com/ehamberg/zsh-cabal-completion) - Add tab completion for cabal.
 - [carapace-bin](https://github.com/rsteube/carapace-bin) - Multi-shell multi-command argument completer.
-- [carapace](https://github.com/rsteube/carapace) - Completion generator for Bash, Elvish, Fish, Oil, Powershell, Xonsh and ZSH. Note - this does not automatically generate completions as needed, you have to explicitly run it to generate completions for a command.
 - [cargo](https://github.com/MenkeTechnologies/zsh-cargo-completion) - All the functionality of the original oh-my-zsh cargo completion, with additional support for remote crates via `cargo search` in `cargo add`.
 - [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
 - [cf-zsh-autocomplete](https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
@@ -3102,6 +3101,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 ### ZSH Tools
 
 - [argcomplete](https://github.com/kislyuk/argcomplete) - Generates tab completions for programs using Python's `argparse` module.
+- [carapace](https://github.com/rsteube/carapace) - Completion generator for Bash, Elvish, Fish, Oil, Powershell, Xonsh and ZSH. Note - this does not automatically generate completions on demand, you have to explicitly run it to generate completions for a command.
 - [completion-generator](https://github.com/RobSis/zsh-completion-generator) - Tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
 - [completion-generators](https://github.com/zetlen/zsh-completion-generators) - Has a table of tool names and the commands for outputting completion scripts for those tools. On every load, will check that table and run the completion command for every tool found in your `$PATH` and save its output to a file _<toolname>. If the path of this repo is in `$fpath`, completions will work immediately.
 - [complgen](https://github.com/adaszko/complgen) - Generates completion scripts for bash/fish/zsh from a man-page/EBNF-like grammar. The resulting standalone scripts require only the target shell to be present.
