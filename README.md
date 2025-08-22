@@ -1059,7 +1059,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [git-flow-avh](https://github.com/nekofar/zsh-git-flow-avh) - Adds short aliases for the `git-flow` commands.
 - [git-fuzzy](https://github.com/bigH/git-fuzzy) - A CLI interface to `git` that relies heavily on [fzf](https://github.com/junegunn/fzf).
 - [git-gen](https://github.com/sharif3271/git-gen) - Handle `git` bulk branch delete and create operations.
-- [git-ignore](https://github.com/laggardkernel/git-ignore) - Generates `.gitignore` files from gitignore.io **offline**. [fzf](https://github.com/junegunn/fzf), completion, preview integrated.
 - [git-is-clean](https://github.com/aubreypwd/zsh-plugin-git-is-clean) - This function will return true or false depending on if it finds out your `git` repo is dirty or not.
 - [git-it-on](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 - [git-lfs](https://github.com/nekofar/zsh-git-lfs) - Adds short aliases for the `git-lfs` commands.
@@ -1388,6 +1387,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [proj-jumper](https://github.com/Kikolator/proj-jumper) - A lightweight ZSH plugin that lets you jump straight into any project folder under a single development root -- perfect when that root lives on a removable drive.
 - [project (gko)](https://github.com/gko/project) - Create node/python/ruby projects both locally and on GitHub (private or public repository).
 - [project (voronkovich)](https://github.com/voronkovich/project.plugin.zsh) - Plugin for managing projects.
+- [project-aliases](https://github.com/dvigo/project-aliases) — Zsh plugin to automatically load and unload per-project aliases.
 - [projen](https://github.com/p6m7g8/p6-zsh-projen-plugin) - Adds aliases for [projen](https://github.com/projen/projen).
 - [prompt-dir-perms](https://github.com/xPMo/zsh-prompt-dir-perms) - Creates a segment displaying the permissions of the current directory you can use in your ZSH prompt.
 - [prompt-generator](https://github.com/the10thWiz/zsh-prompt-generator) - Generates custom themes. Some generated themes require powerline-compatible fonts.
@@ -1716,6 +1716,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zservice-py3http](https://github.com/z-shell/zservice-py3http) - Serve a given directory with Python 3's http server from the standard library.
 - [zsh-expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key. Native expansions such as globs, command/process substitution, `=command expansion`, history expansion and `$parameters` are also expanded by default but can be turned off.
 - [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + [oh-my-zsh](https://ohmyz.sh/) installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
+- [zsh-hookie-projects](https://github.com/aemonge/zsh-hookie-projects) - Language-agnostic project detection with smart hooks, PowerLevel10k integration, and intelligent path shortening. Automatically detects 100+ project types, provides customizable on_project/off_project hooks, features a smart cd command that goes to project root, and includes a beautiful hookie_dir segment that shortens paths like ~/projects/my-app → ~/p/my-app. Perfect for polyglot developers who want seamless project-aware shell behavior.
 - [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in `vim`.
 - [zsh-select](https://github.com/z-shell/zsh-select) - Displays a selection list. It is similar to `selecta`, but uses the curses library to do display, and when compared to [fzf](https://github.com/junegunn/fzf), the main difference is approximate matching instead of fuzzy matching.
 - [zsh-watch](https://github.com/Thearas/zsh-watch) - Simple `watch` that supports alias and completion.
