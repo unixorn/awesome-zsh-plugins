@@ -769,6 +769,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [atom-plugin](https://github.com/CorradoRossi/oh-my-zsh-atom-plugin) - Based on the [Sublime](https://github.com/valentinocossar/sublime) plugin, lets you launch a file or folder in [Atom](https://atom.io) from [iTerm 2](https://iterm2.com).
 - [atuin](https://github.com/ellie/atuin) - Replaces your existing shell history with a SQLite database, and records additional context for your commands. Additionally, it provides optional and fully encrypted synchronisation of your history between machines, via an Atuin server.
 - [aur-install](https://github.com/redxtech/zsh-aur-install) - Small plugin to install packages from the AUR.
+- [auto-cenv](https://github.com/El3ssar/zsh-auto-cenv) - Automatically activates the conda environment when entering the project folder.
 - [auto-color-ls](https://github.com/gretzky/auto-color-ls) - Automatically list directories with `colorls`.
 - [auto-fu.zsh](https://github.com/hchbaw/auto-fu.zsh) - Automatic complete-word and list-choices. Originally incr-0.2.zsh by y.fujii <y-fujii at mimosa-pudica.net>.
 - [auto-ls (commanda-panda)](https://github.com/commanda-panda/zsh-auto-ls) - Automatically runs `ls` or `color-ls` if available on `cd`.
@@ -1391,6 +1392,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [projen](https://github.com/p6m7g8/p6-zsh-projen-plugin) - Adds aliases for [projen](https://github.com/projen/projen).
 - [prompt-dir-perms](https://github.com/xPMo/zsh-prompt-dir-perms) - Creates a segment displaying the permissions of the current directory you can use in your ZSH prompt.
 - [prompt-generator](https://github.com/the10thWiz/zsh-prompt-generator) - Generates custom themes. Some generated themes require powerline-compatible fonts.
+- [prompt-watcher](https://github.com/shields/git-prompt-watcher) - Automatically updates your prompt when git status changes, using fswatch to monitor repository files in real-time.
 - [proxy-plugin (escalate)](https://github.com/escalate/oh-my-zsh-proxy-plugin) - Quickly enable and disable proxy shell environment settings.
 - [proxy-plugin (xooooooooox)](https://github.com/xooooooooox/zsh-proxy) - Helps manage proxy settings in your shell environment.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
@@ -1707,6 +1709,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zman](https://github.com/mattmc3/zman) - Use [fzf](https://github.com/junegunn/fzf) to quickly browse ZSH manuals.
 - [znotify](https://github.com/rudeigerc/znotify) - A simple plugin for sending notifications to other services.
 - [znvm](https://github.com/Ajnasz/znvm) - A [Node.js](https://nodejs.org) version manager for ZSH similar to [nvm.sh](https://github.com/nvm-sh/nvm) but faster.
+- [zoc](https://github.com/TomerG2/zoc) - Speeds up OpenShift `oc` logins and token renewal.
 - [zoxide](https://github.com/ajeetdsouza/zoxide) - A fast alternative to `cd` that learns your habits.
 - [zplug-blame](https://github.com/jkcdarunday/zplug-blame) - A [zplug](https://github.com/zplug/zplug)-specific plugin that displays how long each of your plugins took to load.
 - [zpy](https://github.com/AndydeCleyre/zpy) - Manage Python environments, dependencies, and isolated app installations, with a ZSH frontend for [uv](https://github.com/astral-sh/uv) or [pip-tools](https://github.com/jazzband/pip-tools).
