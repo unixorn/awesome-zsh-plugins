@@ -1545,6 +1545,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [terraform (ptavares)](https://github.com/ptavares/zsh-terraform) - Adds aliases, functions and tab completions. Also installs [terraform-docs](https://github.com/terraform-docs/terraform-docs), [tfsec](https://github.com/aquasecurity/tfsec) and [tflint](https://github.com/terraform-linters/tflint).
 - [terraform (thuandt)](https://github.com/thuandt/zsh-terraform) - Adds convenience aliases for [terraform](https://terraform.io/), along with completions for `terraform` and `terragrunt`.
 - [terragrunt](https://github.com/hanjunlee/terragrunt-oh-my-zsh-plugin) - Plugin for [Terragrunt](https://github.com/gruntwork-io/terragrunt), a thin wrapper for [Terraform](https://terraform.io/) that provides extra tools.
+- [tfaws](https://github.com/jmischler72/tfaws) - Simplifies context switching between AWS and Terraform. Offers automatic AWS SSO login, automatic profile switching using a `.awsprofile` file, and links terraform workspace/folders to profiles.
 - [tfenv](https://github.com/CDA0/zsh-tfenv) - Installs, updates, and loads `tfenv` inspired by [zsh-pyenv](https://github.com/mattberther/zsh-pyenv)
 - [tfswitch](https://github.com/ptavares/zsh-tfswitch) - Installs and loads [tfswitch](https://github.com/warrensbox/terraform-switcher).
 - [tgenv](https://github.com/ptavares/zsh-tgenv) - Installs and loads [tgenv](https://github.com/cunymatthieu/tgenv.git). Includes a function to manually update `tgenv`.
