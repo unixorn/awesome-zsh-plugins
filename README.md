@@ -75,6 +75,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
+  - [zush](#zush)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
   - [zinit](#zinit)
@@ -602,6 +603,20 @@ A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to sp
 - Create aliases, functions and environment variables, and have them available to you at the next shell startup.
 - Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
 - Install packages, plugins and themes easily, and have them available to you immediately.
+
+### [zush](https://github.com/shyndman/zush)
+![GitHub last commit](https://img.shields.io/github/last-commit/shyndman/zush)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/shyndman/zush)
+
+A performance-aware ZSH configuration designed for sub-200ms startup times while maintaining full functionality.
+
+Features:
+
+- Instant Prompts - Basic prompt appears immediately, full prompt loads after ~129ms
+- Plugin Management - Simple zushp user/repo command to install GitHub plugins
+- Lazy Loading - Tools like nvm, pyenv, cargo load only when needed
+- Auto-compilation - All ZSH files compiled with zcompile for faster loading
+- Smart Caching - Environment changes cached for instant startup
 
 ## Setups
 
@@ -1444,6 +1459,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [rose-pine-man](https://github.com/const-void/rose-pine-man) - Colorizes `man` pages.
 - [rtm-reminder](https://github.com/aranel616/rtm-reminder-zsh) - Displays urgent [Remember The Milk](https://www.rememberthemilk.com/) tasks after each command execution. Clean, non-intrusive, and terminal-only.
 - [run-scripts](https://github.com/Aireck2/zsh-run-scripts) - Runs scripts from `package.json`.
+- [rust (betterfetch)](https://github.com/betterfetch/zsh-plugin-rust) - Provides convenient aliases for working with Rust's Cargo, Rustc, and Rustup tools.
 - [rust (cowboyd)](https://github.com/cowboyd/zsh-rust) - Configure your [rust](https://www.rust-lang.org/) toolchain, installing [rustup](https://rustup.rs) if it is not currently installed already.
 - [rust (wintermi)](https://github.com/wintermi/zsh-rust) - Plugin for the [rust](https://www.rust-lang.org/) toolchain.
 - [rvm](https://github.com/johnhamelink/rvm-zsh) - Initiates [rvm](https://github.com/rvm/rvm) and adds rubygem binaries (like compass) accessible in the user's `$PATH`.
@@ -1515,6 +1531,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sublime](https://github.com/valentinocossar/sublime) - Same as the official [Sublime](https://www.sublimetext.com/) plugin for [Oh My Zsh](https://ohmyz.sh/), but this opens files in the current Sublime window, if there is one already open.
 - [sudo (hcgraf)](https://github.com/hcgraf/zsh-sudo) - The `sudo` plugin from [oh-my-zsh](https://ohmyz.sh/), extracted to a standalone. Toggles `sudo` before the current/previous command by pressing *ESC-ESC- in emacs-mode or vi-command mode.
 - [sudo (none9632)](https://github.com/none9632/zsh-sudo/) - Adds `sudo` as a prefix to the current command by typing `ESC`-`ESC`.
+- [sudo-previous-current](https://github.com/chmouel/zsh-sudo-previous-current) - Add a `sudo` to the current line or to the previous command. It tries hard to keep the current cursor position so your flow doesn't get disturbed.
 - [suffix-alias](https://github.com/srijanshetty/zsh-suffix-alias) - Directly open files in the shell using ZSH's suffix aliases.
 - [sussysh](https://github.com/sussynuggetz/sussysh-zsh) - Based on xiong-chiamiov.
 - [svn-n-zsh](https://github.com/khrt/svn-n-zsh-plugin) - Rewrite of the stock [oh-my-zsh](https://ohmyz.sh/) [svn](https://subversion.apache.org/) plugin.
@@ -1546,6 +1563,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [terraform (ptavares)](https://github.com/ptavares/zsh-terraform) - Adds aliases, functions and tab completions. Also installs [terraform-docs](https://github.com/terraform-docs/terraform-docs), [tfsec](https://github.com/aquasecurity/tfsec) and [tflint](https://github.com/terraform-linters/tflint).
 - [terraform (thuandt)](https://github.com/thuandt/zsh-terraform) - Adds convenience aliases for [terraform](https://terraform.io/), along with completions for `terraform` and `terragrunt`.
 - [terragrunt](https://github.com/hanjunlee/terragrunt-oh-my-zsh-plugin) - Plugin for [Terragrunt](https://github.com/gruntwork-io/terragrunt), a thin wrapper for [Terraform](https://terraform.io/) that provides extra tools.
+- [tfaws](https://github.com/jmischler72/tfaws) - Simplifies context switching between AWS and Terraform. Offers automatic AWS SSO login, automatic profile switching using a `.awsprofile` file, and links terraform workspace/folders to profiles.
 - [tfenv](https://github.com/CDA0/zsh-tfenv) - Installs, updates, and loads `tfenv` inspired by [zsh-pyenv](https://github.com/mattberther/zsh-pyenv)
 - [tfswitch](https://github.com/ptavares/zsh-tfswitch) - Installs and loads [tfswitch](https://github.com/warrensbox/terraform-switcher).
 - [tgenv](https://github.com/ptavares/zsh-tgenv) - Installs and loads [tgenv](https://github.com/cunymatthieu/tgenv.git). Includes a function to manually update `tgenv`.
@@ -1591,6 +1609,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [up-dir](https://github.com/sgpthomas/zsh-up-dir) - Binds `ctrl-h` to navigating up a directory. This makes it very easy to go up a few directories without having to type any commands.
 - [update-zsh](https://github.com/AndrewHaluza/zsh-update-plugin) - Updates custom [oh-my-zsh](https://ohmyz.sh/) plugins. Only works with the oh-my-zsh framework.
 - [url-highlighter](https://github.com/ascii-soup/zsh-url-highlighter) - A plugin for the ZSH syntax highlighter that turns URLs green if they respond with a "good" status, and red otherwise. Useful for checking URL typos.
+- [usb](https://github.com/NiziL/usb.plugin.zsh) - A tiny plugin to quickly mount and unmount your USB drives.
 - [uv-env](https://github.com/matthiasha/zsh-uv-env) - Automatically uses [uv](https://github.com/astral-sh/uv) to activate a virtual environment based on the current directory.
 - [uvenv](https://github.com/vincentto13/uvenv.plugin.zsh) - Extends the functionality of the original [oh-my-zsh](https://ohmyz.sh/) `venv` module.
 - [vagrant-box-wrapper](https://github.com/evanthegrayt/vagrant-box-wrapper) - A wrapper plugin for [vagrant](https://www.vagrantup.com/) that allows for calling `vagrant` commands from outside of the box directory. The plugin also ships with a few extra commands that help to manage more than one box, along with custom tab-completion.
@@ -1960,6 +1979,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [0i0](https://github.com/0i0/0i0.zsh-theme) - Optimized for dark terminal windows, uses nerdfont `git` status decorations.
 - [14degree](https://github.com/saims0n/14degree-zsh-theme/) - Includes `git`, `virtualenv` and `rvm` status decorations.
 - [1999](https://github.com/DTan13/zsh1999) - Powerline-esque theme. Includes `git` status decorations, network and battery status.
+- [7eth](https://github.com/chokri/zsh-theme) - Minimalist theme with decorator for `git` status.
 - [a](https://github.com/chammanganti/a-zsh-theme) - Simple theme with current directory and `git` status decorations.
 - [abbr (theme)](https://github.com/PhilsLab/abbr-zsh-theme) - Displays an abbreviated version of the current directory path, shows the Python virtualenv, Rust version, `git` status, and the exit code of last command. Works well on dark backgrounds by default but colors can be easily customized.
 - [abhiyan](https://github.com/abhiyandhakal/abhiyan.zsh/) - Segmented prompt. Includes decorators for `git` branch, staged file count, unstaged file count & untracked file count, username, current working directory and the time. Requires Powerline-compatible fonts.
