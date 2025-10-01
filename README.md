@@ -1031,6 +1031,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fuzzy-wd](https://github.com/spodin/zsh-fuzzy-wd) - Adds fuzzy search for directories warped with the [WD](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/wd) plugin.
 - [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among directories in your history.
 - [fzf (gimbo)](https://github.com/gimbo/fzf.zsh) - Helpers for using [fzf](https://github.com/junegunn/fzf) in ZSH. Requires [brew.sh](https://brew.sh).
+- [fzf (scaryrawr)](https://github.com/scaryrawr/fzf.zsh) - Adds keybindings for [fzf](https://github.com/junegunn/fzf) inspired by [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish).
 - [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
 - [fzf-copyq-clipboard](https://github.com/magidc/fzf-copyq-clipboard-zsh-plugin) - Add [fzf](https://github.com/junegunn/fzf) support for [CopyQ](https://hluk.github.io/CopyQ/).
 - [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for `zsh` using `fzf` that allows the user to switch to any directory from anywhere and to anywhere. It also maintains a history of recently visited directories. Additionally, you can use hotkeys to move back and forth between directories in the shell session.
