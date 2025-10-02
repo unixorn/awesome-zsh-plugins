@@ -1031,6 +1031,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fuzzy-wd](https://github.com/spodin/zsh-fuzzy-wd) - Adds fuzzy search for directories warped with the [WD](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/wd) plugin.
 - [fz](https://github.com/changyuheng/fz) - Seamlessly adds fuzzy search to [z](https://github.com/rupa/z)'s tab completion and lets you easily jump around among directories in your history.
 - [fzf (gimbo)](https://github.com/gimbo/fzf.zsh) - Helpers for using [fzf](https://github.com/junegunn/fzf) in ZSH. Requires [brew.sh](https://brew.sh).
+- [fzf (scaryrawr)](https://github.com/scaryrawr/fzf.zsh) - Adds keybindings for [fzf](https://github.com/junegunn/fzf) inspired by [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish).
 - [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
 - [fzf-copyq-clipboard](https://github.com/magidc/fzf-copyq-clipboard-zsh-plugin) - Add [fzf](https://github.com/junegunn/fzf) support for [CopyQ](https://hluk.github.io/CopyQ/).
 - [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for `zsh` using `fzf` that allows the user to switch to any directory from anywhere and to anywhere. It also maintains a history of recently visited directories. Additionally, you can use hotkeys to move back and forth between directories in the shell session.
@@ -1040,6 +1041,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf-history-search](https://github.com/joshskidmore/zsh-fzf-history-search) - Replaces `Ctrl+R` with an [fzf](https://github.com/junegunn/fzf)-driven history search that includes date/times.
 - [fzf-it](https://github.com/micakce/fzf-it) - Make any command interactive wrapping it with [fzf](https://github.com/junegunn/fzf) functionality.
 - [fzf-marks](https://github.com/urbainvaes/fzf-marks) - Little script to create, navigate and delete bookmarks in `bash` and `zsh`, using the fuzzy finder [fzf](https://github.com/junegunn/fzf).
+- [fzf-nav](https://github.com/ivomac/zsh-fzf-nav) - Defines an interactive file/directory navigator using [fzf](https://github.com/junegunn/fzf). Offers multiple navigation modes, git integration, and customizable actions.
 - [fzf-packagemanager](https://github.com/goarano/zsh-fzf-packagemanager) - Adds commands for installing tools via various package managers using [fzf](https://github.com/junegunn/fzf). Supports `apt`, `brew` & `dnf`.
 - [fzf-pass](https://github.com/smeagol74/zsh-fzf-pass) - Better handling of passwords using [fzf](https://github.com/junegunn/fzf) and [pass](https://www.passwordstore.org/).
 - [fzf-plugin](https://github.com/Atlas34/fzf-plugin) - [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)'s `fzf` plugin extracted so it can be used easily with other plugin managers.
