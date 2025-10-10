@@ -358,7 +358,7 @@ Tools Provided by x-cmd:
 ![GitHub last commit](https://img.shields.io/github/last-commit/zap-zsh/zap)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zap-zsh/zap)
 
-**zap** is a minimal ZSH plugin manager.
+**:zap:zap** is a minimal ZSH plugin manager.
 
 ### [zapack](https://github.com/aiya000/zsh-zapack)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aiya000/zsh-zapack)
