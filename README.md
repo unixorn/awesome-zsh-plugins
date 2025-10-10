@@ -911,7 +911,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [containers](https://github.com/redxtech/zsh-containers) - Provides aliases and better interoperability between [podman](https://podman.io) and [docker](https://docker.com) commands based on which you have installed.
 - [copy-pasta](https://github.com/ChrisPenner/copy-pasta) - Copy and paste files in your terminal like you would in a GUI.
 - [copyzshell](https://github.com/rutchkiwi/copyzshell) - A ZSH plugin to copy your shell configuration to another machine over `ssh`.
-- [cowsay](https://github.com/phucleeuwu/cowsay.zsh) - Displays a joke with `cowsay` and `lolcat` every time you open a terminal.
+- [cowsay](https://github.com/phucisstupid/cowsay.zsh) - Displays a joke with `cowsay` and `lolcat` every time you open a terminal.
 - [crash](https://github.com/molovo/crash) - Adds proper error handling, exceptions and try/catch for ZSH.
 - [crayon-syntax](https://github.com/gsemet/crayon-syntax-zsh) - ZSH syntax highlighting for the Crayon Plugin for Wordpress.
 - [cros-auto-notify](https://github.com/D3STY/cros-auto-notify-zsh) - Automatically sends out a notification when a long running task has completed. Works with macOS and linux (if `hterm-notify` is installed).
@@ -1350,7 +1350,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [peco-history](https://github.com/jimeh/zsh-peco-history) - Search shell history with Peco when pressing `ctrl+R`.
 - [penmux](https://github.com/mfulz/zsh-penmux) - A session manager plugin meant to be used for penetration testing sessions and tracking the terminal sessions to be used in reports.
 - [pentest](https://github.com/jhwohlgemuth/oh-my-zsh-pentest-plugin) - Aliases and functions for the lazy penetration tester.
-- [penv](https://github.com/Nhqml/penv-zsh-plugin - Manages `uv` Python virtual environments stored in `~/.local/share/py-venv/`. Supports subcommands for listing, activating (shell and directory level), creating, deleting and explaining why an env is activated. Makes it easier to replace `pyenv` and `poetry` with `uv`.
+- [penv](https://github.com/Nhqml/penv-zsh-plugin) - Manages `uv` Python virtual environments stored in `~/.local/share/py-venv/`. Supports subcommands for listing, activating (shell and directory level), creating, deleting and explaining why an env is activated. Makes it easier to replace `pyenv` and `poetry` with `uv`.
 - [per-directory-history](https://github.com/jimhester/per-directory-history) - Per directory history for ZSH, as well as global history, and the ability to toggle between them with `^G`.
 - [percol](https://github.com/robturtle/percol.plugin.zsh) - Interactively and incrementally search history/resume background jobs using [percol](https://github.com/mooz/percol).
 - [perlbrew](https://github.com/tfiala/zsh-perlbrew/) - Installs [perlbrew](https://perlbrew.pl/) if not already installed and initializes it for your shell.
@@ -1576,7 +1576,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [thefuck](https://github.com/laggardkernel/thefuck) - Loads [thefuck](https://github.com/nvbn/thefuck) (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically.
 - [theia-dev-tools](https://github.com/taPublic/zsh-theia-dev-tools) - Convenience functions for working with [theia-ide](https://github.com/theia-ide/theia).
 - [tig](https://github.com/MenkeTechnologies/zsh-tig-plugin) - Adds a few advanced bindings for [tig](https://github.com/jonas/tig) and also provides a `tig-pick` script.
-- [timewarrior](https://github.com/svenXY/timewarrior) - Adds support for [timewarrior](https://timewarrior.net/), a time-tracking application.
+- [timewarrior (ianmkenney)](https://github.com/ianmkenney/timewarrior_zsh_completion) - Tab completions for [timewarrior](https://timewarrior.net/) time-tracking application.
+- [timewarrior (svenXY)](https://github.com/svenXY/timewarrior) - Adds support for [timewarrior](https://timewarrior.net/), a time-tracking application.
 - [tinted-shell](https://github.com/tinted-theming/tinted-shell) - Adds a script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as [Vim](https://www.vim.org).
 - [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
 - [title](https://github.com/zpm-zsh/title) - Allows you to set a terminal window title.
@@ -1743,8 +1744,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zservice-py3http](https://github.com/z-shell/zservice-py3http) - Serve a given directory with Python 3's http server from the standard library.
 - [zsh-dev-navigator](https://github.com/dvigo/zsh-dev-navigator) - A minimal Zsh plugin that lets you quickly jump into your development directories with a single command.
 - [zsh-expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key. Native expansions such as globs, command/process substitution, `=command expansion`, history expansion and `$parameters` are also expanded by default but can be turned off.
-- [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + [oh-my-zsh](https://ohmyz.sh/) installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 - [zsh-hookie-projects](https://github.com/aemonge/zsh-hookie-projects) - Language-agnostic project detection with smart hooks, PowerLevel10k integration, and intelligent path shortening. Automatically detects 100+ project types, provides customizable on_project/off_project hooks, features a smart cd command that goes to project root, and includes a beautiful hookie_dir segment that shortens paths like ~/projects/my-app → ~/p/my-app. Perfect for polyglot developers who want seamless project-aware shell behavior.
+- [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + [oh-my-zsh](https://ohmyz.sh/) installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 - [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in `vim`.
 - [zsh-select](https://github.com/z-shell/zsh-select) - Displays a selection list. It is similar to `selecta`, but uses the curses library to do display, and when compared to [fzf](https://github.com/junegunn/fzf), the main difference is approximate matching instead of fuzzy matching.
 - [zsh-watch](https://github.com/Thearas/zsh-watch) - Simple `watch` that supports alias and completion.
@@ -1812,6 +1813,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [complete-mac](https://github.com/vitkabele/complete-mac) - Add completions for macOS `ioreg`, `lsmp`, `scselect`, `system_profiler` and `tmutil` commands.
 - [completion-sync](https://github.com/BronzeDeer/zsh-completion-sync) - Automatically loads completions added dynamically to `FPATH` or `XDG_DATA_DIRS`.
 - [completions (clarketm)](https://github.com/clarketm/zsh-completions) - This includes the zsh-users[completions](https://github.com/zsh-users/zsh-completions), zchee's [completions](https://github.com/zchee/zsh-completions), nilsonholger's [osx-zsh-completions](https://github.com/nilsonholger/osx-zsh-completions) and various other custom completions.
+- [completions (northismirror)](https://github.com/NorthIsMirror/zsh-completions) - Extra completions for ZSH.
 - [completions (zchee)](https://github.com/zchee/zsh-completions) - Yet another collection of tab completions.
 - [completions (zsh-users)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 - [conda](https://github.com/conda-incubator/conda-zsh-completion) - ZSH tab completion for [conda](http://conda.pydata.org/).
@@ -3059,9 +3061,11 @@ Some of the themes listed here require Powerline-compatible fonts, here are a fe
 - [Hack](https://sourcefoundry.org/hack/) - Another Powerline-compatible font designed specifically for source code.
 - [Input Mono](https://store.typenetwork.com/foundry/djr/series/input?family=input-mono) - A family of fonts designed specifically for code. It offers both monospaced and proportional fonts and includes powerline glyphs.
 - [Iosevka](https://github.com/be5invis/Iosevka) - Coders' typeface, built from code. Highly customizable.
+- [Maple](https://github.com/subframe7536/maple-font) - An open source monospace font with Nerd Font support focused on smoothing your coding flow.
 - [Monoid](https://larsenwork.com/monoid/) - Monoid is customizable and optimized for coding with bitmap-like sharpness at 15px line-height even on low res displays.
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts) - Collection of over 20 patched fonts (over 2,000 variations) & FontForge font patcher python script for Powerline, Font Awesome, Octicons, Devicons, and Vim Devicons. Includes: Droid Sans, Meslo, Source Code, AnonymousPro, Hack, ProFont, Inconsolata, and many more.
 - [Powerline patched font collection](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include powerline gylphs.
+- [SFMono Nerd Font Ligaturized](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized) - Pre-patched opentype versions of macOS's SFMono fonts with support for ligatures and Nerd Fonts.
 - [Terminus](http://files.ax86.net/terminus-ttf/) - TTF version of Terminus that includes powerline glyphs.
 
 ## Installation
