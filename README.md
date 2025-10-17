@@ -1524,6 +1524,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
 - [ssh-agent](https://github.com/sdiebolt/zsh-ssh-agent) - Automatically launches `ssh-agent` if it isn't already running.
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
+- [ssh-host](https://github.com/obolientsev/ssh-host) - Manage ssh with [fzf](https://github.com/junegunn/fzf).
 - [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
 - [ssh-quickconnect](https://github.com/breda/zsh-ssh-quickconnect) - Simple utility to quickly connect to hosts from your `ssh` config & `known_hosts` file.
 - [sshinfo](https://github.com/SckyzO/zsh-sshinfo) - displays resolved SSH connection details (like the final hostname, port, user, and proxies) before connecting. This is useful for verifying your SSH configuration, especially when dealing with complex setups involving aliases, proxies, or multiple configuration files.
