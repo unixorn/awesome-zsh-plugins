@@ -1194,7 +1194,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [jq](https://github.com/reegnz/jq-zsh-plugin) - Interactively build [jq](https://stedolan.github.io/jq/) expressions. Also supports [gojq](https://github.com/itchyny/gojq). Requires [fzf](https://github.com/junegunn/fzf).
 - [jrgit](https://github.com/jrocha-dev/ohmyzsh-plugin-jrgit) - Provides a suite of functions to streamline the Git user experience. It includes features for installing and configuring Git, handling large files with Git LFS, improving diff outputs, and managing credentials and keys securely.
 - [jumper](https://github.com/thestuckster/jumper) - Saves your current path and allows you to quickly jump to others.
-- [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
 - [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
 - [k3d](https://github.com/dwaynebradley/k3d-oh-my-zsh-plugin) - Adds aliases and tab completions for [k3d](https://k3d.io/).
 - [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
