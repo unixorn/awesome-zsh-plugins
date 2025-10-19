@@ -358,7 +358,7 @@ Tools Provided by x-cmd:
 ![GitHub last commit](https://img.shields.io/github/last-commit/zap-zsh/zap)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zap-zsh/zap)
 
-**zap** is a minimal ZSH plugin manager.
+**:zap:zap** is a minimal ZSH plugin manager.
 
 ### [zapack](https://github.com/aiya000/zsh-zapack)
 ![GitHub last commit](https://img.shields.io/github/last-commit/aiya000/zsh-zapack)
@@ -792,7 +792,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify) - Automatically sends out a notification when a long running task has completed.
 - [auto-nvm](https://github.com/manlao/zsh-auto-nvm) - Automatically switches to the node version specified in a given directory.
 - [auto-pnpm-use](https://github.com/brunomacedo/zsh-auto-pnpm-use) - Automatically loads the node version specified in `.nvmrc` or `.npmrc`.
-- [auto-venv](https://github.com/Skylor-Tang/auto-venv) - Automatically activates the Python virtual environment in the current directory or its parent directories.
+- [auto-venv (skylor0tang)](https://github.com/Skylor-Tang/auto-venv) - Automatically activates the Python virtual environment in the current directory or its parent directories.
+- [auto-venv (songlkkevin)](https://github.com/songlkkevin/zsh-auto-venv) - Automatically detect and activate the nearest Python virtual environment when changing directories.
 - [autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - Automatically lists completions as you type and provides intuitive keybindings for selecting and inserting them.
 - [autodark (cravend)](https://github.com/cravend/autodark) - Switches between user-specified light and dark themes. Only works on macOS.
 - [autodark (vbwx)](https://github.com/vbwx/zsh-autodark) - Switches to another Terminal profile if dark mode is enabled (macOS-only).
@@ -1081,6 +1082,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [git-flow-avh](https://github.com/nekofar/zsh-git-flow-avh) - Adds short aliases for the `git-flow` commands.
 - [git-fuzzy](https://github.com/bigH/git-fuzzy) - A CLI interface to `git` that relies heavily on [fzf](https://github.com/junegunn/fzf).
 - [git-gen](https://github.com/sharif3271/git-gen) - Handle `git` bulk branch delete and create operations.
+- [git-graph](https://github.com/Maks0u/git-graph) - Adds a pretty `git` graph.
 - [git-is-clean](https://github.com/aubreypwd/zsh-plugin-git-is-clean) - This function will return true or false depending on if it finds out your `git` repo is dirty or not.
 - [git-it-on](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 - [git-lfs](https://github.com/nekofar/zsh-git-lfs) - Adds short aliases for the `git-lfs` commands.
@@ -1196,7 +1198,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [jq](https://github.com/reegnz/jq-zsh-plugin) - Interactively build [jq](https://stedolan.github.io/jq/) expressions. Also supports [gojq](https://github.com/itchyny/gojq). Requires [fzf](https://github.com/junegunn/fzf).
 - [jrgit](https://github.com/jrocha-dev/ohmyzsh-plugin-jrgit) - Provides a suite of functions to streamline the Git user experience. It includes features for installing and configuring Git, handling large files with Git LFS, improving diff outputs, and managing credentials and keys securely.
 - [jumper](https://github.com/thestuckster/jumper) - Saves your current path and allows you to quickly jump to others.
-- [jvm](https://github.com/mgryszko/jvm) - Allows selection of JDK on macOS.
 - [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
 - [k3d](https://github.com/dwaynebradley/k3d-oh-my-zsh-plugin) - Adds aliases and tab completions for [k3d](https://k3d.io/).
 - [kctl](https://github.com/yzdann/kctl) - Add helper aliases for `kubectl`.
@@ -1440,6 +1441,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ranger (niziL)](https://github.com/NiziL/ranger.plugin.zsh) - provide prompt element for [ranger](https://github.com/ranger/ranger). Shows current `RANGER_LEVEL`, displaying nothing when the environment variable is unset, something when it is equals to 1, and something else when it is greater than 1.
 - [ranger (rc2dev)](https://github.com/rc2dev/ranger-zshz) - Integrates [zsh-z](https://github.com/agkozak/zsh-z) into [ranger](https://github.com/ranger/ranger).
 - [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
+- [ranger-zoxide](https://github.com/fdw/ranger-zoxide) - Adds [zoxide](https://github.com/ajeetdsouza/zoxide) support to the [ranger](https://github.com/ranger/ranger) console file manager.
 - [raspberry-temp](https://github.com/cfunkz/zsh-raspberry-temp-plugin) - Measures temperature for raspberry pi via `rpi-temp` alias.
 - [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin) - Puts the Raspberry Pi temperature into a spaceship prompt segment
 - [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
@@ -1526,6 +1528,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
 - [ssh-agent](https://github.com/sdiebolt/zsh-ssh-agent) - Automatically launches `ssh-agent` if it isn't already running.
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
+- [ssh-host](https://github.com/obolientsev/ssh-host) - Manage ssh with [fzf](https://github.com/junegunn/fzf).
 - [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
 - [ssh-quickconnect](https://github.com/breda/zsh-ssh-quickconnect) - Simple utility to quickly connect to hosts from your `ssh` config & `known_hosts` file.
 - [sshinfo](https://github.com/SckyzO/zsh-sshinfo) - displays resolved SSH connection details (like the final hostname, port, user, and proxies) before connecting. This is useful for verifying your SSH configuration, especially when dealing with complex setups involving aliases, proxies, or multiple configuration files.
@@ -1931,6 +1934,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [poetry](https://github.com/fourdim/zsh-poetry) - Tab completions for [poetry](https://python-poetry.org/).
 - [prettier](https://github.com/sambergo/zsh-prettier-completion/) - Tab completion for [prettier](https://prettier.io/.)
 - [pytest-fzf](https://github.com/jszczepaniak/zsh-pytest-fzf) - lets you select pytest tests using [fzf](https://github.com/junegunn/fzf) and insert them into your terminal.
+- [python-module-completion](https://github.com/UshioA/zsh-python-module-completion) - Intelligent tab completion for python -m commands with hierarchical module navigation and smart project detection.
 - [quickjump](https://github.com/fikovnik/zsh-quickjump) - Adds tab completion support for [skim](https://github.com/lotabout/skim) for recent files and directories using [fasd](https://github.com/whjvenyl/fasd).
 - [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 - [rake-completion](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets.
@@ -2742,6 +2746,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [pyhack](https://github.com/williamcanin/pyhack) - Works well with dark terminal themes. Shows Python version, Python package version (pyproject.toml) and `git` current branch information.
 - [qi3ber2](https://github.com/nichus/qi3ber2) - A dark multiline theme. Includes `git`, load average and exit code of last command decorators.
 - [qoomon](https://github.com/qoomon/zsh-theme-qoomon) - Optimized for dark backgrounds, includes `git` information. Theme repo includes iTerm 2 and Terminal color settings.
+- [quantum](https://github.com/calebephrem/quantum-zsh) - Sleek, dynamic Zsh theme built for speed, style, and shell supremacy. Whether you're deep in Git or just vibing in your terminal, Quantum adapts to your flow.
 - [quewui](https://github.com/kauefontes/oh-my-quewui) - Simple and clean theme optimized for dark terminal themes. Includes decorations for the current time, user, directory and `git` status.
 - [r3-fresh](https://github.com/r3-fresh/r3-fresh-zsh-theme) - Includes decorators for `git` status, current directory, exit status of last command run.
 - [r3nic1e](https://github.com/r3nic1e/r3nic1e) - [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) variant with battery status, `git/hg` status, time, kubernetes context and namespace, non-zero exit code of last command and date decorations. Requires Powerline font.
@@ -2752,7 +2757,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [ramiel](https://github.com/aknackd/zsh-themes) - Fork of the [node](https://github.com/skuridin/oh-my-zsh-node-theme).
 - [random-emoji-robbyrussell](https://github.com/parwatcodes/random-emoji-robbyrussell) - Based on [random-emoji](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) and `robbyrussell` themes.
 - [random-emoji](https://gist.github.com/oshybystyi/2c30543cd48b2c9ecab0) - Random emoji.
-- [ranger-zoxide](https://github.com/fdw/ranger-zoxide) - Adds [zoxide](https://github.com/ajeetdsouza/zoxide) support to the [ranger](https://github.com/ranger/ranger) console file manager.
 - [raspberrysh](https://github.com/MaxMalinowski/raspberrysh) - Includes `git`, python, time, current host and path decorations.
 - [raytek](https://github.com/Raytek/raytek-zsh-theme) - Simple and colorful theme with `git` status decorations.
 - [raz](https://github.com/razman786/ohmyzsh-theme-raz) - Minimal prompt, includes `git` status decorations.
