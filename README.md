@@ -738,7 +738,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 
 - [1password](https://github.com/agpenton/1password-zsh-plugin) - Adds [1Password](https://1password.com/) functionality including a `opswd` command that wraps the `op` command. It takes a service name as an argument and copies the password for that service to the clipboard.
 - [256color](https://github.com/chrissicool/zsh-256color) - Enhances the terminal environment with 256 colors. It looks at the chosen `TERM` environment variable and sees if there is respective ncurses' terminfo with 256 colors available. The result is a multicolor terminal, if available.
-- [abbr (olets)](https://github.com/olets/zsh-abbr) - Manages auto-expanding abbreviations that expand inline when you hit space, inspired by fish shell.
+- [abbr (olets)](https://github.com/olets/zsh-abbr) - Manages auto-expanding abbreviations that expand inline when you hit space, inspired by the fish shell.
 - [abbr-path](https://github.com/felixgravila/zsh-abbr-path) - Adds functionality of the `theme_title_use_abbreviated_path` parameter from some oh-my-fish themes.
 - [abbrev-alias](https://github.com/momo-lab/zsh-abbrev-alias) - Provides functionality similar to `vim`'s abbreviation expansion.
 - [actiona](https://github.com/matthieusb/act) - Make it easier to call [actiona](https://github.com/Jmgr/actiona) scripts from your command line. Includes tab completions.
@@ -753,10 +753,10 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [alias-finder](https://github.com/akash329d/zsh-alias-finder) - Displays an alias when you use a command you have aliased previously. Helpful for remembering aliases you have defined in the past. Written as a pure ZSH script for speed.
 - [alias-maker](https://github.com/MefitHp/alias-maker) - Allows you to easily create and manage aliases from the command line.
 - [alias-tips](https://github.com/djui/alias-tips) - An [oh-my-zsh](https://ohmyz.sh/) plugin to help remembering those aliases you defined once.
-- [allclear](https://github.com/givensuman/zsh-allclear) - Clears the terminal when you cd into `$HOME`.
+- [allclear](https://github.com/givensuman/zsh-allclear) - Clears the terminal when you `cd` into `$HOME`.
 - [allergen](https://github.com/stanislas/allergen) - A collection of custom ZSH plugins to use with Antigen.
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
-- [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the alt-c (copy), alt-v (paste), alt-x (cut) keyboard shortcut to a commands: copy-region-as-kill, yank, kill-region. Remaps the execute command to Alt-Shift-X.
+- [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the `alt-c` (copy), `alt-`v (paste), `alt-x` (cut) keyboard shortcut to commands: `copy-region-as-kill`, `yank` and `kill-region`. Remaps the execute command to `alt-shift-X`.
 - [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for [Ansible](https://www.ansible.com/).
 - [ansimotd](https://github.com/yuhonas/zsh-ansimotd) - Adds old-school cool ANSI art when a login shell starts.
 - [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols.
@@ -804,7 +804,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [autojump](https://github.com/wting/autojump) - A `cd` command that learns - easily navigate directories from the command line. Install autojump-zsh for best results.
 - [autopair](https://github.com/hlissner/zsh-autopair) - A ZSH plugin for auto-closing, deleting and skipping over matching delimiters. Only tested on ZSH 5.0.2 or later.
 - [autoquoter](https://github.com/ianthehenry/zsh-autoquoter) - A `zle` widget ("zsh plugin") that will automatically put quotes around arguments to certain commands.
-- [autosuggestions-plugin](https://github.com/jumbojett/zsh-autosuggestions-plugin) - 🐟 fish-style auto-suggestions in ZSH.
+- [autosuggestions-plugin](https://github.com/jumbojett/zsh-autosuggestions-plugin) - 🐟 [Fish](https://fishshell.com/)-style auto-suggestions in ZSH.
 - [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) - [Fish](https://fishshell.com/)-like fast/unobtrusive autosuggestions for ZSH.
 - [autoswitch-virtualenv](https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv) - ZSH plugin to automatically switch python virtualenvs and pipenvs when traversing directories. Automatically detects [pipenv](https://pypi.org/project/pipenv/) and [poetry](https://python-poetry.org/) projects.
 - [autoupdate-antibody](https://github.com/spikespaz/autoupdate-antibody-zsh) - A fork of [autoupdate-antigen](https://github.com/unixorn/autoupdate-antigen.zshplugin) for the [Antibody](https://getantibody.github.io) plugin manager, with the added ability to cooperate with static loading.
@@ -847,7 +847,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [branch-manager](https://github.com/elstgav/branch-manager) - A plugin for managing `git` branches.
 - [brave](https://github.com/troykelly/oh-my-zsh-brave) - Manages [Brave](https://brave.com) profiles. With this plugin, you can start the Brave Browser with a specific user profile by using the brave command followed by the profile's name. The plugin also implements autocompletion for the profile names so you won't have to type the entire profile name manually.
 - [brew (rhuang2014)](https://github.com/rhuang2014/brew) - Standalone plugin for the [Homebrew](https://brew.sh/) Package Manager.
-- [brew (wintermi)](https://github.com/wintermi/zsh-brew) - Simple plugin for the [Homebrew](https://brew.sh/) Package Manager.
+- [brew (wintermi)](https://github.com/wintermi/zsh-brew) - Simple plugin for the [Homebrew](https://brew.sh/) package manager.
 - [brew (wolffaxn)](https://github.com/wolffaxn/brew-zsh-plugin) - Standalone plugin for the [Homebrew](https://brew.sh/) Package Manager.
 - [brew-install](https://github.com/marceloclp/zsh-brew-install) - Installs and loads [brew](https://brew.sh) on WSL.
 - [brew-switcher](https://github.com/fielding/zsh-brew-switcher) - Automatically switch between Homebrew installations based on the current active arch, arm64 or x86_64, on Apple Silicon Macs.
@@ -1023,14 +1023,14 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
 - [firebase (rmrs)](https://github.com/rmrs/firebase-zsh) - Add an indicator in the prompt that you're in a directory with a `firebase.json` file (aka "firebase project").
 - [firebase (seqi)](https://github.com/Seqi/firebase-zsh) - Display the current working project or project alias when in a Firebase project directory or subdirectory.
-- [firmine](https://github.com/GNUWood/firmine) - Includes decorators for user@hostname, date & time, current directory and [Kaomoji](https://en.wikipedia.org/wiki/Kaomoji) icons for last command exit status.
+- [firmine](https://github.com/GNUWood/firmine) - Includes decorators for `user@hostname`, date & time, current directory and [Kaomoji](https://en.wikipedia.org/wiki/Kaomoji) icons for last command exit status.
 - [fixnumpad-osx](https://github.com/zackintosh/fixnumpad-osx.plugin.zsh) - Enables numpad keys of Apple keyboards to be recognized in ZSH.
 - [flow-plugin](https://github.com/sandstorm/oh-my-zsh-flow-plugin) - This plugin makes the `flow` command available inside every subdirectory of the TYPO3 Flow distribution.
 - [flutter-zsh-shortcuts](https://github.com/dizzpy/flutter-zsh-shortcuts) - Adds clean aliases for flutter commands.
 - [fnm (dominik-schwabe)](https://github.com/dominik-schwabe/zsh-fnm) - Installs and loads the [Fast Node Manager (fnm)](https://github.com/Schniz/fnm) if it is missing.
 - [fnm (wintermi)](https://github.com/wintermi/zsh-fnm) - Helper plugin for the fast and simple Node.js version manager [fnm](https://github.com/Schniz/fnm).
 - [forgit](https://github.com/wfxr/forgit) - Utility tool for `git` which takes advantage of fuzzy finder [fzf](https://github.com/junegunn/fzf).
-- [fuckmit](https://github.com/mingeme/zsh-fuckmit) - Provides useful aliases and functions for the [fuckmit](https://github.com/mingeme/fuckmit) command-line tool, an AI-powered git commit message generator.
+- [fuckmit](https://github.com/mingeme/zsh-fuckmit) - Provides useful aliases and functions for the [fuckmit](https://github.com/mingeme/fuckmit) command-line tool, an AI-powered `git` commit message generator.
 - [functional](https://github.com/Tarrasch/zsh-functional) - ZSH higher order functions.
 - [fuzzy-search-and-edit](https://github.com/seletskiy/zsh-fuzzy-search-and-edit) - ZSH plugin for fuzzy searching files and instantly opening a matched file on matched line.
 - [fuzzy-wd](https://github.com/spodin/zsh-fuzzy-wd) - Adds fuzzy search for directories warped with the [WD](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/wd) plugin.
@@ -1039,7 +1039,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzf (scaryrawr)](https://github.com/scaryrawr/fzf.zsh) - Adds keybindings for [fzf](https://github.com/junegunn/fzf) inspired by [PatrickF1/fzf.fish](https://github.com/PatrickF1/fzf.fish).
 - [fzf (unixorn)](https://github.com/unixorn/fzf-zsh-plugin/) - Enables [fzf](https://github.com/junegunn/fzf) history and file searches.
 - [fzf-copyq-clipboard](https://github.com/magidc/fzf-copyq-clipboard-zsh-plugin) - Add [fzf](https://github.com/junegunn/fzf) support for [CopyQ](https://hluk.github.io/CopyQ/).
-- [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for `zsh` using `fzf` that allows the user to switch to any directory from anywhere and to anywhere. It also maintains a history of recently visited directories. Additionally, you can use hotkeys to move back and forth between directories in the shell session.
+- [fzf-dir-navigator](https://github.com/KulkarniKaustubh/fzf-dir-navigator) - This is a cool and user-friendly directory navigation plugin for ZSH using `fzf` that allows the user to switch to any directory from anywhere and to anywhere. It also maintains a history of recently visited directories. Additionally, you can use hotkeys to move back and forth between directories in the shell session.
 - [fzf-fasd](https://github.com/wookayin/fzf-fasd) - Integrates [fzf](https://github.com/junegunn/fzf) and [fasd](https://github.com/clvv/fasd) --- tab completion of `z` with `fzf`'s fuzzy search!
 - [fzf-finder](https://github.com/leophys/zsh-plugin-fzf-finder) - Plugin to have a cool search keybinding with [fzf](https://github.com/junegunn/fzf) and (optionally) [bat](https://github.com/sharkdp/bat) and [fd](https://github.com/sharkdp/fd). Falls back to `find` and `cat`. Searches in the local tree of subdirectories for files.
 - [fzf-git-worktree](https://github.com/banyan/zsh-fzf-git-worktree) - Manage `git` worktrees with [fzf](https://github.com/junegunn/fzf) integration.
@@ -1098,7 +1098,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [git-prune (diazod)](https://github.com/diazod/git-prune) - Allows you to delete all branches that are already merged in your local `git` repository and/or that were merged in your remote origin `git` repository.
 - [git-prune (seinh)](https://github.com/Seinh/git-prune) - Plugin that simplifies deleting merged branches in a `git` repository.
 - [git-scripts](https://github.com/packruler/zsh-git-scripts) - Adds `git-squash-branch` and `git-remove-merged` commands.
-- [git-secret](https://github.com/sobolevn/git-secret) - A bash-tool to store your private data inside a `git` repository.
+- [git-secret](https://github.com/sobolevn/git-secret) - A bash tool to store your private data inside a `git` repository.
 - [git-smart-commands](https://github.com/seletskiy/zsh-git-smart-commands) - Adds extra `git` commands to make some common `git` usages more efficient.
 - [git-smart-commends-wrapper](https://github.com/jelek21/omz-git-smart-commands) - Wraps [git-smart-commands](https://github.com/seletskiy/zsh-git-smart-commands) to make it compatible with the [oh-my-zsh](https://ohmyz.sh) plugins system.
 - [git-status](https://github.com/AyoubMounim/zsh-git-status/) - Exposes functions with information about the current `git` repository.
@@ -1200,7 +1200,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [jj](https://github.com/rkh/zsh-jj) - Add support for [jujitsu](https://github.com/jj-vcs/jj) VCS.
 - [journal](https://github.com/onurhanak/zsh-journal) - Lets you attach notes to shell commands you have run. Handy for remembering what a oneliner was actually doing when you look back at it later.
 - [jq](https://github.com/reegnz/jq-zsh-plugin) - Interactively build [jq](https://stedolan.github.io/jq/) expressions. Also supports [gojq](https://github.com/itchyny/gojq). Requires [fzf](https://github.com/junegunn/fzf).
-- [jrgit](https://github.com/jrocha-dev/ohmyzsh-plugin-jrgit) - Provides a suite of functions to streamline the Git user experience. It includes features for installing and configuring Git, handling large files with Git LFS, improving diff outputs, and managing credentials and keys securely.
+- [jrgit](https://github.com/jrocha-dev/ohmyzsh-plugin-jrgit) - Provides a suite of functions to streamline the Git user experience. It includes features for installing and configuring `git`, handling large files with Git LFS, improving diff outputs, and managing credentials and keys securely.
 - [jumper](https://github.com/thestuckster/jumper) - Saves your current path and allows you to quickly jump to others.
 - [k](https://github.com/supercrabtree/k) - Directory listings for ZSH with `git` status decorations.
 - [k3d](https://github.com/dwaynebradley/k3d-oh-my-zsh-plugin) - Adds aliases and tab completions for [k3d](https://k3d.io/).
@@ -1258,6 +1258,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
 - [macos (joow)](https://github.com/joow/macos) - A ZSH plugin for macOS.
 - [macos (zshzoo)](https://github.com/zshzoo/macos) - ZSH goodies for macOS users.
+- [macos-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [macos-theme](https://github.com/gakimball/zsh-macos-theme) - Adds the theme command, which toggles between light and dark mode in macOS. Requires [lux](https://github.com/pndurette/zsh-lux) plugin.
 - [mage2docker](https://github.com/lukaszolszewski/mage2docker) - Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers.
 - [magento-2](https://github.com/dambrogia/oh-my-zsh-plugin-magento-2) - Adds `m2` function to run magento binary, adds tab completions.
@@ -1334,7 +1335,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ollama](https://github.com/plutowang/zsh-ollama-command) - Integrates the OLLAMA AI model with [fzf](https://github.com/junegunn/fzf) to provide intelligent command suggestions based on user input requirements.
 - [omz-full-autoupdate](https://github.com/Pilaton/OhMyZsh-full-autoupdate) - Automatically update [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugins and themes.
 - [omz-git](https://github.com/aeons/omz-git) - [Oh-My-ZSH](https://ohmyz.sh/)'s [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin re-packaged to be standalone.
-- [omz-themes-standalone](https://github.com/zshzoo/omz-themes-standalone) - Gives you the [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) themes without requiring everything else that comes with oh-my-zsh
+- [omz-themes-standalone](https://github.com/zshzoo/omz-themes-standalone) - Gives you the [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) themes without requiring everything else that comes with [Oh-My-ZSH](https://ohmyz.sh/).
 - [open-create-projects](https://github.com/marcossegovia/open-create-projects) - Open/Create projects in Jetbrains.
 - [open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 - [openshift-origin](https://github.com/ryanswart/openshift-origin-zsh-plugin) - Add a few shortcuts to common openshift origin (oc) actions.
@@ -1343,7 +1344,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [opp](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
 - [opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 - [org-hopper](https://github.com/hjdarnel/org-hopper/) - Wraps the GitHub CLI with [fzf](https://github.com/junegunn/fzf). It allows you to quickly jump between repositories a given GitHub organization, cloning it to a predefined location if the local copy doesn't already exist.
-- [osx-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on a macOS install.
 - [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
@@ -1372,7 +1372,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [pins](https://github.com/mehalter/zsh-pins) - ZSH plugin for pinning directories. Like a CLI folder bookmark manager with tab completions.
 - [pip-app](https://github.com/sharat87/pip-app) - Makes it easy to install python applications into distinct Python virtualenvs so they don't conflict with any other python requirements on your system.
 - [pip-env](https://github.com/iboyperson/zsh-pipenv) - Automatic [pipenv](https://pipenv.readthedocs.io/en/latest/) activation upon entry into a `pipenv` project.
-- [pipe](https://github.com/pipe-felipe/zsh-pipe-plugin) - A powerful ZSH plugin featuring **cross-distro system updates** and **cleanup** (supports apt, dnf, pacman, zypper, homebrew, and more), Docker container/volume management, and development environment enhancements. Simplifies system maintenance across multiple Linux distributions with intuitive commands. Extensible through a simple configuration system - see project README for details.
+- [pipe](https://github.com/pipe-felipe/zsh-pipe-plugin) - A powerful ZSH plugin featuring **cross-distro system updates** and **cleanup** (supports `apt`, `dnf`, `pacman`, `zypper`, `homebrew`, and more), Docker container/volume management, and development environment enhancements. Simplifies system maintenance across multiple Linux distributions with intuitive commands. Extensible through a simple configuration system - see project README for details.
 - [pipenv (owenstranathan)](https://github.com/owenstranathan/pipenv.zsh) - Automatically activates a **pipenv** when entering a directory if there is Pipfile in that directory. Includes `pipenv` completions.
 - [pipenv (sudosubin)](https://github.com/sudosubin/zsh-pipenv) - Enables `pipenv`'s `$PATH` and adds completions.
 - [pipx](https://github.com/thuandt/zsh-pipx) - Autocompletions for [pipx](https://github.com/pypa/pipx).
@@ -1380,8 +1380,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [plenv](https://github.com/TwoPizza9621536/zsh-plenv) - Plugin for the perl [plenv](https://github.com/tokuhirom/plenv) version manager based on jenv.
 - [plugin-ibtool](https://github.com/rgalite/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files.
 - [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
-- [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for Visual Studio Code, a text editor for macOS, Windows, and Linux.
-- [plugin](https://github.com/darrenbutcher/plugin) - Creates custom [oh-my-zsh](https://ohmyz.sh) plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins will need editing to work with other frameworks.
+- [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for [Visual Studio Code](https://code.visualstudio.com/download), a text editor for macOS, Windows, and Linux.
+- [plugin](https://github.com/darrenbutcher/plugin) - Creates custom [oh-my-zsh](https://ohmyz.sh) plugins from a boilerplate template. Very oh-my-zsh centric, the generated plugins may need editing to work with other frameworks.
 - [pnpm (baliestri)](https://github.com/baliestri/pnpm.plugin.zsh) - Adds useful aliases for many common [pnpm](https://pnpm.io/) commands. Includes tab-completions.
 - [pnpm (leizhenpeng)](https://github.com/Leizhenpeng/zsh-plugin-pnpm) - Adds useful aliases for common [pnpm](https://pnpm.io/) commands.
 - [pnpm (mat2ja)](https://github.com/mat2ja/pnpm.plugin.zsh) - Better [pnpm](https://pnpm.io/) aliases.
@@ -1435,7 +1435,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [q (cal2195)](https://github.com/cal2195/q) - Add `vim`-like macro registers to your ZSH shell.
 - [q (tomsquest)](https://github.com/tomsquest/q.plugin.zsh) - Tail/remove the temp file for [Q](https://github.com/y0ssar1an/q), the Dirty Debugging Tool.
 - [qiime2](https://github.com/misialq/zsh-qiime2) - Adds functions and aliases to make working with [Quiime 2](https://qiime2.org/) easier.
-- [quiet-accept-zle](https://github.com/AdrieanKhisbe/zsh-quiet-accept-line) - Enables you to run typed zsh command without triggering new prompt, history entry, or having output being outputed.
+- [quiet-accept-zle](https://github.com/AdrieanKhisbe/zsh-quiet-accept-line) - Enables you to run a typed ZSH command without triggering new prompt, history entry, or having output being outputed.
 - [quoter](https://github.com/pxgamer/quoter-zsh) - Display a random quote when opening a new terminal session.
 - [quotify](https://github.com/dpretet/zsh-quotify) - Displays inspiring coding quotes from our pairs when starting up.
 - [qwy](https://github.com/Ryooooooga/qwy) - ZSH fuzzy completion plugin.
@@ -1445,9 +1445,9 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ranger (rc2dev)](https://github.com/rc2dev/ranger-zshz) - Integrates [zsh-z](https://github.com/agkozak/zsh-z) into [ranger](https://github.com/ranger/ranger).
 - [ranger-autojump](https://github.com/fdw/ranger-autojump) - Adds [autojump](https://github.com/wting/autojump) support to the [ranger](https://github.com/ranger/ranger) console file manager.
 - [ranger-zoxide](https://github.com/fdw/ranger-zoxide) - Adds [zoxide](https://github.com/ajeetdsouza/zoxide) support to the [ranger](https://github.com/ranger/ranger) console file manager.
-- [raspberry-temp](https://github.com/cfunkz/zsh-raspberry-temp-plugin) - Measures temperature for raspberry pi via `rpi-temp` alias.
+- [raspberry-temp](https://github.com/cfunkz/zsh-raspberry-temp-plugin) - Measures temperature for a Raspberry pi via `rpi-temp` alias.
 - [raspberryPi4Temperature](https://github.com/KidesLeo/RaspberryPi4TemperaturePromptPlugin) - Puts the Raspberry Pi temperature into a spaceship prompt segment
-- [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the colour of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
+- [razer-status-code](https://github.com/michaelmcallister/razer-status-code) - Change the color of your [Razer Mouse](https://openrazer.github.io/) based on the status of the last executed command. Requires [OpenRazer](https://openrazer.github.io) linux drivers.
 - [rbenv (elliottcable)](https://github.com/ELLIOTTCABLE/rbenv.plugin.zsh) - A faster fork of the `rbenv` plugin from [oh-my-zsh](https://ohmyz.sh/).
 - [rbenv (jsahlen)](https://github.com/jsahlen/rbenv.plugin.zsh) - Variant based on the original [oh-my-zsh](https://ohmyz.sh/) `rbenv` plugin.
 - [rbenv (meroje)](https://github.com/Meroje/zsh-rbenv) - Inspired by [https://github.com/lukechilds/zsh-nvm/](https://github.com/lukechilds/zsh-nvm/), makes it easier to work with ruby `rbenv` environments.
@@ -1525,7 +1525,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
 - [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 - [snr](https://github.com/raisedadead/zsh-snr) - Passes the selected output of the first command to the next.
-- [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of oh-my-zsh's plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
+- [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of [Oh-My-ZSH](https://ohmyz.sh/)'s plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
 - [some-peco](https://github.com/MoeBensu/zsh-some-peco/) - Enhances your command-line experience with [peco](https://github.com/peco/peco) i.e. providing quick directory navigation and history search.
 - [sops-crypt](https://github.com/chaosimpact/sops-crypt) - Plugin for Mozilla SOPS that provides one-click encryption and decryption of files in the current directory and subdirectories.
 - [spaceship-ocm](https://github.com/iamkirkbater/spaceship-ocm-plugin) - Queries your OpenShift Cluster Manager (ocm) configuration to show which environment you're connected to. Requires [NerdFont](https://www.nerdfonts.com/font-downloads) in your terminal.
@@ -1552,7 +1552,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [switch-git](https://github.com/robin-mbg/switch-git) - Easy switching between `git` repositories. Just type `sgr <some part of you repo's name>`, press enter and you're there.
 - [symfony (voronkovich)](https://github.com/voronkovich/symfony.plugin.zsh) - ZSH plugin for [Symfony](https://symfony.com/).
 - [syntax-highlighting-filetypes](https://github.com/trapd00r/zsh-syntax-highlighting-filetypes) - ZSH syntax highlighting with dircolors in realtime.
-- [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your ZSH. Make sure you load this *before* [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) or they will both break.
+- [syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) - Add syntax highlighting to your ZSH prompt. Make sure you load this *before* [zsh-users/zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) or they will both break.
 - [sys-diver](https://github.com/ToruIwashita/sys-diver-zsh) - A ZSH plugin for directory change or editor startup with only key operations using widgets without typing commands.
 - [sysadmin-util](https://github.com/skx/sysadmin-util) - Steve Kemp's collection of tool scripts for sysadmins.
 - [system-clipboard](https://github.com/kutsan/zsh-system-clipboard) - Adds key bindings support for ZLE (Zsh Line Editor) clipboard operations for `vi` emulation keymaps. It works under Linux, macOS and Android (via Termux).
@@ -1565,6 +1565,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [take](https://github.com/amyreese/zsh-take) - Replicates `take` from [oh-my-zsh](https://ohmyz.sh/).
 - [tasko](https://github.com/knid/tasko) - Allows you to annotate [TaskWarrior](https://github.com/GothenburgBitFactory/taskwarrior) tasks.
 - [telepresence](https://github.com/alexgervais/telepresence-ps1) - Add the current [Telepresence](https://www.telepresence.io/) connection status and context to your ZSH prompt.
+- [temperatures](https://github.com/groberth/temperatures-zsh) - A lightweight, zero-dependency plugin that shows your machine’s CPU and (optionally) GPU temperatures directly in your ZSH prompt. Originally designed for Raspberry Pi but works on any Linux system exposing `/sys/class/thermal/`.
 - [tempit](https://github.com/idirxv/tempit) - Helps you create, manage, and navigate temporary directories with ease. It provides a persistent tracking system so your temporary directories won't get lost.
 - [terminal-aliases](https://github.com/dvir-levy/terminal-aliases) - Adds convenience aliases for `terraform`, `git` and more.
 - [terminal-app](https://github.com/the8/terminal-app.zsh) - A plugin for integrating with the new macOS El Capitan Terminal.app features.
@@ -1585,7 +1586,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [thefuck](https://github.com/laggardkernel/thefuck) - Loads [thefuck](https://github.com/nvbn/thefuck) (a tool which corrects your previous command) with cache support, which reduces the loading time dramatically.
 - [theia-dev-tools](https://github.com/taPublic/zsh-theia-dev-tools) - Convenience functions for working with [theia-ide](https://github.com/theia-ide/theia).
 - [tig](https://github.com/MenkeTechnologies/zsh-tig-plugin) - Adds a few advanced bindings for [tig](https://github.com/jonas/tig) and also provides a `tig-pick` script.
-- [timewarrior (ianmkenney)](https://github.com/ianmkenney/timewarrior_zsh_completion) - Tab completions for [timewarrior](https://timewarrior.net/) time-tracking application.
+- [timewarrior (ianmkenney)](https://github.com/ianmkenney/timewarrior_zsh_completion) - Tab completions for the [timewarrior](https://timewarrior.net/) time-tracking application.
 - [timewarrior (svenXY)](https://github.com/svenXY/timewarrior) - Adds support for [timewarrior](https://timewarrior.net/), a time-tracking application.
 - [tinted-shell](https://github.com/tinted-theming/tinted-shell) - Adds a script to allow you to change your shell's default ANSI colors but most importantly, colors 17 to 21 of your shell's 256 colorspace (if supported by your terminal). This script makes it possible to honor the original bright colors of your shell (e.g. bright green is still green and so on) while providing additional base16 colors to applications such as [Vim](https://www.vim.org).
 - [tipz](https://github.com/molovo/tipz) - Displays your alias if you have an alias for the command you just ran, similarly to [alias-tips](https://github.com/djui/alias-tips).
@@ -1636,8 +1637,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [velocity](https://github.com/rahulsalvi/velocity-python) - Powerline-based theme elements for ZSH and [tmux](https://tmux.github.io).
 - [venv-lite](https://github.com/gimbo/venv-lite.zsh) - A super-lightweight sort-of-clone of [virtualenvwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/); it pretty much expects you to be using [pyenv](https://github.com/pyenv/pyenv) (though you don't *have- to), and because it's based on the [`venv` module](https://docs.python.org/3/library/venv.html), (creation) only works for python >= 3.3.
 - [venv-wrapper](https://github.com/glostis/venv-wrapper) - Provides ZSH functions to ease the management of your virtual environments using `venv`.
-- [venv](https://github.com/lucasheartcliff/venv) - Run 'source venv/bin/activate' automatically every time there's a path `venv/bin/activate` file in the directory.
-- [venvs](https://github.com/pawnhearts/venvs) - Automatically switches Python virtualenvs. Supports both venvs in project folder(`~/myproject/venv`) and in global folder(like `~/.virtualenvs`)
+- [venv](https://github.com/lucasheartcliff/venv) - Run `source venv/bin/activate` automatically every time there's a path to `venv/bin/activate` file in the current directory.
+- [venvs](https://github.com/pawnhearts/venvs) - Automatically switches Python virtualenvs. Supports both venvs in project folder(`~/myproject/venv`) and in global folder (like `~/.virtualenvs`)
 - [vi-increment](https://github.com/zsh-vi-more/vi-increment) - Add `vim`-like increment/decrement operations.
 - [vi-mode (jeffreytse)](https://github.com/jeffreytse/zsh-vi-mode) - 💻 A better and friendly `vi`(`vim`) mode plugin for ZSH.
 - [vi-mode (nyquase)](https://github.com/Nyquase/vi-mode) - Add extra `vi`-like functionality.
@@ -1700,7 +1701,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
 - [youtube-dl](https://github.com/joow/youtube-dl) - Simple plugin for [youtube-dl](https://youtube-dl.org/).
 - [yup](https://github.com/redxtech/zsh-yup) - Adds helper function to upgrade all the dependencies in a `yarn`/`npm` project.
-- [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with Windows and posix shells support and various improvements. 10x faster than fasd and autojump, 3x faster than [z.sh](https://github.com/rupa/z).
+- [z.lua](https://github.com/skywind3000/z.lua) - A command line tool which helps you navigate faster by learning your habits. An alternative to [z.sh](https://github.com/rupa/z) with Windows and posix shells support and various improvements. 10x faster than [fasd](https://github.com/whjvenyl/fasd) and autojump, 3x faster than [z.sh](https://github.com/rupa/z).
 - [zabb](https://github.com/Mellbourn/zabb) - `zabb` is a command that tries to figure out the shortest memorable abbreviation of a directory that is usable by [z](https://github.com/ajeetdsouza/zoxide) to unambiguously jump to that directory.
 - [zabrze](https://github.com/Ryooooooga/zabrze) - A ZSH abbreviation expansion plugin.
 - [zapmarks](https://github.com/iliutaadrian/zapmarks) - Provides quick access to your most used command-line bookmarks. It allows you to save, search, and execute complex commands with ease.
@@ -1714,11 +1715,11 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zellij (tranzystorek-io)](https://codeberg.org/tranzystorekk/zellij.zsh) - Provides an environment that autostarts [zellij](https://github.com/zellij-org/zellij) as your terminal's multiplexer.
 - [zeno](https://github.com/yuki-yano/zeno.zsh) - Fuzzy completion and utility plugin powered by [Deno](https://deno.land/).
 - [zenplash](https://github.com/Chivier/zenplash) - Creates files from templates stored in a user directory.
-- [zenv](https://github.com/janitha/zenv) - Isolated working shell enviornments per directory (like direnv, but uses a new shell instance to provide cleaner isolation).
+- [zenv](https://github.com/janitha/zenv) - Isolated working shell enviornments per directory (like `direnv`, but uses a new shell instance to provide cleaner isolation).
 - [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the GitHub page for installation details. Includes `git` and `hg` status decorators.
 - [zeza](https://github.com/duggum/zeza) - Manages and customizes [eza](https://github.com/eza-community/eza), the very colorful `ls` replacement.
 - [zflai](https://github.com/zdharma-continuum/zflai) - A fast logging framework for ZSH.
-- [zfzf](https://github.com/b0o/zfzf) - A fzf-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
+- [zfzf](https://github.com/b0o/zfzf) - A [fzf](https://github.com/junegunn/fzf)-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
 - [zgen-compinit-tweak](https://github.com/seletskiy/zsh-zgen-compinit-tweak) - Make `compinit` run only once after all loading is done by [zgen](https://github.com/tarjoilija/zgen).
 - [zgenom-ext-eval](https://github.com/jandamm/zgenom-ext-eval/) - [zgenom](https://github.com/jandamm/zgenom) extension for creating plugins inline.
 - [zhooks](https://github.com/agkozak/zhooks) - Displays the contents of any ZSH hook arrays and the code of any hook functions that have been defined. Useful for debugging.
@@ -1751,9 +1752,9 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zredis-cmd](https://github.com/z-shell/zredis-cmd) - Utilizes variable sharing done by [zredis](https://github.com/zdharma-continuum/zredis) plugin to implement remote command execution.
 - [zredis](https://github.com/zdharma-continuum/zredis) - Adds [Redis](https://redis.io/) database support, with `database_key` <-> `shell_variable` binding. Supports all data types.
 - [zservice-py3http](https://github.com/z-shell/zservice-py3http) - Serve a given directory with Python 3's http server from the standard library.
-- [zsh-dev-navigator](https://github.com/dvigo/zsh-dev-navigator) - A minimal Zsh plugin that lets you quickly jump into your development directories with a single command.
+- [zsh-dev-navigator](https://github.com/dvigo/zsh-dev-navigator) - A minimal ZSH plugin that lets you quickly jump into your development directories with a single command.
 - [zsh-expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases and incorrect spellings and phrases with the spacebar key. Native expansions such as globs, command/process substitution, `=command expansion`, history expansion and `$parameters` are also expanded by default but can be turned off.
-- [zsh-hookie-projects](https://github.com/aemonge/zsh-hookie-projects) - Language-agnostic project detection with smart hooks, PowerLevel10k integration, and intelligent path shortening. Automatically detects 100+ project types, provides customizable on_project/off_project hooks, features a smart cd command that goes to project root, and includes a beautiful hookie_dir segment that shortens paths like ~/projects/my-app → ~/p/my-app. Perfect for polyglot developers who want seamless project-aware shell behavior.
+- [zsh-hookie-projects](https://github.com/aemonge/zsh-hookie-projects) - Language-agnostic project detection with smart hooks, PowerLevel10k integration, and intelligent path shortening. Automatically detects 100+ project types, provides customizable on_project/off_project hooks, features a smart `cd` command that goes to project root, and includes a beautiful `hookie_dir` segment that shortens paths like `~/projects/my-app` → `~/p/my-app`. Perfect for polyglot developers who want seamless project-aware shell behavior.
 - [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + [oh-my-zsh](https://ohmyz.sh/) installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 - [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in `vim`.
 - [zsh-select](https://github.com/z-shell/zsh-select) - Displays a selection list. It is similar to `selecta`, but uses the curses library to do display, and when compared to [fzf](https://github.com/junegunn/fzf), the main difference is approximate matching instead of fuzzy matching.
@@ -2750,7 +2751,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [pyhack](https://github.com/williamcanin/pyhack) - Works well with dark terminal themes. Shows Python version, Python package version (pyproject.toml) and `git` current branch information.
 - [qi3ber2](https://github.com/nichus/qi3ber2) - A dark multiline theme. Includes `git`, load average and exit code of last command decorators.
 - [qoomon](https://github.com/qoomon/zsh-theme-qoomon) - Optimized for dark backgrounds, includes `git` information. Theme repo includes iTerm 2 and Terminal color settings.
-- [quantum](https://github.com/calebephrem/quantum-zsh) - Sleek, dynamic Zsh theme built for speed, style, and shell supremacy. Whether you're deep in Git or just vibing in your terminal, Quantum adapts to your flow.
+- [quantum](https://github.com/calebephrem/quantum-zsh) - Sleek, dynamic ZSH theme built for speed, style, and shell supremacy. Whether you're deep in Git or just vibing in your terminal, Quantum adapts to your flow.
 - [quewui](https://github.com/kauefontes/oh-my-quewui) - Simple and clean theme optimized for dark terminal themes. Includes decorations for the current time, user, directory and `git` status.
 - [r](https://github.com/rafalkaron/r-zsh-theme) - A simple yet informative ZSH theme.
 - [r3-fresh](https://github.com/r3-fresh/r3-fresh-zsh-theme) - Includes decorators for `git` status, current directory, exit status of last command run.
