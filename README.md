@@ -1257,6 +1257,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [mac-packaging](https://github.com/Temikus/mac-packaging) - A set of common functions used for enterprise Mac packaging with [Munki](https://www.munki.org/munki/).
 - [macos (joow)](https://github.com/joow/macos) - A ZSH plugin for macOS.
 - [macos (zshzoo)](https://github.com/zshzoo/macos) - ZSH goodies for macOS users.
+- [macos-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [macos-theme](https://github.com/gakimball/zsh-macos-theme) - Adds the theme command, which toggles between light and dark mode in macOS. Requires [lux](https://github.com/pndurette/zsh-lux) plugin.
 - [mage2docker](https://github.com/lukaszolszewski/mage2docker) - Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers.
 - [magento-2](https://github.com/dambrogia/oh-my-zsh-plugin-magento-2) - Adds `m2` function to run magento binary, adds tab completions.
@@ -1342,7 +1343,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [opp](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
 - [opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 - [org-hopper](https://github.com/hjdarnel/org-hopper/) - Wraps the GitHub CLI with [fzf](https://github.com/junegunn/fzf). It allows you to quickly jump between repositories a given GitHub organization, cloning it to a predefined location if the local copy doesn't already exist.
-- [osx-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on a macOS install.
 - [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
