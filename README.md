@@ -3030,7 +3030,8 @@ These plugins add tab completions without adding extra functions or aliases.
 - [zemoji](https://github.com/therzka/zemoji) - Based on [wild-cherry]( https://github.com/mashaal/wild-cherry/tree/master/zsh). Includes exit status, `virtualenv`, `nvm`, `rvm` and `git` status decorations.
 - [zen (cybardev)](https://github.com/cybardev/zen.zsh) - A minimalist theme for `*NIX` systems. Includes decorators for execution time of last command run, curreent directory and vcs status information.
 - [zen (TheCrazyGM)](https://github.com/TheCrazyGM/zen) - A clean, informative, and customizable theme for Oh-My-Zsh that provides essential information without cluttering your terminal. It was designed with Python developers in mind and includes smart features like SSH detection, detailed Git status information, and command execution time tracking.
-- [zenith](https://github.com/waki285/Zenith) - Minimalist. Includes decorators for username, current directory and `git` status.
+- [zenith (husniadil)](https://github.com/husniadil/zenith-oh-my-zsh-theme) - A clean, modern Zsh theme designed for efficiency and aesthetics. Featuring a cool-toned color palette with intuitive Git status indicators, it keeps your terminal workflow smooth and distraction-free. Includes decorators for color-coded `git` status, exit status of last command and compact directory display.
+- [zenith (waki285)](https://github.com/waki285/Zenith) - Minimalist. Includes decorators for username, current directory and `git` status.
 - [zero (arlimus)](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
 - [zero (shirozuki)](https://github.com/shirozuki/zero-zsh-theme) - Minimalistic prompt with decorators for `git` status, current directory, exit status and time to execute of last command run.
 - [zeroastro](https://github.com/zeroastro/zeroastro-zsh-theme) - Works best on dark backgrounds, includes `git` status decorations.
