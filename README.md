@@ -37,6 +37,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [rat](#rat)
   - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
@@ -261,6 +262,31 @@ The PMS framework also allows you to use the same framework in different shells.
  ![GitHub Repo stars](https://img.shields.io/github/stars/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [rat](https://github.com/gotokazuki/rat-zsh)
+![GitHub last commit](https://img.shields.io/github/last-commit/gotokazuki/rat-zsh)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/gotokazuki/rat-zsh)
+
+A lightweight, fast, and reproducible plugin manager for ZSH. Made with 🐭 & 🦀 — no magic, no heavy frameworks.
+
+Features 🐭✨
+
+- 🚀 Simple setup
+  - Install with a single curl line
+  - Just add one eval line in .zshrc to start using it
+- ⚙️ Configurable and reproducible
+  - Simple TOML-based configuration
+  - Automatic plugin load order control
+- 🐙 GitHub integration
+  - Fetches plugins from GitHub repositories
+  - Supports branches, tags, and commits
+  - Handles Git submodules automatically
+- ⚡️ Lightweight and fast
+  - Parallel plugin sync
+  - Built in Rust 🦀
+- 🔄 Seamless updates
+  - Self-upgrade
+  -Plugin sync
 
 ### [ryzshrc](https://github.com/ryzshrc/ryzshrc)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ryzshrc/ryzshrc)
