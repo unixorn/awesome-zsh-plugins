@@ -37,6 +37,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [rat](#rat)
   - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
   - [shplug](#shplug)
@@ -261,6 +262,31 @@ The PMS framework also allows you to use the same framework in different shells.
  ![GitHub Repo stars](https://img.shields.io/github/stars/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [rat](https://github.com/gotokazuki/rat-zsh)
+![GitHub last commit](https://img.shields.io/github/last-commit/gotokazuki/rat-zsh)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/gotokazuki/rat-zsh)
+
+A lightweight, fast, and reproducible plugin manager for ZSH. Made with 🐭 & 🦀 — no magic, no heavy frameworks.
+
+Features 🐭✨
+
+- 🚀 Simple setup
+  - Install with a single curl line
+  - Just add one eval line in .zshrc to start using it
+- ⚙️ Configurable and reproducible
+  - Simple TOML-based configuration
+  - Automatic plugin load order control
+- 🐙 GitHub integration
+  - Fetches plugins from GitHub repositories
+  - Supports branches, tags, and commits
+  - Handles Git submodules automatically
+- ⚡️ Lightweight and fast
+  - Parallel plugin sync
+  - Built in Rust 🦀
+- 🔄 Seamless updates
+  - Self-upgrade
+  -Plugin sync
 
 ### [ryzshrc](https://github.com/ryzshrc/ryzshrc)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ryzshrc/ryzshrc)
@@ -2781,6 +2807,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [ribbon](https://github.com/pyjamafish/ribbon-prompt) - Reminiscent of powerline. Includes Python `virtualenv` decorator.
 - [rie](https://github.com/andrii-rieznik/rie-zsh-theme) - Minimalist theme with decorators for username, `git` status and current directory.
 - [rigel](https://github.com/othiagos/rigel-zsh-theme/) - Includes decorators for `git` information, user@hostname and current directory.
+- [rio](https://github.com/foxit64/zsh-theme-rio) - Minimalist theme with decorators for `git` status and current directory.
 - [risbow](https://github.com/waddupp00/risbow) - A [risto](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/risto.zsh-theme) inspired ZSH theme with a lolcat like rainbow effect.
 - [ritz](https://github.com/Ritzier/ritz.zsh-theme) - Includes decorators for time, current directory, `git` status, exit status and time used for last command run.
 - [river](https://github.com/revir/river-zsh-config) - Dark theme with `git` information.
@@ -3031,7 +3058,8 @@ These plugins add tab completions without adding extra functions or aliases.
 - [zemoji](https://github.com/therzka/zemoji) - Based on [wild-cherry]( https://github.com/mashaal/wild-cherry/tree/master/zsh). Includes exit status, `virtualenv`, `nvm`, `rvm` and `git` status decorations.
 - [zen (cybardev)](https://github.com/cybardev/zen.zsh) - A minimalist theme for `*NIX` systems. Includes decorators for execution time of last command run, curreent directory and vcs status information.
 - [zen (TheCrazyGM)](https://github.com/TheCrazyGM/zen) - A clean, informative, and customizable theme for Oh-My-Zsh that provides essential information without cluttering your terminal. It was designed with Python developers in mind and includes smart features like SSH detection, detailed Git status information, and command execution time tracking.
-- [zenith](https://github.com/waki285/Zenith) - Minimalist. Includes decorators for username, current directory and `git` status.
+- [zenith (husniadil)](https://github.com/husniadil/zenith-oh-my-zsh-theme) - A clean, modern Zsh theme designed for efficiency and aesthetics. Featuring a cool-toned color palette with intuitive Git status indicators, it keeps your terminal workflow smooth and distraction-free. Includes decorators for color-coded `git` status, exit status of last command and compact directory display.
+- [zenith (waki285)](https://github.com/waki285/Zenith) - Minimalist. Includes decorators for username, current directory and `git` status.
 - [zero (arlimus)](https://github.com/arlimus/zero.zsh) - Zero's theme & plugin. Has variants for both light and dark terminal backgrounds.
 - [zero (shirozuki)](https://github.com/shirozuki/zero-zsh-theme) - Minimalistic prompt with decorators for `git` status, current directory, exit status and time to execute of last command run.
 - [zeroastro](https://github.com/zeroastro/zeroastro-zsh-theme) - Works best on dark backgrounds, includes `git` status decorations.
