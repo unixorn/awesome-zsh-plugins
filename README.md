@@ -677,6 +677,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 
 - [Awesome Terminal Fonts](https://github.com/gabrielelana/awesome-terminal-fonts) - A family of fonts that include some nice monospaced Icons.
 - [Cascadia Code](https://github.com/microsoft/cascadia-code) - Microsoft's Cascadia Code
+- [Commit Mono](https://commitmono.com) - Neutral programming typeface.
 - [Fantasque Awesome Font](https://github.com/ztomer/fantasque_awesome_powerline) - A nice monospaced font, patched with Font-Awesome, Octoicons, and Powerline-Glyphs.
 - [Fira Mono](https://github.com/mozilla/Fira) - Mozilla's Fira type family.
 - [Hack](http://sourcefoundry.org/hack/) - Another Powerline-compatible font designed for source code and terminal usage.
