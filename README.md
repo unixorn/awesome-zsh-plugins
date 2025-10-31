@@ -1451,7 +1451,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
 - [purge-history-secrets](https://github.com/jotasixto/purge-history-secrets) - Uses [gitleaks](https://github.com/gitleaks/gitleaks) to periodically scan your ZSH history for secrets and purge them if found. Requires [jq](https://jqlang.github.io/jq/).
 - [pwp](https://github.com/ttkalcevic/pwp) - Provides a convenient way to display the present working path in the terminal prompt and lists the current working directory along with its parent directories. Additionally, it includes a custom command .. to navigate to parent directories easily.
-- [pycalc](https://github.com/alalik/pycalc) - Turns the `=` key into a powerful, Python‑backed calculator in your ZSH shell.
+- [pycalc (alalik)](https://github.com/alalik/pycalc) - Turns the `=` key into a powerful, Python‑backed calculator in your ZSH shell.
+- [pycalc (peibozhao)](https://github.com/peibozhao/pycalc) - ZSH calculator that uses Python syntax.
 - [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by **zsh-rbenv**. Installs, updates or loads `pyenv`, and adds extra functionality.
 - [pyenv (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-pyenv) - Based on the oh-my-zsh [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv) plugin with modifications from the rbenv and jenv plugins.
 - [pyenv (xlshiz)](https://github.com/xlshiz/pyenv-zsh-plugin) - Loads [pyenv](https://github.com/pyenv/pyenv) into the current shell and provides prompt info via the `pyenv_prompt_info` function. Also loads [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) if available.
@@ -1544,6 +1545,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
 - [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
+- [smart-command-not-found](https://github.com/rami-shalhoub/Smart-command-not-found) - Shows all available options when a command is not found.
 - [smart-files](https://github.com/vxfemboy/zsh-smart-files) - Enhances CLI by providing visual feedback for file paths and automatically creating directories when needed. It highlights paths in different colors based on their status (existing, new, or permission-denied) and handles directory creation automatically.
 - [smart-insert](https://github.com/lgdevlop/zsh-smart-insert) - provides interactive widgets to search for files and content using [`fd`](https://github.com/sharkdp/fd), [`rg`](https://github.com/BurntSushi/ripgrep), and [`fzf`](https://github.com/junegunn/fzf). It inserts the result directly into your shell with optional command prefixes.
 - [smartcache](https://github.com/QuarticCat/zsh-smartcache) - Caches command output to speed up shell startup time.
@@ -1561,6 +1563,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [ssh-host](https://github.com/obolientsev/ssh-host) - Manage ssh with [fzf](https://github.com/junegunn/fzf).
 - [ssh-plugin](https://github.com/paraqles/zsh-plugin-ssh) - Plugin for `ssh`.
 - [ssh-quickconnect](https://github.com/breda/zsh-ssh-quickconnect) - Simple utility to quickly connect to hosts from your `ssh` config & `known_hosts` file.
+- [ssh-warrior](https://github.com/OfferPi/ssh-warrior) - Automatically changes your terminal background color based on the host you are `ssh`-ing into. Requires a terminal that supports OSC 11 / OSC 111 escape sequences (Kitty, iTerm2, Alacritty, GNOME Terminal, etc. all work great).
 - [sshinfo](https://github.com/SckyzO/zsh-sshinfo) - displays resolved SSH connection details (like the final hostname, port, user, and proxies) before connecting. This is useful for verifying your SSH configuration, especially when dealing with complex setups involving aliases, proxies, or multiple configuration files.
 - [sshpky](https://github.com/jeffzhangc/sshpky_zsh_plugin) - Auto updates git-repositories in the `$ZSH_CUSTOM` folder.
 - [sshukh](https://github.com/anatolykopyl/sshukh-zsh-plugin) - Will update your `known_hosts` file when you `ssh` into a server.
