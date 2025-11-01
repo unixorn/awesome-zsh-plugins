@@ -1049,6 +1049,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [figures](https://github.com/zpm-zsh/figures) - Unicode symbols for ZSH.
 - [firebase (rmrs)](https://github.com/rmrs/firebase-zsh) - Add an indicator in the prompt that you're in a directory with a `firebase.json` file (aka "firebase project").
 - [firebase (seqi)](https://github.com/Seqi/firebase-zsh) - Display the current working project or project alias when in a Firebase project directory or subdirectory.
+- [fishysave](https://github.com/dariogliendo/fishysave.zsh) - Save and update functions and aliases directly from your terminal session.
 - [fixnumpad-osx](https://github.com/zackintosh/fixnumpad-osx.plugin.zsh) - Enables numpad keys of Apple keyboards to be recognized in ZSH.
 - [flow-plugin](https://github.com/sandstorm/oh-my-zsh-flow-plugin) - This plugin makes the `flow` command available inside every subdirectory of the TYPO3 Flow distribution.
 - [flutter-zsh-shortcuts](https://github.com/dizzpy/flutter-zsh-shortcuts) - Adds clean aliases for flutter commands.
