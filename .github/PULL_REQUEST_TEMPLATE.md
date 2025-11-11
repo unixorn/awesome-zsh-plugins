@@ -17,7 +17,7 @@ also makes the links look prettier.
 
 <!--- What types of changes does your submission introduce? Put an `x` in all the boxes that apply: -->
 
-- [ ] A link to an external resource like a blog post
+- [ ] Add/remove/update a link to an external resource like a blog post
 - [ ] Add/remove/update a link to a framework
 - [ ] Add/remove/update a link to a plugin
 - [ ] Add/remove/update a link to a tab completion

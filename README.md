@@ -702,7 +702,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [GH](https://github.com/gustavohellwig/gh-zsh) - Setup ZSH on debian/Ubuntu-based linuxes. Installs [Powerlevel10k](https://github.com/romkatv/powerlevel10k), [zsh-completions](https://github.com/zsh-users/zsh-completions), [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions), [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting/), and more.
 - [How To Make an Awesome Custom Shell with ZSH](https://linuxstans.com/how-to-make-an-awesome-custom-shell-with-zsh/) - A beginner-friendly tutorial on how to install and configure a ZSH shell.
 - [commandlinepoweruser.com](https://commandlinepoweruser.com/) - Wes Bos' videos introducing ZSH and oh-my-zsh.
-- [Outrageously Useful Tips To Master Your Z Shell](http://reasoniamhere.com/2014/01/11/outrageously-useful-tips-to-master-your-z-shell/) - covers some of the features that ZSH has that Bash doesn't, and using oh-my-zsh.
 - [Profiling ZSH](https://ellie.wtf/notes/profiling-zsh) - Good article about profiling your ZSH setup to optimize startup time.
 - [rs-example](https://github.com/al-jshen/zshplug-rs-example) - An example plugin showing how a Rust program can listen to and process commands from ZSH.
 - [Why ZSH is Cooler than your Shell](https://www.slideshare.net/jaguardesignstudio/why-zsh-is-cooler-than-your-shell-16194692) - slideshare presentation.
@@ -1859,6 +1858,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [completions (zchee)](https://github.com/zchee/zsh-completions) - Yet another collection of tab completions.
 - [completions (zsh-users)](https://github.com/zsh-users/zsh-completions) - A collection of extra completions for ZSH.
 - [conda](https://github.com/conda-incubator/conda-zsh-completion) - ZSH tab completion for [conda](http://conda.pydata.org/).
+- [copilot](https://github.com/scaryrawr/copilot.zsh) - Adds completions for the [GitHub Copilot CLI](https://github.com/features/copilot/cli/).
 - [cpan](https://github.com/MenkeTechnologies/zsh-cpan-completion) - Adds `cpan install word<tab>` and `cpanm install <tab>` to complete remote CPAN package names.
 - [cross-compiler](https://github.com/Freed-Wu/zsh-completions-for-cross-compilers) - In cross compilations, there are many tools like x86_64-w64-mingw32-gcc, x86_64-linux-android32-clang, arm-none-eabi-gcc, etc. This plugin provides ZSH completions for them.
 - [ctop](https://github.com/gantsign/zsh-plugins/tree/master/ctop) - Tab completions for [ctop](https://github.com/bcicen/ctop).
@@ -2725,6 +2725,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [pickaxe](https://github.com/mikhaben/pickaxe-zsh-theme) - Includes decorators for `user@host`, current directory, current time, conda environment, node version and `git` status.
 - [pico](https://github.com/PicoGeyer/zsh-pico-prompt) - Simple prompt modified from [zap-prompt](https://github.com/zap-zsh/zap-prompt) with decorators for `git` information, user@hostname and working directory.
 - [pifabs](https://github.com/pifabs/pifabs-zsh-theme) - Minimal theme with decorators for `git` status, username, host and working directory.
+- [pixelwave](https://github.com/arcnms/pixelwave) - A sleek, bright, vibrant theme that mixes old‑school pixel vibes with modern high‑color rendering. It shows a rainbow “pixel bar,” a neon‑colored identity line (via lolcat), your full path, and concise `git` status.
 - [plain-ui](https://github.com/purveshpatel511/plain-ui) - Minimalist, but includes `git` status decorations.
 - [plain](https://github.com/jimeh/plain.zsh-theme) - A plain and simple theme for ZSH which shows basic `git` information.
 - [planet](https://github.com/borb/planet-zsh) - A slimmed down version of [steef](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/steeef.zsh-theme) from [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh).
