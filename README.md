@@ -1519,6 +1519,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [sealion](https://github.com/xyproto/sealion) - Allows you to set reminders that will appear in your terminal when your prompt is refreshed.
 - [search-directory-history](https://github.com/cmaahs/search-directory-history) - Allows complex search of per-directory history created using the [per-directory-history](https://github.com/jimhester/per-directory-history) plugin.
 - [sed-sub](https://github.com/MenkeTechnologies/zsh-sed-sub) - Adds keybindings to do global search and replace on current command line.
+- [seedee](https://github.com/joknarf/seedee) - Navigate interactively through directories / history of visited directories using arrow keys from command line.
 - [select-history-skim](https://github.com/okhiroyuki/zsh-select-history-skim) Rummage through your history with [skim](https://github.com/lotabout/skim).
 - [select-with-lf](https://github.com/chmouel/zsh-select-with-lf) - Lets user select files or a directory using [lf](https://github.com/gokcehan/lf).
 - [select](https://github.com/z-shell/zsh-select) - Multi-term searched selection list with approximate matching and uniq mode.
@@ -1536,6 +1537,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [shellfirm](https://github.com/kaplanelad/shellfirm) - Shellfirm is a handy utility to help avoid running dangerous commands without an extra step of approval. When risky patterns is detected you will immediately get a small prompt challenge that will verify your action.
 - [shellsense](https://github.com/venopyX/shellsense) - AI-powered ZSH plugin designed to enhance your terminal experience with powerful features and AI-powered capabilities. Developed using Python, ShellSense offers a streamlined workflow for various tasks, making your terminal more efficient and user-friendly.
 - [shift-select](https://github.com/jirutka/zsh-shift-select) - Emacs shift-select mode for ZSH - select text in the command line using Shift, as in many text editors, browsers and other GUI programs.
+- [shell-ng](https://github.com/joknarf/shell-ng) - Combines several of [joknarf](https://github.com/joknarf/)'s other plugins - [selector](https://github.com/joknarf/selector), [nerdp](https://github.com/joknarf/nerdp), [redo](https://github.com/joknarf/redo), [seedee](https://github.com/joknarf/seedee) and [complete-ng](https://github.com/joknarf/complete-ng).
 - [shortcuts](https://github.com/fairy-root/Zsh-Shortcuts-Plugin) - Enhance your terminal productivity with the Shortcuts plugin for [oh-my-zsh](https://ohmyz.sh/). Easily manage command shortcuts with robust features.
 - [show-git-user](https://github.com/luisprgr/zsh-show-git-user) - When you need to work with multiple `git` users on the same machine this plugin will show which `git` user name is active in your prompt.
 - [show-path](https://github.com/redxtech/zsh-show-path) - Provides a function shows the `$PATH` line by line.
