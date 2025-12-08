@@ -1551,6 +1551,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [skim (casonadams)](https://github.com/casonadams/skim.zsh) - Tries to determine where [skim](https://github.com/lotabout/skim) is installed, then enables its fuzzy auto-completion and key bindings.
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
+- [slurm](https://github.com/galhar/slurm) - Provides convenient commands for running interactive [SLURM](https://slurm.schedmd.com) jobs.
 - [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 - [smart-command-not-found](https://github.com/rami-shalhoub/Smart-command-not-found) - Shows all available options when a command is not found.
 - [smart-files](https://github.com/vxfemboy/zsh-smart-files) - Enhances CLI by providing visual feedback for file paths and automatically creating directories when needed. It highlights paths in different colors based on their status (existing, new, or permission-denied) and handles directory creation automatically.
