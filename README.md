@@ -3069,7 +3069,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [yyl-ys](https://github.com/yunyuliu/yyl-ys.zsh-theme) - Includes conda and venv status.
 - [yz50](https://github.com/lacanlale/yz50-zsh) - Colorful, based off of [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) and [crunch](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/crunch.zsh-theme) themes. Includes `git` status decorations.
 - [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' [pure](https://github.com/sindresorhus/pure) theme.
-- [zap-robbyrussell](https://github.com/devadathanmb/zap-robbyrussell) - The OMZ robbyrussell theme, patched to add compatibility with [zap](https://www.zapzsh.com/).
+- [zap-robbyrussell](https://github.com/devadathanmb/zap-robbyrussell) - The OMZ robbyrussell theme, patched to add compatibility with [zap](https://github.com/zap-zsh/zap).
 - [zcmder](https://github.com/bwpge/zcmder) - inspired by [Cmder](https://cmder.app/) with decorators for `git` information, current directory and root status.
 - [zcraft](https://github.com/cpea2506/zcraft) - Minimalist theme with decorations for `git` status, last command exit status and the time taken by the last command.
 - [zeit](https://github.com/zeit/zeit.zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
