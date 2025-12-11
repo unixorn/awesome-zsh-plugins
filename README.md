@@ -76,7 +76,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
-  - [zush](#zush)
+  - [zush 🦥 - Mid-Performance ZSH Configuration](#zush-%F0%9F%A6%A5---mid-performance-zsh-configuration)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
   - [zinit](#zinit)
@@ -630,7 +630,7 @@ A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to sp
 - Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
 - Install packages, plugins and themes easily, and have them available to you immediately.
 
-### [zush](https://github.com/shyndman/zush)
+### [zush](https://github.com/shyndman/zush) 🦥 - Mid-Performance ZSH Configuration
 ![GitHub last commit](https://img.shields.io/github/last-commit/shyndman/zush)
  ![GitHub Repo stars](https://img.shields.io/github/stars/shyndman/zush)
 
@@ -639,9 +639,9 @@ A performance-aware ZSH configuration designed for sub-200ms startup times while
 Features:
 
 - Instant Prompts - Basic prompt appears immediately, full prompt loads after ~129ms
-- Plugin Management - Simple zushp user/repo command to install GitHub plugins
-- Lazy Loading - Tools like nvm, pyenv, cargo load only when needed
-- Auto-compilation - All ZSH files compiled with zcompile for faster loading
+- Plugin Management - Simple `zushp user/repo` command to install GitHub plugins
+- Lazy Loading - Tools like `nvm`, `pyenv`, `cargo` load only when needed
+- Auto-compilation - All ZSH files compiled with `zcompile` for faster loading
 - Smart Caching - Environment changes cached for instant startup
 
 ## Setups
