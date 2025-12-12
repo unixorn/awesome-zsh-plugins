@@ -76,7 +76,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztheme](#ztheme)
   - [ztupide](#ztupide)
   - [zulu](#zulu)
-  - [zush](#zush)
+  - [zush 🦥 - Mid-Performance ZSH Configuration](#zush-%F0%9F%A6%A5---mid-performance-zsh-configuration)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
   - [zinit](#zinit)
@@ -630,7 +630,7 @@ A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to sp
 - Add and remove directories from `$path`, `$fpath` and `$cdpath` with simple commands.
 - Install packages, plugins and themes easily, and have them available to you immediately.
 
-### [zush](https://github.com/shyndman/zush)
+### [zush](https://github.com/shyndman/zush) 🦥 - Mid-Performance ZSH Configuration
 ![GitHub last commit](https://img.shields.io/github/last-commit/shyndman/zush)
  ![GitHub Repo stars](https://img.shields.io/github/stars/shyndman/zush)
 
@@ -639,9 +639,9 @@ A performance-aware ZSH configuration designed for sub-200ms startup times while
 Features:
 
 - Instant Prompts - Basic prompt appears immediately, full prompt loads after ~129ms
-- Plugin Management - Simple zushp user/repo command to install GitHub plugins
-- Lazy Loading - Tools like nvm, pyenv, cargo load only when needed
-- Auto-compilation - All ZSH files compiled with zcompile for faster loading
+- Plugin Management - Simple `zushp user/repo` command to install GitHub plugins
+- Lazy Loading - Tools like `nvm`, `pyenv`, `cargo` load only when needed
+- Auto-compilation - All ZSH files compiled with `zcompile` for faster loading
 - Smart Caching - Environment changes cached for instant startup
 
 ## Setups
@@ -954,6 +954,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
 - [databricks](https://github.com/SlavaYakovenko/zsh-databricks) - Enhanced Databricks CLI integration for Zsh with convenient aliases and profile management.
 - [dbd](https://github.com/BlackFlame444/dpd-plugin) - Displays eye-catching banners whenever you change directories (cd). It uses figlet and lolcat to generate colorful banners, giving your terminal a stylish touch.
+- [dce](https://github.com/Onnokh/zsh-dce) - Helps you quickly navigate to your docker containers without losing the current folder context.
 - [ddev](https://github.com/voronkovich/ddev.plugin.zsh) - A ZSH plugin for the [ddev](https://github.com/drud/ddev) tool for setting up PHP development environments.
 - [declare-zsh](https://github.com/z-shell/declare-zsh) - A parser for [zinit](https://github.com/zdharma-continuum/zinit) commands in `.zshrc`. It allows you to perform the following actions on `.zshrc` from the command-line - enable and disable plugins add or remove snippets.
 - [deepx](https://github.com/GetAmbush/deepx-zsh-plugin) - Collection of useful and fun commands to improve workflow and quality of life.
@@ -1551,6 +1552,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [skim (casonadams)](https://github.com/casonadams/skim.zsh) - Tries to determine where [skim](https://github.com/lotabout/skim) is installed, then enables its fuzzy auto-completion and key bindings.
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
+- [slurm](https://github.com/galhar/slurm) - Provides convenient commands for running interactive [SLURM](https://slurm.schedmd.com) jobs.
 - [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 - [smart-command-not-found](https://github.com/rami-shalhoub/Smart-command-not-found) - Shows all available options when a command is not found.
 - [smart-files](https://github.com/vxfemboy/zsh-smart-files) - Enhances CLI by providing visual feedback for file paths and automatically creating directories when needed. It highlights paths in different colors based on their status (existing, new, or permission-denied) and handles directory creation automatically.
@@ -3067,7 +3069,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [yyl-ys](https://github.com/yunyuliu/yyl-ys.zsh-theme) - Includes conda and venv status.
 - [yz50](https://github.com/lacanlale/yz50-zsh) - Colorful, based off of [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/robbyrussell.zsh-theme) and [crunch](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/crunch.zsh-theme) themes. Includes `git` status decorations.
 - [z4rr3t](https://github.com/inimicus/z4rr3t) - Based on sindresorhus' [pure](https://github.com/sindresorhus/pure) theme.
-- [zap-robbyrussell](https://github.com/devadathanmb/zap-robbyrussell) - The OMZ robbyrussell theme, patched to add compatibility with [zap](https://www.zapzsh.com/).
+- [zap-robbyrussell](https://github.com/devadathanmb/zap-robbyrussell) - The OMZ robbyrussell theme, patched to add compatibility with [zap](https://github.com/zap-zsh/zap).
 - [zcmder](https://github.com/bwpge/zcmder) - inspired by [Cmder](https://cmder.app/) with decorators for `git` information, current directory and root status.
 - [zcraft](https://github.com/cpea2506/zcraft) - Minimalist theme with decorations for `git` status, last command exit status and the time taken by the last command.
 - [zeit](https://github.com/zeit/zeit.zsh-theme) - Optimized for dark backgrounds, includes `git` status information.
@@ -3190,6 +3192,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [manpage-completion-generator](https://github.com/umlx5h/zsh-manpage-completion-generator) - Generats ZSH completions from man pages. Requires [create_manpage_completions.py](https://github.com/fish-shell/fish-shell/blob/master/share/tools/create_manpage_completions.py) which is installed by the fish shell
 - [oclif completion generator](https://github.com/MunifTanjim/oclif-plugin-completion) - Generates shell completions for commands lacking them.
 - [oh-plugin](https://github.com/mbergo/oh-plugin) - Helps you install plugins for [oh-my-zsh](https://ohmyz.sh) by typing `oh-plugin install repository_address`.
+- [scog](https://github.com/Agentrifat/scog) - Scog is the Shell COmpletion Generator. This tool helps you easily manage and generate command completions for your shell environment.
 - [shell-color-prompt-tool](https://github.com/kyletimmermans/shell-color-prompt-tool) - Helps you create a custom prompt for `ZSH` or `bash`.
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/iterative/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
