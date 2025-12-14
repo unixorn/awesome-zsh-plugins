@@ -71,6 +71,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zshing](#zshing)
   - [zsh-dot-plugin](#zsh-dot-plugin)
   - [zsh-mgr](#zsh-mgr)
+  - [zsh-unplugged.](#zsh-unplugged)
   - [zshPlug](#zshplug)
   - [ztanesh](#ztanesh)
   - [ztheme](#ztheme)
@@ -113,6 +114,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 *Please read the [Contributing Guidelines](Contributing.md) before contributing.*
+
 ## Disclaimer
 
 While I have done my best to not add entries with embedded malicious code, I don't have the time to sift through the source of every entry in the list.
@@ -132,7 +134,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 These frameworks make customizing your ZSH setup easier.
 
-You can find some interesting performance timing comparisons of various frameworks in the following locations.
+You can find performance timing comparisons of various frameworks in the following locations.
 
 - [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark) - Contains performance benchmarks for the most popular ZSH frameworks, including both install time and load time.
 - [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
@@ -181,13 +183,13 @@ It is written natively in ZSH, is well tested, and picks up where [Antibody](htt
 ![GitHub last commit](https://img.shields.io/github/last-commit/zsh-users/antigen)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zsh-users/antigen)
 
-**Antigen** is a small set of functions that help you easily manage your shell (ZSH) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to ZSH, what Vundle is to vim. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
+**Antigen** is a small set of functions that help you easily manage your shell (ZSH) plugins, called bundles. The concept is pretty much the same as bundles in a typical vim+pathogen setup. Antigen is to ZSH, what Vundle is to `vim`. Antigen can load oh-my-zsh themes and plugins and will automatically clone them for you.
 
 ### [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AmJaradat01/awesome-lazy-zsh)
  ![GitHub Repo stars](https://img.shields.io/github/stars/AmJaradat01/awesome-lazy-zsh)
 
-Awesome-Lazy-Zsh is a simplified and customizable Zsh setup tool for managing plugins and themes. It streamlines your terminal environment with an easy-to-use CLI interface, allowing you to manage .zshrc configurations effectively.
+**Awesome-Lazy-ZSH** is a simplified and customizable ZSH setup tool for managing plugins and themes. It streamlines your terminal environment with an easy-to-use CLI interface, allowing you to manage .zshrc configurations effectively.
 Features
 
 - Plugin Management: Install and manage plugins easily.
@@ -225,7 +227,6 @@ A minimalist ZSH plugin manager.
 ### [gh-source](https://github.com/Yarden-zamir/gh-source)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Yarden-zamir/gh-source) ![GitHub Repo stars](https://img.shields.io/github/stars/Yarden-zamir/gh-source)
 
-
 **gh-source** is a plugin manager for people who don't like plugin managers. It's a simple shell function that downloads and installs plugins from GitHub as part of the sourcing step. It's designed to be used with `zsh`, but it should work with any shell.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
@@ -239,7 +240,6 @@ A minimalist ZSH plugin manager.
 
 ### [oh-my-zsh](https://ohmyz.sh/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh) ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/oh-my-zsh)
-
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, MacPorts, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
@@ -292,15 +292,15 @@ Features 🐭✨
 ![GitHub last commit](https://img.shields.io/github/last-commit/ryzshrc/ryzshrc)
   ![GitHub Repo stars](https://img.shields.io/github/stars/ryzshrc/ryzshrc)
 
-ryzshrc is a smart, innovative plugin manager like [Oh My Zsh](https://ohmyz.sh/), designed to enhance your terminal experience with professional and cool features. It boosts productivity by providing efficient shell management, sleek themes, and powerful plugins. Perfect for developers seeking a modern and intelligent way to work with their terminal
+**ryzshrc** is a smart, innovative plugin manager like [Oh My Zsh](https://ohmyz.sh/), designed to enhance your terminal experience with professional and cool features. It boosts productivity by providing efficient shell management, sleek themes, and powerful plugins. Perfect for developers seeking a modern and intelligent way to work with their terminal
 
 ### [sheldon](https://github.com/rossmacarthur/sheldon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/rossmacarthur/sheldon)
   ![GitHub Repo stars](https://img.shields.io/github/stars/rossmacarthur/sheldon)
 
-A fast, configurable, shell plugin manager.
+**sheldon** is a fast, configurable, shell plugin manager.
 
-- Can manage
+- It can manage:
   - Any `git` repository.
     - Branch/tag/commit support.
     - Extra support for GitHub repositories.
@@ -316,12 +316,12 @@ A fast, configurable, shell plugin manager.
 ![GitHub last commit](https://img.shields.io/github/last-commit/dtrugman/shplug)
  ![GitHub Repo stars](https://img.shields.io/github/stars/dtrugman/shplug)
 
-An easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
+**shplug** is an easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
 ### [TheFly](https://github.com/joknarf/thefly)
 ![GitHub last commit](https://img.shields.io/github/last-commit/joknarf/thefly) ![GitHub Repo stars](https://img.shields.io/github/stars/joknarf/thefly)
 
-`bash`/`zsh`/`ksh` plugin manager and env teleporter
+**TheFly** is a `bash`/`zsh`/`ksh` plugin manager and env teleporter
 
 Makes your shell env and plugins available everywhere (hosts/users)!
 
@@ -333,7 +333,7 @@ Makes your shell env and plugins available everywhere (hosts/users)!
 ### [Usepkg](https://github.com/gynamics/zsh-usepkg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gynamics/zsh-usepkg) ![GitHub Repo stars](https://img.shields.io/github/stars/gynamics/zsh-usepkg)
 
-A minimal declarative zsh plugin manager.
+**Usepkg** is a minimal declarative zsh plugin manager.
 
 Supports:
 - fetch & load plugin(s) with declared methods
@@ -354,7 +354,7 @@ Pros:
 ![GitHub last commit](https://img.shields.io/github/last-commit/maxrodrigo/uz)
  ![GitHub Repo stars](https://img.shields.io/github/stars/maxrodrigo/uz)
 
-A ZSH micro plugin manager.
+**uz** is a micro plugin manager for ZSH
 
 ### [x-cmd](https://github.com/x-cmd/x-cmd)
 ![GitHub last commit](https://img.shields.io/github/last-commit/x-cmd/x-cmd)
@@ -414,7 +414,7 @@ Tools Provided by x-cmd:
 ![GitHub last commit](https://img.shields.io/github/last-commit/tarjoilija/zgen)
  ![GitHub Repo stars](https://img.shields.io/github/stars/tarjoilija/zgen)
 
-**Zgen is currently not being actively maintained** and I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continues to get new features.
+**Zgen is currently not being actively maintained**. I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continues to get new features and bug fixes.
 
 **Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
 
@@ -444,7 +444,6 @@ Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://gi
 
 ### [Zinit](https://github.com/zdharma-continuum/zinit)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zdharma-continuum/zinit) ![GitHub Repo stars](https://img.shields.io/github/stars/zdharma-continuum/zinit)
-
 
 **Zinit** is an innovative and probably (because of the Turbo) the fastest plugin manager with support for:
 
@@ -490,7 +489,6 @@ These are the most visible changes, but there are more (like e.g.: support for c
 ### [znap](https://github.com/marlonrichert/zsh-snap)
 ![GitHub last commit](https://img.shields.io/github/last-commit/marlonrichert/zsh-snap) ![GitHub Repo stars](https://img.shields.io/github/stars/marlonrichert/zsh-snap)
 
-
 **:zap:Znap** is a light-weight plugin manager & `git` repository manager for ZSH that's easy to grok. While tailored for ZSH plugins specifically, **Znap** also functions as a general-purpose utility for managing `git` repositories.
 
 Znap can:
@@ -519,7 +517,7 @@ Znap can:
 ![GitHub last commit](https://img.shields.io/github/last-commit/thornjad/zpico)
  ![GitHub Repo stars](https://img.shields.io/github/stars/thornjad/zpico)
 
-The minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
+**zpico** is a minuscule ZSH package manager. No frills, no bloat, just 2 kB of 100% ZSH code, providing complete package management for your ZSH environment.
 
 ZSH package managers are abundant, but most are bloated, slow or have excessive requirements. On top of that, more than a few have been abandoned for years. Zpico does not seek to be the best of the best, rather to balance functionality against a tiny, fast footprint.
 
@@ -549,9 +547,9 @@ ZSH package managers are abundant, but most are bloated, slow or have excessive 
 ![GitHub last commit](https://img.shields.io/github/last-commit/zpm-zsh/zpm)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zpm-zsh/zpm)
 
-**zpm** ( ZSH Plugin Manager ) is a plugin manager for [ZSH](http://www.zsh.org/) which combines the imperative and declarative approach. At first run, zpm will do complex logic and generate a cache, after that will only use the cache, so it makes this framework very fast.
+**zpm** (ZSH Plugin Manager) is a plugin manager for [ZSH](http://www.zsh.org/) which combines the imperative and declarative approach. At first run, `zpm` will do complex logic and generate a cache, after that will only use the cache, so it makes this framework very fast.
 
-- Fastest plugin manager (Really, after the first run, zpm will not be used at all)
+- Fastest plugin manager (Really, after the first run, `zpm` will not be used at all)
 - Support for async loading
 - Dependencies between packages
 - **zpm** runs on Linux, macOS, FreeBSD and Android.
@@ -580,10 +578,7 @@ ZSH package managers are abundant, but most are bloated, slow or have excessive 
 ### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DuckzCantFly/zsh-dot-plugin) ![GitHub Repo stars](https://img.shields.io/github/stars/DuckzCantFly/zsh-dot-plugin)
 
-
-Customize your `.zshrc` with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
-![GitHub last commit](https://img.shields.io/github/last-commit/mattmc3/zsh_unplugged)
- ![GitHub Repo stars](https://img.shields.io/github/stars/mattmc3/zsh_unplugged)
+**zsh-dot-plugin** will customize your `.zshrc` with only ~21 lines of code. Based on [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
 
 ### [zsh-mgr](https://github.com/amt911/zsh-mgr)
 ![GitHub last commit](https://img.shields.io/github/last-commit/amt911/zsh-mgr)
@@ -594,6 +589,12 @@ A simple plugin manager for zsh. Features:
 - Auto-updates all plugins.
 - Auto-updates itself.
 - Configurable time interval for both auto-updaters.
+
+### [zsh-unplugged](https://github.com/mattmc3/zsh_unplugged).
+![GitHub last commit](https://img.shields.io/github/last-commit/mattmc3/zsh_unplugged)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/mattmc3/zsh_unplugged)
+
+**zsh-unplugged** is a _tiny_ plugin manager. TLDR; You don't need a big bloated plugin manager for your ZSH plugins. A simple ~20 line function may be all you need.
 
 ### [zshPlug](https://github.com/Atlas34/zshPlug)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Atlas34/zshPlug)
@@ -617,7 +618,7 @@ A simple plugin manager for zsh. Features:
 ![GitHub last commit](https://img.shields.io/github/last-commit/mpostaire/ztupide)
  ![GitHub Repo stars](https://img.shields.io/github/stars/mpostaire/ztupide)
 
-A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to speed up your shell startup time.
+**ztupide** is a simple and fast ZSH plugin manager. It uses `zcompile` and async loading to speed up your shell startup time.
 
 ### [zulu](https://github.com/zulu-zsh/zulu)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zulu-zsh/zulu)
@@ -634,7 +635,7 @@ A simple and fast ZSH plugin manager. It uses `zcompile` and async loading to sp
 ![GitHub last commit](https://img.shields.io/github/last-commit/shyndman/zush)
  ![GitHub Repo stars](https://img.shields.io/github/stars/shyndman/zush)
 
-A performance-aware ZSH configuration designed for sub-200ms startup times while maintaining full functionality.
+**zush** is a performance-aware ZSH configuration designed for sub-200ms startup times while maintaining full functionality.
 
 Features:
 
