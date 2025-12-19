@@ -774,6 +774,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [adonisjs](https://github.com/baliestri/adonisjs.plugin.zsh) - Plugin for skipping the `node` part of the `ace` command.
 - [ai-cmd](https://github.com/shanemcd/ai-cmd) - Generate shell commands from natural language using LLMs via [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or [Ollama](https://ollama.ai/).
 - [ai-commands](https://github.com/muePatrick/zsh-ai-commands) - Asks GPT (gpt-4-turbo-preview) for CLI commands that achieve the described target action.
+- [ai-cmd](https://github.com/kylesnowschwartz/zsh-ai-cmd) - Natural language to shell commands with ghost text preview. Requires `curl`, [`jq`](https://stedolan.github.io/jq/) and an Anthropic API key.
 - [airpods-battery](https://github.com/louis-thevenet/zsh-airpods-battery/) - Looks for AirPods via Bluetooth and puts their battery charge state into `$RPROMPT`.
 - [aish](https://github.com/chr15m/aish) - Instant shell script solutions from OpenAI right in your prompt.
 - [alacritty](https://github.com/casonadams/alacritty-shell) - Control [alacritty](https://github.com/alacritty/alacritty/wiki/Color-schemes) color schemes.
@@ -1459,6 +1460,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [proxy-plugin (xooooooooox)](https://github.com/xooooooooox/zsh-proxy) - Helps manage proxy settings in your shell environment.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
+- [pump](https://github.com/fab1o/pump-zsh) - provides a configurable set of aliases, functions, and themes to supercharge your terminal workflow. Requires [jq](https://stedolan.github.io/jq/), [gum](https://github.com/charmbracelet/gum), [glow](https://github.com/charmbracelet/glow) and the [GitHub CLI](https://cli.github.com/).
 - [purge-history-secrets](https://github.com/jotasixto/purge-history-secrets) - Uses [gitleaks](https://github.com/gitleaks/gitleaks) to periodically scan your ZSH history for secrets and purge them if found. Requires [jq](https://jqlang.github.io/jq/).
 - [pwp](https://github.com/ttkalcevic/pwp) - Provides a convenient way to display the present working path in the terminal prompt and lists the current working directory along with its parent directories. Additionally, it includes a custom command .. to navigate to parent directories easily.
 - [pycalc (alalik)](https://github.com/alalik/pycalc) - Turns the `=` key into a powerful, Python‑backed calculator in your ZSH shell.
@@ -1700,6 +1702,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
 - [vivi](https://github.com/rufevean/vivi) - Integrates Google's [Gemini](https://gemini.google.com) language model (LLM) capabilities directly into your terminal. It allows you to send queries to the language model and receive AI-generated solutions, all within your terminal. The plugin supports session context and can dynamically execute received commands.
 - [vivid](https://github.com/ryanccn/vivid-zsh) - Make it easier to use `LSCOLORS` with [vivid](https://github.com/sharkdp/vivid).
+- [vivid](https://github.com/zsh-contrib/zsh-vivid) - Plugin for [vivid](https://github.com/sharkdp/vivid) integration that generates and exports `LS_COLORS` with theme support.
 - [volta (cowboyd)](https://github.com/cowboyd/zsh-volta) - Seamlessly install and configure the [Volta](https://volta.sh) Node.js toolchain manager.
 - [volta](https://github.com/ri7nz/zsh-volta) - Installs and loads [Volta: JS Toolchains as Code](https://github.com/volta-cli/volta).
 - [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An [oh-my-zsh](https://ohmyz.sh/) plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
@@ -1859,6 +1862,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cf-zsh-autocomplete](https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
 - [chezmoi](https://github.com/mass8326/zsh-chezmoi) - Adds completions and aliases for [chezmoi](https://www.chezmoi.io/). Detects if you have `git` aliases and generates `chezmoi` aliases for them.
 - [claude-code-zsh-completion](https://github.com/1160054/claude-code-zsh-completion) - Adds completions for Anthropic's [Claude Code CLI](https://docs.claude.com/) with support for 120+ languages. Includes dynamic completion for MCP servers, plugins, and session IDs.
+- [claudecode-completion](https://github.com/wbingli/zsh-claudecode-completion) - Minimal and always up-to-date zsh completions for [Claude Code CLI](https://github.com/anthropics/claude-code).
 - [click-completion](https://github.com/click-contrib/click-completion) - Add automatic completion support for [Click](http://click.pocoo.org/), including displaying the options and commands help during the tab completion.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
 - [codeception](https://github.com/shengyou/codeception-zsh-plugin) - Adds command completion for the Codeception Testing Framework.
