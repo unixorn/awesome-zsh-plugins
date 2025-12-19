@@ -1701,6 +1701,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [visit](https://github.com/justinpchang/visit) - Custom plugin for faster navigation.
 - [vivi](https://github.com/rufevean/vivi) - Integrates Google's [Gemini](https://gemini.google.com) language model (LLM) capabilities directly into your terminal. It allows you to send queries to the language model and receive AI-generated solutions, all within your terminal. The plugin supports session context and can dynamically execute received commands.
 - [vivid](https://github.com/ryanccn/vivid-zsh) - Make it easier to use `LSCOLORS` with [vivid](https://github.com/sharkdp/vivid).
+- [vivid](https://github.com/zsh-contrib/zsh-vivid) - Plugin for [vivid](https://github.com/sharkdp/vivid) integration that generates and exports `LS_COLORS` with theme support.
 - [volta (cowboyd)](https://github.com/cowboyd/zsh-volta) - Seamlessly install and configure the [Volta](https://volta.sh) Node.js toolchain manager.
 - [volta](https://github.com/ri7nz/zsh-volta) - Installs and loads [Volta: JS Toolchains as Code](https://github.com/volta-cli/volta).
 - [vox](https://github.com/andrewbonnington/vox.plugin.zsh) - An [oh-my-zsh](https://ohmyz.sh/) plugin to control [VOX](https://vox.rocks/), a lightweight full-featured audio player for macOS that can play a variety of formats including FLAC and Ogg Vorbis.
