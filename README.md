@@ -2475,6 +2475,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [imp](https://github.com/igormp/Imp) - Based on [zork](https://github.com/Bash-it/bash-it/wiki/Themes#zork) and optimized for dark backgrounds.
 - [imranic](https://github.com/alimranahmed/zsh-imranic-themes) - Minimalist theme with decorators for `git` status, python virtualenv, rvm ruby version, conda version, kube status,  and current directory.
 - [infernus](https://github.com/jshiell/infernus-zsh-theme) - Minimalist theme, better on dark backgrounds.
+- [infinite](https://github.com/The-Infinitys/zsh-infinite) - A highly customizable and dynamic Zsh theme written in Rust. Infinite offers a powerful CLI tool to manage your Zsh prompt's appearance, allowing for dynamic content, sophisticated coloring, and unique visual separators.
 - [infoline](https://github.com/hevi9/infoline-zsh-theme) - Clean theme that shows `git` status, background jobs, remote host, and other information.
 - [integral](https://github.com/Readf0x/integral-prompt) - Math-inspired, includes decorators for time, current directory and `git` status.
 - [inthedeepspace](https://github.com/alionapermes/inthedeepspace/) - Based on [intheloop](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#user-content-intheloop) and inspired by [vim-deep-space](https://github.com/tyrannicaltoucan/vim-deep-space).
