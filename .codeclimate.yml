@@ -1,0 +1,38 @@
+---
+version: "2"
+plugins:
+  pep8:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+        - "python"
+  fixme:
+    enabled: true
+    exclude_patterns:
+      - config/engines.yml
+  markdownlint:
+    enabled: true
+    checks:
+      MD004:
+        enabled: false
+      MD013:
+        enabled: false
+      MD026:
+        enabled: false
+      MD029:
+        enabled: false
+      MD033:
+        enabled: false
+  shellcheck:
+    enabled: true
+    exclude_patterns:
+      - .bundle/
+      - benchmarks/**/*
+      - node_modules/**/*
+      - bin/**/*
+      - include/**/*
+      - lib/**/*
+      - License.md
+      - spec/**/*

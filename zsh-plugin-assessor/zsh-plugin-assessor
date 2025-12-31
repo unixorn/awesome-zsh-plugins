@@ -1,0 +1,440 @@
+#!/bin/sh
+
+# Copyright (c) 2018 Sebastian Gniazdowski <psprint@zdharma.org>
+#
+# This script parses and processes the data in the unixorn/awesone-zsh-plugins
+# README.md page. It extracts plugins from the "Plugins" section of the
+# document, clones each of them, runs a few git commands to establish facts
+# about the plugin and outputs the plugin's overall score.
+#
+# It then creates a README.md_new file with the scoress visible near each
+# plugin's name.
+
+##
+## CONFIGURATION, RESTART TO LEAVE /bin/sh
+##
+## Via /bin/sh running, to allow selection via configuration
+## file, of the `zsh' binary that is to run this script
+##
+
+ZERO="$0"
+ZPA_DIR="${ZERO%/*}"
+[ "$ZPA_DIR" = "${ZPA_DIR#/}" ] && ZPA_DIR="$PWD/$ZPA_DIR"
+
+[ "x$ZPA_CONFIG" = "x" ] && {
+    if [ -f ${XDG_CONFIG_HOME:-$HOME/.config}/zsh-plugin-assessor/zsd.config ]; then
+        ZPA_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}/zsh-plugin-assessor/zsd.config"
+    elif [ -f "${ZPA_DIR}/zpa.config" ]; then
+        ZPA_CONFIG="${ZPA_DIR}/zpa.config"
+    elif [ -f /usr/local/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/usr/local/share/zsh-plugin-assessor/zpa.config"
+    elif [ -f /usr/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/usr/share/zsh-plugin-assessor/zpa.config"
+    elif [ -f /opt/share/zsh-plugin-assessor/zpa.config ]; then
+        ZPA_CONFIG="/opt/share/zsh-plugin-assessor/zpa.config"
+    fi
+
+    [ "x$ZPA_CONFIG" != "x" ] && {
+        export ZPA_CONFIG
+        . "$ZPA_CONFIG"
+    }
+} || {
+    [ -n "$ZSH_VERSION" ] && {
+        setopt extendedglob
+        if [[ " $* " != *-[^[:blank:]-]#q[^[:blank:]]#[[:blank:]]##* && \
+            " $* " != *[[:blank:]]##--quiet[[:blank:]]##* ]]
+        then
+            if [[ -z "$ZPA_CONFIG" ]];then
+                print -r -- "Couldn't find configuration file, will use the default zsh binary"
+            else
+                print -r -- "Reading configuration from: ${ZPA_CONFIG/$HOME/~}"
+                . "$ZPA_CONFIG"
+            fi
+        else
+            [[ -n "$ZPA_CONFIG" ]] && . "$ZPA_CONFIG"
+        fi
+    }
+}
+
+[ -z "$zsh_control_bin" ] && zsh_control_bin="zsh"
+
+if [ -z "$ZSH_VERSION" ]; then
+    args="\"$0\""
+    for arg; do
+        args="$args \"$arg\""
+    done
+    exec /usr/bin/env "$zsh_control_bin" -f -c "source $args"
+fi
+
+##
+## START
+##
+## Finally in a Zsh, the Zsh binary possibly selected by zpa.conf
+##
+
+typeset -gF4 SECONDS=0
+
+emulate -R zsh -o extendedglob -o typesetsilent -o warncreateglobal
+
+zmodload zsh/datetime || { print -u2 -r -- "Module zsh/datetime is needed, aborting"; exit 1; }
+zmodload zsh/zutil || { print -u2 -r -- "Module zsh/zutil is needed, aborting"; exit 1; }
+
+local -A opthash
+
+zparseopts -E -D -A opthash h -help v -verbose q -quiet a -no-ansi n -only-new || \
+              { print -r -- "Improper options given, see help (-h/--help)"; return 1; }
+
+(( ${+opthash[-h]} + ${+opthash[--help]} ))     && local OPT_HELP="-h"
+(( ${+opthash[-v]} + ${+opthash[--verbose]} ))  && local OPT_VERBOSE="-v"
+(( ${+opthash[-q]} + ${+opthash[--quiet]} ))    && local OPT_QUIET="-q"
+(( ${+opthash[-a]} + ${+opthash[--no-ansi]} ))  && local OPT_NO_ANSI="-a"
+(( ${+opthash[-n]} + ${+opthash[--only-new]} )) && local OPT_ONLY_NEW="-n"
+
+[[ -z "$OPT_QUIET" ]] && print -r -- "Running under Zsh-binary: \`$zsh_control_bin' (passed to /usr/bin/env), its version: $ZSH_VERSION"
+[[ -z "$OPT_QUIET" ]] && print
+
+[[ -z "$1" || "$1" = (-h|--help) ]] && {
+    print -r -- "Usage: zsh-plugin-assessor [-h/--help] [-v|--verbose] [-a|--no-ansi] [-n|--only-new] {file.md}"
+    print -r -- " e.g.: zsh-plugin-assessor --only-new ./README.md"
+    print
+    print -r -- "The option -n/--only-new will compute the emoji indicators and add them to the"
+    print -r -- "README.md document only if there are no emoji indicators already assigned to"
+    print -r -- "the plugin or theme. This is useful to evaluate only newly added repositories."
+    print -r -- "It will however still process repositories that are inactive, etc. and do not"
+    print -r -- "have the emoji-indicators in their normal state."
+    print
+    print -r -- "Option -q/--quiet will silence all messages except of stderr error messages."
+    print -r -- "Option -v/--verbose will add some messages or extend them (e.g. to show git's"
+    print -r -- "clone progress-bar (processed into an animated gauge)."
+    exit 0
+}
+
+[[ ! -e "$1" ]] && {
+    print -u2 -r -- "The input file ($1) doesn't exist, aborting"
+    exit 1
+}
+
+[[ ! -f "$1" ]] && {
+    print -u2 -r -- "The input file ($1) isn't a regular file, aborting"
+    exit 1
+}
+
+[[ ! -r "$1" ]] && {
+    print -u2 -r -- "The input file ($1) is unreadable, aborting"
+    exit 1
+}
+
+typeset -g INPUT_FILE_PATH="${${(M)1:#/*}:-$PWD/$1}" INPUT_FILE_CONTENTS="$(<$1)"
+typeset -gi NUMBER_OF_PLUGINS=0 NUMBER_OF_THEMES=0 CURRENT_LINE=0 DEBUG_PLUGIN_COUNT_LIMIT=0 LAST_PLUGIN_IDX=0
+typeset -ga input_file_lines gathered_plugins plugin_scores
+typeset -gA plugin_to_url plugin_to_line_num plugin_to_score plugin_to_emoji_str plugin_no_process
+input_file_lines=( "${(@f)INPUT_FILE_CONTENTS}" )
+
+[[ -z "$OPT_QUIET" ]] && print -r -- "The input file has ${#input_file_lines} lines"
+
+#
+# Extract plugins
+#
+
+typeset -g LINE IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
+for LINE in "${input_file_lines[@]}"; do
+    (( ++ CURRENT_LINE ))
+    if (( ! IN_PLUGINS_SECTION && ! IN_THEMES_SECTION )); then
+        [[ "$LINE" = "## Plugins" ]] && { IN_PLUGINS_SECTION=1; [[ -z "$OPT_QUIET" ]] && print -r -- "Processing plugins..."; }
+        [[ "$LINE" = "## Themes" ]] && { IN_THEMES_SECTION=1; [[ -z "$OPT_QUIET" ]] && print -r -- "Processing themes..."; }
+    else
+        if [[ "$LINE" = "##"[[:blank:]]##[a-zA-Z0-9]##* ]]; then
+            (( IN_PLUGINS_SECTION )) && {
+                IN_PLUGINS_SECTION=0
+                LAST_PLUGIN_IDX="${#gathered_plugins}"
+                [[ -z "$OPT_QUIET" ]] &&  print -r -- "Found #$NUMBER_OF_PLUGINS plugins"
+            }
+            (( IN_THEMES_SECTION )) && {
+                IN_THEMES_SECTION=0
+                [[ -z "$OPT_QUIET" ]] && print -r -- "Found #$NUMBER_OF_THEMES themes"
+            }
+            [[ "$LINE" = "## Themes" ]] && IN_THEMES_SECTION=1
+        elif (( IN_PLUGINS_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_PLUGINS >= DEBUG_PLUGIN_COUNT_LIMIT )); then
+            IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
+            LAST_PLUGIN_IDX="${#gathered_plugins}"
+        elif (( IN_THEMES_SECTION && DEBUG_PLUGIN_COUNT_LIMIT > 0 && NUMBER_OF_THEMES >= DEBUG_PLUGIN_COUNT_LIMIT )); then
+            IN_PLUGINS_SECTION=0 IN_THEMES_SECTION=0
+        # \[[^\]]##\] - plugin name (## works like + in regex)
+        # \([^\)]##\) - plugin URL
+        elif [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##* ]]; then
+            (( IN_PLUGINS_SECTION )) && (( ++ NUMBER_OF_PLUGINS ))
+            (( IN_THEMES_SECTION )) && (( ++ NUMBER_OF_THEMES ))
+            gathered_plugins+=( "${match[1]}" )
+            plugin_to_url+=( "${match[1]}" "${match[2]}" )
+            plugin_to_line_num+=( "${match[1]}" "$CURRENT_LINE" )
+            plugin_scores+=( "0000" )
+            local plugin_name="${match[1]}"
+
+            # Should skip processing it? This is when --only-new/-n option
+            # is given and the plugin/theme already has emoji indicators,
+            # i.e. it was already processed, isn't a new entry.
+            #
+            # \[[^\]]##\] - plugin name
+            # \([^\)]##\) - plugin URL
+            # [a-z:_[:blank:]]## - emoji string
+            if [[ -z "$OPT_ONLY_NEW" || "$LINE" != (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##([a-z0-9:_[:blank:]]##)-[[:blank:]]##* ]]; then
+                plugin_no_process+=( $plugin_name 0 )
+            else
+                plugin_no_process+=( $plugin_name 1 )
+            fi
+        fi
+    fi
+done
+
+#
+# Prepare working directory (in XDG_CACHE_HOME or ~/.config)
+#
+
+typeset -g WORK_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh-plugin-assessor/clones"
+
+[[ -z "$OPT_QUIET" ]] && print -r -- "== Removing clones from previous ZPA run... =="
+
+builtin cd -q -- "${WORK_DIR:h}"
+command rm -rf -- "$WORK_DIR"
+command mkdir -p -- "$WORK_DIR"
+builtin cd -q -- "$WORK_DIR"
+
+[[ -z "$OPT_QUIET" ]] && print -r -- "== Working in $WORK_DIR =="
+[[ -z "$OPT_QUIET" ]] && print
+
+#
+# Clone each plugin, establish its score
+#
+
+typeset -g PLUGIN
+for PLUGIN in "${gathered_plugins[@]}"; do
+    typeset -g URL="${plugin_to_url[$PLUGIN]}"
+
+    if (( plugin_no_process[$PLUGIN] )); then
+        [[ -z "$OPT_QUIET" ]] && print "Skipping ${PLUGIN}...${OPT_VERBOSE:+ (it is not a new, unprocessed plugin)}"
+        plugin_to_score[$PLUGIN]="0000"
+        plugin_to_emoji_str[$PLUGIN]=""
+        continue
+    fi
+    if [[ -n "$OPT_VERBOSE" ]]; then
+        [[ -z "$OPT_QUIET" ]] && print
+        command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh"
+    else
+        command git clone --progress "$URL" "$PLUGIN" |& "${ZPA_DIR}/git-process-output.zsh" -q
+    fi
+
+    #
+    # The basic score [ABCD]
+    #
+
+    # Number of commits in master
+    typeset -g DATA_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --count master 2>/dev/null)
+    # Time of last commit in master
+    typeset -g DATA_LAST_COMMIT_DATE=$(command git -C "$PLUGIN" log --max-count=1 --pretty=format:%ct master 2>/dev/null)
+    # As above, for ^master
+    typeset -g DATA_COMMIT_COUNT_ALL=$(command git -C "$PLUGIN" rev-list --all --count '^master' 2>/dev/null)
+    # As above, for ^master
+    typeset -g DATA_LAST_COMMIT_DATE_BRANCHES=$(command git -C "$PLUGIN" log --max-count=1 --pretty=format:%ct --all '^master' 2>/dev/null)
+
+    #
+    # Progress detection
+    #
+
+    integer has_walking_pace=0 has_running_pace=0
+
+    typeset -g DATA_CURRENT_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='30 days ago' --count master 2>/dev/null)
+    typeset -g DATA_CURRENT_1_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='60 days ago' --before='30 days ago' --count master 2>/dev/null)
+    typeset -g DATA_CURRENT_2_MONTH_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='90 days ago' --before='60 days ago' --count master 2>/dev/null)
+    typeset -g DATA_3_LAST_MONTHS_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='90 days ago' --count master 2>/dev/null)
+
+    if (( DATA_CURRENT_MONTH_COMMIT_COUNT > 0 && \
+            DATA_CURRENT_1_MONTH_COMMIT_COUNT > 0 && \
+            DATA_CURRENT_2_MONTH_COMMIT_COUNT > 0 ))
+    then
+        has_walking_pace=1
+        if (( DATA_CURRENT_MONTH_COMMIT_COUNT >= 3 && \
+                DATA_CURRENT_1_MONTH_COMMIT_COUNT >= 3 && \
+                DATA_CURRENT_2_MONTH_COMMIT_COUNT >= 3 ))
+        then
+            has_running_pace=1
+        elif (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 10 )); then
+            has_running_pace=1
+        fi
+    elif (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 5 )); then
+        has_walking_pace=1
+        if (( DATA_3_LAST_MONTHS_COMMIT_COUNT >= 10 )); then
+            has_running_pace=1
+        fi
+    fi
+
+    #
+    # Attention detection - the basic score [ABCD]
+    #
+
+    # The score is e.g. 1121 for 1-50-commits, 1-active, 2-100-commits, 1-active
+    integer score_activity=0 score_commit_count=0 score_activity_branches=0 score_commit_count_branches=0
+
+    # Master
+    (( DATA_COMMIT_COUNT >= 50 )) && score_commit_count=1
+    (( DATA_COMMIT_COUNT >= 100 )) && score_commit_count=2
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE:-0} <= 6*30.5*24*60*60 )); then
+        score_activity=1
+    fi
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE:-0} <= 3*30.5*24*60*60 )); then
+        score_activity=2
+    fi
+
+    # Branches-only
+    (( DATA_COMMIT_COUNT_ALL >= 50 )) && score_commit_count_branches=1
+    (( DATA_COMMIT_COUNT_ALL >= 100 )) && score_commit_count_branches=2
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE_BRANCHES:-0} <= 6*30.5*24*60*60 )); then
+        score_activity_branches=1
+    fi
+    if (( EPOCHSECONDS - ${DATA_LAST_COMMIT_DATE_BRANCHES:-0} <= 3*30.5*24*60*60 )); then
+        score_activity_branches=2
+    fi
+
+    integer score=score_commit_count*1000+score_activity*100+score_commit_count_branches*10+score_activity_branches
+
+    #
+    # Attention detection - emoji
+    #
+
+    integer attention_rank=0
+
+    # Time of last commit in master
+    if (( score_activity == 2 )); then
+        typeset -g DATA_THIS_MONTH_COMMIT_COUNT=$DATA_CURRENT_MONTH_COMMIT_COUNT
+        typeset -g DATA_PREVIOUS_MONTH_COMMIT_COUNT=$DATA_CURRENT_1_MONTH_COMMIT_COUNT
+        if (( DATA_THIS_MONTH_COMMIT_COUNT > 0 && DATA_PREVIOUS_MONTH_COMMIT_COUNT > 0 )); then
+            attention_rank=3
+        else
+            attention_rank=2
+        fi
+    else
+        attention_rank=score_activity
+    fi
+
+    #
+    # Research & development detection
+    #
+
+    integer has_r_and_d=0 r_and_d_active=0
+    if (( score_commit_count_branches > 0 )); then
+        has_r_and_d=1
+    fi
+    typeset -g DATA_LAST_4_MONTHS_COMMIT_COUNT=$(command git -C "$PLUGIN" rev-list --after='120 days ago' --all --count '^master' 2>/dev/null)
+    if (( DATA_LAST_4_MONTHS_COMMIT_COUNT >= 3 )); then
+        r_and_d_active=1
+    fi
+
+    #
+    # Time and work investment detection
+    #
+
+    integer which_place_medal=0
+    if (( DATA_COMMIT_COUNT >= 50 )); then
+        which_place_medal=2
+    fi
+    if (( DATA_COMMIT_COUNT >= 100 )); then
+        which_place_medal=1
+    fi
+
+    #
+    # Construct emoji string
+    #
+
+    local emoji_string=""
+
+    # 1. Commits-medal
+    if (( which_place_medal >= 2 )); then
+        emoji_string+=":2nd_place_medal: "
+    elif (( which_place_medal == 1 )); then
+        emoji_string+=":1st_place_medal: "
+    fi
+
+    # 2. Progress pace
+    if (( has_running_pace )); then
+        emoji_string+=":running_man: "
+    elif (( has_walking_pace )); then
+        emoji_string+=":walking_man: "
+    fi
+
+    # 3. Current attention
+    if (( attention_rank >= 3 )); then
+        emoji_string+=":alarm_clock: "
+    elif (( attention_rank == 2 )); then
+        emoji_string+=":hourglass_flowing_sand: "
+    elif (( attention_rank == 1 )); then
+        emoji_string+=":hourglass: "
+    elif (( attention_rank == 0 )); then
+        #emoji_string+=":zzz: "
+        :
+    fi
+
+    # 4. Research and development
+    if (( has_r_and_d )); then
+        emoji_string+=":briefcase: "
+        if (( r_and_d_active )); then
+            emoji_string+=":chart_with_upwards_trend: "
+        fi
+    fi
+
+    [[ -z "$OPT_QUIET" ]] && print -r -- "$PLUGIN: ${(l:4::0:)score}, emoji: $emoji_string"
+
+    plugin_to_score[$PLUGIN]="${(l:4::0:)score}"
+    plugin_to_emoji_str[$PLUGIN]="${emoji_string%%[[:blank:]]##}"
+done
+
+#
+# Create new README.md with the score
+# occuring near each plugin's name
+#
+
+typeset -g OUTPUT_FILE_PATH="${INPUT_FILE_PATH}"_new
+
+# Output all lines preceding "Plugins"-section body
+integer top_block_last_line_num=$(( ${plugin_to_line_num[${gathered_plugins[1]}]} - 1 ))
+print -r -- "${(F)input_file_lines[1,top_block_last_line_num]}" >! "$OUTPUT_FILE_PATH"
+
+integer plugin_idx=0 line_num
+
+for PLUGIN in "${gathered_plugins[@]}"; do
+    plugin_idx+=1
+
+    # Plugins ending?
+    if (( plugin_idx == LAST_PLUGIN_IDX+1 )); then
+        # Output unchanged middle document part
+        print -r -- "${(F)input_file_lines[line_num+1,${plugin_to_line_num[$PLUGIN]}-1]}" >>! "$OUTPUT_FILE_PATH"
+    fi
+
+    line_num="${plugin_to_line_num[$PLUGIN]}" start_pos=0
+    LINE="${input_file_lines[line_num]}"
+
+    # Output a verbatim copy of previous line
+    if (( plugin_no_process[$PLUGIN] )); then
+        print -r -- "$LINE" >>! "$OUTPUT_FILE_PATH"
+        continue
+    fi
+
+    # \[[^\]]##\] - plugin name
+    # \([^\)]##\) - plugin URL
+    # [a-z:_[:blank:]]## - emoji string
+    if [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##([a-z0-9:_[:blank:]]##)-[[:blank:]]##* ]]; then
+        # Remove previous e.g. *[0001]*
+        LINE[${mbegin[3]},${mend[3]}]=""
+        start_pos=$(( mbegin[3] -1 ))
+    elif [[ "$LINE" = (#b)\*[[:blank:]]##\[([^\]]##)\]\(([^\)]##)\)[[:blank:]]##* ]]; then
+        start_pos=$(( mend[2] + 2 ))
+    fi
+
+    LINE[start_pos]=" ${plugin_to_emoji_str[$PLUGIN]}${plugin_to_emoji_str[$PLUGIN]:+ }"
+    print -r -- "$LINE" >>! "$OUTPUT_FILE_PATH"
+done
+
+# Output unchanged trailing document part
+print -r -- "${(F)input_file_lines[line_num+1,-1]}" >>! "$OUTPUT_FILE_PATH"
+
+float -F2 elapsed_time=$(( SECONDS / 60.0 ))
+[[ -z "$OPT_QUIET" ]] && print -r -- "The processing took $elapsed_time minutes"
+# vim:ft=zsh:et:sw=4:sts=4
