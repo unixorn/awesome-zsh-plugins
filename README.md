@@ -994,6 +994,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [docker-machine](https://github.com/asuran/zsh-docker-machine) - A docker-machine plugin for ZSH.
 - [docker-run](https://github.com/rawkode/zsh-docker-run) - Go back to running your commands "naturally", we'll handle the container.
 - [dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+- [doppler](https://github.com/lsdcapital/zsh-doppler) - Displays your current [Doppler](https://doppler.com) project and configuration in your shell prompt from environment variables.
 - [dot-up](https://github.com/toku-sa-n/zsh-dot-up) - Converts `...`, `....`, `.....`, etc., into `cd` commands to navigate parent directories.
 - [dotbare](https://github.com/kazhala/dotbare) - Interactive dotfile management with the help of [fzf](https://github.com/junegunn/fzf).
 - [dotfiles](https://github.com/vladmyr/dotfiles-plugin) - Keep your dotfiles in sync across multiple machines using `git`.
