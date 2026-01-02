@@ -994,6 +994,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [docker-machine](https://github.com/asuran/zsh-docker-machine) - A docker-machine plugin for ZSH.
 - [docker-run](https://github.com/rawkode/zsh-docker-run) - Go back to running your commands "naturally", we'll handle the container.
 - [dogesh](https://github.com/keithhamilton/oh-my-dogesh) - Dogification plugin.
+- [doppler](https://github.com/lsdcapital/zsh-doppler) - Displays your current [Doppler](https://doppler.com) project and configuration in your shell prompt from environment variables.
 - [dot-up](https://github.com/toku-sa-n/zsh-dot-up) - Converts `...`, `....`, `.....`, etc., into `cd` commands to navigate parent directories.
 - [dotbare](https://github.com/kazhala/dotbare) - Interactive dotfile management with the help of [fzf](https://github.com/junegunn/fzf).
 - [dotfiles](https://github.com/vladmyr/dotfiles-plugin) - Keep your dotfiles in sync across multiple machines using `git`.
@@ -1311,6 +1312,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [mfunc](https://github.com/hlohm/mfunc) - Allows you to define persistent functions on-the-fly, without the need to add them to your config files. These functions are permanently available until you delete them.
 - [mise](https://github.com/wintermi/zsh-mise) - Plugin for [mise](https://mise.jdx.dev/) (formerly called rtx) a fast polyglot version manager, replacing tools like `nvm`, `nodenv`, `rbenv`, `rvm`, `chruby`, `pyenv`, etc.
 - [mkarch](https://github.com/0xRZ/mkarch) - ZSH plugin that allows you to create archives using multiple different compression formats.
+- [mkcd](https://github.com/azizoid/zsh-mkcd) - Provides a `mkcd` command, the canonical `mkdir` && `cd` helper.
 - [mkcd](https://github.com/marvinroman/oh-my-zsh-mkcd-plugin) - Allows user to create a directory and if successful, `cd` into it afterward.
 - [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 - [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
