@@ -37,6 +37,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [rac](#rac)
   - [rat](#rat)
   - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
@@ -262,6 +263,14 @@ The PMS framework also allows you to use the same framework in different shells.
  ![GitHub Repo stars](https://img.shields.io/github/stars/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [rac](https://github.com/lomarco/rac)
+![GitHub last commit](https://img.shields.io/github/last-commit/lomarco/rac)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/lomarco/rac)
+
+Most ZSH plugin managers are bloated. They try to do too much - dependency graphs, deferred loading, configuration injection - and in the process, they slow down your shell.
+
+The reality is, most users never use even 80% of these features. `rac` is deliberately minimal. All it does is **download plugins** and **update plugins**.
 
 ### [rat](https://github.com/gotokazuki/rat-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gotokazuki/rat-zsh)
