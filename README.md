@@ -1791,6 +1791,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [zinit-console](https://github.com/z-shell/zinit-console) - A semigraphical (curses) consolette for the [zinit](https://github.com/zdharma-continuum/zinit) plugin manager.
 - [zinsults](https://github.com/ahmubashshir/zinsults) - Prints insults if a command fails.
 - [zjump](https://github.com/qoomon/zjump) - Simplify ZSH directory navigation; jump to already visited, parent or sub folders.
+- [zledit](https://github.com/Piotr1215/zledit) - Fuzzy jump to any token on ZSH command line with overlay hints, preview panel, and in-place editing. Requires [fzf](https://github.com/junegunn/fzf).
 - [zlitefetch](https://github.com/ippee/zlitefetch) - Lightweight system information plugin.
 - [zload](https://github.com/mollifier/zload) - Hot Reload for ZSH functions. Enables rapid development.
 - [zlong_alert](https://github.com/kevinywlui/zlong_alert.zsh) - Uses `notify-send` and rings a bell to alert you when a command that has taken a long time (default: 15 seconds) has completed.
