@@ -37,6 +37,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [PMS](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
+  - [rac](#rac)
   - [rat](#rat)
   - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
@@ -262,6 +263,14 @@ The PMS framework also allows you to use the same framework in different shells.
  ![GitHub Repo stars](https://img.shields.io/github/stars/ryutamaki/pumice)
 
 **Pumice** is a lightweight plugin manager for ZSH.
+
+### [rac](https://github.com/lomarco/rac)
+![GitHub last commit](https://img.shields.io/github/last-commit/lomarco/rac)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/lomarco/rac)
+
+Most ZSH plugin managers are bloated. They try to do too much - dependency graphs, deferred loading, configuration injection - and in the process, they slow down your shell.
+
+The reality is, most users never use even 80% of these features. `rac` is deliberately minimal. All it does is **download plugins** and **update plugins**.
 
 ### [rat](https://github.com/gotokazuki/rat-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gotokazuki/rat-zsh)
@@ -824,7 +833,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [auto-nvm](https://github.com/manlao/zsh-auto-nvm) - Automatically switches to the node version specified in a given directory.
 - [auto-pnpm-use](https://github.com/brunomacedo/zsh-auto-pnpm-use) - Automatically loads the node version specified in `.nvmrc` or `.npmrc`.
 - [auto-venv (skylor0tang)](https://github.com/Skylor-Tang/auto-venv) - Automatically activates the Python virtual environment in the current directory or its parent directories.
-- [auto-venv (songlkkevin)](https://github.com/songlkkevin/zsh-auto-venv) - Automatically detect and activate the nearest Python virtual environment when changing directories.
 - [autocomplete](https://github.com/marlonrichert/zsh-autocomplete) - Automatically lists completions as you type and provides intuitive keybindings for selecting and inserting them.
 - [autodark (cravend)](https://github.com/cravend/autodark) - Switches between user-specified light and dark themes. Only works on macOS.
 - [autodark (vbwx)](https://github.com/vbwx/zsh-autodark) - Switches to another Terminal profile if dark mode is enabled (macOS-only).
@@ -915,7 +923,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [clean-project](https://github.com/wwilsman/zsh-clean-project) - Remove files from projects (automatically by default). Useful for keeping `.DS_Store` and `Thumbs.db` files from cluttering your directories.
 - [cleanzip](https://github.com/Xeferis/cleanzip) - Helps create zip files that don't have data that shouldn't be in there.
 - [clipboard](https://github.com/zpm-zsh/clipboard) - Adds a cross-platform helper function to access the system clipboard. Works on macOS, X11 (and Wayland) and Cygwin.
-- [cmaker](https://github.com/apalkk/Cmaker) - Makes using `cmake` easier.
 - [cmd-status](https://github.com/BlaineEXE/zsh-cmd-status) - Reports the status of commands including return code and duration.
 - [cmd-time](https://github.com/TomfromBerlin/zsh-cmd-time) - Collects the execution time of commands and exports the result to a variable that can be used elsewhere. It is similar to the built-in [REPORTTIME](http://zsh.sourceforge.net/Doc/Release/Parameters.html) function, but it is also slightly different. Unlike when you set `REPORTTIME`, it considers user and sytem time, not just CPU time.
 - [cmdtime](https://github.com/tom-auger/cmdtime) - Displays the duration of a command to the terminal forked from the [timer](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/timer) plugin.
