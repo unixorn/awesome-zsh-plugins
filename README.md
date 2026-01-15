@@ -965,7 +965,6 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [cycle-jobs](https://github.com/aemonge/zsh-cycle-jobs) - The ZSH Cycle Jobs Plugin is a simple yet powerful tool that enhances your terminal workflow by allowing you to cycle through background jobs using a single keyboard shortcut. This plugin is particularly useful for developers and system administrators who frequently work with multiple background processes.
 - [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
 - [databricks](https://github.com/SlavaYakovenko/zsh-databricks) - Enhanced Databricks CLI integration for Zsh with convenient aliases and profile management.
-- [dbd](https://github.com/BlackFlame444/dpd-plugin) - Displays eye-catching banners whenever you change directories (cd). It uses figlet and lolcat to generate colorful banners, giving your terminal a stylish touch.
 - [dce](https://github.com/Onnokh/zsh-dce) - Helps you quickly navigate to your docker containers without losing the current folder context.
 - [ddev](https://github.com/voronkovich/ddev.plugin.zsh) - A ZSH plugin for the [ddev](https://github.com/drud/ddev) tool for setting up PHP development environments.
 - [declare-zsh](https://github.com/z-shell/declare-zsh) - A parser for [zinit](https://github.com/zdharma-continuum/zinit) commands in `.zshrc`. It allows you to perform the following actions on `.zshrc` from the command-line - enable and disable plugins add or remove snippets.
@@ -2042,6 +2041,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [tio](https://github.com/JBarberU/zsh-tio) - Add tab completions for tio
 - [tmux pane words](https://gist.github.com/blueyed/6856354) - Key bindings to complete words from your [tmux](https://tmux.github.io) pane.
 - [tofu](https://github.com/marknefedov/oh-my-zsh-tofu) - Autoloads tab completions for `tofu`.
+- [tshark](https://github.com/Yoswell/zsh_tshark_autocomplete) - Adds tab completions for [TShark](https://tshark.dev/) that provide deep, protocol-aware, and hierarchical autocompletion for display filters (`-Y`) and extracted fields (`-e`). Unlike traditional shell completions that only suggest flat protocol names or static options, this tool understands the internal structure of TShark fields.
 - [tugboat](https://github.com/DimitriSteyaert/Zsh-tugboat) - Adds autocompletion for [tugboat](https://github.com/petems/tugboat) command.
 - [umake](https://github.com/zlsun/umake) - Tab completion for Ubuntu umake.
 - [url-httplink](https://github.com/Valodim/zsh-_url-httplink) - Extends ZSH's \_urls completion, allowing it to complete urls from html pages.
@@ -2097,7 +2097,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [agnoster](https://gist.github.com/agnoster/3712874) - Optimized for solarized terminal color schemes, shows `git` decorations, user@host, working directory, the previous command's exit status and whether you are running with root privileges. Requires a Powerline-compatible font.
 - [agnosterAfro](https://github.com/afrozalm/agnosterAfro) - Based on [Powerline](https://github.com/Lokaltog/vim-powerline) and [Agnoster](https://gist.github.com/agnoster/3712874) themes and inspired by the [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme).
 - [agnosterzak](https://github.com/zakaziko99/agnosterzak-ohmyzsh-theme) - Based on [Agnoster](https://gist.github.com/agnoster/3712874), shows battery life, date & time, `git` status, current directory and user & host information.
-- [ai-candy](https://github.com/SihaoLiu/ai-candy) - A responsive [oh-my-zsh](https://github.com/ohmyzsh) theme for the AI-assisted developer who works across containers, VMs, and bare metal.
+- [ai-candy](https://github.com/SihaoLiu/ai-candy) - A responsive [oh-my-zsh](https://github.com/ohmyzsh) theme for the AI-assisted developer who works across containers, VMs, and bare metal. Includes decorators for OS, kernel info, whether it is a `ssh` session, `git` status, GitHub integration, AI tool status and smart caching.
 - [ai-hayasaka](https://github.com/aeghost/ai-hayasaka-zsh-theme) - Minimalist theme with `git` status, ruby env and python virtualenv decorators.
 - [air](https://github.com/Ivan-Kuzmichev/air) - Minimalist theme with `git` status decorations.
 - [akzsh](https://github.com/awkimball/akzsh) - Works best with a dark terminal theme, includes `git` decorations.
