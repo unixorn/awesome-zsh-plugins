@@ -818,6 +818,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [asdf (zimfw)](https://github.com/zimfw/asdf) - Initializes [asdf](https://github.com/asdf-vm/asdf), installing it using `git` if not installed yet. Also, bypasses the shims if you're using the [direnv](https://github.com/asdf-community/asdf-direnv) plugin, as suggested by the plugin [pro-tips](https://github.com/asdf-community/asdf-direnv/#pro-tips).
 - [asdf-direnv](https://github.com/redxtech/zsh-asdf-direnv) - Integration and completions for [asdf](https://github.com/asdf-vm/asdf) and [direnv](https://github.com/asdf-community/asdf-direnv).
 - [asdf-prompt](https://github.com/CurryEleison/zsh-asdf-prompt) - Provides a function usable in prompts that displays version information for your current tool versions.
+- [ash](https://github.com/NotNanook/Ash) - A no-bullshit, seamless way to use LLMs right inside your shell (`bash`, `zsh`). Supports OpenAI, Ollama and OpenRouter.
+- [ask-opencode](https://github.com/andreacasarin/zsh-ask-opencode) - Integrates OpenCode AI with your shell, allowing you to generate shell commands using natural language. Press `Ctrl+O` to transform any text in your command line into optimized shell commands.
 - [ask](https://github.com/Licheam/zsh-ask) - Serves as a ChatGPT API frontend, enabling you to interact with ChatGPT directly from the ZSH shell using only `cURL` and `jq`.
 - [assume-role](https://github.com/weizard/assume-role) - Allows you to assume AWS IAM roles easily. Includes completions.
 - [async](https://github.com/mafredri/zsh-async) - Library for running asynchronous tasks in ZSH without requiring any external tools. Allows you to run multiple asynchronous jobs, enforce unique jobs (multiple instances of the same job will not run), flush all currently running jobs and create multiple workers (each with their own jobs).
@@ -1071,6 +1073,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [flow-plugin](https://github.com/sandstorm/oh-my-zsh-flow-plugin) - This plugin makes the `flow` command available inside every subdirectory of the TYPO3 Flow distribution.
 - [flutter-zsh-shortcuts](https://github.com/dizzpy/flutter-zsh-shortcuts) - Adds clean aliases for flutter commands.
 - [fnm (dominik-schwabe)](https://github.com/dominik-schwabe/zsh-fnm) - Installs and loads the [Fast Node Manager (fnm)](https://github.com/Schniz/fnm) if it is missing.
+- [fnm (sukkaw)](https://github.com/SukkaW/zsh-fnm) - Provides enhancement to the Node.js version manager [`fnm`](https://fnm.vercel.app).
 - [fnm (wintermi)](https://github.com/wintermi/zsh-fnm) - Helper plugin for the fast and simple Node.js version manager [fnm](https://github.com/Schniz/fnm).
 - [forgit](https://github.com/wfxr/forgit) - Utility tool for `git` which takes advantage of fuzzy finder [fzf](https://github.com/junegunn/fzf).
 - [fuckmit](https://github.com/mingeme/zsh-fuckmit) - Provides useful aliases and functions for the [fuckmit](https://github.com/mingeme/fuckmit) command-line tool, an AI-powered `git` commit message generator.
@@ -1878,7 +1881,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [carthage](https://github.com/squarefrog/zsh-carthage) - Provides completions and aliases for use with [Carthage](https://github.com/Carthage/Carthage).
 - [cf-zsh-autocomplete](https://github.com/norman-abramovitz/cf-zsh-autocomplete-plugin) - Adds autocomplete for all [Cloud Foundry CLI](https://docs.cloudfoundry.org/cf-cli/) commands.
 - [chezmoi](https://github.com/mass8326/zsh-chezmoi) - Adds completions and aliases for [chezmoi](https://www.chezmoi.io/). Detects if you have `git` aliases and generates `chezmoi` aliases for them.
-- [claude-code-zsh-completion](https://github.com/1160054/claude-code-zsh-completion) - Adds completions for Anthropic's [Claude Code CLI](https://docs.claude.com/) with support for 120+ languages. Includes dynamic completion for MCP servers, plugins, and session IDs.
+- [claude-code-zsh-completion](https://github.com/1160054/claude-code-zsh-completion) - Adds completions for Anthropic's Claude Code CLI with support for 120+ languages. Includes dynamic completion for MCP servers, plugins, and session IDs.
 - [claudecode-completion](https://github.com/wbingli/zsh-claudecode-completion) - Minimal and always up-to-date zsh completions for [Claude Code CLI](https://github.com/anthropics/claude-code).
 - [click-completion](https://github.com/click-contrib/click-completion) - Add automatic completion support for [Click](http://click.pocoo.org/), including displaying the options and commands help during the tab completion.
 - [cod](https://github.com/dim-an/cod) - A completion demon for `bash`/`fish`/`zsh` which creates completion functions on the fly when it sees you run something with `--help`.
@@ -2022,6 +2025,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [sdkman (matthieusb)](https://github.com/matthieusb/zsh-sdkman) - Add tab completions for [sdkman](https://sdkman.io/).
 - [sdkman (yongxingzhao)](https://github.com/yongxingzhao/zsh-sdkman) - Add tab completions for [sdkman](https://sdkman.io/).
 - [sfdx-autocomplete](https://github.com/jayree/sfdx-autocomplete-plugin) - Autocomplete plugin for Salesforce [sfdx](https://developer.salesforce.com/tools/salesforcecli).
+- [skate-actions](https://github.com/mjmccull0/skate-actions) - Tab completions for [skate](https://github.com/charmbracelet/skate) personal key-value store.
 - [speedtest](https://github.com/Yash-Singh1/zsh-plugin-speedtest) - Tab completions for the speedtest [cli](https://www.speedtest.net/insights/blog/introducing-speedtest-cli/).
 - [spring-boot-plugin](https://github.com/linux-china/oh-my-zsh-spring-boot-plugin) - Adds autocompletions for [spring-boot](http://projects.spring.io/spring-boot/) commands.
 - [ssh (sunlei)](https://github.com/sunlei/zsh-ssh) - Better host completion for `ssh`.
