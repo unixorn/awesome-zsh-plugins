@@ -1297,6 +1297,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [linkfile](https://github.com/JaumeRF/linkfile-zsh) - Add shortcuts to your favorite directories.
 - [linus-rants](https://github.com/bhayward93/Linus-rants-ZSH) - Outputs a random Linus Torvalds rant when opening a terminal.
 - [listbox](https://github.com/gko/listbox) - Listbox element for shell.
+- [llm-replace](https://github.com/m3at/zsh-llm-replace) - Integrate LLMs into the shell for quick command generation. Requires `curl` and `jq`.
 - [llm-suggestions](https://github.com/stefanheule/zsh-llm-suggestions) - Type something in English at the prompt, hit a definable key, and it uses LLM to generate a command line for you.
 - [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for [Sublime Text](https://www.sublimetext.com) projects and opens them in Sublime.
 - [logout-user](https://github.com/pressdarling/logout-user) - Provides a function to log out another macOS user session.
