@@ -858,7 +858,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [aws-plugin](https://github.com/pookey/zsh-aws-plugin) - Adds helper functions for `aws` command. Includes mfa and `assume-role` helpers.
 - [aws-upload](https://github.com/borracciaBlu/aws-upload-zsh) - Boost your productivity with `aws-upload`.
 - [aws-vault-profiles](https://github.com/jonscheiding/zsh-plugin-aws-vault-profiles) - Plugin that integrates usage of [aws-vault](https://github.com/99designs/aws-vault) with the `$AWS_PROFILE` environment variable.
-- [aws-vault](https://github.com/blimmer/zsh-aws-vault) - Plugin for [aws-vault](https://github.com/99designs/aws-vault). Includes tab completions.
+- [aws-vault (blimmer)](https://github.com/blimmer/zsh-aws-vault) - Plugin for [aws-vault](https://github.com/99designs/aws-vault). Includes tab completions.
+- [aws-vault (zsh-contrib)](https://github.com/zsh-contrib/zsh-aws) - [aws-vault](https://github.com/99designs/aws-vault) integration with per-window AWS profile support in `tmux`.
 - [aws](https://github.com/apachler/zsh-aws) - Forked from the original [oh-my-zsh](https://ohmyz.sh/) [aws](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/aws). Includes completions for `awscli` and a few utilities for managing AWS profiles and displaying them in your prompt.
 - [aws2](https://github.com/drgr33n/oh-my-zsh_aws2-plugin) - Provides completion support for version 2 of the [awscli](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) and a few utilities to manage AWS profiles and display them in the prompt.
 - [awsmultiaccount](https://github.com/acidix/zsh-awsmultiaccount) - Manages AWS profiles and assuming roles in a multi-account organization. It provides helper functions to easily switch between AWS profiles and assume the OrganizationAccountAccessRole in different accounts. Requires the `aws` cli and [jq](https://stedolan.github.io/jq/)
@@ -1054,6 +1055,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [eza (mohamedelashri)](https://github.com/MohamedElashri/eza-zsh) - Adds aliases for [eza](https://github.com/eza-community/eza), a modern replacement for `ls`.
 - [eza (twopizza9621536)](https://github.com/twopizza9621536/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
 - [eza (z-shell)](https://github.com/z-shell/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
+- [eza (zsh-contrib)](https://github.com/zsh-contrib/zsh-eza) - Plugin for [eza](https://github.com/eza-community/eza) with Catppuccin and Rose Pine theming, smart defaults, and full alias support.
 - [eza-ls](https://github.com/birdhackor/zsh-eza-ls-plugin) - Adds aliases allowing [eza](https://github.com/eza-community/eza), to act as a drop-in replacement for `ls` and `tree`.
 - [f-shortcuts](https://github.com/zpm-zsh/f-shortcuts) - Makes a shortcuts toolbar using `F1` to `F12` keys.
 - [fancy-ctrl-z](https://github.com/mdumitru/fancy-ctrl-z) - Broken out version of the version in [oh-my-zsh](http://ohmyz.sh/) so users of other frameworks don't have to import all of [oh-my-zsh](https://ohmyz.sh).
@@ -1106,7 +1108,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [fzfsh](https://github.com/ethan605/fzfsh) - Add [fzf](https://github.com/junegunn/fzf) plugins for `chezmoi`, `docker`, `git`, `kubectl` and `pass`.
 - [fzy](https://github.com/aperezdc/zsh-fzy) - Plugin that uses [fzy](https://github.com/jhawthorn/fzy) for certain fuzzy matching operations.
 - [gcloud-project](https://github.com/avivl/gcloud-project) - Easy selection of Google Cloud Projects.
-- [gcloud](https://github.com/wintermi/zsh-gcloud) - Finds the installed gcloud sdk and sources the zsh file there, along with the zsh completions file.
+- [gcloud (johnstonskj)](https://github.com/johnstonskj/zsh-gcloud-plugin) - Adds the gcloud SDK to your `$PATH`.
+- [gcloud (wintermi)](https://github.com/wintermi/zsh-gcloud) - Finds the installed gcloud SDK and sources the zsh file there, along with the zsh completions file.
 - [gdbm](https://github.com/zdharma-continuum/zgdbm) - Adds GDBM as a plugin.
 - [gentoo](https://github.com/MattiaG-afk/gentoo-ohmyzsh) - Adds some aliases and functions to work with Gentoo Linux.
 - [geometry-datetime](https://github.com/desyncr/geometry-datetime) - [Geometry](https://github.com/geometry-zsh/geometry) datetime plugin. Shows datetime (`date` unix command) in your prompt.
@@ -1398,6 +1401,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [omz-full-autoupdate](https://github.com/Pilaton/OhMyZsh-full-autoupdate) - Automatically update [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugins and themes.
 - [omz-git](https://github.com/aeons/omz-git) - [Oh-My-ZSH](https://ohmyz.sh/)'s [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin re-packaged to be standalone.
 - [omz-themes-standalone](https://github.com/zshzoo/omz-themes-standalone) - Gives you the [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) themes without requiring everything else that comes with [Oh-My-ZSH](https://ohmyz.sh/).
+- [op](https://github.com/zsh-contrib/zsh-op) - Seamless 1Password CLI integration. Manage environment variables and SSH keys from 1Password with automatic caching, fast shell initialization, and a configuration-driven workflow.
 - [open-create-projects](https://github.com/marcossegovia/open-create-projects) - Open/Create projects in Jetbrains.
 - [open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
 - [opencode](https://github.com/verlihirsh/zsh-opencode-plugin) - Stop googling shell commands. Just describe what you want in plain English, press Tab, and get the exact command you need.
@@ -2560,7 +2564,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [krak3n](https://github.com/krak3n/zsh-theme) - Shows golang version and the current `git` branch.
 - [kraken](https://github.com/KrakenTheme/kraken-zsh) - A dark theme for ZSH.
 - [ksposh](https://github.com/KSposh/ksposh-zsh-theme) - Includes decorators for python virtual environment, `git` information, current directory and username.
-- [kube](https://github.com/tigerjz32/kube-zsh-theme) - Based on [macos-terminal](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes#macos-terminal), includes `kubectl` context. Has time, directory, and `git` status decorations.
 - [kumavis](https://github.com/kumavis/kumavis-zsh-theme) - Agnoster fork optimized for solarized terminals. Requires powerline-compatible font.
 - [kw](https://github.com/Kwpolska/kw.zsh-theme) - Colorful theme with `git` and `hg` status information, ability to add host-specific colors to hostname.
 - [kyuu](https://github.com/arturoalviar/kyuu-zsh-theme) - A simple theme with the first character being 九(kyuu), the number 9. The primary color is blue with a magenta accent. Includes `git` status decorations.
@@ -2602,7 +2605,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [limpide](https://github.com/shooteram/limpide) - Modified version of [miloshadzic](https://github.com/ohmyzsh/ohmyzsh/wiki/themes#miloshadzic) theme which displays parent and current directory.
 - [linear](https://github.com/MrYazdan/zsh-linear-theme) - Reminiscent of Powerline. Includes segments with `git` status, Pythonvirtualenv, current directory and current time.
 - [link](https://github.com/kylegl/link-zsh-theme) - Minimalist. Includes `git` status and last command exit decorations.
-- [linuxer](https://github.com/patrick330602/linuxer) - Inspired by Yaris Alex Gutierrez's [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh), Yad Smood's `ys`, and the [Bureau](https://github.com/isqua/bureau) theme.
 - [linuxero](https://github.com/andreshincapier/linuxero) - Minimalist. Includes decorations for root status, current directory, `git` status, current ruby rvm environment and current python virtualenv.
 - [liquidprompt](https://github.com/nojhan/liquidprompt) - A full-featured & carefully designed adaptive prompt with useful information when you need it. It shows you what you need when you need it. You will notice what changes when it changes, saving time and frustration.
 - [lish](https://github.com/bashelled/lish) - A casual theme. No roughness, just smooth. Includes `git`, user@host, last command exit status, current directory, current time and root status decorators.
