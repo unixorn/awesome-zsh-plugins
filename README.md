@@ -1442,6 +1442,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [pipenv (owenstranathan)](https://github.com/owenstranathan/pipenv.zsh) - Automatically activates a **pipenv** when entering a directory if there is Pipfile in that directory. Includes `pipenv` completions.
 - [pipenv (sudosubin)](https://github.com/sudosubin/zsh-pipenv) - Enables `pipenv`'s `$PATH` and adds completions.
 - [pipx](https://github.com/thuandt/zsh-pipx) - Autocompletions for [pipx](https://github.com/pypa/pipx).
+- [pjfzf](https://github.com/K021/pjfzf) - A project directory navigator powered by [fzf](https://github.com/junegunn/fzf). Registers base directories and navigates their subdirectories with frecency-based sorting and file preview.
 - [pkenv](https://github.com/ptavares/zsh-pkenv) - Installs and loads [pkenv](https://github.com/iamhsa/pkenv.git).
 - [plenv](https://github.com/TwoPizza9621536/zsh-plenv) - Plugin for the perl [plenv](https://github.com/tokuhirom/plenv) version manager based on jenv.
 - [plugin-ibtool](https://github.com/rgalite/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files.
