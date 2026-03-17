@@ -1044,6 +1044,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [exa-ls](https://github.com/birdhackor/zsh-exa-ls-plugin) - Adds aliases so that you can use [exa](https://github.com/ogham/exa) as a drop-in replacement for `ls` and `tree`.
 - [exercism](https://github.com/fabiokiatkowski/exercism.plugin.zsh) - A plugin for [exercism.io](http://exercism.io/).
 - [expand-ealias](https://github.com/zigius/expand-ealias.plugin.zsh) - Expand specific aliases with space.
+- [expand-space](https://github.com/spqw/zsh-alias-expand-space) - Expand command-position `zsh` aliases when you press space.
 - [expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases, incorrect spellings and phrases, globs, history expansion and $parameters with the spacebar key.
 - [expander](https://github.com/ianthehenry/zsh-expander) - A `zle` widget that allows you to write custom expanders and select them with [fzf](https://github.com/junegunn/fzf).
 - [explain-shell (brokentoaster)](https://github.com/brokentoaster/zsh-explainshell) - Uses [lynx](https://lynx.browser.org/) to look up the current command line on [explainshell.com](https://explainshell.com).
