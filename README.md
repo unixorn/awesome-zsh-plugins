@@ -349,10 +349,10 @@ Supports:
 - list, check, reload, update & remove plugin(s) with commands
 
 Dependencies:
-- zsh
+- `zsh`
 - gnu coreutils
-- git (optional, if you want to clone git repositories from internet)
-- curl (optional, if you want to fetch a script file by url)
+- `git` (optional, if you want to clone git repositories from internet)
+- `curl` (optional, if you want to fetch a script file by url)
 
 Pros:
 - extremely simple and light, but enough to use.
@@ -417,7 +417,7 @@ Tools Provided by x-cmd:
 ![GitHub last commit](https://img.shields.io/github/last-commit/qoomon/zgem)
  ![GitHub Repo stars](https://img.shields.io/github/stars/qoomon/zgem)
 
-**zgem** is a plugin manager for ZSH that supports loading and updating plugins and themes from git, http and local files.
+**zgem** is a plugin manager for ZSH that supports loading and updating plugins and themes from `git`, http and local files.
 
 ### [zgen](https://github.com/tarjoilija/zgen)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tarjoilija/zgen)
@@ -425,7 +425,7 @@ Tools Provided by x-cmd:
 
 **Zgen is currently not being actively maintained**. I recommend you use the [zgenom](https://github.com/jandamm/zgenom) fork instead, which is actively maintained and continues to get new features and bug fixes.
 
-**Zgen** is a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal is to have minimal overhead when starting up the shell because nobody likes waiting.
+**Zgen** was a lightweight plugin manager for ZSH inspired by [Antigen](https://github.com/zsh-users/antigen). The goal was to have minimal overhead when starting up the shell because nobody likes waiting.
 
 ### [zgenom](https://github.com/jandamm/zgenom)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jandamm/zgenom)
@@ -477,8 +477,8 @@ The project is very active – currently > 3100 commits.
 This is Zinit 4 from the [original author](https://github.com/psprint), who once removed the [Zinit](https://github.com/zdharma-continuum/zinit) repository from GitHub. This spawned a community-driven [zdharma-continuum](https://github.com/zdharma-continuum) organization that revived all of psprint's ZSH projects. Its main innovations from the @zdharma-continuum fork are:
 
 - AppImage distribution (release link),
-- Action complete – press Alt-Shift-A and Alt-Shift-C to complete plugin names and ice modifiers,
-- Themes – set $ZITHEME to one of default, blue and gold to set a color set to use for Zinit 4 messages,
+- Action complete – press `Alt-Shift-A` and `Alt-Shift-C` to complete plugin names and ice modifiers,
+- Themes – set `$ZITHEM`E to one of default, blue and gold to set a color set to use for Zinit 4 messages,
 - New ice `build` which is equivalent of three other ices: `null`, `configure` and `make install` and simply builds the project from sources, with support for autotools/CMake/Meson/Scons.
 
 These are the most visible changes, but there are more (like e.g.: support for compiling with libraries from previously built projects/`$ZPFX`).
@@ -576,7 +576,7 @@ ZSH package managers are abundant, but most are bloated, slow or have excessive 
 
 **zshing** is a ZSH plugin manager similar to Vundle/Vim and allows you to...
 
-- Keep track of and configure your plugins right in the `.zshrc`
+- Keep track of and configure your plugins right in your `~/.zshrc`
 - Install ZSH plugins
 - Update ZSH plugins
 - Search by name all available ZSH Plugins
@@ -679,7 +679,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ## Prerequisites
 
-If you're on a Mac, the `zsh` that comes with it is usually pretty stale. You can use `brew install zsh` to update it.
+If you're on a Mac, the `zsh` that comes with each OS update is usually very stale. You can use `brew install zsh` to update it.
 
 Many of the themes here use special glyphs for things like displaying a branch icon. You'll need to use a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) or a Powerline-compatible font in your terminal program or you'll see ugly broken boxes where the symbols should be.
 
@@ -700,6 +700,8 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [Powerline patched font collection](https://github.com/powerline/fonts) - A collection of a dozen or so fonts patched to include Powerline glyphs.
 - [Spacemono](https://github.com/googlefonts/spacemono) - Google's new original monospace display typeface family.
 - [Victor Mono](https://rubjo.github.io/victor-mono/) - Victor Mono is a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
+
+If you're looking for a new font to use, check out [www.codingfont.com](https://www.codingfont.com/) - it presents programming fonts in a bracket-style tournament and lets you keep picking the best of two presented options until landing on a final font.
 
 ## Tutorials
 
