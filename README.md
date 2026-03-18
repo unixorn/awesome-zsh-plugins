@@ -47,6 +47,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
+  - [xc-manager](https://github.com/Rakosn1cek/XC-Manager) - A persistent command vault with fzf TUI and alias promotion.
   - [yazt](#yazt)
   - [yzsh](#yzsh)
   - [zap](#zap)
