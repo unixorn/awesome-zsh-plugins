@@ -377,6 +377,18 @@ Tools Provided by x-cmd:
   - [CLI for Useful Websites (e.g., github.com, cht.sh)](https://x-cmd.com/mod/cht): We have wrapped their APIs using shell and awk for daily use and to obtain corresponding services in scripts.
   - [AI Tools](https://x-cmd.com/mod/openai): We provide CLIs for ChatGPT, Gemini, Jina.ai, etc., and have wrapped corresponding shortcut commands for different application scenarios, such as `@gemini` for chatting with Gemini AI and `@zh` for using AI to translate specified content or command results.
 
+### [xc-manager](https://github.com/Rakosn1cek/XC-Manager)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rakosn1cek/XC-Manager) 
+ ![GitHub Repo stars](https://img.shields.io/github/stars/Rakosn1cek/XC-Manager)
+
+**XC-Manager** is a Zsh-native command vault designed to bridge the gap between temporary shell history and permanent aliases. It allows you to store complex one-liners with descriptions and recall them via an interactive TUI.
+
+Features Provided by XC-Manager:
+  - **Command Vaulting**: Save any command directly from your history into thematic vaults (e.g., work, sysadmin, media).
+  - **FZF TUI**: Search and execute vaulted commands instantly using a robust, TTY-safe `fzf` interface.
+  - **Alias Promotion**: Promote frequently used vaulted commands to permanent system aliases without manually editing configuration files.
+  - **Global Search**: Query across all vault files simultaneously to find that one specific flag or complex pipe string.
+
 ### [yazt](https://github.com/bashelled/yazt)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bashelled/yazt)
  ![GitHub Repo stars](https://img.shields.io/github/stars/bashelled/yazt)
