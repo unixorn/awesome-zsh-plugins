@@ -47,6 +47,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
+  - [xc-manager](#xc-manager)
   - [yazt](#yazt)
   - [yzsh](#yzsh)
   - [zap](#zap)
@@ -378,7 +379,7 @@ Tools Provided by x-cmd:
   - [AI Tools](https://x-cmd.com/mod/openai): We provide CLIs for ChatGPT, Gemini, Jina.ai, etc., and have wrapped corresponding shortcut commands for different application scenarios, such as `@gemini` for chatting with Gemini AI and `@zh` for using AI to translate specified content or command results.
 
 ### [xc-manager](https://github.com/Rakosn1cek/XC-Manager)
-![GitHub last commit](https://img.shields.io/github/last-commit/Rakosn1cek/XC-Manager) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Rakosn1cek/XC-Manager)
  ![GitHub Repo stars](https://img.shields.io/github/stars/Rakosn1cek/XC-Manager)
 
 **XC-Manager** is a Zsh-native command vault designed to bridge the gap between temporary shell history and permanent aliases. It allows you to store complex one-liners with descriptions and recall them via an interactive TUI.
