@@ -998,6 +998,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [dirrc](https://github.com/gmatheu/shell-plugins) - Executes `.dirc` when present in a directory you `cd` into.
 - [dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying the dirstack info on a single line.
 - [diskfree](https://github.com/alex-crouch/zsh-diskfree/) - Displays the free space on your disk in your prompt.
+- [Disk🛡️Guard](https://github.com/TomfromBerlin/diskguard) - Warns you when you try to copy/move files and are running low on disk space (also provides a progressbar for 'cp' and 'mv').
 - [doas (anatolykopyl)](https://github.com/anatolykopyl/doas-zsh-plugin) - Easily prefix your current or previous commands with `doas` by pressing `ESC` twice.
 - [doas (senderman)](https://github.com/Senderman/doas-zsh-plugin) - Easily prefix your current or previous commands with `doas` by pressing `ESC` twice.
 - [docker-aliases](https://github.com/webyneter/docker-aliases) - `Docker` aliases for everyday use.
