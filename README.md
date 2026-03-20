@@ -1011,6 +1011,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [dirrc](https://github.com/gmatheu/shell-plugins) - Executes `.dirc` when present in a directory you `cd` into.
 - [dirstack](https://github.com/gepoch/oh-my-zsh-dirstack) - Plugin for displaying the dirstack info on a single line.
 - [diskfree](https://github.com/alex-crouch/zsh-diskfree/) - Displays the free space on your disk in your prompt.
+- [diskguard](https://github.com/TomfromBerlin/diskguard) - Intelligent disk space monitoring for write operations in ZSH.
 - [doas (anatolykopyl)](https://github.com/anatolykopyl/doas-zsh-plugin) - Easily prefix your current or previous commands with `doas` by pressing `ESC` twice.
 - [doas (senderman)](https://github.com/Senderman/doas-zsh-plugin) - Easily prefix your current or previous commands with `doas` by pressing `ESC` twice.
 - [docker-aliases](https://github.com/webyneter/docker-aliases) - `Docker` aliases for everyday use.
@@ -2386,6 +2387,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [eucalyptus](https://github.com/relastle/eucalyptus) - Simple one-line theme for minimalist vi-mode users inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme) and [powerlevel9k](https://github.com/bhilburn/powerlevel9k). Includes `git` status indicator, `vi`-mode indicator, current directory and current path.
 - [even-more-emojis](https://github.com/odunlop/even-more-emojis) - Customized version of [emoji](https://github.com/meiokubo-zz/emoji.zsh-theme) which adds more emojis and more information. Includes decorators for `git` status, current directory and the exit status of last command.
 - [excess](https://github.com/davydovanton/excess.zsh-theme) - Simple ZSH color theme.
+- [eyerelax](https://github.com/code-brewer/EyeRelax-zsh-theme) - Minimalist theme with decorators for `git` status, venv/anaconda environment, execution time of last command and current directory.
 - [ez-pz](https://github.com/mangosmoothie/ez-pz) - Minimalist theme with `git` status decorations, inspired by [bureau](https://github.com/isqua/bureau).
 - [fall](https://github.com/jottenlips/seasonal-zshthemes) - Minimalist theme with fall icons. Includes `git` status decorations.
 - [fattyarrow](https://github.com/sohnryang/fattyarrow) - Minimal ZSH prompt that works better on dark backgrounds.
