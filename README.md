@@ -47,6 +47,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
+  - [xc-manager](#xc-manager)
   - [yazt](#yazt)
   - [yzsh](#yzsh)
   - [zap](#zap)
@@ -376,6 +377,18 @@ Tools Provided by x-cmd:
   - [Lightweight Package Management Tool](https://x-cmd.com/pkg/): We have implemented a lightweight package management tool using shell and awk. Through it, you can quickly obtain most common software tools, such as jq, 7za, bat, nvim, python, node, go, etc.
   - [CLI for Useful Websites (e.g., github.com, cht.sh)](https://x-cmd.com/mod/cht): We have wrapped their APIs using shell and awk for daily use and to obtain corresponding services in scripts.
   - [AI Tools](https://x-cmd.com/mod/openai): We provide CLIs for ChatGPT, Gemini, Jina.ai, etc., and have wrapped corresponding shortcut commands for different application scenarios, such as `@gemini` for chatting with Gemini AI and `@zh` for using AI to translate specified content or command results.
+
+### [xc-manager](https://github.com/Rakosn1cek/XC-Manager)
+![GitHub last commit](https://img.shields.io/github/last-commit/Rakosn1cek/XC-Manager)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/Rakosn1cek/XC-Manager)
+
+**XC-Manager** is a Zsh-native command vault designed to bridge the gap between temporary shell history and permanent aliases. It allows you to store complex one-liners with descriptions and recall them via an interactive TUI.
+
+Features Provided by XC-Manager:
+  - **Command Vaulting**: Save any command directly from your history into thematic vaults (e.g., work, sysadmin, media).
+  - **FZF TUI**: Search and execute vaulted commands instantly using a robust, TTY-safe `fzf` interface.
+  - **Alias Promotion**: Promote frequently used vaulted commands to permanent system aliases without manually editing configuration files.
+  - **Global Search**: Query across all vault files simultaneously to find that one specific flag or complex pipe string.
 
 ### [yazt](https://github.com/bashelled/yazt)
 ![GitHub last commit](https://img.shields.io/github/last-commit/bashelled/yazt)
@@ -1842,6 +1855,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [zsh-hookie-projects](https://github.com/aemonge/zsh-hookie-projects) - Language-agnostic project detection with smart hooks, PowerLevel10k integration, and intelligent path shortening. Automatically detects 100+ project types, provides customizable on_project/off_project hooks, features a smart `cd` command that goes to project root, and includes a beautiful `hookie_dir` segment that shortens paths like `~/projects/my-app` → `~/p/my-app`. Perfect for polyglot developers who want seamless project-aware shell behavior.
 - [zsh-in-docker](https://github.com/deluan/zsh-in-docker) - Automates ZSH + [oh-my-zsh](https://ohmyz.sh/) installation into development containers. Works with Alpine, Ubuntu, Debian, CentOS or Amazon Linux.
 - [zsh-llm-assist](https://github.com/championswimmer/zsh-llm-assist) - Plain english to shell command suggestions as well as shell command to plain english explanation using Gemini CLI, Codex, Claude Code or OpenCode
+* [zsh-make-completion](https://github.com/pksublime/zsh-make-completion) - Correct `make` tab completion for zsh. Uses `make -qp` to fully expand the makefile database, so targets generated via `$(eval $(call ...))` are included. Results are cached per-directory and invalidated automatically when Makefiles change.
 - [zsh-not-vim](https://github.com/redxtech/zsh-not-vim) - Provides a function that automatically shames the user for forgetting they weren't in `vim`.
 - [zsh-select](https://github.com/z-shell/zsh-select) - Displays a selection list. It is similar to `selecta`, but uses the curses library to do display, and when compared to [fzf](https://github.com/junegunn/fzf), the main difference is approximate matching instead of fuzzy matching.
 - [zsh-vi-man](https://github.com/TunaCuma/zsh-vi-man) - Smart man page lookup for zsh vi mode. Press `Shift-K` on any command or option to instantly open its man page with smart detection for subcommands, option jumping, combined options, and pipe support.
