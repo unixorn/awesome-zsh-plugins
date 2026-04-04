@@ -1339,6 +1339,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [macos-autoproxy](https://github.com/SukkaW/zsh-osx-autoproxy) - Configures proxy environment variables based on macOS's system preferences.
 - [macos-theme](https://github.com/gakimball/zsh-macos-theme) - Adds the theme command, which toggles between light and dark mode in macOS. Requires [lux](https://github.com/pndurette/zsh-lux) plugin.
 - [mage2docker](https://github.com/lukaszolszewski/mage2docker) - Makes it easy to work with Docker and Magento 2. Speeds up and simplifies common commands like clean cache, setup upgrade, compile di and much more in Magento 2 on containers.
+- [magebox](https://github.com/JCombee/oh-my-zsh-magebox) - Adds support for [magebox](https://magebox.dev/) — a modern development environment for Magento 2 and MageOS. Provides aliases, a cache-flush helper, prompt status indicator, and cached tab completion for the `magebox` CLI.
 - [magento-2](https://github.com/dambrogia/oh-my-zsh-plugin-magento-2) - Adds `m2` function to run magento binary, adds tab completions.
 - [magic-enter](https://github.com/zshzoo/magic-enter) - Make your enter key magical by binding a ZSH command to it.
 - [manydots-magic](https://github.com/knu/zsh-manydots-magic) - A zle tweak for emulating `...'==`../..' etc.
