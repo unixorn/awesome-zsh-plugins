@@ -2648,7 +2648,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [ludwigws](https://github.com/LudwigWS/my-zsh-theme) - Variant of [lambda-mod](https://github.com/halfo/lambda-mod-zsh-theme) theme. Has `git` decorations, requires a powerline-compatible terminal font.
 - [luke](https://github.com/xueguangl23/luke_zsh_theme) - Includes `git` decorations. Based on the [frisk](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/frisk.zsh-theme) oh-my-zsh theme.
 - [lukerandall-extended](https://github.com/mpyw/oh-my-zsh-lukerandall-extended) - Extended version of the [lukerandall](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/lukerandall.zsh-theme) theme. Includes decorations for `git` status and the status of the last command run.
-- [lunachar](https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/lunachar.zsh-theme) - Minimalist theme.
+- [lunachar](https://codeberg.org/ar-mo/armans-zsh-themes) - Minimalist theme.
 - [macos](https://github.com/alejandromume/macos-zsh-theme) - Includes `git` status decorations.
 - [mad](https://github.com/MartinWie/ohmyzsh-theme-mad) - Includes `git` status and last command execution time decorations.
 - [madas](https://github.com/utauyo/madas-zsh-theme) - Inspired by af-magic. Includes decorators for `git` status, user@host, and whether the last command failed.
@@ -3021,7 +3021,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [steef (zelongguo)](https://github.com/ZelongGuo/steeef) - Based on the [zimfw steef theme](https://github.com/zimfw/steeef). Includes decorators for username@hostname, python venv, `git` status and current directory. Requires [git-info](https://github.com/zimfw/git-info).
 - [steef (zimfw)](https://github.com/zimfw/steeef) - A customizable version of [steeef's](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/steeef.zsh-theme) theme.
 - [steeple](https://github.com/erwanjugand/steeple-zsh-theme) - Minimalist theme with `git` status decorations.
-- [stellachar](https://github.com/r-mohammadi1/armans-zsh-themes/blob/main/stellachar.zsh-theme) - Minimal, pastels.
+- [stellachar](https://codeberg.org/ar-mo/armans-zsh-themes) - Minimal, pastels.
 - [stigmata](https://github.com/VLtim43/stigmata.zsh-theme) - Includes decorators for user@host and current directory.
 - [sublime](https://github.com/pjmp/sublime) - A sublime, clean, minimalistic ZSH theme with `git` status decorations.
 - [sugar-free](https://github.com/cbrock/sugar-free) - Based on the [Pure](https://github.com/sindresorhus/pure) and [Candy](https://github.com/BinaryMuse/oh-my-zsh/blob/binarymuse/themes/candy.zsh-theme) themes.
