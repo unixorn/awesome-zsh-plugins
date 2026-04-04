@@ -2054,6 +2054,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
 - [rake-completion](https://github.com/unixorn/rake-completion.zshplugin) - Add fast tab completion for rakefile targets.
 - [rancher](https://github.com/go/rancher-zsh-completion) - Add completions for the Rancher CLI.
+- [rg](https://github.com/pressdarling/rg-zsh-plugin) - Provides completions for [ripgrep](https://github.com/BurntSushi/ripgrep), the ridiculously fast file and text search binary.
 - [rhoas](https://github.com/craicoverflow/rhoas-zsh-plugin) - Adds completions for [rhoas](https://developers.redhat.com/products/red-hat-openshift-streams-for-apache-kafka/overview).
 - [rustup](https://github.com/pkulev/zsh-rustup-completion) - Tab completions for Rustup.
 - [s3cmd](https://github.com/FFKL/s3cmd-zsh-plugin) - Adds tab completions for [s3cmd](https://s3tools.org/s3cmd).
