@@ -2048,6 +2048,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [poetry](https://github.com/fourdim/zsh-poetry) - Tab completions for [poetry](https://python-poetry.org/).
 - [prettier](https://github.com/sambergo/zsh-prettier-completion/) - Tab completion for [prettier](https://prettier.io/.)
 - [pytest-fzf](https://github.com/jszczepaniak/zsh-pytest-fzf) - lets you select pytest tests using [fzf](https://github.com/junegunn/fzf) and insert them into your terminal.
+- [python-args-completion](https://github.com/mejistus/python-args-completion) - provides automatic completion for Python script command-line arguments defined with the argparse module.
 - [python-module-completion](https://github.com/UshioA/zsh-python-module-completion) - Intelligent tab completion for python -m commands with hierarchical module navigation and smart project detection.
 - [quickjump](https://github.com/fikovnik/zsh-quickjump) - Adds tab completion support for [skim](https://github.com/lotabout/skim) for recent files and directories using [fasd](https://github.com/whjvenyl/fasd).
 - [racket completion](https://github.com/racket/shell-completion) - Completion for [Racket](http://racket-lang.org).
