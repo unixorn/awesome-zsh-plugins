@@ -2022,7 +2022,8 @@ These plugins add tab completions without adding extra functions or aliases.
 - [myincr](https://github.com/gaojunbin/zsh-myincr/) - Speeds up pasting with autosuggest and incr.
 - [nestcli](https://github.com/behradkhodayar/nestcli-zsh) - Tab completion for the [Nest.js CLI](https://github.com/nestjs/nest-cli).
 - [newman](https://github.com/selop/newman-autocomplete) - Provides autocompletion for the [Newman CLI](https://github.com/postmanlabs/newman).
-- [ngrok](https://github.com/bostonaholic/ngrok.plugin.zsh) - Auto-loads [ngrok](https://ngrok.com) and its completions into the shell.
+- [ngrok (bostonaholic)](https://github.com/bostonaholic/ngrok.plugin.zsh) - Auto-loads [ngrok](https://ngrok.com) and its completions into the shell.
+- [ngrok (hairglasses-studio)](https://github.com/hairglasses-studio/ngrok.plugin.zsh) - Auto-load [ngrok](https://ngrok.com) and its completions into the shell.
 - [nix](https://github.com/spwhitt/nix-zsh-completions) - Completions for [nix](https://nixos.org/nix/), [NixOS](https://nixos.org/), and [NixOps](https://nixos.org/nixops/).
 - [node-ace](https://github.com/romch007/node-ace-zsh-completion) - Completions for `node ace`.
 - [nova](https://github.com/rbirnie/oh-my-zsh-nova) - Provides auto-complete for nova.
