@@ -1181,6 +1181,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [git-worktrees](https://github.com/egyptianbman/zsh-git-worktrees) - Makes `git` worktrees more functional. Includes tab completions.
 - [git-wt](https://github.com/fingergohappy/git-wt) - A ZSH-native `git` worktree workflow plugin.
 - [git](https://github.com/davidde/git) - Replacement for the stock [oh-my-zsh](https://ohmyz.sh/) `git` plugin. Provides quite a few useful aliases and functions. The motivation to replace the default plugin stems from the fact that it comes with some inconsistencies that make a few popular commands rather unintuitive, so this plugin makes the aliases consistent.
+- [gitbutler](https://github.com/batuhan0sanli/gitbutler-omz) -A plugin for [GitButler](https://gitbutler.com/) — CLI aliases, a Git protection shield, and prompt integration for standard OMZ themes and Powerlevel10k.
 - [gitcd (SukkaW)](https://github.com/SukkaW/zsh-gitcd) - Adds command to `git clone` a repository and `cd` into the resulting directory.
 - [gitcd (viko16)](https://github.com/viko16/gitcd.plugin.zsh) - Automatically `cd` to a `git` working directory after cloning it.
 - [gitfast](https://github.com/tevren/gitfast-zsh-plugin) - Updated fork of the [oh-my-zsh](https://ohmyz.sh/) `gitfast` plugin.
