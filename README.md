@@ -3278,6 +3278,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
 - [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=unixorn_awesome-zsh-plugins) - Follow GitHub developers, see their activity feed, and discover trending repos in your stack.
 ### Other Useful Lists
 
 - [awesome-devenv](https://github.com/jondot/awesome-devenv) - A curated list of awesome tools, resources and workflow tips making an awesome development environment.
