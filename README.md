@@ -1617,6 +1617,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [smartcache](https://github.com/QuarticCat/zsh-smartcache) - Caches command output to speed up shell startup time.
 - [smartinput](https://github.com/momo-lab/zsh-smartinput) - When you type brackets or quotes, the corresponding end brackets/quotes are automatically added.
 - [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
+- [snap-list](https://github.com/crisis1er/zsh-snap-list) - Provides helper functions for `sudo snapper list` on openSUSE Tumbleweed.
 - [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 - [snr](https://github.com/raisedadead/zsh-snr) - Passes the selected output of the first command to the next.
 - [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of [Oh-My-ZSH](https://ohmyz.sh/)'s plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
