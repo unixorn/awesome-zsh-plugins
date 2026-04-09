@@ -82,14 +82,14 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zush 🦥 - Mid-Performance ZSH Configuration](#zush----mid-performance-zsh-configuration)
 - [Setups](#setups)
   - [zgenom](#zgenom-1)
-  - [zinit](#zinit)
+  - [zinit](#zinit-1)
 - [Prerequisites](#prerequisites)
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
-  - [Antigen](#antigen)
-  - [Oh-My-Zsh](#oh-my-zsh)
-  - [Prezto](#prezto)
-  - [Zgen](#zgen)
+  - [Antigen](#antigen-1)
+  - [Oh-My-Zsh](#oh-my-zsh-1)
+  - [Prezto](#prezto-1)
+  - [Zgen](#zgen-1)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
   - [ZSH on Windows](#zsh-on-windows)
     - [superconsole - Windows-only](#superconsole---windows-only)
@@ -98,12 +98,12 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Themes](#themes)
 - [Fonts](#fonts)
 - [Installation](#installation)
-  - [Antigen](#antigen-1)
+  - [Antigen](#antigen-2)
   - [dotzsh](#dotzsh-1)
-  - [Oh-My-Zsh](#oh-my-zsh-1)
-  - [Prezto](#prezto-1)
-  - [Zgen](#zgen-1)
-  - [Zgenom](#zgenom)
+  - [Oh-My-Zsh](#oh-my-zsh-2)
+  - [Prezto](#prezto-2)
+  - [Zgen](#zgen-2)
+  - [Zgenom](#zgenom-2)
   - [zplug](#zplug-1)
   - [zpm](#zpm-1)
 - [Writing New Plugins and Themes](#writing-new-plugins-and-themes)
@@ -3275,6 +3275,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
 - [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 
+- [Gitstar](https://gitstar.ai?utm_medium=github_readme&utm_source=awesome_list&utm_campaign=unixorn_awesome-zsh-plugins) - Follow GitHub developers, see their activity feed, and discover trending repos in your stack.
 ### Other Useful Lists
 
 - [awesome-devenv](https://github.com/jondot/awesome-devenv) - A curated list of awesome tools, resources and workflow tips making an awesome development environment.
