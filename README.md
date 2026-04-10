@@ -2873,7 +2873,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [quewui](https://github.com/kauefontes/oh-my-quewui) - Simple and clean theme optimized for dark terminal themes. Includes decorations for the current time, user, directory and `git` status.
 - [quietline](https://github.com/qwreey/quietline) - A simple theme inspired by the headline theme. Includes decorators for `git` status, user@host and current directory.
 - [r](https://github.com/rafalkaron/r-zsh-theme) - A simple yet informative ZSH theme.
-- [r3-fresh](https://github.com/r3-fresh/r3-fresh-zsh-theme) - Includes decorators for `git` status, current directory, exit status of last command run.
 - [r3nic1e](https://github.com/r3nic1e/r3nic1e) - [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) variant with battery status, `git/hg` status, time, kubernetes context and namespace, non-zero exit code of last command and date decorations. Requires Powerline font.
 - [rabbit](https://github.com/Hera-Moon/My-rabbit-Zsh-Theme) - Optimized for `git`. Requires a terminal program that works with unicode. Includes decorators for `git` status, current working directory and the current virtual environment.
 - [racotecnic](https://github.com/elboletaire/zsh-theme-racotecnic) - Based on af-magic and posh-git.
@@ -2890,7 +2889,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [redfox](https://github.com/saeed0xf/terminal-themes) - Includes decorators for the current directory and a fox icon.
 - [redline](https://github.com/DrissTM/redline.zsh-theme) - Minimalist theme. Includes `git` status, time, user.
 - [refined-flower](https://github.com/idaMakelaWork/refined-flower) - Requires a terminal program that can handle emoji. Includes `git` status decorator.
-- [refpx](https://github.com/refpx/refpx-zsh-theme) - Includes `git` status, last command status, user@hostname and directory decorations.
 - [reggae](https://github.com/nmercado1986/zsh-reggae-theme) - Compresses a lot of information into the prompt with color-coded status decorations.
 - [rei](https://github.com/arturoalviar/rei-zsh-theme) - A simple theme with the first character 零(rei), the number 0. Includes `git` status decorations.
 - [remiii](https://github.com/Remiii/remiii.zsh-theme) - Based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme), optimized for [solarized](https://github.com/altercation/solarized) terminal themes.
