@@ -41,6 +41,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [rat](#rat)
   - [ryzshrc](#ryzshrc)
   - [sheldon](#sheldon)
+  - [shellx](#shellx)
   - [shplug](#shplug)
   - [TheFly](#thefly)
   - [Toasty](#toasty)
@@ -321,6 +322,15 @@ Features 🐭✨
 - Super-fast parallel installation.
 - Configuration file using [TOML](https://github.com/toml-lang/toml) syntax.
 - Uses a lock file for much faster loading of plugins.
+
+### [shellx](https://github.com/0ghny/shellx)
+
+A generic script/plugin loader for multiple shells, including `ZSH`.
+
+- Has a "plugins" system that allows you to do things like installing a package, cloning a repository, export variables, run commands. And cross-shell compatible.
+- Has an unified way of configuring shells, it uses one of many approaches to standardize home folder with a set of predefined files and folders. it defines a `~/bin` folder between others that is auto-included in `PATH`, so it helps you to use always same approach on all your systems.
+- Having different plugins in different folders, which allows loading certain folders in certain environments to load variables or any other special configurations. It also allows you to clone other users plugins easily.
+- It provides a minimal set of libraries and binaries bundled inside which offers a set of functions/aliases/etc. based on SH/BASH (compatible with other shells) to use in plugins contexts to do certain stuff easily.
 
 ### [shplug](https://github.com/dtrugman/shplug)
 ![GitHub last commit](https://img.shields.io/github/last-commit/dtrugman/shplug)
