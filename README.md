@@ -1162,6 +1162,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [git-plugin (dark-kitt)](https://github.com/dark-kitt/zsh-git-plugin) - `git` integration that displays the current directory and `git` branch.
 - [git-plugin (rcruzper)](https://github.com/rcruzper/zsh-git-plugin) - Adds some functions for `git`.
 - [git-plugin-cheatsheet](https://github.com/rhorno/oh-my-zsh-git-plugin-cheatsheet) - Displays the aliases and functions available from the `git` oh-my-zsh plugin.
+- [git-profile](https://github.com/nemezo/zsh-git-profile) - Manage multiple `git` accounts in ZSH by auto-switching `user.name`, `user.email`, and signing keys based on directory path or repository remote URL. Never push a commit under the wrong identity again.
 - [git-prompt-enhanced](https://github.com/LFabre/zsh-git-prompt-enhanced) - Provides a more granular information about a `git` repository.
 - [git-prompt-useremail](https://github.com/mroth/git-prompt-useremail) - Adds prompt reminders for `git` user.email.
 - [git-prompt-watcher](https://github.com/shields/git-prompt-watcher) - Automatically updates your prompt when git status changes, using `fswatch` to monitor repository files in real-time.
@@ -1213,9 +1214,9 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [gvm (dgnest)](https://github.com/dgnest/zsh-gvm-plugin) - A `gvm` (Go version manager) plugin for ZSH.
 - [gvm (yerinle)](https://github.com/yerinle/zsh-gvm) - Provides autocompletion for `gvm` (Groovy enVironment Manager).
 - [hab](https://github.com/alexdesousa/hab) - Automatically loads OS environment variables defined in the file `.envrc` if it's found when changing to a new directory.
-- [halfpipe](https://github.com/raimo/zsh-halfpipe) - Edit shell pipeline and see its output update live. Get regexps correct fast and save in network requests.
 - [hacker-quotes](https://github.com/oldratlee/hacker-quotes) - Outputs a random hacker quote when you open a terminal.
 - [haiku](https://github.com/alesr/oh-my-zsh-haiku-plugin) - Prints a haiku promoting work-life balance and stress management once every 24 hours when the terminal is open.
+- [halfpipe](https://github.com/raimo/zsh-halfpipe) - Edit shell pipeline and see its output update live. Get regexps correct fast and save in network requests.
 - [hanami](https://github.com/davydovanton/hanami-zsh) - ZSH plugin for [hanami](http://hanamirb.org) projects.
 - [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to English when it was supposed to be typed in English. 영어를 타이핑 해야되는데 한글로 타이핑된경우 자동으로 수정합니다.
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
