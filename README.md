@@ -921,6 +921,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [brew-switcher](https://github.com/fielding/zsh-brew-switcher) - Automatically switch between Homebrew installations based on the current active arch, arm64 or x86_64, on Apple Silicon Macs.
 - [browse-commit](https://github.com/adolfoabegg/browse-commit) - Lets you open any commit in your browser from the command line.
 - [bruse](https://github.com/aubreypwd/zsh-plugin-bruse) - Makes it easy to `brew link` different versions of packages.
+- [btrfs-snapper](https://github.com/crisis1er/zsh-btrfs-snapper) - Plugin for btrfs filesystem management and snapper snapshot control on openSUSE Tumbleweed — enriched commands, safety guards, and filtered views not available in native tools.
 - [bumblebee](https://github.com/Niverton/zsh-bumblebee-plugin) - A plugin to toggle prepending `optirun` in the command line.
 - [bw](https://github.com/begris/bw-zsh-plugin) - Provides formatting options and easy access to credentials stored in [Bitwarden](https://bitwarden.com) via the Bitwarden [CLI](https://bitwarden.com/download/). The plugin tries to retrieve a valid session before each action, therefore an explicit login is not nescessary beforehand.
 - [bws](https://github.com/elogiclab/zsh-bws) - Simplify and improve the retrieval of secrets from the [Bitwarden](https://bitwarden.com) Secret Manager.
@@ -1631,6 +1632,8 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [smartinput](https://github.com/momo-lab/zsh-smartinput) - When you type brackets or quotes, the corresponding end brackets/quotes are automatically added.
 - [smile](https://github.com/fundor333/smile) - Adds function to display random smileys.
 - [snap-list](https://github.com/crisis1er/zsh-snap-list) - Provides helper functions for `sudo snapper list` on openSUSE Tumbleweed.
+- [snap-new](https://github.com/crisis1er/zsh-snap-new) - Replaces the raw `snapper` command with a guided flow: a 14-scenario table pre-fills the description and suggests the right type (standard vs important) based on what you are about to do. Before executing, it checks disk usage, shows existing snapshot context, and asks for confirmation. --cleanup-algorithm timeline is always set — you cannot forget it.
+- [snap-rollback](https://github.com/crisis1er/zsh-snap-rollback) - Native `snapper rollback` executes immediately with no safety checks. This plugin adds guided flow, snapshot summary, double confirmation, dry-run mode and a reboot reminder.
 - [snippets](https://github.com/willghatch/zsh-snippets) - Command line snippet expansion.
 - [snr](https://github.com/raisedadead/zsh-snr) - Passes the selected output of the first command to the next.
 - [solarized-man](https://github.com/zlsun/solarized-man) - A modified version of [Oh-My-ZSH](https://ohmyz.sh/)'s plugin colored-man-pages, optimized for the [solarized dark](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors) theme in the terminal.
