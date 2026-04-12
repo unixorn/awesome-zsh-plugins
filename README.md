@@ -2192,7 +2192,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [archmocha](https://github.com/mikkurogue/archmocha/) - Some of [catpucchin](https://github.com/JannoTjarks/catppuccin-zsh)'s mocha theming with an Arch Linux twist. Includes decorators for user@hostname, current directory and `git` status.
 - [arctic-glow](https://github.com/Etto48/arcticglow-zsh-theme) - Based on [agnoster](https://gist.github.com/3712874). Includes decorators for `git` status, python virtual environment, current directory, username  and operating system.
 - [arity](https://github.com/hybras/Arity-Zsh-Theme) - A simple theme designed for readability and to give an overview at a glance. Includes path and `git` decorations.
-- [aronhoyer](https://github.com/aronhoyer/zsh-theme) - Minimalist theme with right-side `git` status decorations.
 - [arrow-minimal](https://github.com/maxim-usikov/arrow-minimal.zsh-theme) - A minimal ZSH theme with `git` decorations.
 - [arrow](https://github.com/milon/arrow-zsh-theme) - Minimal theme, includes `git` status decorations.
 - [asciigit](https://github.com/cemsbr/asciigit) - An ASCII-only theme for `git` users who don't want to use fonts with extra glyphs.
