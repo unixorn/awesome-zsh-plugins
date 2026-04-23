@@ -236,7 +236,7 @@ A minimalist ZSH plugin manager.
 ### [lazy.zsh](https://github.com/stanleyndachi/lazy.zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stanleyndachi/lazy.zsh) ![GitHub Repo stars](https://img.shields.io/github/stars/stanleyndachi/lazy.zsh)
 
-With **lazy.zsh**, your `.zshrc` is the single source of truth. Reproduce the same Zsh setup anywhere using the same config; no frameworks, no auto-sourcing, no hidden behavior. **lazy.zsh** installs, updates, and tracks plugins, while you control exactly how and when they are loaded.
+With **lazy.zsh**, your `.zshrc` is the single source of truth. Reproduce the same ZSH setup anywhere using the same config; no frameworks, no auto-sourcing, no hidden behavior. **lazy.zsh** installs, updates, and tracks plugins, while you control exactly how and when they are loaded.
 
 ### [miniplug](https://sr.ht/~yerinalexey/miniplug)
 ![GitHub last commit](https://img.shields.io/github/last-commit/yerinalexey/miniplug) ![GitHub Repo stars](https://img.shields.io/github/stars/yerinalexey/miniplug)
