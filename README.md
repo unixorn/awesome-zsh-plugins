@@ -2279,6 +2279,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bubblified (hohmannr)](https://github.com/hohmannr/bubblified) - Inspired by [agnoster](https://github.com/agnoster/agnoster-zsh-theme). Works best with [nerdfonts](https://github.com/ryanoasis/nerd-fonts).
 - [bubblified (varaki)](https://github.com/varaki/bubblified-varaki.zsh-theme) - Based on [bubblified (hohmannr)](https://github.com/hohmannr/bubblified). Changes color when root. Includes decorators to show user@host and current directory.
 - [buddha](https://github.com/BuddhaDom/zsh-buddha) - Includes decorators for `git` status, current directory, exit status of last command run and username@hostname.
+- [buddy](https://github.com/iZuminnnn/zsh-buddy-theme) - Multi-language support with a extension system, overtime reminders from 1730-1830, decorators for `git` status, time and virtual environment information, OS detection, 70+ contextual messages for different times and commands.
 - [bullet-train](https://github.com/caiogondim/bullet-train.zsh) - Inspired by the Powerline Vim plugin. It aims for simplicity, showing information only when it's relevant.
 - [bunnyruni.min](https://github.com/mikeumus/bunnyruni.min) - [@jopcode's](https://github.com/jopcode) [bunnyruni](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) ZSH theme, modified to just display time and directory.
 - [bunnyruni](https://github.com/jopcode/oh-my-zsh-bunnyruni-theme) - Simple, clean, and beautiful theme.
@@ -2393,6 +2394,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [duckster](https://github.com/ducky/duckster) - A fork of the [gitster](https://github.com/shashankmehta/dotfiles/blob/master/thesetup/zsh/.oh-my-zsh/custom/themes/gitster.zsh-theme) ZSH theme that's more ducky fresh.
 - [ducula](https://github.com/janjoswig/Ducula) - Inspired by Dracula project. Includes `git` status decorations, username and hostname abbreviations, virtual environment, current working directory, return status of last command and the time.
 - [dustmod](https://github.com/bmihaila/dustmod) - Derived from the [dst](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/dst.zsh-theme) theme in oh-my-zsh.
+- [dwep](https://github.com/dwep1337/dwep-zsh-theme) - Includes decorators for username@hostname, current directory and `git` status.
 - [dyzsh](https://github.com/daotoyi/dyzsh-zsh-theme) - Based on [astro](https://github.com/iplaces/astro-zsh-theme). Includes decorators for `git` branch & hash, current directory, user, host & time.
 - [earthshaker](https://github.com/remusearthshaker/earthshaker.zsh) - A minimalist, earthy ZSH theme designed for developers who prefer warmth, subtle power, and a grounded aesthetic. Includes decorators for current directory, `git` status and username@hostname.
 - [easytocloud](https://github.com/easytocloud/oh-my-easytocloud) - Based on [agnoster](https://github.com/agnoster/agnoster-zsh-theme). Includes decorators for AWS environment, `git` status, username and the current directory.
