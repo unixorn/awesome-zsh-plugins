@@ -56,6 +56,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zapack](#zapack)
   - [zcomet](#zcomet)
   - [zeesh](#zeesh)
+  - [zef](#zef)
   - [zert](#zert)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -442,6 +443,12 @@ Features Provided by XC-Manager:
  ![GitHub Repo stars](https://img.shields.io/github/stars/zeekay/zeesh)
 
 **Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+
+### [zef](https://github.com/declnix/zef)
+![GitHub last commit](https://img.shields.io/github/last-commit/declnix/zef)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/declnix/zef)
+
+Declarative zsh plugin manager in Nix, targeting <50 ms cold start. Inspired by nvf, built around the idea that if the entire shell config is known at build time, the runtime can be a thin shim.
 
 ### [zert](https://github.com/oxcl/zert)
 ![GitHub last commit](https://img.shields.io/github/last-commit/oxcl/zert)
@@ -1175,6 +1182,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [geometry-rust-version](https://github.com/drager/geometry-rust-version) - [Geometry](https://github.com/geometry-zsh/geometry) plugin to display the current folder's Rust version when either a `.rs` or `Cargo.toml` is present.
 - [get-jquery](https://github.com/voronkovich/get-jquery.plugin.zsh) - Plugin for fast downloading the jQuery library from [code.jquery.com](https://code.jquery.com).
 - [ghost-zeus](https://github.com/fontno/ghost_zeus) - Lets you use [zeus](https://github.com/burke/zeus) with normal rails commands.
+- [ghq-worktree](https://github.com/liquidcatmofu/zsh-ghq-worktree) - Integrates `ghq`, [fzf](https://github.com/junegunn/fzf), and `git worktree` to minimize context-switching cost in multi-repository development.
 - [gimbo-git](https://github.com/gimbo/gimbo-git.zsh) - A subset of the [oh-my-zsh](https://ohmyz.sh/) [git plugin](https://github.com/robbyrussell/oh-my-zsh/blob/master/plugins/git/git.plugin.zsh) aliases, plus some new aliases, plus a few handy functions.
 - [gimme](https://github.com/folixg/gimme-ohmyzsh-plugin) - Manage [Go](https://golang.org/) installations with [gimme](https://github.com/travis-ci/gimme/).
 - [git-acp](https://github.com/MenkeTechnologies/zsh-git-acp) - Take the current command line as the commit message and then run `git pull`, `git add`, `git commit` and `git push` with one keystroke.
@@ -1214,7 +1222,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [git-status](https://github.com/AyoubMounim/zsh-git-status/) - Exposes functions with information about the current `git` repository.
 - [git-switch-branch-skim](https://github.com/okhiroyuki/zsh-git-switch-branch-skim) - Allows you to switch `git` branches with [skim](https://github.com/lotabout/skim)
 - [git-sync](https://github.com/caarlos0-graveyard/zsh-git-sync) - A ZSH plugin to sync `git` repositories and clean them up.
-- [git-tidy](https://github.com/silee9019/git-tidy) - Plugin for safely reviewing and removing local branches whose upstream branch is marked [gone].
 - [git-to-jj](https://github.com/elithrar/zsh-git-to-jj) - Helps you progressively learn [Jujutsu](https://github.com/jj-vcs/jj) (aka `jj`) porcelain as you use `git` commands.
 - [git-worktree (alexiszamanidis)](https://github.com/alexiszamanidis/zsh-git-worktree) - Wraps some `git worktree` operations for simplicity and productivity. Includes [fzf](https://github.com/junegunn/fzf) tooling.
 - [git-worktree (trthomps)](https://github.com/trthomps/git-worktree-zsh-plugin) - Enhanced `git worktree` management with bare repository support. This plugin provides convenient commands for working with `git` worktrees, making it easy to work on multiple branches simultaneously.
@@ -1949,7 +1956,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [atuin](https://github.com/marcelohmdias/zsh-atuin) - Tab completions for the [Atuin](https://github.com/atuinsh/atuin) shell history system.
 - [audogombleed.sh](https://github.com/i-love-coffee-i-love-tea/audogombleed.sh) - Makes it easy to generate completion files using a declarative syntax, quickly and without coding.
 - [autopkg-zsh-completion](https://github.com/fuzzylogiq/autopkg-zsh-completion) - Completions for autopkg.
-- [autorestic](https://github.com/naegling/zsh-autorestic) - automatically installs [Restic](https://github.com/cupcakearmy/autorestic/)'s completions for you, and keeps them up to date as your autorestic version changes.
 - [aws_manager completions](https://github.com/EslamElHusseiny/aws_manager_plugin) - Add completions for the `aws_manager` CLI.
 - [aws-completions](https://github.com/eastokes/aws-plugin-zsh) - Adds completion support for `awscli` to manage AWS profiles/regions and display them in the prompt.
 - [bash-completions-fallback](https://github.com/3v1n0/zsh-bash-completions-fallback) - Support `bash` completions for commands when no native ZSH one is available.
@@ -3054,6 +3060,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [smiley](https://github.com/gsamokovarov/smiley.zsh-theme) - A prompt with happy and sad faces.
 - [snowflake](https://github.com/angelina-tsuboi/snowflake-zsh-theme) - An elegant, simple, and neat ZSH theme including an aesthetically pleasing cool color palette that harmonizes with dark themes.
 - [sobole](https://github.com/sobolevn/sobole-zsh-theme) - A minimalistic theme inspired by old-fashioned hobbies. No verbose gimmicks, no emoji, no fidget spinners, and no other visual noise. Has both light and dark modes.
+- [soda-pop](https://github.com/im-adnan/soda-pop.zsh-theme) - A fast, customizable, highly visual, and pure-shell asynchronous `git` prompt theme. It combines an informative git status, an execution tracker, and a rich bubblegum/soda-pop aesthetic with precise color mapping optimized for both light and dark modes.
 - [softblobby](https://github.com/gsalami00/softblobby/) - A theme for people who love unicorns, pink and purple. Includes decorators for `git` information, current directory, time and username.
 - [solarized-powerline (houjunchen)](https://github.com/houjunchen/solarized-powerline) - Solarized powerline-style theme for ZSH.
 - [solarized-powerline (KuoE0)](https://github.com/KuoE0/oh-my-zsh-solarized-powerline-theme) - Solarized powerline variant.
