@@ -56,6 +56,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zapack](#zapack)
   - [zcomet](#zcomet)
   - [zeesh](#zeesh)
+  - [zef](#zef)
   - [zert](#zert)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -442,6 +443,12 @@ Features Provided by XC-Manager:
  ![GitHub Repo stars](https://img.shields.io/github/stars/zeekay/zeesh)
 
 **Zeesh** is a cross-platform ZSH framework. It's similar to, but incompatible with, [oh-my-zsh](http://ohmyz.sh/). It has a modular plugin architecture making it easy to extend. It has a rich set of defaults, but is designed to be as lightweight as possible.
+
+### [zef](https://github.com/declnix/zef)
+![GitHub last commit](https://img.shields.io/github/last-commit/declnix/zef)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/declnix/zef)
+
+Declarative zsh plugin manager in Nix, targeting <50 ms cold start. Inspired by nvf, built around the idea that if the entire shell config is known at build time, the runtime can be a thin shim.
 
 ### [zert](https://github.com/oxcl/zert)
 ![GitHub last commit](https://img.shields.io/github/last-commit/oxcl/zert)
