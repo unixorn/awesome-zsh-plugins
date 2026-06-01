@@ -3338,7 +3338,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
 - [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 - [smucd](https://github.com/pro555161rblxs/smucd) - fuzzy typo-tolerant cd replacement with interactive selection UI
-    
+
 
 ### Other Useful Lists
 
