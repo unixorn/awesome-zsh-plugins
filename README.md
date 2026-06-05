@@ -123,7 +123,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 
 ## Disclaimer
 
-While I have done my best to not add entries with embedded malicious code, I don't have the time to sift through the source of every entry in the list.
+While I have done my best to not add entries with embedded malicious code, I don't have the time to sift through the source of every entry in the list. _Use items from this list at your own risk_.
 
 THIS LIST IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
 AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
