@@ -2171,6 +2171,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [zoxide](https://github.com/jnooree/zoxide-zsh-completion) - Tab completions for [zoxide](https://github.com/ajeetdsouza/zoxide).
 - [zpacman](https://github.com/Yttehs-HDX/zsh-zpacman/) - Add tab completions for [zpacman](https://github.com/Yttehs-HDX/zpacman.git).
 
+
 ## Themes
 
 - [021011](https://github.com/guesswhozzz/021011.zsh-theme) - Minimalist. Includes a single `git` marker for VS Code.
@@ -3140,6 +3141,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [type0](https://github.com/MikereDD/type0_zsh-theme) - Inspired by [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) by yarisgutierrez. Includes `git` decorations.
 - [typedark](https://github.com/BonnyAD9/TypeDark) - Works with [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [typewritten](https://github.com/reobin/typewritten) - Minimal and informative theme that leaves room for what's important. Does asynchronous `git` decoration updates for speed.
+* [trios](https://github.com/MrEchoFi/trios-zsh-theme) - A minimal cyberpunk ZSH prompt for pentesters, cyber-experts and CTF players. Hexagon bullet segments, electric blue highlights and colour-coded command echo — blue for success, red for error. No Nerd Font required.
 - [ubunly](https://github.com/alejandromume/ubunly-zsh-theme) - Mimics the Kali Linux console. Note - this theme also rebinds a lot of keys and sets a bunch of ZSH options that themes should leave alone.
 - [ubuntu-ish](https://github.com/Thesola10/zsh-ubuntu-ish) - Mimics the default Debian/Ubuntu `bash` prompt.
 - [ubuntu-with-vitamins](https://github.com/ureesoriano/zsh-ubuntu-with-vitamins-zim-theme) - Mimics the default Ubuntu prompt, but with `git` decorations.
