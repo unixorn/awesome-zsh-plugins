@@ -35,7 +35,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [lazy.zsh](#lazyzsh)
   - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
-  - [PMS](#pms)
+  - [pms](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [rac](#rac)
@@ -44,9 +44,9 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [sheldon](#sheldon)
   - [shellx](#shellx)
   - [shplug](#shplug)
-  - [TheFly](#thefly)
-  - [Toasty](#toasty)
-  - [Usepkg](#usepkg)
+  - [thefly](#thefly)
+  - [toasty](#toasty)
+  - [usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
   - [xc-manager](#xc-manager)
@@ -254,7 +254,7 @@ With **lazy.zsh**, your `.zshrc` is the single source of truth. Reproduce the sa
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, MacPorts, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
-### [PMS](https://github.com/JoshuaEstes/pms)
+### [pms](https://github.com/JoshuaEstes/pms)
 ![GitHub last commit](https://img.shields.io/github/last-commit/JoshuaEstes/pms)
  ![GitHub Repo stars](https://img.shields.io/github/stars/JoshuaEstes/pms)
 
@@ -346,19 +346,19 @@ A generic script/plugin loader for multiple shells, including `ZSH`.
 
 **shplug** is an easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
-### [TheFly](https://github.com/joknarf/thefly)
+### [thefly](https://github.com/joknarf/thefly)
 ![GitHub last commit](https://img.shields.io/github/last-commit/joknarf/thefly) ![GitHub Repo stars](https://img.shields.io/github/stars/joknarf/thefly)
 
 **TheFly** is a `bash`/`zsh`/`ksh` plugin manager and env teleporter
 
 Makes your shell env and plugins available everywhere (hosts/users)!
 
-### [Toasty](https://github.com/CosmicToast/toasty-zsh)
+### [toasty](https://github.com/CosmicToast/toasty-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/CosmicToast/toasty-zsh) ![GitHub Repo stars](https://img.shields.io/github/stars/CosmicToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
 
-### [Usepkg](https://github.com/gynamics/zsh-usepkg)
+### [usepkg](https://github.com/gynamics/zsh-usepkg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gynamics/zsh-usepkg) ![GitHub Repo stars](https://img.shields.io/github/stars/gynamics/zsh-usepkg)
 
 **Usepkg** is a minimal declarative zsh plugin manager.
@@ -3136,7 +3136,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [trajan](https://github.com/denisinla/trajan-zsh-theme) - A dark theme for ZSH.
 - [transient](https://github.com/olets/zsh-transient-prompt) - Add a transient prompt to your zsh command line — that is, make your current command line's prompt different from past command lines' prompts. For example, past prompts might not need to show as much contextual information. Or you might want to put past commands on their own line, instead of prefixed by a prompt, for easier selecting and copying. More details at [zsh-transient-prompt.olets.dev](https://zsh-transient-prompt.olets.dev/).
 - [trinity](https://github.com/de-luca/Trinity) - A simple theme based on [geometry](https://github.com/geometry-zsh/geometry). Includes `git` decorations.
-- [trios](https://github.com/MrEchoFi/trios-zsh-theme) - A minimal cyberpunk shell prompt. Clean two-segment layout — username and path separated by hexagon bullets — with a colour-coded command echo on every keystroke: cyan for success, red for error.
+- [trios](https://github.com/MrEchoFi/trios-zsh-theme) - A minimal cyberpunk ZSH prompt for pentesters, cyber-experts and CTF players. Hexagon bullet segments, electric blue highlights and colour-coded command echo — blue for success, red for error. No Nerd Font required.
 - [tron](https://github.com/iDoTron/tron-zsh-theme) - Includes `git` status, working directory, time, user@host and return status of last command decorations.
 - [troopert](https://github.com/TrooperT/Troopert-theme/) - Includes decorators for `git` status, last return code if non-zero, full pwd and a configurable display of `$RPROMPT`.
 - [tsotra](https://github.com/nylo-andry/zsh-themes) - Minimalist theme, includes decorators for `git` status, k8s context, and `rvm` status.
@@ -3146,7 +3146,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [type0](https://github.com/MikereDD/type0_zsh-theme) - Inspired by [classyTouch](https://github.com/yarisgutierrez/classyTouch_oh-my-zsh) by yarisgutierrez. Includes `git` decorations.
 - [typedark](https://github.com/BonnyAD9/TypeDark) - Works with [ZSH Syntax Highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [typewritten](https://github.com/reobin/typewritten) - Minimal and informative theme that leaves room for what's important. Does asynchronous `git` decoration updates for speed.
-* [trios](https://github.com/MrEchoFi/trios-zsh-theme) - A minimal cyberpunk ZSH prompt for pentesters, cyber-experts and CTF players. Hexagon bullet segments, electric blue highlights and colour-coded command echo — blue for success, red for error. No Nerd Font required.
 - [ubunly](https://github.com/alejandromume/ubunly-zsh-theme) - Mimics the Kali Linux console. Note - this theme also rebinds a lot of keys and sets a bunch of ZSH options that themes should leave alone.
 - [ubuntu-ish](https://github.com/Thesola10/zsh-ubuntu-ish) - Mimics the default Debian/Ubuntu `bash` prompt.
 - [ubuntu-with-vitamins](https://github.com/ureesoriano/zsh-ubuntu-with-vitamins-zim-theme) - Mimics the default Ubuntu prompt, but with `git` decorations.
