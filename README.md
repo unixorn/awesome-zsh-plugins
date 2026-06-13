@@ -35,7 +35,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [lazy.zsh](#lazyzsh)
   - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
-  - [PMS](#pms)
+  - [pms](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
   - [rac](#rac)
@@ -44,9 +44,9 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [sheldon](#sheldon)
   - [shellx](#shellx)
   - [shplug](#shplug)
-  - [TheFly](#thefly)
-  - [Toasty](#toasty)
-  - [Usepkg](#usepkg)
+  - [thefly](#thefly)
+  - [toasty](#toasty)
+  - [usepkg](#usepkg)
   - [uz](#uz)
   - [x-cmd](#x-cmd)
   - [xc-manager](#xc-manager)
@@ -254,7 +254,7 @@ With **lazy.zsh**, your `.zshrc` is the single source of truth. Reproduce the sa
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, MacPorts, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
 
-### [PMS](https://github.com/JoshuaEstes/pms)
+### [pms](https://github.com/JoshuaEstes/pms)
 ![GitHub last commit](https://img.shields.io/github/last-commit/JoshuaEstes/pms)
  ![GitHub Repo stars](https://img.shields.io/github/stars/JoshuaEstes/pms)
 
@@ -346,19 +346,19 @@ A generic script/plugin loader for multiple shells, including `ZSH`.
 
 **shplug** is an easy solution for managing your shell environments. Works with both `bash` and `zsh`. Makes it easy to sync your environment across multiple machines with a `git` repository.
 
-### [TheFly](https://github.com/joknarf/thefly)
+### [thefly](https://github.com/joknarf/thefly)
 ![GitHub last commit](https://img.shields.io/github/last-commit/joknarf/thefly) ![GitHub Repo stars](https://img.shields.io/github/stars/joknarf/thefly)
 
 **TheFly** is a `bash`/`zsh`/`ksh` plugin manager and env teleporter
 
 Makes your shell env and plugins available everywhere (hosts/users)!
 
-### [Toasty](https://github.com/CosmicToast/toasty-zsh)
+### [toasty](https://github.com/CosmicToast/toasty-zsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/CosmicToast/toasty-zsh) ![GitHub Repo stars](https://img.shields.io/github/stars/CosmicToast/toasty-zsh)
 
 **Toasty** is a ZSH framework made to facilitate management, not dictate it.
 
-### [Usepkg](https://github.com/gynamics/zsh-usepkg)
+### [usepkg](https://github.com/gynamics/zsh-usepkg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gynamics/zsh-usepkg) ![GitHub Repo stars](https://img.shields.io/github/stars/gynamics/zsh-usepkg)
 
 **Usepkg** is a minimal declarative zsh plugin manager.
