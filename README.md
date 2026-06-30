@@ -944,6 +944,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [battery_state](https://github.com/Jactry/zsh_battery_state) - Show battery state in right-prompt.
 - [bd](https://github.com/Tarrasch/zsh-bd) - Jump back to a specific directory, without doing `cd ../../..`.
 - [bepoptimist](https://github.com/sheoak/zsh-bepoptimist/) Remaps vi-mode for the French [bépo](http://bepo.fr/wiki/Accueil) keyboard.
+- [better-chmod](https://github.com/Balzabu/zsh-better-chmod) - Adds a `bchmod` command (and an optional `chmod` replacement) that accepts symbolic and octal permission formats with input validation and colored output.
 - [bitbucket-git-helpers](https://github.com/unixorn/bitbucket-git-helpers.plugin.zsh) - Adds helper scripts to allow you to create bitbucket PRs or open a directory in the current branch.
 - [bitwarden (casonadams)](https://github.com/casonadams/bitwarden-cli) - A [Bitwarden](https://bitwarden.com/download/) CLI fuzzy finder using [fzf](https://github.com/junegunn/fzf). Requires [jq](https://stedolan.github.io/jq/).
 - [bitwarden (game4move78)](https://github.com/Game4Move78/zsh-bitwarden) - Adds functions to manage [bitwarden](https://bitwarden.com/) sessions.
