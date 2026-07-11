@@ -908,6 +908,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [autodotenv](https://github.com/nocttuam/autodotenv) - Will prompt you to load variables when you `cd` into a directory containing a `.env` file.
 - [autoenv-extended](https://github.com/zpm-zsh/autoenv) - Extended version of the [zsh-autoenv](https://github.com/Tarrasch/zsh-autoenv) plugin.
 - [autoenv](https://github.com/hyperupcall/autoenv) - Directory-based environments.
+- [autofix](https://github.com/deXterbed/zsh-autofix) - When a command fails, captures its `stderr` and asks a local [Ollama](https://ollama.com) model for a fix, shown as ghost-text you can accept with `Tab`. Silent on success.
 - [autojump](https://github.com/wting/autojump) - A `cd` command that learns - easily navigate directories from the command line. Install autojump-zsh for best results.
 - [automated-actions](https://github.com/Fynardo/zsh-automated-actions) - Provides aliases for the [automated-actions](https://github.com/app-sre/automated-actions) CLI.
 - [autopair](https://github.com/hlissner/zsh-autopair) - A ZSH plugin for auto-closing, deleting and skipping over matching delimiters. Only tested on ZSH 5.0.2 or later.
