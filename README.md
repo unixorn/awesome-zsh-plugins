@@ -1305,6 +1305,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [homebrew](https://github.com/digitalraven/omz-homebrew) - Plugin for [homebrew](https://brew.sh) that supplements the one built into oh-my-zsh and can safely run with it enabled.
 - [hooks](https://github.com/willghatch/zsh-hooks) - Add missing hooks - for plugins and personal use.
 - [host-switch](https://github.com/LockonS/host-switch) - Make it easier to switch in different `/etc/hosts` files during development.
+- [how2](https://github.com/yizhixiaokong/how2) - Quickly inspect aliases, functions, and docs of [oh-my-zsh](https://ohmyz.sh/) plugins, with tab completion.
 - [hub-ci-zsh-plugin](https://github.com/raymondjcox/hub-ci-zsh-plugin) - A simple plugin for adding `hub` ci-status to your ZSH theme.
 - [hub](https://github.com/soraliu/zsh-hub) - ZSH plugin for forking model.
 - [hypnosnek](https://github.com/josephcourtney/hypnosnek) - Simple utilities with p10k integration for managing `python` environments.
