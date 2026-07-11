@@ -2194,7 +2194,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [zoxide](https://github.com/jnooree/zoxide-zsh-completion) - Tab completions for [zoxide](https://github.com/ajeetdsouza/zoxide).
 - [zpacman](https://github.com/Yttehs-HDX/zsh-zpacman/) - Add tab completions for [zpacman](https://github.com/Yttehs-HDX/zpacman.git).
 
-
 ## Themes
 
 - [021011](https://github.com/guesswhozzz/021011.zsh-theme) - Minimalist. Includes a single `git` marker for VS Code.
@@ -2561,6 +2560,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [goprompt](https://github.com/NonLogicalDev/shell.async-goprompt) - Lightning fast. Includes decorators for truncated current directory, last command duration & exit status, vim-mode indicators, `git` information, datetime and parent process name.
 - [gops](https://github.com/noxer/gops) - Fast powerline-like prompt. Includes `git` status, current directory, root status decorations.
 - [gorchak](https://github.com/evgenygorchakov/oh-my-zsh-gorchak-theme/) - Inspired by [robbyrussell](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#robbyrussell) and [af-magic](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#af-magic). Includes decorators for `git` information and Node.js version.
+- [gozilla-lite](https://github.com/jannik-el/gozilla-lite) - Based on [oh-my-zsh](https://ohmyz.sh)'s built-in [gozilla](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#gozilla) theme. Includes decorators for the current directory, `git` branch, and a live `git` status in the right-hand prompt.
 - [grayt](https://github.com/evanthegrayt/grayt-zsh-theme) - Simple yet informative theme that includes `git` decorations and the return status of the last command.
 - [green-lambda](https://github.com/Ishidawg/minimal-green-lambda) - Minimalist Lambda theme. Includes `git` decorations.
 - [greencastle](https://github.com/GustavGroenborg/greencastle-zsh-theme/) - Minimalistic theme, that supports really, **really**, long branch names, without severely truncating the prompt. The theme is inspired by the [jonathan theme](https://github.com/thlorenz/oh-my-zsh/blob/master/themes/jonathan.zsh-theme) and the [robby russel theme](https://github.com/thlorenz/oh-my-zsh/blob/master/themes/robbyrussell.zsh-theme). Includes decorators for current directory, `git` information and the exit status of the last command run.
