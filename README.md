@@ -1808,6 +1808,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [usb](https://github.com/NiziL/usb.plugin.zsh) - A tiny plugin to quickly mount and unmount your USB drives.
 - [uv-env](https://github.com/matthiasha/zsh-uv-env) - Automatically uses [uv](https://github.com/astral-sh/uv) to activate a virtual environment based on the current directory.
 - [uvenv](https://github.com/vincentto13/uvenv.plugin.zsh) - Extends the functionality of the original [oh-my-zsh](https://ohmyz.sh/) `venv` module.
+- [v](https://github.com/teaVeloper/v) - An editor wrapper around a fast file finder.
 - [vagrant-box-wrapper](https://github.com/evanthegrayt/vagrant-box-wrapper) - A wrapper plugin for [vagrant](https://www.vagrantup.com/) that allows for calling `vagrant` commands from outside of the box directory. The plugin also ships with a few extra commands that help to manage more than one box, along with custom tab-completion.
 - [valet (A909M)](https://github.com/A909M/valet-zsh-plugin) - Works with both [Laravel Valet](https://laravel.com/docs/valet) and [Valet Linux](https://cpriego.github.io/valet-linux/) on Debian/Ubuntu. Provides intelligent autocompletion, helpful aliases, and utility functions to streamline your local development workflow.
 - [valet (NasirNobin)](https://github.com/NasirNobin/zsh-valet/) - Reads `.valetphprc` from the project root and will switch to that PHP version automatically.
