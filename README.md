@@ -1679,6 +1679,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [shortcuts](https://github.com/fairy-root/Zsh-Shortcuts-Plugin) - Enhance your terminal productivity with the Shortcuts plugin for [oh-my-zsh](https://ohmyz.sh/). Easily manage command shortcuts with robust features.
 - [show-git-user](https://github.com/luisprgr/zsh-show-git-user) - When you need to work with multiple `git` users on the same machine this plugin will show which `git` user name is active in your prompt.
 - [show-path](https://github.com/redxtech/zsh-show-path) - Provides a function shows the `$PATH` line by line.
+- [shui](https://github.com/kud/shui) - Fluid terminal UI for ZSH — a design system for the shell
 - [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python `SimpleHTTPServer` and `SimpleHTTPSServer`.
 - [singularityenv](https://github.com/saravanabalagi/zsh-plugin-singularityenv) - Provides a `singularityenv_prompt_info` function which returns the current singularity environment name
 - [skaffold](https://github.com/todie/skaffold.plugin.zsh) - ZSH integration and completions for [skaffold](https://skaffold.dev) local kubernetes development environment.
