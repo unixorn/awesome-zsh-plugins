@@ -86,6 +86,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zulu](#zulu)
   - [zush 🦥 - Mid-Performance ZSH Configuration](#zush----mid-performance-zsh-configuration)
 - [Setups](#setups)
+  - [Raw ZSH](#raw-zsh)
   - [zgenom](#zgenom-1)
   - [zinit](#zinit-1)
 - [Prerequisites](#prerequisites)
@@ -719,6 +720,10 @@ Features:
 ## Setups
 
 This section is for full setup dropins - they aren't frameworks, but they're not simple plugins/themes either.
+
+### Raw ZSH
+
+- [KronuZSH](https://github.com/Kronuz/KronuZSH) - An opinionated, complete ZSH configuration—not a plugin intended to be sourced into an existing framework. It installs the standard ZSH runcoms and owns the shell options, history, completion, keybindings, plugins, and prompt they load.
 
 ### zgenom
 
