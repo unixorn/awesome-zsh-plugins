@@ -1516,6 +1516,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [opp](https://github.com/hchbaw/opp.zsh) - Vim's text-objects-ish for ZSH.
 - [opt-path](https://github.com/jreese/zsh-opt-path) - Automatically add `~/opt` subpaths to your `$PATH`.
 - [org-hopper](https://github.com/hjdarnel/org-hopper/) - Wraps the GitHub CLI with [fzf](https://github.com/junegunn/fzf). It allows you to quickly jump between repositories a given GitHub organization, cloning it to a predefined location if the local copy doesn't already exist.
+- [orthocal](https://github.com/darthtrevino/omz-orthocal) - Displays today's Orthodox feast, saints, fasting, and scripture reading information in your ZSH prompt using the [Orthocal.info](https://orthocal.info/) API.
 - [osx-dev](https://github.com/marshallmick007/osx-dev-zsh-plugin) - This plugin adds some commands for maintaining various server programs on a macOS install.
 - [osx](https://github.com/mwilliammyers/plugin-osx) - Add some common macOS related aliases and functions.
 - [paci](https://github.com/iloginow/zsh-paci) - Plugin for arch linux package managers.
