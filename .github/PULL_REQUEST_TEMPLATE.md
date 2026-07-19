@@ -19,6 +19,7 @@ also makes the links look prettier.
 
 - [ ] Add/remove/update a link to an external resource like a blog post
 - [ ] Add/remove/update a link to a framework
+- [ ] Add/remove/update a link to a full setup
 - [ ] Add/remove/update a link to a plugin
 - [ ] Add/remove/update a link to a tab completion
 - [ ] Add/remove/update a link to a theme
