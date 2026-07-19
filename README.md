@@ -86,6 +86,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zulu](#zulu)
   - [zush 🦥 - Mid-Performance ZSH Configuration](#zush----mid-performance-zsh-configuration)
 - [Setups](#setups)
+  - [oh-my-zsh](#oh-my-zsh-1)
   - [Raw ZSH](#raw-zsh)
   - [zgenom](#zgenom-1)
   - [zinit](#zinit-1)
@@ -93,7 +94,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Tutorials](#tutorials)
   - [Generic ZSH](#generic-zsh)
   - [Antigen](#antigen-1)
-  - [Oh-My-Zsh](#oh-my-zsh-1)
+  - [Oh-My-Zsh](#oh-my-zsh-2)
   - [Prezto](#prezto-1)
   - [Zgen](#zgen-1)
   - [Zinit (né zplugin)](#zinit-n%C3%A9-zplugin)
@@ -106,7 +107,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
 - [Installation](#installation)
   - [Antigen](#antigen-2)
   - [dotzsh](#dotzsh-1)
-  - [Oh-My-Zsh](#oh-my-zsh-2)
+  - [Oh-My-Zsh](#oh-my-zsh-3)
   - [Prezto](#prezto-2)
   - [Zgen](#zgen-2)
   - [Zgenom](#zgenom-2)
@@ -720,6 +721,10 @@ Features:
 ## Setups
 
 This section is for full setup dropins - they aren't frameworks, but they're not simple plugins/themes either.
+
+### oh-my-zsh
+
+- [master-oogway](https://github.com/tomershay100/master-oogway) - A complete zsh environment — dragon prompt theme, git aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone git repo
 
 ### Raw ZSH
 
