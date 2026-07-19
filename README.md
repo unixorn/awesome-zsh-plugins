@@ -2353,7 +2353,6 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bureau](https://github.com/isqua/bureau) - A clear and informative two-lined prompt. Includes `git` status optimized for large repositories.
 - [burn](https://github.com/Xatra1/burn) - Includes decorators for user@hostname and current directory.
 - [buster](https://github.com/grantbuster/buster_zsh_theme) - Plays well with WSL2. Based loosely on Fox and Jonathan themes from oh-my-zsh.
-- [cabovianco](https://github.com/cabovianco/cabovianco-zsh-theme) - Includes decorators for `git` status and current directory.
 - [cactus](https://github.com/welksonramos/cactus) - Minimalist theme with `git` status decorations.
 - [cafeconbits](https://github.com/ricard-ferrero/cafeconbits-zsh-theme) - Simple theme with a coffee cup icon. Includes decorators for `git` status, current directory and the exit status of the last command.
 - [calma](https://github.com/luislve17/calma) - Minimalist theme that works well on dark backgrounds. Includes decorators for truncated current directory, `git` information, time, and for the exit status of last command.
