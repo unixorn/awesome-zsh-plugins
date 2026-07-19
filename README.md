@@ -1293,6 +1293,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [halfpipe](https://github.com/raimo/zsh-halfpipe) - Edit shell pipeline and see its output update live. Get regexps correct fast and save in network requests.
 - [hanami](https://github.com/davydovanton/hanami-zsh) - ZSH plugin for [hanami](http://hanamirb.org) projects.
 - [hangul](https://github.com/gomjellie/zsh-hangul) - Auto correct hangul(한글, korean) to English when it was supposed to be typed in English. 영어를 타이핑 해야되는데 한글로 타이핑된경우 자동으로 수정합니다.
+- [harnessd](https://github.com/stump-wtf/zsh-harnessd) - A small plugin that keeps long-running commands — agent CLIs, REPLs, watchers, anything — alive in detached `tmux` sessions, supervised by `systemd` (`--user`) on Linux or `launchd` on macOS, with one consistent set of verbs on both.
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
 - [hebzsh](https://github.com/admons/hebzsh) - If a command is not found as typed in Hebrew, translates the command as if it was typed on a keyboard with a US English layout and tries again.
 - [help](https://github.com/Freed-Wu/zsh-help) - Colorizes the output of commands run with `--help`.
