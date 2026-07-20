@@ -47,6 +47,7 @@ You only need to check the box for completions/plugins/themes if you added somet
 - [ ] Any added completions have a readme and a license file in their repository.
 - [ ] Any added frameworks have a readme and a license file in their repository.
 - [ ] Any added plugins have a readme and a license file in their repository.
+- [ ] Any added setups have a readme and a license file in their repository.
 - [ ] Any added themes have a screenshot, a readme, and a license file in their repository.
 - [ ] Any added utilities have a readme and a license file in their repository.
 - [ ] I have stripped any leading and/or trailing **zsh-**, **zsh-plugin** and/or **oh-my-zsh-** substrings from the link's displayed name. This makes it easier to find plugins/themes/completions by name by preventing big clusters in the **O** and **Z** sections of the list.
