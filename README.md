@@ -3352,7 +3352,7 @@ Most of these plugins can be installed by adding `zpm load "githubuser/reponame"
 
 ## Writing New Plugins and Themes
 
-I've documented some recommendations for writing new plugin and themes [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins_and_Themes.md).
+I've documented some recommendations for writing new plugin and themes [here](https://github.com/unixorn/awesome-zsh-plugins/blob/main/Writing_Plugins_and_Themes.md).
 
 There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html).
 
