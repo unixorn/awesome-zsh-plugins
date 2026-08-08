@@ -83,6 +83,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [ztupide](#ztupide)
   - [zulu](#zulu)
   - [zush 🦥 - Mid-Performance ZSH Configuration](#zush----mid-performance-zsh-configuration)
+  - [Performance](#performance)
 - [Setups](#setups)
   - [oh-my-zsh](#oh-my-zsh-1)
   - [Raw ZSH](#raw-zsh)
@@ -140,11 +141,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ## Frameworks
 
 These frameworks make customizing your ZSH setup easier.
-
-You can find performance timing comparisons of various frameworks in the following locations.
-
-- [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark) - Contains performance benchmarks for the most popular ZSH frameworks, including both install time and load time.
-- [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
 
 ### [alf](https://github.com/psyrendust/alf)
 ![GitHub last commit](https://img.shields.io/github/last-commit/psyrendust/alf) ![GitHub Repo stars](https://img.shields.io/github/stars/psyrendust/alf)
@@ -709,6 +705,13 @@ Features:
 - Lazy Loading - Tools like `nvm`, `pyenv`, `cargo` load only when needed
 - Auto-compilation - All ZSH files compiled with `zcompile` for faster loading
 - Smart Caching - Environment changes cached for instant startup
+
+### Performance
+
+You can find performance timing comparisons for various frameworks in the following locations.
+
+- [rossmacarthur/zsh-plugin-manager-benchmark](https://github.com/rossmacarthur/zsh-plugin-manager-benchmark) - Contains performance benchmarks for the most popular ZSH frameworks, including both install time and load time.
+- [pm-perf-test](https://github.com/z-shell/pm-perf-test) - Tooling for running performance tests on multiple ZSH frameworks.
 
 ## Setups
 
