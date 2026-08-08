@@ -857,6 +857,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [activate-py-environment](https://github.com/se-jaeger/zsh-activate-py-environment) - Automagically detects and activates your python environments (`poetry`, `virtualenv` and `conda`) while traversing directories.
 - [adguard-helper](https://github.com/MohamedElashri/adguard-helper) - Simplies interaction with the [AdGuard VPN CLI](https://github.com/AdguardTeam/AdGuardVPNCLI). It provides user-friendly commands that reduce the need to remember complex flags and commands by offering a more intuitive interface.
 - [adonisjs](https://github.com/baliestri/adonisjs.plugin.zsh) - Plugin for skipping the `node` part of the `ace` command.
+- [agent-history](https://github.com/aaronbronow/agent-history) - ZSH shortcut to resume recent AI coding sessions in the terminal.
 - [ai-cmd](https://github.com/kylesnowschwartz/zsh-ai-cmd) - Natural language to shell commands with ghost text preview. Requires `curl`, [`jq`](https://stedolan.github.io/jq/) and an Anthropic API key.
 - [ai-cmd](https://github.com/shanemcd/ai-cmd) - Generate shell commands from natural language using LLMs via [Claude Code](https://docs.anthropic.com/en/docs/claude-code) or [Ollama](https://ollama.ai/).
 - [ai-commands](https://github.com/muePatrick/zsh-ai-commands) - Asks GPT (gpt-4-turbo-preview) for CLI commands that achieve the described target action.
@@ -3352,7 +3353,7 @@ Most of these plugins can be installed by adding `zpm load "githubuser/reponame"
 
 ## Writing New Plugins and Themes
 
-I've documented some recommendations for writing new plugin and themes [here](https://github.com/unixorn/awesome-zsh-plugins/blob/master/Writing_Plugins_and_Themes.md).
+I've documented some recommendations for writing new plugin and themes [here](https://github.com/unixorn/awesome-zsh-plugins/blob/main/Writing_Plugins_and_Themes.md).
 
 There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.github.io/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html).
 
