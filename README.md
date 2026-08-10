@@ -1130,7 +1130,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [expand-space](https://github.com/spqw/zsh-alias-expand-space) - Expand command-position `zsh` aliases when you press space.
 - [expand](https://github.com/MenkeTechnologies/zsh-expand) - Expands regular aliases, global aliases, incorrect spellings and phrases, globs, history expansion and $parameters with the spacebar key.
 - [expander](https://github.com/ianthehenry/zsh-expander) - A `zle` widget that allows you to write custom expanders and select them with [fzf](https://github.com/junegunn/fzf).
-- [explain-shell (brokentoaster)](https://github.com/brokentoaster/zsh-explainshell) - Uses [lynx](https://lynx.browser.org/) to look up the current command line on [explainshell.com](https://explainshell.com).
+- [explain-shell (brokentoaster)](https://github.com/brokentoaster/zsh-explainshell) - Uses `lynx` to look up the current command line on [explainshell.com](https://explainshell.com).
 - [explain-shell (gmatheu)](https://github.com/gmatheu/shell-plugins) - Opens commands on [explainshell.com](https://explainshell.com).
 - [extend-history](https://github.com/xav-b/zsh-extend-history) - Extends command history by adding the exit code for each command in the history.
 - [ez-cmd](https://github.com/akgarhwal/ez-cmd) - Simplifies and streamlines common command-line tasks by providing easy-to-use shortcuts and aliases.
