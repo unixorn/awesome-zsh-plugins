@@ -2947,6 +2947,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [powerzeesh](https://github.com/sevaho/Powerzeesh) - A Powerline based ZSH theme. It aims for simplicity, showing information only when it's relevant, optimized for speed and look. Inspired by [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) and [Powerline](https://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme).
 - [pre](https://github.com/leandromatos/pre-theme) - A collection of themes for Sublime Text, Terminal, iTerm 2 and ZSH.
 - [predawn-shell](https://github.com/jamiewilson/predawn-shell) - Theme optimized for dark terminal themes.
+- [pretty](https://github.com/TomasTomecek/pretty-git-prompt) - Prompt written in rust with decorators for `git` state, branch, tag pointing at current commit, count of changed, newly-added, staged, conflicting files, number of files in the stash.
 - [prezto_powerline](https://github.com/davidjrice/prezto_powerline) - Powerline for prezto. Shows git information, RVM version.
 - [prezto-cloud-prompt](https://github.com/klaude/prezto-cloud-prompt) - Prezto port of oh-my-zsh's cloud prompt.
 - [prezto-lambda](https://github.com/nixolas1/prezto-lambda) - Lambda theme (for prezto).
