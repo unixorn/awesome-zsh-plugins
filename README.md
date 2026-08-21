@@ -1230,6 +1230,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [git-it-on](https://github.com/peterhurford/git-it-on.zsh) - Adds ability to open a folder in your current branch on GitHub.
 - [git-lfs](https://github.com/nekofar/zsh-git-lfs) - Adds short aliases for the `git-lfs` commands.
 - [git-patch](https://github.com/marvinroman/oh-my-zsh-git-patch-plugin) - Adds custom functions and aliases to the oh-my-zsh `git` plugin.
+- [git-persona](https://github.com/asifshirazi/zsh-git-persona) - Git will happily let you commit as one person and push as another. It never warns you, the push succeeds, and the wrong name is on that history for good. `git-persona` Lets you create a persona that ties one account's commit identity, SSH key and github login together, and switches them as a unit. Add as many as you have accounts.
 - [git-plugin (dark-kitt)](https://github.com/dark-kitt/zsh-git-plugin) - `git` integration that displays the current directory and `git` branch.
 - [git-plugin (rcruzper)](https://github.com/rcruzper/zsh-git-plugin) - Adds some functions for `git`.
 - [git-plugin-cheatsheet](https://github.com/rhorno/oh-my-zsh-git-plugin-cheatsheet) - Displays the aliases and functions available from the `git` oh-my-zsh plugin.
@@ -2337,8 +2338,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bluehigh](https://github.com/hiroppy/bluehigh.zsh-theme) - Minimal theme, displays `git` information.
 - [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 - [bluo](https://github.com/varunpbardwaj/bluo) - Colorful prompt segments reminiscent of [bullet-train](https://github.com/caiogondim/bullet-train.zsh) or [powerlevel10k](https://github.com/romkatv/powerlevel10k). Includes `git` status decorations.
-- [boban](https://github.com/TheEdgeOfRage/boban-zsh) - A powerline-style file based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). Includes decorators for user@hostname, `git` status, current working directory, python venv, AWS profile, `$KUBECONFIG`, the terraform workspace and the exit status of the last command run. Requires a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) for symbols to render properly.
-- [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
+r- [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
 - [boom](https://github.com/the0neWhoKnocks/zsh-theme-boom) - Multiline theme, best on dark backgrounds.
 - [born-in-the-purple](https://github.com/LeonardMH/born-in-the-purple) - Simple theme with a purple motif. Inspired by [Pure](https://github.com/sindresorhus/pure).
 - [bouni](https://github.com/Bouni/bouni-zsh-theme) - Includes decorators for user@host, current directory, active python virtualenv, and `git` status.
@@ -2428,6 +2428,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - A macOS oh-my-zsh shell theme with cute emoji based on the Powerline Vim plugin.
 - [cxzh](https://github.com/MakeWorkSimple/cxzh.zsh-theme) - Works well on dark background, has `git` status decorations.
 - [cybensis](https://github.com/cybensis/cybensis-zsh-theme) - Based on [af-magic](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/af-magic.zsh-theme). Includes decorators for `git` information, `hg` information, and python virtualenv.
+- [cybergalaxy](https://github.com/Nannigalaxy/cybergalaxy-zsh-theme) - Neon green and blue theme with decorators for `git` status, python/conda virtualenv, user@hostname, and time. Falls back gracefully to ASCII and named ANSI colors on terminals without UTF-8 or 256-color support. Uses unicode glyphs so it doesn't require Nerd Font or Powerline fonts.
 - [cypher-ruby](https://github.com/ston1x/cypher-ruby) - Similar to [cypher](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/cypher.zsh-theme) but includes the active Ruby version.
 - [czsh](https://github.com/Cellophan/czsh) - [ZSH](https://en.wikipedia.org/wiki/Z_shell) with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme in a container.
 - [daily-emoji](https://github.com/huytran-wq/zsh-daily-emoji-theme/) - Shows random emoji at the beginning of each command depending on the day of the week.
