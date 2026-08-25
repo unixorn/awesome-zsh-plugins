@@ -1601,6 +1601,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [proxy-plugin (xooooooooox)](https://github.com/xooooooooox/zsh-proxy) - Helps manage proxy settings in your shell environment.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
+- [psmon](https://github.com/dumidusw/psmon) - Lightweight interactive process monitor using standard Linux utilities (`ps`, `awk`, `lsof`) with live watch mode, resource sorting, and tree-aware process killing.
 - [pump](https://github.com/fab1o/pump-zsh) - Provides a configurable set of aliases, functions, and themes to supercharge your terminal workflow. Requires [jq](https://stedolan.github.io/jq/), [gum](https://github.com/charmbracelet/gum), [glow](https://github.com/charmbracelet/glow) and the [GitHub CLI](https://cli.github.com/).
 - [purge-history-secrets](https://github.com/jotasixto/purge-history-secrets) - Uses [gitleaks](https://github.com/gitleaks/gitleaks) to periodically scan your ZSH history for secrets and purge them if found. Requires [jq](https://jqlang.github.io/jq/).
 - [pwp](https://github.com/ttkalcevic/pwp) - Provides a convenient way to display the present working path in the terminal prompt and lists the current working directory along with its parent directories. Additionally, it includes a custom command .. to navigate to parent directories easily.
