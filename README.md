@@ -868,8 +868,8 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [allergen](https://github.com/stanislas/allergen) - A collection of custom ZSH plugins to use with Antigen.
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
 - [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the `alt-c` (copy), `alt-`v (paste), `alt-x` (cut) keyboard shortcut to commands: `copy-region-as-kill`, `yank` and `kill-region`. Remaps the execute command to `alt-shift-X`.
-- [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for [Ansible](https://www.ansible.com/).
 - [ansible-fzf](https://github.com/alexiszamanidis/zsh-ansible-fzf/) - A plugin that completes ansible-playbook tags and works with fzf-tab.
+- [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for [Ansible](https://www.ansible.com/).
 - [ansimotd](https://github.com/yuhonas/zsh-ansimotd) - Adds old-school cool ANSI art when a login shell starts.
 - [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols.
 - [antidote-use-omz](https://github.com/getantidote/use-omz) - Make using [oh-my-zsh](https://ohmyz.sh/) with [antidote](https://getantidote.github.io/) seamless.
@@ -1058,12 +1058,11 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [deer](https://github.com/Vifon/deer) - A file navigator for ZSH heavily inspired by [ranger](https://ranger.github.io/).
 - [def](https://github.com/thevinter/def) - Allows you to specify and run a default command in any directory of your choice.
 - [defer](https://github.com/romkatv/zsh-defer) - Defers execution of a `zsh` command until `zsh` has nothing else to do and is waiting for user input. Its intended purpose is staged `zsh` startup. It works similarly to Turbo mode in [zinit](https://github.com/zdharma-continuum/zinit).
-- [deja](https://github.com/Giammarco-Ferranti/deja) - Predicts the command you want to run from fuzzy matching, the current directory, and which command usually follows the previous one, then shows it as inline ghost text. Backed by a Go daemon.
 - [deja-vu](https://github.com/justyntemme/zsh-deja-vu) - Logs and retrieves command history based on the directory it was run in. Never forget that complex `docker` or `git` command you ran in a project folder weeks ago.
+- [deja](https://github.com/Giammarco-Ferranti/deja) - Predicts the command you want to run from fuzzy matching, the current directory, and which command usually follows the previous one, then shows it as inline ghost text. Backed by a Go daemon.
 - [delete-prompt](https://github.com/aoyama-val/zsh-delete-prompt) - ZSH widget to delete the prompt texts within the current line. It is useful when executing pasted commands from the web or a README. A leading non-alphanumeric character + space is detected as a prompt.
 - [deno (cowboyd)](https://github.com/cowboyd/zsh-deno) - Useful [deno](https://deno.land/) aliases and settings.
 - [deno (tricked-dev)](https://github.com/Tricked-dev/deno-zsh-plugin) - Automatically installs [deno](https://deno.land/) to `$HOME/.deno` on startup if deno is not already installed.
-- [dual-history](https://github.com/odurif0/zsh-dual-history) - Keeps AI coding agent instructions (such as Forge's `:`-prefixed prompts) out of your main ZSH history by routing them to a separate file, intercepting every write path including the agent's own history insertions. Also turns `Ctrl+R` into an fzf interface switchable between All, Human and AI views, merged chronologically.
 - [depot-tools](https://github.com/kuoe0/zsh-depot-tools) - Simple [oh-my-zsh](https://ohmyz.sh/) plugin for installing the chromium depot_tools. Installing this plugin will add all of the chromium depot_tools to your `$PATH` automatically.
 - [dev](https://github.com/sbfaulkner/dev-plugin-zsh) - Provides a lightweight version of Shopify's internal dev tool
 - [dietpi](https://github.com/unixorn/dietpi.plugin.zsh) - Adds utilities for [dietpi](https://dietpi.com) to your `$PATH` (and includes aliases to automagically run them with `sudo`) when you log into a machine running  [dietpi](https://dietpi.com).
@@ -1094,6 +1093,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [download](https://github.com/aubreypwd/zsh-plugin-download) - Helper to download files with `aria2c`.
 - [dropbox](https://github.com/zpm-zsh/dropbox) - A [dropbox](https://www.dropbox.com/) plugin for ZSH that provides `dropbox-cli` and `dropbox-uploader` commands.
 - [drupal](https://github.com/yhaefliger/zsh-drupal) - Adds aliases for common tasks and also tab-completion for `drush`. Inspired by [Artisan](https://github.com/jessarcher/zsh-artisan).
+- [dual-history](https://github.com/odurif0/zsh-dual-history) - Keeps AI coding agent instructions (such as Forge's `:`-prefixed prompts) out of your main ZSH history by routing them to a separate file, intercepting every write path including the agent's own history insertions. Also turns `Ctrl+R` into an fzf interface switchable between All, Human and AI views, merged chronologically.
 - [dune-quotes](https://github.com/brokendisk/dune-quotes) - Random Dune quote generator plugin.
 - [dune.zsh](https://github.com/bitpeppr/dune.zsh) - Plugin to randomly display a quote from an extensive pool of Dune quotes.
 - [duration](https://github.com/rtakasuke/zsh-duration) - Displays command duration if it exceeds a user-settable run time.
@@ -1311,8 +1311,8 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [history-substring-search](https://github.com/zsh-users/zsh-history-substring-search) - Needs to be loaded after `zsh-syntax-highlighting`, or they'll both break. You'll also need to bind keys to its functions, details are in the README.md.
 - [history-sync (vitobotta)](https://github.com/vitobotta/zsh-history-sync/) - Syncs your ZSH history across computers using a `git` private repository. Uses `openssl` to encrypt the history.
 - [history-sync (wulfgarpro)](https://github.com/wulfgarpro/history-sync) - An [oh-my-zsh](https://ohmyz.sh/) plugin for [GPG](https://www.gnupg.org/) encrypted, Internet synchronized ZSH history using `git`.
-- [histpop](https://github.com/undefined443/histpop) - Removes the last record from `~/.zsh_history`. Useful right after running a command you don't want kept in your shell history (e.g. one containing a typo'd password or a temporary secret). Running `histpop` itself is also removed from history, so it leaves no trace.
 - [history](https://github.com/b4b4r07/zsh-history) - Extend history so that it can be queried by SQL.
+- [histpop](https://github.com/undefined443/histpop) - Removes the last record from `~/.zsh_history`. Useful right after running a command you don't want kept in your shell history (e.g. one containing a typo'd password or a temporary secret). Running `histpop` itself is also removed from history, so it leaves no trace.
 - [histree](https://github.com/fuba/histree-zsh) - Integrates with [histree-core](https://github.com/fuba/histree-core) to provide enhanced command history logging with directory awareness.
 - [hitokoto](https://github.com/derry96/hitokoto) - Displays a random quote from [hitokoto.cn](https://hitokoto.cn/).
 - [homeassistant-cli](https://github.com/frosit/zsh-plugin-homeassistant-cli) - Provides completion and (configuration) helpers for the [Home Assistant Command-line interface (hass-cli)](https://github.com/home-assistant/home-assistant-cli). and allows command line interaction with [Home Assistant](https://home-assistant.io/) instances.
