@@ -1889,6 +1889,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [wordle](https://github.com/zechris/zwordle) - Wordle for ZSH, with tab-completions.
 - [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects.
 - [worktree](https://github.com/jspears/worktree) - Adds functions that wrap `git worktree`.
+- [worktrunk](https://github.com/kguzek/zsh-worktrunk) - Inspired by the [oh-my-zsh](https://ohmyz.sh/) [git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) and provides aliases and a few useful functions for working with [worktrunk](https://github.com/max-sixty/worktrunk).
 - [wpm](https://github.com/btror/wpm) - Lets you test your typing speed in a terminal, track WPM, accuracy, and more. Results are saved in a handy JSON format for easy tracking.
 - [wsl](https://github.com/florentinl/omz-wsl) - Adds helper functions to make it easier to work in ZSH when running inside WSL.
 - [wsl2-ssh-pageant](https://github.com/antoinemartin/wsl2-ssh-pageant-oh-my-zsh-plugin) - Use your Yubikey stored GPG keys from WSL. This packages the instructions from [wsl2-ssh-pageant repo](https://github.com/BlackReloaded/wsl2-ssh-pageant) as a ZSH plugin.
