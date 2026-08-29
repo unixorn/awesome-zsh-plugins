@@ -869,6 +869,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
 - [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the `alt-c` (copy), `alt-`v (paste), `alt-x` (cut) keyboard shortcut to commands: `copy-region-as-kill`, `yank` and `kill-region`. Remaps the execute command to `alt-shift-X`.
 - [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for [Ansible](https://www.ansible.com/).
+- [ansible-fzf](https://github.com/alexiszamanidis/zsh-ansible-fzf/) - A plugin that completes ansible-playbook tags and works with fzf-tab.
 - [ansimotd](https://github.com/yuhonas/zsh-ansimotd) - Adds old-school cool ANSI art when a login shell starts.
 - [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols.
 - [antidote-use-omz](https://github.com/getantidote/use-omz) - Make using [oh-my-zsh](https://ohmyz.sh/) with [antidote](https://getantidote.github.io/) seamless.
