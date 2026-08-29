@@ -869,6 +869,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [almostontop](https://github.com/Valiev/almostontop) - Clears previous command output every time before new command executed in shell. Inspired by the [alwaysontop](https://github.com/swirepe/alwaysontop) plugin for `bash`.
 - [alt-and-select](https://github.com/raisty/alt-and-select) - Binds the `alt-c` (copy), `alt-`v (paste), `alt-x` (cut) keyboard shortcut to commands: `copy-region-as-kill`, `yank` and `kill-region`. Remaps the execute command to `alt-shift-X`.
 - [ansible](https://github.com/sparsick/ansible-zsh) - A plugin for [Ansible](https://www.ansible.com/).
+- [ansible-fzf](https://github.com/alexiszamanidis/zsh-ansible-fzf/) - A plugin that completes ansible-playbook tags and works with fzf-tab.
 - [ansimotd](https://github.com/yuhonas/zsh-ansimotd) - Adds old-school cool ANSI art when a login shell starts.
 - [ansiweather](https://github.com/fcambus/ansiweather) - Weather in your terminal, with ANSI colors and Unicode symbols.
 - [antidote-use-omz](https://github.com/getantidote/use-omz) - Make using [oh-my-zsh](https://ohmyz.sh/) with [antidote](https://getantidote.github.io/) seamless.
@@ -1057,6 +1058,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [deer](https://github.com/Vifon/deer) - A file navigator for ZSH heavily inspired by [ranger](https://ranger.github.io/).
 - [def](https://github.com/thevinter/def) - Allows you to specify and run a default command in any directory of your choice.
 - [defer](https://github.com/romkatv/zsh-defer) - Defers execution of a `zsh` command until `zsh` has nothing else to do and is waiting for user input. Its intended purpose is staged `zsh` startup. It works similarly to Turbo mode in [zinit](https://github.com/zdharma-continuum/zinit).
+- [deja](https://github.com/Giammarco-Ferranti/deja) - Predicts the command you want to run from fuzzy matching, the current directory, and which command usually follows the previous one, then shows it as inline ghost text. Backed by a Go daemon.
 - [deja-vu](https://github.com/justyntemme/zsh-deja-vu) - Logs and retrieves command history based on the directory it was run in. Never forget that complex `docker` or `git` command you ran in a project folder weeks ago.
 - [delete-prompt](https://github.com/aoyama-val/zsh-delete-prompt) - ZSH widget to delete the prompt texts within the current line. It is useful when executing pasted commands from the web or a README. A leading non-alphanumeric character + space is detected as a prompt.
 - [deno (cowboyd)](https://github.com/cowboyd/zsh-deno) - Useful [deno](https://deno.land/) aliases and settings.
@@ -1137,7 +1139,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [ez-compinit](https://github.com/mattmc3/ez-compinit) - Wraps `compinit`, queueing up calls to `compdef`, and hooking the real `compinit` call to an event that runs at the end of your `.zshrc`. That way you get all the benefits of calling `compinit` early without any of the downsides.
 - [eza (clavelm)](https://github.com/clavelm/eza-omz-plugin) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
 - [eza (mohamedelashri)](https://github.com/MohamedElashri/eza-zsh) - Adds aliases for [eza](https://github.com/eza-community/eza), a modern replacement for `ls`.
-- [eza (twopizza9621536)](https://github.com/twopizza9621536/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
 - [eza (z-shell)](https://github.com/z-shell/zsh-eza) - Replaces `ls` with [eza-community/eza](https://github.com/eza-community/eza).
 - [eza (zsh-contrib)](https://github.com/zsh-contrib/zsh-eza) - Plugin for [eza](https://github.com/eza-community/eza) with Catppuccin and Rose Pine theming, smart defaults, and full alias support.
 - [eza-ls](https://github.com/birdhackor/zsh-eza-ls-plugin) - Adds aliases allowing [eza](https://github.com/eza-community/eza), to act as a drop-in replacement for `ls` and `tree`.
@@ -1406,7 +1407,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [locate-sublime-projects-cli](https://github.com/david-treblig/locate-sublime-projects-cli) - Allows searching for [Sublime Text](https://www.sublimetext.com) projects and opens them in Sublime.
 - [logout-user](https://github.com/pressdarling/logout-user) - Provides a function to log out another macOS user session.
 - [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets its data from [lipsum.com](https://www.lipsum.com).
-- [ls (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-ls) - Adds some more aliases for `ls`.
 - [ls (zpm-zsh)](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
 - [lsd (tankeryang)](https://github.com/tankeryang/zsh-lsd) - Replaces `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
@@ -1552,7 +1552,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [pipx](https://github.com/thuandt/zsh-pipx) - Autocompletions for [pipx](https://github.com/pypa/pipx).
 - [pjfzf](https://github.com/K021/pjfzf) - A project directory navigator powered by [fzf](https://github.com/junegunn/fzf). Registers base directories and navigates their subdirectories with frecency-based sorting and file preview.
 - [pkenv](https://github.com/ptavares/zsh-pkenv) - Installs and loads [pkenv](https://github.com/iamhsa/pkenv.git).
-- [plenv](https://github.com/TwoPizza9621536/zsh-plenv) - Plugin for the perl [plenv](https://github.com/tokuhirom/plenv) version manager based on jenv.
 - [plugin-ibtool](https://github.com/rgalite/zsh-plugin-ibtool) - Adds ibtool shortcuts to generate localized XIB files.
 - [plugin-rails](https://github.com/paraqles/zsh-plugin-rails) - ZSH plugin for Rails.
 - [plugin-vscode](https://github.com/wuotr/zsh-plugin-vscode) - Plugin for [Visual Studio Code](https://code.visualstudio.com/download), a text editor for macOS, Windows, and Linux.
@@ -1601,13 +1600,13 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [proxy-plugin (xooooooooox)](https://github.com/xooooooooox/zsh-proxy) - Helps manage proxy settings in your shell environment.
 - [proxy](https://github.com/SukkaW/zsh-proxy) - Configure proxy settings for some package managers and software.
 - [psgrep](https://github.com/voidzero/omz-plugin-psgrep/) - Makes `ps grep` hide its own process from the results of a `ps aux | grep`.
+- [psmon](https://github.com/dumidusw/psmon) - Lightweight interactive process monitor using standard Linux utilities (`ps`, `awk`, `lsof`) with live watch mode, resource sorting, and tree-aware process killing.
 - [pump](https://github.com/fab1o/pump-zsh) - Provides a configurable set of aliases, functions, and themes to supercharge your terminal workflow. Requires [jq](https://stedolan.github.io/jq/), [gum](https://github.com/charmbracelet/gum), [glow](https://github.com/charmbracelet/glow) and the [GitHub CLI](https://cli.github.com/).
 - [purge-history-secrets](https://github.com/jotasixto/purge-history-secrets) - Uses [gitleaks](https://github.com/gitleaks/gitleaks) to periodically scan your ZSH history for secrets and purge them if found. Requires [jq](https://jqlang.github.io/jq/).
 - [pwp](https://github.com/ttkalcevic/pwp) - Provides a convenient way to display the present working path in the terminal prompt and lists the current working directory along with its parent directories. Additionally, it includes a custom command .. to navigate to parent directories easily.
 - [pycalc (alalik)](https://github.com/alalik/pycalc) - Turns the `=` key into a powerful, Python‑backed calculator in your ZSH shell.
 - [pycalc (peibozhao)](https://github.com/peibozhao/pycalc) - ZSH calculator that uses Python syntax.
 - [pyenv (mattberther)](https://github.com/mattberther/zsh-pyenv) - Inspired by **zsh-rbenv**. Installs, updates or loads `pyenv`, and adds extra functionality.
-- [pyenv (twopizza9621536)](https://github.com/TwoPizza9621536/zsh-pyenv) - Based on the oh-my-zsh [pyenv](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/pyenv) plugin with modifications from the rbenv and jenv plugins.
 - [pyenv (xlshiz)](https://github.com/xlshiz/pyenv-zsh-plugin) - Loads [pyenv](https://github.com/pyenv/pyenv) into the current shell and provides prompt info via the `pyenv_prompt_info` function. Also loads [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) if available.
 - [pyenv-lazy-load](https://github.com/erikced/zsh-pyenv-lazy-load) - Plugin for lazy-loading `pyenv` in ZSH.
 - [pyenv-lazy](https://github.com/davidparsson/zsh-pyenv-lazy) - Lazy load [pyenv](https://github.com/pyenv/pyenv). The initial `eval "$(pyenv init -)"` is executed the first time `pyenv` is called.
@@ -2338,8 +2337,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [bluehigh](https://github.com/hiroppy/bluehigh.zsh-theme) - Minimal theme, displays `git` information.
 - [bluelines](https://github.com/apbarrero/bluelines) - Clear and blue theme.
 - [bluo](https://github.com/varunpbardwaj/bluo) - Colorful prompt segments reminiscent of [bullet-train](https://github.com/caiogondim/bullet-train.zsh) or [powerlevel10k](https://github.com/romkatv/powerlevel10k). Includes `git` status decorations.
-- [boban](https://github.com/TheEdgeOfRage/boban-zsh) - A powerline-style file based on [Agnoster](https://github.com/agnoster/agnoster-zsh-theme). Includes decorators for user@hostname, `git` status, current working directory, python venv, AWS profile, `$KUBECONFIG`, the terraform workspace and the exit status of the last command run. Requires a [Nerd Font](https://github.com/ryanoasis/nerd-fonts) for symbols to render properly.
-- [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
+r- [bogo](https://github.com/cubasepp/zsh-bogo-theme) - Inspired by [zeta](https://github.com/skylerlee/zeta-zsh-theme). Includes `git` and ruby version decorations.
 - [boom](https://github.com/the0neWhoKnocks/zsh-theme-boom) - Multiline theme, best on dark backgrounds.
 - [born-in-the-purple](https://github.com/LeonardMH/born-in-the-purple) - Simple theme with a purple motif. Inspired by [Pure](https://github.com/sindresorhus/pure).
 - [bouni](https://github.com/Bouni/bouni-zsh-theme) - Includes decorators for user@host, current directory, active python virtualenv, and `git` status.
@@ -2429,6 +2427,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [cute](https://github.com/dogrocker/oh-my-zsh-powerline-cute-theme) - A macOS oh-my-zsh shell theme with cute emoji based on the Powerline Vim plugin.
 - [cxzh](https://github.com/MakeWorkSimple/cxzh.zsh-theme) - Works well on dark background, has `git` status decorations.
 - [cybensis](https://github.com/cybensis/cybensis-zsh-theme) - Based on [af-magic](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/af-magic.zsh-theme). Includes decorators for `git` information, `hg` information, and python virtualenv.
+- [cybergalaxy](https://github.com/Nannigalaxy/cybergalaxy-zsh-theme) - Neon green and blue theme with decorators for `git` status, python/conda virtualenv, user@hostname, and time. Falls back gracefully to ASCII and named ANSI colors on terminals without UTF-8 or 256-color support. Uses unicode glyphs so it doesn't require Nerd Font or Powerline fonts.
 - [cypher-ruby](https://github.com/ston1x/cypher-ruby) - Similar to [cypher](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/cypher.zsh-theme) but includes the active Ruby version.
 - [czsh](https://github.com/Cellophan/czsh) - [ZSH](https://en.wikipedia.org/wiki/Z_shell) with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and the [agnoster](https://github.com/agnoster/agnoster-zsh-theme) theme in a container.
 - [daily-emoji](https://github.com/huytran-wq/zsh-daily-emoji-theme/) - Shows random emoji at the beginning of each command depending on the day of the week.
@@ -2816,6 +2815,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [moonline](https://github.com/kagamilove0707/moonline.zsh) - Minimal but easily extensible prompt.
 - [moux](https://github.com/gagbo/moux) - Works well with a dark terminal background, includes `git` decorations in `RPROMPT`.
 - [msys2](https://github.com/water-logger/MSYS2-Theme/) - Inspired by MSYS2. Includes decorators for user@host, `git` status and the current directory.
+- [mtsh](https://github.com/FPGArtktic/ohmyzsh-mtsh-theme) - Multi-line prompt for multi-user and DevOps machines. Includes decorators for the date and time, the address of the interface that reaches the default route, CPU and memory use, the number of logged-in users, `git` branch and status, and the exit code and duration of the last command. No fonts are required.
 - [mu](https://github.com/seamile/mu-zsh-theme) - Improves display of multiple `git` statuses. Inspired by [lambda mod theme](https://github.com/halfo/lambda-mod-zsh-theme). Requires a powerline-compatible font.
 - [multi-shell-repo-prompt](https://github.com/dotcode/multi-shell-repo-prompt) - Provides useful information (in your prompt) about the repository that you are in. It currently works for [Git](https://git-scm.com/) and [Mercurial](https://www.mercurial-scm.org/), under [ZSH](https://en.wikipedia.org/wiki/Zsh) as well as [bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29).
 - [multiline](https://github.com/jan-auer/zsh-multiline) - Powerline-esque theme based on [agnoster](https://github.com/agnoster/agnoster-zsh-theme).
