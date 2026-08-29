@@ -976,6 +976,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [bw](https://github.com/begris/bw-zsh-plugin) - Provides formatting options and easy access to credentials stored in [Bitwarden](https://bitwarden.com) via the Bitwarden [CLI](https://bitwarden.com/download/). The plugin tries to retrieve a valid session before each action, therefore an explicit login is not nescessary beforehand.
 - [bws](https://github.com/elogiclab/zsh-bws) - Simplify and improve the retrieval of secrets from the [Bitwarden](https://bitwarden.com) Secret Manager.
 - [c](https://github.com/sebastiangraz/c) - Adds some `git` shortcuts.
+- [cage](https://github.com/matijaoe/cage.plugin.zsh) - Adds command for [age](https://github.com/FiloSottile/age). It encrypts a plain file with a passphrase, decrypts an age file, and works out which from the file's own header.
 - [calc (arzzen)](https://github.com/arzzen/calc.plugin.zsh) - A calculator for ZSH.
 - [calc (sam-programs)](https://github.com/Sam-programs/zsh-calc) - Allows you to run math calculations with no prefixes.
 - [calibre-zaw-source](https://github.com/junkblocker/calibre-zaw-source) - [Calibre - E-book management](https://calibre-ebook.com/) source for [zaw](https://github.com/zsh-users/zaw)
