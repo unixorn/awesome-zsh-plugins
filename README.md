@@ -961,6 +961,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [bob](https://github.com/wintermi/zsh-bob) - Plugin for [bob](https://github.com/MordechaiHadad/bob) a cross-platform and easy-to-use Neovim version manager.
 - [bofh](https://github.com/fundor333/bofh) - Adds functions to display random bofh fortunes.
 - [bol](https://github.com/ikhurramraza/bol) - Prints a random quote when you open a terminal window.
+- [boot-kit](https://github.com/seankoji-com/zsh-boot-kit) - Adds instrumentation to your ZSH environment.
 - [boss-docker](https://github.com/bossjones/boss-docker-zsh-plugin) - Manages `docker` on macOS.
 - [boss-git](https://github.com/bossjones/boss-git-zsh-plugin) - Adds some convenience aliases for `git`.
 - [branch-manager](https://github.com/elstgav/branch-manager) - A plugin for managing `git` branches.
