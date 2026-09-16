@@ -719,6 +719,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### oh-my-zsh
 
+- [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh) - automates your ZSH setup with 46 plugins, 5 themes, configuration profiles, and service installation. It installs dependencies, manages Oh My Zsh, and gives you a beautiful interactive CLI to build the terminal environment you want.
 - [master-oogway](https://github.com/tomershay100/master-oogway) - A complete zsh environment — dragon prompt theme, git aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone git repo
 
 ### Raw ZSH
