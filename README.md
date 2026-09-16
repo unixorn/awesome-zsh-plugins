@@ -719,6 +719,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 ### oh-my-zsh
 
+- [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh) - automates your ZSH setup with 46 plugins, 5 themes, configuration profiles, and service installation. It installs dependencies, manages Oh My Zsh, and gives you a beautiful interactive CLI to build the terminal environment you want.
 - [master-oogway](https://github.com/tomershay100/master-oogway) - A complete zsh environment — dragon prompt theme, git aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone git repo
 
 ### Raw ZSH
@@ -961,6 +962,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [bob](https://github.com/wintermi/zsh-bob) - Plugin for [bob](https://github.com/MordechaiHadad/bob) a cross-platform and easy-to-use Neovim version manager.
 - [bofh](https://github.com/fundor333/bofh) - Adds functions to display random bofh fortunes.
 - [bol](https://github.com/ikhurramraza/bol) - Prints a random quote when you open a terminal window.
+- [boot-kit](https://github.com/seankoji-com/zsh-boot-kit) - Adds instrumentation to your ZSH environment.
 - [boss-docker](https://github.com/bossjones/boss-docker-zsh-plugin) - Manages `docker` on macOS.
 - [boss-git](https://github.com/bossjones/boss-git-zsh-plugin) - Adds some convenience aliases for `git`.
 - [branch-manager](https://github.com/elstgav/branch-manager) - A plugin for managing `git` branches.
@@ -1298,6 +1300,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [hbt](https://github.com/lzambarda/hbt) - Heuristic ZSH suggestion system based on past command usage.
 - [hebzsh](https://github.com/admons/hebzsh) - If a command is not found as typed in Hebrew, translates the command as if it was typed on a keyboard with a US English layout and tries again.
 - [help](https://github.com/Freed-Wu/zsh-help) - Colorizes the output of commands run with `--help`.
+- [herdr](https://github.com/robbyrussell/herdr-ohmyzsh) - Manages [herdr](https://herdr.dev/) agent management.
 - [hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 - [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 - [hist-delete](https://github.com/p1r473/zsh-hist-delete-fzf/) - Delete history items from zsh's [fzf](https://github.com/junegunn/fzf) Ctrl+R history search.
@@ -1614,6 +1617,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [pyenv (xlshiz)](https://github.com/xlshiz/pyenv-zsh-plugin) - Loads [pyenv](https://github.com/pyenv/pyenv) into the current shell and provides prompt info via the `pyenv_prompt_info` function. Also loads [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) if available.
 - [pyenv-lazy-load](https://github.com/erikced/zsh-pyenv-lazy-load) - Plugin for lazy-loading `pyenv` in ZSH.
 - [pyenv-lazy](https://github.com/davidparsson/zsh-pyenv-lazy) - Lazy load [pyenv](https://github.com/pyenv/pyenv). The initial `eval "$(pyenv init -)"` is executed the first time `pyenv` is called.
+- [pyroclear](https://github.com/shreyanth-sureshkrishnaa/pyroclear) - A terminal clear replacement that burns your screen down before wiping it.
 - [pyvenv-fast](https://github.com/ACmyles/pyvenv-fast) - Launch a Python `venv` with one command. Designed for use with [dotpyvenv](https://github.com/jeanpantoja/dotpyvenv).
 - [q (cal2195)](https://github.com/cal2195/q) - Add `vim`-like macro registers to your ZSH shell.
 - [q (tomsquest)](https://github.com/tomsquest/q.plugin.zsh) - Tail/remove the temp file for [Q](https://github.com/y0ssar1an/q), the Dirty Debugging Tool.
@@ -1770,6 +1774,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [terminal-app](https://github.com/the8/terminal-app.zsh) - A plugin for integrating with the new macOS El Capitan Terminal.app features.
 - [terminal-title](https://github.com/AnimiVulpis/zsh-terminal-title) - Adds a `set-term-title` function you can use to title terminal windows.
 - [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
+- [termrec](https://github.com/termrec/termrec.zsh) - This hook enables [termrec](https://github.com/termrec/termrec) to split the session into per-command sections while it generates a command-aware transcript.
 - [termux](https://github.com/zpm-zsh/termux) - Adds compatibility for [Termux](https://termux.com/).
 - [terraform (hanjunlee)](https://github.com/hanjunlee/terraform-oh-my-zsh-plugin) - Add [terraform](https://www.terraform.io/) workspace to prompt.
 - [terraform (jsporna)](https://github.com/jsporna/terraform-zsh-plugin) - Extends the original [oh-my-zsh](https://ohmyz.sh/) plugin with aliases and tab completions. Adds workspace (when not default) to prompt.
@@ -1890,6 +1895,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [windows-title](https://github.com/mdarocha/zsh-windows-title) - Dynamically updates terminal window title with current directory and the last command run.
 - [wordle](https://github.com/zechris/zwordle) - Wordle for ZSH, with tab-completions.
 - [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects.
+- [worktree-jump](https://github.com/Jermic/worktree-jump) - Lists `git` worktrees in a compact table and lets you jump to one by typing its number at the next shell prompt.
 - [worktree](https://github.com/jspears/worktree) - Adds functions that wrap `git worktree`.
 - [worktrunk](https://github.com/kguzek/zsh-worktrunk) - Inspired by the [oh-my-zsh](https://ohmyz.sh/) [git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) and provides aliases and a few useful functions for working with [worktrunk](https://github.com/max-sixty/worktrunk).
 - [wpm](https://github.com/btror/wpm) - Lets you test your typing speed in a terminal, track WPM, accuracy, and more. Results are saved in a handy JSON format for easy tracking.
@@ -1902,6 +1908,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [yapipenv](https://github.com/AnonGuy/yapipenv.zsh) - Automatically activate a directory's `pip` environment if `pipenv` detects the presence of one.
 - [yazi-mount](https://github.com/splixx05/zsh-yazi-mount) - Mount USB partitions via `udisksctl`, open them in [yazi](https://github.com/sxyazi/yazi), and unmount them afterward – safe, clean, and user-friendly.
 - [yazi-zoxide](https://github.com/fdw/yazi-zoxide-zsh) - This plugin for [zsh](https://www.zsh.org) adds just one shortcut, but unfolds the magic of both [Zoxide](https://github.com/ajeetdsouza/zoxide) and [yazi](https://github.com/sxyazi/yazi/). Without arguments, `y` just opens yazi. If you supply an argument that is a directory, `yazi` is opened in that directory. But if you supply anything else as an argument, `zoxide` is called with the argument and `yazi` is opened there.
+- [yazi](https://github.com/NiziL/yazi.plugin.zsh) - a tiny plugin for [yazi](https://github.com/sxyazi/yazi) integration.
 - [yeoman](https://github.com/edouard-lopez/yeoman-zsh-plugin) - Edouard Lopez's [Yeoman](http://yeoman.io/) plugin for [oh-my-zsh](https://ohmyz.sh/), compatible with yeoman version ≥1.0 (includes options and command auto-completion).
 - [you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use) - ZSH plugin that reminds you to use those aliases you defined.
 - [youtube-dl-aliases](https://github.com/katrinleinweber/oh-my-zsh-youtube-dl-aliases) - Adds `yt` aliases to download videos from YouTube.
@@ -2420,6 +2427,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [common](https://github.com/jackharrisonsherlock/common) - A simple, clean and minimal prompt, displays current working directory, hostname, AWS vault role, background jobs, current SHA, exit code of last command, and `git` branch and status.
 - [comxtohr](https://github.com/comxtohr/comxtohr-zsh-iterm-theme) - Brightly colored theme optimized for dark backgrounds.
 - [coolmelon](https://github.com/omkarpai/coolmelon-zsh-theme/) - Includes decorators for user@host, time, current directory, node version and `git` information.
+- [corbon](https://github.com/spideythedev/corbon-zsh-theme) - A lightweight, highly customizable theme that gives you control over the layout, segments, Git information, colors, symbols, path display, command timing, and more without turning configuration into a mess.
 - [cordial](https://github.com/stevelacy/cordial-zsh-theme) - Clean and effective ZSH theme with git and npm support.
 - [cr](https://github.com/cruzrovira/cr-zsh-theme) - Includes directory, time, host name, last command exit status, and `git` status decorations.
 - [cramin](https://github.com/FelipeCRamos/craminzsh) - Minimal interface with support for GitHub plugins, based on [hyperzsh](https://github.com/tylerreckart/hyperzsh).
@@ -2936,6 +2944,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [poncho](https://github.com/RainyDayMedia/oh-my-zsh-poncho) - RDM's basic oh-my-zsh custom theme.
 - [pond](https://github.com/notreallycheeks/pond-zsh-theme) - A calm two-line oh-my-zsh theme in pastel greens and blues.
 - [poor-programmer](https://github.com/vishaltelangre/poor-programmer.zsh-theme) - Programmer's theme with `git` status, ruby version and project path.
+- [port](https://github.com/stiermid/port) - A minimal theme combining the robbyrussell layout with the gentoo `git` workflow. Built on ZSH's built-in `vcs_info` — no external dependencies, no prompt frameworks required. Shows the current directory, version-control state (Git and SVN), and command exit status in a single compact line.
 - [power](https://github.com/snakypy/zshpower) - Optimized for python developers. Includes `git` and `pyenv` status decorations, username and host. Tries to install other plugins and fonts, so read its instructions before installing.
 - [powerbash](https://github.com/erikschreier/powerbash-zsh) - Works well with dark terminal backgrounds, includes `git` status decorations.
 - [powerless](https://github.com/martinrotter/powerless) - Tiny & simple pure ZSH prompt inspired by powerline.
