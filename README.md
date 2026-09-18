@@ -1285,6 +1285,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [gsh](https://github.com/cjayross/gsh) - Collection of helper functions for `git`
 - [gtm-terminal-plugin](https://github.com/git-time-metric/gtm-terminal-plugin) - terminal plugin for [git time metrics](https://github.com/git-time-metric/gtm).
 - [gtr](https://github.com/Zocker1999NET/zsh-gtr) - Allows fast tagging of a release in `git` using the tag name **release-YYYY-MM-DD-HH-MM*- and headline **Release YYYY-MM-DD HH:MM**.
+- [guesswork](https://github.com/findmalek/guesswork) - Fish-style history autosuggestions ranked by an AI model instead of prefix matching, so an abbreviation or a short description of what you want finds the right command out of your recent history.
 - [guish](https://github.com/gcarrarom/oh-my-guish) - Collection of utility functions and aliases.
 - [gumsible](https://github.com/Lowess/gumsible-oh-my-zsh-plugin) - Wrapper plugin for [Molecule](https://molecule.readthedocs.io/).
 - [gunstage](https://github.com/LucasLarson/gunstage) - There are at least eight ways to unstage files in a `git` repository. This is a command-line shell plugin for undoing `git add`.
