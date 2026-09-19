@@ -3410,6 +3410,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [zsh-ai-completions](https://github.com/iloveitaly/zsh-ai-completions) - AI-generated ZSH completions
 - [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH. It measures user-visible latency of interactive `zsh`: input lag, command lag, etc.
 - [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger.
+- [zshist](https://github.com/kongo2002/zshist) - A shell history daemon-free replacement for ZSH's built-in history. Stores every command in a JSONL file with directory, exit code, timestamp, and duration, and gives you [fzf](https://github.com/junegunn/fzf)-powered fuzzy search plus prefix-based up-arrow-style search.
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
 - [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 
