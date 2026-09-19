@@ -1292,6 +1292,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [gsh](https://github.com/cjayross/gsh) - Collection of helper functions for `git`
 - [gtm-terminal-plugin](https://github.com/git-time-metric/gtm-terminal-plugin) - terminal plugin for [git time metrics](https://github.com/git-time-metric/gtm).
 - [gtr](https://github.com/Zocker1999NET/zsh-gtr) - Allows fast tagging of a release in `git` using the tag name **release-YYYY-MM-DD-HH-MM*- and headline **Release YYYY-MM-DD HH:MM**.
+- [guesswork](https://github.com/findmalek/guesswork) - Fish-style history autosuggestions ranked by an AI model instead of prefix matching, so an abbreviation or a short description of what you want finds the right command out of your recent history.
 - [guish](https://github.com/gcarrarom/oh-my-guish) - Collection of utility functions and aliases.
 - [gumsible](https://github.com/Lowess/gumsible-oh-my-zsh-plugin) - Wrapper plugin for [Molecule](https://molecule.readthedocs.io/).
 - [gunstage](https://github.com/LucasLarson/gunstage) - There are at least eight ways to unstage files in a `git` repository. This is a command-line shell plugin for undoing `git add`.
@@ -1779,6 +1780,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [tempit](https://github.com/idirxv/tempit) - Helps you create, manage, and navigate temporary directories with ease. It provides a persistent tracking system so your temporary directories won't get lost.
 - [terminal-aliases](https://github.com/dvir-levy/terminal-aliases) - Adds convenience aliases for `terraform`, `git` and more.
 - [terminal-app](https://github.com/the8/terminal-app.zsh) - A plugin for integrating with the new macOS El Capitan Terminal.app features.
+- [terminal-pet](https://github.com/Zezoo123/terminal-pet) - Hooks `preexec`/`precmd` up to [terminal-pet](https://github.com/Zezoo123/terminal-pet), an animated pixel-art pet that sits on your terminal window and reacts to your commands (macOS).
 - [terminal-title](https://github.com/AnimiVulpis/zsh-terminal-title) - Adds a `set-term-title` function you can use to title terminal windows.
 - [terminal-workload-report](https://github.com/LockonS/terminal-workload-report) - A plugin that calculates and displays how many commands have been run via terminal.
 - [termrec](https://github.com/termrec/termrec.zsh) - This hook enables [termrec](https://github.com/termrec/termrec) to split the session into per-command sections while it generates a command-aware transcript.
