@@ -60,6 +60,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zgem](#zgem)
   - [zgen](#zgen)
   - [zgenom](#zgenom)
+  - [zi](#zi)
   - [zilsh](#zilsh)
   - [zim](#zim)
   - [Zinit](#zinit)
@@ -490,6 +491,12 @@ To keep loading fast during new terminal sessions, `zgenom` generates a static `
 This minimizes startup time by not having to execute time consuming logic (plugin checking, updates, etc) during every shell session's startup. The downside is that you have to refresh the init script manually with `zgenom reset` whenever you update your plugin list in your `.zshrc`.
 
 Zgenom can load [oh-my-zsh](http://ohmyz.sh/)-compatible and [prezto](https://github.com/sorin-ionescu/prezto)-compatible plugins and themes, and will automagically `git clone` plugins for you when you add them to your plugin list.
+
+### [zi](https://github.com/z-shell/zi)
+![GitHub last commit](https://img.shields.io/github/last-commit/z-shell/zi)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/z-shell/zi)
+
+ Zi is the Z-Shell ecosystem's plugin manager. It can source a single remote script, manage a complete plugin, install a binary release, run build steps, or defer work until after the first prompt. Zi was formerly known as zplugin and zinit.
 
 ### [zilsh](https://github.com/zilsh/zilsh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zilsh/zilsh)
