@@ -3069,7 +3069,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [schminitz](https://gist.github.com/schminitz/9931af23bbb59e772eec) - Shows if `vim` is running in the background when using `:sh` command.
 - [scythe](https://github.com/kostoskistefan/scythe) - Powerline-reminiscent theme. Includes `git`, last command exit status and directory decorations.
 - [sdt](https://github.com/sdlea/omz-theme-sdt) - Includes decorators for current directory and `git` status.
-- [searocket](https://github.com/dk949/searocket/) - Slimmed down version of [spaceship](https://github.com/denysdovhan/spaceship-prompt). Includes decorators for working directory, last command exit code, user, background jobs, `bun`, `d`, elm, go, nodejs, python, zig and `git` status. Requires `D` build chain.
+- [searocket](https://github.com/dk949/searocket/) - Slimmed down version of [spaceship](https://github.com/denysdovhan/spaceship-prompt). Includes decorators for working directory, last command exit code, user, background jobs, `bun`, `d`, elm, go, nodejs, python, [zig](https://ziglang.org) and `git` status. Requires `D` build chain.
 - [seashell](https://github.com/jottenlips/seasonal-zshthemes) - Minimal theme with sea-inspired emoji decorations. Includes `git` status decorations.
 - [seeker](https://github.com/tonyseek/oh-my-zsh-seeker-theme) - This theme uses many special unicode characters to be fancy, but it may cause some problems without well supported fonts.
 - [seltzer](https://github.com/GrantSeltzer/seltzer.zsh-theme) - Inspired by the dieter theme, uses color-coding to provide information.
@@ -3299,13 +3299,13 @@ These plugins add tab completions without adding extra functions or aliases.
 - [zeta](https://github.com/skylerlee/zeta-zsh-theme) - Shows decorations for username, `git` status information, machine name, the current working directory and success/fail status of last command.
 - [zhiyin](https://github.com/AmyangXYZ/zhiyin-zsh-theme) - Includes decorators for user @ host, current working directory and `git` status information.
 - [zido](https://github.com/SidonieBouthors/zido-zsh-theme) - Includes decorators for `git` status and current directory.
-- [zigbar](https://github.com/dbushell/zigbar) - Written in zig. Includes decorators for `git` status, current directory. Requires a [Nerd Font](https://www.nerdfonts.com/font-downloads).
+- [zigbar](https://github.com/dbushell/zigbar) - Written in [zig](https://ziglang.org). Includes decorators for `git` status, current directory. Requires a [Nerd Font](https://www.nerdfonts.com/font-downloads).
 - [zinc](https://gitlab.com/robobenklein/zinc) - A blazing-fast, pure ZSH, mixed asynchronous prompt inspired by [Powerlevel9k](https://github.com/bhilburn/powerlevel9k) and [Agnoster](https://github.com/agnoster/agnoster-zsh-theme) that's easily extensible and extremely configurable. It supports async segments using [zsh-async](https://github.com/mafredri/zsh-async).
 - [zish](https://github.com/RubixDev/zish/) - Based on the `fish` shell's default look.
 - [zlambda](https://github.com/wdhg/zlambda) - Minimalist, includes `git` decorations without special font requirements.
 - [zodiac](https://github.com/adamalsen/zsh-zodiac) - Includes an emoji for the animal corresponding to the current year.
 - [zoo](https://github.com/salamantos/zoo_sh) - Casual theme with animal emoji. Includes decorators for current directory, time and `git` status.
-- [zp](https://github.com/Karitham/zp) - Fast prompt, written in `zig`. Includes `git` status and current directory decorators.
+- [zp](https://github.com/Karitham/zp) - Fast prompt, written in [zig](https://ziglang.org). Includes `git` status and current directory decorators.
 - [zprompts](https://github.com/z-shell/zprompts) - Themes (prompts) that use original `zsh` theming subsystem.
 - [zqt](https://github.com/ladychili/zqt-zsh-theme) - Modified version of oh-my-zsh's [maran](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/maran.zsh-theme) theme.
 - [zsh1999](https://github.com/DTan13/zsh1999) - Includes network connectivity, battery and `git` status decorations.
@@ -3392,28 +3392,28 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 
 ### ZSH Tools
 
-- [argcomplete](https://github.com/kislyuk/argcomplete) - Generates tab completions for programs using Python's `argparse` module.
+- [argcomplete](https://github.com/kislyuk/argcomplete) - Generates tab completions for programs written using Python's `argparse` module.
 - [carapace](https://github.com/rsteube/carapace) - Completion generator for Bash, Elvish, Fish, Oil, Powershell, Xonsh and ZSH. Note - this does not automatically generate completions on demand, you have to explicitly run it to generate completions for a command.
 - [cgen](https://github.com/acristoffers/cgen) - Generate shell completions for Fish, Bash, and ZSH and man-pages from a single YAML file. No more hand-writing separate completion files for every shell.
 - [completion-generator](https://github.com/RobSis/zsh-completion-generator) - Tries to read the list of options from the help text of programs and generate a completion function automatically. Note that this doesn't do it automatically, you have to explicitly call the generator to create a completion script.
 - [completion-generators](https://github.com/zetlen/zsh-completion-generators) - Has a table of tool names and the commands for outputting completion scripts for those tools. On every load, will check that table and run the completion command for every tool found in your `$PATH` and save its output to a file `toolname`. If the path of this repo is in `$fpath`, completions will work immediately.
-- [complgen](https://github.com/adaszko/complgen) - Generates completion scripts for bash/fish/zsh from a man-page/EBNF-like grammar. The resulting standalone scripts require only the target shell to be present.
+- [complgen](https://github.com/adaszko/complgen) - Generates completion scripts for bash/fish/ZSH from a man-page/EBNF-like grammar. The resulting standalone scripts require only the target shell to be present.
 - [crazy-complete](https://github.com/crazy-complete/crazy-complete) - Every program should have autocompletion in the shell to enhance user experience and productivity. `crazy-complete` helps solve this task by generating robust and reliable autocompletion scripts.
 - [manpage-completion-generator](https://github.com/umlx5h/zsh-manpage-completion-generator) - Generats ZSH completions from man pages. Requires [create_manpage_completions.py](https://github.com/fish-shell/fish-shell/blob/master/share/tools/create_manpage_completions.py) which is installed by the fish shell
 - [oclif completion generator](https://github.com/MunifTanjim/oclif-plugin-completion) - Generates shell completions for commands lacking them.
 - [oh-plugin](https://github.com/mbergo/oh-plugin) - Helps you install plugins for [oh-my-zsh](https://ohmyz.sh) by typing `oh-plugin install repository_address`.
-- [rust-zsh-plugin-cli](https://github.com/johnstonskj/rust-zsh-plugin-cli) - This tool scaffolds Zsh plugins with best practices built-in, including function tracking for clean unloading, optional alias support, autoloaded functions, and CI/CD workflows for shellcheck and shellspec. Choose from minimal, simple, or complete templates to match your plugin's complexity.
+- [rust-zsh-plugin-cli](https://github.com/johnstonskj/rust-zsh-plugin-cli) - This tool scaffolds ZSH plugins with best practices built-in, including function tracking for clean unloading, optional alias support, autoloaded functions, and CI/CD workflows for shellcheck and shellspec. Choose from minimal, simple, or complete templates to match your plugin's complexity.
 - [shell-color-prompt-tool](https://github.com/kyletimmermans/shell-color-prompt-tool) - Helps you create a custom prompt for `ZSH` or `bash`.
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/iterative/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
-- [smucd](https://github.com/pro555161rblxs/smucd) - Fuzzy typo-tolerant cd replacement with interactive selection UI.
-- [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses `argparse` and it will write a ZSH completion to your current directory.
+- [smucd](https://github.com/pro555161rblxs/smucd) - Fuzzy typo-tolerant `cd` replacement with interactive selection UI.
+- [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses Python's `argparse` and it will write a ZSH completion to your current directory.
 - [zcolors](https://github.com/marlonrichert/zcolors) - Uses your `$LS_COLORS` to generate a coherent theme for `git` and your ZSH prompt, completions and [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [zsh-ai-completions](https://github.com/iloveitaly/zsh-ai-completions) - AI-generated ZSH completions
 - [zsh-bench](https://github.com/romkatv/zsh-bench) - A benchmark for interactive ZSH. It measures user-visible latency of interactive `zsh`: input lag, command lag, etc.
 - [zshdb](https://github.com/rocky/zshdb) - A ZSH debugger.
-- [zshist](https://github.com/kongo2002/zshist) - A shell history daemon-free replacement for ZSH's built-in history. Stores every command in a JSONL file with directory, exit code, timestamp, and duration, and gives you [fzf](https://github.com/junegunn/fzf)-powered fuzzy search plus prefix-based up-arrow-style search.
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Doxygen for shell scripts. Parses ZSH and Bash scripts, outputs Asciidoc document with function lists, call trees, lists of exported variables, and more.
+- [zshist](https://github.com/kongo2002/zshist) - A shell history daemon-free replacement for ZSH's built-in history. Stores every command in a JSONL file with directory, exit code, timestamp, and duration, and gives you [fzf](https://github.com/junegunn/fzf)-powered fuzzy search plus prefix-based up-arrow-style search.
 - [zunit](https://github.com/zunit-zsh/zunit) - A powerful unit testing framework for ZSH.
 
 ### Other Useful Lists
