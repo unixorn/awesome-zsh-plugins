@@ -1721,6 +1721,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [slurm](https://github.com/galhar/slurm) - Provides convenient commands for running interactive [SLURM](https://slurm.schedmd.com) jobs.
 - [smart-cd](https://github.com/dbkaplun/smart-cd) - Runs `ls` and `git status` after chpwd.
 - [smart-command-not-found](https://github.com/rami-shalhoub/Smart-command-not-found) - Shows all available options when a command is not found.
+- [smart-complete](https://github.com/imonior/zsh-smart-complete) - A modern smart completion & suggestion layer for ZSH. Replaces both [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) and [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) in a single plugin.
 - [smart-files](https://github.com/vxfemboy/zsh-smart-files) - Enhances CLI by providing visual feedback for file paths and automatically creating directories when needed. It highlights paths in different colors based on their status (existing, new, or permission-denied) and handles directory creation automatically.
 - [smart-history](https://github.com/lstasi/zsh-smart-history-plugin) - Turns your recent ZSH history into command suggestions powered by Ollama.
 - [smart-insert](https://github.com/lgdevlop/zsh-smart-insert) - provides interactive widgets to search for files and content using [`fd`](https://github.com/sharkdp/fd), [`rg`](https://github.com/BurntSushi/ripgrep), and [`fzf`](https://github.com/junegunn/fzf). It inserts the result directly into your shell with optional command prefixes.
