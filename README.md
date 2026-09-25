@@ -1311,6 +1311,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [hebzsh](https://github.com/admons/hebzsh) - If a command is not found as typed in Hebrew, translates the command as if it was typed on a keyboard with a US English layout and tries again.
 - [help](https://github.com/Freed-Wu/zsh-help) - Colorizes the output of commands run with `--help`.
 - [herdr](https://github.com/robbyrussell/herdr-ohmyzsh) - Manages [herdr](https://herdr.dev/) agent management.
+- [hi-shell](https://github.com/longyijdos/hi-shell) - Generates shell commands from natural-language requests and shows them as reviewable inline suggestions in ZSH.
 - [hints](https://github.com/joepvd/zsh-hints) - Display glob and parameter flags and other non completable info right under your editing buffer.
 - [hipchat](https://github.com/robertzk/hipchat.zsh) - Send hipchat messages from the shell.
 - [hist-delete](https://github.com/p1r473/zsh-hist-delete-fzf/) - Delete history items from zsh's [fzf](https://github.com/junegunn/fzf) Ctrl+R history search.
