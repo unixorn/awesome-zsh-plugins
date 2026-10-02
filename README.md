@@ -34,6 +34,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [lazy.zsh](#lazyzsh)
   - [miniplug](#miniplug)
   - [oh-my-zsh](#oh-my-zsh)
+  - [microzsh](#microzsh)
   - [pms](#pms)
   - [prezto](#prezto)
   - [pumice](#pumice)
@@ -251,6 +252,11 @@ With **lazy.zsh**, your `.zshrc` is the single source of truth. Reproduce the sa
 ![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh) ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/oh-my-zsh)
 
 **oh-my-zsh** is a community-driven framework for managing your ZSH configuration. Includes 120+ optional plugins (rails, `git`, macOS, `hub`, `capistrano`, `brew`, `ant`, MacPorts, etc), over 120 themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.
+
+### [microzsh](https://github.com/computer-wilco/microzsh)
+![GitHub last commit](https://img.shields.io/github/last-commit/computer-wilco/microzsh) ![GitHub Repo stars](https://img.shields.io/github/stars/computer-wilco/microzsh)
+
+A lightweight alternative to [oh-my-zsh](https://ohmyz.sh/), improving load times while still keeping essential features like themes and plugins.
 
 ### [pms](https://github.com/JoshuaEstes/pms)
 ![GitHub last commit](https://img.shields.io/github/last-commit/JoshuaEstes/pms)
