@@ -8,7 +8,7 @@
 ![Awesomebot](https://github.com/unixorn/awesome-zsh-plugins/actions/workflows/awesomebot.yml/badge.svg)
 ![Contributors](https://img.shields.io/github/contributors/unixorn/awesome-zsh-plugins.svg)
 [![GitHub last commit](https://img.shields.io/github/last-commit/unixorn/awesome-zsh-plugins/main.svg)](https://github.com/unixorn/awesome-zsh-plugins)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/unixorn/awesome-zsh-plugins/)
+
 
 A collection of ZSH frameworks, plugins, tutorials & themes inspired by the various awesome list collections out there.
 
