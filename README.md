@@ -1667,6 +1667,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [replace-multiple-dots](https://github.com/momo-lab/zsh-replace-multiple-dots) - Converts `...` to `../..`
 - [require](https://github.com/aubreypwd/zsh-plugin-require) - Adds ability to `require commandname` and then (if [brew](https://brew.sh) is installed) automatically `brew install commandname` if it isn't already installed.
 - [revolver](https://github.com/molovo/revolver) - A progress spinner for ZSH scripts.
+- [rfig](https://github.com/tamia6/rfig) - Adds command completion menus and directory-scoped history autosuggestions to ZSH, Bash and Fish on macOS and Linux. Written in Rust.
 - [riddle-me](https://github.com/vkolagotla/zsh-riddle-me) - Displays random riddles.
 - [ripz](https://github.com/jedahan/ripz) - Reminds you of your aliases, so you use them more. Depends on [ripgrep](https://github.com/BurntSushi/ripgrep).
 - [robo](https://github.com/shengyou/robo-zsh-plugin) - A ZSH plugin for [Robo](https://github.com/consolidation/robo/).
