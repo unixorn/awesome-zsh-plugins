@@ -1604,6 +1604,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [pr-node](https://github.com/zpm-zsh/pr-node) - Sets an environment variable which can be used to display Node.js information in a custom prompt.
 - [pr-return](https://github.com/zpm-zsh/pr-return) - Plugin for ZSH which displays the exit status of the last command run.
 - [pr-user](https://github.com/zpm-zsh/pr-user) - Creates a global variable that can be used in prompts.
+- [pratchett](https://github.com/loudoncloud/pratchett) - Displays a random Terry Pratchett quote from the Discworld novels, copied verbatim from Wikiquote. Includes a quote of the day, filtering by book, search, and tab completion; DEATH delivers his own lines if `cowsay` is installed.
 - [presenter-mode](https://github.com/idadzie/zsh-presenter-mode) - Expands aliases during presentations. It also increases the terminal window's contrast to enhance visibility.
 - [pretty-time (sindresorhus)](https://github.com/sindresorhus/pretty-time-zsh) - Convert seconds to a human readable string: 165392 → 1d 21h 56m 32s.
 - [pretty-time (zpm-zsh)](https://github.com/zpm-zsh/pretty-time) - Converts raw seconds into human-readable strings.
