@@ -1432,6 +1432,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [logout-user](https://github.com/pressdarling/logout-user) - Provides a function to log out another macOS user session.
 - [loremipsum](https://github.com/pfahlr/zsh_plugin_loremipsum) - Generate lorem ipsum text on the command line. Gets its data from [lipsum.com](https://www.lipsum.com).
 - [ls (zpm-zsh)](https://github.com/zpm-zsh/ls) - Colorizes the output of `ls`.
+- [ls-branch-label](https://github.com/freddi-kit/zsh-ls-branch-label) - Shows the current `git` branch next to repository directories when you run a plain `ls`.
 - [lsd (tankeryang)](https://github.com/tankeryang/zsh-lsd) - Replaces `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (z-shell)](https://github.com/z-shell/zsh-lsd) - Replaces `ls` with [lsd](https://github.com/Peltoche/lsd).
