@@ -1678,6 +1678,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [ros2-env](https://github.com/Butakus/ros2-env) - Manage [ROS 2](https://github.com/ros2) environment and workspaces.
 - [ros2-supercharged](https://github.com/danlil240/ros2-supercharged) - A curated combination of the best ideas from three excellent ROS 2 shell projects, rebuilt as one cohesive, modern zsh plugin. Includes [fzf](https://github.com/junegunn/fzf) workspace selector, launch-file picker, colcon error browser, domain management, prompt segment, named-workspace registry (rosws), per-workspace distro + overlay chaining, build-from-anywhere cb with real colcon argcomplete completion.
 - [rose-pine-man](https://github.com/const-void/rose-pine-man) - Colorizes `man` pages.
+- [rtfm](https://github.com/hoolies/RTFM) - Puts the manual under your thumb. Hit Tab, fuzzy-filter what you need, read the description, insert the token, without leaving the line, and without guessing.
 - [rtm-reminder](https://github.com/aranel616/rtm-reminder-zsh) - Displays urgent [Remember The Milk](https://www.rememberthemilk.com/) tasks after each command execution. Clean, non-intrusive, and terminal-only.
 - [run-scripts](https://github.com/Aireck2/zsh-run-scripts) - Runs scripts from `package.json`.
 - [rura](https://github.com/kiki-ki/rura) - A simple ZSH plugin to save and jump to directories.
