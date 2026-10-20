@@ -3425,6 +3425,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/iterative/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
 - [smucd](https://github.com/pro555161rblxs/smucd) - Fuzzy typo-tolerant `cd` replacement with interactive selection UI.
+- [suvadu](https://github.com/AppachiTech/suvadu) - Shell history in local SQLite with directory, exit code and AI agent commands, with a ZSH widget for Ctrl+R and Up-arrow recall.
 - [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses Python's `argparse` and it will write a ZSH completion to your current directory.
 - [zcolors](https://github.com/marlonrichert/zcolors) - Uses your `$LS_COLORS` to generate a coherent theme for `git` and your ZSH prompt, completions and [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
 - [zsh-ai-completions](https://github.com/iloveitaly/zsh-ai-completions) - AI-generated ZSH completions
