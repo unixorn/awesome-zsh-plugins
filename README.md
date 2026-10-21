@@ -55,9 +55,11 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zap](#zap)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
+  - [zdx-suite](#zdx-suite)
   - [zeesh](#zeesh)
   - [zef](#zef)
   - [zert](#zert)
+  - [zflash](#zflash)
   - [zgem](#zgem)
   - [zgen](#zgen)
   - [zgenom](#zgenom)
@@ -392,7 +394,7 @@ Pros:
 ![GitHub last commit](https://img.shields.io/github/last-commit/x-cmd/x-cmd)
  ![GitHub Repo stars](https://img.shields.io/github/stars/x-cmd/x-cmd)
 
-**x-cmd** is a toolset implemented using posix shell and awk.It is very small in size and offers many interesting features. Here is a milestone demo: https://x-cmd.com/
+**x-cmd** is a toolset implemented using posix shell and `awk`. It is very small in size and offers many interesting features. Here is a milestone demo: [x-cmd.com](https://x-cmd.com/)
 
 Tools Provided by x-cmd:
   - [Wrappers for Common Commands (e.g., cd, ip, ps, tar, apt, brew)](https://x-cmd.com/mod/zuz): These wrapped commands are more intelligent and easier to use compared to the native commands.
@@ -442,6 +444,14 @@ Features Provided by XC-Manager:
 
 **zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in `git` repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
 
+### [zdx-suite](https://github.com/landerox/zdx-suite)
+![GitHub last commit](https://img.shields.io/github/last-commit/landerox/zdx-suite)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/landerox/zdx-suite)
+
+ Interactive, fzf-powered developer workflows and a custom plugin loader for Zsh, built for Oh My Zsh.
+
+Open zdx when you want to explore, or route directly to a suite when you already know the workflow. Eight suites, a dependency doctor, and a plugin manager share one terminal-first interface.
+
 ### [zeesh](https://github.com/zeekay/zeesh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zeekay/zeesh)
  ![GitHub Repo stars](https://img.shields.io/github/stars/zeekay/zeesh)
@@ -471,6 +481,12 @@ Features
 * **Zero external UI dependencies** — real-time progress bars and spinners built entirely from ANSI escape codes.
 * **Self-managing** — Zert updates itself with `zert update zert`, managed as a first-class plugin.
 * **Oh-My-Zsh / Prezto compatibility** — load OMZ libs and Prezto modules without installing either framework.*
+
+### [zflash](https://github.com/arastu/zflash)
+![GitHub last commit](https://img.shields.io/github/last-commit/arastu/zflash)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/arastu/zflash)
+
+`zflash` compiles a short declarative spec into one static, byte-compiled init file. At shell start nothing is resolved, searched, forked or parsed by the manager: your `.zshrc` sources a tiny bootstrap and that one file. Everything in the spec, plugins, tool init zsh output and your own rc files, is split into two stages, before and after the first prompt, so the prompt appears as early as possible. `compinit` itself runs after the prompt.
 
 ### [zgem](https://github.com/qoomon/zgem)
 ![GitHub last commit](https://img.shields.io/github/last-commit/qoomon/zgem)
@@ -1753,6 +1769,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [sops-crypt](https://github.com/chaosimpact/sops-crypt) - Plugin for Mozilla SOPS that provides one-click encryption and decryption of files in the current directory and subdirectories.
 - [spaceship-ocm](https://github.com/iamkirkbater/spaceship-ocm-plugin) - Queries your OpenShift Cluster Manager (ocm) configuration to show which environment you're connected to. Requires [NerdFont](https://www.nerdfonts.com/font-downloads) in your terminal.
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
+- [spotify-now](https://github.com/ericlikedis/spotify-now) - Shows the track Spotify is playing in your prompt, in a green box with animated equalizer bars. Works on macOS and Linux.
 - [ssh-agent](https://github.com/sdiebolt/zsh-ssh-agent) - Automatically launches `ssh-agent` if it isn't already running.
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 - [ssh-git-operations](https://github.com/phongphuhanam/ssh-git-operations) - Provides secure, authenticated `git` `push`/`pull`/`fetch` operations over SSH to remote machines using GitHub token authentication. **Tokens are never persisted on remote machines**.
