@@ -55,6 +55,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zap](#zap)
   - [zapack](#zapack)
   - [zcomet](#zcomet)
+  - [zdx-suite](#zdx-suite)
   - [zeesh](#zeesh)
   - [zef](#zef)
   - [zert](#zert)
@@ -442,6 +443,14 @@ Features Provided by XC-Manager:
  ![GitHub Repo stars](https://img.shields.io/github/stars/agkozak/zcomet)
 
 **zcomet** is a minimalistic ZSH plugin manager that gets you to the prompt surprisingly quickly without caching (see the benchmarks). In addition to loading and updating plugins stored in `git` repositories, it supports lazy-loading plugins (further reducing startup time) as well as downloading and sourcing code snippets.
+
+### [zdx-suite](https://github.com/landerox/zdx-suite)
+![GitHub last commit](https://img.shields.io/github/last-commit/landerox/zdx-suite)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/landerox/zdx-suite)
+
+ Interactive, fzf-powered developer workflows and a custom plugin loader for Zsh, built for Oh My Zsh.
+
+Open zdx when you want to explore, or route directly to a suite when you already know the workflow. Eight suites, a dependency doctor, and a plugin manager share one terminal-first interface.
 
 ### [zeesh](https://github.com/zeekay/zeesh)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zeekay/zeesh)
