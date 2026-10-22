@@ -338,6 +338,8 @@ Features 🐭✨
 - Uses a lock file for much faster loading of plugins.
 
 ### [shellx](https://github.com/0ghny/shellx)
+![GitHub last commit](https://img.shields.io/github/last-commit/0ghny/shellx)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/0ghny/shellx)
 
 A generic script/plugin loader for multiple shells, including `ZSH`.
 
