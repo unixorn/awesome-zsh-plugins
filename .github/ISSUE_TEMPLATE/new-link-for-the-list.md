@@ -17,3 +17,5 @@ I am submitting a
 - [  ] New theme
 - [  ] New tab completion
 - [  ] New utility
+
+Any plugins, themes or completions _must_ have a proper plugin file so they can be automatically cloned and installed by frameworks like [zgenom](https://github.com/jandamm/zgenom) or [antigen](https://github.com/zsh-users/antigen). They _must_ not require an install tool to be run by the user.
