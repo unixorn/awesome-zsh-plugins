@@ -59,6 +59,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zeesh](#zeesh)
   - [zef](#zef)
   - [zert](#zert)
+  - [zest](#zest)
   - [zflash](#zflash)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -483,6 +484,11 @@ Features
 * **Zero external UI dependencies** — real-time progress bars and spinners built entirely from ANSI escape codes.
 * **Self-managing** — Zert updates itself with `zert update zert`, managed as a first-class plugin.
 * **Oh-My-Zsh / Prezto compatibility** — load OMZ libs and Prezto modules without installing either framework.*
+
+### [zest](https://github.com/reginaldosevero/zest)
+![GitHub last commit](https://img.shields.io/github/last-commit/reginaldosevero/zest) ![GitHub Repo stars](https://img.shields.io/github/stars/reginaldosevero/zest)
+
+**Zest** is a productivity framework for ZSH aimed at human-readable output: `sysinfo`, `topmem` and `topcpu` render color bars aggregated per program, notes and todos live in the terminal, Hacker News headlines are machine-translated to Portuguese, `git` gets a friendly wrapper, and `updateall` tries 12 package managers (apt, dnf, pacman, zypper, apk, flatpak, snap, npm, pipx, uv, pip, mise) and skips the missing ones. The installer runs without root — it fetches 16 CLI tools (fzf, ripgrep, bat, eza, delta, lazygit, zoxide, atuin, mise and friends) into `~/.local/bin`, auto-installs missing dependencies via sudo/su, and works with Oh My Zsh, plain ZSH or any other framework. Everything is guarded, idempotent and reversible, and the documentation is in Portuguese.
 
 ### [zflash](https://github.com/arastu/zflash)
 ![GitHub last commit](https://img.shields.io/github/last-commit/arastu/zflash)
