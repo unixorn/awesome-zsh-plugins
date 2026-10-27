@@ -59,6 +59,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zeesh](#zeesh)
   - [zef](#zef)
   - [zert](#zert)
+  - [zest](#zest)
   - [zflash](#zflash)
   - [zgem](#zgem)
   - [zgen](#zgen)
@@ -483,6 +484,11 @@ Features
 * **Zero external UI dependencies** — real-time progress bars and spinners built entirely from ANSI escape codes.
 * **Self-managing** — Zert updates itself with `zert update zert`, managed as a first-class plugin.
 * **Oh-My-Zsh / Prezto compatibility** — load OMZ libs and Prezto modules without installing either framework.*
+
+### [zest](https://github.com/reginaldosevero/zest)
+![GitHub last commit](https://img.shields.io/github/last-commit/reginaldosevero/zest) ![GitHub Repo stars](https://img.shields.io/github/stars/reginaldosevero/zest)
+
+**Zest** is a productivity framework for ZSH aimed at human-readable output: `sysinfo`, `topmem` and `topcpu` render color bars aggregated per program, notes and todos live in the terminal, Hacker News headlines are machine-translated to Portuguese, `git` gets a friendly wrapper, and `updateall` tries 12 package managers (apt, dnf, pacman, zypper, apk, flatpak, snap, npm, pipx, uv, pip, mise) and skips the missing ones. The installer runs without root — it fetches 16 CLI tools (fzf, ripgrep, bat, eza, delta, lazygit, zoxide, atuin, mise and friends) into `~/.local/bin`, auto-installs missing dependencies via sudo/su, and works with Oh My Zsh, plain ZSH or any other framework. Everything is guarded, idempotent and reversible, and the documentation is in Portuguese.
 
 ### [zflash](https://github.com/arastu/zflash)
 ![GitHub last commit](https://img.shields.io/github/last-commit/arastu/zflash)
@@ -2644,7 +2650,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [gruvbox (hgaiser)](https://github.com/hgaiser/gruvbox-zsh) - Sets colors from the [gruvbox](https://github.com/morhetz/gruvbox) `vim` plugin.
 - [gruvbox (sbugzu)](https://github.com/sbugzu/gruvbox-zsh) - Based on [agnoster](https://gist.github.com/agnoster/3712874), uses the same colors from the [gruvbox](https://github.com/morhetz/gruvbox) `vim` plugin.
 - [guezwhoz](https://github.com/guesswhozzz/guezwhoz-zshell) - Minimalist, includes `git` status decorations.
-- [gugulenok](https://github.com/gugulen0k/gugulenok/) - Has both a dark and a light mode. Includes decorators for `git` status, time and current directory.
+- [gugulenok](https://github.com/gugulen0k/gugulenok/) - Minimal two-sided prompt that takes its colors from your terminal colorscheme. Shows the current directory on the left and the `git` branch with a dirty marker on the right.
 - [guri](https://github.com/victorfsf/guri) - A Simple and fast Oh-My-Zsh theme, based on [Pure](https://github.com/sindresorhus/pure)'s design.
 - [gus](https://github.com/gusye1234/Gus-zsh-theme/) - Hackable transient theme. Includes decorators for conda, `git` information and current directory.
 - [hackersaurus](https://github.com/bhilburn/hackersaurus) - A theme with `git` status and exit code of last command run decorators embedded in the prompt. Related to [powerlevel9k](https://github.com/bhilburn/powerlevel9k).
