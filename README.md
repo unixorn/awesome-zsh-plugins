@@ -3200,7 +3200,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [staples](https://github.com/dersam/staples) - Based on [bureau](https://github.com/isqua/bureau), displays `user@host` if connected through SSH.
 - [starboy](https://github.com/prdpx7/Starboy) - A simple theme.
 - [starship (wintermi)](https://github.com/wintermi/zsh-starship) - A simple plugin to use the Starship prompt, along with a powerline theme.
-- [starship](https://starship.rs/) - Minimal, fast, extremely customizable.
+- [starship](https://starship.rs/) - Minimal, fast, extremely customizable. See [starship-studio](https://github.com/felipecm-br/starship-studio) for easier customization.
 - [starship2k](https://github.com/2KAbhishek/starship2k) - Includes powerline support, multiple languages and a multiline prompt. Includes a decorator for `git` status.
 - [statusline](https://github.com/el1t/statusline) - A responsive ZSH theme that provides informational segments when you need them.
 - [steef (danihodovic)](https://github.com/danihodovic/steeef) - Oh-my-zsh steeef theme as a standalone repository. The purpose behind this repo is avoid having a dependency on oh-my-zsh when using the steeef theme. ZSH plugin managers such as Antibody can use the theme without having to use oh-my-zsh.
