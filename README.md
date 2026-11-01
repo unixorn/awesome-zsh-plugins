@@ -70,6 +70,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zinit](#zinit)
   - [zinit-4](#zinit-4)
   - [zit](#zit)
+  - [zload](#zload)
   - [zlugin](#zlugin)
   - [znap](#znap)
   - [zoppo](#zoppo)
@@ -578,6 +579,14 @@ These are the most visible changes, but there are more (like e.g.: support for c
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from `git` repositories (and `git` repositories only, that's why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, `$PATH` manipulation and others.
 
+### [zload](https://github.com/casonadams/zload)
+![GitHub last commit](https://img.shields.io/github/last-commit/casonadams/zload)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/casonadams/zload)
+
+ **zload** is an ultra-fast, zero-friction, memory-mapped ZSH plugin manager and loader built with 100% pure ZSH.
+
+It delivers ~0.6 ms warm interactive startup overhead (10 plugins, Apple Silicon; measured by zsh benchmark/bench.zsh) by compiling plugins into a consolidated .zwc wordcode bundle, automatically resolving canonical execution order, and completely eliminating subprocess forks.
+
 ### [zlugin](https://github.com/DrgnFireYellow/zlugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DrgnFireYellow/zlugin)
  ![GitHub Repo stars](https://img.shields.io/github/stars/DrgnFireYellow/zlugin)
@@ -1033,7 +1042,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [cd-ssh](https://github.com/jeffwalter/zsh-plugin-cd-ssh) - `ssh` to a server when you accidentally `cd` to it.
 - [cdbk](https://github.com/MikeDacre/cdbk) - A ZSH plugin to allow easy named directory creation - shortcuts to any directory you want.
 - [cdc](https://github.com/evanthegrayt/cdc) - Makes it easier to change directories to directories that are subdirs of a user-defined list of directories. Includes tab-completion, session history and `pushd`, `popd` and `dirs` equivalents.
-- [cdh](https://github.com/johncassol/cdh) - Allows users to manage and navigate through a history of directories they have visited. It maintains a history file of directories and provides several commands to interact with this history.
 - [cdhist](https://github.com/joknarf/cdhist) - cd history/subdir/locatedir navigation. simple cd history, alias builtin `cd` to add `cd` history, rapidily swich to already visited directories, can use `locate`, `mlocate` or `plocate` to rapidly cd to any directory
 - [cdr](https://github.com/willghatch/zsh-cdr) - Easy setup of `cdr` for ZSH.
 - [certview](https://github.com/jnnrgd/certview) - Fast inspection and verification of X.509 certificates, CSRs, and cryptographic keys (RSA, ECC, Ed25519) in both PEM and DER formats.
