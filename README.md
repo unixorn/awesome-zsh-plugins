@@ -70,6 +70,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [Zinit](#zinit)
   - [zinit-4](#zinit-4)
   - [zit](#zit)
+  - [zload](#zload)
   - [zlugin](#zlugin)
   - [znap](#znap)
   - [zoppo](#zoppo)
@@ -577,6 +578,14 @@ These are the most visible changes, but there are more (like e.g.: support for c
  ![GitHub Repo stars](https://img.shields.io/github/stars/thiagokokada/zit)
 
 **zit** is a plugin manager for ZSH. It is minimal because it implements the bare minimum to be qualified as a plugin manager: it allows the user to install plugins from `git` repositories (and `git` repositories only, that's why the name), source plugins and update them. It does not implement fancy functions like cleanup of removed plugins, automatic compilation of installed plugins, alias for oh-my-zsh/prezto/other ZSH frameworks, building binaries, `$PATH` manipulation and others.
+
+### [zload](https://github.com/casonadams/zload)
+![GitHub last commit](https://img.shields.io/github/last-commit/casonadams/zload)
+ ![GitHub Repo stars](https://img.shields.io/github/stars/casonadams/zload)
+
+ **zload** is an ultra-fast, zero-friction, memory-mapped ZSH plugin manager and loader built with 100% pure ZSH.
+
+It delivers ~0.6 ms warm interactive startup overhead (10 plugins, Apple Silicon; measured by zsh benchmark/bench.zsh) by compiling plugins into a consolidated .zwc wordcode bundle, automatically resolving canonical execution order, and completely eliminating subprocess forks.
 
 ### [zlugin](https://github.com/DrgnFireYellow/zlugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DrgnFireYellow/zlugin)
