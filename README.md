@@ -766,7 +766,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 ### oh-my-zsh
 
 - [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh) - automates your ZSH setup with 46 plugins, 5 themes, configuration profiles, and service installation. It installs dependencies, manages Oh My Zsh, and gives you a beautiful interactive CLI to build the terminal environment you want.
-- [master-oogway](https://github.com/tomershay100/master-oogway) - A complete zsh environment — dragon prompt theme, git aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone git repo
+- [master-oogway](https://github.com/tomershay100/master-oogway) - A complete ZSH environment — dragon prompt theme, `git` aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone `git` repo.
 
 ### Raw ZSH
 
@@ -1200,6 +1200,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [eza-ls](https://github.com/birdhackor/zsh-eza-ls-plugin) - Adds aliases allowing [eza](https://github.com/eza-community/eza), to act as a drop-in replacement for `ls` and `tree`.
 - [f-shortcuts](https://github.com/zpm-zsh/f-shortcuts) - Makes a shortcuts toolbar using `F1` to `F12` keys.
 - [fancy-ctrl-z](https://github.com/mdumitru/fancy-ctrl-z) - Broken out version of the version in [oh-my-zsh](http://ohmyz.sh/) so users of other frameworks don't have to import all of [oh-my-zsh](https://ohmyz.sh).
+- [fasd](https://github.com/whjvenyl/fasd) - A command-line productivity booster. Fasd offers quick access to files and directories for POSIX shells. It is inspired by tools like [autojump](https://github.com/joelthelion/autojump), [z](http://github.com/rupa/z) and [v](https://github.com/rupa/v). Fasd keeps track of files and directories you have accessed, so that you can quickly reference them in the command line.
 - [fast-alias-tips](https://github.com/decayofmind/zsh-fast-alias-tips) - Helps remember the aliases you defined and forgot about. Ported from [djui/alias-tips](https://github.com/djui/alias-tips). Active fork of [sei40kr/zsh-fast-alias-tips](https://github.com/sei40kr/zsh-fast-alias-tips).
 - [fast-syntax-highlighting](https://github.com/zdharma-continuum/fast-syntax-highlighting) - Optimized and improved `zsh-users/zsh-syntax-highlighting` – better response times, switchable highlight themes.
 - [fastcache](https://github.com/QuarticCat/zsh-fastcache) - Caches command output to improve shell startup time.
@@ -1499,7 +1500,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [mkarch](https://github.com/0xRZ/mkarch) - ZSH plugin that allows you to create archives using multiple different compression formats.
 - [mkcd](https://github.com/azizoid/zsh-mkcd) - Provides a `mkcd` command, the canonical `mkdir` && `cd` helper.
 - [mkcd](https://github.com/marvinroman/oh-my-zsh-mkcd-plugin) - Allows user to create a directory and if successful, `cd` into it afterward.
-- [mlir](https://github.com/oowekyala/mlir-zsh-plugin) - Adds goodies for [MLIR](https://mlir.llvm.org/) developers including tab completion of `mlir-opt` and colorizing its output.
+- [mlir](https://github.com/oowekyala/mlir-zsh-plugin) - Helpful for [MLIR](https://mlir.llvm.org/) developers. Includes accurate ZSH option completion for `mlir-opt` and other frontends using `MlirMain` (`iree-opt`, etc), syntax highlighting of `mlir-opt` output in your terminal (requires [pygments](https://pygments.org)).
 - [mode-switch.CLI](https://github.com/Gyumeijie/mode-switch.CLI) - A ZSH plugin for switching command line between normal mode and `vi` mode.
 - [monorepo-plugin](https://github.com/zilongqiu/monorepo-zsh-plugin) - ZSH plugin for monorepo management.
 - [monthrename](https://github.com/NotTheDr01ds/zsh-plugin-monthrename) - Renames month names to numbers in filenames.
