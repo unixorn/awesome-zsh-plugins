@@ -3462,6 +3462,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [oclif completion generator](https://github.com/MunifTanjim/oclif-plugin-completion) - Generates shell completions for commands lacking them.
 - [oh-plugin](https://github.com/mbergo/oh-plugin) - Helps you install plugins for [oh-my-zsh](https://ohmyz.sh) by typing `oh-plugin install repository_address`.
 - [ohmyzsh-gui](https://github.com/a1024053774/ohmyzsh-gui) - A desktop app for Oh My Zsh plugins, themes, and .zshrc. Every change is previewed, backed up, and syntax-checked with `zsh -n` before Apply. Supports macOS, Windows and Linux.
+- [oops](https://github.com/ysb3996-blip/oops) - Copies the last command and its output to the clipboard as a Markdown code block, with API keys and other secrets masked. Works in ZSH and `bash`. Installed as a Ruby gem (Ruby 3.3 or later).
 - [rust-zsh-plugin-cli](https://github.com/johnstonskj/rust-zsh-plugin-cli) - This tool scaffolds ZSH plugins with best practices built-in, including function tracking for clean unloading, optional alias support, autoloaded functions, and CI/CD workflows for shellcheck and shellspec. Choose from minimal, simple, or complete templates to match your plugin's complexity.
 - [shell-color-prompt-tool](https://github.com/kyletimmermans/shell-color-prompt-tool) - Helps you create a custom prompt for `ZSH` or `bash`.
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
