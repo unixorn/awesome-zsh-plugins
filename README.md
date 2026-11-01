@@ -816,7 +816,7 @@ Here are a few good sources for Nerd Fonts and Powerline-compatible fonts:
 - [Spacemono](https://github.com/googlefonts/spacemono) - Google's new original monospace display typeface family.
 - [Victor Mono](https://rubjo.github.io/victor-mono/) - Victor Mono is a free programming font with semi-connected cursive italics, symbol ligatures (!=, ->>, =>, ===, <=, >=, ++) and Latin, Cyrillic and Greek characters.
 
-If you're looking for a new font to use, check out [www.codingfont.com](https://www.codingfont.com/) - it presents programming fonts in a bracket-style tournament and lets you keep picking the best of two presented options until landing on a final font.
+If you're looking for a new font to use, check out [www.codingfont.com](https://www.codingfont.com/) - it presents programming fonts in a bracket-style tournament and lets you keep picking the best of two presented options until landing on a final font that you like the most.
 
 ## Tutorials
 
