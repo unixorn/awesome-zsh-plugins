@@ -1793,6 +1793,8 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [spack](https://github.com/Game4Move78/zsh-spack) - Includes some useful aliases and functions for loading/unloading [Spack](https://github.com/spack/spack)-generated modules. As it makes use of the `module` command it is much more efficient than `spack load`.
 - [SparkleBIOS](https://github.com/reactivepixels/sparklebios) - Draws a retro 1995 PC BIOS boot screen with real system facts and cached health checks when a new ZSH session starts.
 - [spotify-now](https://github.com/ericlikedis/spotify-now) - Shows the track Spotify is playing in your prompt, in a green box with animated equalizer bars. Works on macOS and Linux.
+- [sprout](https://github.com/beenjii14/sprout) - Turn a Jira ticket into a clean `git` branch.
+One command. A short, descriptive name. Zero copy-pasting.
 - [ssh-agent](https://github.com/sdiebolt/zsh-ssh-agent) - Automatically launches `ssh-agent` if it isn't already running.
 - [ssh-connect](https://github.com/gko/ssh-connect) - A simple `ssh` manager.
 - [ssh-git-operations](https://github.com/phongphuhanam/ssh-git-operations) - Provides secure, authenticated `git` `push`/`pull`/`fetch` operations over SSH to remote machines using GitHub token authentication. **Tokens are never persisted on remote machines**.
