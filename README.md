@@ -1944,6 +1944,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [vtex](https://github.com/xdigu/zsh-vtex) - Adds helper aliases for [vtex](https://developers.vtex.com/vtex-developer-docs/docs/vtex-io-documentation-vtex-io-cli-command-reference#default-commands) cli commands.
 - [wakatime (sobolevn)](https://github.com/sobolevn/wakatime-zsh-plugin) - Track how much [time](https://wakatime.com/) you have spent in your terminal. Has per project stats.
 - [wakatime (wbingli)](https://github.com/wbingli/zsh-wakatime) - Automatic time tracking for commands in ZSH using [wakatime](https://wakatime.com/).
+- [walh-shell](https://github.com/casonadams/walh-shell) - A fast, modern, and extensible Zsh (and Bash) plugin for instant terminal color theme switching that lets you instantly change your terminal’s color scheme with a single command.
 - [warhol](https://github.com/unixorn/warhol.plugin.zsh) - Configures colorization with [grc](https://github.com/garabik/grc).
 - [warp-claude-tab](https://github.com/akexorcist/zsh-warp-claude-tab) - A ZSH plugin and Claude Code agent skill to open a new [Warp](https://www.warp.dev/) terminal tab with a pre-loaded Claude Code session — ideal for handing off tasks between sessions without copy-pasting.
 - [warrior](https://github.com/OfferPi/zsh-warrior) - Uses a local large language model ([Ollama](https://ollama.com/)) to translate natural-language into ZSH commands.
