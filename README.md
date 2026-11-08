@@ -3473,6 +3473,7 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [shell-color-prompt-tool](https://github.com/kyletimmermans/shell-color-prompt-tool) - Helps you create a custom prompt for `ZSH` or `bash`.
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/tqdm/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
+- [slowrc](https://github.com/ArkaKhorchidian/slowrc) - Profiles your ZSH startup line by line, shows which lines of your `.zshrc` cost the most, and safely fixes the slow ones.
 - [smucd](https://github.com/pro555161rblxs/smucd) - Fuzzy typo-tolerant `cd` replacement with interactive selection UI.
 - [speedrunner](https://github.com/anthonyGosme/speedrunner) - Speeds up the start of Python, Ruby, PHP and Node CLIs by forking them from a preloaded daemon. Its ZSH hook starts the daemon while you type the command name.
 - [suvadu](https://github.com/AppachiTech/suvadu) - Shell history in local SQLite with directory, exit code and AI agent commands, with a ZSH widget for Ctrl+R and Up-arrow recall.
