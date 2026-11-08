@@ -1095,6 +1095,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [curl-edit](https://github.com/AndrewHany/zsh-curl-edit) - Automatically open pasted cURL commands in an editor before executing them.
 - [cvideo](https://github.com/aubreypwd/zsh-plugin-cvideo) - Quickly compress video with `ffmpeg`.
 - [cwebp](https://github.com/adi-li/zsh-cwebpb) - Converts common image formats (JPG, PNG, GIF, BMP, TIFF) to WebP format using Google's `cwebp` tool in batch mode.
+- [Cue](https://github.com/8starlabs/cue) - Adds IDE-style command, option, and path suggestions to ZSH in a native macOS popup.
 - [cycle-fav-dirs](https://github.com/cibinmathew/cycle-fav-dirs) - Cycles through your favourite directories.
 - [cycle-jobs](https://github.com/aemonge/zsh-cycle-jobs) - The ZSH Cycle Jobs Plugin is a simple yet powerful tool that enhances your terminal workflow by allowing you to cycle through background jobs using a single keyboard shortcut. This plugin is particularly useful for developers and system administrators who frequently work with multiple background processes.
 - [czhttpd](https://github.com/jsks/czhttpd) - A simple http server written in 99.9% pure ZSH.
@@ -1562,6 +1563,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [omz-full-autoupdate](https://github.com/Pilaton/OhMyZsh-full-autoupdate) - Automatically update [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) plugins and themes.
 - [omz-git](https://github.com/aeons/omz-git) - [Oh-My-ZSH](https://ohmyz.sh/)'s [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin re-packaged to be standalone.
 - [omz-themes-standalone](https://github.com/zshzoo/omz-themes-standalone) - Gives you the [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) themes without requiring everything else that comes with [Oh-My-ZSH](https://ohmyz.sh/).
+- [oops](https://github.com/ysb3996-blip/oops) - Copies the last command and its output to the clipboard as a Markdown code block, with API keys and other secrets masked. Needs Ruby 3.3 or later; no gem install.
 - [op](https://github.com/zsh-contrib/zsh-op) - Seamless [1Password](https://1password.com/) CLI integration. Manage environment variables and SSH keys from 1Password with automatic caching, fast shell initialization, and a configuration-driven workflow.
 - [open-create-projects](https://github.com/marcossegovia/open-create-projects) - Open/Create projects in Jetbrains.
 - [open-pr](https://github.com/caarlos0/zsh-open-pr) - A ZSH plugin to open pull requests from command line.
@@ -3461,12 +3463,13 @@ There is also a more detailed [Zsh Plugin Standard](https://zdharma-continuum.gi
 - [oclif completion generator](https://github.com/MunifTanjim/oclif-plugin-completion) - Generates shell completions for commands lacking them.
 - [oh-plugin](https://github.com/mbergo/oh-plugin) - Helps you install plugins for [oh-my-zsh](https://ohmyz.sh) by typing `oh-plugin install repository_address`.
 - [ohmyzsh-gui](https://github.com/a1024053774/ohmyzsh-gui) - A desktop app for Oh My Zsh plugins, themes, and .zshrc. Every change is previewed, backed up, and syntax-checked with `zsh -n` before Apply. Supports macOS, Windows and Linux.
-- [oops](https://github.com/ysb3996-blip/oops) - Copies the last command and its output to the clipboard as a Markdown code block, with API keys and other secrets masked. Works in ZSH and `bash`. Installed as a Ruby gem (Ruby 3.3 or later).
 - [rust-zsh-plugin-cli](https://github.com/johnstonskj/rust-zsh-plugin-cli) - This tool scaffolds ZSH plugins with best practices built-in, including function tracking for clean unloading, optional alias support, autoloaded functions, and CI/CD workflows for shellcheck and shellspec. Choose from minimal, simple, or complete templates to match your plugin's complexity.
 - [shell-color-prompt-tool](https://github.com/kyletimmermans/shell-color-prompt-tool) - Helps you create a custom prompt for `ZSH` or `bash`.
 - [shellSpec](https://github.com/shellspec/shellspec) - A full-featured BDD unit testing framework for dash, bash, ksh, ZSH and all POSIX shells.
 - [shtab](https://github.com/tqdm/shtab) - Automatically generate shell tab completion scripts for Python CLI apps, supports `zsh`, `bash` and `tcsh`.
+- [slowrc](https://github.com/ArkaKhorchidian/slowrc) - Profiles your ZSH startup line by line, shows which lines of your `.zshrc` cost the most, and safely fixes the slow ones.
 - [smucd](https://github.com/pro555161rblxs/smucd) - Fuzzy typo-tolerant `cd` replacement with interactive selection UI.
+- [speedrunner](https://github.com/anthonyGosme/speedrunner) - Speeds up the start of Python, Ruby, PHP and Node CLIs by forking them from a preloaded daemon. Its ZSH hook starts the daemon while you type the command name.
 - [suvadu](https://github.com/AppachiTech/suvadu) - Shell history in local SQLite with directory, exit code and AI agent commands, with a ZSH widget for Ctrl+R and Up-arrow recall.
 - [zargparse](https://github.com/ctil/zargparse) - Pass it a script that uses Python's `argparse` and it will write a ZSH completion to your current directory.
 - [zcolors](https://github.com/marlonrichert/zcolors) - Uses your `$LS_COLORS` to generate a coherent theme for `git` and your ZSH prompt, completions and [ZSH syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting).
