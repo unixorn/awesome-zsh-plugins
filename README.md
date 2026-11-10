@@ -1965,6 +1965,7 @@ One command. A short, descriptive name. Zero copy-pasting.
 - [workon](https://github.com/bryanculver/workon.plugin.zsh) - Simple utility for jumping between projects.
 - [worktree-jump](https://github.com/Jermic/worktree-jump) - Lists `git` worktrees in a compact table and lets you jump to one by typing its number at the next shell prompt.
 - [worktree](https://github.com/jspears/worktree) - Adds functions that wrap `git worktree`.
+- [worktrunk-herdr](https://github.com/championswimmer/zsh-worktrunk-herdr) - glues [Worktrunk](https://worktrunk.dev/) (wt), AI coding agents (Claude Code, Codex, Pi) and [herdr](https://herdr.dev/) together.
 - [worktrunk](https://github.com/kguzek/zsh-worktrunk) - Inspired by the [oh-my-zsh](https://ohmyz.sh/) [git plugin](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) and provides aliases and a few useful functions for working with [worktrunk](https://github.com/max-sixty/worktrunk).
 - [wpm](https://github.com/btror/wpm) - Lets you test your typing speed in a terminal, track WPM, accuracy, and more. Results are saved in a handy JSON format for easy tracking.
 - [wsl](https://github.com/florentinl/omz-wsl) - Adds helper functions to make it easier to work in ZSH when running inside WSL.
