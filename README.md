@@ -2001,6 +2001,7 @@ One command. A short, descriptive name. Zero copy-pasting.
 - [zenplash](https://github.com/Chivier/zenplash) - Creates files from templates stored in a user directory.
 - [zenv](https://github.com/janitha/zenv) - Isolated working shell enviornments per directory (like `direnv`, but uses a new shell instance to provide cleaner isolation).
 - [zero](https://github.com/arlimus/zero.zsh) - Zero is both a plugin and a theme. See the GitHub page for installation details. Includes `git` and `hg` status decorators.
+- [zest](https://github.com/rostik32/zest) - Fig-style autocomplete popup for macOS. Shows subcommands, options, git branches and files with descriptions under the cursor in Terminal.app, VS Code and Cursor. Specs for 1,500 commands; new ones are a YAML file.
 - [zeza](https://github.com/duggum/zeza) - Manages and customizes [eza](https://github.com/eza-community/eza), the very colorful `ls` replacement.
 - [zflai](https://github.com/zdharma-continuum/zflai) - A fast logging framework for ZSH.
 - [zfzf](https://github.com/b0o/zfzf) - A [fzf](https://github.com/junegunn/fzf)-powered file picker for ZSH which allows you to quickly navigate the directory hierarchy.
