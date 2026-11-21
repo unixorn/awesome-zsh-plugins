@@ -1173,7 +1173,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [exa (mohamedelashri)](https://github.com/MohamedElashri/exa-zsh) - Adds aliases for [exa](https://github.com/ogham/exa), a modern replacement for `ls`.
 - [exa (ptavares)](https://github.com/ptavares/zsh-exa) - Installs and loads [exa](https://github.com/ogham/exa.git).
 - [exa (ritchies)](https://github.com/RitchieS/zsh-exa/) - Adds aliases to make using [exa](https://github.com/ogham/exa.git) easier.
-- [exa (todie)](https://github.com/todie/exa.plugin.zsh) - Integration and completions for [exa](https://github.com/ogham/exa), a modern replacement for `ls`.
 - [exa (zap-zsh)](https://github.com/zap-zsh/exa) - Overrides common commands to use [ogham/exa](https://github.com/ogham/exa) instead.
 - [exa (zplugin)](https://github.com/zplugin/zsh-exa) - replace `ls` with [ogham/exa](https://github.com/ogham/exa).
 - [exa (zshell)](https://github.com/z-shell/zsh-exa) - replace `ls` with [ogham/exa](https://github.com/ogham/exa).
