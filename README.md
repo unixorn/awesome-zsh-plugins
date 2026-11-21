@@ -1769,7 +1769,6 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [shui](https://github.com/kud/shui) - Fluid terminal UI for ZSH — a design system for the shell
 - [simpleserver](https://github.com/sathish09/zsh_plugins/tree/master/simpleserver) - Plugin to easily start python `SimpleHTTPServer` and `SimpleHTTPSServer`.
 - [singularityenv](https://github.com/saravanabalagi/zsh-plugin-singularityenv) - Provides a `singularityenv_prompt_info` function which returns the current singularity environment name
-- [skaffold](https://github.com/todie/skaffold.plugin.zsh) - ZSH integration and completions for [skaffold](https://skaffold.dev) local kubernetes development environment.
 - [skim (casonadams)](https://github.com/casonadams/skim.zsh) - Tries to determine where [skim](https://github.com/lotabout/skim) is installed, then enables its fuzzy auto-completion and key bindings.
 - [skim (hackerchai)](https://github.com/hackerchai/skim-zsh) - Adds support for [skim](https://github.com/lotabout/skim)
 - [slugify](https://github.com/lashoun/slugify) - Converts filenames and directories to a web friendly format.
