@@ -2129,6 +2129,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [docker (greymd)](https://github.com/greymd/docker-zsh-completion) - Add tab completions for `docker` and `docker-compose`.
 - [dotnet](https://github.com/MenkeTechnologies/zsh-dotnet-completion) - Dotnet tab completion.
 - [dropbox](https://github.com/zpm-zsh/dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
+- [dropdown](https://github.com/ga2631/zsh-dropdown) - A fast, flicker-free, themed live completion dropdown plugin for ZSH / [oh-my-zsh](https://ohmyz.sh/) — built on top of [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) and crafted for modern GPU terminals (Ghostty, Kitty, WezTerm, iTerm2, Alacritty).
 - [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for ZSH.
 - [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
 - [efibootmgr](https://github.com/wehlando/efibootmgr-zsh-completion) - Tab completions for `efibootmgr`.
