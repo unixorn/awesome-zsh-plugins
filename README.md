@@ -1581,6 +1581,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [packer](https://github.com/BreakingPitt/zsh-packer) - Adds aliases and auto-completes for Hashicorp [packer](https://www.packer.io/).
 - [pantheon-terminal-notify](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 - [passwordless-history](https://github.com/jgogstad/passwordless-history) - Keeps passwords from entering your command line history.
+- [passwords](https://github.com/hianbattiston/zsh-passwords) - Passwords and 2FA (TOTP) codes from Apple Passwords / iCloud Keychain, straight from zsh, without leaking them into history, scrollback, ps, or clipboard managers.
 - [paste-guard](https://github.com/stefanoamorelli/zsh-paste-guard) - Detects pasted commands and requires a confirmation phrase before execution to prevent clipboard injection attacks (MITRE ATT&CK T1204.004). Reads confirmation from `/dev/tty` so attackers cannot embed the confirmation in the payload.
 - [path-ethic](https://github.com/sha1n/path-ethic) - Helps manage your `$PATH` quickly and easily. Doesn't touch your existing `.zshrc`, `.zprofile`, but adds on top of your existing environment instead.
 - [patina](https://github.com/michel-kraemer/zsh-patina) - A blazingly fast ZSH syntax highlighter written in Rust.
