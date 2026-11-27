@@ -78,6 +78,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zpm](#zpm)
   - [zr](#zr)
   - [zshing](#zshing)
+  - [zsh-conf](#zsh-conf)
   - [zsh-dot-plugin](#zsh-dot-plugin)
   - [zsh-mgr](#zsh-mgr)
   - [zsh-unplugged.](#zsh-unplugged)
@@ -667,6 +668,28 @@ ZSH package managers are abundant, but most are bloated, slow or have excessive 
 - Clean unused plugins up
 - Run the above actions in a *single command*
 - Manages the **Source Plugins** of your installed Plugins
+
+### [zsh-conf](https://github.com/adityastomar67/zsh-conf)
+![GitHub last commit](https://img.shields.io/github/last-commit/adityastomar67/zsh-conf) ![GitHub Repo stars](https://img.shields.io/github/stars/adityastomar67/zsh-conf)
+
+Blazing Fast, Modular, and Aesthetic ZSH Configuration Framework with <10ms (~7–9ms warm) load times. (Tested on an M4)
+
+This configuration is designed for speed, modularity, and a beautiful terminal experience. It leverages modern tools like [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [eza](https://github.com/eza-community/eza), and [starship](https://github.com/starship/starship) to provide a powerful command-line environment without the bloat.
+✨ Key Features
+
+    🚀 Blazing Fast Startup: Optimized with lazy-loading and bytecode compilation. Includes a built-in benchmark tool (ZSH_BENCHMARK).
+    🧩 Modular Architecture: Clean separation between core logic, plugins, and user-specific config.
+    🔌 Plugin Management: Done by own core module.
+    🎨 Visual Excellence:
+        Integrated Starship prompt support.
+        Syntax Highlighting & Auto-suggestions.
+        "Fancy Startup" with ASCII art and motivational quotes.
+        Popular "Faaaah" sounds on wrong command inputs.
+    🛠️ Developer Ready:
+        Pre-configured for Git, Go, Python, Node, etc.
+        Tmux auto-launch integration.
+        Neovim profile switcher (LazyVim, NvChad, AstroNvim, etc.).
+    🔒 Secure: Environment variables and API keys are loaded safely from .env.
 
 ### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DuckzCantFly/zsh-dot-plugin) ![GitHub Repo stars](https://img.shields.io/github/stars/DuckzCantFly/zsh-dot-plugin)
