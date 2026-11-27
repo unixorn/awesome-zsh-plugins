@@ -78,6 +78,7 @@ A collection of ZSH frameworks, plugins, tutorials & themes inspired by the vari
   - [zpm](#zpm)
   - [zr](#zr)
   - [zshing](#zshing)
+  - [zsh-conf](#zsh-conf)
   - [zsh-dot-plugin](#zsh-dot-plugin)
   - [zsh-mgr](#zsh-mgr)
   - [zsh-unplugged.](#zsh-unplugged)
@@ -668,6 +669,28 @@ ZSH package managers are abundant, but most are bloated, slow or have excessive 
 - Run the above actions in a *single command*
 - Manages the **Source Plugins** of your installed Plugins
 
+### [zsh-conf](https://github.com/adityastomar67/zsh-conf)
+![GitHub last commit](https://img.shields.io/github/last-commit/adityastomar67/zsh-conf) ![GitHub Repo stars](https://img.shields.io/github/stars/adityastomar67/zsh-conf)
+
+Blazing Fast, Modular, and Aesthetic ZSH Configuration Framework with <10ms (~7–9ms warm) load times. (Tested on an M4)
+
+This configuration is designed for speed, modularity, and a beautiful terminal experience. It leverages modern tools like [zoxide](https://github.com/ajeetdsouza/zoxide), [fzf](https://github.com/junegunn/fzf), [eza](https://github.com/eza-community/eza), and [starship](https://github.com/starship/starship) to provide a powerful command-line environment without the bloat.
+✨ Key Features
+
+    🚀 Blazing Fast Startup: Optimized with lazy-loading and bytecode compilation. Includes a built-in benchmark tool (ZSH_BENCHMARK).
+    🧩 Modular Architecture: Clean separation between core logic, plugins, and user-specific config.
+    🔌 Plugin Management: Done by own core module.
+    🎨 Visual Excellence:
+        Integrated Starship prompt support.
+        Syntax Highlighting & Auto-suggestions.
+        "Fancy Startup" with ASCII art and motivational quotes.
+        Popular "Faaaah" sounds on wrong command inputs.
+    🛠️ Developer Ready:
+        Pre-configured for Git, Go, Python, Node, etc.
+        Tmux auto-launch integration.
+        Neovim profile switcher (LazyVim, NvChad, AstroNvim, etc.).
+    🔒 Secure: Environment variables and API keys are loaded safely from .env.
+
 ### [zsh-dot-plugin](https://github.com/DuckzCantFly/zsh-dot-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/DuckzCantFly/zsh-dot-plugin) ![GitHub Repo stars](https://img.shields.io/github/stars/DuckzCantFly/zsh-dot-plugin)
 
@@ -753,6 +776,7 @@ This section is for full setup dropins - they aren't frameworks, but they're not
 
 - [awesome-lazy-zsh](https://github.com/AmJaradat01/awesome-lazy-zsh) - automates your ZSH setup with 46 plugins, 5 themes, configuration profiles, and service installation. It installs dependencies, manages Oh My Zsh, and gives you a beautiful interactive CLI to build the terminal environment you want.
 - [master-oogway](https://github.com/tomershay100/master-oogway) - A complete ZSH environment — dragon prompt theme, `git` aliases, fuzzy-finder functions, and 25 opt-in plugins — distributed as a standalone `git` repo.
+- [omz-plus](https://github.com/mattmc3/omz-plus) - pre-processes the builtin Oh-My-Zsh variables you're already using. By sourcing OMZ Plus! right before you source Oh-My-Zsh, it detects git-hosted plugins, handles cloning and symlinking, and then scrubs those variables back to the basics so that they are ready for [oh-my-zsh](https://ohmyz.sh/) to use
 
 ### Raw ZSH
 
@@ -1467,6 +1491,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [lsd (tankeryang)](https://github.com/tankeryang/zsh-lsd) - Replaces `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (wintermi)](https://github.com/wintermi/zsh-lsd) - Override `ls` and `tree` commands with [lsd](https://github.com/Peltoche/lsd).
 - [lsd (z-shell)](https://github.com/z-shell/zsh-lsd) - Replaces `ls` with [lsd](https://github.com/Peltoche/lsd).
+- [ltree](https://github.com/sspathak/ltree) - Works like the `tree` command, but truncates large directories by printing the first n files and summarizing the rest as `... m more files`.
 - [lumberjack](https://github.com/molovo/lumberjack) - Lumberjack is a logging interface for shell scripts.
 - [lumen](https://github.com/thangduonghuu/lumen) - Deterministic command suggestions for ZSH — inline, on demand, no AI round-trip required.
 - [lux](https://github.com/pndurette/zsh-lux) - ZSH plugin to toggle the light & dark modes of macOS, iTerm 2, Visual Studio Code and other items and applications via the `lux` command. Highly customizable: included items can be configured by defining variables. Highly extensible: items can be added by defining functions. Includes a `macos_is_dark` helper function to determine if the macOS dark mode is active for use in theming.
@@ -1580,6 +1605,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [packer](https://github.com/BreakingPitt/zsh-packer) - Adds aliases and auto-completes for Hashicorp [packer](https://www.packer.io/).
 - [pantheon-terminal-notify](https://github.com/deyvisonrocha/pantheon-terminal-notify-zsh-plugin) - Background notifications for long running commands. Supports Elementary OS Freya.
 - [passwordless-history](https://github.com/jgogstad/passwordless-history) - Keeps passwords from entering your command line history.
+- [passwords](https://github.com/hianbattiston/zsh-passwords) - Passwords and 2FA (TOTP) codes from Apple Passwords / iCloud Keychain, straight from zsh, without leaking them into history, scrollback, ps, or clipboard managers.
 - [paste-guard](https://github.com/stefanoamorelli/zsh-paste-guard) - Detects pasted commands and requires a confirmation phrase before execution to prevent clipboard injection attacks (MITRE ATT&CK T1204.004). Reads confirmation from `/dev/tty` so attackers cannot embed the confirmation in the payload.
 - [path-ethic](https://github.com/sha1n/path-ethic) - Helps manage your `$PATH` quickly and easily. Doesn't touch your existing `.zshrc`, `.zprofile`, but adds on top of your existing environment instead.
 - [patina](https://github.com/michel-kraemer/zsh-patina) - A blazingly fast ZSH syntax highlighter written in Rust.
@@ -2131,6 +2157,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [docker (greymd)](https://github.com/greymd/docker-zsh-completion) - Add tab completions for `docker` and `docker-compose`.
 - [dotnet](https://github.com/MenkeTechnologies/zsh-dotnet-completion) - Dotnet tab completion.
 - [dropbox](https://github.com/zpm-zsh/dropbox) - A dropbox plugin for Zsh that provides `dropbox-cli` and `dropbox-uploader` commands.
+- [dropdown](https://github.com/ga2631/zsh-dropdown) - A fast, flicker-free, themed live completion dropdown plugin for ZSH / [oh-my-zsh](https://ohmyz.sh/) — built on top of [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete) and crafted for modern GPU terminals (Ghostty, Kitty, WezTerm, iTerm2, Alacritty).
 - [drush_zsh_completion](https://github.com/webflo/drush_zsh_completion) - Drush autocomplete awesomeness for ZSH.
 - [duell](https://github.com/jcxavier/oh-my-zsh-duell) - A ZSH plugin for [duell](https://github.com/gameduell/duell).
 - [efibootmgr](https://github.com/wehlando/efibootmgr-zsh-completion) - Tab completions for `efibootmgr`.
@@ -2372,6 +2399,7 @@ These plugins add tab completions without adding extra functions or aliases.
 - [async](https://github.com/mje-nz/zsh-themes) - Shows current directory, `git` state, return value of last command if it had an error code, number of background jobs, execution time of long-running commands, current python virtualenv.
 - [aterminal](https://github.com/guiferpa/aterminal) - Displays Node.js, NPM, Docker, Go, Python, Elixir and Ruby information in the prompt.
 - [aub](https://github.com/FraSharp/aub) - Includes decorations for `git` and `hg` status and `username` at `host`.
+- [aurora](https://github.com/liweiganga/aurora-zsh-theme) - Minimal theme with the [Dracula](https://github.com/dracula/dracula-theme) color palette. Includes decorators for username@hostname, current directory and `git` status.
 - [australis](https://github.com/Kimitzuni/australis-theme) - Lightweight theme with decorators for `git` information and current directory. Requires `git` plugin from [oh-my-zsh](https://github.com/ohmyzsh).
 - [avil](https://github.com/avil13/avil-zsh-theme) - Minimalist theme with `git` decorations.
 - [avit-d2k](https://github.com/fdaciuk/avit-da2k) - Based on the oh-my-zsh [avit](https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/avit.zsh-theme) theme, with small changes.
