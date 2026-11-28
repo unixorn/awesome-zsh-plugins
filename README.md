@@ -1338,6 +1338,7 @@ If you're looking for a new font to use, check out [www.codingfont.com](https://
 - [gitio (nicolodiamante)](https://github.com/nicolodiamante/gitio) - Uses [git.io](https://git.io/) to shorten `git` urls.
 - [gitspace](https://github.com/softspark/gitspace) - Binds a `git` identity to a directory. The wrong account fails loudly instead of signing a commit quietly.
 - [gitsync](https://github.com/washtubs/gitsync) - ZSH plugin to improve workflows for one person developing on the same repository on multiple machines.
+- [glyph](https://github.com/fru-dev3/glyph) - Wraps `claude`, `codex`, `agy` and other AI coding agent CLIs so every session is named with a label, the project, the agent, the machine and the start time, and the same name goes on the terminal title and tmux window.
 - [goenv (bbenne10)](https://github.com/bbenne10/goenv) - Manage `$GOPATH` similarly to Python's virtualenvwrapper.
 - [goenv (cda0)](https://github.com/CDA0/zsh-goenv/) - Plugin for installing, updating and loading `goenv`.
 - [goenv (heyvito)](https://github.com/heyvito/goenv.zsh) - Automatically reads `.goenv` files in the current directory and sets `GOPRIVATE` environment variables.
